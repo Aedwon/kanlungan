@@ -17,6 +17,8 @@ Concept repository for a fictional premium interior design and e-commerce brand 
 
 ## Locked service direction
 
+Kanlungan will stay intentionally focused on exactly two services.
+
 ### Full-Service Furnishing
 
 For already-built, largely empty homes, condos, and hospitality spaces. Kanlungan takes the space from unfurnished to move-in or guest-ready without construction work.
@@ -55,7 +57,7 @@ This service provides the design system and visual direction without execution. 
 
 ## Planning sequence
 
-1. Define Kanlungan's exact service offering.
+1. Define Kanlungan's exact service offering. **Complete.**
 2. Define the curated shop offering, catalog scope, product taxonomy, and merchandising model.
 3. Lock the primary conversion goals, expected to center on consultation booking and shopping.
 4. Define the site map, information architecture, page hierarchy, and core user journeys.
@@ -69,7 +71,6 @@ This order is deliberate: business, content, conversion, and information archite
 
 - Brand tagline and final verbal identity
 - Logo and visual identity system
-- Whether the service lineup needs a third service
 - Final customer-facing name for the design-only service
 - Service pricing model
 - Site architecture and homepage structure
