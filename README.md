@@ -12,6 +12,7 @@ Concept repository for a fictional premium interior design and e-commerce brand 
 - **Filipino identity:** Subtle rather than overt; expressed through materials, craftsmanship, climate-aware design, spatial sensibility, and project context instead of decorative cultural motifs
 - **Brand idea:** Kanlungan should evoke refuge, safety, rest, belonging, and spaces people want to return to
 - **Commerce role:** The shop supports the studio brand rather than replacing it; likely categories include furniture, lighting, decor, materials, and curated home objects
+- **Shop sourcing model:** Mixed assortment of Kanlungan-original products and curated third-party pieces
 - **Portfolio intent:** Demonstrate both high-end editorial/brand design and credible e-commerce functionality using a fictional business
 - **Imagery:** Product and project imagery may be AI-generated because this is a demo brand, not an operating business
 
@@ -74,7 +75,7 @@ This order is deliberate: business, content, conversion, and information archite
 - Final customer-facing name for the design-only service
 - Service pricing model
 - Site architecture and homepage structure
-- Shop catalog, product taxonomy, and merchandising strategy
+- Shop catalog, product taxonomy, and merchandising strategy beyond the mixed sourcing model
 - E-commerce platform and technical architecture
 - Checkout/payment demo behavior
 - Project/case-study structure
