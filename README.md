@@ -127,6 +127,36 @@ A useful internal test is: **Would Kanlungan confidently specify this piece in o
 
 The shop should explicitly avoid becoming a general home-goods retailer. Exclude generic mass-market furniture, major appliances, electronics, mattresses, plumbing fixtures, built-ins, construction materials, and broad kitchenware or homeware catalogs.
 
+### Product depth
+
+Product depth should be relative rather than quota-driven. Do not set an arbitrary total SKU target and do not create filler simply to make the catalog look larger.
+
+- **Anchor categories — deepest:** Seating, Tables, Lighting
+- **Supporting categories — moderate:** Storage, Rugs and Textiles
+- **Accent/discovery categories — flexible:** Decor and Objects, Art
+
+A product should only be added when it contributes a meaningfully different function, scale, silhouette, material, maker, price position, or spatial use. Subcategories do not need to be populated evenly or immediately; they should only appear publicly when there is enough credible assortment to feel intentional.
+
+Kanlungan Originals should be visibly present across the major categories as signature pieces, but there is no required percentage split between originals and curated maker products.
+
+### Product information standard
+
+Every product should include only the essential information needed to feel credible and purchasable:
+
+- Product name
+- One-line description
+- Price
+- Maker or **Kanlungan Original** attribution
+- Materials
+- Dimensions
+- Origin
+- Lead time or stock status
+- Care information only when relevant
+
+More detailed storytelling, specifications, or provenance can be added when a specific product genuinely benefits from them, but they are not mandatory across the catalog.
+
+Product photography direction will be defined later as part of the visual system and imagery rules.
+
 ### Collections
 
 **Collections** is the customer-facing term for curated groups of products organized around a coherent room, mood, material story, or way of living rather than a product type. Products in a collection remain individually purchasable unless explicitly sold together.
@@ -164,10 +194,10 @@ This order is deliberate: business, content, conversion, and information archite
 - Final customer-facing name for the design-only service
 - Service pricing model
 - Site architecture and homepage structure
-- Exact product count, product depth, and remaining merchandising details
+- Remaining merchandising details
+- Product photography and broader imagery direction
 - E-commerce platform and technical architecture
 - Checkout/payment demo behavior
 - Project/case-study structure
-- Content and photography direction beyond the warm modern Filipino brief
 
 This file is the running source of truth for concept decisions made during planning. Update it as decisions are locked.
