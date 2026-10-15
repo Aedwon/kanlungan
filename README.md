@@ -15,6 +15,18 @@ Concept repository for a fictional premium interior design and e-commerce brand 
 - **Portfolio intent:** Demonstrate both high-end editorial/brand design and credible e-commerce functionality using a fictional business
 - **Imagery:** Product and project imagery may be AI-generated because this is a demo brand, not an operating business
 
+## Planning sequence
+
+1. Define Kanlungan's exact service offering.
+2. Define the curated shop offering, catalog scope, product taxonomy, and merchandising model.
+3. Lock the primary conversion goals, expected to center on consultation booking and shopping.
+4. Define the site map, information architecture, page hierarchy, and core user journeys.
+5. Build the visual system and design tokens: typography, color, spacing, radii, imagery rules, and motion.
+6. Design the homepage and reusable core page templates.
+7. Decide technical architecture, e-commerce behavior, and implementation details after the product and design direction are stable.
+
+This order is deliberate: business, content, conversion, and information architecture should be settled before visual tokens and page design.
+
 ## Not decided yet
 
 - Brand tagline and final verbal identity
