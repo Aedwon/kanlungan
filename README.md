@@ -34,6 +34,25 @@ Scope may include:
 
 This is a core customer-facing service. It is intentionally separate from construction, renovation, or design-build work.
 
+### Design-Only Interior Package
+
+Working customer-facing name: **Interior Design Direction**.
+
+For clients who want Kanlungan to design the space but will handle purchasing, installation, and any contractor work themselves.
+
+Scope may include:
+
+- Space planning and furniture layouts
+- Moodboards and material palettes
+- Color and lighting direction
+- Furniture and fixture recommendations
+- 3D renders of key rooms
+- Room-by-room specifications
+- Curated shopping and sourcing list
+- Defined revision rounds
+
+This service provides the design system and visual direction without execution. The concept is locked; the final customer-facing name can still be refined.
+
 ## Planning sequence
 
 1. Define Kanlungan's exact service offering.
@@ -50,7 +69,9 @@ This order is deliberate: business, content, conversion, and information archite
 
 - Brand tagline and final verbal identity
 - Logo and visual identity system
-- Remaining service lineup and pricing model
+- Whether the service lineup needs a third service
+- Final customer-facing name for the design-only service
+- Service pricing model
 - Site architecture and homepage structure
 - Shop catalog, product taxonomy, and merchandising strategy
 - E-commerce platform and technical architecture
