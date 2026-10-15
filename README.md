@@ -13,6 +13,7 @@ Concept repository for a fictional premium interior design and e-commerce brand 
 - **Brand idea:** Kanlungan should evoke refuge, safety, rest, belonging, and spaces people want to return to
 - **Commerce role:** The shop supports the studio brand rather than replacing it
 - **Shop sourcing model:** Mixed assortment of Kanlungan-original products and curated third-party pieces
+- **Curated maker sourcing:** Philippine-first and predominantly Philippine-made or Philippine-designed, with a smaller, selective international assortment when it meaningfully complements Kanlungan's point of view
 - **Shop positioning:** Small, highly curated, quality-first, sophisticated, and intentionally selective rather than broad or department-store-like
 - **Portfolio intent:** Demonstrate both high-end editorial/brand design and credible e-commerce functionality using a fictional business
 - **Imagery:** Product and project imagery may be AI-generated because this is a demo brand, not an operating business
@@ -101,6 +102,12 @@ The taxonomy should stay shallow. Avoid deep subcategory trees unless the catalo
 
 The shop may combine signature Kanlungan-designed pieces with curated third-party products from fictional makers and partners. Every product should fit the warm modern Filipino direction and be credible for use in Kanlungan's own furnishing projects.
 
+### Curated makers
+
+Curated makers should be predominantly Philippine-first. Kanlungan should favor Philippine designers, craftspeople, studios, and makers as the core of the third-party assortment, while allowing a smaller number of international makers when their work adds something distinctive and remains compatible with the brand.
+
+This is not a Philippine-only rule. The intent is to make local design and craft the dominant voice without artificially excluding strong international pieces that fit the collection.
+
 ### Collections
 
 **Collections** is the customer-facing term for curated groups of products organized around a coherent room, mood, material story, or way of living rather than a product type. Products in a collection remain individually purchasable unless explicitly sold together.
@@ -138,7 +145,7 @@ This order is deliberate: business, content, conversion, and information archite
 - Final customer-facing name for the design-only service
 - Service pricing model
 - Site architecture and homepage structure
-- Exact product count, assortment rules, and remaining merchandising details
+- Exact product count, assortment rules beyond sourcing geography, and remaining merchandising details
 - E-commerce platform and technical architecture
 - Checkout/payment demo behavior
 - Project/case-study structure
