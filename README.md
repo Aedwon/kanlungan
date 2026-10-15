@@ -15,6 +15,25 @@ Concept repository for a fictional premium interior design and e-commerce brand 
 - **Portfolio intent:** Demonstrate both high-end editorial/brand design and credible e-commerce functionality using a fictional business
 - **Imagery:** Product and project imagery may be AI-generated because this is a demo brand, not an operating business
 
+## Locked service direction
+
+### Full-Service Furnishing
+
+For already-built, largely empty homes, condos, and hospitality spaces. Kanlungan takes the space from unfurnished to move-in or guest-ready without construction work.
+
+Scope may include:
+
+- Furniture
+- Lighting and decorative fixtures
+- Rugs, curtains, and textiles
+- Art and decor
+- Appliances and accessories where appropriate
+- Sourcing and procurement
+- Delivery and installation
+- Final styling
+
+This is a core customer-facing service. It is intentionally separate from construction, renovation, or design-build work.
+
 ## Planning sequence
 
 1. Define Kanlungan's exact service offering.
@@ -31,7 +50,7 @@ This order is deliberate: business, content, conversion, and information archite
 
 - Brand tagline and final verbal identity
 - Logo and visual identity system
-- Exact service offering and pricing model
+- Remaining service lineup and pricing model
 - Site architecture and homepage structure
 - Shop catalog, product taxonomy, and merchandising strategy
 - E-commerce platform and technical architecture
