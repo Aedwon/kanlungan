@@ -11,8 +11,9 @@ Concept repository for a fictional premium interior design and e-commerce brand 
 - **Design direction:** Warm modern Filipino
 - **Filipino identity:** Subtle rather than overt; expressed through materials, craftsmanship, climate-aware design, spatial sensibility, and project context instead of decorative cultural motifs
 - **Brand idea:** Kanlungan should evoke refuge, safety, rest, belonging, and spaces people want to return to
-- **Commerce role:** The shop supports the studio brand rather than replacing it; likely categories include furniture, lighting, decor, materials, and curated home objects
+- **Commerce role:** The shop supports the studio brand rather than replacing it
 - **Shop sourcing model:** Mixed assortment of Kanlungan-original products and curated third-party pieces
+- **Shop positioning:** Small, highly curated, quality-first, sophisticated, and intentionally selective rather than broad or department-store-like
 - **Portfolio intent:** Demonstrate both high-end editorial/brand design and credible e-commerce functionality using a fictional business
 - **Imagery:** Product and project imagery may be AI-generated because this is a demo brand, not an operating business
 
@@ -56,10 +57,26 @@ Scope may include:
 
 This service provides the design system and visual direction without execution. The concept is locked; the final customer-facing name can still be refined.
 
+## Locked shop direction
+
+Kanlungan's shop is a small, highly curated collection of sophisticated, high-quality pieces. The assortment should feel edited by an interior studio, not like a general furniture marketplace.
+
+### Core catalog categories
+
+- Seating
+- Tables
+- Storage
+- Lighting
+- Rugs and textiles
+- Decor and objects
+- Art
+
+The shop may combine signature Kanlungan-designed pieces with curated third-party products from fictional makers and partners. Every product should fit the warm modern Filipino direction and be credible for use in Kanlungan's own furnishing projects.
+
 ## Planning sequence
 
 1. Define Kanlungan's exact service offering. **Complete.**
-2. Define the curated shop offering, catalog scope, product taxonomy, and merchandising model.
+2. Define the curated shop offering, catalog scope, product taxonomy, and merchandising model. **In progress.**
 3. Lock the primary conversion goals, expected to center on consultation booking and shopping.
 4. Define the site map, information architecture, page hierarchy, and core user journeys.
 5. Build the visual system and design tokens: typography, color, spacing, radii, imagery rules, and motion.
@@ -75,7 +92,7 @@ This order is deliberate: business, content, conversion, and information archite
 - Final customer-facing name for the design-only service
 - Service pricing model
 - Site architecture and homepage structure
-- Shop catalog, product taxonomy, and merchandising strategy beyond the mixed sourcing model
+- Exact product count, subcategories, collection structure, and merchandising model
 - E-commerce platform and technical architecture
 - Checkout/payment demo behavior
 - Project/case-study structure
