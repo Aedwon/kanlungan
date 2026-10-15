@@ -108,6 +108,25 @@ Curated makers should be predominantly Philippine-first. Kanlungan should favor 
 
 This is not a Philippine-only rule. The intent is to make local design and craft the dominant voice without artificially excluding strong international pieces that fit the collection.
 
+### Assortment rules
+
+A product belongs in the Kanlungan shop only when it satisfies the brand's curation standard:
+
+- **Design fit:** It aligns with the warm modern Filipino direction.
+- **Material quality:** Favor natural or honest materials such as wood, stone, clay, woven fibers, linen, metal, and glass with considered finishes.
+- **Durability:** It should feel suitable for long-term residential or boutique hospitality use.
+- **Craftsmanship:** Construction, joinery, finish, and detailing should feel intentional and premium.
+- **Restraint:** Avoid trend-chasing, novelty pieces, loud branding, and conspicuous luxury.
+- **Project credibility:** Kanlungan should be able to plausibly specify the piece in one of its own furnishing projects.
+- **Distinctiveness:** Every product needs a clear reason to exist; do not add near-duplicate filler simply to make the catalog appear larger.
+- **Maker transparency:** Curated products should clearly identify the maker, origin, materials, and relevant craft story.
+- **Kanlungan originals:** Kanlungan-designed pieces should represent the clearest expression of the brand and may be exclusive, configurable, or made-to-order.
+- **Curation priority:** Philippine makers should dominate the third-party assortment, with selective international pieces included only when they add something meaningfully distinct.
+
+A useful internal test is: **Would Kanlungan confidently specify this piece in one of its own finished spaces?** If not, it does not belong in the shop.
+
+The shop should explicitly avoid becoming a general home-goods retailer. Exclude generic mass-market furniture, major appliances, electronics, mattresses, plumbing fixtures, built-ins, construction materials, and broad kitchenware or homeware catalogs.
+
 ### Collections
 
 **Collections** is the customer-facing term for curated groups of products organized around a coherent room, mood, material story, or way of living rather than a product type. Products in a collection remain individually purchasable unless explicitly sold together.
@@ -145,7 +164,7 @@ This order is deliberate: business, content, conversion, and information archite
 - Final customer-facing name for the design-only service
 - Service pricing model
 - Site architecture and homepage structure
-- Exact product count, assortment rules beyond sourcing geography, and remaining merchandising details
+- Exact product count, product depth, and remaining merchandising details
 - E-commerce platform and technical architecture
 - Checkout/payment demo behavior
 - Project/case-study structure
