@@ -73,6 +73,14 @@ Kanlungan's shop is a small, highly curated collection of sophisticated, high-qu
 
 The shop may combine signature Kanlungan-designed pieces with curated third-party products from fictional makers and partners. Every product should fit the warm modern Filipino direction and be credible for use in Kanlungan's own furnishing projects.
 
+### Collections
+
+**Collections** is the customer-facing term for curated groups of products organized around a coherent room, mood, material story, or way of living rather than a product type. Products in a collection remain individually purchasable unless explicitly sold together.
+
+Collections exist to demonstrate Kanlungan's taste and furnishing perspective, help customers see how pieces work together, and connect the shop more naturally to the studio's furnishing service.
+
+The term **bundle** should be reserved only for cases where multiple products are actually packaged and sold together as one purchasable set. Do not use “editorial collection” as customer-facing language.
+
 ## Planning sequence
 
 1. Define Kanlungan's exact service offering. **Complete.**
