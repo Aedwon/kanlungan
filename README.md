@@ -61,15 +61,43 @@ This service provides the design system and visual direction without execution. 
 
 Kanlungan's shop is a small, highly curated collection of sophisticated, high-quality pieces. The assortment should feel edited by an interior studio, not like a general furniture marketplace.
 
-### Core catalog categories
+### Core catalog categories and subcategories
 
-- Seating
-- Tables
-- Storage
-- Lighting
-- Rugs and textiles
-- Decor and objects
-- Art
+- **Seating**
+  - Sofas
+  - Lounge chairs
+  - Dining chairs
+  - Stools and benches
+- **Tables**
+  - Dining tables
+  - Coffee tables
+  - Side tables
+  - Console tables
+- **Storage**
+  - Cabinets
+  - Credenzas
+  - Shelving
+- **Lighting**
+  - Pendant lights
+  - Floor lamps
+  - Table lamps
+  - Wall lights
+- **Rugs and textiles**
+  - Rugs
+  - Cushions
+  - Throws
+  - Curtains
+- **Decor and objects**
+  - Mirrors
+  - Vessels
+  - Trays
+  - Sculptural objects
+- **Art**
+  - Prints
+  - Paintings
+  - Wall pieces
+
+The taxonomy should stay shallow. Avoid deep subcategory trees unless the catalog eventually becomes large enough to justify them.
 
 The shop may combine signature Kanlungan-designed pieces with curated third-party products from fictional makers and partners. Every product should fit the warm modern Filipino direction and be credible for use in Kanlungan's own furnishing projects.
 
@@ -100,7 +128,7 @@ This order is deliberate: business, content, conversion, and information archite
 - Final customer-facing name for the design-only service
 - Service pricing model
 - Site architecture and homepage structure
-- Exact product count, subcategories, collection structure, and merchandising model
+- Exact product count, collection structure, assortment rules, and merchandising model
 - E-commerce platform and technical architecture
 - Checkout/payment demo behavior
 - Project/case-study structure
