@@ -105,6 +105,16 @@ The shop may combine signature Kanlungan-designed pieces with curated third-part
 
 **Collections** is the customer-facing term for curated groups of products organized around a coherent room, mood, material story, or way of living rather than a product type. Products in a collection remain individually purchasable unless explicitly sold together.
 
+Kanlungan will use three collection types:
+
+1. **Room-based collections — primary.** Practical collections such as Living Room, Dining Room, and Bedroom that help customers shop by space and furnishing need.
+2. **Mood and lifestyle collections — secondary.** More expressive collections such as Quiet Living, Slow Mornings, or Soft Evenings that communicate the atmosphere Kanlungan is trying to create.
+3. **Material-based collections — selective.** Focused collections such as Natural Wood, Woven Forms, or Stone and Clay that highlight a coherent material language.
+
+A product may belong to multiple collections when appropriate. Room-based collections should do most of the navigational work, while mood/lifestyle and material collections should be used more selectively to express Kanlungan's point of view.
+
+Seasonal collections are not a priority because they would push the brand toward a faster, retail-driven merchandising cadence that does not fit the intended premium interiors positioning.
+
 Collections exist to demonstrate Kanlungan's taste and furnishing perspective, help customers see how pieces work together, and connect the shop more naturally to the studio's furnishing service.
 
 The term **bundle** should be reserved only for cases where multiple products are actually packaged and sold together as one purchasable set. Do not use “editorial collection” as customer-facing language.
@@ -128,7 +138,7 @@ This order is deliberate: business, content, conversion, and information archite
 - Final customer-facing name for the design-only service
 - Service pricing model
 - Site architecture and homepage structure
-- Exact product count, collection structure, assortment rules, and merchandising model
+- Exact product count, assortment rules, and remaining merchandising details
 - E-commerce platform and technical architecture
 - Checkout/payment demo behavior
 - Project/case-study structure
