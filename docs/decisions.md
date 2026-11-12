@@ -40,6 +40,7 @@ On 2026-11-13 Aedwon asked the agent to decide every remaining concept question 
 | Date | Decision | File |
 |---|---|---|
 | 2026-11-13 | Add a **Beds** category (bed frames, daybeds), sold without mattresses | `docs/concept/shop.md` |
+| 2026-11-13 | Visual direction D: Shaded Room colors and imagery, Lamplight layout, Newsreader type | `docs/design/visual-system.md` |
 
 ## Open questions for Aedwon
 
@@ -56,5 +57,5 @@ These checks do not block design work. Aedwon delegated the call on 2026-11-13, 
 
 These wait for later steps in the planning sequence.
 
-- Logo, typography, color, spacing, imagery, and motion: step 5, through the design brief
+- Logo and final photography: later in the design work
 - Tech stack, e-commerce platform, and how the demo payment works: step 7

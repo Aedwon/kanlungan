@@ -18,4 +18,4 @@ Files are Claude Design canvas artboards (`.dc.html`). They render in the canvas
 
 Images are labeled gradient placeholders that describe the intended photograph. The imagery direction is part of each spec sheet.
 
-Status: Aedwon asked for A's colors with B's layout. Direction D renders that mix. Typography is still open: D uses Newsreader, D2 uses Inter Tight. Nothing is locked yet.
+Status: Aedwon chose D (A's colors and imagery, B's layout, Newsreader type) on 2026-11-13. See `docs/design/visual-system.md`. Rows A, B, C, and D2 were not chosen.

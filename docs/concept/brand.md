@@ -61,4 +61,4 @@ Calm, plain, specific, and warm. The studio sounds like a confident designer tal
 
 ## Visual identity
 
-Status: **Open.** Decided in the design work. See `docs/design/design-brief.md`.
+Status: **Locked by Aedwon** on 2026-11-13. Direction D from round 1: Shaded Room colors and imagery, Lamplight layout, Newsreader and Hanken Grotesk type. Tokens and rules are in `docs/design/visual-system.md`. The logo is still open.
