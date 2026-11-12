@@ -30,7 +30,7 @@ On 2026-11-13 Aedwon asked the agent to decide every remaining concept question 
 | Site map and navigation | Four main links plus one booking button. No journal. | `docs/concept/site-architecture.md` |
 | Page structures | Section order for every template, including Home | `docs/concept/site-architecture.md` |
 | Project page structure | Nine sections, including Shop the project | `docs/concept/site-architecture.md` |
-| Seed makers | Seven Philippine, two international | `docs/content/makers.md` |
+| Seed makers | Eight Philippine, two international | `docs/content/makers.md` |
 | Seed catalog | 32 products, seven collections | `docs/content/catalog.md` |
 | Seed projects | Four projects | `docs/content/projects.md` |
 | Steps 5 and 6 run together | Visual system is chosen through rendered directions on real pages | `README.md` |
