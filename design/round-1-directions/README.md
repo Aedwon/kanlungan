@@ -9,7 +9,8 @@ Live canvas (private to Aedwon): https://claude.ai/artifact/QKQZZB7YghP4tLUDWLCy
 | A · Shaded Room | `A-*.dc.html` |
 | B · Lamplight | `B-*.dc.html` |
 | C · Workshop Index | `C-*.dc.html` |
-| D · Mix: A colors, B layout (requested by Aedwon) | `D-*.dc.html`, plus `D-type-options.dc.html` |
+| D · Mix: A colors, B layout, Newsreader type (requested by Aedwon) | `D-*.dc.html`, plus `D-type-options.dc.html` |
+| D2 · Same mix, Inter Tight type | `D2-*.dc.html` |
 
 `Main.dc.html` is the side-by-side overview. `canvas.json` is the canvas layout.
 
@@ -17,4 +18,4 @@ Files are Claude Design canvas artboards (`.dc.html`). They render in the canvas
 
 Images are labeled gradient placeholders that describe the intended photograph. The imagery direction is part of each spec sheet.
 
-Status: Aedwon asked for A's colors with B's layout. Direction D renders that mix. Typography for D is still open: see `D-type-options.dc.html`. Nothing is locked yet.
+Status: Aedwon asked for A's colors with B's layout. Direction D renders that mix. Typography is still open: D uses Newsreader, D2 uses Inter Tight. Nothing is locked yet.

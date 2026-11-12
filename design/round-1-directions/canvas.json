@@ -143,6 +143,36 @@
       "w": 1440,
       "h": 1690,
       "title": "D \u00b7 Type options"
+    },
+    "D2-spec.dc.html": {
+      "x": 0,
+      "y": -15400,
+      "w": 720,
+      "h": 4130,
+      "title": "D2 \u00b7 Spec sheet"
+    },
+    "D2-home-desktop.dc.html": {
+      "x": 800,
+      "y": -15400,
+      "w": 1440,
+      "h": 5880,
+      "title": "D2 \u00b7 Home desktop",
+      "expand": "fill"
+    },
+    "D2-home-mobile.dc.html": {
+      "x": 2320,
+      "y": -15400,
+      "w": 390,
+      "h": 7200,
+      "title": "D2 \u00b7 Home mobile"
+    },
+    "D2-product-desktop.dc.html": {
+      "x": 2790,
+      "y": -15400,
+      "w": 1440,
+      "h": 4210,
+      "title": "D2 \u00b7 Silong Sofa desktop",
+      "expand": "fill"
     }
   },
   "order": [
@@ -163,7 +193,11 @@
     "D-home-desktop.dc.html",
     "D-home-mobile.dc.html",
     "D-product-desktop.dc.html",
-    "D-type-options.dc.html"
+    "D-type-options.dc.html",
+    "D2-spec.dc.html",
+    "D2-home-desktop.dc.html",
+    "D2-home-mobile.dc.html",
+    "D2-product-desktop.dc.html"
   ],
   "notes": {
     "rowA": {
@@ -190,9 +224,16 @@
     "rowD": {
       "x": 0,
       "y": -8000,
-      "text": "D \u00b7 Mix: Shaded Room colors, Lamplight layout",
+      "text": "D \u00b7 Mix with Newsreader type (A)",
       "kind": "title1",
       "maxW": 5750
+    },
+    "rowD2": {
+      "x": 0,
+      "y": -15700,
+      "text": "D2 \u00b7 Same mix with Inter Tight type (B)",
+      "kind": "title1",
+      "maxW": 4230
     }
   },
   "designSystems": []
