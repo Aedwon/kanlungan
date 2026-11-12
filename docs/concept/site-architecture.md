@@ -14,7 +14,7 @@ Studio
 Projects
   Project detail (one per project)
 Shop
-  Category (7: Seating, Tables, Storage, Lighting, Rugs and Textiles, Decor and Objects, Art)
+  Category (8: Seating, Tables, Beds, Storage, Lighting, Rugs and Textiles, Decor and Objects, Art)
   Collections
     Collection detail
   Makers
@@ -57,7 +57,7 @@ On mobile, the header shows the logo, the cart icon, and a menu icon. The menu h
 ### Footer
 
 - Studio: Full-Service Furnishing, Interior Design Direction, Projects, About
-- Shop: the seven categories, Collections, Makers
+- Shop: the eight categories, Collections, Makers
 - Help: Delivery and returns, Care guide, FAQ, Contact
 - Mailing list field
 - Showroom address, email, by-appointment note
@@ -124,7 +124,7 @@ The studio owns sections 1 to 4. The shop starts at section 5. This order enforc
 ### Shop landing
 
 1. Short introduction with one image
-2. Categories, all seven
+2. Categories, all eight
 3. Featured collections, three
 4. Kanlungan Originals, four to six products
 5. Makers, three with a link to all

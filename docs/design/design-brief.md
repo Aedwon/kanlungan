@@ -154,7 +154,6 @@ Commit each round on a branch and open a pull request, as `AGENTS.md` describes.
 
 ## Known open questions
 
-See `docs/decisions.md`. Two affect the design work:
+See `docs/decisions.md`. One affects the design work:
 
-- The catalog has no beds, so the Bedroom collection is thin. Do not design a bed product.
 - There is one hospitality project. Do not invent a second one inside a mockup.

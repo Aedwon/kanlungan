@@ -22,6 +22,9 @@ Kanlungan's shop is a small, highly curated collection of sophisticated, high-qu
   - Coffee tables
   - Side tables
   - Console tables
+- **Beds**
+  - Bed frames
+  - Daybeds
 - **Storage**
   - Cabinets
   - Credenzas
@@ -80,7 +83,7 @@ The shop should explicitly avoid becoming a general home-goods retailer. Exclude
 Product depth should be relative rather than quota-driven. Do not set an arbitrary total SKU target and do not create filler simply to make the catalog look larger.
 
 - **Anchor categories — deepest:** Seating, Tables, Lighting
-- **Supporting categories — moderate:** Storage, Rugs and Textiles
+- **Supporting categories — moderate:** Beds, Storage, Rugs and Textiles
 - **Accent/discovery categories — flexible:** Decor and Objects, Art
 
 A product should only be added when it contributes a meaningfully different function, scale, silhouette, material, maker, price position, or spatial use. Subcategories do not need to be populated evenly or immediately; they should only appear publicly when there is enough credible assortment to feel intentional.
@@ -164,6 +167,7 @@ Guide ranges for new products:
 | Stools and benches | ₱14,000 to ₱48,000 |
 | Dining tables | ₱95,000 to ₱260,000 |
 | Coffee, side, and console tables | ₱16,000 to ₱110,000 |
+| Beds | ₱75,000 to ₱190,000 |
 | Storage | ₱60,000 to ₱220,000 |
 | Lighting | ₱8,000 to ₱65,000 |
 | Rugs | ₱28,000 to ₱180,000 |
@@ -209,6 +213,8 @@ Status: **Decided on delegation.**
 
 `docs/content/catalog.md` holds a seed catalog for mockups and the demo. It is illustrative content, not a SKU target. The product depth rules above still apply.
 
-## Open question
+## Beds
 
-The locked taxonomy has no beds, yet Bedroom is a named room-based collection. See `docs/decisions.md`.
+Status: **Locked by Aedwon** on 2026-11-13.
+
+Beds is the eighth category. It was added so the Bedroom collection has a bed. Bed frames and daybeds are sold without a mattress. Mattresses stay excluded under the assortment rules.

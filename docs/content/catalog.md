@@ -2,7 +2,7 @@
 
 Status: **Decided on delegation.** All products are invented. The names have not been checked against real products. See `docs/decisions.md`.
 
-This is a seed for mockups and the demo: 30 products. It is not a SKU target. Rules for adding products are in `docs/concept/shop.md`.
+This is a seed for mockups and the demo: 32 products. It is not a SKU target. Rules for adding products are in `docs/concept/shop.md`.
 
 Dimensions are width × depth × height in centimeters. "Ø" means diameter. Lead times are in weeks. Makers are described in `docs/content/makers.md`.
 
@@ -25,6 +25,15 @@ Dimensions are width × depth × height in centimeters. "Ø" means diameter. Lea
 | Batis Coffee Table | Coffee tables | A honed stone top on a low wood base. | ₱72,000 | Marmol Atelier | Romblon marble, mahogany | 110 × 60 × 36 | Romblon, Philippines | Made to order, 8 weeks |
 | Sulok Side Table | Side tables | A compact side table with a single shelf. | ₱21,000 | Kanlungan Original | Acacia, oil finish | 40 × 40 × 50 | Pampanga, Philippines | Made to order, 6 weeks |
 | Pasilyo Console Table | Console tables | A slim console with a woven cane lower shelf. | ₱58,000 | Lilok Workshop | Plantation mahogany, cane | 150 × 38 × 80 | Betis, Pampanga, Philippines | Made to order, 8 weeks |
+
+## Beds
+
+Bed frames and daybeds are sold without a mattress.
+
+| Name | Subcategory | Description | Price | Maker | Materials | Dimensions | Origin | Availability |
+|---|---|---|---|---|---|---|---|---|
+| Himlay Bed | Bed frames | A low solid wood bed with a woven cane headboard. | ₱142,000 | Kanlungan Original | Plantation mahogany, cane, slatted base | 168 × 215 × 105 | Pampanga, Philippines | Made to order, 12 weeks |
+| Duyan Daybed | Daybeds | A rattan daybed for a terrace, study, or guest room. | ₱78,000 | Sulihiya Studio | Rattan, cane, linen cushion | 200 × 90 × 70 | Cebu, Philippines | Made to order, 8 weeks |
 
 ## Storage
 
@@ -82,6 +91,8 @@ Only these products have options. All others are sold as listed.
 | Hain Dining Chair | Finish | Natural, Walnut stain, Ebonized | None |
 | Hapag Dining Table | Size | 180 cm, 220 cm, 260 cm | ₱152,000, ₱178,000, ₱214,000 |
 | Hapag Dining Table | Finish | Natural, Walnut stain | None |
+| Himlay Bed | Size | Queen 168 × 215, King 198 × 215 | ₱142,000, ₱168,000 |
+| Himlay Bed | Finish | Natural, Walnut stain | None |
 | Lambot Wool Rug | Size | 170 × 240, 240 × 300, 300 × 400 | ₱58,000, ₱96,000, ₱164,000 |
 | Banig Rug | Size | 160 × 230, 200 × 300 | ₱22,000, ₱34,000 |
 | Hablon Cushion | Color | Natural, Indigo, Rust, Moss | None |
@@ -96,7 +107,7 @@ A product may sit in more than one collection.
 
 - **Living Room:** Silong Sofa, Dapithapon Lounge Chair, Batis Coffee Table, Sulok Side Table, Baul Credenza, Estante Shelving, Sinag Floor Lamp, Lambot Wool Rug, Hablon Cushion, Kumot Throw, Bilao Tray, Tapayan Vessel, Tanghali
 - **Dining Room:** Hapag Dining Table, Hain Dining Chair, Bangko Bench, Lenta Pendant, Kapis Pendant, Baul Credenza, Banig Rug, Tapayan Vessel, Amihan No. 3
-- **Bedroom:** Sulok Side Table, Luad Table Lamp, Tala Wall Light, Aparador Cabinet, Bangko Bench, Salamin Floor Mirror, Lambot Wool Rug, Tabing Linen Curtain, Kumot Throw. This collection has no bed. See `docs/decisions.md`.
+- **Bedroom:** Himlay Bed, Duyan Daybed, Sulok Side Table, Luad Table Lamp, Tala Wall Light, Aparador Cabinet, Bangko Bench, Salamin Floor Mirror, Lambot Wool Rug, Tabing Linen Curtain, Kumot Throw.
 
 ### Mood and lifestyle
 
@@ -105,12 +116,12 @@ A product may sit in more than one collection.
 
 ### Material-based
 
-- **Woven Forms:** Dapithapon Lounge Chair, Hain Dining Chair, Pasilyo Console Table, Aparador Cabinet, Banig Rug, Bilao Tray, Habi Wall Piece. Text: "Cane, rattan, and reed, woven by hand."
+- **Woven Forms:** Himlay Bed, Duyan Daybed, Dapithapon Lounge Chair, Hain Dining Chair, Pasilyo Console Table, Aparador Cabinet, Banig Rug, Bilao Tray, Habi Wall Piece. Text: "Cane, rattan, and reed, woven by hand."
 - **Stone and Clay:** Batis Coffee Table, Bato Object, Tapayan Vessel, Luad Table Lamp, Lenta Pendant. Text: "Honed stone and fired clay, cool to the touch."
 
 ## Featured sets
 
 - **Home, featured pieces:** Silong Sofa, Hapag Dining Table, Dapithapon Lounge Chair, Kapis Pendant, Aparador Cabinet, Tapayan Vessel
-- **Shop landing, Kanlungan Originals:** Silong Sofa, Hain Dining Chair, Hapag Dining Table, Aparador Cabinet, Sinag Floor Lamp, Lambot Wool Rug
+- **Shop landing, Kanlungan Originals:** Silong Sofa, Hain Dining Chair, Hapag Dining Table, Himlay Bed, Sinag Floor Lamp, Lambot Wool Rug
 - **Shop landing, new pieces:** Lenta Pendant, Kiso Stool, Habi Wall Piece, Bato Object, Tanghali, Pasilyo Console Table
 - **Sold-out example for the demo:** show Kiso Stool as sold out on one screen to demonstrate the state.
