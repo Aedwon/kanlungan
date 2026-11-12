@@ -35,6 +35,8 @@ Every section in `docs/concept/` carries one of these labels:
 - **Decided on delegation.** An agent decided it because Aedwon asked the agent to decide. Treat it as the working answer. Aedwon may revise it. You may propose a change with a reason, but do not change it silently.
 - **Open.** Not decided. Do not invent an answer inside a deliverable. Present options with costs and a recommendation, then record the answer.
 
+For concept and content questions, Aedwon has asked agents to decide instead of asking him. Pick the answer, label it "Decided on delegation," record it in `docs/decisions.md`, and report it. This does not apply to visual and UX choices, which he judges from rendered options, or to destructive and external actions.
+
 When a decision changes, update the concept file and add one line to `docs/decisions.md`.
 
 ## Rules for all work

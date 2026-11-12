@@ -32,7 +32,7 @@ On 2026-11-13 Aedwon asked the agent to decide every remaining concept question 
 | Project page structure | Nine sections, including Shop the project | `docs/concept/site-architecture.md` |
 | Seed makers | Eight Philippine, two international | `docs/content/makers.md` |
 | Seed catalog | 32 products, seven collections | `docs/content/catalog.md` |
-| Seed projects | Four projects | `docs/content/projects.md` |
+| Seed projects | Five projects: three residential, two hospitality. Pahinga Villas added 2026-11-13. | `docs/content/projects.md` |
 | Steps 5 and 6 run together | Visual system is chosen through rendered directions on real pages | `README.md` |
 
 ## Locked by Aedwon after delegation
@@ -43,9 +43,14 @@ On 2026-11-13 Aedwon asked the agent to decide every remaining concept question 
 
 ## Open questions for Aedwon
 
-1. **Second hospitality project.** Boutique hospitality is half of the locked market focus, but only one of four seed projects is hospitality. Recommendation: add one, such as a small resort or serviced residence.
-2. **Fictional names.** No invented name has been checked against real businesses, products, or people. Recommendation: check every maker, artist, product, and project name before any public release, and rename any that collide.
-3. **Pricing realism.** Service fees and product prices are plausible estimates, not researched figures. Recommendation: check them against real Philippine studios and shops before public release.
+None.
+
+## Before public release
+
+These checks do not block design work. Aedwon delegated the call on 2026-11-13, and the agent deferred both to the point just before the site goes public.
+
+1. **Check fictional names.** No invented maker, artist, product, or project name has been checked against real businesses, products, or people. Check each one and rename any that collide. Names may still change during design, so checking now would be wasted work.
+2. **Check pricing realism.** Service fees and product prices are plausible estimates, not researched figures. Compare them with real Philippine studios and shops.
 
 ## Deliberately not decided
 

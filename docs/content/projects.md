@@ -2,7 +2,7 @@
 
 Status: **Decided on delegation.** All projects and clients are invented. Place names are real. No client is named.
 
-Four projects: three residential or condo, one hospitality. Three use Full-Service Furnishing and one uses Interior Design Direction. Page structure is in `docs/concept/site-architecture.md`.
+Five projects: three residential and two hospitality. Four use Full-Service Furnishing and one uses Interior Design Direction. Page structure is in `docs/concept/site-architecture.md`.
 
 ## Lilim House
 
@@ -46,6 +46,20 @@ Four projects: three residential or condo, one hospitality. Three use Full-Servi
 - **Shop the project:** Himlay Bed, Bangko Bench, Tuntungan Stool, Banig Rug, Hain Dining Chair, Hapag Dining Table (260 cm), Lenta Pendant, Kumot Throw, Bilao Tray, Habi Wall Piece
 - **Image notes:** Bright coastal light, pale walls, open windows, a guest room with a reed mat, a long breakfast table
 
+## Pahinga Villas
+
+- **Location:** Panglao, Bohol
+- **Type:** Hospitality, 8-villa resort
+- **Floor area:** 520 sqm
+- **Service:** Full-Service Furnishing
+- **Year:** 2025
+- **Scope:** Eight one-bedroom villas, reception pavilion
+- **Brief:** The owners built eight villas in a coconut grove a short walk from the beach. They wanted each villa to feel like a private house, not a hotel room, and to stay easy to maintain between guests.
+- **Approach:** Each villa has one generous bed, one daybed on the terrace, and very little else. Cane and rattan keep air moving when the doors are open. Linen curtains soften the strong island light. The studio specified one finish and one fabric across all eight villas so any piece can be repaired or replaced from stock.
+- **Material palette:** Plantation mahogany, cane, rattan, oat linen, stoneware, capiz shell
+- **Shop the project:** Himlay Bed, Duyan Daybed, Dapithapon Lounge Chair, Sulok Side Table, Kapis Pendant, Luad Table Lamp, Tabing Linen Curtain, Tapayan Vessel, Habi Wall Piece
+- **Image notes:** Filtered light through coconut palms, open sliding doors, a low bed with white linen, a daybed on a shaded terrace, warm lamps at dusk
+
 ## Hardin Apartment
 
 - **Location:** Legazpi Village, Makati
@@ -64,6 +78,6 @@ Four projects: three residential or condo, one hospitality. Three use Full-Servi
 
 - **Home, featured projects:** Lilim House, Tanaw Residence, Dalampasigan Inn
 - **Home hero image:** Lilim House living room
-- **Full-Service Furnishing page:** Lilim House, Tanaw Residence, Dalampasigan Inn
+- **Full-Service Furnishing page:** Lilim House, Dalampasigan Inn, Pahinga Villas
 - **Interior Design Direction page:** Hardin Apartment
-- **Hospitality filter:** Dalampasigan Inn only. This is thin. A second hospitality project would strengthen journey 4 in `docs/concept/site-architecture.md`.
+- **Hospitality filter:** Dalampasigan Inn, Pahinga Villas

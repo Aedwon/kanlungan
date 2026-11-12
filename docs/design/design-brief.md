@@ -152,8 +152,6 @@ Images may be AI-generated. Until an imagery direction is chosen, placeholder im
 
 Commit each round on a branch and open a pull request, as `AGENTS.md` describes.
 
-## Known open questions
+## Known gaps
 
-See `docs/decisions.md`. One affects the design work:
-
-- There is one hospitality project. Do not invent a second one inside a mockup.
+Invented names and prices are not yet checked against real businesses. See `docs/decisions.md`. This does not block design work. Use the seed content as written.
