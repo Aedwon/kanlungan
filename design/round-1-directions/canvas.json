@@ -1,0 +1,34 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-11-13T12:00:00Z"},
+  "title": "Kanlungan round 1 directions",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 1440, "h": 900, "title": "Overview"},
+    "A-spec.dc.html": {"x": 0, "y": 1400, "w": 720, "h": 3880, "title": "A · Spec sheet"},
+    "A-home-desktop.dc.html": {"x": 800, "y": 1400, "w": 1440, "h": 6600, "title": "A · Home desktop", "expand": "fill"},
+    "A-home-mobile.dc.html": {"x": 2320, "y": 1400, "w": 390, "h": 7500, "title": "A · Home mobile"},
+    "A-product-desktop.dc.html": {"x": 2790, "y": 1400, "w": 1440, "h": 4230, "title": "A · Silong Sofa desktop", "expand": "fill"},
+    "B-spec.dc.html": {"x": 0, "y": 9400, "w": 720, "h": 3850, "title": "B · Spec sheet"},
+    "B-home-desktop.dc.html": {"x": 800, "y": 9400, "w": 1440, "h": 5880, "title": "B · Home desktop", "expand": "fill"},
+    "B-home-mobile.dc.html": {"x": 2320, "y": 9400, "w": 390, "h": 7240, "title": "B · Home mobile"},
+    "B-product-desktop.dc.html": {"x": 2790, "y": 9400, "w": 1440, "h": 4200, "title": "B · Silong Sofa desktop", "expand": "fill"},
+    "C-spec.dc.html": {"x": 0, "y": 17100, "w": 720, "h": 3100, "title": "C · Spec sheet"},
+    "C-home-desktop.dc.html": {"x": 800, "y": 17100, "w": 1440, "h": 5220, "title": "C · Home desktop", "expand": "fill"},
+    "C-home-mobile.dc.html": {"x": 2320, "y": 17100, "w": 390, "h": 7530, "title": "C · Home mobile"},
+    "C-product-desktop.dc.html": {"x": 2790, "y": 17100, "w": 1440, "h": 4190, "title": "C · Silong Sofa desktop", "expand": "fill"}
+  },
+  "order": [
+    "Main.dc.html",
+    "A-spec.dc.html", "A-home-desktop.dc.html", "A-home-mobile.dc.html", "A-product-desktop.dc.html",
+    "B-spec.dc.html", "B-home-desktop.dc.html", "B-home-mobile.dc.html", "B-product-desktop.dc.html",
+    "C-spec.dc.html", "C-home-desktop.dc.html", "C-home-mobile.dc.html", "C-product-desktop.dc.html"
+  ],
+  "notes": {
+    "rowA": {"x": 0, "y": 1100, "text": "A · Shaded Room", "kind": "title1", "maxW": 4230},
+    "rowB": {"x": 0, "y": 9100, "text": "B · Lamplight", "kind": "title1", "maxW": 4230},
+    "rowC": {"x": 0, "y": 16800, "text": "C · Workshop Index", "kind": "title1", "maxW": 4230}
+  },
+  "designSystems": []
+}

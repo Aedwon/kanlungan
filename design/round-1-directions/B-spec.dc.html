@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Direction B · Lamplight spec</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#1C1511;font-family:'Inter Tight',system-ui,sans-serif}
+a{color:#EFE5D6;text-decoration:none}
+a:hover{color:#C9A468}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible{outline:2px solid #C9A468;outline-offset:3px}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover .arr{transform:translateX(4px)}
+.btn-p{transition:background .2s ease}
+.btn-p:hover{background:#D8B77C}
+.btn-s{transition:background .2s ease}
+.btn-s:hover{background:rgba(239,229,214,.08);color:#EFE5D6}
+a.card:hover{color:#EFE5D6}
+.im{transition:filter .4s ease}
+.card:hover .im{filter:brightness(1.14)}
+.av{height:20px;overflow:hidden}
+.avi{transition:transform .3s ease}
+.card:hover .avi{transform:translateY(-20px)}
+.demo-img{animation:lampLoop 6s ease-in-out infinite}
+.demo-head{animation:headLoop 6s ease-in-out infinite}
+@keyframes lampLoop{0%{filter:brightness(.55)}40%{filter:brightness(1)}88%{filter:brightness(1)}100%{filter:brightness(.55)}}
+@keyframes headLoop{0%{opacity:0;transform:translateY(16px)}40%{opacity:1;transform:translateY(0)}88%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(16px)}}
+@media (prefers-reduced-motion: reduce){
+.demo-img,.demo-head{animation:none}
+.im,.avi,.arr,.btn-p,.btn-s{transition:none}
+.card:hover .im{filter:none}
+.card:hover .avi{transform:none}
+}
+</style>
+</helmet>
+<div style="width:720px;box-sizing:border-box;background:#1C1511;color:#EFE5D6;font-family:'Inter Tight',system-ui,sans-serif;font-weight:300;padding:56px 40px 64px">
+
+<!-- Title -->
+<header style="padding-bottom:40px;border-bottom:1px solid #3E3128">
+  <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#C9A468">Direction B</div>
+  <h1 style="margin:16px 0 0;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Direction B · Lamplight</h1>
+  <p style="margin:20px 0 0;font-size:17px;line-height:1.6;font-weight:300;color:#B5A591">Dark, warm, cinematic. The site feels like a room at dusk with the lamps on.</p>
+</header>
+
+<!-- Type -->
+<section style="padding:48px 0;border-bottom:1px solid #3E3128">
+  <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#B5A591">Type</div>
+  <p style="margin:16px 0 36px;font-size:17px;line-height:1.6;font-weight:300">One family for everything: Inter Tight, weights 300, 400, and 500.</p>
+
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div>
+      <div style="font-size:14px;line-height:1.5;font-weight:400;color:#B5A591">Display / H1 · 112px / 0.98 · 300 · -0.035em</div>
+      <div style="margin-top:8px;font-size:112px;line-height:.98;font-weight:300;letter-spacing:-.035em">Kanlungan</div>
+    </div>
+    <div>
+      <div style="font-size:14px;line-height:1.5;font-weight:400;color:#B5A591">H2 · 56px / 1.05 · 300 · -0.02em</div>
+      <div style="margin-top:8px;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Recent projects</div>
+    </div>
+    <div>
+      <div style="font-size:14px;line-height:1.5;font-weight:400;color:#B5A591">H3 · 24px / 1.3 · 400</div>
+      <div style="margin-top:8px;font-size:24px;line-height:1.3;font-weight:400">Full-Service Furnishing</div>
+    </div>
+    <div>
+      <div style="font-size:14px;line-height:1.5;font-weight:400;color:#B5A591">Body · 17px / 1.6 · 300 or 400</div>
+      <div style="margin-top:8px;font-size:17px;line-height:1.6;font-weight:300">Kanlungan is an interior design studio and shop. We furnish homes and small hotels so they feel like refuge.</div>
+    </div>
+    <div>
+      <div style="font-size:14px;line-height:1.5;font-weight:400;color:#B5A591">Small · 14px / 1.5 · 400</div>
+      <div style="margin-top:8px;font-size:14px;line-height:1.5;font-weight:400">From ₱1,500,000, design fee included.</div>
+    </div>
+    <div>
+      <div style="font-size:14px;line-height:1.5;font-weight:400;color:#B5A591">Label · 12px / 1.4 · 500 · 0.14em · uppercase for 1 to 3 words</div>
+      <div style="margin-top:8px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#C9A468">Residential</div>
+    </div>
+  </div>
+</section>
+
+<!-- Palette -->
+<section style="padding:48px 0;border-bottom:1px solid #3E3128">
+  <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#B5A591">Palette</div>
+  <div style="margin-top:28px;display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:20px 16px">
+    <div>
+      <div style="height:72px;background:#1C1511;border:1px solid #3E3128;border-radius:2px"></div>
+      <div style="margin-top:10px;font-size:14px;line-height:1.4;font-weight:400">Background</div>
+      <div style="font-size:13px;line-height:1.4;color:#B5A591">#1C1511 espresso</div>
+    </div>
+    <div>
+      <div style="height:72px;background:#271E18;border:1px solid #3E3128;border-radius:2px"></div>
+      <div style="margin-top:10px;font-size:14px;line-height:1.4;font-weight:400">Surface</div>
+      <div style="font-size:13px;line-height:1.4;color:#B5A591">#271E18</div>
+    </div>
+    <div>
+      <div style="height:72px;background:#33281F;border:1px solid #3E3128;border-radius:2px"></div>
+      <div style="margin-top:10px;font-size:14px;line-height:1.4;font-weight:400">Raised</div>
+      <div style="font-size:13px;line-height:1.4;color:#B5A591">#33281F</div>
+    </div>
+    <div>
+      <div style="height:72px;background:#EFE5D6;border-radius:2px"></div>
+      <div style="margin-top:10px;font-size:14px;line-height:1.4;font-weight:400">Text</div>
+      <div style="font-size:13px;line-height:1.4;color:#B5A591">#EFE5D6 warm cream</div>
+    </div>
+    <div>
+      <div style="height:72px;background:#B5A591;border-radius:2px"></div>
+      <div style="margin-top:10px;font-size:14px;line-height:1.4;font-weight:400">Muted text</div>
+      <div style="font-size:13px;line-height:1.4;color:#B5A591">#B5A591 · 7.2:1 on background</div>
+    </div>
+    <div>
+      <div style="height:72px;background:#C9A468;border-radius:2px"></div>
+      <div style="margin-top:10px;font-size:14px;line-height:1.4;font-weight:400">Accent</div>
+      <div style="font-size:13px;line-height:1.4;color:#B5A591">#C9A468 brass</div>
+    </div>
+    <div>
+      <div style="height:72px;background:#3E3128;border:1px solid #5a4838;border-radius:2px"></div>
+      <div style="margin-top:10px;font-size:14px;line-height:1.4;font-weight:400">Line</div>
+      <div style="font-size:13px;line-height:1.4;color:#B5A591">#3E3128</div>
+    </div>
+  </div>
+  <p style="margin:24px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#B5A591">No pure black, no pure white. Brass is the button fill (with #1C1511 text) and fine details only.</p>
+</section>
+
+<!-- Image treatment -->
+<section style="padding:48px 0;border-bottom:1px solid #3E3128">
+  <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#B5A591">Image treatment</div>
+  <ul style="list-style:none;margin:24px 0 28px;padding:0;display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.5;font-weight:300">
+    <li><span style="font-weight:400">Crop.</span> Full-bleed 21:9 and 16:9 for rooms. 1:1 for products.</li>
+    <li><span style="font-weight:400">Light.</span> Dusk and night. Warm amber lamp pools against deep brown shadow.</li>
+    <li><span style="font-weight:400">Color grade.</span> Strong contrast, brown shadows, a faint blue dusk window band.</li>
+  </ul>
+  <div role="img" aria-label="Sample placeholder, living room at dusk with a lamp pool and a blue dusk window band" style="position:relative;overflow:hidden;aspect-ratio:21 / 9;border-radius:2px;background:
+    radial-gradient(ellipse 12% 22% at 78% 62%, rgba(246,184,104,.9) 0%, rgba(246,184,104,0) 70%),
+    radial-gradient(ellipse 34% 36% at 76% 68%, rgba(210,146,74,.42) 0%, rgba(210,146,74,0) 72%),
+    radial-gradient(ellipse 26% 8% at 36% 66%, #3e2718 0%, #2c1b10 62%, rgba(44,27,16,0) 66%),
+    radial-gradient(ellipse 30% 5% at 36% 72%, rgba(18,13,10,.7) 0%, rgba(18,13,10,0) 100%),
+    linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 68%, #2a1d14 68%, #17100c 100%),
+    linear-gradient(to bottom, #120d0a 0, #120d0a 15%, #2f4256 15%, #46596a 34%, #3a4f45 50%, #243226 68%);">
+    <div style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#EFE5D6;background:rgba(28,21,17,.72);border-radius:2px">Placeholder · Lilim House living room, dusk, lamps lit, low sofa, greenery through wide openings</div>
+  </div>
+</section>
+
+<!-- Components -->
+<section style="padding:48px 0;border-bottom:1px solid #3E3128">
+  <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#B5A591">Components</div>
+
+  <div style="margin-top:28px;display:flex;flex-wrap:wrap;align-items:center;gap:20px 28px">
+    <a href="#" class="btn-p" style="display:inline-block;background:#C9A468;color:#1C1511;font-size:15px;line-height:1;font-weight:500;padding:18px 30px;border-radius:2px">Book a discovery call</a>
+    <a href="#" class="btn-s" style="display:inline-block;border:1px solid #EFE5D6;background:transparent;color:#EFE5D6;font-size:15px;line-height:1;font-weight:500;padding:17px 29px;border-radius:2px">View projects</a>
+    <a href="#" class="lnk" style="font-size:15px;line-height:1.5;font-weight:400">Explore the shop <span class="arr" aria-hidden="true">→</span></a>
+  </div>
+  <p style="margin:12px 0 0;font-size:13px;line-height:1.5;color:#B5A591">Primary: brass fill, 2px radius, 500 at 15px, padding 18px 30px. Secondary: 1px cream outline. Text link: arrow shifts 4px on hover.</p>
+
+  <div style="margin-top:40px;display:grid;grid-template-columns:260px minmax(0, 1fr);gap:40px;align-items:start">
+    <a href="#" class="card" style="display:block">
+      <div role="img" aria-label="Kapis Pendant, brass pendant lamp glowing on a dark warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#271E18;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 14% 7% at 50% 36%, #d3b078 0%, #8a6c3a 80%, rgba(138,108,58,0) 82%),
+          radial-gradient(circle at 50% 42%, rgba(255,222,160,.95) 0, rgba(255,222,160,.9) 3%, rgba(236,176,100,.5) 11%, rgba(236,176,100,0) 46%),
+          linear-gradient(#6b5a45,#6b5a45) 50% 0/1px 33% no-repeat,
+          linear-gradient(to bottom, #2a1f18, #1c1511);"></div>
+        <div style="position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:3px 7px;font-size:11px;line-height:1.4;font-weight:400;color:#EFE5D6;background:rgba(28,21,17,.72);border-radius:2px">Placeholder · Kapis Pendant, lit</div>
+      </div>
+      <div style="padding-top:18px">
+        <div style="font-size:18px;line-height:1.4;font-weight:400;color:#EFE5D6">Kapis Pendant</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#B5A591">Tanso Lighting Works</div>
+        <div style="margin-top:10px;font-size:17px;line-height:1.4;font-weight:400;color:#EFE5D6">₱32,000</div>
+        <div class="av" style="margin-top:6px"><div class="avi">
+          <div style="height:20px;font-size:12px;line-height:20px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#C9A468">In stock</div>
+          <div style="height:20px;font-size:14px;line-height:20px;font-weight:400;color:#C9A468">View piece →</div>
+        </div></div>
+      </div>
+    </a>
+    <p style="margin:0;font-size:13px;line-height:1.5;color:#B5A591">Product card: image 1:1 on surface #271E18, then name 18px, maker muted, price, and an uppercase brass availability label. On hover the image brightens and the label slides up to reveal "View piece →". Hover the card to see it.</p>
+  </div>
+
+  <div style="margin-top:40px">
+    <div style="font-size:14px;line-height:1.5;font-weight:400;color:#B5A591">Option swatch row</div>
+    <div role="group" aria-label="Fabric sample" style="margin-top:14px;display:flex;gap:20px">
+      <button type="button" aria-pressed="true" aria-label="Oat linen, selected" style="width:48px;height:48px;padding:0;border:0;border-radius:2px;background:#D8C7A5;outline:1px solid #C9A468;outline-offset:4px;cursor:pointer"></button>
+      <button type="button" aria-pressed="false" aria-label="Sand linen" style="width:48px;height:48px;padding:0;border:0;border-radius:2px;background:#C2A97F;cursor:pointer"></button>
+      <button type="button" aria-pressed="false" aria-label="Clay linen" style="width:48px;height:48px;padding:0;border:0;border-radius:2px;background:#A55F43;cursor:pointer"></button>
+      <button type="button" aria-pressed="false" aria-label="Charcoal linen" style="width:48px;height:48px;padding:0;border:1px solid #6b5a48;border-radius:2px;background:#3B3733;cursor:pointer"></button>
+    </div>
+    <p style="margin:14px 0 0;font-size:13px;line-height:1.5;color:#B5A591">Selected state is a 1px brass ring set 4px off the swatch.</p>
+  </div>
+</section>
+
+<!-- Motion -->
+<section style="padding:48px 0;border-bottom:1px solid #3E3128">
+  <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#B5A591">Motion</div>
+  <p style="margin:16px 0 28px;font-size:15px;line-height:1.6;font-weight:300">Lamps on: on load the hero image starts dim (brightness 0.55) and warms to full over 2.4s while the heading fades up 16px. Product cards brighten and reveal "View piece →" on hover. Everything is disabled under prefers-reduced-motion.</p>
+  <div style="position:relative;overflow:hidden;height:300px;border-radius:2px;background:#1C1511">
+    <div class="demo-img" role="img" aria-label="Looping demo of the lamps on effect, a room warming from dim to bright" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+      radial-gradient(ellipse 14% 24% at 78% 58%, rgba(246,184,104,.9) 0%, rgba(246,184,104,0) 70%),
+      radial-gradient(ellipse 36% 40% at 76% 66%, rgba(210,146,74,.42) 0%, rgba(210,146,74,0) 72%),
+      radial-gradient(ellipse 28% 9% at 34% 66%, #3e2718 0%, #2c1b10 62%, rgba(44,27,16,0) 66%),
+      linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 68%, #2a1d14 68%, #17100c 100%),
+      linear-gradient(to bottom, #120d0a 0, #120d0a 15%, #2f4256 15%, #46596a 34%, #3a4f45 50%, #243226 68%);"></div>
+    <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:linear-gradient(to top, rgba(28,21,17,.94) 0%, rgba(28,21,17,.6) 36%, rgba(28,21,17,0) 70%)"></div>
+    <div class="demo-head" style="position:absolute;left:28px;bottom:26px;font-size:56px;line-height:.98;font-weight:300;letter-spacing:-.035em;color:#EFE5D6">Spaces to come home to.</div>
+  </div>
+  <p style="margin:12px 0 0;font-size:13px;line-height:1.5;color:#B5A591">Looping demo, 6 seconds. The home hero plays it once.</p>
+</section>
+
+<!-- Radii and spacing -->
+<section style="padding:48px 0 0">
+  <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#B5A591">Radii and spacing</div>
+  <div style="margin-top:24px;display:flex;flex-direction:column;gap:20px">
+    <div style="display:flex;align-items:center;gap:20px">
+      <div style="width:64px;height:64px;flex:none;background:#33281F;border:1px solid #C9A468;border-radius:2px"></div>
+      <div style="font-size:15px;line-height:1.5;font-weight:300">Radius: 2px on every element. No pill shapes, no circles.</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:20px">
+      <div style="width:64px;flex:none;display:flex;align-items:flex-end;gap:3px">
+        <div style="width:6px;height:8px;background:#C9A468"></div>
+        <div style="width:6px;height:16px;background:#C9A468"></div>
+        <div style="width:6px;height:24px;background:#C9A468"></div>
+        <div style="width:6px;height:32px;background:#C9A468"></div>
+        <div style="width:6px;height:48px;background:#C9A468"></div>
+      </div>
+      <div style="font-size:15px;line-height:1.5;font-weight:300">Spacing scale: 4, 8, 16, 24, 32, 48, 64, 96, 128, 160px. Sections breathe at 120px or more on desktop. Page gutter 64px.</div>
+    </div>
+  </div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":720,"height":3850}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

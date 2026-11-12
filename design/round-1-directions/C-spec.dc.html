@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Direction C · Spec</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F2EA;font-family:'IBM Plex Sans',Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#3E5A3A}
+a.btn:hover,button.btn:hover{background:#2F4530;color:#F6F2EA}
+.lk:hover{text-decoration:underline;text-underline-offset:4px}
+a:focus-visible,button:focus-visible{outline:2px solid #3E5A3A;outline-offset:3px}
+.card:hover{outline:1px solid #3E5A3A;outline-offset:-1px}
+.card:hover .l2{opacity:1!important}
+@keyframes drawLoop{0%{transform:scaleX(0)}45%{transform:scaleX(1)}85%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+@keyframes tickLoop{0%,30%{opacity:0;transform:translateY(6px)}50%,85%{opacity:1;transform:none}100%{opacity:0;transform:none}}
+.loop-rule{transform-origin:0 50%;animation:drawLoop 3.2s cubic-bezier(.65,0,.35,1) infinite}
+.loop-num{animation:tickLoop 3.2s ease-out infinite}
+@media (prefers-reduced-motion:reduce){.loop-rule,.loop-num{animation:none!important}.card .l2{transition:none!important}}
+</style>
+</helmet>
+<div style="width:720px;box-sizing:border-box;background:#F6F2EA;color:#1E241F;font-family:'IBM Plex Sans',Arial,sans-serif;font-size:16px;line-height:1.6;padding:40px 40px 56px">
+
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Round 1 · Token sheet</div>
+<h1 style="margin:12px 0 8px;font:400 56px/1.0 'Instrument Serif',Georgia,serif;letter-spacing:-0.01em">Direction C · Workshop Index</h1>
+<p style="margin:0;max-width:560px;font-size:16px;line-height:1.6;color:#5B6158">Bright, precise, archival: a well-organized maker's catalog on a visible 12-column grid.</p>
+
+<!-- 01 Type -->
+<section style="position:relative;margin-top:48px;border-top:1px solid #CFC6B3;padding-top:16px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">01 · Type pairing</div>
+<div style="margin-top:16px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">
+<div><div style="font:400 24px/1.25 'Instrument Serif',Georgia,serif">Instrument Serif</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-top:4px">Display · 400, italic</div></div>
+<div><div style="font:400 18px/1.4 'IBM Plex Sans',Arial,sans-serif">IBM Plex Sans</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-top:4px">Body · 400, 500</div></div>
+<div><div style="font:400 16px/1.4 'IBM Plex Mono',monospace">IBM Plex Mono</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-top:4px">Labels, data · 400</div></div>
+</div>
+
+<div style="margin-top:24px;border-top:1px solid #CFC6B3;padding:16px 0 20px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Display / H1 · Instrument Serif · 96px / 1.0 · 400 · -0.01em</div>
+<div style="font:400 96px/1.0 'Instrument Serif',Georgia,serif;letter-spacing:-0.01em">Spaces to come home to.</div>
+</div>
+<div style="border-top:1px solid #CFC6B3;padding:16px 0 20px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">H2 · Instrument Serif · 48px / 1.08 · 400</div>
+<div style="font:400 48px/1.08 'Instrument Serif',Georgia,serif">Recent projects</div>
+</div>
+<div style="border-top:1px solid #CFC6B3;padding:16px 0 20px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">H3 · Instrument Serif · 24px / 1.25 · 400</div>
+<div style="font:400 24px/1.25 'Instrument Serif',Georgia,serif">Full-Service Furnishing</div>
+</div>
+<div style="border-top:1px solid #CFC6B3;padding:16px 0 20px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Body · IBM Plex Sans · 16px / 1.6 · 400</div>
+<div style="font:400 16px/1.6 'IBM Plex Sans',Arial,sans-serif;max-width:520px">We design, source, deliver, and style every room.</div>
+</div>
+<div style="border-top:1px solid #CFC6B3;padding:16px 0 20px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Small · IBM Plex Sans · 13px / 1.5 · 400</div>
+<div style="font:400 13px/1.5 'IBM Plex Sans',Arial,sans-serif;color:#5B6158">From ₱1,500,000, design fee included.</div>
+</div>
+<div style="border-top:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:16px 0 20px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Label · IBM Plex Mono · 12px / 1.4 · 400 · sentence case</div>
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace">01 · Recent projects &nbsp;/&nbsp; Antipolo, Rizal &nbsp;/&nbsp; ₱186,000 &nbsp;/&nbsp; 228 × 92 × 72 cm</div>
+</div>
+</section>
+
+<!-- 02 Palette -->
+<section style="position:relative;margin-top:48px;border-top:1px solid #CFC6B3;padding-top:16px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">02 · Palette</div>
+<div style="margin-top:16px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 16px">
+<div><div style="height:72px;background:#F6F2EA;border:1px solid #CFC6B3"></div><div style="font-size:13px;line-height:1.5;margin-top:8px">Background</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">#F6F2EA</div></div>
+<div><div style="height:72px;background:#ECE5D6;border:1px solid #CFC6B3"></div><div style="font-size:13px;line-height:1.5;margin-top:8px">Surface</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">#ECE5D6</div></div>
+<div><div style="height:72px;background:#1E241F"></div><div style="font-size:13px;line-height:1.5;margin-top:8px">Text</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">#1E241F</div></div>
+<div><div style="height:72px;background:#5B6158"></div><div style="font-size:13px;line-height:1.5;margin-top:8px">Muted text</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">#5B6158</div></div>
+<div><div style="height:72px;background:#3E5A3A"></div><div style="font-size:13px;line-height:1.5;margin-top:8px">Accent moss</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">#3E5A3A</div></div>
+<div><div style="height:72px;background:#CFC6B3"></div><div style="font-size:13px;line-height:1.5;margin-top:8px">Line</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">#CFC6B3</div></div>
+<div><div style="height:72px;background:#2F4530"></div><div style="font-size:13px;line-height:1.5;margin-top:8px">Deep panel moss</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">#2F4530</div></div>
+<div><div style="height:72px;background:#2F4530;display:flex;align-items:center;justify-content:center;color:#F6F2EA;font:400 12px/1.4 'IBM Plex Mono',monospace">Aa on panel</div><div style="font-size:13px;line-height:1.5;margin-top:8px">Text on panel</div><div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">#F6F2EA</div></div>
+</div>
+</section>
+
+<!-- 03 Image treatment -->
+<section style="position:relative;margin-top:48px;border-top:1px solid #CFC6B3;padding-top:16px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">03 · Image treatment</div>
+<div style="margin-top:16px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px">
+<div>
+<div style="border-top:1px solid #CFC6B3;padding:8px 0;font-size:13px;line-height:1.5"><span style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Crop</span><br>Square 1:1 and 4:3, straight-on, often tight on material and joinery.</div>
+<div style="border-top:1px solid #CFC6B3;padding:8px 0;font-size:13px;line-height:1.5"><span style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Light</span><br>Bright, even coastal daylight on pale walls.</div>
+<div style="border-top:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:8px 0;font-size:13px;line-height:1.5"><span style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Color grade</span><br>True-to-life color with a slight green-olive cast in the shadows.</div>
+</div>
+<div role="img" aria-label="Sample placeholder, tight crop of a mahogany and linen joint" style="position:relative;overflow:hidden;aspect-ratio:4/3;background:linear-gradient(115deg,transparent 0 46%,rgba(58,44,30,.35) 46% 47%,transparent 47%),linear-gradient(#5a3b2b,#5a3b2b) 100% 100%/54% 100% no-repeat,repeating-linear-gradient(90deg,rgba(40,25,16,.22) 0 1px,transparent 1px 7px),linear-gradient(180deg,#e0d5ba,#cfc3a4 70%,#a39b7d)">
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Silong Sofa, linen cushion meeting mahogany frame, even daylight</span>
+</div>
+</div>
+</section>
+
+<!-- 04 Components -->
+<section style="position:relative;margin-top:48px;border-top:1px solid #CFC6B3;padding-top:16px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">04 · Components</div>
+
+<div style="margin-top:16px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start">
+<div>
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Primary button</div>
+<a href="#" class="btn" style="display:inline-flex;align-items:center;gap:12px;background:#3E5A3A;color:#F6F2EA;padding:16px 24px;font:500 15px/1.2 'IBM Plex Sans',Arial,sans-serif;border-radius:0;transition:background .2s">Book a discovery call <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+</div>
+<div>
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Secondary link</div>
+<a href="#" class="lk" style="display:inline-flex;align-items:center;gap:8px;font:400 13px/1.4 'IBM Plex Mono',monospace;min-height:44px">View projects <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+</div>
+<div>
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Text link</div>
+<a href="#" style="font-size:15px;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#CFC6B3;color:#1E241F;display:inline-block;min-height:44px;line-height:44px">Ask the studio</a>
+</div>
+</div>
+
+<div style="margin-top:24px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start">
+<div>
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Product card · hover for border and detail crop</div>
+<a href="#" class="card" style="position:relative;display:block;border:1px solid #CFC6B3;padding:12px;color:#1E241F">
+<div role="img" aria-label="Kapis Pendant, brass dome on a pale wall" style="position:relative;overflow:hidden;aspect-ratio:1/1">
+<div class="l1" style="position:absolute;inset:0;background:radial-gradient(ellipse 22% 14% at 50% 46%,#c9a566 0 60%,#8a6b38 100%) ,linear-gradient(#5a4a30,#5a4a30) 50% 0/0.6% 34% no-repeat,radial-gradient(ellipse 60% 40% at 50% 52%,rgba(255,226,160,.45),transparent 70%),linear-gradient(180deg,#e9e6d8,#dad7c4)"></div>
+<div class="l2" style="position:absolute;inset:0;opacity:0;transition:opacity .45s;background:radial-gradient(ellipse 46% 40% at 50% 58%,#d6b574 0 55%,#8a6b38 100%),radial-gradient(ellipse 80% 60% at 50% 60%,rgba(255,226,160,.5),transparent 75%),linear-gradient(180deg,#e2dfcd,#cfcbb2)"></div>
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Kapis Pendant, brass dome, pale wall</span>
+</div>
+<div style="margin-top:12px;font:400 12px/1.4 'IBM Plex Mono',monospace">
+<div style="padding:10px 0 8px;border-top:1px solid #CFC6B3;font:400 22px/1.2 'Instrument Serif',Georgia,serif">Kapis Pendant</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3;color:#5B6158">Tanso Lighting Works</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3">₱32,000</div>
+<div style="padding:8px 0 0;border-top:1px solid #CFC6B3;color:#5B6158">In stock</div>
+</div>
+</a>
+</div>
+<div>
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:12px">Option swatch row · 40px tiles</div>
+<div style="display:flex;gap:16px;align-items:flex-start">
+<button type="button" aria-pressed="true" style="all:unset;cursor:pointer;display:block;text-align:center;font:400 12px/1.4 'IBM Plex Mono',monospace"><span style="display:block;width:40px;height:40px;background:#D8CCB0;margin:4px 4px 8px;outline:2px solid #3E5A3A;outline-offset:3px"></span>Oat</button>
+<button type="button" aria-pressed="false" style="all:unset;cursor:pointer;display:block;text-align:center;font:400 12px/1.4 'IBM Plex Mono',monospace"><span style="display:block;width:40px;height:40px;background:#CBB48C;margin:4px 4px 8px"></span>Sand</button>
+<button type="button" aria-pressed="false" style="all:unset;cursor:pointer;display:block;text-align:center;font:400 12px/1.4 'IBM Plex Mono',monospace"><span style="display:block;width:40px;height:40px;background:#B07A5C;margin:4px 4px 8px"></span>Clay</button>
+<button type="button" aria-pressed="false" style="all:unset;cursor:pointer;display:block;text-align:center;font:400 12px/1.4 'IBM Plex Mono',monospace"><span style="display:block;width:40px;height:40px;background:#3C403C;margin:4px 4px 8px"></span>Charcoal</button>
+</div>
+<div style="margin-top:20px;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;margin-bottom:8px">Size labels</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap">
+<button type="button" aria-pressed="true" style="background:#F6F2EA;border:1px solid #3E5A3A;box-shadow:inset 0 0 0 1px #3E5A3A;border-radius:0;padding:10px 12px;min-height:44px;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#1E241F;cursor:pointer">Three-seat 228 cm</button>
+<button type="button" aria-pressed="false" style="background:#F6F2EA;border:1px solid #CFC6B3;border-radius:0;padding:10px 12px;min-height:44px;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#1E241F;cursor:pointer">Two-seat 178 cm</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 05 Motion -->
+<section style="position:relative;margin-top:48px;border-top:1px solid #CFC6B3;padding-top:16px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">05 · Motion · Drawn lines</div>
+<p style="margin:12px 0 0;font-size:15px;line-height:1.6;max-width:560px">When a section enters view, its top rule draws from 0 to full width in 700ms and the section number ticks in. Product cards turn the border moss and crossfade to a detail crop on hover. Disabled under reduced motion.</p>
+<div style="margin-top:20px;position:relative;border-top:1px solid #CFC6B3;padding:14px 0 20px;height:56px">
+<div class="loop-rule" style="position:absolute;top:-1px;left:0;width:100%;height:1px;background:#3E5A3A"></div>
+<span class="loop-num" style="font:400 12px/1.4 'IBM Plex Mono',monospace">03 · Recent projects</span>
+<div style="font:400 24px/1.25 'Instrument Serif',Georgia,serif;margin-top:6px">Recent projects</div>
+</div>
+</section>
+
+<!-- 06 Radii and spacing -->
+<section style="position:relative;margin-top:48px;border-top:1px solid #CFC6B3;padding-top:16px">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">06 · Radii and spacing</div>
+<div style="margin-top:12px;border-top:1px solid #CFC6B3;padding:8px 0;font-size:14px;line-height:1.5"><span style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Radii</span> &nbsp; 0 on every element. Buttons, cards, inputs, and images are square.</div>
+<div style="border-top:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:8px 0;font-size:14px;line-height:1.5"><span style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Spacing</span> &nbsp; 4, 8, 12, 16, 24, 32, 48, 64, 96. Grid: 12 columns, 48px margin, 24px gutter.</div>
+<div style="margin-top:16px;display:flex;align-items:flex-end;gap:12px;font:400 11px/1.4 'IBM Plex Mono',monospace;color:#5B6158">
+<div><div style="width:4px;height:4px;background:#3E5A3A"></div>4</div>
+<div><div style="width:8px;height:8px;background:#3E5A3A"></div>8</div>
+<div><div style="width:12px;height:12px;background:#3E5A3A"></div>12</div>
+<div><div style="width:16px;height:16px;background:#3E5A3A"></div>16</div>
+<div><div style="width:24px;height:24px;background:#3E5A3A"></div>24</div>
+<div><div style="width:32px;height:32px;background:#3E5A3A"></div>32</div>
+<div><div style="width:48px;height:48px;background:#3E5A3A"></div>48</div>
+<div><div style="width:64px;height:64px;background:#3E5A3A"></div>64</div>
+<div><div style="width:96px;height:96px;background:#3E5A3A"></div>96</div>
+</div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":720,"height":3100}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
