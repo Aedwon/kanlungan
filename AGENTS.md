@@ -23,6 +23,7 @@ The project is in the concept and design phase. There is no application code yet
 | Fictional projects (case studies) | `docs/content/projects.md` |
 | Voice and key copy | `docs/content/copy.md` |
 | Brief for the design mockup work | `docs/design/design-brief.md` |
+| Chosen visual direction and tokens | `docs/design/visual-system.md` |
 | Decisions made by an agent on delegation, open questions | `docs/decisions.md` |
 
 Each fact lives in one file. Link to it instead of repeating it. If two files disagree, the `docs/concept/` file wins over `docs/content/` and `docs/design/`.

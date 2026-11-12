@@ -1,0 +1,240 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-13T12:00:00Z"
+  },
+  "title": "Kanlungan round 1 directions",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "Overview"
+    },
+    "A-spec.dc.html": {
+      "x": 0,
+      "y": 1400,
+      "w": 720,
+      "h": 3880,
+      "title": "A \u00b7 Spec sheet"
+    },
+    "A-home-desktop.dc.html": {
+      "x": 800,
+      "y": 1400,
+      "w": 1440,
+      "h": 6600,
+      "title": "A \u00b7 Home desktop",
+      "expand": "fill"
+    },
+    "A-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 1400,
+      "w": 390,
+      "h": 7500,
+      "title": "A \u00b7 Home mobile"
+    },
+    "A-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 1400,
+      "w": 1440,
+      "h": 4230,
+      "title": "A \u00b7 Silong Sofa desktop",
+      "expand": "fill"
+    },
+    "B-spec.dc.html": {
+      "x": 0,
+      "y": 9400,
+      "w": 720,
+      "h": 3850,
+      "title": "B \u00b7 Spec sheet"
+    },
+    "B-home-desktop.dc.html": {
+      "x": 800,
+      "y": 9400,
+      "w": 1440,
+      "h": 5880,
+      "title": "B \u00b7 Home desktop",
+      "expand": "fill"
+    },
+    "B-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 9400,
+      "w": 390,
+      "h": 7240,
+      "title": "B \u00b7 Home mobile"
+    },
+    "B-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 9400,
+      "w": 1440,
+      "h": 4200,
+      "title": "B \u00b7 Silong Sofa desktop",
+      "expand": "fill"
+    },
+    "C-spec.dc.html": {
+      "x": 0,
+      "y": 17100,
+      "w": 720,
+      "h": 3100,
+      "title": "C \u00b7 Spec sheet"
+    },
+    "C-home-desktop.dc.html": {
+      "x": 800,
+      "y": 17100,
+      "w": 1440,
+      "h": 5220,
+      "title": "C \u00b7 Home desktop",
+      "expand": "fill"
+    },
+    "C-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 17100,
+      "w": 390,
+      "h": 7530,
+      "title": "C \u00b7 Home mobile"
+    },
+    "C-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 17100,
+      "w": 1440,
+      "h": 4190,
+      "title": "C \u00b7 Silong Sofa desktop",
+      "expand": "fill"
+    },
+    "D-spec.dc.html": {
+      "x": 0,
+      "y": -7700,
+      "w": 720,
+      "h": 4180,
+      "title": "D \u00b7 Spec sheet"
+    },
+    "D-home-desktop.dc.html": {
+      "x": 800,
+      "y": -7700,
+      "w": 1440,
+      "h": 5880,
+      "title": "D \u00b7 Home desktop",
+      "expand": "fill"
+    },
+    "D-home-mobile.dc.html": {
+      "x": 2320,
+      "y": -7700,
+      "w": 390,
+      "h": 7200,
+      "title": "D \u00b7 Home mobile"
+    },
+    "D-product-desktop.dc.html": {
+      "x": 2790,
+      "y": -7700,
+      "w": 1440,
+      "h": 4210,
+      "title": "D \u00b7 Silong Sofa desktop",
+      "expand": "fill"
+    },
+    "D-type-options.dc.html": {
+      "x": 4310,
+      "y": -7700,
+      "w": 1440,
+      "h": 1690,
+      "title": "D \u00b7 Type options"
+    },
+    "D2-spec.dc.html": {
+      "x": 0,
+      "y": -15400,
+      "w": 720,
+      "h": 4130,
+      "title": "D2 \u00b7 Spec sheet"
+    },
+    "D2-home-desktop.dc.html": {
+      "x": 800,
+      "y": -15400,
+      "w": 1440,
+      "h": 5880,
+      "title": "D2 \u00b7 Home desktop",
+      "expand": "fill"
+    },
+    "D2-home-mobile.dc.html": {
+      "x": 2320,
+      "y": -15400,
+      "w": 390,
+      "h": 7200,
+      "title": "D2 \u00b7 Home mobile"
+    },
+    "D2-product-desktop.dc.html": {
+      "x": 2790,
+      "y": -15400,
+      "w": 1440,
+      "h": 4210,
+      "title": "D2 \u00b7 Silong Sofa desktop",
+      "expand": "fill"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "A-spec.dc.html",
+    "A-home-desktop.dc.html",
+    "A-home-mobile.dc.html",
+    "A-product-desktop.dc.html",
+    "B-spec.dc.html",
+    "B-home-desktop.dc.html",
+    "B-home-mobile.dc.html",
+    "B-product-desktop.dc.html",
+    "C-spec.dc.html",
+    "C-home-desktop.dc.html",
+    "C-home-mobile.dc.html",
+    "C-product-desktop.dc.html",
+    "D-spec.dc.html",
+    "D-home-desktop.dc.html",
+    "D-home-mobile.dc.html",
+    "D-product-desktop.dc.html",
+    "D-type-options.dc.html",
+    "D2-spec.dc.html",
+    "D2-home-desktop.dc.html",
+    "D2-home-mobile.dc.html",
+    "D2-product-desktop.dc.html"
+  ],
+  "notes": {
+    "rowA": {
+      "x": 0,
+      "y": 1100,
+      "text": "A \u00b7 Shaded Room",
+      "kind": "title1",
+      "maxW": 4230
+    },
+    "rowB": {
+      "x": 0,
+      "y": 9100,
+      "text": "B \u00b7 Lamplight",
+      "kind": "title1",
+      "maxW": 4230
+    },
+    "rowC": {
+      "x": 0,
+      "y": 16800,
+      "text": "C \u00b7 Workshop Index",
+      "kind": "title1",
+      "maxW": 4230
+    },
+    "rowD": {
+      "x": 0,
+      "y": -8000,
+      "text": "D \u00b7 Mix with Newsreader type (A)",
+      "kind": "title1",
+      "maxW": 5750
+    },
+    "rowD2": {
+      "x": 0,
+      "y": -15700,
+      "text": "D2 \u00b7 Same mix with Inter Tight type (B)",
+      "kind": "title1",
+      "maxW": 4230
+    }
+  },
+  "designSystems": []
+}

@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Direction C · Home desktop</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F2EA;font-family:'IBM Plex Sans',Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#3E5A3A}
+a.btn:hover,button.btn:hover{background:#2F4530;color:#F6F2EA}
+.lk:hover{text-decoration:underline;text-underline-offset:4px}
+.nav:hover{text-decoration:underline;text-underline-offset:6px}
+.ft a:hover{color:#F6F2EA;text-decoration:underline;text-underline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #3E5A3A;outline-offset:3px}
+.ft a:focus-visible,.ft button:focus-visible,.ft input:focus-visible{outline-color:#F6F2EA}
+.card:hover{outline:1px solid #3E5A3A;outline-offset:-1px;z-index:2}
+.card:hover .l2{opacity:1!important}
+@keyframes drawRule{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes tickIn{from{opacity:.25;transform:translateY(6px)}to{opacity:1;transform:none}}
+.rule{transform-origin:0 50%;animation:drawRule 700ms cubic-bezier(.65,0,.35,1) both}
+.num{display:inline-block;animation:tickIn 420ms ease-out both}
+@media (prefers-reduced-motion:reduce){.rule,.num{animation:none!important}.card .l2{transition:none!important}}
+</style>
+</helmet>
+<div style="width:100%;background:#F6F2EA;color:#1E241F;font-family:'IBM Plex Sans',Arial,sans-serif;font-size:16px;line-height:1.6">
+
+<!-- Header -->
+<header style="position:relative;border-bottom:1px solid #CFC6B3">
+<div style="max-width:1440px;margin:0 auto;padding:0 48px;height:72px;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:24px">
+<a href="#" style="font:400 32px/1 'Instrument Serif',Georgia,serif;letter-spacing:-0.01em">Kanlungan</a>
+<nav aria-label="Primary" style="display:flex;gap:40px;font-size:15px">
+<a href="#" class="nav">Studio</a>
+<a href="#" class="nav">Projects</a>
+<a href="#" class="nav">Shop</a>
+<a href="#" class="nav">About</a>
+</nav>
+<div style="display:flex;align-items:center;gap:8px">
+<button type="button" aria-label="Search" style="all:unset;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2L17 17"/></svg></button>
+<a href="#" aria-label="Cart, 0 items" style="display:inline-flex;align-items:center;gap:6px;min-height:44px;margin-right:12px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M3.5 6.5h13l-1 10.5h-11z"/><path d="M7 6.5V5a3 3 0 0 1 6 0v1.5"/></svg><span style="font:400 12px/1 'IBM Plex Mono',monospace">0</span></a>
+<a href="#" class="btn" style="display:inline-flex;align-items:center;gap:12px;background:#3E5A3A;color:#F6F2EA;padding:13px 20px;font:500 15px/1.2 'IBM Plex Sans',Arial,sans-serif;border-radius:0;transition:background .2s">Book a discovery call <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+</div>
+</div>
+</header>
+
+<main>
+<!-- 01 Hero -->
+<section style="position:relative">
+<div class="rule" style="position:absolute;top:-1px;left:0;width:100%;height:1px;background:#3E5A3A;animation-delay:.1s"></div>
+<div style="max-width:1440px;margin:0 auto;padding:40px 48px 40px;box-sizing:border-box">
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px">
+<div style="grid-column:1/8;grid-row:1;position:relative;z-index:1;display:flex;flex-direction:column;justify-content:space-between">
+<div>
+<span class="num" style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;animation-delay:.4s">01</span>
+<h1 style="margin:32px 0 0;font:400 96px/1.0 'Instrument Serif',Georgia,serif;letter-spacing:-0.01em">Spaces to<br>come home<br>to.</h1>
+<p style="margin:32px 0 0;max-width:400px;font-size:16px;line-height:1.6;color:#1E241F">Kanlungan is an interior design studio and shop. We furnish homes and small hotels so they feel like refuge.</p>
+<div style="margin-top:32px;display:flex;align-items:center;gap:28px;flex-wrap:wrap">
+<a href="#" class="btn" style="display:inline-flex;align-items:center;gap:12px;background:#3E5A3A;color:#F6F2EA;padding:16px 24px;font:500 15px/1.2 'IBM Plex Sans',Arial,sans-serif;border-radius:0;transition:background .2s">Book a discovery call <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+<a href="#" class="lk" style="display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 13px/1.4 'IBM Plex Mono',monospace">View projects <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+</div>
+</div>
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;padding-top:32px">Lilim House, Antipolo, Rizal</div>
+</div>
+<div role="img" aria-label="Lilim House living room under deep eaves, low mahogany and linen sofa, greenery through wide openings" style="grid-column:6/13;grid-row:1;margin-left:-48px;position:relative;z-index:2;overflow:hidden;aspect-ratio:1.1/1;border:1px solid #CFC6B3;box-sizing:border-box;background:
+linear-gradient(#4a3325,#4a3325) 26% 71%/34% 9% no-repeat,
+linear-gradient(#d9cdb3,#d9cdb3) 27% 66.5%/30% 6% no-repeat,
+radial-gradient(ellipse 22% 3% at 43% 81%,rgba(34,44,30,.55),transparent),
+linear-gradient(180deg,#eef2e2 0%,#bfd0ac 22%,#789562 46%,#5d7a52 62%) 100% 14%/44% 56% no-repeat,
+linear-gradient(180deg,rgba(38,46,33,.62) 0%,transparent 20%),
+linear-gradient(180deg,transparent 0 76%,#a09a7c 76%,#7a7658 100%),
+linear-gradient(90deg,#e4e1d1,#efece0 55%,#e2dfce)">
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Lilim House living room, shaded daylight, deep eaves, low mahogany-and-linen sofa, greenery through wide openings</span>
+</div>
+</div>
+</div>
+<!-- fact row -->
+<div style="border-top:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3">
+<div style="max-width:1440px;margin:0 auto;padding:0 48px;box-sizing:border-box;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));font:400 12px/1.4 'IBM Plex Mono',monospace;color:#1E241F">
+<div style="padding:16px 0">Lilim House</div>
+<div style="padding:16px 0 16px 24px;border-left:1px solid #CFC6B3">Antipolo, Rizal</div>
+<div style="padding:16px 0 16px 24px;border-left:1px solid #CFC6B3">320 sqm</div>
+<div style="padding:16px 0 16px 24px;border-left:1px solid #CFC6B3">Full-Service Furnishing</div>
+<div style="padding:16px 0 16px 24px;border-left:1px solid #CFC6B3">2025</div>
+</div>
+</div>
+</section>
+
+<!-- 02 Statement -->
+<section style="position:relative">
+<div class="rule" style="position:absolute;top:-1px;left:0;width:100%;height:1px;background:#3E5A3A;animation-delay:.5s"></div>
+<div style="max-width:1440px;margin:0 auto;padding:96px 48px;box-sizing:border-box;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px">
+<div style="grid-column:1/4"><span class="num" style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;animation-delay:.8s">02</span></div>
+<p style="grid-column:4/12;margin:0;font:400 48px/1.08 'Instrument Serif',Georgia,serif;letter-spacing:-0.005em">A home should lower your shoulders when you walk in. We design for that feeling: cool rooms, honest materials, and furniture made by people we know.</p>
+</div>
+</section>
+
+<!-- 03 Recent projects -->
+<section style="position:relative;border-top:1px solid #CFC6B3">
+<div class="rule" style="position:absolute;top:-1px;left:0;width:100%;height:1px;background:#3E5A3A;animation-delay:.9s"></div>
+<div style="max-width:1440px;margin:0 auto;padding:24px 48px 96px;box-sizing:border-box">
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:end">
+<div style="grid-column:1/4;align-self:start"><span class="num" style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;animation-delay:1.2s">03</span></div>
+<h2 style="grid-column:4/10;margin:0;font:400 48px/1.08 'Instrument Serif',Georgia,serif">Recent projects</h2>
+<div style="grid-column:10/13;text-align:right"><a href="#" class="lk" style="display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 13px/1.4 'IBM Plex Mono',monospace">View projects <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a></div>
+</div>
+<div style="margin-top:48px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">
+<article>
+<a href="#" style="display:block">
+<div role="img" aria-label="Lilim House terrace with a timber bench, shaded daylight and greenery" style="position:relative;overflow:hidden;aspect-ratio:1/1;background:
+linear-gradient(#6a4a35,#6a4a35) 22% 70%/46% 3.5% no-repeat,
+linear-gradient(#5a3e2c,#5a3e2c) 26% 74%/2% 8% no-repeat,
+linear-gradient(#5a3e2c,#5a3e2c) 64% 74%/2% 8% no-repeat,
+radial-gradient(ellipse 30% 3% at 46% 82.5%,rgba(34,44,30,.5),transparent),
+linear-gradient(180deg,transparent 0 80%,#a8a284 80%,#85816a 100%),
+linear-gradient(180deg,#f0f3e4 0%,#bccfa8 20%,#7a9863 38%,#58744c 62%,transparent 80%),
+linear-gradient(180deg,rgba(38,46,33,.6),transparent 18%),
+linear-gradient(#ddd9c8,#ddd9c8)">
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Lilim House terrace, timber bench, shaded daylight, greenery</span>
+</div>
+</a>
+<div style="margin-top:16px;border-top:1px solid #CFC6B3">
+<h3 style="margin:0;padding:12px 0;font:400 24px/1.25 'Instrument Serif',Georgia,serif"><a href="#">Lilim House</a></h3>
+<div style="padding:9px 0;border-top:1px solid #CFC6B3;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Antipolo, Rizal</div>
+<div style="padding:9px 0;border-top:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Residential</div>
+</div>
+</article>
+<article>
+<a href="#" style="display:block">
+<div role="img" aria-label="Tanaw Residence, city skyline at dusk through full-height windows, warm lamps" style="position:relative;overflow:hidden;aspect-ratio:1/1;background:
+radial-gradient(circle at 16% 80%,rgba(255,204,128,.85),transparent 11%),
+radial-gradient(circle at 84% 74%,rgba(255,200,120,.7),transparent 9%),
+linear-gradient(90deg,transparent 0 33%,rgba(30,36,31,.5) 33% 33.8%,transparent 33.8% 66%,rgba(30,36,31,.5) 66% 66.8%,transparent 66.8%),
+linear-gradient(180deg,transparent 0 88%,#5d5846 88%,#46422f 100%),
+linear-gradient(#3b4743,#3b4743) 6% 76%/7% 34% no-repeat,
+linear-gradient(#46544f,#46544f) 15% 76%/9% 46% no-repeat,
+linear-gradient(#34413d,#34413d) 26% 76%/6% 28% no-repeat,
+linear-gradient(#4a5853,#4a5853) 37% 76%/10% 52% no-repeat,
+linear-gradient(#3b4743,#3b4743) 50% 76%/7% 38% no-repeat,
+linear-gradient(#46544f,#46544f) 61% 76%/11% 58% no-repeat,
+linear-gradient(#34413d,#34413d) 75% 76%/8% 32% no-repeat,
+linear-gradient(#4a5853,#4a5853) 88% 76%/9% 44% no-repeat,
+linear-gradient(180deg,#9fb9b1 0%,#d5cba9 46%,#eab78a 62%,#c9a487 74%)">
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Tanaw Residence, city skyline at dusk through full-height windows, warm lamps</span>
+</div>
+</a>
+<div style="margin-top:16px;border-top:1px solid #CFC6B3">
+<h3 style="margin:0;padding:12px 0;font:400 24px/1.25 'Instrument Serif',Georgia,serif"><a href="#">Tanaw Residence</a></h3>
+<div style="padding:9px 0;border-top:1px solid #CFC6B3;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Bonifacio Global City, Taguig</div>
+<div style="padding:9px 0;border-top:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Residential</div>
+</div>
+</article>
+<article>
+<a href="#" style="display:block">
+<div role="img" aria-label="Dalampasigan Inn guest room, pale limewash walls, reed mat, open window" style="position:relative;overflow:hidden;aspect-ratio:1/1;background:
+linear-gradient(#e9e3d1,#e9e3d1) 10% 72%/38% 13% no-repeat,
+linear-gradient(#d6cdb4,#d6cdb4) 10% 66%/38% 5% no-repeat,
+linear-gradient(#b9a978,#b9a978) 56% 96%/40% 6% no-repeat,
+linear-gradient(90deg,rgba(120,110,80,.25) 0 1px,transparent 1px) 56% 96%/6px 6% repeat-x,
+linear-gradient(#fafcf2,#fafcf2) 64% 16%/26% 40% no-repeat,
+linear-gradient(180deg,transparent 0 82%,#bab093 82%,#9d9679 100%),
+radial-gradient(ellipse at 28% 30%,#f1ecde,#dedbc8 75%)">
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Dalampasigan Inn guest room, bright coastal light, limewash walls, reed mat, open window</span>
+</div>
+</a>
+<div style="margin-top:16px;border-top:1px solid #CFC6B3">
+<h3 style="margin:0;padding:12px 0;font:400 24px/1.25 'Instrument Serif',Georgia,serif"><a href="#">Dalampasigan Inn</a></h3>
+<div style="padding:9px 0;border-top:1px solid #CFC6B3;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">San Juan, La Union</div>
+<div style="padding:9px 0;border-top:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158">Hospitality</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- 04 Two ways to work -->
+<section style="position:relative;border-top:1px solid #CFC6B3">
+<div class="rule" style="position:absolute;top:-1px;left:0;width:100%;height:1px;background:#3E5A3A;animation-delay:1.3s"></div>
+<div style="max-width:1440px;margin:0 auto;padding:24px 48px 96px;box-sizing:border-box">
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px">
+<div style="grid-column:1/5">
+<span class="num" style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;animation-delay:1.6s">04</span>
+<h2 style="margin:24px 0 0;font:400 48px/1.08 'Instrument Serif',Georgia,serif">Two ways to work with us</h2>
+</div>
+<div style="grid-column:5/13;margin-top:40px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:1px solid #CFC6B3">
+<div style="padding:32px;border-right:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3">
+<h3 style="margin:0;font:400 24px/1.25 'Instrument Serif',Georgia,serif">Full-Service Furnishing</h3>
+<p style="margin:12px 0 0;font-size:16px;line-height:1.6">We design, source, deliver, and style every room.</p>
+</div>
+<div style="padding:32px;border-bottom:1px solid #CFC6B3">
+<h3 style="margin:0;font:400 24px/1.25 'Instrument Serif',Georgia,serif">Interior Design Direction</h3>
+<p style="margin:12px 0 0;font-size:16px;line-height:1.6">We design the space. You bring it to life.</p>
+</div>
+<div style="padding:24px 32px;border-right:1px solid #CFC6B3;background:#ECE5D6">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace">From ₱1,500,000, design fee included.</div>
+<a href="#" class="lk" style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 13px/1.4 'IBM Plex Mono',monospace">About this service <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+</div>
+<div style="padding:24px 32px;background:#ECE5D6">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace">From ₱2,500 per sqm, minimum ₱150,000.</div>
+<a href="#" class="lk" style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 13px/1.4 'IBM Plex Mono',monospace">About this service <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 05 Shop introduction -->
+<section style="position:relative;background:#ECE5D6;border-top:1px solid #CFC6B3">
+<div class="rule" style="position:absolute;top:-1px;left:0;width:100%;height:1px;background:#3E5A3A;animation-delay:1.7s"></div>
+<div style="max-width:1440px;margin:0 auto;padding:24px 48px 80px;box-sizing:border-box">
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:start">
+<div style="grid-column:1/4"><span class="num" style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;animation-delay:2s">05 · Shop</span></div>
+<p style="grid-column:4/10;margin:0;font:400 20px/1.5 'IBM Plex Sans',Arial,sans-serif">The pieces we use in our own projects, made by workshops across the Philippines.</p>
+<div style="grid-column:10/13;text-align:right"><a href="#" class="lk" style="display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 13px/1.4 'IBM Plex Mono',monospace">Explore the shop <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a></div>
+</div>
+<div style="margin-top:48px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">
+<article>
+<a href="#" style="display:block">
+<div role="img" aria-label="Quiet Living, low sofa, stone coffee table and stoneware lamp in soft evening light" style="position:relative;overflow:hidden;aspect-ratio:4/3;background:
+radial-gradient(ellipse 12% 16% at 78% 52%,rgba(255,224,160,.8),transparent 70%),
+linear-gradient(#cfc7b2,#cfc7b2) 66% 62%/9% 6% no-repeat,
+linear-gradient(#b8b09a,#b8b09a) 42% 74%/22% 6% no-repeat,
+linear-gradient(#4f392b,#4f392b) 6% 66%/34% 12% no-repeat,
+linear-gradient(#d7ccb2,#d7ccb2) 7% 61%/32% 6% no-repeat,
+radial-gradient(ellipse 40% 5% at 40% 87%,rgba(40,48,34,.5),transparent),
+linear-gradient(180deg,transparent 0 80%,#a39d80 80%,#807c63 100%),
+linear-gradient(90deg,#dedbc8,#e7e2d0 60%,#d7d3bd)">
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Quiet Living, low sofa, stone coffee table, stoneware lamp, soft evening light</span>
+</div>
+</a>
+<h3 style="margin:16px 0 0;font:400 24px/1.25 'Instrument Serif',Georgia,serif"><a href="#">Quiet Living</a></h3>
+<p style="margin:4px 0 0;font-size:13px;line-height:1.5;color:#5B6158">Soft light, low furniture, and nothing that asks for attention.</p>
+</article>
+<article>
+<a href="#" style="display:block">
+<div role="img" aria-label="Slow Mornings, wood dining table and cane chairs in morning light through a linen curtain" style="position:relative;overflow:hidden;aspect-ratio:4/3;background:
+linear-gradient(#8a6a4a,#8a6a4a) 20% 60%/60% 4% no-repeat,
+linear-gradient(#6f5238,#6f5238) 24% 64%/2.5% 22% no-repeat,
+linear-gradient(#6f5238,#6f5238) 73% 64%/2.5% 22% no-repeat,
+repeating-linear-gradient(60deg,rgba(94,70,44,.6) 0 1.5px,transparent 1.5px 7px) 8% 50%/16% 20% no-repeat,
+repeating-linear-gradient(60deg,rgba(94,70,44,.6) 0 1.5px,transparent 1.5px 7px) 78% 50%/16% 20% no-repeat,
+linear-gradient(180deg,transparent 0 84%,#aaa387 84%,#8a8669 100%),
+linear-gradient(105deg,rgba(255,255,244,.9) 0 18%,rgba(255,255,244,.35) 34%,transparent 52%),
+linear-gradient(90deg,#e8e4d3,#ddd9c6)">
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Slow Mornings, wood dining table, cane chairs, morning light through linen curtain</span>
+</div>
+</a>
+<h3 style="margin:16px 0 0;font:400 24px/1.25 'Instrument Serif',Georgia,serif"><a href="#">Slow Mornings</a></h3>
+<p style="margin:4px 0 0;font-size:13px;line-height:1.5;color:#5B6158">Pieces for the first hour of the day.</p>
+</article>
+<article>
+<a href="#" style="display:block">
+<div role="img" aria-label="Woven Forms, close crop of cane weave on a rattan lounge chair" style="position:relative;overflow:hidden;aspect-ratio:4/3;background:
+linear-gradient(#5a4128,#5a4128) 0 0/100% 7% no-repeat,
+linear-gradient(#5a4128,#5a4128) 0 100%/100% 7% no-repeat,
+repeating-linear-gradient(60deg,rgba(84,60,34,.6) 0 2px,transparent 2px 13px),
+repeating-linear-gradient(-60deg,rgba(84,60,34,.6) 0 2px,transparent 2px 13px),
+radial-gradient(circle at 30% 30%,#dcc594,#b8985f 80%)">
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Woven Forms, tight crop of hand-woven cane on a rattan lounge chair</span>
+</div>
+</a>
+<h3 style="margin:16px 0 0;font:400 24px/1.25 'Instrument Serif',Georgia,serif"><a href="#">Woven Forms</a></h3>
+<p style="margin:4px 0 0;font-size:13px;line-height:1.5;color:#5B6158">Cane, rattan, and reed, woven by hand.</p>
+</article>
+</div>
+</div>
+</section>
+
+<!-- 06 From the shop -->
+<section style="position:relative">
+<div class="rule" style="position:absolute;top:-1px;left:0;width:100%;height:1px;background:#3E5A3A;animation-delay:2.1s"></div>
+<div style="max-width:1440px;margin:0 auto;padding:24px 48px 96px;box-sizing:border-box">
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:end">
+<div style="grid-column:1/4;align-self:start"><span class="num" style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#5B6158;animation-delay:2.4s">06</span></div>
+<h2 style="grid-column:4/13;margin:0;font:400 48px/1.08 'Instrument Serif',Georgia,serif">From the shop</h2>
+</div>
+<div style="margin-top:48px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #CFC6B3;border-left:1px solid #CFC6B3">
+
+<a href="#" class="card" style="position:relative;display:block;border-right:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:12px;color:#1E241F">
+<div role="img" aria-label="Silong Sofa, low three-seat sofa on a pale wall" style="position:relative;overflow:hidden;aspect-ratio:1/1">
+<div class="l1" style="position:absolute;inset:0;background:
+linear-gradient(#4a3325,#4a3325) 14% 62%/72% 16% no-repeat,
+linear-gradient(#d9cdb3,#d9cdb3) 17% 54%/66% 10% no-repeat,
+radial-gradient(ellipse 40% 3% at 50% 80%,rgba(34,44,30,.5),transparent),
+linear-gradient(180deg,transparent 0 78%,#aaa488 78%,#86826a 100%),
+linear-gradient(90deg,#e2dfcf,#ece8d9 55%,#dedbc9)"></div>
+<div class="l2" style="position:absolute;inset:0;opacity:0;transition:opacity .45s;background:
+repeating-linear-gradient(90deg,rgba(40,25,16,.2) 0 1px,transparent 1px 8px) 100% 100%/45% 100% no-repeat,
+linear-gradient(#5a3b2b,#5a3b2b) 100% 100%/45% 100% no-repeat,
+linear-gradient(180deg,#e0d5ba,#cdc19f)"></div>
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Silong Sofa, front view; hover shows linen and mahogany joint</span>
+</div>
+<div style="margin-top:12px;font:400 12px/1.4 'IBM Plex Mono',monospace">
+<div style="padding:10px 0 8px;border-top:1px solid #CFC6B3;font:400 22px/1.2 'Instrument Serif',Georgia,serif">Silong Sofa</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3;color:#5B6158">Kanlungan Original</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3">₱186,000</div>
+<div style="padding:8px 0 0;border-top:1px solid #CFC6B3;color:#5B6158">Made to order · 10 weeks</div>
+</div>
+</a>
+
+<a href="#" class="card" style="position:relative;display:block;border-right:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:12px;color:#1E241F">
+<div role="img" aria-label="Hapag Dining Table, solid wood top on four legs" style="position:relative;overflow:hidden;aspect-ratio:1/1">
+<div class="l1" style="position:absolute;inset:0;background:
+linear-gradient(#8a6a4a,#8a6a4a) 10% 42%/80% 7% no-repeat,
+linear-gradient(#6f5238,#6f5238) 14% 49%/4% 32% no-repeat,
+linear-gradient(#6f5238,#6f5238) 82% 49%/4% 32% no-repeat,
+radial-gradient(ellipse 44% 3% at 50% 82%,rgba(34,44,30,.5),transparent),
+linear-gradient(180deg,transparent 0 80%,#aaa488 80%,#86826a 100%),
+linear-gradient(90deg,#e2dfcf,#ece8d9 55%,#dedbc9)"></div>
+<div class="l2" style="position:absolute;inset:0;opacity:0;transition:opacity .45s;background:
+repeating-linear-gradient(98deg,rgba(60,38,22,.22) 0 1px,transparent 1px 9px),repeating-linear-gradient(98deg,rgba(255,240,210,.12) 0 3px,transparent 3px 17px),linear-gradient(180deg,#a07e58,#8a6a4a)"></div>
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Hapag Dining Table, straight-on; hover shows wood grain</span>
+</div>
+<div style="margin-top:12px;font:400 12px/1.4 'IBM Plex Mono',monospace">
+<div style="padding:10px 0 8px;border-top:1px solid #CFC6B3;font:400 22px/1.2 'Instrument Serif',Georgia,serif">Hapag Dining Table</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3;color:#5B6158">Kanlungan Original</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3">₱178,000</div>
+<div style="padding:8px 0 0;border-top:1px solid #CFC6B3;color:#5B6158">Made to order · 12 weeks</div>
+</div>
+</a>
+
+<a href="#" class="card" style="position:relative;display:block;border-right:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:12px;color:#1E241F">
+<div role="img" aria-label="Dapithapon Lounge Chair, rattan frame with cane seat" style="position:relative;overflow:hidden;aspect-ratio:1/1">
+<div class="l1" style="position:absolute;inset:0;background:
+repeating-linear-gradient(60deg,rgba(84,60,34,.55) 0 1.5px,transparent 1.5px 8px) 30% 36%/40% 30% no-repeat,
+repeating-linear-gradient(-60deg,rgba(84,60,34,.55) 0 1.5px,transparent 1.5px 8px) 30% 36%/40% 30% no-repeat,
+linear-gradient(#c7a96f,#c7a96f) 30% 36%/40% 30% no-repeat,
+linear-gradient(#a98a52,#a98a52) 28% 62%/44% 8% no-repeat,
+linear-gradient(#8a6e3f,#8a6e3f) 32% 70%/3% 14% no-repeat,
+linear-gradient(#8a6e3f,#8a6e3f) 65% 70%/3% 14% no-repeat,
+radial-gradient(ellipse 30% 3% at 50% 86%,rgba(34,44,30,.5),transparent),
+linear-gradient(180deg,transparent 0 84%,#aaa488 84%,#86826a 100%),
+linear-gradient(90deg,#e2dfcf,#ece8d9 55%,#dedbc9)"></div>
+<div class="l2" style="position:absolute;inset:0;opacity:0;transition:opacity .45s;background:
+repeating-linear-gradient(60deg,rgba(84,60,34,.6) 0 2px,transparent 2px 12px),repeating-linear-gradient(-60deg,rgba(84,60,34,.6) 0 2px,transparent 2px 12px),radial-gradient(circle at 30% 30%,#dcc594,#b8985f 80%)"></div>
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Dapithapon Lounge Chair, front; hover shows woven cane</span>
+</div>
+<div style="margin-top:12px;font:400 12px/1.4 'IBM Plex Mono',monospace">
+<div style="padding:10px 0 8px;border-top:1px solid #CFC6B3;font:400 22px/1.2 'Instrument Serif',Georgia,serif">Dapithapon Lounge Chair</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3;color:#5B6158">Sulihiya Studio</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3">₱64,000</div>
+<div style="padding:8px 0 0;border-top:1px solid #CFC6B3;color:#5B6158">Made to order · 8 weeks</div>
+</div>
+</a>
+
+<a href="#" class="card" style="position:relative;display:block;border-right:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:12px;color:#1E241F">
+<div role="img" aria-label="Kapis Pendant, brass dome light hanging against a pale wall" style="position:relative;overflow:hidden;aspect-ratio:1/1">
+<div class="l1" style="position:absolute;inset:0;background:
+radial-gradient(ellipse 20% 13% at 50% 46%,#c9a566 0 60%,#8a6b38 100%),
+linear-gradient(#5a4a30,#5a4a30) 50% 0/0.5% 34% no-repeat,
+radial-gradient(ellipse 56% 40% at 50% 54%,rgba(255,226,160,.45),transparent 70%),
+linear-gradient(180deg,#e9e6d8,#dad7c4)"></div>
+<div class="l2" style="position:absolute;inset:0;opacity:0;transition:opacity .45s;background:
+radial-gradient(ellipse 44% 38% at 50% 58%,#d6b574 0 55%,#8a6b38 100%),radial-gradient(ellipse 80% 60% at 50% 60%,rgba(255,226,160,.5),transparent 75%),linear-gradient(180deg,#e2dfcd,#cfcbb2)"></div>
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Kapis Pendant, brass dome, pale wall; hover shows brass detail</span>
+</div>
+<div style="margin-top:12px;font:400 12px/1.4 'IBM Plex Mono',monospace">
+<div style="padding:10px 0 8px;border-top:1px solid #CFC6B3;font:400 22px/1.2 'Instrument Serif',Georgia,serif">Kapis Pendant</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3;color:#5B6158">Tanso Lighting Works</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3">₱32,000</div>
+<div style="padding:8px 0 0;border-top:1px solid #CFC6B3;color:#5B6158">In stock</div>
+</div>
+</a>
+
+<a href="#" class="card" style="position:relative;display:block;border-right:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:12px;color:#1E241F">
+<div role="img" aria-label="Aparador Cabinet, low sideboard with cane doors" style="position:relative;overflow:hidden;aspect-ratio:1/1">
+<div class="l1" style="position:absolute;inset:0;background:
+linear-gradient(90deg,transparent 0 33%,rgba(40,25,16,.5) 33% 34%,transparent 34% 66%,rgba(40,25,16,.5) 66% 67%,transparent 67%) 12% 44%/76% 30% no-repeat,
+repeating-linear-gradient(60deg,rgba(84,60,34,.45) 0 1.5px,transparent 1.5px 7px) 12% 44%/76% 30% no-repeat,
+linear-gradient(#a98a58,#a98a58) 12% 44%/76% 30% no-repeat,
+linear-gradient(#6f5238,#6f5238) 10% 42%/80% 3% no-repeat,
+linear-gradient(#6f5238,#6f5238) 14% 74%/3% 8% no-repeat,
+linear-gradient(#6f5238,#6f5238) 83% 74%/3% 8% no-repeat,
+radial-gradient(ellipse 42% 3% at 50% 83%,rgba(34,44,30,.5),transparent),
+linear-gradient(180deg,transparent 0 80%,#aaa488 80%,#86826a 100%),
+linear-gradient(90deg,#e2dfcf,#ece8d9 55%,#dedbc9)"></div>
+<div class="l2" style="position:absolute;inset:0;opacity:0;transition:opacity .45s;background:
+linear-gradient(115deg,transparent 0 48%,rgba(40,25,16,.5) 48% 50%,transparent 50%),repeating-linear-gradient(60deg,rgba(84,60,34,.5) 0 2px,transparent 2px 10px),repeating-linear-gradient(-60deg,rgba(84,60,34,.5) 0 2px,transparent 2px 10px),linear-gradient(90deg,#b99a64,#a58652)"></div>
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Aparador Cabinet, straight-on; hover shows cane panel and frame joint</span>
+</div>
+<div style="margin-top:12px;font:400 12px/1.4 'IBM Plex Mono',monospace">
+<div style="padding:10px 0 8px;border-top:1px solid #CFC6B3;font:400 22px/1.2 'Instrument Serif',Georgia,serif">Aparador Cabinet</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3;color:#5B6158">Kanlungan Original</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3">₱164,000</div>
+<div style="padding:8px 0 0;border-top:1px solid #CFC6B3;color:#5B6158">Made to order · 12 weeks</div>
+</div>
+</a>
+
+<a href="#" class="card" style="position:relative;display:block;border-right:1px solid #CFC6B3;border-bottom:1px solid #CFC6B3;padding:12px;color:#1E241F">
+<div role="img" aria-label="Tapayan Vessel, round stoneware vessel on a pale shelf" style="position:relative;overflow:hidden;aspect-ratio:1/1">
+<div class="l1" style="position:absolute;inset:0;background:
+radial-gradient(ellipse 18% 24% at 50% 56%,#8f6f4e 0 62%,#5f4630 100%),
+linear-gradient(#a19b80,#a19b80) 30% 76%/40% 2% no-repeat,
+radial-gradient(ellipse 22% 3% at 50% 78%,rgba(34,44,30,.5),transparent),
+linear-gradient(180deg,transparent 0 77%,#aaa488 77%,#86826a 100%),
+linear-gradient(90deg,#e2dfcf,#ece8d9 55%,#dedbc9)"></div>
+<div class="l2" style="position:absolute;inset:0;opacity:0;transition:opacity .45s;background:
+radial-gradient(ellipse 30% 20% at 34% 30%,rgba(255,244,220,.5),transparent 70%),repeating-linear-gradient(0deg,rgba(60,40,24,.2) 0 1px,transparent 1px 11px),radial-gradient(ellipse 90% 100% at 50% 60%,#9a7753,#5f4630 90%)"></div>
+<span style="position:absolute;left:8px;bottom:8px;z-index:3;max-width:calc(100% - 16px);padding:3px 7px;background:rgba(246,242,234,.88);color:#1E241F;font:400 11px/1.35 'IBM Plex Mono',monospace">Placeholder · Tapayan Vessel, stoneware on a shelf; hover shows glaze texture</span>
+</div>
+<div style="margin-top:12px;font:400 12px/1.4 'IBM Plex Mono',monospace">
+<div style="padding:10px 0 8px;border-top:1px solid #CFC6B3;font:400 22px/1.2 'Instrument Serif',Georgia,serif">Tapayan Vessel</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3;color:#5B6158">Bukal Clayworks</div>
+<div style="padding:8px 0;border-top:1px solid #CFC6B3">₱8,600</div>
+<div style="padding:8px 0 0;border-top:1px solid #CFC6B3;color:#5B6158">In stock</div>
+</div>
+</a>
+
+</div>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="ft" style="position:relative;background:#2F4530;color:#F6F2EA">
+<div style="max-width:1440px;margin:0 auto;padding:72px 48px 40px;box-sizing:border-box">
+<div style="font:400 64px/1 'Instrument Serif',Georgia,serif;letter-spacing:-0.01em">Kanlungan</div>
+<div style="margin-top:56px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;padding-top:32px;border-top:1px solid rgba(246,242,234,.3)">
+<div style="grid-column:span 2">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#D5DCCB;margin-bottom:12px">Studio</div>
+<ul style="list-style:none;margin:0;padding:0;font-size:15px;line-height:2">
+<li><a href="#">Full-Service Furnishing</a></li>
+<li><a href="#">Interior Design Direction</a></li>
+<li><a href="#">Projects</a></li>
+<li><a href="#">About</a></li>
+</ul>
+</div>
+<div style="grid-column:span 2">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#D5DCCB;margin-bottom:12px">Shop</div>
+<ul style="list-style:none;margin:0;padding:0;font-size:15px;line-height:2">
+<li><a href="#">Seating</a></li>
+<li><a href="#">Tables</a></li>
+<li><a href="#">Beds</a></li>
+<li><a href="#">Storage</a></li>
+<li><a href="#">Lighting</a></li>
+<li><a href="#">Rugs and Textiles</a></li>
+<li><a href="#">Decor and Objects</a></li>
+<li><a href="#">Art</a></li>
+<li><a href="#">Collections</a></li>
+<li><a href="#">Makers</a></li>
+</ul>
+</div>
+<div style="grid-column:span 2">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#D5DCCB;margin-bottom:12px">Help</div>
+<ul style="list-style:none;margin:0;padding:0;font-size:15px;line-height:2">
+<li><a href="#">Delivery and returns</a></li>
+<li><a href="#">Care guide</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+<div style="grid-column:span 3">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#D5DCCB;margin-bottom:12px">Mailing list</div>
+<form action="#" style="display:flex;flex-direction:column;gap:12px">
+<label for="ft-email" style="font-size:15px;line-height:1.5">Occasional notes on new projects and pieces.</label>
+<input id="ft-email" type="email" placeholder="Email address" style="box-sizing:border-box;width:100%;height:48px;padding:0 14px;background:transparent;border:1px solid rgba(246,242,234,.6);border-radius:0;color:#F6F2EA;font:400 14px/1.4 'IBM Plex Sans',Arial,sans-serif">
+<button type="submit" style="align-self:flex-start;display:inline-flex;align-items:center;gap:12px;background:#F6F2EA;color:#2F4530;padding:14px 24px;border:0;border-radius:0;cursor:pointer;font:500 15px/1.2 'IBM Plex Sans',Arial,sans-serif">Subscribe <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+</form>
+</div>
+<div style="grid-column:span 3">
+<div style="font:400 12px/1.4 'IBM Plex Mono',monospace;color:#D5DCCB;margin-bottom:12px">Showroom</div>
+<p style="margin:0;font-size:15px;line-height:1.6">Makati City, Metro Manila. Open by appointment.</p>
+<p style="margin:12px 0 0;font:400 13px/1.8 'IBM Plex Mono',monospace"><a href="#">studio@kanlungan.example</a><br><a href="#">+63 2 8555 0100</a></p>
+</div>
+</div>
+<div style="margin-top:56px;padding-top:24px;border-top:1px solid rgba(246,242,234,.3);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:start">
+<div style="grid-column:span 4;display:flex;gap:24px;font:400 13px/1.4 'IBM Plex Mono',monospace"><a href="#" style="display:inline-block;min-height:44px;line-height:44px;margin-top:-12px">Privacy</a><a href="#" style="display:inline-block;min-height:44px;line-height:44px;margin-top:-12px">Terms</a></div>
+<p style="grid-column:6/13;margin:0;font:400 13px/1.5 'IBM Plex Sans',Arial,sans-serif;color:#D5DCCB">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
+</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":5220}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
