@@ -2,7 +2,7 @@
 
 Status: **Decided on delegation.** All makers, artists, and their stories are invented. The names have not been checked against real businesses. See `docs/decisions.md`.
 
-Seven Philippine makers and two international makers. This ratio follows the Philippine-first rule in `docs/concept/shop.md`.
+Eight Philippine makers and two international makers. This ratio follows the Philippine-first rule in `docs/concept/shop.md`.
 
 ## Kanlungan Originals
 
