@@ -31,20 +31,21 @@ On 2026-11-13 Aedwon asked the agent to decide every remaining concept question 
 | Page structures | Section order for every template, including Home | `docs/concept/site-architecture.md` |
 | Project page structure | Nine sections, including Shop the project | `docs/concept/site-architecture.md` |
 | Seed makers | Seven Philippine, two international | `docs/content/makers.md` |
-| Seed catalog | 30 products, seven collections | `docs/content/catalog.md` |
+| Seed catalog | 32 products, seven collections | `docs/content/catalog.md` |
 | Seed projects | Four projects | `docs/content/projects.md` |
 | Steps 5 and 6 run together | Visual system is chosen through rendered directions on real pages | `README.md` |
 
+## Locked by Aedwon after delegation
+
+| Date | Decision | File |
+|---|---|---|
+| 2026-11-13 | Add a **Beds** category (bed frames, daybeds), sold without mattresses | `docs/concept/shop.md` |
+
 ## Open questions for Aedwon
 
-1. **Beds.** The locked taxonomy has no beds, but Bedroom is a named room-based collection. Options:
-   - Add a **Beds** category. Cost: changes a locked taxonomy.
-   - Keep the taxonomy and accept a Bedroom collection without a bed. Cost: the collection looks incomplete.
-   - Drop the Bedroom collection. Cost: loses a main room that both services furnish.
-   - Recommendation: add a **Beds** category with one or two Kanlungan Originals.
-2. **Second hospitality project.** Boutique hospitality is half of the locked market focus, but only one of four seed projects is hospitality. Recommendation: add one, such as a small resort or serviced residence.
-3. **Fictional names.** No invented name has been checked against real businesses, products, or people. Recommendation: check every maker, artist, product, and project name before any public release, and rename any that collide.
-4. **Pricing realism.** Service fees and product prices are plausible estimates, not researched figures. Recommendation: check them against real Philippine studios and shops before public release.
+1. **Second hospitality project.** Boutique hospitality is half of the locked market focus, but only one of four seed projects is hospitality. Recommendation: add one, such as a small resort or serviced residence.
+2. **Fictional names.** No invented name has been checked against real businesses, products, or people. Recommendation: check every maker, artist, product, and project name before any public release, and rename any that collide.
+3. **Pricing realism.** Service fees and product prices are plausible estimates, not researched figures. Recommendation: check them against real Philippine studios and shops before public release.
 
 ## Deliberately not decided
 

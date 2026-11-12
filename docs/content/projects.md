@@ -15,7 +15,7 @@ Four projects: three residential or condo, one hospitality. Three use Full-Servi
 - **Brief:** A family of five moved into a newly built hillside house with deep eaves and large openings. They wanted rooms that stay cool and calm and that hold up to children.
 - **Approach:** The studio kept furniture low so the views stay open. Cane and rattan let air move through the rooms. Dark wood grounds the bright, shaded light. Washable linen covers and wool rugs handle daily family use.
 - **Material palette:** Plantation mahogany, cane, oat linen, wool, honed Romblon marble, unlacquered brass
-- **Shop the project:** Silong Sofa, Dapithapon Lounge Chair, Batis Coffee Table, Hapag Dining Table, Hain Dining Chair, Aparador Cabinet, Lambot Wool Rug, Kapis Pendant, Tapayan Vessel
+- **Shop the project:** Silong Sofa, Dapithapon Lounge Chair, Batis Coffee Table, Hapag Dining Table, Hain Dining Chair, Himlay Bed, Aparador Cabinet, Lambot Wool Rug, Kapis Pendant, Tapayan Vessel
 - **Image notes:** Shaded daylight, greenery through wide openings, long horizontal views, a terrace with a bench
 
 ## Tanaw Residence
@@ -43,7 +43,7 @@ Four projects: three residential or condo, one hospitality. Three use Full-Servi
 - **Brief:** The owners finished building a small inn near the beach. They needed twelve rooms and two shared spaces ready for guests in one season, with pieces that survive salt air and sand.
 - **Approach:** The studio designed one room type and repeated it with small changes in textile color. Furniture is solid and repairable. Reed mats replace wool rugs because they handle sand. The breakfast room has one long shared table.
 - **Material palette:** Acacia, tikog reed, rattan, handloomed cotton, stoneware, limewash
-- **Shop the project:** Bangko Bench, Tuntungan Stool, Banig Rug, Hain Dining Chair, Hapag Dining Table (260 cm), Lenta Pendant, Kumot Throw, Bilao Tray, Habi Wall Piece
+- **Shop the project:** Himlay Bed, Bangko Bench, Tuntungan Stool, Banig Rug, Hain Dining Chair, Hapag Dining Table (260 cm), Lenta Pendant, Kumot Throw, Bilao Tray, Habi Wall Piece
 - **Image notes:** Bright coastal light, pale walls, open windows, a guest room with a reed mat, a long breakfast table
 
 ## Hardin Apartment
