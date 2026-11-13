@@ -334,3 +334,19 @@ Status: **Decided on delegation.**
 - **Rugs and textiles:** Rugs, cushions, throws, and curtains in wool, linen, cotton, and reed.
 - **Decor and objects:** Vessels, trays, mirrors, and carved forms for a shelf or a table.
 - **Art:** Prints, paintings, and wall pieces by Philippine artists and makers.
+
+## Interface labels
+
+Status: **Decided on delegation** on 2026-11-14, from the round 2 templates.
+
+- Added to cart toast: "Added to your cart." with the link "Your cart →"
+- Product lists: "Load more"; loading state "Loading"
+- Sort: "Sort: Featured", with options Featured, Newest, Price: low to high, Price: high to low
+- Filters: Maker, Material, Availability, Price; "Filter and sort" (mobile button), "Clear all", "Show {n} pieces"
+- Links: "Makers →", "All collections →", "Full-Service Furnishing →" (cart furnishing prompt)
+- Contact form submit: "Send message"
+- Booking form submit: "Book a discovery call"
+- Booking error summary: "{n} fields need your attention."
+- Booking call-time slots: Weekday mornings, Weekday afternoons, Weekday evenings, Any time
+- Cart summary: "VAT included" under the total
+- Order confirmation: "We sent a summary to your email."

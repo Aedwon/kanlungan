@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Template · Order confirmation mobile</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8E4A2C}
+.dk a:hover{color:#E8C8B0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #8E4A2C;outline-offset:3px}
+.dk a:focus-visible,.dk button:focus-visible,.dk input:focus-visible{outline-color:#F2ECE3}
+main a:focus-visible,main button:focus-visible,main .fld:focus-visible,aside a:focus-visible,aside button:focus-visible{outline:2px solid #2E211A;outline-offset:3px}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover .arr{transform:translateX(4px)}
+.lnk:hover{text-decoration:underline;text-underline-offset:4px}
+.btn-p{transition:background-color .2s ease}
+a.btn-p:hover,button.btn-p:hover{background:#733A22!important;color:#F7F2EA!important}
+.ib{transition:background-color .2s ease}
+.ib:hover{background:#E8DFD2}
+.qb{transition:background-color .2s ease}
+.qb:hover{background:#E8DFD2}
+.rmv:hover{color:#2E211A!important}
+.im{transition:filter .4s ease}
+a.card:hover{color:#2E211A}
+.card:hover .im,.card:focus-visible .im{filter:brightness(1.05)}
+.opt:has(input:checked){outline:1px solid #8E4A2C;outline-offset:4px}
+.opt:has(input:focus-visible){outline:2px solid #2E211A!important;outline-offset:3px!important}
+.sw:focus-visible{outline:2px solid #2E211A!important;outline-offset:3px!important}
+.hbw{display:grid;grid-template-columns:1fr;margin-left:0;overflow:hidden;visibility:visible}
+.hbw>a{min-width:0;white-space:nowrap}
+.cat{transition:background-color .2s ease}
+.cat:hover,.cat:focus-visible{background:#E8DFD2}
+.cat svg{transition:transform .3s ease}
+.cat:hover svg{transform:translateY(-2px)}
+summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(180deg)}
+.chev{transition:transform .25s ease}
+.ph{opacity:0;pointer-events:none;transition:opacity .25s ease}
+:hover>.ph{opacity:1}
+@keyframes zoomIn{from{transform:scale(1.1)}to{transform:scale(1)}}
+@supports (animation-timeline: view()){
+.zin{animation:zoomIn linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
+}
+@media (prefers-reduced-motion: reduce){
+.zin{animation:none!important}
+.arr,.btn-p,.ib,.qb,.im,.cat,.cat svg,.chev,.ph{transition:none}
+.card:hover .im,.card:focus-visible .im{filter:none}
+.cat:hover svg{transform:none}
+}
+</style>
+</helmet>
+<div class="pg" style="width:390px;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400;position:relative;overflow-x:clip">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<g id="af2"><path d="M40 22L55 16V46H40ZM60 14L75 8V46H60Z" style="fill:var(--lw)"></path><path d="M40 46H55L34 100H13ZM60 46H75L62 100H41Z" style="fill:var(--lf)"></path></g>
+</defs></svg>
+
+<header style="position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 8px 0 20px;box-sizing:border-box;background:#F2ECE3;border-bottom:1px solid #D3C4B1">
+  <a href="#" style="display:flex;align-items:center;gap:10px;min-height:44px"><svg viewBox="0 0 100 100" width="32" height="32" style="display:block;--lw:#F2ECE3;--lf:#8E4A2C;border-radius:2px" aria-hidden="true"><rect width="100" height="100" rx="1.92" fill="#3A2A20"></rect><path d="M0 46H100V100H0Z" fill="#000" opacity=".2"></path><use href="#af2"></use></svg><span style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1;font-weight:300;letter-spacing:-.015em;color:#2E211A">Kanlungan</span></a>
+  <div style="display:flex;align-items:center;gap:0">
+    <a href="#" aria-label="Cart, 0 items" style="min-width:44px;height:44px;padding:0 6px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:6px;font-size:14px;line-height:1.5;font-weight:500">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
+      <span>0</span>
+    </a>
+    <button type="button" aria-label="Open menu" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:#2E211A;cursor:pointer">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16"></path><path d="M4 16h16"></path></svg>
+    </button>
+  </div>
+</header><main><section style="padding:48px 20px 0"><h1 style="margin:0;max-width:800px;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Thank you. We have your order.</h1><div style="margin-top:32px;display:flex;flex-direction:column;gap:16px;align-items:flex-start"><div><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Order number</div><div style="margin-top:8px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.15;font-weight:300;letter-spacing:-.015em">KL-2026-0142</div></div><p style="margin:0;max-width:360px;font-size:17px;line-height:1.6;font-weight:400;color:#6A584A">We sent a summary to your email.</p></div><div style="margin-top:32px;max-width:800px"><div role="note" style="display:flex;gap:16px;align-items:flex-start;box-sizing:border-box;padding:20px 24px;background:#E8DFD2;border-radius:2px;color:#2E211A;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5"></path><path d="M12 7.5v.01"></path></svg><p style="margin:0;font-size:14px;line-height:1.5;font-weight:400">Kanlungan is a fictional brand. This is a demonstration. No payment is taken and no order is placed.</p></div></div></section><section style="padding:64px 20px 0"><div style="position:relative;overflow:hidden;height:280px;border-radius:2px;background:#E8DFD2"><div class="zin" style="position:absolute;left:0;right:0;top:0;bottom:0"><div role="img" aria-label="Living room with the Silong Sofa and Kapis Pendant in afternoon light" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+linear-gradient(#4a2f1f,#3a2518) 16.67% 71.13%/34% 3% no-repeat,
+linear-gradient(#cdbd9a,#b6a380) 14.52% 64.71%/38% 15% no-repeat,
+linear-gradient(#d8cba9,#c4b490) 14.52% 46.91%/38% 19% no-repeat,
+radial-gradient(ellipse 30% 5% at 28% 72%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+radial-gradient(ellipse 5% 7% at 66% 26%, rgba(255,244,214,.9) 0%, rgba(255,244,214,0) 100%),
+radial-gradient(ellipse 40% 5% at 74% 76%, rgba(247,242,226,.32), rgba(247,242,226,0) 100%),
+linear-gradient(#dccaa0,#dccaa0) 74% 86%/36% 5% no-repeat,
+linear-gradient(180deg,#a9bfa0,#dfe9d6) 82% 12%/24% 52% no-repeat,
+linear-gradient(#f7f1e4,#f7f1e4) 82% 10%/27% 56% no-repeat,
+radial-gradient(ellipse 34% 46% at 80% 38%, rgba(255,250,235,.55), rgba(255,250,235,0) 72%),
+linear-gradient(180deg,#ece3d3 0%,#e0d5c1 70%,#a98a6a 72%,#85664c 100%);"></div></div><div class="ph" style="position:absolute;left:24px;top:24px;padding:4px 8px;font-size:12px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Living room, Silong Sofa, pale limewash wall, afternoon light</div></div></section><section style="padding:64px 20px 96px"><div><p style="margin:0 0 32px;max-width:560px;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">In-stock items ship first. Made-to-order items follow when they are ready.</p><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:16px"><div style="display:flex;flex-direction:column;align-items:center;gap:8px"><span style="display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;font-size:14px;line-height:1;font-weight:500">1</span><span style="flex:1;width:1px;background:#D3C4B1"></span></div><div style="padding-bottom:32px"><ul style="list-style:none;margin:0;padding:0;border-bottom:1px solid #D3C4B1"><li style="display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:center;padding:16px 0;border-top:1px solid #D3C4B1"><div role="img" aria-label="Kapis Pendant, capiz shell pendant lamp against a pale warm wall" style="position:relative;overflow:hidden;width:72px;height:72px;flex:none;background:#E8DFD2;border-radius:2px"><div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+radial-gradient(ellipse 14% 7% at 50% 36%, #c49a5e 0%, #94703f 80%, rgba(148,112,63,0) 82%),
+radial-gradient(circle at 50% 42%, rgba(255,244,214,.85) 0, rgba(255,244,214,.6) 3%, rgba(255,244,214,.25) 11%, rgba(255,244,214,0) 30%),
+linear-gradient(#6A584A,#6A584A) 50% 0/1px 33% no-repeat,
+radial-gradient(ellipse 60% 50% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div></div><div><div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Kapis Pendant</div><div style="margin-top:4px;font-size:14px;line-height:1.5;font-weight:400"><span style="color:#8E4A2C;font-weight:500">In stock.</span> <span style="color:#6A584A">Ships in 3 to 7 business days.</span></div></div></li><li style="display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:center;padding:16px 0;border-top:1px solid #D3C4B1"><div role="img" aria-label="Hablon Cushion, handloomed indigo cotton cushion on a pale warm backdrop" style="position:relative;overflow:hidden;width:72px;height:72px;flex:none;background:#E8DFD2;border-radius:2px"><div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+repeating-linear-gradient(90deg, rgba(247,242,234,.2) 0 1px, rgba(0,0,0,0) 1px 7px) 50% 50%/54% 46% no-repeat,
+repeating-linear-gradient(0deg, rgba(20,28,48,.22) 0 1px, rgba(0,0,0,0) 1px 6px) 50% 50%/54% 46% no-repeat,
+linear-gradient(#44577a,#364764) 50.00% 55.56%/54% 46% no-repeat,
+radial-gradient(ellipse 34% 4% at 50% 79%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+radial-gradient(ellipse 60% 50% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 76%, #cdbfa6 76%, #bfae92 100%),
+linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div></div><div><div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Hablon Cushion <span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;color:#6A584A">× 2</span></div><div style="margin-top:4px;font-size:14px;line-height:1.5;font-weight:400"><span style="color:#8E4A2C;font-weight:500">In stock.</span> <span style="color:#6A584A">Ships in 3 to 7 business days.</span></div></div></li></ul></div></div><div style="display:grid;grid-template-columns:28px minmax(0,1fr);gap:16px"><div style="display:flex;flex-direction:column;align-items:center;gap:8px"><span style="display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;font-size:14px;line-height:1;font-weight:500">2</span><span style="flex:1;width:1px;background:#D3C4B1"></span></div><div style="padding-bottom:0px"><ul style="list-style:none;margin:0;padding:0;border-bottom:1px solid #D3C4B1"><li style="display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:center;padding:16px 0;border-top:1px solid #D3C4B1"><div role="img" aria-label="Silong Sofa, low three-seat sofa in oat linen on a pale warm backdrop" style="position:relative;overflow:hidden;width:72px;height:72px;flex:none;background:#E8DFD2;border-radius:2px"><div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+linear-gradient(#4a2f1f,#3a2518) 22% 68%/56% 4% no-repeat,
+linear-gradient(#cdbd9a,#b6a380) 20% 56%/60% 24% no-repeat,
+linear-gradient(#d8cba9,#c4b490) 20% 40%/60% 14% no-repeat,
+radial-gradient(ellipse 54% 6% at 50% 72%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+radial-gradient(ellipse 60% 50% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 66%, #cdbfa6 66%, #bfae92 100%),
+linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div></div><div><div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Silong Sofa</div><div style="margin-top:4px;font-size:14px;line-height:1.5;font-weight:400"><span style="color:#8E4A2C;font-weight:500">Made to order.</span> <span style="color:#6A584A">Ready in 10 weeks.</span></div></div></li><li style="display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:center;padding:16px 0;border-top:1px solid #D3C4B1"><div role="img" aria-label="Hain Dining Chair, solid wood dining chair with a woven cane seat on a pale warm backdrop" style="position:relative;overflow:hidden;width:72px;height:72px;flex:none;background:#E8DFD2;border-radius:2px"><div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+repeating-linear-gradient(45deg, rgba(90,62,38,.5) 0 1px, rgba(0,0,0,0) 1px 6px) 50.00% 37.18%/22% 22% no-repeat,
+linear-gradient(#cdb585,#bfa26f) 50.00% 37.18%/22% 22% no-repeat,
+linear-gradient(#6b4529,#4a2f1f) 50.00% 25.00%/32% 4% no-repeat,
+linear-gradient(#6b4529,#4a2f1f) 36.46% 38.89%/4% 28% no-repeat,
+linear-gradient(#6b4529,#4a2f1f) 63.54% 38.89%/4% 28% no-repeat,
+repeating-linear-gradient(45deg, rgba(90,62,38,.55) 0 1px, rgba(0,0,0,0) 1px 5px) 50.00% 56.84%/32% 5% no-repeat,
+linear-gradient(#c4a574,#a5855a) 50.00% 56.84%/34% 5% no-repeat,
+linear-gradient(#6b4529,#4a2f1f) 35.42% 79.73%/4% 26% no-repeat,
+linear-gradient(#6b4529,#4a2f1f) 64.58% 79.73%/4% 26% no-repeat,
+radial-gradient(ellipse 36% 4% at 50% 86%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+radial-gradient(ellipse 60% 50% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 84%, #cdbfa6 84%, #bfae92 100%),
+linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div></div><div><div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Hain Dining Chair <span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;color:#6A584A">× 4</span></div><div style="margin-top:4px;font-size:14px;line-height:1.5;font-weight:400"><span style="color:#8E4A2C;font-weight:500">Made to order.</span> <span style="color:#6A584A">Ready in 8 weeks.</span></div></div></li></ul><p style="margin:16px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">We contact you to schedule delivery when they are ready.</p></div></div></div><div style="margin-top:48px"><aside aria-label="Order summary" style="box-sizing:border-box;padding:24px;background:#E8DFD2;border-radius:2px"><div style="display:flex;justify-content:space-between;gap:16px;font-size:14px;line-height:1.5;font-weight:400;padding:8px 0"><span>Silong Sofa</span><span>₱186,000</span></div><div style="display:flex;justify-content:space-between;gap:16px;font-size:14px;line-height:1.5;font-weight:400;padding:8px 0"><span>Kapis Pendant</span><span>₱32,000</span></div><div style="display:flex;justify-content:space-between;gap:16px;font-size:14px;line-height:1.5;font-weight:400;padding:8px 0"><span>Hablon Cushion × 2</span><span>₱7,600</span></div><div style="display:flex;justify-content:space-between;gap:16px;font-size:14px;line-height:1.5;font-weight:400;padding:8px 0"><span>Hain Dining Chair × 4</span><span>₱98,000</span></div><div style="margin-top:8px;padding-top:16px;border-top:1px solid #D3C4B1"><div style="display:flex;justify-content:space-between;font-size:14px;line-height:1.5;font-weight:400"><span>Subtotal</span><span>₱323,600</span></div><div style="margin-top:8px;display:flex;justify-content:space-between;font-size:14px;line-height:1.5;font-weight:400"><span>Delivery</span><span>Free</span></div></div><div style="margin-top:16px;padding-top:16px;border-top:1px solid #D3C4B1;display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:15px;line-height:1.4;font-weight:500">Total</span><span style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300">₱323,600</span></div><div style="margin-top:32px;"><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Delivered to</div><p style="margin:8px 0 0;font-size:14px;line-height:1.5;font-weight:400">Isabel Navarro<br>14 Kamagong Street, Unit 8B<br>Poblacion, Makati City<br>Metro Manila 1210</p></div><div style="margin-top:24px"><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Payment</div><p style="margin:8px 0 0;font-size:14px;line-height:1.5;font-weight:400">Card ending 4242</p></div></aside></div><div style="margin-top:32px;display:flex;flex-direction:column;gap:8px;align-items:flex-start"><p style="margin:0;font-size:17px;line-height:1.6;font-weight:400">Questions about your order? Write to <a href="#" style="text-decoration:underline;text-underline-offset:4px">studio@kanlungan.example</a>.</p><a href="#" class="lnk" style="display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.4;font-weight:500;">Continue shopping&nbsp;<span class="arr" aria-hidden="true">→</span></a></div></section></main><footer class="dk" style="background:#3A2A20;color:#F2ECE3;padding:64px 20px 40px;box-sizing:border-box">
+  <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:40px 24px">
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Studio</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Full-Service Furnishing</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Interior Design Direction</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Projects</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Help</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Delivery and returns</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Care guide</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">FAQ</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Contact</a></li>
+      </ul>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Shop</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:0 24px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Seating</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Tables</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Beds</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Storage</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Lighting</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Rugs and Textiles</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Decor and Objects</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Art</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Collections</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Makers</a></li>
+      </ul>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Mailing list</div>
+      <form action="#" style="margin-top:16px;display:flex;flex-direction:column;gap:12px">
+        <label for="mail-m" style="font-size:15px;line-height:1.5;font-weight:400">Occasional notes on new projects and pieces.</label>
+        <input id="mail-m" type="email" name="email" autocomplete="email" style="width:100%;box-sizing:border-box;height:52px;padding:0 16px;background:#2E211A;border:1px solid #B3A18B;border-radius:2px;color:#F2ECE3;font:400 16px 'Hanken Grotesk',sans-serif">
+        <button type="submit" class="btn-p" style="height:52px;background:#8E4A2C;color:#F7F2EA;border:0;border-radius:2px;font:500 15px 'Hanken Grotesk',sans-serif;cursor:pointer">Subscribe</button>
+      </form>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Showroom</div>
+      <div style="margin-top:16px;display:flex;flex-direction:column;gap:4px;font-size:15px;line-height:1.5;font-weight:400">
+        <div>Makati City, Metro Manila. Open by appointment.</div>
+        <a href="#" style="display:flex;align-items:center;min-height:44px">studio@kanlungan.example</a>
+        <a href="#" style="display:flex;align-items:center;min-height:44px">+63 2 8555 0100</a>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:48px;padding-top:24px;border-top:1px solid #6A584A">
+    <p style="margin:0;font-size:14px;line-height:1.6;font-weight:400;color:#D3C4B1">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
+    <div style="margin-top:12px;display:flex;gap:24px;font-size:14px;line-height:1.5;font-weight:400">
+      <a href="#" style="display:flex;align-items:center;min-height:44px">Privacy</a>
+      <a href="#" style="display:flex;align-items:center;min-height:44px">Terms</a>
+    </div>
+  </div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":3497}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

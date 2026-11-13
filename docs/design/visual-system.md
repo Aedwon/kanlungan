@@ -6,6 +6,9 @@ Aedwon chose direction **D** in round 1: the colors and imagery of direction A (
 
 ## Reference
 
+- Templates (round 2): `design/round-2-templates/`, every page on desktop and mobile, with the header states and the component library (`T-components.dc.html`).
+- Machine-readable tokens: `design/tokens/tokens.json` (W3C design tokens format).
+
 The rendered artboards are the source of truth. This file records the tokens they use. If the two disagree, the artboards win. Raise the conflict.
 
 - `design/round-1-directions/D-spec.dc.html`: token sheet
@@ -39,7 +42,7 @@ Type scale "Snap", approved by Aedwon on 2026-11-14. Reference: `design/system-r
 | type.small | 14 | 14 | 1.5 | 0 | Hanken Grotesk 400 | Meta, availability, footer |
 | type.label | 12 | 12 | 1.4 | 0.08em | Hanken Grotesk 500 | Labels, captions |
 
-Use no other sizes.
+Use no other sizes. One exception: **type.figure**, Newsreader 300 at 88px desktop, line height 1.1, tracking -0.02em, for the large "From" price in the service panels and service page. On mobile it uses type.h1.
 
 Labels are sentence case. Never use uppercase.
 
@@ -70,7 +73,9 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 
 ## Components
 
-- **Primary button:** clay fill, `#F7F2EA` text, radius 2px, Hanken Grotesk 500 at 15px, padding 18px 30px
+- **Primary button:** clay fill, `#F7F2EA` text, radius 2px, Hanken Grotesk 500 at 15px, padding 18px 30px. Hover `#733A22`. Focus: 2px `#2E211A` outline, offset 3px.
+- **Footer button:** `#F2ECE3` fill, `#2E211A` text. Hover `#E8DFD2`.
+- **Current page in navigation:** a thin underline under the nav item.
 - **Secondary button on images:** 1px `#F7F2EA` outline, transparent fill, same shape
 - **Text link:** text followed by "→". The arrow shifts 4px on hover.
 - **Product card:** a 1:1 image on surface, then the name in Newsreader 400 at type.title (approved 2026-11-14), the maker in muted text, the price, and a small sentence-case availability line in clay
@@ -78,7 +83,7 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 
 ## Layout
 
-Status: **Locked by Aedwon** on 2026-11-14. The Home layout combines sections he picked from the layout options round. Reference: `design/combined/M-home-desktop.dc.html` and `M-home-mobile.dc.html`. The earlier direction D Home layout is superseded.
+Status: **Locked by Aedwon** on 2026-11-14. The Home layout combines sections he picked from the layout options round. Reference: `design/round-2-templates/T-home-desktop.dc.html` and `T-home-mobile.dc.html` (sections 1 to 9). The `design/combined/M-home` files and the earlier direction D Home are superseded.
 
 | Home section | Source | Behavior |
 |---|---|---|
@@ -112,7 +117,8 @@ Aedwon set these on 2026-11-14. They apply to every page.
 
 - **Scroll choreography:** uses CSS scroll-driven animation inside `@supports (animation-timeline: view())`. At rest, without support, every page shows its finished state.
 - **Ambient light drift:** the logo mark and any light band drift `translateX` over 12s, ease-in-out, infinite, alternating. Transform only.
-- **Product card hover:** the image brightness rises to 1.05 over 0.4s. The availability line slides up 0.3s to reveal "View piece →".
+- **Product card hover:** the image brightness rises to 1.05 over 0.4s. The maker and availability lines appear (progressive disclosure). "Sold out." stays visible at rest. On mobile, cards show name, price, and lead time.
+- **Drawers and panels:** open with ease.enter, cubic-bezier(0.22, 0.61, 0.36, 1), 400ms. Close with ease.exit, cubic-bezier(0.55, 0, 1, 0.45), 200ms. Overlay scrim rgba(46, 33, 26, 0.4).
 - **Links:** the arrow shifts over 0.25s. Button color changes over 0.2s.
 - Never fade page content in from opacity 0.
 - Under `prefers-reduced-motion: reduce`, disable all of the above.
