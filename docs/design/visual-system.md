@@ -92,7 +92,19 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 - Never fade page content in from opacity 0.
 - Under `prefers-reduced-motion: reduce`, disable all of the above.
 
+## Logo
+
+Status: **Locked by Aedwon** on 2026-11-14. Option "Afternoon" from logo round 2.
+
+Reference: `design/identity/Logo-fable.dc.html`, section "Afternoon". The board is the source of truth. Keep the mark, proportions, colors, and motion exactly as shown.
+
+- **Idea:** a square room and the light that crosses it. Window light runs down the wall, bends at the floor, and warms the wood.
+- **Mark:** a square tile on a 100-unit grid, radius about 2% (2px at 104px). The tile is `#3A2A20`, and the floor below the 46-unit line is darkened 20%. Two window panes in `#F2ECE3` (light) sit above the floor line. Their light falls onto the floor as two slanted clay `#8E4A2C` shapes.
+- **Wordmark:** "Kanlungan" in Newsreader 300, letter spacing -0.015em, set to the right of the tile. Text is `#2E211A` on light and `#F2ECE3` on the deep panel.
+- **Small sizes:** at 32px the tile keeps two panes. At 16px it keeps one pane.
+- **States:** the mark has morning, noon, and afternoon light states (see the board). Afternoon is the default.
+- **Motion:** the light drifts horizontally, 12s, ease-in-out, alternating, transform only, matching the hero's moving shade. Disabled under `prefers-reduced-motion`.
+
 ## Not yet decided
 
-- Logo or wordmark. The mockups use "Kanlungan" set in Newsreader as a stand-in.
 - Final photography. The mockups use labeled placeholders that follow the imagery rules above.

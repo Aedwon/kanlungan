@@ -46,7 +46,6 @@ Steps 5 and 6 run together. The visual system is chosen by comparing rendered di
 
 ## Not decided yet
 
-- Logo or wordmark
 - Final product and project photography (the imagery rules are set)
 - E-commerce platform and technical architecture
 
