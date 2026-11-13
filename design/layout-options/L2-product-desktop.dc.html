@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout 2 · Plan Drawing · Product desktop</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8E4A2C}
+.dk a:hover{color:#E8C8B0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A2C;outline-offset:3px}
+.dk a:focus-visible,.dk button:focus-visible,.dk input:focus-visible{outline-color:#F2ECE3}
+.lb{font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover .arr{transform:translateX(4px)}
+.btn-p{transition:background-color .2s ease}
+.btn-p:hover{background:#7A3E24!important;color:#F7F2EA!important}
+.ib{transition:background-color .2s ease}
+.ib:hover{background:#E8DFD2}
+.im{transition:filter .4s ease}
+a.card:hover{color:#2E211A}
+.card:hover .im,.card:focus-visible .im{filter:brightness(1.05)}
+.opt{transition:border-color .2s ease}
+.opt:hover{border-color:#2E211A!important}
+.sw{cursor:pointer}
+.sw:hover{outline:1px solid #6A584A;outline-offset:4px}
+.sw.on:hover{outline-color:#8E4A2C}
+
+/* scroll-driven: drawing lines, plan arrangement settling */
+@supports (animation-timeline: view()){
+.dr{stroke-dasharray:1;animation:dr linear both;animation-timeline:view();animation-range:entry 5% cover 38%}
+.dr2{stroke-dasharray:1;animation:dr linear both;animation-timeline:view();animation-range:entry 25% cover 48%}
+.gl1{animation:gl1 linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
+.gl2{animation:gl2 linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
+.cardin{animation:cardin linear both;animation-timeline:view();animation-range:entry 0% entry 70%}
+}
+@keyframes dr{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes gl1{from{transform:translateY(32px)}to{transform:translateY(0)}}
+@keyframes gl2{from{transform:translateY(56px)}to{transform:translateY(0)}}
+@keyframes cardin{from{transform:translateY(36px)}to{transform:translateY(0)}}
+@media (prefers-reduced-motion: reduce){
+.dr,.dr2,.gl1,.gl2,.cardin{animation:none!important;stroke-dasharray:none}
+.arr,.btn-p,.ib,.im,.opt{transition:none}
+.card:hover .im,.card:focus-visible .im{filter:none}
+}
+</style>
+</helmet>
+<div style="width:100%;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400;position:relative;overflow:hidden">
+
+<!-- Plan grid -->
+<div aria-hidden="true" style="position:absolute;left:64px;right:64px;top:0;bottom:0;z-index:0;pointer-events:none;border-right:1px solid #D3C4B1;background-image:linear-gradient(90deg,#D3C4B1 1px,rgba(211,196,177,0) 1px);background-size:8.3333333% 100%;background-repeat:repeat-x"></div>
+
+<!-- Header -->
+<header style="position:relative;z-index:6;height:88px;padding:0 64px;box-sizing:border-box;display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));align-items:center;border-bottom:1px solid #D3C4B1">
+  <a href="#" style="grid-column:1 / 3;padding-left:12px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1;font-weight:300;letter-spacing:-.01em">Kanlungan</a>
+  <a href="#" style="grid-column:3;padding-left:12px;font-size:15px;line-height:1.5;font-weight:400">Studio</a>
+  <a href="#" style="grid-column:4;padding-left:12px;font-size:15px;line-height:1.5;font-weight:400">Projects</a>
+  <a href="#" style="grid-column:5;padding-left:12px;font-size:15px;line-height:1.5;font-weight:400">Shop</a>
+  <a href="#" style="grid-column:6;padding-left:12px;font-size:15px;line-height:1.5;font-weight:400">About</a>
+  <div style="grid-column:9 / 13;justify-self:end;display:flex;align-items:center;gap:8px;background:#F2ECE3;padding:8px 8px 8px 16px">
+    <button type="button" class="ib" aria-label="Search" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:#2E211A;cursor:pointer">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
+    </button>
+    <a href="#" class="ib" aria-label="Cart, 0 items" style="height:44px;padding:0 10px;display:flex;align-items:center;gap:8px;border-radius:2px;font-size:14px;font-weight:500">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
+      <span>0</span>
+    </a>
+    <a href="#" class="btn-p" style="margin-left:8px;display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:14px;line-height:1;font-weight:500;padding:16px 22px;border-radius:2px">Book a discovery call</a>
+  </div>
+</header>
+
+<main style="position:relative;z-index:1">
+
+<!-- Breadcrumb -->
+<nav aria-label="Breadcrumb" style="padding:22px 64px 32px 76px;box-sizing:border-box;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;display:flex;gap:10px;align-items:center">
+  <a href="#">Shop</a><span aria-hidden="true">/</span>
+  <a href="#">Seating</a><span aria-hidden="true">/</span>
+  <a href="#" aria-current="page" style="color:#2E211A">Sofas</a>
+</nav>
+
+<!-- Product: plan arrangement + sticky purchase panel -->
+<section style="position:relative;padding:0 64px 120px;box-sizing:border-box">
+  <div class="lb" style="padding-left:12px;margin-bottom:20px">01 · Product</div>
+  <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));align-items:start">
+
+    <!-- Gallery: one large image over 7 columns, details in a strip -->
+    <div style="grid-column:1 / 8">
+      <div role="img" aria-label="Silong Sofa, front three-quarter view on a plain wall, oat linen" style="position:relative;overflow:hidden;aspect-ratio:4 / 3.3;border-radius:2px;background:
+        linear-gradient(#4a2f1f,#3a2518) 18% 68%/64% 4% no-repeat,
+        linear-gradient(#cdbd9a,#b6a380) 16% 58%/68% 20% no-repeat,
+        linear-gradient(#d8cba9,#c4b490) 16% 38%/68% 14% no-repeat,
+        radial-gradient(ellipse 66% 6% at 50% 73%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+        radial-gradient(ellipse 70% 60% at 26% 22%, rgba(255,250,235,.5) 0%, rgba(255,250,235,0) 70%),
+        linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 70%, #cdbfa6 70%, #bfae92 100%),
+        linear-gradient(to bottom, #ece4d6, #e2d8c6);">
+        <div style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Silong Sofa front three-quarter on a plain wall, oat linen, soft window light</div>
+      </div>
+      <div style="display:flex;justify-content:space-between;margin-top:12px;padding:0 12px"><span class="lb">Fig. 1 · Front</span></div>
+
+      <!-- strip -->
+      <div style="margin-top:24px;display:grid;grid-template-columns:repeat(7, minmax(0, 1fr));align-items:end">
+        <div style="grid-column:1 / 3;padding-right:0">
+          <div role="img" aria-label="Silong Sofa side profile showing the low mahogany frame" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:
+            linear-gradient(#4a2f1f,#3a2518) 32% 66%/3% 8% no-repeat,
+            linear-gradient(#4a2f1f,#3a2518) 65% 66%/3% 8% no-repeat,
+            linear-gradient(#7a5236,#4a2f1f) 30% 59%/40% 7% no-repeat,
+            linear-gradient(#cdbd9a,#b6a380) 30% 40%/40% 22% no-repeat,
+            linear-gradient(#d8cba9,#c4b490) 30% 30%/10% 20% no-repeat,
+            radial-gradient(ellipse 48% 5% at 50% 75%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+            radial-gradient(ellipse 70% 60% at 26% 22%, rgba(255,250,235,.5) 0%, rgba(255,250,235,0) 70%),
+            linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 73%, #cdbfa6 73%, #bfae92 100%),
+            linear-gradient(to bottom, #ece4d6, #e2d8c6);">
+            <div style="position:absolute;left:8px;bottom:8px;max-width:calc(100% - 16px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Side profile, low mahogany frame</div>
+          </div>
+          <div class="lb" style="margin-top:10px;padding-left:12px">Fig. 2 · Side</div>
+        </div>
+        <div style="grid-column:3 / 5">
+          <div role="img" aria-label="Close-up of the oat linen cushion and the mahogany wood joint" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:
+            linear-gradient(90deg, rgba(0,0,0,0) 0, rgba(0,0,0,0) 46%, #3f2616 46%, #3f2616 47.2%, rgba(0,0,0,0) 47.2%) 0 74%/100% 26% no-repeat,
+            linear-gradient(#8a5a38,#5a3a26) 0 74%/100% 26% no-repeat,
+            repeating-linear-gradient(0deg, rgba(120,100,70,.12) 0 1px, rgba(0,0,0,0) 1px 5px),
+            radial-gradient(ellipse 80% 60% at 28% 30%, rgba(255,246,222,.45) 0%, rgba(255,246,222,0) 70%),
+            linear-gradient(#e0d3b8,#c4b392);">
+            <div style="position:absolute;left:8px;bottom:8px;max-width:calc(100% - 16px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Oat linen cushion and wood joint</div>
+          </div>
+          <div class="lb" style="margin-top:10px;padding-left:12px">Fig. 3 · Detail</div>
+        </div>
+        <div style="grid-column:5 / 7">
+          <div role="img" aria-label="Silong Sofa in the Lilim House living room in shaded daylight" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:
+            radial-gradient(ellipse 50% 4% at 50% 71%, rgba(40,28,20,.38) 0%, rgba(40,28,20,0) 100%),
+            linear-gradient(#4a2f1f,#4a2f1f) 50% 69%/58% 2.5% no-repeat,
+            linear-gradient(#d6c9b0,#d6c9b0) 50% 65%/60% 5% no-repeat,
+            linear-gradient(#cdbfa6,#cdbfa6) 50% 57%/58% 10% no-repeat,
+            repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 19.6%, rgba(70,50,35,.4) 19.6% 20.2%) 0 12%/100% 42% no-repeat,
+            radial-gradient(ellipse 36% 26% at 62% 30%, rgba(230,236,180,.6), rgba(230,236,180,0) 70%),
+            linear-gradient(90deg, rgba(40,28,20,.6) 0%, rgba(40,28,20,0) 24%, rgba(40,28,20,0) 78%, rgba(40,28,20,.5) 100%),
+            linear-gradient(180deg, #46321f 0%, #5a4332 11%, #d7d8b8 15%, #b4bf8c 30%, #8a9a62 46%, #6d7b48 56%, #7a5a40 58%, #5b4132 74%, #382820 100%);">
+            <div style="position:absolute;left:8px;bottom:8px;max-width:calc(100% - 16px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lilim House living room, shaded daylight</div>
+          </div>
+          <div class="lb" style="margin-top:10px;padding-left:12px">Fig. 4 · In place</div>
+        </div>
+        <div style="grid-column:7">
+          <div role="img" aria-label="Four linen fabric swatches laid on a wooden surface" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:
+            linear-gradient(#d6c7a8,#cbb994) 8% 14%/18% 72% no-repeat,
+            linear-gradient(#cdb48a,#bfa577) 30% 14%/18% 72% no-repeat,
+            linear-gradient(#a8613f,#9a5536) 52% 14%/18% 72% no-repeat,
+            linear-gradient(#3b3a3a,#313030) 74% 14%/18% 72% no-repeat,
+            radial-gradient(ellipse 70% 80% at 24% 10%, rgba(255,246,222,.4) 0%, rgba(255,246,222,0) 70%),
+            linear-gradient(#9a6c46,#7a5035);">
+            <div style="position:absolute;left:6px;bottom:6px;max-width:calc(100% - 12px);padding:2px 5px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Swatches on wood</div>
+          </div>
+          <div class="lb" style="margin-top:10px;padding-left:12px">Fig. 5</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Purchase panel, columns 8 to 12, sticky -->
+    <div style="grid-column:8 / 13;position:sticky;top:24px;margin-left:24px;background:#F2ECE3;border:1px solid #D3C4B1;padding:40px 40px 40px;box-sizing:border-box">
+      <h1 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Silong Sofa</h1>
+      <div style="margin-top:12px;font-size:15px;line-height:1.5;color:#6A584A">Kanlungan Original</div>
+      <div style="margin-top:20px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">₱186,000</div>
+      <p style="margin:20px 0 0;font-size:17px;line-height:1.6;font-weight:400">A low three-seat sofa with a solid wood frame and loose linen cushions.</p>
+
+      <fieldset style="margin:32px 0 0;padding:0;border:0;min-width:0">
+        <legend style="padding:0;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Fabric · Oat linen</legend>
+        <div style="margin-top:14px;display:flex;gap:16px">
+          <div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px">
+            <button type="button" class="sw on" aria-label="Oat linen" aria-pressed="true" style="width:44px;height:44px;border:0;border-radius:2px;background:#d6c7a8;outline:1px solid #8E4A2C;outline-offset:4px"></button>
+            <span style="font-size:14px;line-height:1.3;font-weight:500">Oat</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px">
+            <button type="button" class="sw" aria-label="Sand linen" aria-pressed="false" style="width:44px;height:44px;border:0;border-radius:2px;background:#cdb48a"></button>
+            <span style="font-size:14px;line-height:1.3;color:#6A584A">Sand</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px">
+            <button type="button" class="sw" aria-label="Clay linen" aria-pressed="false" style="width:44px;height:44px;border:0;border-radius:2px;background:#a8613f"></button>
+            <span style="font-size:14px;line-height:1.3;color:#6A584A">Clay</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px">
+            <button type="button" class="sw" aria-label="Charcoal linen" aria-pressed="false" style="width:44px;height:44px;border:0;border-radius:2px;background:#3b3a3a"></button>
+            <span style="font-size:14px;line-height:1.3;color:#6A584A">Charcoal</span>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset style="margin:32px 0 0;padding:0;border:0;min-width:0">
+        <legend style="padding:0;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Size · Three-seat 228 cm</legend>
+        <div style="margin-top:14px;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:12px">
+          <button type="button" class="opt" aria-pressed="true" style="text-align:left;background:transparent;border:1px solid #8E4A2C;outline:1px solid #8E4A2C;outline-offset:3px;border-radius:2px;padding:14px 16px;color:#2E211A;font:500 15px/1.4 'Hanken Grotesk',sans-serif;cursor:pointer">Three-seat<span style="display:block;font-weight:400;font-size:14px;color:#6A584A">228 cm</span></button>
+          <button type="button" class="opt" aria-pressed="false" style="text-align:left;background:transparent;border:1px solid #6A584A;border-radius:2px;padding:14px 16px;color:#2E211A;font:500 15px/1.4 'Hanken Grotesk',sans-serif;cursor:pointer">Two-seat<span style="display:block;font-weight:400;font-size:14px;color:#6A584A">178 cm · ₱158,000</span></button>
+        </div>
+      </fieldset>
+
+      <div style="margin-top:32px;display:flex;align-items:center;gap:12px;font-size:15px;line-height:1.5;font-weight:500;color:#8E4A2C"><span style="display:block;width:24px;height:1px;background:#8E4A2C"></span>Made to order. Ready in 10 weeks.</div>
+
+      <button type="button" class="btn-p" style="margin-top:20px;display:block;width:100%;background:#8E4A2C;color:#F7F2EA;border:0;border-radius:2px;font:500 15px/1 'Hanken Grotesk',sans-serif;padding:20px 30px;cursor:pointer">Add to cart</button>
+      <p style="margin:20px 0 0;font-size:14px;line-height:1.5;color:#6A584A">Need a different size or finish? <a href="#" class="lnk" style="color:#2E211A;font-weight:500;text-decoration:underline;text-underline-offset:3px">Ask the studio</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Details as a technical drawing -->
+<section style="position:relative;padding:0 64px 128px;box-sizing:border-box">
+  <div class="lb" style="padding-left:12px;margin-bottom:20px">02 · Details</div>
+  <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr))">
+    <div style="grid-column:1 / 5;background:#F2ECE3;border:1px solid #D3C4B1;border-right:0;padding:40px 40px 48px;box-sizing:border-box">
+      <h2 style="margin:0 0 40px;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.15;font-weight:300;letter-spacing:-.015em">Details</h2>
+      <dl style="margin:0;display:flex;flex-direction:column;gap:28px">
+        <div>
+          <dt class="lb">Materials</dt>
+          <dd style="margin:8px 0 0;font-size:17px;line-height:1.6">Plantation mahogany, linen blend, feather and foam fill.</dd>
+        </div>
+        <div>
+          <dt class="lb">Dimensions</dt>
+          <dd style="margin:8px 0 0;font-size:17px;line-height:1.6">228 × 92 × 72 cm (W × D × H)</dd>
+        </div>
+        <div>
+          <dt class="lb">Origin</dt>
+          <dd style="margin:8px 0 0;font-size:17px;line-height:1.6">Pampanga, Philippines</dd>
+        </div>
+        <div>
+          <dt class="lb">Care</dt>
+          <dd style="margin:8px 0 0;font-size:17px;line-height:1.6"><a href="#" class="lnk" style="font-weight:500;font-size:15px">Care guide <span class="arr" aria-hidden="true">→</span></a></dd>
+        </div>
+      </dl>
+    </div>
+    <div style="grid-column:5 / 13;background:#F2ECE3;border:1px solid #D3C4B1;padding:40px 40px 32px;box-sizing:border-box">
+      <svg viewBox="0 0 830 350" width="100%" role="img" aria-label="Technical drawing of the Silong Sofa: front elevation 228 cm wide and 72 cm high, side elevation 92 cm deep and 72 cm high" style="display:block;font-family:'Hanken Grotesk',system-ui,sans-serif">
+        <g fill="none" stroke="#2E211A" stroke-width="1.4" stroke-linejoin="miter">
+          <!-- ground -->
+          <path class="dr" pathLength="1" d="M20 250 H520" stroke="#6A584A" stroke-width="1"></path>
+          <path class="dr" pathLength="1" d="M570 250 H810" stroke="#6A584A" stroke-width="1"></path>
+          <!-- FRONT ELEVATION -->
+          <path class="dr" pathLength="1" d="M56 242 V250 H68 V242"></path>
+          <path class="dr" pathLength="1" d="M468 242 V250 H480 V242"></path>
+          <path class="dr" pathLength="1" d="M40 226 H496 V242 H40 Z"></path>
+          <path class="dr" pathLength="1" d="M40 168 H76 V226 H40 Z"></path>
+          <path class="dr" pathLength="1" d="M460 168 H496 V226 H460 Z"></path>
+          <path class="dr" pathLength="1" d="M76 190 H204 V226 H76 Z"></path>
+          <path class="dr" pathLength="1" d="M204 190 H332 V226 H204 Z"></path>
+          <path class="dr" pathLength="1" d="M332 190 H460 V226 H332 Z"></path>
+          <path class="dr" pathLength="1" d="M76 106 H204 V190 H76 Z"></path>
+          <path class="dr" pathLength="1" d="M204 106 H332 V190 H204 Z"></path>
+          <path class="dr" pathLength="1" d="M332 106 H460 V190 H332 Z"></path>
+          <!-- SIDE ELEVATION -->
+          <path class="dr" pathLength="1" d="M608 242 V250 H620 V242"></path>
+          <path class="dr" pathLength="1" d="M764 242 V250 H776 V242"></path>
+          <path class="dr" pathLength="1" d="M600 226 H784 V242 H600 Z"></path>
+          <path class="dr" pathLength="1" d="M600 166 H784 V226 H600 Z"></path>
+          <path class="dr" pathLength="1" d="M744 166 L750 106 H784 V166"></path>
+          <path class="dr" pathLength="1" d="M628 166 V226" stroke="#6A584A" stroke-width="1"></path>
+        </g>
+        <!-- dimension lines -->
+        <g fill="none" stroke="#8E4A2C" stroke-width="1">
+          <path class="dr2" pathLength="1" d="M40 292 H234 M302 292 H496"></path>
+          <path class="dr2" pathLength="1" d="M40 284 V300 M496 284 V300"></path>
+          <path class="dr2" pathLength="1" d="M20 106 V160 M20 196 V250"></path>
+          <path class="dr2" pathLength="1" d="M12 106 H28 M12 250 H28"></path>
+          <path class="dr2" pathLength="1" d="M600 292 H674 M712 292 H784"></path>
+          <path class="dr2" pathLength="1" d="M600 284 V300 M784 284 V300"></path>
+          <path class="dr2" pathLength="1" d="M812 106 V160 M812 196 V250"></path>
+          <path class="dr2" pathLength="1" d="M804 106 H820 M804 250 H820"></path>
+        </g>
+        <g fill="#8E4A2C" font-size="13" font-weight="500" text-anchor="middle">
+          <text x="268" y="296">228 cm</text>
+          <text x="693" y="296">92 cm</text>
+          <text x="20" y="182" transform="rotate(-90 20 182)" dy="4">72 cm</text>
+          <text x="812" y="182" transform="rotate(-90 812 182)" dy="4">72 cm</text>
+        </g>
+        <g fill="#6A584A" font-size="12" font-weight="500" letter-spacing="0.96">
+          <text x="40" y="336">Front elevation</text>
+          <text x="600" y="336">Side elevation</text>
+        </g>
+      </svg>
+      <div style="display:flex;justify-content:space-between;margin-top:16px;padding-top:12px;border-top:1px solid #D3C4B1"><span class="lb">Fig. 6 · Three-seat, oat linen</span><span class="lb">W × D × H · 228 × 92 × 72 cm</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Delivery and returns -->
+<section style="position:relative;padding:0 64px 128px;box-sizing:border-box">
+  <div class="lb" style="padding-left:12px;margin-bottom:20px">03 · Delivery and returns</div>
+  <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));background:#F2ECE3;border:1px solid #D3C4B1">
+    <h2 style="grid-column:1 / 5;margin:0;padding:40px;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.15;font-weight:300;letter-spacing:-.015em">Delivery and returns</h2>
+    <div style="grid-column:5 / 10;padding:40px 24px 40px 0;border-left:1px solid #D3C4B1;padding-left:40px;font-size:17px;line-height:1.6">
+      <p style="margin:0">White-glove delivery with placement and assembly. Free in Metro Manila for orders above ₱50,000. Outside Metro Manila, the fee is calculated at checkout by region.</p>
+      <p style="margin:16px 0 0">Made-to-order pieces cannot be returned, except for defects or transit damage.</p>
+    </div>
+    <div style="grid-column:10 / 13;padding:40px;border-left:1px solid #D3C4B1">
+      <div class="lb">Warranty</div>
+      <p style="margin:8px 0 0;font-size:17px;line-height:1.6">Two years on furniture construction.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Maker -->
+<section style="position:relative;padding:0 64px 128px;box-sizing:border-box">
+  <div class="lb" style="padding-left:12px;margin-bottom:20px">04 · Maker</div>
+  <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));background:#F2ECE3;border:1px solid #D3C4B1">
+    <h2 style="grid-column:1 / 5;margin:0;padding:40px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Kanlungan Original</h2>
+    <p style="grid-column:5 / 10;margin:0;padding:40px 24px 40px 40px;border-left:1px solid #D3C4B1;font-size:17px;line-height:1.6">Designed by our studio and built by partner workshops in Pampanga and Cebu.</p>
+    <div style="grid-column:10 / 13;padding:40px;border-left:1px solid #D3C4B1"><a href="#" class="lnk" style="font-size:15px;line-height:1.5;font-weight:500">About Kanlungan Originals <span class="arr" aria-hidden="true">→</span></a></div>
+  </div>
+</section>
+
+<!-- Seen in -->
+<section style="position:relative;padding:0 64px 128px;box-sizing:border-box">
+  <div class="lb" style="padding-left:12px;margin-bottom:20px">05 · Seen in</div>
+  <h2 style="margin:0 0 48px;padding-left:12px;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Seen in</h2>
+  <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr))">
+    <a href="#" class="card" style="grid-column:span 4;display:block;padding:24px;box-sizing:border-box;border:1px solid #D3C4B1;background:#F2ECE3">
+      <div role="img" aria-label="Lilim House living room in shaded daylight with the Silong Sofa" style="position:relative;overflow:hidden;aspect-ratio:3 / 2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 34% 5% at 50% 69%, rgba(40,28,20,.38) 0%, rgba(40,28,20,0) 100%),
+          linear-gradient(#4a2f1f,#4a2f1f) 50% 66%/34% 2.5% no-repeat,
+          linear-gradient(#d6c9b0,#d6c9b0) 50% 63%/36% 4% no-repeat,
+          linear-gradient(#cdbfa6,#cdbfa6) 50% 57%/34% 8% no-repeat,
+          radial-gradient(ellipse 36% 26% at 62% 34%, rgba(230,236,180,.6), rgba(230,236,180,0) 70%),
+          linear-gradient(90deg, rgba(40,28,20,.6) 0%, rgba(40,28,20,0) 24%, rgba(40,28,20,0) 78%, rgba(40,28,20,.5) 100%),
+          linear-gradient(180deg, #46321f 0%, #5a4332 11%, #d7d8b8 15%, #b4bf8c 30%, #8a9a62 46%, #6d7b48 56%, #7a5a40 58%, #5b4132 74%, #382820 100%);"></div>
+        <div style="position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lilim House living room with the Silong Sofa</div>
+      </div>
+      <div style="margin-top:16px;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:28px;line-height:1.25;font-weight:300">Lilim House</div>
+      <div style="margin-top:2px;font-size:15px;line-height:1.5;color:#6A584A">Antipolo, Rizal</div>
+    </a>
+    <a href="#" class="card" style="grid-column:span 4;display:block;padding:24px;box-sizing:border-box;border:1px solid #D3C4B1;border-left:0;background:#F2ECE3">
+      <div role="img" aria-label="Tanaw Residence living room with city skyline at dusk" style="position:relative;overflow:hidden;aspect-ratio:3 / 2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#2a2428,#2a2428) 6.4% 58%/6% 14% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 14.7% 55%/5% 20% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 26.1% 60%/8% 10% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 64.5% 56%/7% 18% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 74.5% 59%/6% 12% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 87.9% 53%/9% 23% no-repeat,
+          radial-gradient(ellipse 12% 7% at 24% 84%, rgba(255,200,120,.65), rgba(255,200,120,0) 70%),
+          radial-gradient(ellipse 12% 7% at 76% 86%, rgba(255,200,120,.6), rgba(255,200,120,0) 70%),
+          repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(40,28,22,.8) 24.6% 25.4%),
+          linear-gradient(180deg, #3a3340 0%, #8b6a62 36%, #d9a374 52%, #7a5a4c 56%, #2e211a 64%, #241a15 100%);"></div>
+        <div style="position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Tanaw Residence living room, skyline at dusk</div>
+      </div>
+      <div style="margin-top:16px;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:28px;line-height:1.25;font-weight:300">Tanaw Residence</div>
+      <div style="margin-top:2px;font-size:15px;line-height:1.5;color:#6A584A">Bonifacio Global City, Taguig</div>
+    </a>
+    <a href="#" class="card" style="grid-column:span 4;display:block;padding:24px;box-sizing:border-box;border:1px solid #D3C4B1;border-left:0;background:#F2ECE3">
+      <div role="img" aria-label="Hardin Apartment sitting room with garden light, a sofa and a window onto trees" style="position:relative;overflow:hidden;aspect-ratio:3 / 2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#cdbfa6,#cdbfa6) 22% 66%/36% 9% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 22% 72%/36% 3% no-repeat,
+          radial-gradient(ellipse 30% 40% at 12% 80%, rgba(88,110,58,.85), rgba(88,110,58,0) 70%),
+          radial-gradient(ellipse 22% 30% at 92% 70%, rgba(88,110,58,.7), rgba(88,110,58,0) 70%),
+          linear-gradient(#e3ecd0,#e3ecd0) 70% 20%/26% 40% no-repeat,
+          radial-gradient(ellipse 40% 40% at 70% 36%, rgba(255,250,235,.5), rgba(255,250,235,0) 72%),
+          linear-gradient(180deg,#e7dfcf 0%,#dcd1bc 68%,#9a7b5c 70%,#6e5240 100%);"></div>
+        <div style="position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Hardin Apartment sitting room, garden light</div>
+      </div>
+      <div style="margin-top:16px;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:28px;line-height:1.25;font-weight:300">Hardin Apartment</div>
+      <div style="margin-top:2px;font-size:15px;line-height:1.5;color:#6A584A">Legazpi Village, Makati</div>
+    </a>
+  </div>
+</section>
+
+<!-- Pairs well with -->
+<section style="position:relative;padding:0 64px 144px;box-sizing:border-box">
+  <div class="lb" style="padding-left:12px;margin-bottom:20px">06 · Pairs well with</div>
+  <h2 style="margin:0 0 48px;padding-left:12px;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Pairs well with</h2>
+  <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr))">
+
+    <a href="#" class="card cardin" style="grid-column:span 3;display:block;padding:24px 24px 28px;box-sizing:border-box;border:1px solid #D3C4B1;background:#F2ECE3">
+      <div role="img" aria-label="Batis Coffee Table, stone coffee table on a pale warm backdrop, soft window light" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#a79c88,#8a7f6c) 18% 46%/64% 9% no-repeat,
+          linear-gradient(#8a7f6c,#6e6454) 24% 54%/10% 14% no-repeat,
+          linear-gradient(#8a7f6c,#6e6454) 66% 54%/10% 14% no-repeat,
+          radial-gradient(ellipse 60% 5% at 50% 70%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 60% 50% at 32% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 66%, #cdbfa6 66%, #bfae92 100%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div style="position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Batis Coffee Table, stone</div>
+      </div>
+      <div style="padding-top:20px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Batis Coffee Table</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Marmol Atelier</div>
+        <div style="margin-top:10px;font-size:17px;line-height:1.4">₱72,000</div>
+        <div style="margin-top:6px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 8 weeks</span></div>
+      </div>
+    </a>
+
+    <a href="#" class="card cardin" style="grid-column:span 3;display:block;padding:24px 24px 28px;box-sizing:border-box;border:1px solid #D3C4B1;border-left:0;background:#F2ECE3">
+      <div role="img" aria-label="Lambot Wool Rug seen from above on a wood floor, oat with clay borders" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(90deg, rgba(60,44,28,.14) 0 1px, rgba(0,0,0,0) 1px 6px) 14% 24%/72% 52% no-repeat,
+          linear-gradient(90deg, rgba(0,0,0,0) 0 18%, #a8613f 18% 22%, rgba(0,0,0,0) 22% 78%, #a8613f 78% 82%, rgba(0,0,0,0) 82%) 14% 24%/72% 52% no-repeat,
+          linear-gradient(#d6c9ac,#c1b290) 14% 24%/72% 52% no-repeat,
+          radial-gradient(ellipse 70% 60% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, #d8cbb2, #cbbc9f);"></div>
+        <div style="position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lambot Wool Rug from above</div>
+      </div>
+      <div style="padding-top:20px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Lambot Wool Rug</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Kanlungan Original</div>
+        <div style="margin-top:10px;font-size:17px;line-height:1.4">₱96,000</div>
+        <div style="margin-top:6px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 10 weeks</span></div>
+      </div>
+    </a>
+
+    <a href="#" class="card cardin" style="grid-column:span 3;display:block;padding:24px 24px 28px;box-sizing:border-box;border:1px solid #D3C4B1;border-left:0;background:#F2ECE3">
+      <div role="img" aria-label="Luad Table Lamp, stoneware table lamp on a pale warm backdrop, soft window light" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 14% 9% at 50% 30%, #efe3c6 0%, #d9c8a0 80%, rgba(217,200,160,0) 100%),
+          radial-gradient(ellipse 16% 22% at 50% 56%, #b98f68 0%, #94704c 76%, rgba(148,112,76,0) 78%),
+          radial-gradient(ellipse 30% 4% at 50% 76%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 60% 50% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 74%, #cdbfa6 74%, #bfae92 100%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div style="position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Luad Table Lamp, stoneware</div>
+      </div>
+      <div style="padding-top:20px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Luad Table Lamp</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Bukal Clayworks</div>
+        <div style="margin-top:10px;font-size:17px;line-height:1.4">₱14,500</div>
+        <div style="margin-top:6px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">In stock</div>
+      </div>
+    </a>
+
+    <a href="#" class="card cardin" style="grid-column:span 3;display:block;padding:24px 24px 28px;box-sizing:border-box;border:1px solid #D3C4B1;border-left:0;background:#F2ECE3">
+      <div role="img" aria-label="Tapayan Vessel, hand-formed clay vessel on a pale warm backdrop, soft window light" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 12% 3% at 50% 42%, #4a2f1f 0%, #4a2f1f 90%, rgba(74,47,31,0) 100%),
+          radial-gradient(ellipse 22% 28% at 50% 58%, #c08a5a 0%, #8a5a38 76%, rgba(138,90,56,0) 78%),
+          radial-gradient(ellipse 30% 4% at 50% 78%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 60% 50% at 34% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 76%, #cdbfa6 76%, #bfae92 100%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div style="position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:3px 6px;font-size:11px;line-height:1.3;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Tapayan Vessel, burnished clay</div>
+      </div>
+      <div style="padding-top:20px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Tapayan Vessel</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Bukal Clayworks</div>
+        <div style="margin-top:10px;font-size:17px;line-height:1.4">₱8,600</div>
+        <div style="margin-top:6px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">In stock</div>
+      </div>
+    </a>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="dk" style="position:relative;z-index:2;background:#3A2A20;color:#F2ECE3;padding:96px 64px 48px;box-sizing:border-box">
+  <div style="display:grid;grid-template-columns:repeat(5, minmax(0, 1fr));gap:48px">
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Studio</div>
+      <ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#">Full-Service Furnishing</a></li>
+        <li><a href="#">Interior Design Direction</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Shop</div>
+      <ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#">Seating</a></li>
+        <li><a href="#">Tables</a></li>
+        <li><a href="#">Beds</a></li>
+        <li><a href="#">Storage</a></li>
+        <li><a href="#">Lighting</a></li>
+        <li><a href="#">Rugs and Textiles</a></li>
+        <li><a href="#">Decor and Objects</a></li>
+        <li><a href="#">Art</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Makers</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Help</div>
+      <ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#">Delivery and returns</a></li>
+        <li><a href="#">Care guide</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Mailing list</div>
+      <form action="#" style="margin-top:20px;display:flex;flex-direction:column;gap:12px">
+        <label for="mail-l2p" style="font-size:15px;line-height:1.5;font-weight:400">Occasional notes on new projects and pieces.</label>
+        <input id="mail-l2p" type="email" name="email" autocomplete="email" style="width:100%;box-sizing:border-box;height:52px;padding:0 16px;background:#2E211A;border:1px solid #B3A18B;border-radius:2px;color:#F2ECE3;font:400 15px 'Hanken Grotesk',sans-serif">
+        <button type="submit" class="btn-p" style="height:52px;background:#8E4A2C;color:#F7F2EA;border:0;border-radius:2px;font:500 15px 'Hanken Grotesk',sans-serif;cursor:pointer">Subscribe</button>
+      </form>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Showroom</div>
+      <div style="margin-top:20px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;font-weight:400">
+        <div>Makati City, Metro Manila. Open by appointment.</div>
+        <a href="#">studio@kanlungan.example</a>
+        <a href="#">+63 2 8555 0100</a>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:80px;padding-top:28px;border-top:1px solid #6A584A;display:flex;justify-content:space-between;align-items:flex-start;gap:64px">
+    <p style="margin:0;max-width:720px;font-size:13px;line-height:1.6;font-weight:400;color:#D3C4B1">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
+    <div style="display:flex;gap:28px;font-size:14px;line-height:1.5;font-weight:400">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4680}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

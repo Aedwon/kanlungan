@@ -8,21 +8,36 @@
   "launch": {
     "view": "canvas"
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "round1",
+      "name": "Round 1 directions"
+    },
+    {
+      "id": "system",
+      "name": "Design system"
+    },
+    {
+      "id": "layouts",
+      "name": "Layout options"
+    }
+  ],
   "boards": {
     "Main.dc.html": {
       "x": 0,
       "y": 0,
       "w": 1440,
       "h": 900,
-      "title": "Overview"
+      "title": "Overview",
+      "page": "round1"
     },
     "A-spec.dc.html": {
       "x": 0,
       "y": 1400,
       "w": 720,
       "h": 3880,
-      "title": "A \u00b7 Spec sheet"
+      "title": "A \u00b7 Spec sheet",
+      "page": "round1"
     },
     "A-home-desktop.dc.html": {
       "x": 800,
@@ -30,14 +45,16 @@
       "w": 1440,
       "h": 6600,
       "title": "A \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "A-home-mobile.dc.html": {
       "x": 2320,
       "y": 1400,
       "w": 390,
       "h": 7500,
-      "title": "A \u00b7 Home mobile"
+      "title": "A \u00b7 Home mobile",
+      "page": "round1"
     },
     "A-product-desktop.dc.html": {
       "x": 2790,
@@ -45,14 +62,16 @@
       "w": 1440,
       "h": 4230,
       "title": "A \u00b7 Silong Sofa desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "B-spec.dc.html": {
       "x": 0,
       "y": 9400,
       "w": 720,
       "h": 3850,
-      "title": "B \u00b7 Spec sheet"
+      "title": "B \u00b7 Spec sheet",
+      "page": "round1"
     },
     "B-home-desktop.dc.html": {
       "x": 800,
@@ -60,14 +79,16 @@
       "w": 1440,
       "h": 5880,
       "title": "B \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "B-home-mobile.dc.html": {
       "x": 2320,
       "y": 9400,
       "w": 390,
       "h": 7240,
-      "title": "B \u00b7 Home mobile"
+      "title": "B \u00b7 Home mobile",
+      "page": "round1"
     },
     "B-product-desktop.dc.html": {
       "x": 2790,
@@ -75,14 +96,16 @@
       "w": 1440,
       "h": 4200,
       "title": "B \u00b7 Silong Sofa desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "C-spec.dc.html": {
       "x": 0,
       "y": 17100,
       "w": 720,
       "h": 3100,
-      "title": "C \u00b7 Spec sheet"
+      "title": "C \u00b7 Spec sheet",
+      "page": "round1"
     },
     "C-home-desktop.dc.html": {
       "x": 800,
@@ -90,14 +113,16 @@
       "w": 1440,
       "h": 5220,
       "title": "C \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "C-home-mobile.dc.html": {
       "x": 2320,
       "y": 17100,
       "w": 390,
       "h": 7530,
-      "title": "C \u00b7 Home mobile"
+      "title": "C \u00b7 Home mobile",
+      "page": "round1"
     },
     "C-product-desktop.dc.html": {
       "x": 2790,
@@ -105,14 +130,16 @@
       "w": 1440,
       "h": 4190,
       "title": "C \u00b7 Silong Sofa desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "D-spec.dc.html": {
       "x": 0,
       "y": -7700,
       "w": 720,
       "h": 4180,
-      "title": "D \u00b7 Spec sheet"
+      "title": "D \u00b7 Spec sheet",
+      "page": "round1"
     },
     "D-home-desktop.dc.html": {
       "x": 800,
@@ -120,14 +147,16 @@
       "w": 1440,
       "h": 5880,
       "title": "D \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "D-home-mobile.dc.html": {
       "x": 2320,
       "y": -7700,
       "w": 390,
       "h": 7200,
-      "title": "D \u00b7 Home mobile"
+      "title": "D \u00b7 Home mobile",
+      "page": "round1"
     },
     "D-product-desktop.dc.html": {
       "x": 2790,
@@ -135,21 +164,24 @@
       "w": 1440,
       "h": 4210,
       "title": "D \u00b7 Silong Sofa desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "D-type-options.dc.html": {
       "x": 4310,
       "y": -7700,
       "w": 1440,
       "h": 1690,
-      "title": "D \u00b7 Type options"
+      "title": "D \u00b7 Type options",
+      "page": "round1"
     },
     "D2-spec.dc.html": {
       "x": 0,
       "y": -15400,
       "w": 720,
       "h": 4130,
-      "title": "D2 \u00b7 Spec sheet"
+      "title": "D2 \u00b7 Spec sheet",
+      "page": "round1"
     },
     "D2-home-desktop.dc.html": {
       "x": 800,
@@ -157,14 +189,16 @@
       "w": 1440,
       "h": 5880,
       "title": "D2 \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "D2-home-mobile.dc.html": {
       "x": 2320,
       "y": -15400,
       "w": 390,
       "h": 7200,
-      "title": "D2 \u00b7 Home mobile"
+      "title": "D2 \u00b7 Home mobile",
+      "page": "round1"
     },
     "D2-product-desktop.dc.html": {
       "x": 2790,
@@ -172,6 +206,141 @@
       "w": 1440,
       "h": 4210,
       "title": "D2 \u00b7 Silong Sofa desktop",
+      "expand": "fill",
+      "page": "round1"
+    },
+    "DS-type.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 4240,
+      "title": "Type scale",
+      "page": "system"
+    },
+    "DS-tokens.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 1440,
+      "h": 4050,
+      "title": "Tokens",
+      "page": "system"
+    },
+    "DS-states.dc.html": {
+      "x": 3040,
+      "y": 0,
+      "w": 1440,
+      "h": 4900,
+      "title": "Component states",
+      "page": "system"
+    },
+    "DS-motion.dc.html": {
+      "x": 4560,
+      "y": 0,
+      "w": 1440,
+      "h": 2340,
+      "title": "Motion",
+      "page": "system"
+    },
+    "L1-notes.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 3250,
+      "title": "1 \u00b7 Notes",
+      "page": "layouts"
+    },
+    "L1-home-desktop.dc.html": {
+      "x": 800,
+      "y": 0,
+      "w": 1440,
+      "h": 6940,
+      "title": "1 \u00b7 Home desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L1-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 0,
+      "w": 390,
+      "h": 7140,
+      "title": "1 \u00b7 Home mobile",
+      "page": "layouts"
+    },
+    "L1-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 0,
+      "w": 1440,
+      "h": 6830,
+      "title": "1 \u00b7 Silong Sofa desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L2-notes.dc.html": {
+      "x": 0,
+      "y": 7700,
+      "w": 720,
+      "h": 1840,
+      "title": "2 \u00b7 Notes",
+      "page": "layouts"
+    },
+    "L2-home-desktop.dc.html": {
+      "x": 800,
+      "y": 7700,
+      "w": 1440,
+      "h": 7020,
+      "title": "2 \u00b7 Home desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L2-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 7700,
+      "w": 390,
+      "h": 8530,
+      "title": "2 \u00b7 Home mobile",
+      "page": "layouts"
+    },
+    "L2-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 7700,
+      "w": 1440,
+      "h": 4680,
+      "title": "2 \u00b7 Silong Sofa desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L3-notes.dc.html": {
+      "x": 0,
+      "y": 16700,
+      "w": 720,
+      "h": 2130,
+      "title": "3 \u00b7 Notes",
+      "page": "layouts"
+    },
+    "L3-home-desktop.dc.html": {
+      "x": 800,
+      "y": 16700,
+      "w": 1440,
+      "h": 9970,
+      "title": "3 \u00b7 Home desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L3-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 16700,
+      "w": 390,
+      "h": 8870,
+      "title": "3 \u00b7 Home mobile",
+      "page": "layouts"
+    },
+    "L3-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 16700,
+      "w": 1440,
+      "h": 6090,
+      "title": "3 \u00b7 Silong Sofa desktop",
+      "page": "layouts",
       "expand": "fill"
     }
   },
@@ -197,7 +366,23 @@
     "D2-spec.dc.html",
     "D2-home-desktop.dc.html",
     "D2-home-mobile.dc.html",
-    "D2-product-desktop.dc.html"
+    "D2-product-desktop.dc.html",
+    "DS-type.dc.html",
+    "DS-tokens.dc.html",
+    "DS-states.dc.html",
+    "DS-motion.dc.html",
+    "L1-notes.dc.html",
+    "L1-home-desktop.dc.html",
+    "L1-home-mobile.dc.html",
+    "L1-product-desktop.dc.html",
+    "L2-notes.dc.html",
+    "L2-home-desktop.dc.html",
+    "L2-home-mobile.dc.html",
+    "L2-product-desktop.dc.html",
+    "L3-notes.dc.html",
+    "L3-home-desktop.dc.html",
+    "L3-home-mobile.dc.html",
+    "L3-product-desktop.dc.html"
   ],
   "notes": {
     "rowA": {
@@ -205,35 +390,72 @@
       "y": 1100,
       "text": "A \u00b7 Shaded Room",
       "kind": "title1",
-      "maxW": 4230
+      "maxW": 4230,
+      "page": "round1"
     },
     "rowB": {
       "x": 0,
       "y": 9100,
       "text": "B \u00b7 Lamplight",
       "kind": "title1",
-      "maxW": 4230
+      "maxW": 4230,
+      "page": "round1"
     },
     "rowC": {
       "x": 0,
       "y": 16800,
       "text": "C \u00b7 Workshop Index",
       "kind": "title1",
-      "maxW": 4230
+      "maxW": 4230,
+      "page": "round1"
     },
     "rowD": {
       "x": 0,
       "y": -8000,
       "text": "D \u00b7 Mix with Newsreader type (A)",
       "kind": "title1",
-      "maxW": 5750
+      "maxW": 5750,
+      "page": "round1"
     },
     "rowD2": {
       "x": 0,
       "y": -15700,
       "text": "D2 \u00b7 Same mix with Inter Tight type (B)",
       "kind": "title1",
-      "maxW": 4230
+      "maxW": 4230,
+      "page": "round1"
+    },
+    "dsTitle": {
+      "x": 0,
+      "y": -300,
+      "text": "Design system refinement \u00b7 Direction D",
+      "kind": "title1",
+      "maxW": 6000,
+      "page": "system"
+    },
+    "rowL1": {
+      "x": 0,
+      "y": -300,
+      "text": "Layout 1 \u00b7 Threshold",
+      "kind": "title1",
+      "maxW": 4230,
+      "page": "layouts"
+    },
+    "rowL2": {
+      "x": 0,
+      "y": 7400,
+      "text": "Layout 2 \u00b7 Plan Drawing",
+      "kind": "title1",
+      "maxW": 4230,
+      "page": "layouts"
+    },
+    "rowL3": {
+      "x": 0,
+      "y": 16400,
+      "text": "Layout 3 \u00b7 Light and Shade",
+      "kind": "title1",
+      "maxW": 4230,
+      "page": "layouts"
     }
   },
   "designSystems": []

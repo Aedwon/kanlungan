@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout 2 · Plan Drawing · Notes</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(40px)}}
+@keyframes slidel{from{transform:translateX(0)}to{transform:translateX(-40px)}}
+@keyframes draw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.mv{animation:slide 3s ease-in-out infinite alternate}
+.mvl{animation:slidel 3s ease-in-out infinite alternate}
+.dw{transform-origin:left center;animation:draw 3s ease-in-out infinite alternate}
+@media (prefers-reduced-motion: reduce){.mv,.mvl,.dw{animation:none}}
+</style>
+</helmet>
+<div style="width:720px;box-sizing:border-box;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;padding:48px;position:relative">
+
+<div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Layout option 2</div>
+<h1 style="margin:8px 0 0;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.1;font-weight:300;letter-spacing:-.015em">Plan Drawing</h1>
+<p style="margin:16px 0 0;font-size:17px;line-height:1.6">The page is built like an architect's floor plan. A visible 12-column hairline grid runs behind everything. Images sit in it like furniture in rooms.</p>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Layout moves</h2>
+<ol style="margin:0;padding:0;list-style:none;border-top:1px solid #D3C4B1">
+  <li style="display:grid;grid-template-columns:32px 1fr;padding:14px 0;border-bottom:1px solid #D3C4B1;font-size:15px;line-height:1.5"><span style="color:#6A584A">1</span><span><b style="font-weight:500">Visible grid.</b> Hairline columns in line color run the full page height. Nav items start on column lines. Tiny labels such as "01 · Hero" mark sections.</span></li>
+  <li style="display:grid;grid-template-columns:32px 1fr;padding:14px 0;border-bottom:1px solid #D3C4B1;font-size:15px;line-height:1.5"><span style="color:#6A584A">2</span><span><b style="font-weight:500">Staggered display words.</b> "Spaces", "to come", "home to." sit on different columns at 156px. A tall image fills columns 8 to 12 and bleeds off the top.</span></li>
+  <li style="display:grid;grid-template-columns:32px 1fr;padding:14px 0;border-bottom:1px solid #D3C4B1;font-size:15px;line-height:1.5"><span style="color:#6A584A">3</span><span><b style="font-weight:500">Measured stair statement.</b> Each line starts one column further in, closed by a dimension line with end ticks.</span></li>
+  <li style="display:grid;grid-template-columns:32px 1fr;padding:14px 0;border-bottom:1px solid #D3C4B1;font-size:15px;line-height:1.5"><span style="color:#6A584A">4</span><span><b style="font-weight:500">Project index.</b> Large italic names in rows with location, type, year in columns. A fixed preview column on the right follows the hovered row.</span></li>
+  <li style="display:grid;grid-template-columns:32px 1fr;padding:14px 0;border-bottom:1px solid #D3C4B1;font-size:15px;line-height:1.5"><span style="color:#6A584A">5</span><span><b style="font-weight:500">Shared edges.</b> Services panels, product cards and details sit exactly on column lines. The sofa details are a drawn front and side elevation with dimension lines.</span></li>
+</ol>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Motion choreography</h2>
+<p style="margin:0 0 16px;font-size:14px;line-height:1.5;color:#6A584A">All scroll-driven with CSS view timelines. The page at rest is the finished composition. Unsupported browsers and reduced motion show it as is.</p>
+<ol style="margin:0;padding:0 0 0 22px;font-size:15px;line-height:1.6">
+  <li>On scroll, the hero words drift sideways at different speeds: "Spaces" right, "to come" left faster, "home to." right slower.</li>
+  <li>On scroll, the hero image parallaxes down inside its frame while the text column rises away.</li>
+  <li>On scroll, each statement line slides in from the right to its own column, one after another.</li>
+  <li>On scroll, the dimension line draws left to right with its end ticks.</li>
+  <li>On scroll, each project name slides in from the left as its row enters.</li>
+  <li>On hover or focus of a project row, its image replaces the preview. The first project shows by default.</li>
+  <li>On scroll, the large numerals 1 and 2 rise into place. The tall collection image shifts inside its frame at its own speed.</li>
+  <li>On scroll, shop cards rise 40px into their cells. On hover, a detail crop crossfades in and "View piece →" slides up.</li>
+  <li>On the product page, the elevation drawing and its dimension lines draw themselves as they enter view.</li>
+</ol>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Key scroll moves</h2>
+<div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:16px">
+  <div>
+    <div style="height:150px;border:1px solid #D3C4B1;position:relative;overflow:hidden;background:#F2ECE3">
+      <div style="position:absolute;left:0;top:0;bottom:0;width:100%;background-image:linear-gradient(90deg,#D3C4B1 1px,transparent 1px);background-size:25% 100%"></div>
+      <div style="position:absolute;right:12px;top:0;width:60px;height:110px;background:#8A9A62;border-radius:2px"></div>
+      <div class="mv" style="position:absolute;left:10px;top:14px;width:50px;height:12px;background:#2E211A"></div>
+      <div class="mvl" style="position:absolute;left:50px;top:36px;width:60px;height:12px;background:#2E211A"></div>
+      <div class="mv" style="position:absolute;left:30px;top:58px;width:60px;height:12px;background:#2E211A"></div>
+    </div>
+    <div style="margin-top:8px;font-size:13px;line-height:1.4;color:#6A584A">Words drift at different speeds</div>
+  </div>
+  <div>
+    <div style="height:150px;border:1px solid #D3C4B1;position:relative;overflow:hidden;background:#F2ECE3">
+      <div style="position:absolute;left:12px;top:30px;width:90px;height:10px;background:#2E211A"></div>
+      <div style="position:absolute;left:38px;top:50px;width:70px;height:10px;background:#2E211A"></div>
+      <div style="position:absolute;left:64px;top:70px;width:76px;height:10px;background:#2E211A"></div>
+      <div style="position:absolute;left:12px;right:12px;top:110px;height:1px;background:#8E4A2C"></div>
+      <div class="dw" style="position:absolute;left:12px;right:12px;top:110px;height:1px;background:#2E211A;transform-origin:left center"></div>
+      <div style="position:absolute;left:12px;top:103px;width:1px;height:15px;background:#2E211A"></div>
+      <div style="position:absolute;right:12px;top:103px;width:1px;height:15px;background:#2E211A"></div>
+    </div>
+    <div style="margin-top:8px;font-size:13px;line-height:1.4;color:#6A584A">Stair lines, dimension line draws</div>
+  </div>
+  <div>
+    <div style="height:150px;border:1px solid #D3C4B1;position:relative;overflow:hidden;background:#F2ECE3">
+      <div style="position:absolute;left:12px;top:20px;width:62%;height:26px;border-bottom:1px solid #D3C4B1"></div>
+      <div style="position:absolute;left:12px;top:56px;width:62%;height:26px;border-bottom:1px solid #D3C4B1"></div>
+      <div style="position:absolute;left:12px;top:92px;width:62%;height:26px;border-bottom:1px solid #D3C4B1"></div>
+      <div style="position:absolute;left:12px;top:20px;width:50px;height:12px;background:#2E211A"></div>
+      <div style="position:absolute;right:12px;top:14px;width:30%;height:114px;background:#5b4132;border-radius:2px"></div>
+    </div>
+    <div style="margin-top:8px;font-size:13px;line-height:1.4;color:#6A584A">Hover a row, preview column follows</div>
+  </div>
+</div>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Reference patterns</h2>
+<ul style="margin:0;padding:0 0 0 20px;font-size:15px;line-height:1.6">
+  <li>Visible hairline structural grid with labels aligned to the columns, seen across 2025 architecture and interiors winners.</li>
+  <li>Huge serif display words distributed across columns, with horizontal drift on scroll.</li>
+  <li>Index lists with hover image previews, common in studio portfolio sites.</li>
+  <li>Technical drawing details with dimension lines, borrowed from architectural sheets.</li>
+</ul>
+
+<div style="margin-top:40px;padding-top:12px;border-top:1px solid #D3C4B1;font-size:13px;line-height:1.5;color:#6A584A">Files: L2-home-desktop, L2-home-mobile, L2-product-desktop. Colors and type as locked. Added one display size: 156px desktop, 72px mobile.</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":720,"height":1840}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

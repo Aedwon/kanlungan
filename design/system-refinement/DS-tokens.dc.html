@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tokens</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&amp;family=Hanken+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+.b-cur,.b-new{transition:background-color .2s ease}
+.b-cur:hover{background:#733A22!important}
+.b-new:hover{background:#F7F2EA!important}
+.b-cur:focus-visible,.b-new:focus-visible,input:focus-visible{outline:2px solid #F7F2EA;outline-offset:3px}
+@media (prefers-reduced-motion: reduce){.b-cur,.b-new{transition:none}}
+</style>
+</helmet>
+<div style="width:1440px;box-sizing:border-box;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400;padding:64px">
+
+<header>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">Design system refinement</div>
+  <h1 style="font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.1;font-weight:300;letter-spacing:-.015em;margin:0;margin-top:16px">Tokens</h1>
+  <p style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:16px;max-width:760px">Colors, spacing, grid, radius, and elevation. Tokens marked New do not exist yet in the D pages; every other value is already in use. Contrast ratios are WCAG 2.x.</p>
+</header>
+
+<section style="margin-top:56px">
+  <h2 style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;margin:0">Color</h2>
+  <p style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:8px">Every token as a swatch with its hex, use, and contrast. Only the footer and text over images are dark. Do not add more accents.</p>
+<div style="margin-top:40px">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#6A584A">Base</div>
+  <div style="display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:32px 24px;margin-top:24px">
+<div>
+  <div style="height:64px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.bg</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#F2ECE3</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Page background</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Ground for all contrast figures</div>
+</div>
+<div>
+  <div style="height:64px;background:#E8DFD2;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.surface</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#E8DFD2</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Raised panels, product image ground</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Muted text 5.1:1 on it</div>
+</div>
+<div>
+  <div style="height:64px;background:#F7F2EA;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.field</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#F7F2EA</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Input field fill</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Text 14.0:1 on it</div>
+</div>
+<div>
+  <div style="height:64px;background:#2E211A;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.text</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#2E211A</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Text</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">13.3:1 on bg</div>
+</div>
+<div>
+  <div style="height:64px;background:#6A584A;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.text-muted</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#6A584A</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Secondary text</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">5.8:1 on bg, 5.1:1 on surface</div>
+</div>
+<div>
+  <div style="height:64px;background:#D3C4B1;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.line</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#D3C4B1</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Dividers only</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Decorative, 1.4:1, never carries meaning</div>
+</div>
+  </div>
+</div>
+<div style="margin-top:40px">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#6A584A">Interactive</div>
+  <div style="display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:32px 24px;margin-top:24px">
+<div>
+  <div style="height:64px;background:#8E4A2C;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.accent</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#8E4A2C</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Primary button fill, small accents</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">5.7:1 on bg</div>
+</div>
+<div>
+  <div style="height:64px;background:#733A22;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.accent-hover</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#733A22</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Primary button hover</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">7.6:1 on bg</div>
+</div>
+<div>
+  <div style="height:64px;background:#F7F2EA;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.on-accent</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#F7F2EA</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Text on clay and on images</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">6.0:1 on clay</div>
+</div>
+<div>
+  <div style="height:64px;background:#6A584A;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.control</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#6A584A</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">1px borders of inputs, unselected options</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">5.8:1 on bg</div>
+</div>
+<div>
+  <div style="height:64px;background:#2E211A;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.focus</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#2E211A</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">2px focus outline, offset 3px</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">13.3:1 on bg</div>
+</div>
+<div>
+  <div style="height:64px;background:#F7F2EA;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.focus-on-image</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#F7F2EA</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Focus outline over images</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">11.0:1 on a dark image area</div>
+</div>
+<div>
+  <div style="height:64px;background:#E8DFD2;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.disabled-bg</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#E8DFD2</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Disabled button fill</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Same hex as surface</div>
+</div>
+<div>
+  <div style="height:64px;background:#8C7B6C;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.disabled-text</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#8C7B6C</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Disabled button text</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">3.1:1 on disabled-bg. Exempt from AA.</div>
+</div>
+  </div>
+</div>
+<div style="margin-top:40px">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#6A584A">Feedback</div>
+  <div style="display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:32px 24px;margin-top:24px">
+<div>
+  <div style="height:64px;background:#9E2A1E;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.error</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#9E2A1E</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Error text and 1px field border. Always with an icon and a message.</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">6.4:1 on bg</div>
+</div>
+<div>
+  <div style="height:64px;background:#4C5E3A;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.success</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#4C5E3A</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Confirmation states</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">6.0:1 on bg</div>
+</div>
+  </div>
+</div>
+<div style="margin-top:40px">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#6A584A">Footer</div>
+  <div style="display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:32px 24px;margin-top:24px">
+<div>
+  <div style="height:64px;background:#3A2A20;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.footer-bg</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#3A2A20</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Footer background</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Ground for footer figures</div>
+</div>
+<div>
+  <div style="height:64px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.footer-text</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#F2ECE3</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Footer text</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">11.7:1 on footer-bg</div>
+</div>
+<div>
+  <div style="height:64px;background:#B9A99A;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.footer-muted</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#B9A99A</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Footer secondary text</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">6.0:1 on footer-bg</div>
+</div>
+<div>
+  <div style="height:64px;background:#E8B89A;border:1px solid #D3C4B1;border-radius:2px"></div>
+  <div style="margin-top:12px;display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">color.footer-accent</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">#E8B89A</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:6px">Footer link hover</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">7.7:1 on footer-bg</div>
+</div>
+  </div>
+</div>
+</section>
+
+<section style="margin-top:72px">
+  <h2 style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;margin:0">Footer subscribe button</h2>
+  <p style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:8px;max-width:760px">The clay button is 2.1:1 against the footer, so its edge nearly disappears. The proposed light button is 11.7:1. Both are real, hoverable controls.</p>
+  <div style="margin-top:32px;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:32px">
+<div>
+  <div style="display:flex;align-items:center;gap:12px;min-height:28px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:15px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Current</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Clay fill #8E4A2C on #3A2A20</div>
+  <div style="margin-top:16px;background:#3A2A20;border-radius:2px;padding:48px 64px;color:#F2ECE3">
+    <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#D3C4B1">Mailing list</div>
+    <form action="#" style="margin-top:20px;display:flex;flex-direction:column;gap:12px;max-width:360px">
+      <label for="mail-cur" style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:15px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;">Occasional notes on new projects and pieces.</label>
+      <input id="mail-cur" type="email" name="email" autocomplete="email" style="width:100%;box-sizing:border-box;height:52px;padding:0 16px;background:#2E211A;border:1px solid #B3A18B;border-radius:2px;color:#F2ECE3;font:400 15px 'Hanken Grotesk',sans-serif">
+      <button type="submit" class="b-cur" style="height:52px;background:#8E4A2C;color:#F7F2EA;border:0;border-radius:2px;font:500 15px 'Hanken Grotesk',sans-serif;cursor:pointer">Subscribe</button>
+    </form>
+  </div>
+</div>
+<div>
+  <div style="display:flex;align-items:center;gap:12px;min-height:28px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:15px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Proposed</span><span style="display:inline-block;padding:4px 8px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">Recommended</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Light fill #F2ECE3, text #2E211A, radius 2px</div>
+  <div style="margin-top:16px;background:#3A2A20;border-radius:2px;padding:48px 64px;color:#F2ECE3">
+    <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#D3C4B1">Mailing list</div>
+    <form action="#" style="margin-top:20px;display:flex;flex-direction:column;gap:12px;max-width:360px">
+      <label for="mail-new" style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:15px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;">Occasional notes on new projects and pieces.</label>
+      <input id="mail-new" type="email" name="email" autocomplete="email" style="width:100%;box-sizing:border-box;height:52px;padding:0 16px;background:#2E211A;border:1px solid #B3A18B;border-radius:2px;color:#F2ECE3;font:400 15px 'Hanken Grotesk',sans-serif">
+      <button type="submit" class="b-new" style="height:52px;background:#F2ECE3;color:#2E211A;border:0;border-radius:2px;font:500 15px 'Hanken Grotesk',sans-serif;cursor:pointer">Subscribe</button>
+    </form>
+  </div>
+</div>
+  </div>
+</section>
+
+<section style="margin-top:72px">
+  <h2 style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;margin:0">Spacing</h2>
+  <p style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:8px">Bars are drawn at true size in pixels. Space.3 (12) is new because it is already used often.</p>
+  <div style="margin-top:24px;border-bottom:1px solid #D3C4B1;max-width:640px">
+<div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.1</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">4px</div>
+  <div><div style="width:4px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.2</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">8px</div>
+  <div><div style="width:8px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.3</span><span style="display:inline-block;padding:2px 6px;border:1px solid #8E4A2C;border-radius:2px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.3;font-weight:500;letter-spacing:.08em;margin:0;color:#8E4A2C">New</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">12px</div>
+  <div><div style="width:12px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.4</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">16px</div>
+  <div><div style="width:16px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.5</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">24px</div>
+  <div><div style="width:24px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.6</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">32px</div>
+  <div><div style="width:32px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.7</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">48px</div>
+  <div><div style="width:48px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.8</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">64px</div>
+  <div><div style="width:64px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.9</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">96px</div>
+  <div><div style="width:96px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.10</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">128px</div>
+  <div><div style="width:128px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div><div style="display:grid;grid-template-columns:120px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:8px 0;border-top:1px solid #D3C4B1">
+  <div style="display:flex;align-items:center;gap:8px"><span style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">space.11</span></div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">160px</div>
+  <div><div style="width:160px;height:16px;background:#8E4A2C;border-radius:2px"></div></div>
+</div>
+  </div>
+  <div style="margin-top:40px;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;margin:0;color:#6A584A">Section spacing</div>
+  <div style="margin-top:16px;border-bottom:1px solid #D3C4B1;max-width:900px">
+<div style="display:grid;grid-template-columns:200px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:12px 0;border-top:1px solid #D3C4B1">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Desktop section spacing</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">128px</div>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div style="width:128px;height:16px;background:#8E4A2C;border-radius:2px"></div>
+    <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">Currently mixed, from 96 to 168. One value: space.10.</div>
+  </div>
+</div>
+<div style="display:grid;grid-template-columns:200px 64px minmax(0, 1fr);align-items:center;gap:16px;padding:12px 0;border-top:1px solid #D3C4B1">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Mobile section spacing</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">80px</div>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div style="width:80px;height:16px;background:#8E4A2C;border-radius:2px"></div>
+    <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A">Currently 80 to 96. One value: 80, which is not on the scale.</div>
+  </div>
+</div>
+  </div>
+  <p style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:12px">Mobile 80 sits between space.8 (64) and space.9 (96). Decision needed: add it as a step, or use 64 or 96.</p>
+</section>
+
+<section style="margin-top:72px">
+  <h2 style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;margin:0">Grid and breakpoints</h2>
+  <p style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:8px;max-width:760px">All three diagrams are drawn at 45% of real size, so they compare fairly. Columns are tinted #E8DFD2 bars. The margin is the space outside the first and last column. Content max width is 1440. Full-bleed images ignore margins.</p>
+<div style="margin-top:32px;display:flex;align-items:flex-start;gap:40px">
+<div style="width:175.5px">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Mobile</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Frame 390 wide, under 768</div>
+  <div role="img" aria-label="Mobile column grid: 4 columns, 20px margin, 16px gutter" style="margin-top:12px;position:relative;box-sizing:border-box;width:175.5px;height:180px;background:#F7F2EA;border:1px solid #D3C4B1;border-radius:2px;padding:0 9.0px">
+    <div style="height:100%;display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:0 7.2px"><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div></div>
+  </div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:10px">4 columns · margin 20 · gutter 16</div>
+</div>
+<div style="width:345.6px">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Tablet</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Frame 768 wide, 768 to 1279</div>
+  <div role="img" aria-label="Tablet column grid: 8 columns, 40px margin, 20px gutter" style="margin-top:12px;position:relative;box-sizing:border-box;width:345.6px;height:180px;background:#F7F2EA;border:1px solid #D3C4B1;border-radius:2px;padding:0 18.0px">
+    <div style="height:100%;display:grid;grid-template-columns:repeat(8, minmax(0, 1fr));gap:0 9.0px"><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div></div>
+  </div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:10px">8 columns · margin 40 · gutter 20</div>
+</div>
+<div style="width:648.0px">
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Desktop</div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Frame 1440 wide, 1280 and up</div>
+  <div role="img" aria-label="Desktop column grid: 12 columns, 64px margin, 24px gutter" style="margin-top:12px;position:relative;box-sizing:border-box;width:648.0px;height:180px;background:#F7F2EA;border:1px solid #D3C4B1;border-radius:2px;padding:0 28.8px">
+    <div style="height:100%;display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:0 10.8px"><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div><div style="background:#E8DFD2;border:1px solid #D3C4B1;box-sizing:border-box"></div></div>
+  </div>
+  <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;margin-top:10px">12 columns · margin 64 · gutter 24</div>
+</div>
+</div>
+</section>
+
+<section style="margin-top:72px">
+  <h2 style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;margin:0">Radius and elevation</h2>
+  <p style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:8px">One radius, no shadows. Raised areas use color.surface. The scrim is the only translucent layer.</p>
+  <div style="margin-top:32px;display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:32px">
+    <div>
+      <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">radius.base · 2px</div>
+      <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">On every element. No pills, no circles.</div>
+      <div style="margin-top:16px;height:200px;display:flex;align-items:center;justify-content:center;border:1px solid #D3C4B1;border-radius:2px">
+        <div style="width:96px;height:96px;background:#E8DFD2;border:1px solid #8E4A2C;border-radius:2px"></div>
+      </div>
+    </div>
+    <div>
+      <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Elevation · color.surface</div>
+      <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">A raised panel is surface on bg. No shadow.</div>
+      <div style="margin-top:16px;height:200px;display:flex;align-items:center;justify-content:center;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px">
+        <div style="width:200px;height:120px;box-sizing:border-box;padding:20px;background:#E8DFD2;border-radius:2px">
+          <div style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;margin:0">Full-Service Furnishing</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0;">Overlay scrim · rgba(46,33,26,0.4)</div>
+      <div style="font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:400;letter-spacing:0;margin:0;color:#6A584A;margin-top:2px">Behind the cart drawer and panels.</div>
+      <div style="margin-top:16px;position:relative;overflow:hidden;height:200px;border-radius:2px;background:linear-gradient(180deg,#46321f 0%,#5a4332 11%,#d7d8b8 15%,#b4bf8c 40%,#8a9a62 56%,#7a5a40 62%,#5b4132 80%,#382820 100%)">
+        <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(46,33,26,.4)"></div>
+        <div style="position:absolute;right:0;top:0;bottom:0;width:130px;box-sizing:border-box;padding:16px;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:14px;line-height:1.5;font-weight:500;letter-spacing:0;margin:0;">Your cart</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4050}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
