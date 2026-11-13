@@ -388,6 +388,14 @@
       "h": 4810,
       "title": "Logo options, round 2 (Fable)",
       "page": "combined"
+    },
+    "Hero-options.dc.html": {
+      "x": 5030,
+      "y": 0,
+      "w": 1440,
+      "h": 5460,
+      "title": "Hero cleanup",
+      "page": "combined"
     }
   },
   "order": [
@@ -433,7 +441,8 @@
     "M-home-mobile.dc.html",
     "Shop-icons.dc.html",
     "Logo-options.dc.html",
-    "Logo-fable.dc.html"
+    "Logo-fable.dc.html",
+    "Hero-options.dc.html"
   ],
   "notes": {
     "rowA": {
@@ -513,7 +522,7 @@
       "y": -300,
       "text": "Combined Home from your picks",
       "kind": "title1",
-      "maxW": 4950,
+      "maxW": 6470,
       "page": "combined"
     }
   },
