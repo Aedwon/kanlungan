@@ -380,6 +380,14 @@
       "h": 3160,
       "title": "Logo options",
       "page": "combined"
+    },
+    "Logo-fable.dc.html": {
+      "x": 3510,
+      "y": 0,
+      "w": 1440,
+      "h": 4810,
+      "title": "Logo options, round 2 (Fable)",
+      "page": "combined"
     }
   },
   "order": [
@@ -424,7 +432,8 @@
     "M-home-desktop.dc.html",
     "M-home-mobile.dc.html",
     "Shop-icons.dc.html",
-    "Logo-options.dc.html"
+    "Logo-options.dc.html",
+    "Logo-fable.dc.html"
   ],
   "notes": {
     "rowA": {
@@ -504,7 +513,7 @@
       "y": -300,
       "text": "Combined Home from your picks",
       "kind": "title1",
-      "maxW": 3430,
+      "maxW": 4950,
       "page": "combined"
     }
   },
