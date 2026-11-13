@@ -6,9 +6,14 @@
   },
   "title": "Kanlungan round 1 directions",
   "launch": {
-    "view": "canvas"
+    "view": "canvas",
+    "page": "combined"
   },
   "pages": [
+    {
+      "id": "combined",
+      "name": "Combined Home, icons, logo"
+    },
     {
       "id": "round1",
       "name": "Round 1 directions"
@@ -342,6 +347,39 @@
       "title": "3 \u00b7 Silong Sofa desktop",
       "page": "layouts",
       "expand": "fill"
+    },
+    "M-home-desktop.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 10030,
+      "title": "Combined \u00b7 Home desktop",
+      "page": "combined",
+      "expand": "fill"
+    },
+    "M-home-mobile.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 390,
+      "h": 10110,
+      "title": "Combined \u00b7 Home mobile",
+      "page": "combined"
+    },
+    "Shop-icons.dc.html": {
+      "x": 1990,
+      "y": 0,
+      "w": 1440,
+      "h": 2380,
+      "title": "Category icons and Shop menu",
+      "page": "combined"
+    },
+    "Logo-options.dc.html": {
+      "x": 1990,
+      "y": 2620,
+      "w": 1440,
+      "h": 3160,
+      "title": "Logo options",
+      "page": "combined"
     }
   },
   "order": [
@@ -382,7 +420,11 @@
     "L3-notes.dc.html",
     "L3-home-desktop.dc.html",
     "L3-home-mobile.dc.html",
-    "L3-product-desktop.dc.html"
+    "L3-product-desktop.dc.html",
+    "M-home-desktop.dc.html",
+    "M-home-mobile.dc.html",
+    "Shop-icons.dc.html",
+    "Logo-options.dc.html"
   ],
   "notes": {
     "rowA": {
@@ -456,6 +498,14 @@
       "kind": "title1",
       "maxW": 4230,
       "page": "layouts"
+    },
+    "combTitle": {
+      "x": 0,
+      "y": -300,
+      "text": "Combined Home from your picks",
+      "kind": "title1",
+      "maxW": 3430,
+      "page": "combined"
     }
   },
   "designSystems": []
