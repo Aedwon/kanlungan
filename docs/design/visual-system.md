@@ -24,15 +24,22 @@ Light, warm, and calm. Full-bleed, cinematic layout in a daylight palette. The s
 - **Display:** Newsreader, weight 300, and 300 italic for project names
 - **Body and labels:** Hanken Grotesk, weights 400 and 500
 
-| Role | Family | Size / line height | Weight | Tracking |
-|---|---|---|---|---|
-| H1 (hero) | Newsreader | 112px / 1.0 | 300 | -0.02em |
-| H2 | Newsreader | 56px / 1.05 | 300 | -0.02em |
-| H3 | Newsreader | 24px / 1.3 | 400 | 0 |
-| Project name | Newsreader italic | 28px / 1.25 | 300 | 0 |
-| Body | Hanken Grotesk | 17px / 1.6 | 400 | 0 |
-| Small | Hanken Grotesk | 14px / 1.5 | 400 | 0 |
-| Label | Hanken Grotesk | 12px / 1.4 | 500 | 0.08em |
+Type scale "Snap", approved by Aedwon on 2026-11-14. Reference: `design/system-refinement/DS-type.dc.html`, Option 1.
+
+| Token | Desktop | Mobile | Line height | Tracking | Family and weight | Used for |
+|---|---|---|---|---|---|---|
+| type.display | 112 | 52 | 1.0 | -0.02em | Newsreader 300 | Hero heading |
+| type.h1 | 56 | 36 | 1.05 | -0.02em | Newsreader 300 | Section headings, product name |
+| type.h2 | 44 | 30 | 1.15 | -0.015em | Newsreader 300 | Statement, closing heading |
+| type.h3 | 30 | 24 | 1.2 | 0 | Newsreader 300 | Price, project names (italic) |
+| type.h4 | 24 | 20 | 1.3 | 0 | Newsreader 400 | Service titles, subsections |
+| type.title | 20 | 18 | 1.3 | 0 | Newsreader 400 | Product card name, collection name |
+| type.body | 17 | 17 | 1.6 | 0 | Hanken Grotesk 400 | Running text |
+| type.ui | 15 | 15 | 1.4 | 0 | Hanken Grotesk 500 | Buttons, navigation, options |
+| type.small | 14 | 14 | 1.5 | 0 | Hanken Grotesk 400 | Meta, availability, footer |
+| type.label | 12 | 12 | 1.4 | 0.08em | Hanken Grotesk 500 | Labels, captions |
+
+Use no other sizes.
 
 Labels are sentence case. Never use uppercase.
 
@@ -48,6 +55,7 @@ Labels are sentence case. Never use uppercase.
 | Line | `#D3C4B1` |
 | Control border (unselected options) | `#6A584A` |
 | Deep panel (footer) | `#3A2A20`, with `#F2ECE3` text |
+| Footer button | `#F2ECE3` fill, `#2E211A` text (approved 2026-11-14, replaces clay for contrast) |
 | Light text on clay and on images | `#F7F2EA` |
 
 Only the footer and text over images are dark. Clay is the primary button fill and is used for small accents. Do not add more accents.
@@ -65,7 +73,7 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 - **Primary button:** clay fill, `#F7F2EA` text, radius 2px, Hanken Grotesk 500 at 15px, padding 18px 30px
 - **Secondary button on images:** 1px `#F7F2EA` outline, transparent fill, same shape
 - **Text link:** text followed by "→". The arrow shifts 4px on hover.
-- **Product card:** a 1:1 image on surface, then the name at 18px, the maker in muted text, the price, and a small sentence-case availability line in clay
+- **Product card:** a 1:1 image on surface, then the name in Newsreader 400 at type.title (approved 2026-11-14), the maker in muted text, the price, and a small sentence-case availability line in clay
 - **Option swatches:** square with 2px radius. The selected swatch has a 1px clay ring set 4px off it.
 
 ## Layout
