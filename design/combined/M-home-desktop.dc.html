@@ -35,11 +35,8 @@ a.card:hover{color:#2E211A}
 :hover>.ph{opacity:1}
 
 /* Shadow layer: slats (sl) and palm fronds (pm), blurred, multiplied, drifting */
-.shw{position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;pointer-events:none;mix-blend-mode:multiply}
-.sh{position:absolute;top:-8%;bottom:-8%;left:-14%;width:128%;filter:blur(6px);animation:shd 12s ease-in-out infinite alternate}
 .sl{position:absolute;left:0;right:0;top:0;bottom:0;background:repeating-linear-gradient(103deg,rgba(40,28,20,0) 0 38px,rgba(40,28,20,.62) 38px 84px,rgba(40,28,20,0) 84px 118px);-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,#000 30%,#000 64%,rgba(0,0,0,0) 100%);mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,#000 30%,#000 64%,rgba(0,0,0,0) 100%)}
 .pm{position:absolute;left:0;right:0;top:0;bottom:0;background:repeating-linear-gradient(72deg,rgba(32,44,24,.8) 0 5px,rgba(0,0,0,0) 5px 17px);-webkit-mask-image:radial-gradient(ellipse 36% 48% at 94% 4%,#000 0%,rgba(0,0,0,0) 72%),radial-gradient(ellipse 30% 42% at 2% 100%,#000 0%,rgba(0,0,0,0) 70%);mask-image:radial-gradient(ellipse 36% 48% at 94% 4%,#000 0%,rgba(0,0,0,0) 72%),radial-gradient(ellipse 30% 42% at 2% 100%,#000 0%,rgba(0,0,0,0) 70%)}
-@keyframes shd{from{transform:translateX(-3.5%)}to{transform:translateX(3.5%)}}
 
 /* Hero: natural state is the full-bleed image with the heading */
 .hero-track{position:relative;background:#F2ECE3}
@@ -126,7 +123,7 @@ a.col:hover{color:#2E211A}
 }
 }
 @media (prefers-reduced-motion: reduce){
-.shade,.sh{animation:none}
+.shade{animation:none}
 .rv,.par,.zin,.prog,.cpar,.lg{animation:none!important}
 .arr,.btn-p,.ib,.sv-img,.sv-img-i,.sv-big,.sv .tx,.sv .tm,.pin,.tip,.num,.ph,.col .cd,.col .cz,.dt{transition:none}
 .card:hover .im,.card:focus-visible .im,.col:hover .cz,.col:focus-visible .cz{filter:none}
@@ -200,7 +197,7 @@ a.col:hover{color:#2E211A}
 
 <!-- 2 Statement: pinned split, text pinned left, three images scroll past on the right -->
 <section class="stsec" style="position:relative;padding:168px 64px 168px;box-sizing:border-box">
-  <div class="shw" style="opacity:.2"><div class="sh"><i class="sl"></i></div></div>
+  
   <div style="position:relative;display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
     <div style="grid-column:1 / span 6;position:sticky;top:152px;align-self:start;padding-right:32px">
       <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.2;font-weight:300;letter-spacing:-.015em;color:#2E211A">A home should lower your shoulders when you walk in. We design for that feeling: cool rooms, honest materials, and furniture made by people we know.</p>
@@ -215,7 +212,7 @@ a.col:hover{color:#2E211A}
           repeating-linear-gradient(45deg, rgba(90,62,38,.45) 0 2px, rgba(0,0,0,0) 2px 12px),
           repeating-linear-gradient(-45deg, rgba(90,62,38,.45) 0 2px, rgba(0,0,0,0) 2px 12px),
           radial-gradient(ellipse 70% 80% at 40% 35%, #d6bf93, #a78a5e 85%);"></div>
-        <div class="shw" style="opacity:.45"><div class="sh"><i class="sl"></i></div></div>
+        
         <div class="ph" style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Cane weave in raking window light, slatted shadow</div>
       </div>
       <div role="img" aria-label="Oat linen draped in shade" style="position:relative;overflow:hidden;aspect-ratio:4 / 5;border-radius:2px;width:78%;background:#8a7a5f">
@@ -234,7 +231,7 @@ a.col:hover{color:#2E211A}
           radial-gradient(ellipse 50% 40% at 60% 28%, rgba(226,232,180,.55), rgba(226,232,180,0) 70%),
           linear-gradient(90deg, rgba(40,28,20,.45) 0%, rgba(40,28,20,0) 25%, rgba(40,28,20,0) 80%, rgba(40,28,20,.35) 100%),
           linear-gradient(180deg, #3f3a24 0%, #6f7d4a 14%, #9aa86e 28%, #7d8a55 42%, #8a6a4c 50%, #6b4c38 68%, #3f2d22 100%);"></div>
-        <div class="shw" style="opacity:.5"><div class="sh"><i class="sl"></i><i class="pm"></i></div></div>
+        
         <div class="ph" style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Terrace bench, shaded daylight, palm shadow across the floor</div>
       </div>
     </div>
@@ -258,7 +255,7 @@ a.col:hover{color:#2E211A}
           linear-gradient(90deg, rgba(40,28,20,.5) 0%, rgba(40,28,20,0) 25%, rgba(40,28,20,0) 80%, rgba(40,28,20,.4) 100%),
           linear-gradient(180deg, #3f3a24 0%, #6f7d4a 14%, #9aa86e 28%, #7d8a55 44%, #8a6a4c 58%, #6b4c38 74%, #3f2d22 100%);"></div>
       </div>
-      <div class="shw" style="opacity:.5"><div class="sh"><i class="sl"></i><i class="pm"></i></div></div>
+      
       <div style="position:absolute;left:0;right:0;bottom:0;height:70%;background:linear-gradient(to top, rgba(46,33,26,.94), rgba(46,33,26,.7) 40%, rgba(46,33,26,0))"></div>
       <div class="ph" style="position:absolute;left:24px;top:24px;padding:4px 8px;font-size:11px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lilim House terrace with bench, shaded daylight, greenery</div>
       <div style="position:absolute;left:48px;right:48px;bottom:44px;display:flex;align-items:flex-end;justify-content:space-between;gap:48px;color:#F7F2EA">
@@ -302,7 +299,7 @@ a.col:hover{color:#2E211A}
           radial-gradient(ellipse 36% 44% at 68% 38%, rgba(255,250,235,.55), rgba(255,250,235,0) 72%),
           linear-gradient(180deg,#ece3d3 0%,#e0d5c1 70%,#a98a6a 72%,#85664c 100%);"></div>
       </div>
-      <div class="shw" style="opacity:.3"><div class="sh"><i class="sl"></i></div></div>
+      
       <div style="position:absolute;left:0;right:0;bottom:0;height:70%;background:linear-gradient(to top, rgba(46,33,26,.94), rgba(46,33,26,.72) 40%, rgba(46,33,26,0))"></div>
       <div class="ph" style="position:absolute;left:24px;top:24px;padding:4px 8px;font-size:11px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Dalampasigan Inn guest room, pale limewash walls, reed mat, open window, bright coastal daylight</div>
       <div style="position:absolute;left:48px;right:48px;bottom:44px;display:flex;align-items:flex-end;justify-content:space-between;gap:48px;color:#F7F2EA">

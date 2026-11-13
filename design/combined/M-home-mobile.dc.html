@@ -25,11 +25,8 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A
 @keyframes shade{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
 
 /* Shadow layer */
-.shw{position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;pointer-events:none;mix-blend-mode:multiply}
-.sh{position:absolute;top:-8%;bottom:-8%;left:-14%;width:128%;filter:blur(5px);animation:shd 12s ease-in-out infinite alternate}
 .sl{position:absolute;left:0;right:0;top:0;bottom:0;background:repeating-linear-gradient(103deg,rgba(40,28,20,0) 0 26px,rgba(40,28,20,.62) 26px 56px,rgba(40,28,20,0) 56px 80px);-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,#000 30%,#000 64%,rgba(0,0,0,0) 100%);mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,#000 30%,#000 64%,rgba(0,0,0,0) 100%)}
 .pm{position:absolute;left:0;right:0;top:0;bottom:0;background:repeating-linear-gradient(72deg,rgba(32,44,24,.8) 0 4px,rgba(0,0,0,0) 4px 13px);-webkit-mask-image:radial-gradient(ellipse 44% 40% at 94% 4%,#000 0%,rgba(0,0,0,0) 72%),radial-gradient(ellipse 36% 34% at 2% 100%,#000 0%,rgba(0,0,0,0) 70%);mask-image:radial-gradient(ellipse 44% 40% at 94% 4%,#000 0%,rgba(0,0,0,0) 72%),radial-gradient(ellipse 36% 34% at 2% 100%,#000 0%,rgba(0,0,0,0) 70%)}
-@keyframes shd{from{transform:translateX(-3.5%)}to{transform:translateX(3.5%)}}
 
 /* Natural (static) states */
 .hero-track{position:relative;background:#F2ECE3}
@@ -73,7 +70,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A
 }
 }
 @media (prefers-reduced-motion: reduce){
-.shade,.sh{animation:none}
+.shade{animation:none}
 .rv,.par,.zin,.svi,.cpar,.lg{animation:none!important}
 .arr{transition:none}
 }
@@ -134,7 +131,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A
 
 <!-- 2 Statement -->
 <section style="position:relative;padding:96px 20px 64px;box-sizing:border-box">
-  <div class="shw" style="opacity:.18"><div class="sh"><i class="sl"></i></div></div>
+  
   <div style="position:relative">
     <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:-.015em;color:#2E211A">A home should lower your shoulders when you walk in. We design for that feeling: cool rooms, honest materials, and furniture made by people we know.</p>
   </div>
@@ -147,7 +144,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A
         repeating-linear-gradient(45deg, rgba(90,62,38,.45) 0 2px, rgba(0,0,0,0) 2px 10px),
         repeating-linear-gradient(-45deg, rgba(90,62,38,.45) 0 2px, rgba(0,0,0,0) 2px 10px),
         radial-gradient(ellipse 70% 80% at 40% 35%, #d6bf93, #a78a5e 85%);"></div>
-      <div class="shw" style="opacity:.45"><div class="sh"><i class="sl"></i></div></div>
+      
     </div>
     <div role="img" aria-label="Oat linen draped in shade" style="position:sticky;top:96px;overflow:hidden;aspect-ratio:4 / 5;border-radius:2px;background:#8a7a5f;margin-bottom:40px">
       <div class="par" style="position:absolute;left:0;right:0;top:-9%;height:118%;background:
@@ -164,7 +161,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A
         radial-gradient(ellipse 50% 40% at 60% 28%, rgba(226,232,180,.55), rgba(226,232,180,0) 70%),
         linear-gradient(90deg, rgba(40,28,20,.45) 0%, rgba(40,28,20,0) 25%, rgba(40,28,20,0) 80%, rgba(40,28,20,.35) 100%),
         linear-gradient(180deg, #3f3a24 0%, #6f7d4a 14%, #9aa86e 28%, #7d8a55 42%, #8a6a4c 50%, #6b4c38 68%, #3f2d22 100%);"></div>
-      <div class="shw" style="opacity:.5"><div class="sh"><i class="sl"></i><i class="pm"></i></div></div>
+      
     </div>
   </div>
 </section>
@@ -186,7 +183,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A
           linear-gradient(90deg, rgba(40,28,20,.5) 0%, rgba(40,28,20,0) 25%, rgba(40,28,20,0) 80%, rgba(40,28,20,.4) 100%),
           linear-gradient(180deg, #3f3a24 0%, #6f7d4a 14%, #9aa86e 28%, #7d8a55 42%, #8a6a4c 52%, #6b4c38 70%, #3f2d22 100%);"></div>
       </div>
-      <div class="shw" style="opacity:.5"><div class="sh"><i class="sl"></i><i class="pm"></i></div></div>
+      
       <div style="position:absolute;left:0;right:0;bottom:0;height:62%;background:linear-gradient(to top, rgba(46,33,26,.95), rgba(46,33,26,.72) 45%, rgba(46,33,26,0))"></div>
       <div style="position:absolute;left:24px;right:24px;bottom:28px;color:#F7F2EA">
         <div style="font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Lilim House</div>
@@ -224,7 +221,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A
           radial-gradient(ellipse 50% 36% at 66% 32%, rgba(255,250,235,.55), rgba(255,250,235,0) 72%),
           linear-gradient(180deg,#ece3d3 0%,#e0d5c1 64%,#a98a6a 66%,#85664c 100%);"></div>
       </div>
-      <div class="shw" style="opacity:.3"><div class="sh"><i class="sl"></i></div></div>
+      
       <div style="position:absolute;left:0;right:0;bottom:0;height:62%;background:linear-gradient(to top, rgba(46,33,26,.95), rgba(46,33,26,.74) 45%, rgba(46,33,26,0))"></div>
       <div style="position:absolute;left:24px;right:24px;bottom:28px;color:#F7F2EA">
         <div style="font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Dalampasigan Inn</div>
