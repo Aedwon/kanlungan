@@ -78,13 +78,29 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 
 ## Layout
 
-- Hero: a full-bleed image with the heading at the bottom left over it. The body text and buttons sit at the bottom right.
-- Recent projects: three tall 3:4 images, edge to edge, with labels over the images
-- Services: two raised surface panels side by side
-- Shop introduction: calmer than the studio sections, opened by a thin rule
-- Collections: three landscape images
-- Featured pieces: three columns, two rows
-- Mobile: single column. Products sit in two columns. Touch targets are at least 44px.
+Status: **Locked by Aedwon** on 2026-11-14. The Home layout combines sections he picked from the layout options round. Reference: `design/combined/M-home-desktop.dc.html` and `M-home-mobile.dc.html`. The earlier direction D Home layout is superseded.
+
+| Home section | Source | Behavior |
+|---|---|---|
+| Header and hero | "Clean threshold" (`design/combined/Hero-options.dc.html`) | Heading at type.display on limewash, left. A framed Lilim House window on the right grows to full bleed on scroll, and the text turns light where the window passes. The header booking button hides while the hero button shows. |
+| Statement | Layout 3 | The statement stays pinned on the left while three tall images scroll past on the right. No shadow stripes. |
+| Recent projects | Layout 3 | Full-width project cards stack and slide over each other as you scroll. |
+| Two ways to work with us | Layout 1 | Two tall panels. A room image is revealed from the bottom on hover. Large "From" price, a short qualifier under it. |
+| Shop introduction and collections | Layout 2 | Three collection images of different sizes, placed like a plan. No grid lines. Descriptions show on hover. |
+| From the shop | Layout 1 | One wide Lilim House room image with six numbered pins on the featured pieces, plus a matching numbered list. |
+| Footer | Layout 1 | Deep panel, light button. |
+
+Mobile: single column, the same order, with no hover dependence. Touch targets are at least 44px.
+
+### Copy rules
+
+Aedwon set these on 2026-11-14. They apply to every page.
+
+- No eyebrows: no small labels above headings.
+- No numbered sections or indices. Numbers are only for real lists, such as the shop-the-room pins.
+- No redundancy: never repeat on screen what is already there, including a second identical button or link.
+- No hint text such as "Scroll", "Drag", or "Hover to see".
+- Progressive disclosure: secondary details (maker, availability on cards, collection descriptions, image notes) show on hover or focus on desktop. On mobile, show what a buyer needs, such as price and lead time.
 
 ## Spacing and radii
 
@@ -94,7 +110,8 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 
 ## Motion
 
-- **Hero, "moving shade":** a soft diagonal light band drifts across the hero image. It uses `translateX` from -14% to 14% over 12s, ease-in-out, infinite, alternating. It animates transform only.
+- **Scroll choreography:** uses CSS scroll-driven animation inside `@supports (animation-timeline: view())`. At rest, without support, every page shows its finished state.
+- **Ambient light drift:** the logo mark and any light band drift `translateX` over 12s, ease-in-out, infinite, alternating. Transform only.
 - **Product card hover:** the image brightness rises to 1.05 over 0.4s. The availability line slides up 0.3s to reveal "View piece →".
 - **Links:** the arrow shifts over 0.25s. Button color changes over 0.2s.
 - Never fade page content in from opacity 0.

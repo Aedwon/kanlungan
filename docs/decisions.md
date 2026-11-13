@@ -34,6 +34,7 @@ On 2026-11-13 Aedwon asked the agent to decide every remaining concept question 
 | Seed catalog | 32 products, seven collections | `docs/content/catalog.md` |
 | Seed projects | Five projects: three residential, two hospitality. Pahinga Villas added 2026-11-13. | `docs/content/projects.md` |
 | Steps 5 and 6 run together | Visual system is chosen through rendered directions on real pages | `README.md` |
+| 2026-11-14: Remaining site copy (FAQs, help, about, studio, checkout, captions) | Written for every page so designers can mock up without placeholder text | `docs/content/copy.md`, `docs/content/projects.md` |
 
 ## Locked by Aedwon after delegation
 
