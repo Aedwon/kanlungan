@@ -80,8 +80,8 @@ function Bar({ node }: { node: ReferenceNode }) {
 }
 function AddButton({ node }: { node: ReferenceNode }) {
   const { product, variant } = useContext(ProductContext)!;
-  const { add } = useCart();
-  return <button {...node.attrs} type="button" onClick={() => add(product, variant)} disabled={!variant.available}>Add to cart</button>;
+  const { add, busy, ready } = useCart();
+  return <button {...node.attrs} type="button" onClick={() => add(product, variant)} disabled={!variant.available || busy || !ready}>Add to cart</button>;
 }
 function ArtboardForm({ node }: { node: ReferenceNode }) {
   const [submitted, setSubmitted] = useState(false);

@@ -18,7 +18,7 @@ const services = [
   { name: 'Interior Design Direction', href: '/studio/interior-design-direction', description: copy.Services['Interior Design Direction / Short version for cards'] },
 ];
 export function Header() {
-  const { count: cartCount } = useCart();
+  const { count: cartCount, open: openCart } = useCart();
   const path = usePathname();
   const router = useRouter();
   const [panel, setPanel] = useState<Panel>(null);
@@ -83,7 +83,7 @@ export function Header() {
     </nav>
     <div className="header-actions">
       <button type="button" className="ib search-button" aria-label="Search" onClick={() => { setPanel(null); router.push("/search"); }}><InterfaceIcon name="search" /></button>
-      <Link href="/cart" className="ib cart-button" aria-label={`Cart, ${cartCount} items`} onClick={() => setPanel(null)}><InterfaceIcon name="cart" /><span>{cartCount}</span></Link>
+      <button type="button" className="ib cart-button" aria-label={`Cart, ${cartCount} ${cartCount === 1 ? 'item' : 'items'}`} aria-haspopup="dialog" onClick={() => { setPanel(null); openCart(); }}><InterfaceIcon name="cart" /><span>{cartCount}</span></button>
       <div className="header-book" data-hidden={heroVisible}><Button href="/book" onClick={() => setPanel(null)}>{copy.Home['Hero button']}</Button></div>
       <button type="button" className="ib menu-button" aria-label={mobile ? 'Close menu' : 'Open menu'} aria-expanded={mobile} aria-controls="mobile-menu" onClick={(e) => toggle('menu', e.currentTarget)}><InterfaceIcon name={mobile ? 'close' : 'menu'} /></button>
     </div>

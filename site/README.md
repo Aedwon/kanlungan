@@ -69,3 +69,11 @@ node scripts/build-shopify-csv.mjs
 ```
 
 No dependencies were added. No local server was started; browser interaction, visual comparison, and live Shopify import/API reads remain unverified.
+
+## Wave 4: Cart, demo checkout, and inquiries
+
+Implemented the cart drawer, `/cart`, `/checkout`, `/checkout/confirmation`, `/book`, and `/contact`. The header cart opens the drawer and uses the singular item label when appropriate. Adding a product opens the drawer in place of the wave 3 toast. Quantity and remove controls update the local cart or the Storefront cart through `/api/cart`. Checkout stays on this site for both providers.
+
+Checkout calculates furniture and courier fees separately. Metro Manila and courier thresholds follow the Shop rules. Outside Metro Manila, a disclosed demonstration table supplies flat regional furniture rates. Card fields validate format in memory, have autofill disabled and no native submission names, and clear on every submit and payment-method change. Only the non-card order summary is saved to sessionStorage. Inquiry forms keep their data in component memory and send nothing.
+
+`scripts/transcribe-checkout.py` retains the 16 supplied wave 4 artboards and scopes their CSS. `scripts/verify-wave4.mjs` checks delivery boundaries, validation, dynamic template data, rendered field/error relationships, and mocked Storefront mutations. See [the wave 4 report](docs/wave-4-report.md) for file sizes, actual outputs, source discrepancies, content gaps, and unverified browser/live-store behavior. No dependencies were added.

@@ -1,0 +1,3 @@
+PASS: delivery thresholds and mixed shipments; 18 demo regions; booking/contact/payment validation; both cart/drawer/review/confirmation bindings; furniture prompt threshold; quantities, options, prices, notices, and IDs.
+PASS: mocked Storefront create/load/add/update/remove/clear; variant lead-time override; GraphQL errors; no hosted checkout or payment data in cart requests.
+PASS: rendered booking error links, unique field IDs, helper/error descriptions, and demo card fields without native submission names or autofill.
