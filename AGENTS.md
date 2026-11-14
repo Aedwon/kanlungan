@@ -27,6 +27,7 @@ The project is in the concept and design phase. There is no application code yet
 | Decisions made by an agent on delegation, open questions | `docs/decisions.md` |
 | How dispatched subagents run | `SUBAGENTS.md` |
 | Image briefs for generated photography | `docs/content/image-briefs.md` |
+| Build plan and waves | `docs/build/plan.md` |
 
 Each fact lives in one file. Link to it instead of repeating it. If two files disagree, the `docs/concept/` file wins over `docs/content/` and `docs/design/`.
 
