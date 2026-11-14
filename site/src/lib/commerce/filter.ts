@@ -1,5 +1,6 @@
 import type { CommerceProduct } from './types';
-export const newPieceSlugs = ['lenta-pendant', 'kiso-stool', 'habi-wall-piece', 'bato-object', 'tanghali', 'pasilyo-console-table'];
+import { newPieceSlugs } from '@/data/products';
+export { newPieceSlugs } from '@/data/products';
 export const priceRanges = ['Under ₱25,000', '₱25,000 to ₱100,000', 'Above ₱100,000'];
 export function materialMatches(p: CommerceProduct, value: string) {
   return value === 'Cane and rattan' ? /cane|rattan/i.test(p.materials) : p.materials.toLowerCase().includes(value.toLowerCase());

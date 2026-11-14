@@ -70,6 +70,7 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 - **Color grade:** warm umber floors, olive-green foliage, low contrast, lifted blacks
 - **Text over images:** a warm umber scrim (based on `#2E211A`) rises from the bottom edge, so `#F7F2EA` text passes 4.5:1
 - **Exception:** Tanaw Residence is shot at dusk, in the same warm grade
+- Exception: Tanaw Residence (bleached acacia floors) and Pahinga Villas (cream limestone floors) have pale floors instead of warm umber floors.
 
 ## Components
 

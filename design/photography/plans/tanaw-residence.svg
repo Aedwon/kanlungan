@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1180" viewBox="0 0 1180 1180" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1040" viewBox="0 0 1180 1040" font-family="Helvetica, Arial, sans-serif">
 <title>Tanaw Residence</title>
 <rect width="100%" height="100%" fill="#F2ECE3"/>
 <text x="24.0" y="30.0" font-size="18" font-weight="500" text-anchor="start" fill="#2E211A">Tanaw Residence · plan and camera map</text>
@@ -6,7 +6,7 @@
 <text x="24.0" y="77.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Coordinates in meters. North up. ★ = anchor shot for that space.</text>
 <path d="M1138 64 L1138 34 M1132 44 L1138 34 L1144 44" stroke="#2E211A" stroke-width="2" fill="none"/>
 <text x="1138.0" y="24.0" font-size="13" font-weight="400" text-anchor="middle" fill="#2E211A">N</text>
-<rect x="100" y="165.5999999999999" width="580" height="684.4000000000001" rx="2" fill="#EFE6D6" stroke="#2E211A" stroke-width="4"/>
+<rect x="100" y="165.5999999999999" width="580" height="684.4000000000001" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="4"/>
 <rect x="332" y="606.4" width="104.4" height="243.60000000000002" rx="2" fill="#E3DCD0" stroke="#6A584A" stroke-width="1"/>
 <line x1="436.4" y1="850" x2="436.4" y2="165.5999999999999" stroke="#2E211A" stroke-width="3"/>
 <line x1="506" y1="850" x2="506" y2="165.5999999999999" stroke="#2E211A" stroke-width="3"/>
@@ -23,13 +23,13 @@
 <line x1="448" y1="850" x2="500.20000000000005" y2="850" stroke="#EFE6D6" stroke-width="7"/>
 <line x1="627.8" y1="734" x2="674.2" y2="734" stroke="#EFE6D6" stroke-width="7"/>
 <line x1="100" y1="832.6" x2="100" y2="183.0" stroke="#8FB0C0" stroke-width="5"/>
-<line x1="95.36" y1="832.6" x2="104.64" y2="832.6" stroke="#B97F5E" stroke-width="3"/>
-<line x1="95.36" y1="716.6" x2="104.64" y2="716.6" stroke="#B97F5E" stroke-width="3"/>
-<line x1="95.36" y1="600.6" x2="104.64" y2="600.6" stroke="#B97F5E" stroke-width="3"/>
-<line x1="95.36" y1="484.6" x2="104.64" y2="484.6" stroke="#B97F5E" stroke-width="3"/>
-<line x1="95.36" y1="368.59999999999997" x2="104.64" y2="368.59999999999997" stroke="#B97F5E" stroke-width="3"/>
-<line x1="95.36" y1="252.5999999999999" x2="104.64" y2="252.5999999999999" stroke="#B97F5E" stroke-width="3"/>
-<line x1="95.36" y1="183.0" x2="104.64" y2="183.0" stroke="#B97F5E" stroke-width="3"/>
+<line x1="95.36" y1="832.6" x2="104.64" y2="832.6" stroke="#E1D7BC" stroke-width="3"/>
+<line x1="95.36" y1="716.6" x2="104.64" y2="716.6" stroke="#E1D7BC" stroke-width="3"/>
+<line x1="95.36" y1="600.6" x2="104.64" y2="600.6" stroke="#E1D7BC" stroke-width="3"/>
+<line x1="95.36" y1="484.6" x2="104.64" y2="484.6" stroke="#E1D7BC" stroke-width="3"/>
+<line x1="95.36" y1="368.59999999999997" x2="104.64" y2="368.59999999999997" stroke="#E1D7BC" stroke-width="3"/>
+<line x1="95.36" y1="252.5999999999999" x2="104.64" y2="252.5999999999999" stroke="#E1D7BC" stroke-width="3"/>
+<line x1="95.36" y1="183.0" x2="104.64" y2="183.0" stroke="#E1D7BC" stroke-width="3"/>
 <line x1="680" y1="687.6" x2="680" y2="571.6" stroke="#8FB0C0" stroke-width="5"/>
 <line x1="680" y1="496.20000000000005" x2="680" y2="409.20000000000005" stroke="#8FB0C0" stroke-width="5"/>
 <line x1="680" y1="316.4000000000001" x2="680" y2="183.0" stroke="#8FB0C0" stroke-width="5"/>
@@ -41,16 +41,16 @@
 <text x="593.0" y="551.3" font-size="11" font-weight="400" text-anchor="middle" fill="#6A584A">Guest bedroom</text>
 <text x="593.0" y="826.8" font-size="10" font-weight="400" text-anchor="middle" fill="#6A584A">Bath / laundry</text>
 <text x="471.2" y="438.2" font-size="10" font-weight="400" text-anchor="middle" fill="#6A584A">Hall</text>
-<rect x="369.12" y="282.18000000000006" width="53.36" height="103.24" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<text x="395.8" y="337.3" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Silong</text>
-<line x1="378.7248" y1="333.79999999999995" x2="367.1248" y2="333.79999999999995" stroke="#6A584A" stroke-width="1"/>
-<line x1="367.1248" y1="333.79999999999995" x2="372.82609822825134" y2="329.80790800299667" stroke="#6A584A" stroke-width="1"/>
-<line x1="367.1248" y1="333.79999999999995" x2="372.8260982282514" y2="337.79209199700324" stroke="#6A584A" stroke-width="1"/>
-<rect x="381.29999999999995" y="249.69999999999993" width="23.200000000000003" height="23.200000000000003" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="367.38" y="279.86" width="56.839999999999996" height="107.88000000000001" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
+<text x="395.8" y="337.3" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Yakap</text>
+<line x1="377.6112" y1="333.79999999999995" x2="366.0112" y2="333.79999999999995" stroke="#6A584A" stroke-width="1"/>
+<line x1="366.0112" y1="333.79999999999995" x2="371.7124982282513" y2="329.80790800299667" stroke="#6A584A" stroke-width="1"/>
+<line x1="366.0112" y1="333.79999999999995" x2="371.7124982282514" y2="337.79209199700324" stroke="#6A584A" stroke-width="1"/>
+<rect x="381.29999999999995" y="249.69999999999993" width="23.200000000000003" height="23.200000000000003" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <text x="337.8" y="262.5" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Sulok</text>
 <circle cx="392.9" cy="232.29999999999995" r="11.600000000000001" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <text x="337.8" y="235.2" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Sinag</text>
-<rect x="274.0" y="165.60000000000002" width="58" height="20.88" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="274.0" y="165.60000000000002" width="58" height="20.88" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <line x1="303.0" y1="182.72160000000008" x2="303.0" y2="194.3216000000001" stroke="#6A584A" stroke-width="1"/>
 <line x1="303.0" y1="194.3216000000001" x2="299.0079080029967" y2="188.6203017717487" stroke="#6A584A" stroke-width="1"/>
 <line x1="303.0" y1="194.3216000000001" x2="306.9920919970033" y2="188.6203017717487" stroke="#6A584A" stroke-width="1"/>
@@ -58,44 +58,46 @@
 <rect x="372.6" y="299.0" width="29.0" height="29.0" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <line x1="436.4" y1="348.29999999999995" x2="436.4" y2="319.29999999999995" stroke="#8E4A2C" stroke-width="5"/>
 <text x="474.1" y="328.0" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Amihan</text>
-<rect x="187.0" y="823.9" width="104.4" height="26.1" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="187.0" y="823.9" width="104.4" height="26.1" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <text x="239.2" y="840.4" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Baul</text>
-<rect x="200.05" y="681.8000000000001" width="43.5" height="69.6" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<text x="221.8" y="720.1" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Table*</text>
-<rect x="164.38" y="723.85" width="27.84" height="26.1" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="164.38" y="683.25" width="27.84" height="26.1" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="251.38000000000002" y="723.85" width="27.84" height="26.1" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="251.38000000000002" y="683.25" width="27.84" height="26.1" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="401.6" y="629.6" width="34.8" height="203.0" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="546.6" y="165.5999999999999" width="92.80000000000001" height="124.69999999999999" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<text x="593.0" y="231.4" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Bed*</text>
-<line x1="593.0" y1="257.6460000000001" x2="593.0" y2="269.246" stroke="#6A584A" stroke-width="1"/>
-<line x1="593.0" y1="269.246" x2="589.0079080029967" y2="263.5447017717487" stroke="#6A584A" stroke-width="1"/>
-<line x1="593.0" y1="269.246" x2="596.9920919970033" y2="263.5447017717487" stroke="#6A584A" stroke-width="1"/>
-<rect x="645.2" y="193.1500000000001" width="23.200000000000003" height="26.1" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
+<circle cx="221.8" cy="716.6" r="31.900000000000002" fill="#E3DCD0" stroke="#2E211A" stroke-width="1.5"/>
+<circle cx="221.8" cy="716.6" r="6.96" fill="#514F4B" stroke="#2E211A" stroke-width="1.5"/>
+<text x="221.8" y="717.8" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Salo 110</text>
+<rect x="157.42000000000002" y="702.6800000000001" width="30.16" height="27.84" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="256.02" y="702.6800000000001" width="30.16" height="27.84" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="207.88" y="750.82" width="27.84" height="30.16" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="207.88" y="652.22" width="27.84" height="30.16" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="401.6" y="629.6" width="34.8" height="203.0" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="543.12" y="165.5999999999999" width="99.76" height="128.76000000000002" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
+<text x="593.0" y="233.5" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Unan</text>
+<line x1="593.0" y1="261.90319999999997" x2="593.0" y2="273.5032000000001" stroke="#6A584A" stroke-width="1"/>
+<line x1="593.0" y1="273.5032000000001" x2="589.0079080029967" y2="267.8019017717487" stroke="#6A584A" stroke-width="1"/>
+<line x1="593.0" y1="273.5032000000001" x2="596.9920919970033" y2="267.8019017717487" stroke="#6A584A" stroke-width="1"/>
+<circle cx="656.8" cy="206.20000000000005" r="11.02" fill="#514F4B" stroke="#2E211A" stroke-width="1.5"/>
+<text x="711.9" y="232.3" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Bakal</text>
 <circle cx="656.8" cy="206.20000000000005" r="8.7" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <text x="709.0" y="206.2" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Luad</text>
 <circle cx="526.3" cy="170.81999999999994" r="5.22" fill="#F7F2EA" stroke="#8E4A2C" stroke-width="1.5"/>
 <text x="529.2" y="148.2" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Tala</text>
-<rect x="564.0" y="354.09999999999997" width="87.0" height="31.900000000000002" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="564.0" y="531.0" width="81.19999999999999" height="116" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="564.0" y="354.09999999999997" width="87.0" height="31.900000000000002" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="564.0" y="531.0" width="81.19999999999999" height="116" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <text x="604.6" y="592.5" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Bed*</text>
 <line x1="604.5999999999999" y1="614.984" x2="604.5999999999999" y2="626.584" stroke="#6A584A" stroke-width="1"/>
 <line x1="604.5999999999999" y1="626.584" x2="600.6079080029967" y2="620.8827017717485" stroke="#6A584A" stroke-width="1"/>
 <line x1="604.5999999999999" y1="626.584" x2="608.5920919970033" y2="620.8827017717485" stroke="#6A584A" stroke-width="1"/>
-<rect x="539.35" y="554.2" width="20.299999999999997" height="23.200000000000003" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="506.0" y="594.8000000000001" width="31.900000000000002" height="69.6" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="539.35" y="554.2" width="20.299999999999997" height="23.200000000000003" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="506.0" y="594.8000000000001" width="31.900000000000002" height="69.6" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="549.5" cy="536.8" r="4.64" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="642.3" y="420.79999999999995" width="34.8" height="69.6" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="642.3" y="420.79999999999995" width="34.8" height="69.6" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <text x="659.7" y="459.1" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Desk*</text>
 <line x1="670.836" y1="455.6" x2="682.436" y2="455.6" stroke="#6A584A" stroke-width="1"/>
 <line x1="682.436" y1="455.6" x2="676.7347017717486" y2="459.5920919970033" stroke="#6A584A" stroke-width="1"/>
 <line x1="682.436" y1="455.6" x2="676.7347017717486" y2="451.60790800299674" stroke="#6A584A" stroke-width="1"/>
 <rect x="605.18" y="442.54999999999995" width="27.84" height="26.1" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="659.7" cy="435.29999999999995" r="4.64" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="537.8999999999999" y="386.0" width="104.4" height="26.1" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="488.59999999999997" y="722.4" width="17.4" height="87.0" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="436.4" y="742.7" width="8.7" height="29.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="537.8999999999999" y="386.0" width="104.4" height="26.1" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="488.59999999999997" y="722.4" width="17.4" height="87.0" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="436.4" y="742.7" width="8.7" height="29.0" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="439.29999999999995" cy="757.2" r="4.0600000000000005" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <polygon points="430.6,188.8 401.6,372.1 265.2,273.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C1" data-shot="tanaw-hero" data-x="5.7" data-y="11.4" data-heading="216.0" data-lens="35" data-height="1.2" data-space="project"/>
 <circle cx="430.6" cy="188.79999999999995" r="6" fill="#8E4A2C"/>
@@ -133,8 +135,8 @@
 <text x="245.0" y="890.6" font-size="11" font-weight="400" text-anchor="middle" fill="#2E211A">5 m</text>
 <text x="760.0" y="190.0" font-size="13" font-weight="400" text-anchor="start" fill="#2E211A">West = skyline</text>
 <text x="760.0" y="216.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Full-height fixed glazing</text>
-<text x="760.0" y="242.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Acacia built-ins; mahogany</text>
-<text x="760.0" y="260.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Silong and Baul stay mahogany.</text>
+<text x="760.0" y="242.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Bleached acacia floors and joinery</text>
+<text x="760.0" y="260.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Yakap / Unan: sand linen.</text>
 <text x="760.0" y="300.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">* = not a catalog piece</text>
 <text x="760.0" y="324.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Furniture arrows show facing.</text>
 <text x="760.0" y="348.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">No balcony or extra floor area.</text>

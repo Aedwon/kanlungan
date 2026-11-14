@@ -37,7 +37,7 @@ The area sum is 3.6 + 22.8 + 6.4 + 11.2 + 18 + 7.2 + 4.8 = 74 sqm. Every layout 
 | Walls | Warm off-white limewash, no colored feature wall |
 | Ceilings | Flat warm off-white plaster, 2.7 m; service rooms 2.4 m |
 | Window frames and balcony guard | Slim dark bronze aluminum; clear glazing, no mirrored glass |
-| Bedroom joinery | Pale hinoki bed base, natural cane headboard; closed storage in mahogany |
+| Bedroom joinery | Closed storage in mahogany; bed and bedside table are later-stage catalog furnishings |
 | Studio tabletop | Warm matte mahogany, grain east to west, same table in all five still lifes |
 | Design book | Uncoated warm white paper, plain sand cloth cover, no readable words or logo |
 
@@ -53,10 +53,10 @@ Only these pieces appear. Small loose items are limited to the named book, paper
 | Luad Table Lamp | 1 | Support at x 2.2, y 0.65; base 0.45 m, top 0.91 m | |
 | Planned low mahogany table, Ø0.60 × 0.34 m (not a catalog piece) | 1, render and plan only | Living, centered x 3.5, y 2.0; absent in stage-one photograph | |
 | Planned plain cane chair, 0.65 × 0.70 m (not a catalog piece) | 1, render and plan only | Living, centered x 4.8, y 3.3 | Southwest, toward sofa |
-| Planned hinoki bed, 1.60 × 2.15 m, cane headboard, clay linen (not a catalog piece) | 1, bedroom render and plan only | Centered x 3, y 6.325; head against north wall y 7.4 | South |
-| Planned plain bedside ledge, 0.40 × 0.35 × 0.45 m (not a catalog piece) | 1, bedroom render and plan only | Centered x 1.9, y 6.9 | South |
+| Unan Bed, queen 172 × 222 cm, oat linen | 1, bedroom render and plan only | Centered x 3, y 6.29; head against north wall y 7.4 | South |
+| Bakal Side Table, Ø38 × 50 cm | 1, bedroom render and plan only | Centered x 1.9, y 6.9 | South |
 | Planned closed mahogany wardrobe, 0.60 × 1.80 × 2.40 m (not a catalog piece) | 1, bedroom render and plan only | East bedroom wall, x 5.4 to 6, y 5.3 to 7.1 | West |
-| Pasilyo Console Table | 1, entry photograph and plan | Entry, centered x 7.4, y 1.41; 1.50 east to west × 0.38 north to south | South |
+| Pasilyo Console Table, ebonized mahogany and natural cane | 1, entry photograph and plan | Entry, centered x 7.4, y 1.41; 1.50 east to west × 0.38 north to south | South |
 | Bato Object | 1, entry photograph and plan | On console at x 7.4, y 1.4; base 0.80 m, top 1.02 m | Upright |
 | Kiso Stool | 1, balcony photograph and plan | Balcony, centered x 0.6, y 1.6; 0.36 × 0.36 | East, toward doorway |
 | Plain plant pots with tropical foliage (not a catalog piece) | 3 | Balcony centers (0.3, 0.4), (0.3, 2.65), (0.9, 2.75); Ø0.30 each, foliage tops 0.75, 1.20, 0.90 m | Keep central stool route clear |
@@ -64,9 +64,9 @@ Only these pieces appear. Small loose items are limited to the named book, paper
 | Design book, 0.24 × 0.18 m closed (not a catalog piece) | 1 | Studio table, open spread centered x 1.2, y 0.7, 0.48 east to west × 0.18 north to south; same book for C4, C5, C8 | Top of page north; turn pages, do not change binding |
 | Loose plan sheet, 0.42 × 0.297 m (not a catalog piece) | 1, C7 only | Studio table, centered x 1.2, y 0.7; replaces open spread | North arrow toward table north |
 | Pencil, 0.18 m (not a catalog piece) | 1 | Studio table, x 1.48, y 0.7 (x 1.44 for C6), long axis north to south; outside book or plan edge | North |
-| Moodboard samples (not a catalog piece) | 5, C6 only | Studio table: mahogany (1.03, 0.65), clay linen (1.2, 0.65), cane (1.37, 0.65), stoneware (1.1, 0.82), hinoki (1.3, 0.82); each within 0.10 × 0.10 m | Separate swatches; book centered at x 1.2, y 1.1, with near edge at y 1.01 |
+| Moodboard samples (not a catalog piece) | 7, C6 only | Studio table: natural mahogany (1.03, 0.65), clay linen (1.2, 0.65), cane (1.37, 0.65), stoneware (1.1, 0.82), hinoki (1.3, 0.82), ebonized mahogany (1.03, 0.94), oat linen (1.3, 0.94); each within 0.08 × 0.08 m | Separate swatches; book centered at x 1.2, y 1.1, with near edge at y 1.01 |
 
-No named bed, additional catalog lamp, artwork, cushions, or sofa variant. The book's later plan can show the full placement table; it cannot turn the sparse first-stage photograph into a fully furnished room. The sourcing spread has three groups: sofa, lamp, and rug first; bedroom second; entry and balcony third. Thumbnails do not add pieces to a photograph.
+Unan and Bakal appear only in the bedroom render, plan, and later sourcing stages. No additional catalog lamp, artwork, cushions, or sofa variant. The book's later plan can show the full placement table; it cannot turn the sparse first-stage photograph into a fully furnished room. The sourcing spread has three groups: sofa, lamp, and rug first; Unan and Bakal bedroom second; ebonized Pasilyo entry and balcony third. Thumbnails do not add pieces to a photograph.
 
 ## Cameras
 
@@ -74,13 +74,13 @@ No named bed, additional catalog lamp, artwork, cushions, or sofa variant. The b
 |---|---|---|---|---|---|---|
 | C1 | `hardin-g01-living-plan` | 5.65, 1.4 | 1.20 m | 260 | 35mm | Planned living render from C2 geometry: clay two-seat sofa at left, rug below, Luad beyond sofa at right, balcony at right; planned table ahead, chair mostly outside crop behind camera |
 | C2 (anchor, living photograph) | `hardin-hero` | 5.65, 1.4 | 1.20 m | 260 | 35mm | Same walls and framing as C1, but only sofa, supported Luad, rug, and balcony plants; small balcony ahead right, no planned table or chair |
-| C3 (anchor, bedroom render) | `hardin-g03-bedroom-plan` | 5.1, 4.7 | 1.10 m | 307 | 35mm | Modest planned bed at right, west window and bedside ledge at left, clear foot route; no claim that room is installed |
+| C3 (anchor, bedroom render) | `hardin-g03-bedroom-plan` | 5.1, 4.7 | 1.10 m | 307 | 35mm | Oat queen Unan at right, west window and blackened steel Bakal at left, clear foot route; no claim that room is installed |
 | C4 (anchor, studio table) | `hardin-g04-book-cover` | Studio: 1.2, 0.25 | 1.50 m | 0 | 50mm | Book cover-and-contents spread, binding and pencil at right; camera 0.75 m above tabletop, pitched down about 59 degrees |
 | C5 | `hardin-g05-book-layout` | Studio: 1.2, 0.6 | 1.55 m | 0 | 50mm | Open layout-and-specification spread with this exact condo plan on left, unreadable blocks at right; 0.80 m above tabletop, pitch down about 83 degrees |
-| C6 | `hardin-g06-moodboard` | Studio: 1.2, 0.6 | 1.45 m | 0 | 50mm | Five separate approved palette samples, book edge behind and pencil right; 0.70 m above tabletop, pitch down about 82 degrees |
+| C6 | `hardin-g06-moodboard` | Studio: 1.2, 0.6 | 1.45 m | 0 | 50mm | Seven separate palette samples including natural and ebonized mahogany, clay and oat linen, book edge behind and pencil right; 0.70 m above tabletop, pitch down about 82 degrees |
 | C7 | `hardin-g07-floor-plan` | Studio: 1.2, 0.6 | 1.55 m | 0 | 50mm | Single 74 sqm outline with fixed furniture, balcony west at page left, bedroom north at page top, pencil outside right edge; 0.80 m above tabletop, pitch down about 83 degrees |
 | C8 | `hardin-g08-sourcing-list` | Studio: 1.2, 0.25 | 1.50 m | 0 | 50mm | Same book and binding, exactly three sourcing groups, sofa/lamp/rug thumbnails first, unreadable rows; 0.75 m above tabletop, pitch down about 59 degrees |
-| C9 (anchor, entry) | `hardin-g09-entry` | 9.65, 0.6 | 1.20 m | 290 | 50mm | Pasilyo receding along north entry wall, cane shelf below, Bato on top, clear passage in foreground |
+| C9 (anchor, entry) | `hardin-g09-entry` | 9.65, 0.6 | 1.20 m | 290 | 50mm | Ebonized mahogany Pasilyo receding along north entry wall, cane shelf below, Bato on top, clear passage in foreground |
 | C10 (anchor, balcony) | `hardin-g10-balcony` | 2.8, 1.4 | 1.00 m | 275 | 50mm | Kiso through open sliders, pots at margins, 1.2 m balcony depth, west safety guard behind; no widened terrace |
 
 ## Status of existing photos

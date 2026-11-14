@@ -7,6 +7,8 @@ export const collections: Collection[] = [
     "type": "Room-based",
     "description": null,
     "productSlugs": [
+      "yakap-sofa",
+      "bakal-side-table",
       "silong-sofa",
       "dapithapon-lounge-chair",
       "batis-coffee-table",
@@ -28,6 +30,7 @@ export const collections: Collection[] = [
     "type": "Room-based",
     "description": null,
     "productSlugs": [
+      "salo-dining-table",
       "hapag-dining-table",
       "hain-dining-chair",
       "bangko-bench",
@@ -45,6 +48,8 @@ export const collections: Collection[] = [
     "type": "Room-based",
     "description": null,
     "productSlugs": [
+      "unan-bed",
+      "bakal-side-table",
       "himlay-bed",
       "duyan-daybed",
       "sulok-side-table",
@@ -64,6 +69,7 @@ export const collections: Collection[] = [
     "type": "Mood and lifestyle",
     "description": "Soft light, low furniture, and nothing that asks for attention.",
     "productSlugs": [
+      "yakap-sofa",
       "silong-sofa",
       "batis-coffee-table",
       "lambot-wool-rug",
@@ -111,6 +117,7 @@ export const collections: Collection[] = [
     "type": "Material-based",
     "description": "Honed stone and fired clay, cool to the touch.",
     "productSlugs": [
+      "salo-dining-table",
       "batis-coffee-table",
       "bato-object",
       "tapayan-vessel",

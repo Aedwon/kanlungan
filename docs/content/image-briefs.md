@@ -30,7 +30,7 @@ Dimensions below come from [catalog](catalog.md), in centimeters, width × depth
 
 **Catalog anchor:** 228 × 92 × 72 cm; Plantation mahogany, linen blend, feather and foam fill. Attribution: Kanlungan Original.
 
-Low, horizontal three-seat form, visibly much wider than deep, with an exposed plantation mahogany frame and loose linen-blend cushions. Use oat linen for the main reference, with soft feather-and-foam volume and uncoated-looking warm brown wood. Keep the first accepted cushion divisions, seams, arm shape, and leg shape fixed. Two-seat version is 178 cm wide; depth and height stay 92 × 72. Tanaw uses two-seat sand linen; Hardin uses two-seat clay linen. Other allowed fabrics are charcoal and the catalog colors, never invented weave patterns.
+Low, horizontal three-seat form, visibly much wider than deep, with an exposed plantation mahogany frame and loose linen-blend cushions. Use oat linen for the main reference, with soft feather-and-foam volume and uncoated-looking warm brown wood. Keep the first accepted cushion divisions, seams, arm shape, and leg shape fixed. Two-seat version is 178 cm wide; depth and height stay 92 × 72. Hardin uses two-seat clay linen. Other allowed fabrics are charcoal and the catalog colors, never invented weave patterns.
 
 ### Dapithapon Lounge Chair
 
@@ -42,7 +42,7 @@ Deep rattan lounge chair, 72 cm wide against 78 cm depth and 74 cm height. Open 
 
 **Catalog anchor:** 48 × 52 × 80 cm; Plantation mahogany, cane. Attribution: Kanlungan Original.
 
-Upright plantation mahogany dining chair with a woven cane seat. Keep the back plain wood in the restrained first reference; a woven back is not specified. Natural finish for the master, with the same warm brown grain in each view. Preserve the narrow 48 cm width and 80 cm overall height. Walnut stain and ebonized are the only other finishes.
+Upright plantation mahogany dining chair with a woven cane seat. Keep the back plain wood in the restrained first reference; a woven back is not specified. Natural finish for the master, with the same warm brown grain in each view. Preserve the narrow 48 cm width and 80 cm overall height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Tanaw uses bleached acacia.
 
 ### Bangko Bench
 
@@ -66,7 +66,7 @@ Light, compact hinoki cypress stool, 36 cm square and 42 cm tall. Pale cream woo
 
 **Catalog anchor:** 220 × 95 × 75 cm; Plantation mahogany, oil finish. Attribution: Kanlungan Original.
 
-Solid plantation mahogany dining table with an oil finish, a restrained rectangular top, and warm natural brown wood for the reference. Base dimensions are 220 × 95 × 75. The permitted widths are 180, 220, and 260; maintain the documented depth and height. Natural and walnut stain only. Keep top edge, support arrangement, and grain fixed for each accepted size.
+Solid plantation mahogany dining table with an oil finish, a restrained rectangular top, and warm natural brown wood for the reference. Base dimensions are 220 × 95 × 75. The permitted widths are 180, 220, and 260; maintain the documented depth and height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Keep top edge, support arrangement, and grain fixed for each accepted size.
 
 ### Batis Coffee Table
 
@@ -78,19 +78,19 @@ Low table with a honed Romblon marble top on a mahogany base, 110 × 60 × 36. U
 
 **Catalog anchor:** 40 × 40 × 50 cm; Acacia, oil finish. Attribution: Kanlungan Original.
 
-Compact acacia side table with one shelf and an oil finish, 40 cm square and 50 cm high. Plain square top, open access to the single lower shelf, natural warm acacia grain. Keep accepted legs, shelf position, and edge thickness unchanged. No drawer, cane insert, or added shelf.
+Compact acacia side table with one shelf and an oil finish, 40 cm square and 50 cm high. Plain square top, open access to the single lower shelf, natural warm acacia grain. Keep accepted legs, shelf position, and edge thickness unchanged. Natural is the master; Bleached and Ebonized are the other finish choices, all on acacia. Tanaw uses Bleached and Pahinga uses Ebonized. No drawer, cane insert, or added shelf.
 
 ### Pasilyo Console Table
 
-**Catalog anchor:** 150 × 38 × 80 cm; Plantation mahogany, cane. Attribution: Lilok Workshop.
+**Catalog anchor:** 150 × 38 × 80 cm; Ebonized plantation mahogany, natural cane. Attribution: Lilok Workshop.
 
-Slim plantation mahogany console with a woven cane lower shelf, 150 × 38 × 80. Long plain wood top, narrow depth, open base, warm brown frame, natural tan cane. Keep the accepted leg layout and shelf spacing fixed. Do not turn it into a cabinet or replace the cane shelf with a solid panel.
+Slim ebonized plantation mahogany console with a woven cane lower shelf, 150 × 38 × 80. Long plain wood top, narrow depth, open base, matte ebonized frame, natural tan cane. No finish options. Hardin uses this same ebonized frame. Keep the accepted leg layout and shelf spacing fixed. Do not turn it into a cabinet or replace the cane shelf with a solid panel.
 
 ### Himlay Bed
 
 **Catalog anchor:** 168 × 215 × 105 cm; Plantation mahogany, cane, slatted base. Attribution: Kanlungan Original.
 
-Low plantation mahogany bed frame with a woven cane headboard and visible slatted base. Queen reference is 168 × 215 × 105; king is 198 × 215 with the same documented height. Natural finish for the master, walnut stain only as an alternate. Keep headboard weave and frame outline fixed. Studio sales image shows the frame without a mattress; room bedding is styling, not included merchandise.
+Low plantation mahogany bed frame with a woven cane headboard and visible slatted base. Queen reference is 168 × 215 × 105; king is 198 × 215 with the same documented height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Pahinga uses ebonized mahogany. Keep headboard weave and frame outline fixed. Studio sales image shows the frame without a mattress; room bedding is styling, not included merchandise.
 
 ### Duyan Daybed
 
@@ -106,15 +106,15 @@ Tall plantation mahogany cabinet with breathable cane door panels and brass hing
 
 ### Baul Credenza
 
-**Catalog anchor:** 180 × 45 × 72 cm; Plantation mahogany, oil finish. Attribution: Lilok Workshop.
+**Catalog anchor:** 180 × 45 × 72 cm; Acacia, oil finish. Attribution: Lilok Workshop.
 
-Long, low plantation mahogany credenza with sliding wood doors and an oil finish, 180 × 45 × 72. Plain continuous horizontal form in warm brown wood. Keep the accepted sliding divisions, base, and grain map. No cane door panels, swing doors, or undocumented drawer banks.
+Long, low acacia credenza with sliding wood doors and an oil finish, 180 × 45 × 72. Plain continuous horizontal form in warm brown wood. Keep the accepted sliding divisions, base, and grain map. Natural is the master; Bleached and Ebonized are the other finishes, all on acacia. Tanaw uses Bleached. No cane door panels, swing doors, or undocumented drawer banks.
 
 ### Estante Shelving
 
-**Catalog anchor:** 100 × 36 × 190 cm; Acacia, brass. Attribution: Kanlungan Original.
+**Catalog anchor:** 100 × 36 × 190 cm; Blackened steel frame, acacia shelves, brass fittings. Attribution: Kanlungan Original.
 
-Tall open acacia shelving with brass fittings, 100 × 36 × 190. Narrow depth, upright open form, natural warm acacia and softly toned brass. Fix shelf count and spacing from the selected reference because the catalog does not specify them. No closed doors, new cabinets, or polished gold metal.
+Tall open shelving with a blackened steel frame, acacia shelves, and brass fittings, 100 × 36 × 190. Narrow depth, upright open form, natural warm acacia shelves and softly toned brass against matte blackened steel. Fix shelf count and spacing from the selected reference because the catalog does not specify them. Shelf finish choices are Natural (master) and Bleached; Tanaw uses Bleached. No closed doors, new cabinets, or polished gold metal.
 
 ### Kapis Pendant
 
@@ -178,9 +178,9 @@ One lined linen curtain panel, 140 × 270, with cotton lining and a soft drape. 
 
 ### Salamin Floor Mirror
 
-**Catalog anchor:** 70 × 4 × 170 cm; Plantation mahogany, mirror glass. Attribution: Lilok Workshop.
+**Catalog anchor:** 70 × 4 × 170 cm; Bleached acacia, mirror glass. Attribution: Lilok Workshop.
 
-Full-length mirror in a plantation mahogany frame, 70 × 4 × 170. Restrained tall rectangular outline, warm natural brown wood, physically correct mirror reflection. Keep accepted frame profile and width fixed. No gilding, arched outline, invented stand, or reflection of a person.
+Full-length mirror in a bleached acacia frame, 70 × 4 × 170. Restrained tall rectangular outline, pale bleached wood, physically correct mirror reflection. Keep accepted frame profile and width fixed. No gilding, arched outline, invented stand, or reflection of a person.
 
 ### Tapayan Vessel
 
@@ -217,6 +217,30 @@ Original landscape painting in acrylic on canvas, 90 × 120. Keep the first acce
 **Catalog anchor:** 90 × 4 × 140 cm; Tikog reed, abaca, wood rail. Attribution: Tikog Loom.
 
 Large handwoven tikog reed and abaca wall piece on a wood rail, 90 × 4 × 140. Tall natural straw-and-fiber form, quiet undyed surface, visible rail and believable hanging. Preserve the accepted weave, lower edge, and rail shape. No decorative cultural motif, invented dyed stripes, or printed fabric.
+
+### Yakap Sofa
+
+**Catalog anchor:** 236 × 98 × 72 cm; Linen blend, feather and foam fill, concealed hardwood frame. Attribution: Kanlungan Original.
+
+A deep, fully upholstered sofa with a removable plain linen cover and a concealed hardwood frame. No exposed wood or cane. Use oat for the three-seat master. Two-seat is 186 cm wide, retaining 98 cm depth and 72 cm height. Fabric choices are Oat linen, Sand linen, Clay linen, and Charcoal linen. Tanaw uses the two-seat Sand linen variant. Lock the accepted seams, cushion divisions, arms, and low silhouette after review.
+
+### Unan Bed
+
+**Catalog anchor:** 172 × 222 × 100 cm; Linen blend, foam padding, concealed hardwood frame, slatted base. Attribution: Kanlungan Original.
+
+A low upholstered bed frame with a padded linen headboard, concealed hardwood frame, and visible slatted base. Queen master is 172 × 222 × 100; king is 202 × 222 with the same height. Oat linen is the master; Sand linen, Clay linen, and Charcoal linen are the other fabrics. Tanaw uses queen Sand linen; Hardin plans queen Oat linen. No exposed wood or cane. Show no mattress in the studio image. Lock accepted headboard outline, padding, seams, and base geometry after review.
+
+### Salo Dining Table
+
+**Catalog anchor:** Ø130 × 75 cm; Terrazzo with Romblon marble chips, honed; blackened steel base. Attribution: Marmol Atelier.
+
+A round honed terrazzo top with Romblon marble chips on a single blackened steel pedestal. Master diameter 130 cm seats six; the 110 cm variant seats four, both 75 cm high. Tanaw uses Ø110. Keep the surface pale and matte with visible quiet marble chips, never veined solid marble. Lock the accepted pedestal profile, top edge, and chip pattern for each size after review. No wood base, multiple legs, or finish options.
+
+### Bakal Side Table
+
+**Catalog anchor:** Ø38 × 50 cm; Blackened steel, wax finish. Attribution: Tanso Lighting Works.
+
+A small spun-steel drinks table, 38 cm diameter and 50 cm high. Matte blackened steel with a wax finish. The entire table is metal, with no wood, cane, stone, or brass. Keep a compact round top and a simple spun supporting form for the first reference, then lock its accepted silhouette, base profile, and surface marks. No options. Tanaw uses it below Luad at the bedside; Hardin includes it in the later bedroom stage.
 
 ## Shot list
 
@@ -361,11 +385,11 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### tanaw-hero
 **Camera:** C1 (anchor, living) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
-**Use:** Tanaw Residence project, Gallery 1; Home recent project and closing panel; Studio card; related-project cards
+**Use:** Tanaw Residence project, Gallery 1; Yakap two-seat sand in-room reference; Home recent project and closing panel; Studio card; related-project cards
 
 **Aspect and crop:** 3:4 project master; 16:9 and 21:9 room derivatives
 
-**Prompt:** Photograph the compact Tanaw Residence living room in Bonifacio Global City at dusk. The sand two-seat Silong Sofa faces full-height windows and a plausible distant city skyline. Use a level 35mm camera at 120 cm behind one sofa corner. Keep the skyline above the low back, with enough room to pass beside the seating. Let the window wall remain finite and proportionate. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the compact Tanaw Residence living room in Bonifacio Global City at dusk. The sand two-seat Yakap Sofa faces full-height windows and a plausible distant city skyline. Use a level 35mm camera at 120 cm behind one sofa corner. Keep the skyline above the low back, with enough room to pass beside the seating. Let the window wall remain finite and proportionate. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -376,18 +400,18 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square lamp and table crop
 
-**Prompt:** Photograph the Sinag Floor Lamp and single-shelf Sulok Side Table beside the same sand Silong Sofa. Use a 50mm camera at 110 cm from the room side, keeping the floor lamp fully visible and its acacia base planted on the floor. The side table sits within reach of the cushion. Show the dusk window behind, without allowing reflections to duplicate furniture. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the Sinag Floor Lamp and single-shelf bleached acacia Sulok Side Table beside the same sand Yakap Sofa. Use a 50mm camera at 110 cm from the room side, keeping the floor lamp fully visible and its acacia base planted on the floor. The side table sits within reach of the cushion. Keep the north wall behind the lamp and table; the west window stays outside this crop. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g03-dining
 **Camera:** C3 (anchor, dining) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
-**Use:** Tanaw Residence project, Gallery 3
+**Use:** Tanaw Residence project, Gallery 3; Salo Ø110 and bleached Hain in-room references
 
 **Aspect and crop:** 3:4 project gallery; 16:9 room crop
 
-**Prompt:** Photograph Tanaw dining with a compact table beside the full-height window and the Baul Credenza against the adjacent wall. Position a level 35mm camera at 125 cm near the living-room boundary. Keep this an ordinary small condo dining area, with clear chair access and a restrained tabletop. Leave the sliding wood doors visible and the distant skyline softly defined beyond the glass. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph Tanaw dining with the Ø110 terrazzo Salo, four bleached acacia Hain chairs, and the bleached acacia Baul Credenza beside the full-height window against the adjacent wall. Position a level 35mm camera at 125 cm near the living-room boundary. Keep this an ordinary small condo dining area, with clear chair access and a restrained tabletop. Leave the sliding wood doors visible and the distant skyline softly defined beyond the glass. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -398,18 +422,18 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery
 
-**Prompt:** Photograph Estante Shelving in the Tanaw living room, with acacia shelves, brass fittings, a few closed books, and very few objects. Use a 50mm camera at 130 cm from a slight side angle. Keep the accepted shelf count and spacing unchanged, with the slim depth visible at one end. Place the sand sofa edge softly in the foreground and a dusk window off to the side. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph Estante Shelving in the Tanaw living room, with a blackened steel frame, bleached acacia shelves, brass fittings, a few closed books, and very few objects. Use a 50mm camera at 130 cm from a slight side angle. Keep the accepted shelf count and spacing unchanged, with the slim depth visible at one end. Keep a finite north wall behind the shelves and the wall return at right; the sofa stays outside this tight crop. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g05-bedroom-lamp
 **Camera:** C5 (anchor, main bedroom) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
-**Use:** Tanaw Residence project, Gallery 5
+**Use:** Tanaw Residence project, Gallery 5; Unan sand and Bakal in-room references
 
 **Aspect and crop:** 3:4 project gallery; square Luad in-room crop
 
-**Prompt:** Photograph the Tanaw main bedroom with sand linen, a low bed, and a Luad Table Lamp. Set a level 35mm camera at 110 cm from the doorway, allowing a clear bedside path. Keep the room modest in scale and show closed storage only where the accepted room reference places it. The linen shade sits low against a quiet wall, with a sliver of dusk window beyond. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the Tanaw main bedroom with a queen Unan Bed in sand linen and a Luad Table Lamp on the blackened steel Bakal Side Table. Set a level 35mm camera at 110 cm from the doorway, allowing a clear bedside path. Keep the room modest in scale and show closed storage only where the accepted room reference places it. The linen shade sits low against a quiet wall, with a sliver of dusk window beyond. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -420,7 +444,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square light crop
 
-**Prompt:** Photograph the Tala Wall Light beside the Tanaw main bed on its warm, quiet wall. Use a 50mm lens at 125 cm, close enough to read the opal globe and unlacquered brass but far enough to show the pillow edge below. Keep the mounting projection believable. Let the rest of the bedroom fall gently out of focus, with no new window invented behind the light. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the Tala Wall Light beside the Tanaw sand Unan Bed on its warm, quiet wall. Use a 50mm lens at 125 cm, close enough to read the opal globe and unlacquered brass but far enough to show the pillow edge below. Keep the mounting projection believable. Let the rest of the bedroom fall gently out of focus, with no new window invented behind the light. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -431,7 +455,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery
 
-**Prompt:** Photograph Tanaw second bedroom as a compact guest room ready for rest. Use a level 35mm camera at 115 cm from the entry, showing a simple bed in sand linen and one clear place for a book and water. Keep storage tall and closed, with the same wood tone as the accepted unit. Let a finite wall and part of the dusk window define the background. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph Tanaw second bedroom as a compact guest room ready for rest. Use a level 35mm camera at 115 cm from the entry, showing a simple bed in sand linen and one clear place for a book and water. Keep storage tall and closed, with the same wood tone as the accepted unit. Let a finite wall and part of the dusk window define the background. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -442,7 +466,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery
 
-**Prompt:** Photograph the Tanaw study with a desk beside the window and closed storage along one wall. Use a level 35mm camera at 125 cm from the doorway, leaving clear knee space and a plausible route to the desk. Keep the work surface tidy, with one closed notebook. The window looks toward the same dusk skyline, at the same height as the living room. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the Tanaw study with a desk beside the window and closed storage along one wall. Use a level 35mm camera at 125 cm from the doorway, leaving clear knee space and a plausible route to the desk. Keep the work surface tidy, with one closed notebook. The east window shows the opposite sector of the city at the same floor height; do not repeat the west skyline. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -453,7 +477,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery
 
-**Prompt:** Photograph the narrow Tanaw entry with closed storage and a single warm lamp. Use a level 50mm camera at 130 cm from the living-room end. Keep the wall length and passage width believable for a 118 sqm condo. Let the storage doors stay shut and the surface mostly clear. A soft glimpse of sand linen in the background ties this view to the rest of the unit. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the narrow Tanaw entry with closed storage and a single warm lamp. Use a level 50mm camera at 130 cm from the living-room end. Keep the wall length and passage width believable for a 118 sqm condo. Let the storage doors stay shut and the surface mostly clear. Keep the front door beyond the ledge and storage; do not show the sofa through the hall wall. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -464,7 +488,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square cushion crop
 
-**Prompt:** Photograph the Hablon Cushion on the sand two-seat Silong with Amihan No. 3 above it in Tanaw. Use a level 50mm camera at 120 cm, showing the cushion weave and enough wall to read the accepted abstract composition as an image. Keep the print unlettered and use the same artwork as its product reference. Let a narrow edge of dusk glazing remain in the background. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Acacia room elements and sand linen stay warm without recoloring named mahogany products. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the Hablon Cushion on the sand two-seat Yakap with Amihan No. 3 above it in Tanaw. Use a level 50mm camera at 120 cm, showing the cushion weave and enough wall to read the accepted abstract composition as an image. Keep the print unlettered and use the same artwork as its product reference. Keep the print on the solid east wall; west glazing remains behind the camera. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -499,7 +523,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project master; 16:9 and 21:9 guest-room crops
 
-**Prompt:** Photograph the Dalampasigan guest room with a queen Himlay Bed, handloomed cotton bedding, a natural Kumot Throw, and the Banig Rug visible below. Set a level 35mm camera at 115 cm by the entry, facing an open window beside the bed. Keep the cane headboard and low mahogany frame distinct from other acacia furnishings. Make the room practical and modest, with clear bedside access. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
+**Prompt:** Photograph the Dalampasigan guest room with a queen Himlay Bed, handloomed cotton bedding, a natural Kumot Throw, and the Banig Rug visible below. Set a level 35mm camera at 115 cm by the entry, facing an open window beside the bed. Keep the cane headboard and low natural oiled acacia frame in the same honey tone as the other furnishings. Make the room practical and modest, with clear bedside access. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
 
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
@@ -510,7 +534,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square rug crop
 
-**Prompt:** Photograph the Banig Rug on the guest-room floor at Dalampasigan, with the lower edge of the Himlay Bed behind. Use a 50mm camera at 75 cm, looking down gently so the reed weave and cotton binding are readable. Keep the mat flat and correctly scaled, with enough floor visible around it. Let an open window and pale wall remain soft in the upper background. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
+**Prompt:** Photograph the Banig Rug on the guest-room floor at Dalampasigan, with the lower edge of the natural acacia Himlay Bed behind. Use a 50mm camera at 75 cm, looking down gently so the reed weave and cotton binding are readable. Keep the mat flat and correctly scaled, with enough floor visible around it. Let an open window and pale wall remain soft in the upper background. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
 
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
@@ -532,7 +556,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery
 
-**Prompt:** Photograph a second Dalampasigan guest room using exactly the same accepted layout, bed, rug, window, and camera angle as the first room. Change the Kumot Throw from natural to subdued indigo, keeping other furnishings and bedding the same. Set the level 35mm camera at 115 cm by the entry. Preserve the original clear bedside route and the same room proportions rather than creating another room type. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
+**Prompt:** Photograph a second Dalampasigan guest room using exactly the same accepted layout, natural acacia bed, rug, window, and camera angle as the first room. Change the Kumot Throw from natural to subdued indigo, keeping other furnishings and bedding the same. Set the level 35mm camera at 115 cm by the entry. Preserve the original clear bedside route and the same room proportions rather than creating another room type. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
 
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
@@ -543,7 +567,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; 16:9 room crop
 
-**Prompt:** Photograph the Dalampasigan breakfast room with one 260 cm Hapag Dining Table and Hain Dining Chairs. Use a level 35mm camera at 125 cm from one end, keeping the table length apparent without stretching the near end. Allow ordinary chair spacing and a clear serving route. Keep the pale walls and open windows behind, with the existing serving counter at the side of the accepted room. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
+**Prompt:** Photograph the Dalampasigan breakfast room with one 260 cm Hapag Dining Table and eight Hain Dining Chairs, all in natural oiled honey acacia. Use a level 35mm camera at 125 cm from one end, keeping the table length apparent without stretching the near end. Allow ordinary chair spacing and a clear serving route. Keep the pale walls and open windows behind, with the existing serving counter at the side of the accepted room. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
 
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
@@ -554,7 +578,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square pendant crop
 
-**Prompt:** Photograph a Lenta Pendant over the same long breakfast table at Dalampasigan in morning light. Use a 50mm camera at 140 cm from the side, showing the matte stoneware shade, brass fitting, and a section of tabletop below. Keep the suspension physically connected to the ceiling. Let Hain chair backs and an open window soften into the background without changing the table layout. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
+**Prompt:** Photograph a Lenta Pendant over the same long breakfast table at Dalampasigan in morning light. Use a 50mm camera at 140 cm from the side, showing the matte stoneware shade, brass fitting, and a section of tabletop below. Keep the suspension physically connected to the ceiling. Let natural acacia Hain chair backs and an open window soften into the background without changing the table layout. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
 
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
@@ -589,7 +613,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; 16:9 exterior crop
 
-**Prompt:** Photograph one Pahinga villa in the coconut grove in Panglao, Bohol, with sliding doors open to its terrace. Set a level 35mm camera at 150 cm from the grove edge. Keep the building modest and the terrace physically connected to the bedroom. Let a few coconut trunks frame the view naturally, with ordinary ground and muted foliage behind rather than a beach panorama. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep the grade warm and foliage olive. Include a gently curled leaf, a small curtain fold visible through the opening, and a faint rubbed terrace threshold. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph one Pahinga villa in the coconut grove in Panglao, Bohol, with sliding doors open to its terrace. Set a level 35mm camera at 150 cm from the grove edge. Keep the building modest and the terrace physically connected to the bedroom. Let a few coconut trunks frame the view naturally, with ordinary ground and muted foliage behind rather than a beach panorama. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a gently curled leaf, a small curtain fold visible through the opening, and a faint rubbed terrace threshold. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -600,7 +624,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project master; 16:9 and 21:9 room derivatives
 
-**Prompt:** Photograph the Pahinga villa bedroom from the doorway, with the queen Himlay Bed in white linen and the grove visible through open sliding doors. Use a level 35mm camera at 115 cm, showing the cane headboard, low mahogany frame, and a clear path to the terrace. Let the oat curtain panel soften one edge without obscuring the bed. Keep the room generous but simply furnished. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Pahinga villa bedroom from the doorway, with the queen ebonized mahogany Himlay Bed in white linen and the grove visible through open sliding doors. Use a level 35mm camera at 115 cm, showing the cane headboard, low ebonized mahogany frame, and a clear path to the terrace. Let the white curtain panel soften one edge without obscuring the bed. Keep the room generous but simply furnished. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -611,7 +635,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square lamp and vessel crops
 
-**Prompt:** Photograph the Luad Table Lamp and Tapayan Vessel on a low shelf in the same Pahinga villa bedroom. Use a 50mm camera at 100 cm from the side, keeping the lamp at 46 cm and vessel at 38 cm in believable relation. Show their separate ash-glazed surfaces and enough shelf depth to support both. Let white bedding and a pale wall soften in the background. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Luad Table Lamp and Tapayan Vessel on a low ebonized mahogany shelf in the same Pahinga villa bedroom. Use a 50mm camera at 100 cm from the side, keeping the lamp at 46 cm and vessel at 38 cm in believable relation. Show their separate ash-glazed surfaces and enough shelf depth to support both. Let white bedding and a pale wall soften in the background. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -622,7 +646,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square curtain texture crop
 
-**Prompt:** Photograph the Tabing Linen Curtain panels softening Pahinga island light beside the open sliding doors. Position a 50mm camera at 125 cm from inside the bedroom, showing the drape, hem, and a narrow glimpse of cotton lining. Keep the selected oat fabric identical to the room anchor. Allow the coconut grove and shaded terrace to sit softly behind the panels. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Tabing Linen Curtain panels softening Pahinga island light beside the open sliding doors. Position a 50mm camera at 125 cm from inside the bedroom, showing the drape, hem, and a narrow glimpse of cotton lining. Keep the selected white fabric identical to the room anchor. Allow the coconut grove and shaded terrace to sit softly behind the panels. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -633,7 +657,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; 16:9 terrace crop; square daybed crop
 
-**Prompt:** Photograph the Duyan Daybed in shade on the Pahinga terrace with a Sulok Side Table within reach. Use a level 35mm camera at 100 cm from the open door, showing the full daybed length and its supported linen cushion. Keep the terrace railing or edge only as present in the accepted anchor. Let coconut trunks recede beyond the furniture without filling every gap. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Duyan Daybed in shade on the Pahinga terrace with an ebonized acacia Sulok Side Table within reach. Use a level 35mm camera at 100 cm from the open door, showing the full daybed length and its supported linen cushion. Keep the terrace railing or edge only as present in the accepted anchor. Let coconut trunks recede beyond the furniture without filling every gap. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -644,7 +668,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square chair crop
 
-**Prompt:** Photograph the Dapithapon Lounge Chair on the same Pahinga terrace, facing the coconut grove. Place a 50mm camera at 95 cm behind one side, showing its deep rattan profile and cane back without hiding the seat. Leave a believable walking route beside it and maintain the daybed position outside this crop. Keep the open villa doorway as a quiet background edge. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Dapithapon Lounge Chair on the same Pahinga terrace, facing the coconut grove. Place a 50mm camera at 95 cm behind one side, showing its deep rattan profile and cane back without hiding the seat. Leave a believable walking route beside it and maintain the daybed position outside this crop. Keep the open villa doorway as a quiet background edge. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -655,7 +679,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square pendant crop
 
-**Prompt:** Photograph the Pahinga sitting area at dusk with its Kapis Pendant giving a low, even glow. Use a level 35mm camera at 120 cm from the bedroom side, keeping the capiz drum distinct and showing its real ceiling connection. The open doors reveal the grove becoming dim outside. Preserve the same furniture, curtain positions, and door geometry as the daylight anchor. Dusk sky provides soft cool fill from outside while warm lamps illuminate the room from within. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Pahinga sitting area at dusk with its Kapis Pendant giving a low, even glow. Use a level 35mm camera at 120 cm from the bedroom side, keeping the capiz drum distinct and showing its real ceiling connection. The open doors reveal the grove becoming dim outside. Preserve the same furniture, curtain positions, and door geometry as the daylight anchor. Dusk sky provides soft cool fill from outside while warm lamps illuminate the room from within. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -666,7 +690,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square wall-piece crop
 
-**Prompt:** Photograph the Habi Wall Piece above the Himlay Bed in the Pahinga villa. Use a level 50mm camera at 125 cm from near the bed foot. Show its wood rail and tall reed-and-abaca body against the quiet wall, with the cane headboard below. Keep the scale physically plausible and the hanging secure. Let the selected white linen and oat curtain remain at the frame edges. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Habi Wall Piece above the Himlay Bed in the Pahinga villa. Use a level 50mm camera at 125 cm from near the bed foot. Show its wood rail and tall reed-and-abaca body against the quiet wall, with the cane headboard below. Keep the scale physically plausible and the hanging secure. Let the selected white linen and white curtain remain at the frame edges. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -677,7 +701,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; 16:9 room crop
 
-**Prompt:** Photograph the open Pahinga reception pavilion with a long desk and simple seating. Use a level 35mm camera at 130 cm from an entry corner, keeping the circulation open and the desk functional. Use the same mahogany, cane, rattan, and oat linen family as the villas. Frame the grove through the openings behind the seating, without adding signage, a check-in screen, or new decorative objects. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the open Pahinga reception pavilion with a long desk and simple seating. Use a level 35mm camera at 130 cm from an entry corner, keeping the circulation open and the desk functional. Use the same ebonized mahogany, honey cane and rattan, and white linen family as the villas. Frame the grove through the openings behind the seating, without adding signage, a check-in screen, or new decorative objects. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -688,7 +712,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; 16:9 terrace crop
 
-**Prompt:** Photograph the Pahinga terrace at dusk with warm interior lamps visible through doors left open. Set a level 35mm camera at 120 cm from the garden side, keeping the Duyan Daybed and doorway positions consistent with the daylight terrace. Let the grove fall into a soft cool darkness behind the camera position. The lamp glow should reveal linen and cane rather than flatten them into silhouettes. Dusk sky provides soft cool fill from outside while warm lamps illuminate the room from within. Keep the grade warm and foliage olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Pahinga terrace at dusk with warm interior lamps visible through doors left open. Set a level 35mm camera at 120 cm from the garden side, keeping the Duyan Daybed and doorway positions consistent with the daylight terrace. Let the grove fall into a soft cool darkness behind the camera position. The lamp glow should reveal linen and cane rather than flatten them into silhouettes. Dusk sky provides soft cool fill from outside while warm lamps illuminate the room from within. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -723,7 +747,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; 16:9 planned-room crop
 
-**Prompt:** Create a photoreal design visualization of the planned Hardin bedroom in warm light. Use a level full-frame 35mm viewpoint at 110 cm from the doorway, showing a modest low sleeping place and a clear path around it. Draw only on the documented mahogany, clay linen, cane, stoneware, and hinoki palette. Keep the background a finite wall and plausible condo opening; do not assign an undocumented named bed. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
+**Prompt:** Create a photoreal design visualization of the planned Hardin bedroom in warm light. Use a level full-frame 35mm viewpoint at 110 cm from the doorway, showing the queen Unan Bed in oat linen with a blackened steel Bakal Side Table and a clear path around it. Draw only on the documented natural and ebonized mahogany, clay and oat linen, cane, stoneware, and hinoki palette. Keep the background a finite wall and plausible condo opening; keep these later-stage furnishings out of the stage-one living photograph. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
 
 **Negative add-on:** No completed-project claim, upholstered feature wall, invented product specification, or CGI shine.
 
@@ -756,7 +780,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; 4:5 service crop
 
-**Prompt:** Photograph the Hardin moodboard on a warm wood table with plantation mahogany, clay linen, cane, stoneware, and pale hinoki samples. Use a 50mm camera 70 cm above the table, looking almost straight down. Keep each sample separate enough to read its material and scale. Let the edge of an unlettered design-book page sit behind them, with generous empty tabletop and a pencil at one margin. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
+**Prompt:** Photograph the Hardin moodboard on a warm wood table with natural and ebonized plantation mahogany, clay and oat linen, cane, stoneware, and pale hinoki samples. Use a 50mm camera 70 cm above the table, looking almost straight down. Keep each sample separate enough to read its material and scale. Let the edge of an unlettered design-book page sit behind them, with generous empty tabletop and a pencil at one margin. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
 
 **Negative add-on:** No extra material palette, brass substitution, labels, bright swatches, or decorative cultural pattern.
 
@@ -778,7 +802,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery
 
-**Prompt:** Photograph the Hardin sourcing list as three visibly separate groups on a design-book spread. Use a 50mm camera 75 cm above the table at a slight angle, keeping page edges and binding believable. Suggest product thumbnails with rows of unreadable price and specification blocks. The first group shows sofa, lamp, and rug shapes; later groups stay visually subordinate. Keep a plain pencil beside the book and no invoices or client identifiers behind. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
+**Prompt:** Photograph the Hardin sourcing list as three visibly separate groups on a design-book spread. Use a 50mm camera 75 cm above the table at a slight angle, keeping page edges and binding believable. Suggest product thumbnails with rows of unreadable price and specification blocks. The first group shows sofa, lamp, and rug shapes; the second shows oat Unan and Bakal; the third shows ebonized Pasilyo and balcony pieces. Keep a plain pencil beside the book and no invoices or client identifiers behind. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
 
 **Negative add-on:** No readable prices, invented discounts, extra sourcing stages, signatures, or fake transaction documents.
 
@@ -789,7 +813,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 **Aspect and crop:** 3:4 project gallery; square object crops
 
-**Prompt:** Photograph the Hardin entry with the Pasilyo Console Table and a Bato Object. Use a level 50mm camera at 120 cm from a slight angle, showing the console slim depth and cane lower shelf. Keep the small honed stone form securely on the wood top, with its accepted veins and silhouette intact. Leave a usable passage beside the console and a quiet wall behind it. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
+**Prompt:** Photograph the Hardin entry with the ebonized mahogany Pasilyo Console Table and a Bato Object. Use a level 50mm camera at 120 cm from a slight angle, showing the console slim depth and cane lower shelf. Keep the small honed stone form securely on the wood top, with its accepted veins and silhouette intact. Leave a usable passage beside the console and a quiet wall behind it. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
 
 **Negative add-on:** No cabinet substitution, enormous stone sculpture, added shopping-stage claims, or obstructed entry.
 
@@ -904,7 +928,7 @@ Every studio image below is the canonical card image for its named product where
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the whole narrow mahogany console and its cane lower shelf. Follow the Pasilyo Console Table consistency sheet exactly, retaining its 150 × 38 × 80 cm proportions and documented materials. Place a full-frame 50mm camera at 105 cm, from a shallow front three-quarter angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show slightly varied cane spacing, natural top grain, and a soft leg shadow. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the whole narrow ebonized mahogany console and its cane lower shelf. Follow the Pasilyo Console Table consistency sheet exactly, retaining its 150 × 38 × 80 cm proportions and documented materials. Place a full-frame 50mm camera at 105 cm, from a shallow front three-quarter angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show slightly varied cane spacing, natural top grain, and a soft leg shadow. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No cabinet doors, solid lower shelf, decorative carving, or extra legs.
 
@@ -944,7 +968,7 @@ Every studio image below is the canonical card image for its named product where
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the full low mahogany credenza with sliding wood doors closed. Follow the Baul Credenza consistency sheet exactly, retaining its 180 × 45 × 72 cm proportions and documented materials. Place a full-frame 50mm camera at 100 cm, from a shallow front three-quarter angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show continuous grain variation, a slight overlap shadow, and a muted oiled edge. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the full low natural acacia credenza with sliding wood doors closed. Follow the Baul Credenza consistency sheet exactly, retaining its 180 × 45 × 72 cm proportions and documented materials. Place a full-frame 50mm camera at 100 cm, from a shallow front three-quarter angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show continuous grain variation, a slight overlap shadow, and a muted oiled edge. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No cane panels, swing doors, added drawers, or tall cabinet proportions.
 
@@ -954,7 +978,7 @@ Every studio image below is the canonical card image for its named product where
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the complete empty tall acacia shelving unit with its brass fittings. Follow the Estante Shelving consistency sheet exactly, retaining its 100 × 36 × 190 cm proportions and documented materials. Place a full-frame 50mm camera at 135 cm, from a slight front angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a small brass handling mark, natural wood variation, and shelf-edge shadows. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the complete empty tall shelving unit with its blackened steel frame, natural acacia shelves, and brass fittings. Follow the Estante Shelving consistency sheet exactly, retaining its 100 × 36 × 190 cm proportions and documented materials. Place a full-frame 50mm camera at 135 cm, from a slight front angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a small brass handling mark, natural wood variation, and shelf-edge shadows. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No books, closed cabinets, extra shelves, or mirrored fittings.
 
@@ -1064,7 +1088,7 @@ Every studio image below is the canonical card image for its named product where
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the full tall mahogany-framed mirror with a physically correct reflection of the empty studio. Follow the Salamin Floor Mirror consistency sheet exactly, retaining its 70 × 4 × 170 cm proportions and documented materials. Place a full-frame 50mm camera at 120 cm, looking level from a small safe angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a slight frame grain change, a soft edge reflection, and a small floor contact shadow. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the full tall bleached acacia-framed mirror with a physically correct reflection of the empty studio. Follow the Salamin Floor Mirror consistency sheet exactly, retaining its 70 × 4 × 170 cm proportions and documented materials. Place a full-frame 50mm camera at 120 cm, looking level from a small safe angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a slight frame grain change, a soft edge reflection, and a small floor contact shadow. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No reflected camera or person, arched top, gilding, or impossible reflected room.
 
@@ -1137,6 +1161,86 @@ Every studio image below is the canonical card image for its named product where
 **Prompt:** Photograph the same 50 × 50 Hablon Cushion as the natural-color reference, changing only the cotton color to the catalog indigo. Place a full-frame 50mm camera at 60 cm in the same front three-quarter position. Keep the accepted seams, plain weave, feather-filled shape, and square framing identical. Use a matte #E8DFD2 ground and empty background. Late-morning window light comes from camera left, with pale bounce at right. Show a small crease, a slight yarn slub, and natural compression at the lower edge. Hold indigo subdued and readable without shifting it to bright blue.
 
 **Negative add-on:** No flag-blue saturation, invented stripes, different seams, rigid foam volume, or new piping.
+
+### yakap-studio
+
+**Use:** Yakap Sofa main sales image; category, collection, maker, search, and shop cards; matching order thumbnail
+
+**Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
+
+**Prompt:** Photograph the whole three-seat oat linen sofa with its deep fully upholstered form and concealed frame. Follow the Yakap Sofa consistency sheet exactly, retaining its 236 × 98 × 72 cm proportions and documented materials. Place a full-frame 50mm camera at 105 cm from a gentle front three-quarter angle, far enough back to preserve the full silhouette and natural perspective. Use a seamless matte #E8DFD2 ground and empty background. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Preserve the actual material colors and readable surface texture. Include a slight surface variation, a soft edge highlight, and grounded contact shadows. Keep every support and outer edge inside the square crop.
+
+**Negative add-on:** No exposed wood or cane on Yakap or Unan, no mattress sold with Unan, no wood under Salo or Bakal, no invented variants, logos, or measurement marks.
+
+### yakap-detail
+
+**Use:** Yakap Sofa featured product detail; pair with `tanaw-hero` for in-room use
+
+**Aspect and crop:** 1:1 on #E8DFD2; close material crop
+
+**Prompt:** Photograph a close material view of the accepted Yakap Sofa studio reference, retaining enough outer edge to explain its form. Use a full-frame 50mm close-focus camera at the main surface height, far enough away to avoid enlarged edges or artificial miniature blur. Soft afternoon window light enters from camera left with pale bounce from the right. Keep the rest of this same product behind it on an empty matte #E8DFD2 ground. Preserve the exact accepted geometry and surface marks. Show subtle fabric fibers or metal and stone variation appropriate to the documented materials, a soft edge shadow, and ordinary contact between parts. Keep the product clean and sound.
+
+**Negative add-on:** No changed product geometry, invented ornament, extra materials, false damage, or new finish.
+
+### unan-studio
+
+**Use:** Unan Bed main sales image; category, collection, maker, search, and shop cards; matching order thumbnail
+
+**Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
+
+**Prompt:** Photograph the whole queen oat linen bed frame, padded headboard, and slatted base without a mattress or bedding. Follow the Unan Bed consistency sheet exactly, retaining its 172 × 222 × 100 cm proportions and documented materials. Place a full-frame 50mm camera at 105 cm from a gentle front three-quarter angle, far enough back to preserve the full silhouette and natural perspective. Use a seamless matte #E8DFD2 ground and empty background. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Preserve the actual material colors and readable surface texture. Include a slight surface variation, a soft edge highlight, and grounded contact shadows. Keep every support and outer edge inside the square crop.
+
+**Negative add-on:** No exposed wood or cane on Yakap or Unan, no mattress sold with Unan, no wood under Salo or Bakal, no invented variants, logos, or measurement marks.
+
+### unan-detail
+
+**Use:** Unan Bed featured product detail; pair with `hardin-g03-bedroom-plan` for in-room use
+
+**Aspect and crop:** 1:1 on #E8DFD2; close material crop
+
+**Prompt:** Photograph a close material view of the accepted Unan Bed studio reference, retaining enough outer edge to explain its form. Use a full-frame 50mm close-focus camera at the main surface height, far enough away to avoid enlarged edges or artificial miniature blur. Soft afternoon window light enters from camera left with pale bounce from the right. Keep the rest of this same product behind it on an empty matte #E8DFD2 ground. Preserve the exact accepted geometry and surface marks. Show subtle fabric fibers or metal and stone variation appropriate to the documented materials, a soft edge shadow, and ordinary contact between parts. Keep the product clean and sound.
+
+**Negative add-on:** No changed product geometry, invented ornament, extra materials, false damage, or new finish.
+
+### salo-studio
+
+**Use:** Salo Dining Table main sales image; category, collection, maker, search, and shop cards; matching order thumbnail
+
+**Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
+
+**Prompt:** Photograph the complete Ø130 honed terrazzo table on its single blackened steel pedestal, with an empty top. Follow the Salo Dining Table consistency sheet exactly, retaining its Ø130 × 75 cm proportions and documented materials. Place a full-frame 50mm camera at 105 cm from a gentle front three-quarter angle, far enough back to preserve the full silhouette and natural perspective. Use a seamless matte #E8DFD2 ground and empty background. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Preserve the actual material colors and readable surface texture. Include a slight surface variation, a soft edge highlight, and grounded contact shadows. Keep every support and outer edge inside the square crop.
+
+**Negative add-on:** No exposed wood or cane on Yakap or Unan, no mattress sold with Unan, no wood under Salo or Bakal, no invented variants, logos, or measurement marks.
+
+### salo-detail
+
+**Use:** Salo Dining Table featured product detail; pair with `tanaw-g03-dining` for in-room use
+
+**Aspect and crop:** 1:1 on #E8DFD2; close material crop
+
+**Prompt:** Photograph a close material view of the accepted Salo Dining Table studio reference, retaining enough outer edge to explain its form. Use a full-frame 50mm close-focus camera at the main surface height, far enough away to avoid enlarged edges or artificial miniature blur. Soft afternoon window light enters from camera left with pale bounce from the right. Keep the rest of this same product behind it on an empty matte #E8DFD2 ground. Preserve the exact accepted geometry and surface marks. Show subtle fabric fibers or metal and stone variation appropriate to the documented materials, a soft edge shadow, and ordinary contact between parts. Keep the product clean and sound.
+
+**Negative add-on:** No changed product geometry, invented ornament, extra materials, false damage, or new finish.
+
+### bakal-studio
+
+**Use:** Bakal Side Table main sales image; category, collection, maker, search, and shop cards; matching order thumbnail
+
+**Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
+
+**Prompt:** Photograph the complete small spun-steel table with its blackened wax finish and round top. Follow the Bakal Side Table consistency sheet exactly, retaining its Ø38 × 50 cm proportions and documented materials. Place a full-frame 50mm camera at 105 cm from a gentle front three-quarter angle, far enough back to preserve the full silhouette and natural perspective. Use a seamless matte #E8DFD2 ground and empty background. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Preserve the actual material colors and readable surface texture. Include a slight surface variation, a soft edge highlight, and grounded contact shadows. Keep every support and outer edge inside the square crop.
+
+**Negative add-on:** No exposed wood or cane on Yakap or Unan, no mattress sold with Unan, no wood under Salo or Bakal, no invented variants, logos, or measurement marks.
+
+### bakal-detail
+
+**Use:** Bakal Side Table featured product detail; pair with `tanaw-g05-bedroom-lamp` for in-room use
+
+**Aspect and crop:** 1:1 on #E8DFD2; close material crop
+
+**Prompt:** Photograph a close material view of the accepted Bakal Side Table studio reference, retaining enough outer edge to explain its form. Use a full-frame 50mm close-focus camera at the main surface height, far enough away to avoid enlarged edges or artificial miniature blur. Soft afternoon window light enters from camera left with pale bounce from the right. Keep the rest of this same product behind it on an empty matte #E8DFD2 ground. Preserve the exact accepted geometry and surface marks. Show subtle fabric fibers or metal and stone variation appropriate to the documented materials, a soft edge shadow, and ordinary contact between parts. Keep the product clean and sound.
+
+**Negative add-on:** No changed product geometry, invented ornament, extra materials, false damage, or new finish.
 
 ### Page group: Featured product details and Silong gallery
 
@@ -1298,7 +1402,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 1:1 on #E8DFD2; retain enough edge to explain construction
 
-**Prompt:** Photograph a close detail of the woven cane lower shelf meeting the mahogany console frame. Use the accepted Pasilyo Console Table reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 55 cm, level with the shelf edge, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show a small cane tone shift, a joinery shadow, and a natural grain change. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
+**Prompt:** Photograph a close detail of the woven cane lower shelf meeting the ebonized mahogany console frame. Use the accepted Pasilyo Console Table reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 55 cm, level with the shelf edge, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show a small cane tone shift, a joinery shadow, and a natural grain change. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
 
 **Negative add-on:** No changed product geometry, invented ornament, over-sharpened fibers, repeated texture, or false damage.
 
@@ -1420,9 +1524,9 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 | Category page | Representative image; full grid |
 |---|---|
-| Seating | `silong-studio-front`; all six seating masters |
-| Tables | `hapag-studio`; all four table masters |
-| Beds | `himlay-studio`; Himlay and Duyan masters |
+| Seating | `silong-studio-front`; all seven seating masters |
+| Tables | `hapag-studio`; all six table masters |
+| Beds | `himlay-studio`; Himlay, Unan, and Duyan masters |
 | Storage | `aparador-studio`; Aparador, Baul, Estante masters |
 | Lighting | `kapis-studio`; all five lighting masters |
 | Rugs and textiles | `lambot-studio`; all five textile masters |
@@ -1697,9 +1801,9 @@ These details supplement the catalog's explicit Home, Originals, and new-piece f
 
 ### Order and reference handling
 
-1. Start with the 32 product consistency sheets and their studio prompts. Generate one plain reference per product, then have Aedwon review the silhouettes and artwork before batch generation. A sheet constrains the model but is not itself a visual approval. Establish the named fabric and size alternates separately when a room needs them, especially the two-seat Silong in sand and clay, the 260 cm Hapag, Hardin's smaller Lambot, and indigo Hablon. Keep each alternate attached to the same parent identity.
+1. Start with the 36 product consistency sheets and their studio prompts. Generate one plain reference per product, then have Aedwon review the silhouettes and artwork before batch generation. A sheet constrains the model but is not itself a visual approval. Establish the named fabric and size alternates separately when a room needs them, especially the sand two-seat Yakap, clay two-seat Silong, sand and oat Unan, Ø110 Salo, natural acacia 260 cm Hapag, Hardin's smaller Lambot, and indigo Hablon. Keep each alternate attached to the same parent identity.
 2. Generate the Silong alternate angle, frame detail, and fabric study from its selected front reference. Generate featured details from accepted product references, never from text alone. The 16 products in the catalog's Home, Originals, and new-piece featured sets all have detail shots and an assigned in-room image. Batis, Luad, and Amihan have additional details for Quiet Living. The Silong cushion extra is separate from its five gallery slots.
-3. Establish project room references next. Start with Lilim living and dining, Tanaw living at dusk, Dalampasigan guest room, Pahinga bedroom and terrace, and Hardin's sparse first-stage living room. Use the product references in these rooms at their documented physical scale. No finished room should redefine a product. Tanaw's acacia room palette does not turn its named Silong or Baul into acacia; the catalog's mahogany remains mahogany.
+3. Establish project room references next. Start with Lilim living and dining, Tanaw living at dusk, Dalampasigan guest room, Pahinga bedroom and terrace, and Hardin's sparse first-stage living room. Use the product references in these rooms at their documented physical scale. No finished room should redefine a product. Tanaw uses bleached acacia, sand Yakap and Unan, terrazzo Salo, and blackened steel Bakal; follow its updated scene bible.
 4. Extend each accepted room into gallery views before generating another room. Derive detail crops from the accepted frame when resolution allows. Use the same scene reference for hero, card, and alternate crop; generate an alternate framing only if a crop would remove the required subject. Keep all outputs for that subject under the same shot ID with crop suffixes. Check the 21:9, 16:9, 3:4, 4:3, 4:5, and square crops against the existing mockup boxes before accepting the master.
 5. Generate collections, makers, About, showroom, and utility scenes last, reusing the same accepted products and materials. Do not create a separate room for a shared closing panel. Apply overlays, fictional-brand notices, and other page text in the page after image generation. Never ask the image model to bake them in.
 
@@ -1707,9 +1811,9 @@ These details supplement the catalog's explicit Home, Originals, and new-piece f
 
 Keep a reference contact sheet in the generation workflow, with one accepted view per room. Record the camera position, window wall, door positions, floor direction, ceiling height as depicted, furniture placement, wood tone, upholstery, rug size, and light direction. These are visual continuity records, not additional project facts. Use reference-image guidance or edits of the same room. A repeated seed can help when supported, but does not guarantee the same architecture.
 
-For Lilim, maintain the living-to-terrace relationship, low oat seating, deep eaves, mahogany, and the same hillside view. The wide shopping shot must keep all six featured products distinct for the existing pin overlays. For Tanaw, preserve the same skyline, glazing rhythm, compact scale, and dusk exposure in every room. For Dalampasigan, repeat the accepted guest-room layout, changing only the documented textile color for gallery 6. Keep the 260 cm breakfast table and the separate serving counter stable. For Pahinga, preserve the grove, sliding doors, terrace daybed position, and one finish and fabric across villas. The captioned dusk images are later views of the same spaces. For Hardin, keep plan and photograph camera geometry aligned; label the living and bedroom planning visuals as renders in page captions, and keep the first-stage photograph sparse.
+For Lilim, maintain the living-to-terrace relationship, low oat seating, deep eaves, mahogany, and the same hillside view. The wide shopping shot must keep all six featured products distinct for the existing pin overlays. For Tanaw, preserve bleached acacia floors and joinery, blackened steel, sand linen, and the same skyline, glazing rhythm, compact scale, and dusk exposure in every room. For Dalampasigan, repeat the accepted guest-room layout, changing only the documented textile color for gallery 6. Keep the natural acacia bed, chairs, and 260 cm breakfast table and the separate serving counter stable. For Pahinga, preserve the grove, sliding doors, terrace daybed position, and ebonized mahogany, honey rattan, white linen, and cream limestone across villas. The captioned dusk images are later views of the same spaces. For Hardin, keep plan and photograph camera geometry aligned; label the living and bedroom planning visuals as renders in page captions, and keep the first-stage photograph sparse.
 
-No floor plan is supplied for Lilim, Tanaw, Dalampasigan, or Pahinga, and Hardin supplies a description of a plan rather than its drawing. Do not claim exact measured architecture. In particular, placeholder 47 asks for living, dining, and main bedroom in one long view. Map it to the same plausible Lilim wide shot as placeholder 44, with only a doorway glimpse of the bedroom if the accepted scene supports it. Never invent a cutaway, remove a wall, or enlarge a lens field to force three rooms into frame. An exact three-room sightline remains unverified until a room reference is selected.
+Every project now has a scene bible and a plan drawing in `design/photography/plans/`. Use those fixed reference geometries for generation; they are schematic scene maps, not certified construction drawings. Hardin's design-book plan must reproduce its scene map without camera cones or labels. Placeholder 47 maps to the same Lilim wide shot as placeholder 44, with the scene bible governing what the camera can see. Never invent a cutaway, remove a wall, or enlarge a lens field to force three rooms into frame.
 
 ### Source corrections and content limits
 
@@ -1842,4 +1946,4 @@ All 106 supplied placeholder lines have a canonical destination below. Generic r
 | 105 | Wool swatch | `material-wool` |
 | 106 | Woven Forms | `collection-woven-forms` |
 
-**Coverage:** 135 canonical shot entries, 32 product consistency sheets, all 50 project gallery captions, all seven collections, all eight category grids, all ten makers, and all 106 placeholder lines. Unmapped placeholders: 0. Exact undocumented architecture, unprovided artwork, and unreadable document interiors remain subject to the limits above.
+**Coverage:** 143 canonical shot entries, 36 product consistency sheets, all 50 project gallery captions, all seven collections, all eight category grids, all ten makers, and all 106 placeholder lines. Unmapped placeholders: 0. Exact undocumented architecture, unprovided artwork, and unreadable document interiors remain subject to the limits above.

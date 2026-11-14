@@ -36,7 +36,7 @@ Coordinates are meters. Origin is the southwest inside corner of the ground-floo
 | Ceilings | Flat off-white plaster at the heights in the plan |
 | Doors, shutters, window frames, built-in serving counter | Oiled acacia; shutters stand open in every view |
 | Roof and eaves | Low pitched matte gray metal roof, ridge along north to south, 0.9 m eaves; no decorative thatch |
-| Catalog wood | Himlay, Hain, and Hapag remain plantation mahogany in natural finish; Bangko and Tuntungan remain acacia |
+| Catalog wood | Himlay, Hain, and Hapag use natural oiled acacia (honey); Bangko and Tuntungan remain unchanged natural acacia |
 | Guest bedding | Plain natural handloomed cotton; the throw is the only room-color change |
 
 ## Placement
@@ -45,7 +45,7 @@ Only these pieces appear. Small loose items (a water glass, serving bowls, cups)
 
 | Piece | Count | Position | Facing |
 |---|---|---|---|
-| Himlay Bed, queen 168 × 215, natural finish | 1 per room, 12 total | Room A centered x 2, y 10.925; headboard on north wall y 12. Every later room adds 4 m to y; upper floor repeats | South |
+| Himlay Bed, queen 168 × 215, natural acacia finish | 1 per room, 12 total | Room A centered x 2, y 10.925; headboard on north wall y 12. Every later room adds 4 m to y; upper floor repeats | South |
 | Banig Rug, 200 × 300 | 1 per room, 12 total | Room A centered x 2, y 9.9; long side north to south, part under bed | |
 | Tuntungan Stool | 1 per room, 12 total | Room A centered x 3.25, y 11.25; 0.34 × 0.34 | Beside east pillow |
 | Kumot Throw, natural | 1 in room A, 11 total | Folded across bed foot, centered x 2, y 10.05 in A; same translated position in all other rooms except B | Long edge east to west |
@@ -54,8 +54,8 @@ Only these pieces appear. Small loose items (a water glass, serving bowls, cups)
 | Plain guest wall reading light (not a catalog piece) | 1 per room, 12 total | Room A north wall y 12, x 3.25; center 1.35 m; translated in repeats | South; off |
 | Bangko Bench | 1 | Lobby, centered x 3.81, y 2.8; 0.38 east to west × 1.40 north to south | West, opposite entrance |
 | Habi Wall Piece | 1 | Lobby east wall x 4, centered y 2.8; 0.90 along wall × 1.40 high, bottom 0.95 m | West, above bench |
-| Hapag Dining Table, 260 cm, natural finish | 1 | Breakfast room, centered x 7, y 4.7; 0.95 east to west × 2.60 north to south | |
-| Hain Dining Chair, natural finish | 8 | Three west at x 6.12, y 3.85, 4.7, 5.55; three east at x 7.88 at the same y; end chairs x 7, y 2.95 and 6.45 | Toward table |
+| Hapag Dining Table, 260 cm, natural acacia finish | 1 | Breakfast room, centered x 7, y 4.7; 0.95 east to west × 2.60 north to south | |
+| Hain Dining Chair, natural acacia finish | 8 | Three west at x 6.12, y 3.85, 4.7, 5.55; three east at x 7.88 at the same y; end chairs x 7, y 2.95 and 6.45 | Toward table |
 | Lenta Pendant | 1 | Above x 7, y 4.7; Ø0.34, bottom 1.85 m, cable to 3.0 m ceiling | Down to table; off |
 | Acacia serving counter, 2.60 × 0.60 × 0.90 m (not a catalog piece) | 1 | Centered x 7, y 1.6; clear of end chair and lobby route | South |
 | Bilao Tray | 1 | On counter at x 7, y 1.6; Ø0.42 | Horizontal |
@@ -69,12 +69,12 @@ No other dining tables, pendants, lobby chairs, wool rugs, or catalog objects. R
 |---|---|---|---|---|---|---|
 | C1 (anchor, exterior) | `dalampasigan-g01-exterior` | -10, -3 | 1.50 m | 35 | 35mm | Two-story west elevation, lobby entrance at near right, repeated open guest shutters receding left; sea is behind camera, not behind east-facing windows |
 | C2 (anchor, lobby) | `dalampasigan-g02-lobby` | 0.65, 2.5 | 1.20 m | 85 | 35mm | Bangko opposite entrance, Habi above on east wall; lobby passage lies farther left, not through the wall behind bench |
-| C3 (anchor, guest room A) | `dalampasigan-hero` | 3.7, 8.6 | 1.15 m | 324 | 35mm | Queen bed with natural throw ahead, Banig below, open west window at left, stool at right of bed |
+| C3 (anchor, guest room A) | `dalampasigan-hero` | 3.7, 8.6 | 1.15 m | 324 | 35mm | Natural acacia queen Himlay with natural throw ahead, Banig below, open west window at left, stool at right of bed |
 | C4 | `dalampasigan-g04-reed-mat` | 2.8, 8.65 | 0.75 m | 340 | 50mm | Reed rug and binding ahead under bed foot, bed lower edge behind, west window at left edge; pitch down about 12 degrees |
 | C5 | `dalampasigan-g05-bedside-stool` | 3.5, 9.7 | 0.80 m | 350 | 50mm | Tuntungan with water glass ahead, bed edge and cotton at left, reed rug below left |
-| C6 (anchor, guest room B) | `dalampasigan-g06-second-room` | 3.7, 12.6 | 1.15 m | 324 | 35mm | Exact C3 angle translated 4 m north; same bed, rug, stool, and west window at left; only throw changes to indigo |
-| C7 (anchor, breakfast room) | `dalampasigan-g07-breakfast` | 5.1, 1.1 | 1.25 m | 28 | 35mm | One long table, eight chairs, one Lenta above, east windows at right, clear serving route; counter stays behind near right edge |
-| C8 | `dalampasigan-g08-pendant` | 4.65, 0.65 | 1.40 m | 30 | 50mm | Lenta and cable above table section, Hain backs below, east window at right background; retain ceiling connection |
+| C6 (anchor, guest room B) | `dalampasigan-g06-second-room` | 3.7, 12.6 | 1.15 m | 324 | 35mm | Exact C3 angle translated 4 m north; same natural acacia bed, rug, stool, and west window at left; only throw changes to indigo |
+| C7 (anchor, breakfast room) | `dalampasigan-g07-breakfast` | 5.1, 1.1 | 1.25 m | 28 | 35mm | One natural acacia Hapag 260, eight natural acacia Hain chairs, one Lenta above, east windows at right, clear serving route; counter stays behind near right edge |
+| C8 | `dalampasigan-g08-pendant` | 4.65, 0.65 | 1.40 m | 30 | 50mm | Lenta and cable above table section, Natural acacia Hain backs below, east window at right background; retain ceiling connection |
 | C9 | `dalampasigan-g09-serving-counter` | 7, 0.3 | 1.20 m | 0 | 50mm | Bilao and supported stoneware on separate counter foreground, long table behind; pitch down about 10 degrees |
 | C10 (anchor, corridor) | `dalampasigan-g10-corridor` | 7.7, 17.0 | 1.40 m | 350 | 35mm | Last three room doors at left, east wall at right, finite north glazed end ahead; never twelve doors in this view |
 

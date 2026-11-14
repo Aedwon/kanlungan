@@ -24,7 +24,7 @@
 <line x1="430" y1="931.25" x2="430" y2="908.75" stroke="#8E4A2C" stroke-width="5"/>
 <text x="392.5" y="892.5" font-size="10" font-weight="400" text-anchor="middle" fill="#2E211A">Bangko + Habi</text>
 <rect x="493.125" y="840.0" width="23.75" height="65.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<text x="505.0" y="874.0" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Hapag 260</text>
+<text x="505.0" y="874.0" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Hapag 260 acacia</text>
 <rect x="476.5" y="887.75" width="13.0" height="12.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="476.5" y="866.5" width="13.0" height="12.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="476.5" y="845.25" width="13.0" height="12.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
@@ -34,7 +34,7 @@
 <rect x="499.0" y="909.75" width="12.0" height="13.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="499.0" y="822.25" width="12.0" height="13.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="505" cy="872.5" r="4.25" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-dasharray="3 2"/>
-<rect x="472.5" y="942.5" width="65.0" height="15.0" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="472.5" y="942.5" width="65.0" height="15.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="505" cy="950.0" r="5.25" fill="#E6D5B8" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="483.75" cy="950.0" r="2.5" fill="#E3DCD0" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="492.5" cy="950.0" r="2.5" fill="#E3DCD0" stroke="#2E211A" stroke-width="1.5"/>
@@ -60,7 +60,7 @@
 <line x1="380.0" y1="735.315" x2="381.7207293090531" y2="732.857543867133" stroke="#6A584A" stroke-width="1"/>
 <rect x="363.75" y="734.75" width="32.5" height="8.0" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="407.0" y="704.5" width="8.5" height="8.5" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="345.0" y="778.75" width="30.0" height="11.25" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="345.0" y="778.75" width="30.0" height="11.25" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="411.25" cy="692.5" r="1.7500000000000002" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="330" y="590" width="150" height="100" rx="2" fill="#EFE6D6" stroke="#2E211A" stroke-width="3"/>
 <line x1="430" y1="690" x2="430" y2="590" stroke="#2E211A" stroke-width="3"/>
@@ -76,7 +76,7 @@
 <line x1="380.0" y1="635.315" x2="381.7207293090531" y2="632.857543867133" stroke="#6A584A" stroke-width="1"/>
 <rect x="363.75" y="634.75" width="32.5" height="8.0" rx="2" fill="#6A584A" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="407.0" y="604.5" width="8.5" height="8.5" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="345.0" y="678.75" width="30.0" height="11.25" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="345.0" y="678.75" width="30.0" height="11.25" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="411.25" cy="592.5" r="1.7500000000000002" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="330" y="490" width="150" height="100" rx="2" fill="#EFE6D6" stroke="#2E211A" stroke-width="3"/>
 <line x1="430" y1="590" x2="430" y2="490" stroke="#2E211A" stroke-width="3"/>
@@ -92,7 +92,7 @@
 <line x1="380.0" y1="535.315" x2="381.7207293090531" y2="532.857543867133" stroke="#6A584A" stroke-width="1"/>
 <rect x="363.75" y="534.75" width="32.5" height="8.0" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="407.0" y="504.50000000000006" width="8.5" height="8.5" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="345.0" y="578.75" width="30.0" height="11.25" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="345.0" y="578.75" width="30.0" height="11.25" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="411.25" cy="492.50000000000006" r="1.7500000000000002" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="330" y="390" width="150" height="100" rx="2" fill="#EFE6D6" stroke="#2E211A" stroke-width="3"/>
 <line x1="430" y1="490" x2="430" y2="390" stroke="#2E211A" stroke-width="3"/>
@@ -108,7 +108,7 @@
 <line x1="380.0" y1="435.31499999999994" x2="381.7207293090531" y2="432.857543867133" stroke="#6A584A" stroke-width="1"/>
 <rect x="363.75" y="434.75" width="32.5" height="8.0" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="407.0" y="404.5" width="8.5" height="8.5" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="345.0" y="478.75" width="30.0" height="11.25" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="345.0" y="478.75" width="30.0" height="11.25" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="411.25" cy="392.5" r="1.7500000000000002" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="330" y="290" width="150" height="100" rx="2" fill="#EFE6D6" stroke="#2E211A" stroke-width="3"/>
 <line x1="430" y1="390" x2="430" y2="290" stroke="#2E211A" stroke-width="3"/>
@@ -124,7 +124,7 @@
 <line x1="380.0" y1="335.31499999999994" x2="381.7207293090531" y2="332.857543867133" stroke="#6A584A" stroke-width="1"/>
 <rect x="363.75" y="334.75" width="32.5" height="8.0" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="407.0" y="304.5" width="8.5" height="8.5" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="345.0" y="378.75" width="30.0" height="11.25" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="345.0" y="378.75" width="30.0" height="11.25" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="411.25" cy="292.5" r="1.7500000000000002" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="330" y="190" width="150" height="100" rx="2" fill="#EFE6D6" stroke="#2E211A" stroke-width="3"/>
 <line x1="430" y1="290" x2="430" y2="190" stroke="#2E211A" stroke-width="3"/>
@@ -140,7 +140,7 @@
 <line x1="380.0" y1="235.31499999999994" x2="381.7207293090531" y2="232.85754386713302" stroke="#6A584A" stroke-width="1"/>
 <rect x="363.75" y="234.75" width="32.5" height="8.0" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="407.0" y="204.5" width="8.5" height="8.5" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="345.0" y="278.75" width="30.0" height="11.25" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="345.0" y="278.75" width="30.0" height="11.25" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="411.25" cy="192.5" r="1.7500000000000002" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="480" y="190" width="50" height="600" rx="2" fill="#EFE6D6" stroke="#2E211A" stroke-width="3"/>
 <rect x="530" y="190" width="50" height="600" rx="2" fill="#E3DCD0" stroke="#2E211A" stroke-width="3"/>
@@ -188,7 +188,7 @@
 <line x1="836.0" y1="313.2568" x2="840.6803837206246" y2="306.57251931860185" stroke="#6A584A" stroke-width="1"/>
 <rect x="791.8" y="311.7199999999999" width="88.4" height="21.76" rx="2" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="909.44" y="229.44000000000005" width="23.12" height="23.12" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<rect x="740.8" y="431.4000000000001" width="81.6" height="30.6" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="740.8" y="431.4000000000001" width="81.6" height="30.6" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="921.0" cy="196.79999999999995" r="4.760000000000001" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
 <text x="1040.0" y="237.6" font-size="11" font-weight="400" text-anchor="middle" fill="#6A584A">Bath*</text>
 <text x="1040.0" y="424.6" font-size="10" font-weight="400" text-anchor="middle" fill="#6A584A">Entry</text>
@@ -196,7 +196,7 @@
 <text x="958.4" y="237.6" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Tuntungan</text>
 <text x="904.0" y="142.4" font-size="13" font-weight="400" text-anchor="middle" fill="#2E211A">Room A enlarged: 6 × 4 m</text>
 <text x="904.0" y="492.6" font-size="11" font-weight="400" text-anchor="middle" fill="#6A584A">B repeats A exactly, translated 4 m north.</text>
-<text x="904.0" y="513.0" font-size="11" font-weight="400" text-anchor="middle" fill="#6A584A">Only Kumot changes: natural to indigo.</text>
+<text x="904.0" y="513.0" font-size="11" font-weight="400" text-anchor="middle" fill="#6A584A">Honey acacia; only Kumot changes to indigo.</text>
 <polygon points="951.6,421.2 757.7,322.4 917.6,206.3" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C3" data-shot="dalampasigan-hero" data-x="3.7" data-y="8.6" data-heading="324.0" data-lens="35" data-height="1.15" data-space="project"/>
 <circle cx="951.6" cy="421.20000000000005" r="6" fill="#8E4A2C"/>
 <text x="959.6" y="413.2" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C3 ★</text>
@@ -228,7 +228,7 @@
 <line x1="875" y1="897.5" x2="875" y2="852.5" stroke="#8E4A2C" stroke-width="5"/>
 <text x="800.0" y="820.0" font-size="10" font-weight="400" text-anchor="middle" fill="#2E211A">Bangko + Habi</text>
 <rect x="1001.25" y="715.0" width="47.5" height="130.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
-<text x="1025.0" y="783.0" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Hapag 260</text>
+<text x="1025.0" y="783.0" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Hapag 260 acacia</text>
 <rect x="968.0" y="810.5" width="26.0" height="24.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="968.0" y="768.0" width="26.0" height="24.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="968.0" y="725.5" width="26.0" height="24.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
@@ -238,7 +238,7 @@
 <rect x="1013.0" y="854.5" width="24.0" height="26.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="1013.0" y="679.5" width="24.0" height="26.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="1025" cy="780.0" r="8.5" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-dasharray="3 2"/>
-<rect x="960.0" y="920.0" width="130.0" height="30.0" rx="2" fill="#B97F5E" stroke="#2E211A" stroke-width="1.5"/>
+<rect x="960.0" y="920.0" width="130.0" height="30.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="1025" cy="935.0" r="10.5" fill="#E6D5B8" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="982.5" cy="935.0" r="5.0" fill="#E3DCD0" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="1000.0" cy="935.0" r="5.0" fill="#E3DCD0" stroke="#2E211A" stroke-width="1.5"/>

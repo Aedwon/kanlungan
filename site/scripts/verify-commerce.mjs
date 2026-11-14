@@ -26,8 +26,8 @@ function load(name) {
   const { projects } = load('@/data/projects');
   const { productTemplate, elements } = load('@/lib/shopTemplates');
   const products = await localProvider.getProducts(); const collections = await localProvider.getCollections();
-  assert.equal(products.length, 32); assert.equal(collections.length, 7); assert.equal((await localProvider.getMakers()).length, 10);
-  assert.equal(products.reduce((n, p) => n + p.resolvedVariants.length, 0), 59);
+  assert.equal(products.length, 36); assert.equal(collections.length, 7); assert.equal((await localProvider.getMakers()).length, 10);
+  assert.equal(products.reduce((n, p) => n + p.resolvedVariants.length, 0), 94);
   for (const p of products) {
     assert.equal(defaultVariant(p).price, p.price, `base price ${p.slug}`);
     assert.equal((await localProvider.getProduct(p.slug)).name, p.name);
@@ -38,12 +38,29 @@ function load(name) {
       assert(elements(node).some((n) => n.tag === 'ProductBuy'));
     }
   }
+  const { projectProducts, projectTemplate } = load('@/lib/studioTemplates');
+  const tanaw = projects.find((p) => p.slug === 'tanaw-residence');
+  const specified = projectProducts(tanaw);
+  assert.equal(specified.find((p) => p.slug === 'yakap-sofa').price, 142000);
+  assert.equal(specified.find((p) => p.slug === 'salo-dining-table').price, 98000);
+  for (const project of projects) for (const screen of ['desktop', 'mobile']) {
+    const node = projectTemplate(project, screen);
+    const cards = elements(node).filter((n) => n.tag === 'ProductCard');
+    assert.equal(cards.length, project.shopTheProject.length, `${project.slug} full product list ${screen}`);
+  }
+  for (const [slug, sizes] of Object.entries({ 'yakap-sofa': { 'Three-seat 236 cm': 168000, 'Two-seat 186 cm': 142000 }, 'unan-bed': { 'Queen 172 × 222': 128000, 'King 202 × 222': 152000 }, 'salo-dining-table': { 'Ø110 seats four': 98000, 'Ø130 seats six': 126000 } })) {
+    const product = await localProvider.getProduct(slug);
+    for (const variant of product.resolvedVariants) assert.equal(variant.price, sizes[variant.options.Size], `${slug} ${JSON.stringify(variant.options)}`);
+  }
+  const { newPieceSlugs } = load('@/lib/commerce/filter');
+  assert(newPieceSlugs.includes('salo-dining-table') && newPieceSlugs.includes('bakal-side-table'));
+  assert(!newPieceSlugs.includes('pasilyo-console-table') && !newPieceSlugs.includes('bato-object'));
   const sofa = await localProvider.getProduct('silong-sofa');
   assert(sofa.resolvedVariants.filter((v) => v.options.Size === 'Two-seat 178 cm').every((v) => v.price === 158000));
   assert.equal((await localProvider.getProduct('kiso-stool')).availability, 'sold-out');
   assert.equal((await localProvider.getProduct('kiso-stool')).resolvedVariants[0].available, false);
   assert.equal((await localProvider.getProduct('tanghali')).oneOfAKind, true);
-  const seating = await localProvider.getProductsByCategory('seating'); assert.equal(seating.length, 6);
+  const seating = await localProvider.getProductsByCategory('seating'); assert.equal(seating.length, 7);
   assert.equal(filterProducts(seating, new URLSearchParams('maker=Lilok+Workshop&availability=in-stock'))[0].slug, 'tuntungan-stool');
   assert.equal(filterProducts(seating, new URLSearchParams('material=Cane+and+rattan')).length, 2);
   assert.equal(filterProducts(seating, new URLSearchParams('price=Under+₱25%2C000')).length, 3);
@@ -71,5 +88,5 @@ function load(name) {
   global.fetch = originalFetch;
   if (priorDomain === undefined) delete process.env.SHOPIFY_STORE_DOMAIN; else process.env.SHOPIFY_STORE_DOMAIN = priorDomain;
   if (priorToken === undefined) delete process.env.SHOPIFY_STOREFRONT_PUBLIC_TOKEN; else process.env.SHOPIFY_STOREFRONT_PUBLIC_TOKEN = priorToken;
-  console.log('PASS: 32 local products, 59 variants, 7 collections, 10 makers; base and option prices; all project cross-links in both screens; URL filter combinations and sorts; Shopify mapping, variant lead-time override, PHP validation, pagination, and GraphQL error handling.');
+  console.log('PASS: 36 local products, 94 variants, 7 collections, 10 makers; base and option prices; all project cross-links in both screens; URL filter combinations and sorts; Shopify mapping, variant lead-time override, PHP validation, pagination, and GraphQL error handling.');
 })().catch((error) => { console.error(error); process.exitCode = 1; });

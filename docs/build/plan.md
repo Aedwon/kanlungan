@@ -33,7 +33,7 @@ Each wave runs one implementor at a time (Codex first, to save Claude usage; Son
 
 1. **Foundation:** scaffold Next.js app in `site/`; tokens to CSS variables; fonts; header (all states) and footer; base components from `T-components`; content loaders for `docs/content/`; Home. Uses a local catalog file until Shopify is connected.
 2. **Studio pages:** Studio, services, Projects index and detail, About.
-3. **Shopify:** Storefront API client, product sync script to seed the 32 products and 7 collections into the dev store, shop landing, categories, collections, product pages, makers.
+3. **Shopify:** Storefront API client, product sync script to seed the 36 products and 7 collections into the dev store, shop landing, categories, collections, product pages, makers.
 4. **Cart and checkout:** cart drawer and page (Storefront cart), demo checkout and confirmation, booking and contact forms.
 5. **Finish:** search, help, legal, 404, image swap to generated photography, accessibility and performance pass, Vercel deploy.
 

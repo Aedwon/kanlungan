@@ -38,6 +38,8 @@ Create these seven automated collections. Set the URL handle exactly, set the co
 | Woven Forms | `woven-forms` | Material-based | `collection:woven-forms` |
 | Stone and Clay | `stone-and-clay` | Material-based | `collection:stone-and-clay` |
 
+Membership updates use the existing seven collections and the same metafields. The CSV adds Yakap and Bakal to Living Room, Salo to Dining Room, Unan and Bakal to Bedroom, Yakap to Quiet Living, and Salo to Stone and Clay. No new collection handles or metafield definitions are needed.
+
 Copy these authored descriptions:
 
 - Quiet Living: Soft light, low furniture, and nothing that asks for attention.
@@ -50,8 +52,8 @@ The three room collections have no authored description. Leave them empty. Colle
 ## Import steps
 
 1. Create a free Partner development store, select PHP currency and a single inventory location, and create the definitions above. The CSV uses Shopify's compatible legacy column names and current product metafield headers.
-2. Run `node scripts/build-shopify-csv.mjs` from `site/`. It writes `shopify/products.csv`: 32 products and 59 variant rows, plus one header. It expands every Fabric, Size, Finish, and Color combination and preserves every listed variant price. The first variant uses the seed product's displayed base price.
-3. In Products > Import, upload `products.csv` and review Shopify's preview. Confirm 32 products and the variant options, prices, vendor, Type, tags, and product metafields. Then import. No images are imported because photography is pending. Existing product updates require the matching handles; review Shopify's overwrite options before using the file on a populated store.
+2. Run `node scripts/build-shopify-csv.mjs` from `site/`. It writes `shopify/products.csv`: 36 products and 94 variant rows, plus one header. It expands every Fabric, Size, Finish, Shelf finish, and Color combination and preserves every listed variant price. The first variant uses the seed product's displayed base price.
+3. In Products > Import, upload `products.csv` and review Shopify's preview. Confirm 36 products and the variant options, prices, vendor, Type, tags, and product metafields. Then import. No images are imported because photography is pending. Existing product updates require the matching handles; review Shopify's overwrite options before using the file on a populated store.
 4. Create and publish the seven collections using the rules above. Publish all imported products to the Headless sales channel. Enable unauthenticated product-listing, product-inventory, and product-metafield read access for its public Storefront token. Allow required product and collection metafield definitions to be read by Storefront.
 5. Verify Kiso Stool tracks inventory at quantity 0 and denies sales when out of stock. Tanghali tracks inventory at quantity 1. Other seed pieces have inventory tracking off, avoiding invented stock quantities. Made-to-order pieces stay purchasable and show their authored production lead time. Check actual available inventory at the active fulfillment location after import.
 6. Put the store's `your-store.myshopify.com` hostname in `SHOPIFY_STORE_DOMAIN` and the public Storefront token in `SHOPIFY_STOREFRONT_PUBLIC_TOKEN` in `.env.local`. Both variables are required to select Shopify. Restart or rebuild the site after changing them. Product and collection responses are cached; edits can take up to the route cache's revalidation interval to appear.
