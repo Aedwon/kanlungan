@@ -74,7 +74,7 @@ Kanlungan is fictional. No real payment is taken and no order is fulfilled.
 
 - The payment step shows card, bank transfer, and e-wallet options as a realistic interface.
 - The payment step and the confirmation page each carry this notice: "Kanlungan is a fictional brand. This is a demonstration. No payment is taken and no order is placed."
-- How the demo processes a test payment is a step 7 decision.
+- **Commerce platform (Locked by Aedwon, 2026-11-14):** headless Shopify on a free Partner development store. Products, collections, inventory, and the cart come from the Shopify Storefront API. The site runs its own checkout screens as designed, and no payment is taken. Shopify's hosted checkout is not used, because development stores are always password protected and would block public visitors. Target cost: ₱0.
 
 ## What the site does not have
 

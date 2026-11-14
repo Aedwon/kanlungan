@@ -45,6 +45,7 @@ On 2026-11-13 Aedwon asked the agent to decide every remaining concept question 
 | 2026-11-14 | Logo: "Afternoon" (room tile with window light, beside a Newsreader wordmark) | `docs/design/visual-system.md` |
 | 2026-11-14 | Type scale "Snap" (10 sizes); light footer button; Newsreader product card names | `docs/design/visual-system.md` |
 | 2026-11-14 | Image briefs for AI-generated photography: 135 shots, 32 product consistency sheets (written by Codex, reviewed by the lead) | `docs/content/image-briefs.md` |
+| 2026-11-14 | Commerce: headless Shopify dev store (free) with the site's own demo checkout; no Shopify hosted checkout | `docs/concept/conversion.md` |
 
 ## Open questions for Aedwon
 
@@ -62,4 +63,4 @@ These checks do not block design work. Aedwon delegated the call on 2026-11-13, 
 These wait for later steps in the planning sequence.
 
 - Final photography: later in the design work
-- Tech stack, e-commerce platform, and how the demo payment works: step 7
+- Tech stack and hosting: step 7
