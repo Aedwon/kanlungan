@@ -9,4 +9,4 @@ Generated with Codex from `docs/content/image-briefs.md`.
 | `lilim-hero.png`, `lilim-g08-terrace.png`, `lilim-g03-dining.png` | Batch 1. `lilim-hero` is the reference for the rest of Lilim House. Awaiting review. |
 
 Consistency: every Lilim House photo is checked against `docs/content/scene-bibles/lilim-house.md` and its plan `plans/lilim-house.png`. `lilim-g08-terrace.png` was regenerated from camera C8 and passes the bible (2026-11-14).
-| `yakap-studio.png`, `unan-studio.png`, `salo-studio.png`, `bakal-studio.png` | References for the four new products, generated 2026-11-14. Awaiting Aedwon's approval. |
+| `yakap-studio.png`, `unan-studio.png`, `salo-studio.png`, `bakal-studio.png` | References for the four new products. Approved by Aedwon on 2026-11-14; every later image of these pieces reuses them. |
