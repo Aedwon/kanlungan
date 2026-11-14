@@ -17,6 +17,7 @@ Coordinates are meters. Origin is the southwest inside corner of the great room.
 | Great room | x 0 to 8, y 0 to 15 | One open room. Living zone in the north (y 8 to 15), dining zone in the south (y 0 to 7). |
 | West wall of great room | x 0, full length | Floor-to-ceiling glass sliding doors in mahogany frames. Square mahogany posts at y 0, 3, 6, 9, 12, 15. Doors stand open in every shot. |
 | Covered terrace | x -4 to 0, y 0 to 15 | Same roof as the great room. The eave projects 1.5 m past the terrace edge (to x -5.5). No railing; the garden falls away beyond the edge. |
+| Terrace north end | y 15, x -4 to 0 | Solid limewash wall closing the north end of the terrace, with one high horizontal mahogany-framed window. Added 2026-11-14 at Aedwon's request. The south end stays open. |
 | North wall | y 15 | Solid limewash, one high horizontal window. |
 | East wall | x 8 | Solid limewash. Doorway to the bedroom hallway at y 1 to 2. |
 | South wall | y 0 | Limewash, one tall window looking south into planting. |
