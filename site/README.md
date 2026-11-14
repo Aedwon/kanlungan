@@ -29,3 +29,21 @@ Mailing-list and Notify me forms validate email locally and transmit nothing. Co
 The footer's showroom phone number comes from the approved Home templates. The reference images describe Kapis as spun brass and depict Aparador as a low cabinet; the typed catalog preserves the source descriptions of a capiz-shell drum and a tall cane-door cabinet. Placeholder drawings remain as approved pending the photography swap.
 
 Verification is limited to lint, production build and static generation, content-reference checks, generated HTML link checks, and the requested em-dash scan. Browser rendering, keyboard interaction, responsive screenshots, scroll choreography, and full contrast measurement still need the lead's rendered review. No local server was started.
+
+## Wave 2: Studio pages
+
+Implemented Studio, both service pages, Projects with All / Residential / Hospitality filtering, all five project detail pages, and About. The explicit routes replace the foundation catch-all stubs. The five project slugs are generated statically; unknown slugs resolve through `notFound()`.
+
+- `src/components/studio/`: shared artboard renderer and closing section, service and project page templates, and client project filters.
+- `src/lib/studioTemplates.ts`: binds the approved templates to service and project content, including all ten gallery captions, expanded approaches, material lists, project products with variant prices, and the five-project next-link cycle.
+- `src/data/studio-templates.json`, `service-content.json`, and `project-product-placeholders.ts`: faithful template markup, service scope/process/FAQ transcription, and the project artboard's ten product paintings.
+- `src/styles/studio-reference.css`: isolated desktop and mobile reference choreography. `studio.css` supplies responsive visibility, filter behavior, focus disclosure, and shared product-card integration.
+- `scripts/transcribe-studio.py`: regenerates those data files and reference CSS from the approved artboards and Markdown sources, using only the Python standard library.
+
+The project filter uses `?type=residential` or `?type=hospitality`; All removes the parameter. Other query parameters and the hash survive changes. Native history updates integrate with Next's search-parameter hook, including back and forward navigation. The static fallback contains all projects. The service FAQs use native `details` / `summary`, with a distinct named accordion group for each responsive structure. Fee bars retain `animation-range: entry 0% cover 50%`. The shared header observes page booking actions and hides its booking action whenever one is visible.
+
+No copy is missing. Photography remains a planned placeholder. Lilim retains the supplied detail artboard's paintings. The other four detail pages reuse their own approved index painting in the room and gallery slots, with their own captions. Materials without an approved swatch use the existing surface color as a labeled placeholder. Products without a supplied painting use the shared card's surface placeholder. Their room pins retain the template coordinates until final photography determines placement. The second service uses the approved Hardin painting and drafting-table painting within the service template. No new photograph, material color, or layout was designed.
+
+Wave 2 verification: lint, production build and static generation, em-dash scan, and generated-HTML checks for both responsive structures, each project's facts and expanded approach, ten exact captions, all project products, variant prices, resolved links, next-project cycle, and six native FAQ entries per service. Browser rendering, measured visual comparison, keyboard and touch interaction, history navigation, reduced-motion behavior, and scroll choreography still require the lead's rendered review. No server was started. No Git commands were run, and no files outside `site/` were changed.
+
+See [the wave 2 implementation report](docs/wave-2-report.md) for the exact file inventory, measured source sizes, and command output.
