@@ -80,4 +80,4 @@ No other pendants, lamps, or seating. In particular: one Kapis Pendant only, ove
 |---|---|
 | `lilim-hero.png` | Anchor. Second pendant over the living zone is not allowed; remove it in a regeneration or crop it out. Ceiling panels in the living zone must match the rest. |
 | `lilim-g03-dining.png` | Close. Check that only one pendant shows and the Aparador sits on the east wall at left. |
-| `lilim-g08-terrace.png` | Fails: lounge chair is outside, bench is crosswise. Regenerate from camera C8. |
+| `lilim-g08-terrace.png` | Passes. Regenerated from camera C8 on 2026-11-14. |

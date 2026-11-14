@@ -8,4 +8,4 @@ Generated with Codex from `docs/content/image-briefs.md`.
 | `silong-studio-three-quarter.png`, `silong-detail.png`, `silong-fabric.png` | Batch 1, generated 2026-11-14 from the reference. Awaiting review. |
 | `lilim-hero.png`, `lilim-g08-terrace.png`, `lilim-g03-dining.png` | Batch 1. `lilim-hero` is the reference for the rest of Lilim House. Awaiting review. |
 
-Consistency: every Lilim House photo is checked against `docs/content/scene-bibles/lilim-house.md` and its plan `plans/lilim-house.png`. `lilim-g08-terrace.png` fails the bible and will be regenerated from camera C8.
+Consistency: every Lilim House photo is checked against `docs/content/scene-bibles/lilim-house.md` and its plan `plans/lilim-house.png`. `lilim-g08-terrace.png` was regenerated from camera C8 and passes the bible (2026-11-14).
