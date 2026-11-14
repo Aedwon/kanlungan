@@ -1,0 +1,14 @@
+import 'server-only';
+import { cache } from 'react';
+import { localProvider } from './local';
+import { shopifyProvider } from './shopify';
+import type { CommerceProvider } from './types';
+export type * from './types';
+const provider: CommerceProvider = process.env.SHOPIFY_STORE_DOMAIN && process.env.SHOPIFY_STOREFRONT_PUBLIC_TOKEN ? shopifyProvider : localProvider;
+export const getProducts = cache(() => provider.getProducts());
+export const getProduct = cache((slug: string) => provider.getProduct(slug));
+export const getCollections = cache(() => provider.getCollections());
+export const getCollection = cache((slug: string) => provider.getCollection(slug));
+export const getProductsByCategory = cache((category: string) => provider.getProductsByCategory(category));
+export const getMakers = cache(() => provider.getMakers());
+export const getMaker = cache((slug: string) => provider.getMaker(slug));

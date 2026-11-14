@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { useCart } from './CartProvider';
 import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { categories } from '@/data/navigation';
@@ -16,7 +17,8 @@ const services = [
   { name: 'Full-Service Furnishing', href: '/studio/full-service-furnishing', description: copy.Services['Full-Service Furnishing / Short version for cards'] },
   { name: 'Interior Design Direction', href: '/studio/interior-design-direction', description: copy.Services['Interior Design Direction / Short version for cards'] },
 ];
-export function Header({ cartCount = 0 }: { cartCount?: number }) {
+export function Header() {
+  const { count: cartCount } = useCart();
   const path = usePathname();
   const router = useRouter();
   const [panel, setPanel] = useState<Panel>(null);

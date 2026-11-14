@@ -47,3 +47,25 @@ No copy is missing. Photography remains a planned placeholder. Lilim retains the
 Wave 2 verification: lint, production build and static generation, em-dash scan, and generated-HTML checks for both responsive structures, each project's facts and expanded approach, ten exact captions, all project products, variant prices, resolved links, next-project cycle, and six native FAQ entries per service. Browser rendering, measured visual comparison, keyboard and touch interaction, history navigation, reduced-motion behavior, and scroll choreography still require the lead's rendered review. No server was started. No Git commands were run, and no files outside `site/` were changed.
 
 See [the wave 2 implementation report](docs/wave-2-report.md) for the exact file inventory, measured source sizes, and command output.
+
+## Wave 3: Shop
+
+Implemented the Shop landing, all eight categories, Collections and all seven details, Makers and all ten details, and all 32 product pages. Shop routes replace their catch-all stubs. See [the wave 3 report](docs/wave-3-report.md) for files, measurements, actual verification output, and remaining review items.
+
+`src/lib/commerce/` exposes the same seven methods through local and Shopify providers. Local typed content is the default. Set both variables from `.env.example` to use the `2026-01` Storefront API. Product/collection data is cached through Next's cache; maker stories remain local. The CSV generator, metafield definitions, collection rules, and setup steps are documented in [shopify/README.md](shopify/README.md).
+
+Category filters use repeated `maker`, `material`, `availability`, and `price` URL parameters, plus `subcategory` and `sort`. Price labels match the reference ranges. Numeric `min` and `max` parameters are also supported. Sort accepts `featured`, `newest`, `price-asc` (or `price`), and `price-desc`. Changes preserve other parameters and the hash; native history integrates with Next's search-parameter hook. Local Newest prioritizes the authored New pieces list because the seed has no publication dates. Shopify Newest uses `createdAt`.
+
+`CartProvider` stores a versioned cart in localStorage, groups lines by variant ID, restores the header count, and shows the approved added-to-cart toast. Cart state remains usable when storage is unavailable. Tanghali is limited to one in the local cart. The sold-out Kiso demo cannot be added and offers Notify me. Notification forms retain the existing local-only validation and confirmation behavior; they transmit nothing. The cart drawer, Storefront cart, and checkout belong to wave 4.
+
+Shop templates and CSS are transcribed by `scripts/transcribe-shop.py`, using the existing parser and scoping utility from wave 2. Supplied artboard geometry and motion are retained, including product swatches, the mobile gallery and buy bar, collection room inserts, and progressive card details. Unprovided index/mobile interactions reuse approved elements; the report identifies those adaptations for the lead's rendered review. Photography remains labeled placeholders.
+
+Additional focused checks, after building:
+
+```sh
+node scripts/verify-commerce.mjs
+python3 scripts/verify-shop-output.py
+node scripts/build-shopify-csv.mjs
+```
+
+No dependencies were added. No local server was started; browser interaction, visual comparison, and live Shopify import/API reads remain unverified.
