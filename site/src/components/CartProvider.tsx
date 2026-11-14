@@ -1,40 +1,66 @@
 'use client';
-import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
-import Link from 'next/link';
+import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import type { CommerceProduct, Variant } from '@/lib/commerce/types';
-import { formatPrice } from '@/lib/formatPrice';
-export interface CartLine { variantId: string; productSlug: string; name: string; options: Record<string, string>; price: number; leadTimeWeeks: number | null; quantity: number }
-interface Cart { lines: CartLine[]; count: number; add: (product: CommerceProduct, variant: Variant) => void }
+import { cartKey, unique, validLines, type CartLine, type DemoOrder } from '@/lib/cart';
+import { CartDrawer } from './flow/CartDrawer';
+export type { CartLine } from '@/lib/cart';
+interface Cart { lines: CartLine[]; count: number; ready: boolean; busy: boolean; error: string; open: () => void; close: () => void; add: (product: CommerceProduct, variant: Variant) => void; setQuantity: (id: string, quantity: number) => void; clear: () => Promise<boolean>; order: DemoOrder | null; saveOrder: (order: DemoOrder) => void }
 const Context = createContext<Cart | null>(null);
-const key = 'kanlungan-cart-v1';
-function valid(value: unknown): value is CartLine[] {
-  return Array.isArray(value) && value.every((line) => line && typeof line.variantId === 'string' && typeof line.productSlug === 'string' && typeof line.name === 'string' && Number.isFinite(line.price) && line.price >= 0 && Number.isInteger(line.quantity) && line.quantity > 0 && line.options && typeof line.options === 'object' && Object.values(line.options).every((v) => typeof v === 'string') && (line.leadTimeWeeks === null || Number.isFinite(line.leadTimeWeeks)));
-}
 export function CartProvider({ children }: { children: ReactNode }) {
-  const [lines, setLines] = useState<CartLine[]>([]);
-  const [toast, setToast] = useState<CartLine | null>(null);
-  const loaded = useRef(false); const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  useEffect(() => {
-    const load = () => { try { const value: unknown = JSON.parse(localStorage.getItem(key) ?? '[]'); if (valid(value)) setLines(value); } catch { /* Storage can be unavailable. The in-memory cart still works. */ } };
-    load(); loaded.current = true;
-    const sync = (event: StorageEvent) => { if (event.key === key) load(); };
-    window.addEventListener('storage', sync);
-    return () => { window.removeEventListener('storage', sync); if (timer.current) clearTimeout(timer.current); };
-  }, []);
-  function add(product: CommerceProduct, variant: Variant) {
-    if (!variant.available || product.availability === 'sold-out') return;
-    const line: CartLine = { variantId: variant.id, productSlug: product.slug, name: product.name, options: variant.options, price: variant.price, leadTimeWeeks: variant.leadTimeWeeks, quantity: 1 };
-    setLines((current) => {
-      const existing = current.find((l) => l.variantId === variant.id);
-      const next = existing ? current.map((l) => l.variantId === variant.id ? { ...line, quantity: product.oneOfAKind ? 1 : l.quantity + 1 } : l) : [...current, line];
-      if (loaded.current) { try { localStorage.setItem(key, JSON.stringify(next)); } catch { /* Keep the current cart when storage is full or disabled. */ } }
-      return next;
-    });
-    setToast(line); if (timer.current) clearTimeout(timer.current);
-    timer.current = setTimeout(() => setToast(null), 6000);
+  const [lines, setLines] = useState<CartLine[]>([]); const [ready, setReady] = useState(false);
+  const [busy, setBusy] = useState(false); const [error, setError] = useState('');
+  const [opened, setOpened] = useState(false); const [order, setOrder] = useState<DemoOrder | null>(null);
+  const linesRef = useRef<CartLine[]>([]); const remote = useRef(false); const id = useRef('');
+  const queue = useRef<Promise<void>>(Promise.resolve()); const returnFocus = useRef<HTMLElement | null>(null);
+  const persist = useCallback((next: CartLine[]) => { linesRef.current = next; setLines(next); try { localStorage.setItem(cartKey, JSON.stringify(next)); } catch { /* In-memory fallback. */ } }, []);
+  const send = useCallback(async (action: string, variantId?: string, quantity?: number) => {
+    const response = await fetch('/api/cart', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action, id: id.current || undefined, variantId, quantity }) });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error ?? 'The cart could not be updated. Please try again.');
+    if (result.provider === 'shopify') {
+      remote.current = true; id.current = result.id;
+      if (!validLines(result.lines)) throw new Error('The cart response could not be read.');
+      persist(result.lines);
+      try { localStorage.setItem('kanlungan-storefront-cart', result.id); } catch { /* In-memory fallback. */ }
+    }
+  }, [persist]);
+  function enqueue(action: string, variantId: string, quantity: number) {
+    setBusy(true); setError('');
+    queue.current = queue.current.then(async () => { try { await send(action, variantId, quantity); } catch (e) { setError(e instanceof Error ? e.message : 'The cart could not be updated.'); } }).finally(() => setBusy(false));
   }
-  return <Context.Provider value={{ lines, count: lines.reduce((sum, l) => sum + l.quantity, 0), add }}>{children}
-    {toast && <div className="cart-toast" role="status"><svg width="24" height="24" viewBox="0 0 28 28" fill="none" stroke="#4C5E3A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="2" /><path d="M8 14.5l4 4 8-9" /></svg><div className="cart-toast-content"><div className="cart-toast-title">Added to your cart.</div><div className="cart-toast-meta">{toast.name}, {formatPrice(toast.price)}</div><Link className="lnk" href="/cart" onClick={() => setToast(null)}>Your cart <span className="arr" aria-hidden="true">→</span></Link></div><button className="ib" type="button" aria-label="Dismiss" onClick={() => setToast(null)}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg></button></div>}
-  </Context.Provider>;
+  useEffect(() => {
+    let active = true;
+    async function load() {
+      try { const stored = JSON.parse(localStorage.getItem(cartKey) ?? '[]'); if (validLines(stored)) persist(stored); id.current = localStorage.getItem('kanlungan-storefront-cart') ?? ''; } catch { /* In-memory fallback. */ }
+      try { await send('load'); } catch (e) { if (active) setError(e instanceof Error ? e.message : 'The cart could not be loaded.'); }
+      if (active) setReady(true);
+    }
+    function restoreOrder() { try { const previous = JSON.parse(sessionStorage.getItem('kanlungan-demo-order') ?? 'null'); if (previous && /^KL-2026-\d{4}$/.test(previous.number) && validLines(previous.lines) && typeof previous.delivery === 'number' && previous.delivery >= 0 && typeof previous.payment === 'string' && typeof previous.region === 'string' && Array.isArray(previous.address) && previous.address.every((v: unknown) => typeof v === 'string')) setOrder(previous); } catch { /* In-memory fallback. */ } }
+    restoreOrder(); void load();
+    const sync = (event: StorageEvent) => { if (event.key === cartKey && !remote.current) { try { const next = JSON.parse(event.newValue ?? '[]'); if (validLines(next)) { linesRef.current = next; setLines(next); } } catch { /* Ignore invalid storage. */ } } };
+    window.addEventListener('storage', sync);
+    return () => { active = false; window.removeEventListener('storage', sync); };
+  }, [persist, send]);
+  function open() { returnFocus.current = document.activeElement as HTMLElement; setOpened(true); }
+  const close = useCallback(() => setOpened(false), []);
+  function add(product: CommerceProduct, variant: Variant) {
+    if (!ready || busy || !variant.available || product.availability === 'sold-out') return;
+    open();
+    if (remote.current || variant.id.startsWith('gid://shopify/')) { enqueue('add', variant.id, 1); return; }
+    const line: CartLine = { variantId: variant.id, productSlug: product.slug, name: product.name, options: variant.options, price: variant.price, leadTimeWeeks: product.availability === 'made-to-order' ? variant.leadTimeWeeks : null, quantity: 1, category: product.category, maker: product.maker, oneOfAKind: product.oneOfAKind, image: product.images[0]?.url };
+    const existing = linesRef.current.find((l) => l.variantId === variant.id);
+    persist(existing ? linesRef.current.map((l) => l.variantId === variant.id ? { ...line, quantity: product.oneOfAKind ? 1 : l.quantity + 1 } : l) : [...linesRef.current, line]);
+  }
+  function setQuantity(variantId: string, quantity: number) {
+    if (!Number.isInteger(quantity) || quantity < 0 || quantity > 999 || busy) return;
+    if (remote.current) { enqueue('set', variantId, quantity); return; }
+    persist(linesRef.current.flatMap((l) => l.variantId !== variantId ? [l] : quantity ? [{ ...l, quantity: unique(l) ? 1 : quantity }] : []));
+  }
+  async function clear() {
+    if (remote.current) { setBusy(true); try { await send('clear'); } catch (e) { setError(e instanceof Error ? e.message : 'The cart could not be cleared.'); return false; } finally { setBusy(false); } }
+    persist([]); id.current = ''; try { localStorage.removeItem('kanlungan-storefront-cart'); } catch { /* In-memory fallback. */ } return true;
+  }
+  function saveOrder(next: DemoOrder) { setOrder(next); try { sessionStorage.setItem('kanlungan-demo-order', JSON.stringify(next)); } catch { /* In-memory confirmation survives navigation. */ } }
+  return <Context.Provider value={{ lines, count: lines.reduce((n, l) => n + l.quantity, 0), ready, busy, error, add, setQuantity, clear, open, close, order, saveOrder }}>{children}<CartDrawer open={opened} onClose={close} returnFocus={returnFocus} /></Context.Provider>;
 }
 export function useCart() { const value = useContext(Context); if (!value) throw new Error('CartProvider is missing'); return value; }
