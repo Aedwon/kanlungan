@@ -125,6 +125,10 @@ Aedwon set these on 2026-11-14. They apply to every page.
 - Never fade page content in from opacity 0.
 - Under `prefers-reduced-motion: reduce`, disable all of the above.
 
+## Category icons
+
+Eight line icons on a 24px grid, 1.25px stroke, rounded ends, no fills. Reference: `design/combined/Shop-icons.dc.html`. Storage uses the "Inset panels" drawing, chosen by Aedwon on 2026-11-14 (`design/combined/Storage-icon-options.dc.html`).
+
 ## Logo
 
 Status: **Locked by Aedwon** on 2026-11-14. Option "Afternoon" from logo round 2.
