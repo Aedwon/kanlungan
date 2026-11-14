@@ -3,6 +3,8 @@
 @import '../styles/home-mobile.css';
 @import '../styles/reference.css';
 @import '../styles/components.css';
+@import '../styles/studio-reference.css';
+@import '../styles/studio.css';
 *{box-sizing:border-box}
 html{background:var(--color-bg);color:var(--color-text-default)}
 body{margin:0;font:400 17px/1.6 var(--font-hanken),system-ui,sans-serif}

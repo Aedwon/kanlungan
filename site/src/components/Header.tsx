@@ -20,7 +20,8 @@ export function Header({ cartCount = 0 }: { cartCount?: number }) {
   const path = usePathname();
   const router = useRouter();
   const [panel, setPanel] = useState<Panel>(null);
-  const [heroVisible, setHeroVisible] = useState(path === '/');
+  const [bookingVisibility, setBookingVisibility] = useState({ path, visible: path === '/' });
+  const heroVisible = bookingVisibility.path === path ? bookingVisibility.visible : path === '/';
   const header = useRef<HTMLElement>(null);
   const trigger = useRef<HTMLElement | null>(null);
   const mobile = panel === 'menu' || panel === 'mobile-shop';
@@ -30,15 +31,14 @@ export function Header({ cartCount = 0 }: { cartCount?: number }) {
     setPanel(panel === next ? null : next);
   }
   useEffect(() => {
-    if (path !== '/') return;
-    const buttons = document.querySelectorAll('[data-hero-book]');
+    const buttons = document.querySelectorAll('main a[href="/book"]');
     const visible = new Set<Element>();
     const observer = new IntersectionObserver((entries) => {
       for (const entry of entries) {
         if (entry.isIntersecting) visible.add(entry.target); else visible.delete(entry.target);
       }
-      setHeroVisible(visible.size > 0);
-    }, { rootMargin: '-88px 0px 0px 0px', threshold: 0 });
+      setBookingVisibility({ path, visible: visible.size > 0 });
+    }, { rootMargin: `${window.matchMedia('(min-width: 1280px)').matches ? '-88px' : '-64px'} 0px 0px 0px`, threshold: 0 });
     buttons.forEach((button) => observer.observe(button));
     return () => observer.disconnect();
   }, [path]);
@@ -82,7 +82,7 @@ export function Header({ cartCount = 0 }: { cartCount?: number }) {
     <div className="header-actions">
       <button type="button" className="ib search-button" aria-label="Search" onClick={() => { setPanel(null); router.push("/search"); }}><InterfaceIcon name="search" /></button>
       <Link href="/cart" className="ib cart-button" aria-label={`Cart, ${cartCount} items`} onClick={() => setPanel(null)}><InterfaceIcon name="cart" /><span>{cartCount}</span></Link>
-      <div className="header-book" data-hidden={path === '/' && heroVisible}><Button href="/book" onClick={() => setPanel(null)}>{copy.Home['Hero button']}</Button></div>
+      <div className="header-book" data-hidden={heroVisible}><Button href="/book" onClick={() => setPanel(null)}>{copy.Home['Hero button']}</Button></div>
       <button type="button" className="ib menu-button" aria-label={mobile ? 'Close menu' : 'Open menu'} aria-expanded={mobile} aria-controls="mobile-menu" onClick={(e) => toggle('menu', e.currentTarget)}><InterfaceIcon name={mobile ? 'close' : 'menu'} /></button>
     </div>
     <div className="panel-scrim" data-open={panel === 'shop' || panel === 'studio'} onClick={() => setPanel(null)} aria-hidden="true" />

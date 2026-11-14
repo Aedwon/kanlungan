@@ -1,0 +1,24 @@
+/* Shared behavior layered over the unchanged artboard measurements. */
+.wave-desktop{display:block}.wave-mobile{display:none}
+.projects-filter[data-filter=residential] [data-project-type=Hospitality],
+.projects-filter[data-filter=hospitality] [data-project-type=Residential]{display:none}
+.wave-page .ph{opacity:0;pointer-events:none;transition:opacity .25s ease}
+.wave-page :hover>.ph,.wave-page :focus-visible>.ph,.wave-page :focus-within>.ph{opacity:1}
+.wave-page summary:focus-visible,.wave-page figure:focus-visible{outline:2px solid var(--color-focus-default);outline-offset:3px}
+.wave-page .product-card-project .product-detail{margin-top:8px}
+.wave-page .product-card-project .product-price{margin-top:8px}
+.wave-page .product-card-project .product-maker{color:var(--color-text-muted)}
+.wave-page .product-card-project .product-availability{color:var(--color-accent-default)}
+.wave-page .product-card-project .lead-time{font-weight:400;color:var(--color-text-muted)}
+.wave-page .product-card-project .product-number{left:10px;top:10px}
+.wave-page .product-card-project .product-card-link:hover{color:var(--color-text-default)}
+@media(max-width:1279px){
+.wave-desktop{display:none}.wave-mobile{display:block}
+.wave-page .ph{display:none}
+.wave-page .product-card-project .product-detail{margin-top:4px}
+.wave-page .product-card-project .product-number{left:8px;top:8px}
+.wave-page .lnk{min-height:44px}
+}
+@media(prefers-reduced-motion:reduce){
+.wave-page *,.wave-page *::before,.wave-page *::after{animation:none!important;transition:none!important}
+}
