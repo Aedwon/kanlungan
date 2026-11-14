@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout 1 · Threshold · Notes</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+</style>
+</helmet>
+<div style="width:720px;box-sizing:border-box;padding:48px;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400">
+
+<div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Layout option 1</div>
+<h1 style="margin:8px 0 0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Threshold</h1>
+<p style="margin:16px 0 0;font-size:17px;line-height:1.6;font-weight:400">The site is experienced like walking into a house. A small window of Lilim House opens to the full room, then each section is a room you pass through: a long statement, a pinned gallery, a quiet studio panel, a fan of collections, and a shop you read like a room.</p>
+
+<!-- Moves -->
+<h2 style="margin:56px 0 0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Five layout moves</h2>
+<ol style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:0;border-top:1px solid #D3C4B1">
+  <li style="display:grid;grid-template-columns:32px minmax(0, 1fr);gap:16px;padding:16px 0;border-bottom:1px solid #D3C4B1">
+    <span style="font-size:12px;line-height:1.6;font-weight:500;letter-spacing:.08em;color:#8E4A2C">01</span>
+    <span style="font-size:15px;line-height:1.5"><span style="font-weight:500">Window to room.</span> A giant 240px wordmark sits behind a small image window that grows to full bleed and reveals the heading.</span>
+  </li>
+  <li style="display:grid;grid-template-columns:32px minmax(0, 1fr);gap:16px;padding:16px 0;border-bottom:1px solid #D3C4B1">
+    <span style="font-size:12px;line-height:1.6;font-weight:500;letter-spacing:.08em;color:#8E4A2C">02</span>
+    <span style="font-size:15px;line-height:1.5"><span style="font-weight:500">Statement as a wall of type.</span> The studio belief is set at 112px across the full width and inks in word by word.</span>
+  </li>
+  <li style="display:grid;grid-template-columns:32px minmax(0, 1fr);gap:16px;padding:16px 0;border-bottom:1px solid #D3C4B1">
+    <span style="font-size:12px;line-height:1.6;font-weight:500;letter-spacing:.08em;color:#8E4A2C">03</span>
+    <span style="font-size:15px;line-height:1.5"><span style="font-weight:500">Pinned gallery.</span> Projects pin to the screen while three 70vw panels travel sideways. Without the effect it is a native snap scroller.</span>
+  </li>
+  <li style="display:grid;grid-template-columns:32px minmax(0, 1fr);gap:16px;padding:16px 0;border-bottom:1px solid #D3C4B1">
+    <span style="font-size:12px;line-height:1.6;font-weight:500;letter-spacing:.08em;color:#8E4A2C">04</span>
+    <span style="font-size:15px;line-height:1.5"><span style="font-weight:500">Hover rooms and a fan.</span> Service panels reveal a room detail and the starting price. Collections are overlapped portraits that fan out.</span>
+  </li>
+  <li style="display:grid;grid-template-columns:32px minmax(0, 1fr);gap:16px;padding:16px 0;border-bottom:1px solid #D3C4B1">
+    <span style="font-size:12px;line-height:1.6;font-weight:500;letter-spacing:.08em;color:#8E4A2C">05</span>
+    <span style="font-size:15px;line-height:1.5"><span style="font-weight:500">Shop the room.</span> One long Lilim House image with six numbered pins, paired with the same six as a numbered list. The product page repeats the window, with a pinned buy panel.</span>
+  </li>
+</ol>
+
+<!-- Diagrams -->
+<h2 style="margin:56px 0 0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Key scroll moves</h2>
+
+<div style="margin-top:24px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">A. Hero window opens (pinned)</div>
+<div style="margin-top:12px;display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px">
+  <div style="position:relative;aspect-ratio:16 / 10;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;overflow:hidden">
+    <div style="position:absolute;left:0;right:0;top:44%;text-align:center;font-family:'Newsreader',Georgia,serif;font-size:32px;line-height:1;font-weight:300;letter-spacing:-.03em;color:#2E211A">Kanlungan</div>
+    <div style="position:absolute;left:33%;top:10%;width:34%;height:42%;background:#8A9A62;border-radius:2px"></div>
+  </div>
+  <div style="position:relative;aspect-ratio:16 / 10;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;overflow:hidden">
+    <div style="position:absolute;left:0;right:0;top:46%;text-align:center;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1;font-weight:300;letter-spacing:-.03em;color:#2E211A">Kanlungan</div>
+    <div style="position:absolute;left:14%;top:6%;width:72%;height:70%;background:#7A8A56;border-radius:2px"></div>
+  </div>
+  <div style="position:relative;aspect-ratio:16 / 10;background:#5b4132;border:1px solid #D3C4B1;border-radius:2px;overflow:hidden">
+    <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:linear-gradient(180deg,#7A8A56 0%,#6d7b48 45%,#5b4132 70%,#382820 100%)"></div>
+    <div style="position:absolute;left:8%;bottom:10%;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1;font-weight:300;color:#F7F2EA">Spaces to come home to.</div>
+  </div>
+</div>
+<div style="margin-top:8px;display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px;font-size:13px;line-height:1.4;color:#6A584A"><span>Scroll 0</span><span>Scroll 350</span><span>Scroll 700, then held</span></div>
+
+<div style="margin-top:32px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">B. Statement inks in word by word</div>
+<div style="margin-top:12px;padding:20px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;font-family:'Newsreader',Georgia,serif;font-size:28px;line-height:1.2;font-weight:300;letter-spacing:-.02em"><span style="color:#2E211A">A home should lower</span> <span style="color:#6A584A">your shoulders</span> <span style="color:#B7A895">when you walk in. We design for that feeling.</span></div>
+
+<div style="margin-top:32px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">C. Pinned horizontal gallery</div>
+<div style="margin-top:12px;position:relative;height:150px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;overflow:hidden">
+  <div style="position:absolute;left:16px;top:20px;width:300px;height:96px;background:#6f7d4a;border-radius:2px"></div>
+  <div style="position:absolute;left:332px;top:20px;width:300px;height:96px;background:#8b6a62;border-radius:2px"></div>
+  <div style="position:absolute;left:648px;top:20px;width:300px;height:96px;background:#dccaa0;border-radius:2px"></div>
+  <div style="position:absolute;left:16px;right:16px;bottom:14px;height:1px;background:#D3C4B1"></div>
+  <div style="position:absolute;left:16px;width:200px;bottom:14px;height:1px;background:#8E4A2C"></div>
+  <div style="position:absolute;right:16px;top:8px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">01/03 → 03/03</div>
+</div>
+
+<div style="margin-top:32px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">D. Fan and hover reveal</div>
+<div style="margin-top:12px;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:12px">
+  <div style="position:relative;height:170px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;overflow:hidden">
+    <div style="position:absolute;left:76px;top:30px;width:70px;height:94px;background:#d9cdb7;border-radius:2px;transform:rotate(-3deg)"></div>
+    <div style="position:absolute;left:146px;top:22px;width:70px;height:94px;background:#c9ad7e;border-radius:2px"></div>
+    <div style="position:absolute;left:216px;top:30px;width:70px;height:94px;background:#a78a5e;border-radius:2px;transform:rotate(3deg)"></div>
+    <div style="position:absolute;left:12px;bottom:10px;font-size:13px;line-height:1.4;color:#6A584A">Rest: overlapped</div>
+  </div>
+  <div style="position:relative;height:170px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;overflow:hidden">
+    <div style="position:absolute;left:20px;top:26px;width:70px;height:94px;background:#d9cdb7;border-radius:2px;transform:rotate(-4deg)"></div>
+    <div style="position:absolute;left:146px;top:18px;width:70px;height:94px;background:#c9ad7e;border-radius:2px"></div>
+    <div style="position:absolute;left:272px;top:26px;width:70px;height:94px;background:#a78a5e;border-radius:2px;transform:rotate(4deg)"></div>
+    <div style="position:absolute;left:12px;bottom:10px;font-size:13px;line-height:1.4;color:#6A584A">Hover: fanned over their names</div>
+  </div>
+</div>
+
+<div style="margin-top:32px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">E. Shop the room</div>
+<div style="margin-top:12px;position:relative;height:160px;background:linear-gradient(180deg,#d7d8b8 0%,#8a9a62 40%,#5b4132 62%,#382820 100%);border-radius:2px;overflow:hidden">
+  <div style="position:absolute;left:12%;top:48%;width:30px;height:30px;background:#8E4A2C;border-radius:2px;outline:1px solid #F7F2EA;outline-offset:2px;color:#F7F2EA;font-size:13px;line-height:30px;text-align:center;font-weight:500">1</div>
+  <div style="position:absolute;left:44%;top:50%;width:30px;height:30px;background:#8E4A2C;border-radius:2px;outline:1px solid #F7F2EA;outline-offset:2px;color:#F7F2EA;font-size:13px;line-height:30px;text-align:center;font-weight:500">3</div>
+  <div style="position:absolute;left:68%;top:50%;width:30px;height:30px;background:#2E211A;border-radius:2px;outline:1px solid #F7F2EA;outline-offset:2px;color:#F7F2EA;font-size:13px;line-height:30px;text-align:center;font-weight:500">2</div>
+  <div style="position:absolute;left:57%;top:6%;width:140px;padding:8px 10px;box-sizing:border-box;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;font-size:12px;line-height:1.4;color:#2E211A">Hapag Dining Table<br><span style="color:#6A584A">₱178,000</span></div>
+</div>
+<div style="margin-top:8px;display:grid;grid-template-columns:repeat(6, minmax(0, 1fr));gap:8px">
+  <div style="height:28px;background:#E8DFD2;border-radius:2px;font-size:12px;line-height:28px;text-align:center">1</div>
+  <div style="height:28px;background:#2E211A;color:#F7F2EA;border-radius:2px;font-size:12px;line-height:28px;text-align:center">2</div>
+  <div style="height:28px;background:#E8DFD2;border-radius:2px;font-size:12px;line-height:28px;text-align:center">3</div>
+  <div style="height:28px;background:#E8DFD2;border-radius:2px;font-size:12px;line-height:28px;text-align:center">4</div>
+  <div style="height:28px;background:#E8DFD2;border-radius:2px;font-size:12px;line-height:28px;text-align:center">5</div>
+  <div style="height:28px;background:#E8DFD2;border-radius:2px;font-size:12px;line-height:28px;text-align:center">6</div>
+</div>
+
+<!-- Choreography -->
+<h2 style="margin:56px 0 0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Motion choreography</h2>
+<ol style="margin:20px 0 0;padding:0 0 0 24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5">
+  <li>On load, the hero shows the wordmark and a 36% wide window. The header stays pinned.</li>
+  <li>On scroll, the hero pins. The window opens to full bleed, the image settles from 1.3x to 1x, and the wordmark sinks behind it.</li>
+  <li>On scroll, the scrim rises from the bottom, then the heading, text, and buttons rise 40px into place. The hero holds for about 300px, then releases.</li>
+  <li>On scroll, the 112px statement inks word by word from a pale tint to full text color, each word 1.5% later than the last.</li>
+  <li>On scroll, Recent projects pins. The panel track moves left by 110vw plus 224px while a clay hairline grows from one third to full.</li>
+  <li>On hover or focus, a service panel reveals a room image from the bottom edge, text turns light, and the starting price rises into view.</li>
+  <li>On hover or focus, the three collection portraits move from overlapped to aligned over their names and fan to 4 degrees. The hovered one lifts.</li>
+  <li>On hover or focus, a pin shows its tooltip card. Hovering a list card lights its pin and shows the tooltip.</li>
+  <li>On the product page, each gallery image opens from a 9% inset and settles from 1.14x as it enters. The buy panel stays sticky until the gallery ends.</li>
+  <li>On the product page, Seen in repeats the threshold: a window of the Lilim House room grows to full bleed while a 240px "Seen in" sits behind it. Pairs well with is a snap row.</li>
+</ol>
+
+<h2 style="margin:56px 0 0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Fallbacks</h2>
+<ul style="margin:16px 0 0;padding:0 0 0 20px;display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.5">
+  <li>Without scroll-driven animation, or with reduced motion, every section shows its finished state.</li>
+  <li>Pinned tracks apply only in normal window heights. A very tall viewport, such as a static canvas, shows the natural layout.</li>
+  <li>Mobile uses the same moves with tap and swipe. No content depends on hover.</li>
+</ul>
+
+<h2 style="margin:56px 0 0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Reference patterns</h2>
+<ul style="margin:16px 0 0;padding:0 0 0 20px;display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.5">
+  <li>Scroll-scaled hero window, seen across 2025 architecture site-of-the-day winners.</li>
+  <li>Giant serif wordmark as the first screen.</li>
+  <li>Word-by-word text reveal on scroll.</li>
+  <li>Pinned horizontal project gallery.</li>
+  <li>Layered, overlapping image collage that moves on hover.</li>
+  <li>Editorial shop the look: a large room image with numbered hotspots and a matching product list.</li>
+  <li>Sticky purchase panel beside a long image scroll on furniture stores.</li>
+</ul>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":720,"height":3250}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

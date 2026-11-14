@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout 3 · Notes</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+.sl{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-10%)}to{transform:translateX(10%)}}
+@media (prefers-reduced-motion: reduce){.sl{animation:none}}
+</style>
+</helmet>
+<div style="width:720px;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400;padding:48px;box-sizing:border-box">
+
+<div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Layout option 3</div>
+<h1 style="margin:8px 0 0;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.1;font-weight:300;letter-spacing:-.015em">Light and Shade</h1>
+<p style="margin:16px 0 0;font-size:17px;line-height:1.6;color:#2E211A">Light is the protagonist. Soft shadows of eaves, slatted screens, capiz windows, and palms fall across every page and drift slowly. Calm, layered, and cinematic.</p>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Layout moves</h2>
+<ol style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5">
+  <li><span style="font-weight:500">Shadow layer.</span> One reusable overlay of blurred slats and palm fronds, multiplied at low opacity. It sits on the hero, project cards, collections, and product images, and faintly on three page backgrounds.</li>
+  <li><span style="font-weight:500">Extra-large hero type.</span> "Spaces to come home to." at 200px, bottom left, with a sun-position dot on a hairline arc at the right edge.</li>
+  <li><span style="font-weight:500">Pinned statement.</span> The statement stays on the left while three tall atmospheric images pass on the right.</li>
+  <li><span style="font-weight:500">Stacked doors.</span> Project cards pile up with rising offsets. The next card slides over the last. Seen in on the product page uses the same move.</li>
+  <li><span style="font-weight:500">Light on the shop.</span> Collections become a snapping horizontal row. Products sit on a surface band, each with a sharp window-light shape and a cast shadow. The product purchase panel stays free of shadows.</li>
+</ol>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Motion choreography</h2>
+<ol style="margin:0;padding-left:22px;display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.5">
+  <li>At rest, the shadow layer drifts 3.5% left and right over 12 seconds. Only transform animates.</li>
+  <li>On scroll, the hero heading lines wipe out to the right with a stagger, and the intro text lifts.</li>
+  <li>On scroll, the sun dot travels along its arc from late morning toward evening.</li>
+  <li>On scroll, section headings reveal with a left-to-right clip wipe as they enter.</li>
+  <li>On scroll, a progress hairline under the pinned statement grows while the three images pass.</li>
+  <li>On scroll, each statement image moves 7% against the scroll (parallax inside its frame).</li>
+  <li>On scroll, each project card pins in turn, settles from a 1.1 zoom, and the next card covers it.</li>
+  <li>On scroll sideways, the collection images shift 6% inside their frames.</li>
+  <li>On scroll, product cards rise 56px into place.</li>
+  <li>On hover, a slatted shadow sweeps across each service panel.</li>
+  <li>On hover, the light on a product tile shifts, its cast shadow slides, and "View piece →" rises.</li>
+  <li>With reduced motion, every item above is off. Pinning and snapping remain, since they are layout.</li>
+</ol>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Diagrams</h2>
+<div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:16px">
+  <div>
+    <div aria-hidden="true" style="position:relative;overflow:hidden;height:180px;background:#5b4132;border-radius:2px">
+      <div style="position:absolute;left:-10%;width:130%;top:0;bottom:0" class="sl"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:repeating-linear-gradient(103deg,rgba(0,0,0,0) 0 14px,rgba(20,12,8,.55) 14px 30px,rgba(0,0,0,0) 30px 44px)"></div></div>
+      <div style="position:absolute;left:12px;bottom:14px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:.95;font-weight:300;color:#F7F2EA">Spaces to<br>come home to.</div>
+    </div>
+    <div style="margin-top:8px;font-size:14px;line-height:1.5;color:#6A584A">Shadow layer drifting over the hero.</div>
+  </div>
+  <div>
+    <div aria-hidden="true" style="position:relative;height:180px;background:#E8DFD2;border-radius:2px">
+      <div style="position:absolute;left:10px;top:12px;width:58px;height:156px;background:#D3C4B1;border-radius:2px"></div>
+      <div style="position:absolute;left:78px;top:12px;width:70px;height:60px;background:#8E4A2C;border-radius:2px"></div>
+      <div style="position:absolute;left:78px;top:82px;width:70px;height:60px;background:#6A584A;border-radius:2px"></div>
+      <div style="position:absolute;left:78px;top:152px;width:70px;height:16px;background:#2E211A;border-radius:2px"></div>
+    </div>
+    <div style="margin-top:8px;font-size:14px;line-height:1.5;color:#6A584A">Left text pinned, right images pass.</div>
+  </div>
+  <div>
+    <div aria-hidden="true" style="position:relative;height:180px;background:#E8DFD2;border-radius:2px">
+      <div style="position:absolute;left:14px;top:14px;right:14px;height:90px;background:#6A584A;border-radius:2px"></div>
+      <div style="position:absolute;left:14px;top:34px;right:14px;height:90px;background:#8E4A2C;border-radius:2px"></div>
+      <div style="position:absolute;left:14px;top:54px;right:14px;height:112px;background:#2E211A;border-radius:2px"></div>
+    </div>
+    <div style="margin-top:8px;font-size:14px;line-height:1.5;color:#6A584A">Project cards stack like sliding doors.</div>
+  </div>
+</div>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Reference patterns</h2>
+<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.5">
+  <li>Window and foliage shadows drifting over rooms and products, seen across 2025 and 2026 furniture and interiors winners.</li>
+  <li>Pinned split layouts, with text held on one side while imagery scrolls past.</li>
+  <li>Stacked sticky cards that cover one another, used on architecture portfolios.</li>
+  <li>Horizontal snapping galleries for collections.</li>
+  <li>Oversized serif display type anchored to the bottom of a full-bleed hero.</li>
+</ul>
+
+<h2 style="margin:48px 0 16px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300">Cost and risks</h2>
+<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.5">
+  <li>Blurred, blended overlays cost paint time. Real photography will need the layer tuned per image.</li>
+  <li>Scroll-driven animation works in Chromium and Safari 26. Other browsers show the static state.</li>
+  <li>Shadow never sits under small text. It is masked away from service copy and kept faint on page backgrounds.</li>
+</ul>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":720,"height":2130}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

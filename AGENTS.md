@@ -25,6 +25,8 @@ The project is in the concept and design phase. There is no application code yet
 | Brief for the design mockup work | `docs/design/design-brief.md` |
 | Chosen visual direction and tokens | `docs/design/visual-system.md` |
 | Decisions made by an agent on delegation, open questions | `docs/decisions.md` |
+| How dispatched subagents run | `SUBAGENTS.md` |
+| Image briefs for generated photography | `docs/content/image-briefs.md` |
 
 Each fact lives in one file. Link to it instead of repeating it. If two files disagree, the `docs/concept/` file wins over `docs/content/` and `docs/design/`.
 
@@ -75,6 +77,18 @@ Follow the planning sequence in `README.md`. Do not choose a tech stack, e-comme
 - Work on a short-lived branch and merge to `main` through a pull request.
 - One commit per coherent decision or deliverable. Message style: `Lock <decision>` for concept decisions, `docs: <change>` for other document changes, `design: <change>` for design outputs.
 - Do not force-push, rebase shared history, or delete branches without Aedwon's approval.
+
+## Usage limits
+
+Every dispatched agent follows `SUBAGENTS.md`.
+
+This project has limited model usage. Aedwon set this rule on 2026-11-14.
+
+- Run at most two subagents at the same time. Prefer one.
+- Do small or mechanical work yourself instead of spawning an agent.
+- Split large batches into sequential waves. Start the next wave only after you have checked the last one.
+- Before a large fan-out, state how many agents you plan to run and why, and wait for Aedwon's go-ahead.
+- If an agent stops on a usage limit, resume it later. Do not restart the work with new agents.
 
 ## Communication with Aedwon
 

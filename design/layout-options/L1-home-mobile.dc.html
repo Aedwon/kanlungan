@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout 1 · Threshold · Home mobile</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8E4A2C}
+.dk a:hover{color:#E8C8B0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A2C;outline-offset:3px}
+.dk a:focus-visible,.dk button:focus-visible,.dk input:focus-visible{outline-color:#F2ECE3}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover .arr{transform:translateX(4px)}
+.btn-p:hover{background:#7A3E24!important;color:#F7F2EA!important}
+.shade{animation:shade 12s ease-in-out infinite alternate}
+@keyframes shade{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+
+/* Natural (static) states */
+.hero-track{position:relative;background:#F2ECE3}
+.hero-pin{position:relative;height:780px;overflow:hidden;background:#F2ECE3}
+.pj-track{position:relative}
+.pj-pin{position:relative}
+.pj-scroller{overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:20px;padding:0 20px 20px;scrollbar-width:thin;scrollbar-color:#8E4A2C #E8DFD2}
+.pj-rail{display:flex;gap:16px;width:max-content}
+.pj{position:relative;flex:none;display:block;width:300px;height:400px;overflow:hidden;scroll-snap-align:start;border-radius:2px;background:#3a2a20}
+.pj-prog{display:none}
+.rmscroll{overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#8E4A2C #E8DFD2;padding-bottom:16px}
+.pin{position:absolute;display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-22px 0 0 -22px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;outline:1px solid #F7F2EA;outline-offset:3px;font-size:15px;line-height:1;font-weight:500}
+.pin:focus,.pin:active{background:#2E211A}
+.num{display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;font-size:14px;line-height:1;font-weight:500}
+.rm:has(.p1:focus) .k1 .num,.rm:has(.p2:focus) .k2 .num,.rm:has(.p3:focus) .k3 .num,.rm:has(.p4:focus) .k4 .num,.rm:has(.p5:focus) .k5 .num,.rm:has(.p6:focus) .k6 .num{background:#2E211A}
+
+/* Scroll-driven choreography: FROM an altered state TO the natural state */
+@keyframes open{from{clip-path:inset(12% 20% 52% 20% round 2px)}to{clip-path:inset(0% 0% 0% 0% round 0px)}}
+@keyframes settle{from{transform:scale(1.3)}to{transform:scale(1)}}
+@keyframes sink{from{transform:scale(1)}to{transform:scale(.9) translateY(-4%)}}
+@keyframes lift{from{transform:translateY(46%)}to{transform:translateY(0)}}
+@keyframes rise{from{transform:translateY(40px)}to{transform:translateY(0)}}
+@keyframes ink{from{color:#B7A895}to{color:#2E211A}}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-582px)}}
+@keyframes grow{from{transform:scaleX(.3333)}to{transform:scaleX(1)}}
+@keyframes veil{from{clip-path:inset(0 0 62% 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes fanl{from{transform:translateX(67px) rotate(0deg)}to{transform:translateX(0) rotate(-7deg)}}
+@keyframes fanr{from{transform:translateX(-67px) rotate(0deg)}to{transform:translateX(0) rotate(7deg)}}
+@media (max-height:1400px) and (prefers-reduced-motion:no-preference){
+@supports (animation-timeline: view()){
+:root{--pin:max(520px,calc(100vh - 64px))}
+.hero-track{height:calc(var(--pin) + 800px);view-timeline:--hero block}
+.hero-pin{position:sticky;top:64px;height:var(--pin)}
+.win{animation:open linear both;animation-timeline:--hero;animation-range:cover var(--pin) cover calc(var(--pin) + 520px)}
+.win-img{animation:settle linear both;animation-timeline:--hero;animation-range:cover var(--pin) cover calc(var(--pin) + 520px)}
+.scrim{animation:lift linear both;animation-timeline:--hero;animation-range:cover var(--pin) cover calc(var(--pin) + 520px)}
+.wm{animation:sink linear both;animation-timeline:--hero;animation-range:cover var(--pin) cover calc(var(--pin) + 520px)}
+.hl,.tx-h{animation:rise linear both;animation-timeline:--hero;animation-range:cover calc(var(--pin) + 220px) cover calc(var(--pin) + 520px)}
+.stmt{view-timeline:--st block}
+.w{animation:ink linear both;animation-timeline:--st;animation-range:cover calc(10% + var(--i) * 1.5%) cover calc(18% + var(--i) * 1.5%)}
+.pj-track{height:calc(var(--pin) + 960px);view-timeline:--pj block}
+.pj-pin{position:sticky;top:64px;height:var(--pin);display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.pj-scroller{overflow:visible;padding:0;scroll-snap-type:none}
+.pj-rail{padding:0 20px;animation:slide linear both;animation-timeline:--pj;animation-range:cover var(--pin) cover calc(var(--pin) + 800px)}
+.pj-prog{display:block;position:absolute;left:20px;right:20px;bottom:24px;height:1px;background:#D3C4B1}
+.pj-prog i{display:block;height:1px;background:#8E4A2C;transform-origin:left center;animation:grow linear both;animation-timeline:--pj;animation-range:cover var(--pin) cover calc(var(--pin) + 800px)}
+.svi{animation:veil linear both;animation-timeline:view();animation-range:entry 0% entry 100%}
+.fl{animation:fanl linear both;animation-timeline:view();animation-range:entry 20% cover 45%}
+.fr{animation:fanr linear both;animation-timeline:view();animation-range:entry 20% cover 45%}
+}
+}
+@media (prefers-reduced-motion: reduce){
+.shade{animation:none}
+.arr{transition:none}
+}
+</style>
+</helmet>
+<div style="width:390px;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400;position:relative;overflow-x:clip">
+
+<!-- Header (stays pinned) -->
+<header style="position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 8px 0 20px;box-sizing:border-box;background:#F2ECE3;border-bottom:1px solid #D3C4B1">
+  <a href="#" style="font-family:'Newsreader',Georgia,serif;font-size:28px;line-height:1;font-weight:300;letter-spacing:-.01em">Kanlungan</a>
+  <div style="display:flex;align-items:center;gap:0">
+    <a href="#" aria-label="Cart, 0 items" style="min-width:44px;height:44px;padding:0 6px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:6px;font-size:14px;font-weight:500">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
+      <span>0</span>
+    </a>
+    <button type="button" aria-label="Open menu" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:#2E211A;cursor:pointer">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16"></path><path d="M4 16h16"></path></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- 1 Hero: small window opens to full bleed as you scroll -->
+<section class="hero-track">
+  <div class="hero-pin">
+    <div class="wm" aria-hidden="true" style="position:absolute;left:0;right:0;top:44%;text-align:center;font-family:'Newsreader',Georgia,serif;font-size:80px;line-height:1;font-weight:300;letter-spacing:-.03em;color:#2E211A;white-space:nowrap">Kanlungan</div>
+    <div aria-hidden="true" style="position:absolute;left:20px;bottom:24px;display:flex;align-items:center;gap:10px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">
+      <span>Scroll</span>
+      <svg width="14" height="20" viewBox="0 0 14 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 1v17M2 13l5 5 5-5"></path></svg>
+    </div>
+
+    <div class="win dk" style="position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;background:#5b4132">
+      <div class="win-img" style="position:absolute;left:0;right:0;top:0;bottom:0">
+        <div role="img" aria-label="Lilim House living room in shaded daylight, low mahogany and linen sofa, deep eaves, greenery through wide openings" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 50% 3% at 50% 34%, rgba(40,28,20,.38) 0%, rgba(40,28,20,0) 100%),
+          linear-gradient(#4a2f1f,#4a2f1f) 50% 31.5%/56% 1.6% no-repeat,
+          linear-gradient(#d6c9b0,#d6c9b0) 50% 30%/58% 2.6% no-repeat,
+          linear-gradient(#cdbfa6,#cdbfa6) 50% 26%/54% 5% no-repeat,
+          repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(70,50,35,.4) 24.6% 25.4%) 0 9%/100% 22% no-repeat,
+          radial-gradient(ellipse 60% 14% at 62% 20%, rgba(230,236,180,.6), rgba(230,236,180,0) 70%),
+          linear-gradient(90deg, rgba(40,28,20,.6) 0%, rgba(40,28,20,0) 24%, rgba(40,28,20,0) 78%, rgba(40,28,20,.5) 100%),
+          linear-gradient(180deg, #46321f 0%, #5a4332 7%, #d7d8b8 10%, #b4bf8c 17%, #8a9a62 24%, #6d7b48 30%, #7a5a40 32%, #5b4132 48%, #382820 100%);"></div>
+        <div class="shade" style="position:absolute;top:-10%;bottom:-10%;left:-30%;width:160%;pointer-events:none;background:linear-gradient(110deg, rgba(255,240,205,0) 32%, rgba(255,240,205,0) 38%, rgba(255,240,205,.30) 47%, rgba(255,240,205,.12) 54%, rgba(255,240,205,0) 62%)"></div>
+      </div>
+      <div class="scrim" style="position:absolute;left:0;right:0;top:0;bottom:0;background:linear-gradient(to top, rgba(46,33,26,.96) 0%, rgba(46,33,26,.9) 40%, rgba(46,33,26,.74) 62%, rgba(46,33,26,.3) 78%, rgba(46,33,26,0) 92%)"></div>
+      <div style="position:absolute;left:12px;top:12px;max-width:260px;padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lilim House living room, shaded daylight, low sofa, greenery through wide openings</div>
+      <div style="position:absolute;left:20px;right:20px;bottom:56px;color:#F7F2EA">
+        <div class="hl">
+          <h1 style="margin:0 0 20px;font-family:'Newsreader',Georgia,serif;font-size:52px;line-height:1;font-weight:300;letter-spacing:-.02em;color:#F7F2EA">Spaces to come home to.</h1>
+        </div>
+        <div class="tx-h">
+          <p style="margin:0 0 24px;font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">Kanlungan is an interior design studio and shop. We furnish homes and small hotels so they feel like refuge.</p>
+          <div style="display:flex;align-items:center;gap:20px">
+            <a href="#" class="btn-p" style="display:inline-flex;align-items:center;min-height:52px;box-sizing:border-box;background:#8E4A2C;color:#F7F2EA;font-size:15px;line-height:1;font-weight:500;padding:0 24px;border-radius:2px;white-space:nowrap">Book a discovery call</a>
+            <a href="#" class="lnk" style="display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.5;font-weight:500;white-space:nowrap">View projects <span class="arr" aria-hidden="true" style="margin-left:6px">→</span></a>
+          </div>
+        </div>
+      </div>
+      <div style="position:absolute;left:20px;bottom:20px;font-size:12px;line-height:1.4;font-weight:400;color:#E8DFD2">Lilim House, Antipolo, Rizal</div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 Statement -->
+<section style="padding:96px 20px;box-sizing:border-box">
+  <p class="stmt" style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.15;font-weight:300;letter-spacing:-.02em;color:#2E211A"><span class="w" style="--i:0">A</span> <span class="w" style="--i:1">home</span> <span class="w" style="--i:2">should</span> <span class="w" style="--i:3">lower</span> <span class="w" style="--i:4">your</span> <span class="w" style="--i:5">shoulders</span> <span class="w" style="--i:6">when</span> <span class="w" style="--i:7">you</span> <span class="w" style="--i:8">walk</span> <span class="w" style="--i:9">in.</span> <span class="w" style="--i:10">We</span> <span class="w" style="--i:11">design</span> <span class="w" style="--i:12">for</span> <span class="w" style="--i:13">that</span> <span class="w" style="--i:14">feeling:</span> <span class="w" style="--i:15">cool</span> <span class="w" style="--i:16">rooms,</span> <span class="w" style="--i:17">honest</span> <span class="w" style="--i:18">materials,</span> <span class="w" style="--i:19">and</span> <span class="w" style="--i:20">furniture</span> <span class="w" style="--i:21">made</span> <span class="w" style="--i:22">by</span> <span class="w" style="--i:23">people</span> <span class="w" style="--i:24">we</span> <span class="w" style="--i:25">know.</span></p>
+</section>
+
+<!-- 3 Recent projects: pinned; vertical swipe drives the horizontal gallery -->
+<section style="padding:0 0 80px">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;padding:0 20px 32px;box-sizing:border-box">
+    <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Recent projects</h2>
+    <span aria-hidden="true" style="padding-bottom:6px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">Drag</span>
+  </div>
+  <div class="pj-track">
+    <div class="pj-pin dk">
+      <div class="pj-scroller">
+        <div class="pj-rail">
+
+          <a href="#" class="pj">
+            <div role="img" aria-label="Lilim House terrace with a bench in shaded daylight, greenery behind" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+              linear-gradient(#3a2a20,#3a2a20) 50% 52%/42% 3% no-repeat,
+              linear-gradient(#5a4030,#5a4030) 36% 56%/3% 8% no-repeat,
+              linear-gradient(#5a4030,#5a4030) 64% 56%/3% 8% no-repeat,
+              radial-gradient(ellipse 50% 40% at 60% 28%, rgba(226,232,180,.55), rgba(226,232,180,0) 70%),
+              linear-gradient(90deg, rgba(40,28,20,.45) 0%, rgba(40,28,20,0) 25%, rgba(40,28,20,0) 80%, rgba(40,28,20,.35) 100%),
+              linear-gradient(180deg, #3f3a24 0%, #6f7d4a 14%, #9aa86e 28%, #7d8a55 42%, #8a6a4c 50%, #6b4c38 68%, #3f2d22 100%);"></div>
+            <div style="position:absolute;left:0;right:0;bottom:0;padding:110px 20px 20px;background:linear-gradient(to top, rgba(46,33,26,.9), rgba(46,33,26,0))">
+              <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Residential</div>
+              <div style="margin-top:6px;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:30px;line-height:1.2;font-weight:300;color:#F7F2EA">Lilim House</div>
+              <div style="margin-top:2px;font-size:15px;line-height:1.5;color:#E8DFD2">Antipolo, Rizal</div>
+            </div>
+            <div style="position:absolute;right:12px;top:12px;padding:5px 8px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">01/03</div>
+            <div style="position:absolute;left:12px;top:12px;max-width:170px;padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lilim House terrace with bench, shaded daylight</div>
+          </a>
+
+          <a href="#" class="pj">
+            <div role="img" aria-label="Tanaw Residence city skyline at dusk through full-height windows, warm lamps inside" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+              linear-gradient(#2a2428,#2a2428) 6.4% 54%/6% 14% no-repeat,
+              linear-gradient(#2a2428,#2a2428) 14.7% 50%/5% 20% no-repeat,
+              linear-gradient(#2a2428,#2a2428) 26.1% 56%/8% 10% no-repeat,
+              linear-gradient(#2a2428,#2a2428) 64.5% 52%/7% 18% no-repeat,
+              linear-gradient(#2a2428,#2a2428) 74.5% 55%/6% 12% no-repeat,
+              linear-gradient(#2a2428,#2a2428) 87.9% 48%/9% 23% no-repeat,
+              radial-gradient(ellipse 12% 7% at 24% 62%, rgba(255,200,120,.65), rgba(255,200,120,0) 70%),
+              radial-gradient(ellipse 12% 7% at 76% 64%, rgba(255,200,120,.6), rgba(255,200,120,0) 70%),
+              repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(40,28,22,.8) 24.6% 25.4%),
+              linear-gradient(180deg, #3a3340 0%, #8b6a62 36%, #d9a374 52%, #7a5a4c 56%, #2e211a 64%, #241a15 100%);"></div>
+            <div style="position:absolute;left:0;right:0;bottom:0;padding:110px 20px 20px;background:linear-gradient(to top, rgba(46,33,26,.9), rgba(46,33,26,0))">
+              <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Residential</div>
+              <div style="margin-top:6px;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:30px;line-height:1.2;font-weight:300;color:#F7F2EA">Tanaw Residence</div>
+              <div style="margin-top:2px;font-size:15px;line-height:1.5;color:#E8DFD2">Bonifacio Global City, Taguig</div>
+            </div>
+            <div style="position:absolute;right:12px;top:12px;padding:5px 8px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">02/03</div>
+            <div style="position:absolute;left:12px;top:12px;max-width:170px;padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Tanaw Residence, skyline at dusk, warm lamps lit</div>
+          </a>
+
+          <a href="#" class="pj">
+            <div role="img" aria-label="Dalampasigan Inn bright coastal guest room in daylight, pale limewash walls, reed mat, open window" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+              linear-gradient(#dccaa0,#dccaa0) 40% 80%/50% 6% no-repeat,
+              linear-gradient(180deg,#a9bfa0,#dfe9d6) 62% 20%/34% 40% no-repeat,
+              linear-gradient(#f7f1e4,#f7f1e4) 62% 18%/38% 44% no-repeat,
+              radial-gradient(ellipse 40% 40% at 62% 36%, rgba(255,250,235,.55), rgba(255,250,235,0) 72%),
+              linear-gradient(180deg,#ece3d3 0%,#e0d5c1 66%,#a98a6a 68%,#85664c 100%);"></div>
+            <div style="position:absolute;left:0;right:0;bottom:0;padding:110px 20px 20px;background:linear-gradient(to top, rgba(46,33,26,.9), rgba(46,33,26,0))">
+              <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Hospitality</div>
+              <div style="margin-top:6px;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:30px;line-height:1.2;font-weight:300;color:#F7F2EA">Dalampasigan Inn</div>
+              <div style="margin-top:2px;font-size:15px;line-height:1.5;color:#E8DFD2">San Juan, La Union</div>
+            </div>
+            <div style="position:absolute;right:12px;top:12px;padding:5px 8px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">03/03</div>
+            <div style="position:absolute;left:12px;top:12px;max-width:170px;padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Dalampasigan Inn guest room, pale limewash, reed mat, open window</div>
+          </a>
+
+        </div>
+      </div>
+      <div class="pj-prog" aria-hidden="true"><i></i></div>
+    </div>
+  </div>
+  <div style="padding:16px 20px 0">
+    <a href="#" class="lnk" style="display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.5;font-weight:500">View projects <span class="arr" aria-hidden="true" style="margin-left:6px">→</span></a>
+  </div>
+</section>
+
+<!-- 4 Two ways to work with us: image band reveals from the bottom edge as it scrolls in -->
+<section style="padding:0 20px 80px;box-sizing:border-box">
+  <h2 style="margin:0 0 32px;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Two ways to work with us</h2>
+
+  <div style="background:#E8DFD2;border-radius:2px;overflow:hidden">
+    <div class="svi" role="img" aria-label="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" style="position:relative;aspect-ratio:4 / 3;background:
+      radial-gradient(ellipse 36% 5% at 50% 86%, rgba(247,242,226,.35), rgba(247,242,226,0) 100%),
+      radial-gradient(ellipse 5% 8% at 50% 58%, #cbb690 0%, #a58a62 76%, rgba(165,138,98,0) 78%),
+      linear-gradient(#9a7a58,#9a7a58) 40.8% 80.2%/2% 14% no-repeat,
+      linear-gradient(#9a7a58,#9a7a58) 59.2% 80.2%/2% 14% no-repeat,
+      linear-gradient(#a98a64,#8a6a4c) 50% 68%/28% 3% no-repeat,
+      linear-gradient(90deg, rgba(247,242,226,.7), rgba(247,242,226,0) 60%),
+      repeating-linear-gradient(90deg, rgba(120,100,70,.16) 0 3px, rgba(0,0,0,0) 3px 30px),
+      linear-gradient(180deg,#e6dcc8 0%,#d8ccb4 72%,#8a6a4c 74%,#5b4132 100%);">
+      <div style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Linen curtain in soft daylight, low stool, stoneware vase</div>
+    </div>
+    <div style="padding:28px 24px 28px">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">01</div>
+      <h3 style="margin:12px 0 0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300">Full-Service Furnishing</h3>
+      <p style="margin:12px 0 0;font-size:17px;line-height:1.6;font-weight:400">We design, source, deliver, and style every room.</p>
+      <div style="margin-top:28px;font-family:'Newsreader',Georgia,serif;font-size:52px;line-height:1;font-weight:300;letter-spacing:-.02em">₱1,500,000</div>
+      <p style="margin:12px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">From ₱1,500,000, design fee included.</p>
+      <a href="#" class="lnk" style="display:inline-flex;align-items:center;min-height:44px;margin-top:12px;font-size:15px;line-height:1.5;font-weight:500">About this service <span class="arr" aria-hidden="true" style="margin-left:6px">→</span></a>
+    </div>
+  </div>
+
+  <div style="margin-top:20px;background:#E8DFD2;border-radius:2px;overflow:hidden">
+    <div class="svi" role="img" aria-label="Quiet room detail: plans and a pencil on a warm wood drafting table in side light" style="position:relative;aspect-ratio:4 / 3;background:
+      linear-gradient(#3a2a20,#3a2a20) 75.7% 52.3%/26% 0.5% no-repeat,
+      repeating-linear-gradient(0deg, rgba(60,44,28,.2) 0 1px, rgba(0,0,0,0) 1px 14px) 24.2% 65.9%/34% 18% no-repeat,
+      linear-gradient(#e6dcc6,#d9ccb2) 62.5% 73.7%/36% 24% no-repeat,
+      linear-gradient(#efe8d8,#e3dac6) 23.3% 67.6%/40% 26% no-repeat,
+      linear-gradient(90deg, rgba(247,242,226,.55), rgba(247,242,226,0) 55%),
+      repeating-linear-gradient(90deg, rgba(60,35,20,.1) 0 2px, rgba(0,0,0,0) 2px 46px),
+      linear-gradient(180deg,#e0d6c2 0%,#d3c8b0 38%,#a07c58 40%,#7a5a40 100%);">
+      <div style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Plans and a pencil on a warm wood table, side light</div>
+    </div>
+    <div style="padding:28px 24px 28px">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">02</div>
+      <h3 style="margin:12px 0 0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300">Interior Design Direction</h3>
+      <p style="margin:12px 0 0;font-size:17px;line-height:1.6;font-weight:400">We design the space. You bring it to life.</p>
+      <div style="margin-top:28px;font-family:'Newsreader',Georgia,serif;font-size:52px;line-height:1;font-weight:300;letter-spacing:-.02em">₱2,500</div>
+      <p style="margin:12px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">From ₱2,500 per sqm, minimum ₱150,000.</p>
+      <a href="#" class="lnk" style="display:inline-flex;align-items:center;min-height:44px;margin-top:12px;font-size:15px;line-height:1.5;font-weight:500">About this service <span class="arr" aria-hidden="true" style="margin-left:6px">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- 5 Shop introduction (quieter): portraits fan out as they scroll in -->
+<section style="border-top:1px solid #D3C4B1;padding:80px 20px 80px;box-sizing:border-box">
+  <div style="text-align:center">
+    <div style="width:48px;height:1px;background:#8E4A2C;margin:0 auto 28px"></div>
+    <p style="margin:0 0 16px;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.4;font-weight:300;color:#2E211A">The pieces we use in our own projects, made by workshops across the Philippines.</p>
+    <a href="#" class="lnk" style="display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.5;font-weight:500">Explore the shop <span class="arr" aria-hidden="true" style="margin-left:6px">→</span></a>
+  </div>
+
+  <div style="position:relative;height:320px;margin-top:40px">
+    <div class="fl" role="img" aria-label="Low sofa, stone coffee table and stoneware lamp in soft shaded daylight" style="position:absolute;left:12px;top:44px;width:168px;height:224px;overflow:hidden;border-radius:2px;transform:rotate(-7deg);background:
+      radial-gradient(ellipse 30% 30% at 70% 20%, rgba(247,242,226,.55), rgba(247,242,226,0) 70%),
+      linear-gradient(#b8ab94,#a39880) 71.4% 79.2%/44% 4% no-repeat,
+      linear-gradient(#4a2f1f,#4a2f1f) 36.1% 68.7%/64% 2.5% no-repeat,
+      linear-gradient(#d6c9b0,#d6c9b0) 35.3% 65.2%/66% 8% no-repeat,
+      linear-gradient(#cdbfa6,#c1b295) 36.8% 57.8%/62% 10% no-repeat,
+      linear-gradient(#9a7a58,#9a7a58) 8.7% 46.5%/8% 14% no-repeat,
+      linear-gradient(#e6d9bd,#d9c9a4) 7.3% 35.2%/11% 9% no-repeat,
+      linear-gradient(180deg,#e3d9c6 0%,#d9cdb7 66%,#8a6a4c 68%,#5b4132 100%);"></div>
+    <div class="fr" role="img" aria-label="Close crop of cane weave on a rattan lounge chair" style="position:absolute;left:170px;top:44px;width:168px;height:224px;overflow:hidden;border-radius:2px;transform:rotate(7deg);background:
+      radial-gradient(ellipse 70% 80% at 50% 40%, rgba(40,28,20,0) 30%, rgba(40,28,20,.3) 100%),
+      repeating-linear-gradient(45deg, rgba(90,62,38,.4) 0 2px, rgba(0,0,0,0) 2px 11px),
+      repeating-linear-gradient(-45deg, rgba(90,62,38,.4) 0 2px, rgba(0,0,0,0) 2px 11px),
+      radial-gradient(ellipse 50% 60% at 40% 30%, #d6bf93, #a78a5e 80%);"></div>
+    <div role="img" aria-label="Wood dining table with cane chairs in morning light through a linen curtain" style="position:absolute;left:91px;top:16px;width:168px;height:224px;overflow:hidden;border-radius:2px;background:
+      radial-gradient(ellipse 14% 12% at 28% 70%, #c9ad7e, #9a7a52 70%, rgba(154,122,82,0) 72%),
+      radial-gradient(ellipse 14% 12% at 72% 70%, #c9ad7e, #9a7a52 70%, rgba(154,122,82,0) 72%),
+      linear-gradient(#4a2f1f,#3a2518) 22.4% 72.9%/2% 17% no-repeat,
+      linear-gradient(#4a2f1f,#3a2518) 77.6% 72.9%/2% 17% no-repeat,
+      linear-gradient(#8a5a36,#6a4529) 50% 59.5%/64% 2.5% no-repeat,
+      linear-gradient(90deg, rgba(247,242,226,.15), rgba(247,242,226,.7) 40%, rgba(247,242,226,.2)) 0 0/100% 46% no-repeat,
+      repeating-linear-gradient(90deg, rgba(120,100,70,.16) 0 3px, rgba(0,0,0,0) 3px 26px) 0 0/100% 46% no-repeat,
+      linear-gradient(180deg,#e0d6c2 0%,#d3c8b0 62%,#8a6a4c 64%,#5b4132 100%);">
+      <div style="position:absolute;left:8px;bottom:8px;max-width:calc(100% - 16px);padding:3px 6px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Collections: morning light, cane, linen</div>
+    </div>
+  </div>
+
+  <div style="margin-top:8px;display:flex;flex-direction:column">
+    <a href="#" style="display:block;padding:16px 0;border-top:1px solid #D3C4B1;min-height:44px;box-sizing:border-box">
+      <div style="font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">Quiet Living</div>
+      <div style="margin-top:4px;font-size:15px;line-height:1.5;color:#6A584A">Soft light, low furniture, and nothing that asks for attention.</div>
+    </a>
+    <a href="#" style="display:block;padding:16px 0;border-top:1px solid #D3C4B1;min-height:44px;box-sizing:border-box">
+      <div style="font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">Slow Mornings</div>
+      <div style="margin-top:4px;font-size:15px;line-height:1.5;color:#6A584A">Pieces for the first hour of the day.</div>
+    </a>
+    <a href="#" style="display:block;padding:16px 0;border-top:1px solid #D3C4B1;border-bottom:1px solid #D3C4B1;min-height:44px;box-sizing:border-box">
+      <div style="font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">Woven Forms</div>
+      <div style="margin-top:4px;font-size:15px;line-height:1.5;color:#6A584A">Cane, rattan, and reed, woven by hand.</div>
+    </a>
+  </div>
+</section>
+
+<!-- 6 From the shop: shop the room, swipe the room, tap a numbered pin -->
+<section class="rm" style="padding:0 0 96px;box-sizing:border-box">
+  <h2 style="margin:0 0 24px;padding:0 20px;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">From the shop</h2>
+  <div style="display:flex;align-items:baseline;justify-content:space-between;padding:0 20px;margin-bottom:16px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A">
+    <span>Shop the room</span><span>Drag</span>
+  </div>
+  <div class="rmscroll">
+    <div style="position:relative;width:920px;margin:0 20px">
+      <div role="img" aria-label="Lilim House living and dining room in one long view: a low sofa and a cane lounge chair on the left, a dining table under a brass pendant and a mahogany cabinet with a clay vessel on the right" style="position:relative;overflow:hidden;aspect-ratio:21 / 9;border-radius:2px;background:
+        linear-gradient(90deg, rgba(40,28,20,.5) 0%, rgba(40,28,20,0) 18%, rgba(40,28,20,0) 84%, rgba(40,28,20,.4) 100%),
+        linear-gradient(180deg, #46321f 0%, #5a4332 9%, #d7d8b8 12%, #b4bf8c 28%, #8a9a62 42%, #6d7b48 52%, #7a5a40 56%, #5b4132 72%, #382820 100%);">
+        <div style="position:absolute;left:0;top:12%;width:57%;height:44%;background:repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(70,50,35,.45) 24.6% 25.4%)"></div>
+        <div style="position:absolute;left:26%;top:14%;width:26%;height:30%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(230,236,180,.6), rgba(230,236,180,0) 70%)"></div>
+        <div style="position:absolute;left:57%;top:9%;width:43%;height:48%;background:radial-gradient(ellipse 80% 90% at 0% 30%, rgba(255,246,222,.55), rgba(255,246,222,0) 70%), linear-gradient(180deg,#e0d6c2,#d3c8b0)"></div>
+        <div style="position:absolute;left:57%;top:55%;width:43%;height:1.4%;background:#a98a6a"></div>
+        <div style="position:absolute;left:55%;top:72%;width:40%;height:14%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(214,201,172,.45), rgba(214,201,172,0) 72%)"></div>
+        <div style="position:absolute;left:4%;top:70%;width:32%;height:5%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%)"></div>
+        <div style="position:absolute;left:7%;top:68%;width:26%;height:2%;background:#4a2f1f"></div>
+        <div style="position:absolute;left:8%;top:52%;width:24%;height:11%;background:linear-gradient(#d3c5ab,#c6b79b);border-radius:2px"></div>
+        <div style="position:absolute;left:6.5%;top:62%;width:27%;height:6.5%;background:linear-gradient(#dcd0b8,#cdbfa6);border-radius:2px"></div>
+        <div style="position:absolute;left:5.5%;top:57%;width:3.5%;height:11%;background:#c9bba0;border-radius:2px"></div>
+        <div style="position:absolute;left:31%;top:57%;width:3.5%;height:11%;background:#c9bba0;border-radius:2px"></div>
+        <div style="position:absolute;left:39%;top:73%;width:11%;height:4%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%)"></div>
+        <div style="position:absolute;left:42%;top:72%;width:0.6%;height:4.5%;background:#3a2518"></div>
+        <div style="position:absolute;left:47.5%;top:72%;width:0.6%;height:4.5%;background:#3a2518"></div>
+        <div style="position:absolute;left:40.5%;top:55%;width:9%;height:18%;background:repeating-linear-gradient(45deg, rgba(90,62,38,.4) 0 2px, rgba(0,0,0,0) 2px 7px), repeating-linear-gradient(-45deg, rgba(90,62,38,.4) 0 2px, rgba(0,0,0,0) 2px 7px), radial-gradient(ellipse 60% 60% at 40% 30%, #d1b27c, #a58557);border-radius:48% 48% 18% 18%"></div>
+        <div style="position:absolute;left:56%;top:77%;width:28%;height:4%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%)"></div>
+        <div style="position:absolute;left:62%;top:67%;width:4.5%;height:9%;background:radial-gradient(ellipse 60% 60% at 40% 30%, #c9ad7e, #9a7a52);border-radius:40% 40% 10% 10%"></div>
+        <div style="position:absolute;left:75%;top:67%;width:4.5%;height:9%;background:radial-gradient(ellipse 60% 60% at 40% 30%, #c9ad7e, #9a7a52);border-radius:40% 40% 10% 10%"></div>
+        <div style="position:absolute;left:59.5%;top:65%;width:0.9%;height:12%;background:#4a2f1f"></div>
+        <div style="position:absolute;left:81.6%;top:65%;width:0.9%;height:12%;background:#4a2f1f"></div>
+        <div style="position:absolute;left:58%;top:62.5%;width:25.5%;height:2.4%;background:linear-gradient(#a8744a,#8a5a36);border-radius:1px"></div>
+        <div style="position:absolute;left:62%;top:30%;width:16%;height:30%;background:radial-gradient(circle at 50% 28%, rgba(255,244,214,.8) 0, rgba(255,244,214,.45) 10%, rgba(255,244,214,.12) 34%, rgba(255,244,214,0) 62%)"></div>
+        <div style="position:absolute;left:69.9%;top:9%;width:0.15%;height:27%;background:#6A584A"></div>
+        <div style="position:absolute;left:67.2%;top:35.5%;width:5.6%;height:4.5%;background:radial-gradient(ellipse 60% 70% at 50% 30%, #d3a96a, #94703f);border-radius:50% 50% 8% 8%"></div>
+        <div style="position:absolute;left:85%;top:73%;width:15%;height:4%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%)"></div>
+        <div style="position:absolute;left:87%;top:69%;width:0.8%;height:5%;background:#3f2616"></div>
+        <div style="position:absolute;left:97.2%;top:69%;width:0.8%;height:5%;background:#3f2616"></div>
+        <div style="position:absolute;left:86%;top:47%;width:13%;height:22.5%;background:linear-gradient(#8a5a38,#64402a)"></div>
+        <div style="position:absolute;left:92.4%;top:47%;width:0.2%;height:22.5%;background:#3f2616"></div>
+        <div style="position:absolute;left:85.5%;top:45.4%;width:14%;height:1.8%;background:linear-gradient(#9a6844,#7a5236)"></div>
+        <div style="position:absolute;left:89.3%;top:35.5%;width:4%;height:10%;background:radial-gradient(ellipse 60% 60% at 40% 30%, #c08a5a, #8a5a38);border-radius:46% 46% 40% 40%"></div>
+        <div style="position:absolute;left:90.3%;top:34.2%;width:2%;height:1.8%;background:#4a2f1f;border-radius:2px"></div>
+        <div class="shade" style="position:absolute;top:-10%;bottom:-10%;left:-30%;width:160%;pointer-events:none;background:linear-gradient(110deg, rgba(255,240,205,0) 32%, rgba(255,240,205,0) 38%, rgba(255,240,205,.22) 47%, rgba(255,240,205,.09) 54%, rgba(255,240,205,0) 62%)"></div>
+        <div style="position:absolute;left:12px;bottom:12px;max-width:340px;padding:4px 8px;font-size:11px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lilim House living and dining in one long view, shaded afternoon daylight</div>
+      </div>
+      <a href="#" class="pin p1" aria-label="1, Silong Sofa, Kanlungan Original, ₱186,000" style="left:19%;top:56%">1</a>
+      <a href="#" class="pin p2" aria-label="2, Hapag Dining Table, Kanlungan Original, ₱178,000" style="left:70%;top:62.5%">2</a>
+      <a href="#" class="pin p3" aria-label="3, Dapithapon Lounge Chair, Sulihiya Studio, ₱64,000" style="left:45%;top:62%">3</a>
+      <a href="#" class="pin p4" aria-label="4, Kapis Pendant, Tanso Lighting Works, ₱32,000" style="left:70%;top:26%">4</a>
+      <a href="#" class="pin p5" aria-label="5, Aparador Cabinet, Kanlungan Original, ₱164,000" style="left:92.5%;top:58%">5</a>
+      <a href="#" class="pin p6" aria-label="6, Tapayan Vessel, Bukal Clayworks, ₱8,600" style="left:91.3%;top:40%">6</a>
+    </div>
+  </div>
+
+  <ol style="list-style:none;margin:24px 0 0;padding:0 20px;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:32px 16px">
+
+    <li><a href="#" class="card k1" style="display:block">
+      <div role="img" aria-label="Silong Sofa, low three-seat sofa in oat linen on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#4a2f1f,#3a2518) 22% 68%/56% 4% no-repeat,
+          linear-gradient(#cdbd9a,#b6a380) 20% 56%/60% 24% no-repeat,
+          linear-gradient(#d8cba9,#c4b490) 20% 40%/60% 14% no-repeat,
+          radial-gradient(ellipse 54% 6% at 50% 72%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 60% 50% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 66%, #cdbfa6 66%, #bfae92 100%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">1</div>
+        <div style="position:absolute;left:8px;bottom:8px;padding:3px 6px;font-size:11px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Silong Sofa</div>
+      </div>
+      <div style="padding-top:14px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Silong Sofa</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Kanlungan Original</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱186,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 10 weeks</span></div>
+      </div>
+    </a></li>
+
+    <li><a href="#" class="card k2" style="display:block">
+      <div role="img" aria-label="Hapag Dining Table, wood dining table on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#9a6a44,#7a5236) 14% 40%/72% 6% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 20% 45%/4% 28% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 76% 45%/4% 28% no-repeat,
+          radial-gradient(ellipse 60% 5% at 50% 72%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 60% 50% at 40% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 66%, #cdbfa6 66%, #bfae92 100%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">2</div>
+        <div style="position:absolute;left:8px;bottom:8px;padding:3px 6px;font-size:11px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Hapag Table</div>
+      </div>
+      <div style="padding-top:14px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Hapag Dining Table</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Kanlungan Original</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱178,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 12 weeks</span></div>
+      </div>
+    </a></li>
+
+    <li><a href="#" class="card k3" style="display:block">
+      <div role="img" aria-label="Dapithapon Lounge Chair, cane and rattan lounge chair on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(45deg, rgba(90,62,38,.35) 0 2px, rgba(0,0,0,0) 2px 9px) 30% 28%/40% 42% no-repeat,
+          radial-gradient(ellipse 24% 26% at 50% 50%, #d1b27c 0%, #a58557 74%, rgba(165,133,87,0) 76%),
+          linear-gradient(#4a2f1f,#3a2518) 34% 70%/32% 3% no-repeat,
+          radial-gradient(ellipse 40% 5% at 50% 74%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 60% 50% at 34% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 70%, #cdbfa6 70%, #bfae92 100%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">3</div>
+        <div style="position:absolute;left:8px;bottom:8px;padding:3px 6px;font-size:11px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Dapithapon Chair</div>
+      </div>
+      <div style="padding-top:14px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Dapithapon Lounge Chair</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Sulihiya Studio</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱64,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 8 weeks</span></div>
+      </div>
+    </a></li>
+
+    <li><a href="#" class="card k4" style="display:block">
+      <div role="img" aria-label="Kapis Pendant, spun brass pendant lamp against a pale warm wall" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 14% 7% at 50% 36%, #c49a5e 0%, #94703f 80%, rgba(148,112,63,0) 82%),
+          radial-gradient(circle at 50% 42%, rgba(255,244,214,.85) 0, rgba(255,244,214,.6) 3%, rgba(255,244,214,.25) 11%, rgba(255,244,214,0) 30%),
+          linear-gradient(#6A584A,#6A584A) 50% 0/1px 33% no-repeat,
+          radial-gradient(ellipse 60% 50% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">4</div>
+        <div style="position:absolute;left:8px;bottom:8px;padding:3px 6px;font-size:11px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Kapis Pendant</div>
+      </div>
+      <div style="padding-top:14px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Kapis Pendant</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Tanso Lighting Works</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱32,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">In stock</div>
+      </div>
+    </a></li>
+
+    <li><a href="#" class="card k5" style="display:block">
+      <div role="img" aria-label="Aparador Cabinet, mahogany sideboard cabinet on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(90deg, rgba(0,0,0,0) 49.4%, #3f2616 49.4%, #3f2616 50.6%, rgba(0,0,0,0) 50.6%) 18% 30%/64% 42% no-repeat,
+          linear-gradient(#8a5a38,#64402a) 18% 30%/64% 42% no-repeat,
+          linear-gradient(#3f2616,#3f2616) 24% 72%/3% 8% no-repeat,
+          linear-gradient(#3f2616,#3f2616) 73% 72%/3% 8% no-repeat,
+          radial-gradient(ellipse 60% 5% at 50% 80%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 60% 50% at 32% 18%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 78%, #cdbfa6 78%, #bfae92 100%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">5</div>
+        <div style="position:absolute;left:8px;bottom:8px;padding:3px 6px;font-size:11px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Aparador Cabinet</div>
+      </div>
+      <div style="padding-top:14px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Aparador Cabinet</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Kanlungan Original</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱164,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 12 weeks</span></div>
+      </div>
+    </a></li>
+
+    <li><a href="#" class="card k6" style="display:block">
+      <div role="img" aria-label="Tapayan Vessel, hand-formed clay vessel on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 12% 3% at 50% 42%, #4a2f1f 0%, #4a2f1f 90%, rgba(74,47,31,0) 100%),
+          radial-gradient(ellipse 22% 28% at 50% 58%, #c08a5a 0%, #8a5a38 76%, rgba(138,90,56,0) 78%),
+          radial-gradient(ellipse 30% 4% at 50% 78%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 60% 50% at 34% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),
+          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 76%, #cdbfa6 76%, #bfae92 100%),
+          linear-gradient(to bottom, #ece4d6, #e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">6</div>
+        <div style="position:absolute;left:8px;bottom:8px;padding:3px 6px;font-size:11px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Tapayan Vessel</div>
+      </div>
+      <div style="padding-top:14px">
+        <div style="font-size:18px;line-height:1.4;font-weight:500">Tapayan Vessel</div>
+        <div style="margin-top:2px;font-size:14px;line-height:1.5;color:#6A584A">Bukal Clayworks</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱8,600</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">In stock</div>
+      </div>
+    </a></li>
+
+  </ol>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="dk" style="background:#3A2A20;color:#F2ECE3;padding:64px 20px 40px;box-sizing:border-box">
+  <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:40px 24px">
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Studio</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Full-Service Furnishing</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Interior Design Direction</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Projects</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Help</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Delivery and returns</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Care guide</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">FAQ</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Contact</a></li>
+      </ul>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Shop</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:0 24px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Seating</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Tables</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Beds</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Storage</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Lighting</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Rugs and Textiles</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Decor and Objects</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Art</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Collections</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Makers</a></li>
+      </ul>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Mailing list</div>
+      <form action="#" style="margin-top:16px;display:flex;flex-direction:column;gap:12px">
+        <label for="mail-l1m" style="font-size:15px;line-height:1.5;font-weight:400">Occasional notes on new projects and pieces.</label>
+        <input id="mail-l1m" type="email" name="email" autocomplete="email" style="width:100%;box-sizing:border-box;height:52px;padding:0 16px;background:#2E211A;border:1px solid #B3A18B;border-radius:2px;color:#F2ECE3;font:400 16px 'Hanken Grotesk',sans-serif">
+        <button type="submit" class="btn-p" style="height:52px;background:#8E4A2C;color:#F7F2EA;border:0;border-radius:2px;font:500 15px 'Hanken Grotesk',sans-serif;cursor:pointer">Subscribe</button>
+      </form>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Showroom</div>
+      <div style="margin-top:16px;display:flex;flex-direction:column;gap:4px;font-size:15px;line-height:1.5;font-weight:400">
+        <div>Makati City, Metro Manila. Open by appointment.</div>
+        <a href="#" style="display:flex;align-items:center;min-height:44px">studio@kanlungan.example</a>
+        <a href="#" style="display:flex;align-items:center;min-height:44px">+63 2 8555 0100</a>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:48px;padding-top:24px;border-top:1px solid #6A584A">
+    <p style="margin:0;font-size:13px;line-height:1.6;font-weight:400;color:#D3C4B1">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
+    <div style="margin-top:12px;display:flex;gap:24px;font-size:14px;line-height:1.5;font-weight:400">
+      <a href="#" style="display:flex;align-items:center;min-height:44px">Privacy</a>
+      <a href="#" style="display:flex;align-items:center;min-height:44px">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":7140}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

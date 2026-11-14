@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Template · Project detail mobile</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8E4A2C}
+.dk a:hover{color:#E8C8B0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible,figure:focus-visible{outline:2px solid #8E4A2C;outline-offset:3px}
+.dk a:focus-visible,.dk button:focus-visible,.dk input:focus-visible{outline-color:#F2ECE3}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover .arr{transform:translateX(4px)}
+.lnk:hover{text-decoration:underline;text-underline-offset:4px}
+.btn-p{transition:background-color .2s ease}
+.btn-p:hover{background:#7A3E24!important;color:#F7F2EA!important}
+.ib{transition:background-color .2s ease}
+.ib:hover{background:#E8DFD2}
+.shade{animation:shade 12s ease-in-out infinite alternate}
+@keyframes shade{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+.im{transition:filter .4s ease}
+a.card:hover{color:#2E211A}
+.card:hover .im,.card:focus-visible .im{filter:brightness(1.05)}
+.ph{opacity:0;pointer-events:none;transition:opacity .25s ease}
+:hover>.ph{opacity:1}
+.hbw{display:grid;grid-template-columns:1fr;margin-left:0;overflow:hidden;visibility:visible}
+.hbw>a{min-width:0;white-space:nowrap}
+.num{display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;font-size:14px;line-height:1;font-weight:500;transition:background-color .2s ease}
+.pin{position:absolute;display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-24px 0 0 -24px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;outline:1px solid #F7F2EA;outline-offset:3px;font-size:15px;line-height:1;font-weight:500;transition:background-color .2s ease}
+.pin:hover{color:#F7F2EA;background:#2E211A}
+.pin:focus-visible{outline:2px solid #F7F2EA;outline-offset:3px;background:#2E211A}
+.pin:hover,.pin:focus-visible{z-index:6}
+.tip{position:absolute;bottom:calc(100% + 14px);left:50%;width:272px;margin-left:-128px;box-sizing:border-box;padding:16px 16px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;text-align:left;color:#2E211A;font-weight:400;visibility:hidden;opacity:0;transform:translateY(6px);transition:opacity .2s ease,transform .3s ease,visibility 0s linear .3s;pointer-events:none}
+.tip-r{left:auto;right:-8px;margin-left:0}
+.tip-b{bottom:auto;top:calc(100% + 14px);transform:translateY(-6px)}
+.pin:hover .tip,.pin:focus-visible .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.dt{opacity:0;transform:translateY(4px);transition:opacity .3s ease,transform .3s ease}
+.card:hover .dt,.card:focus-visible .dt{opacity:1;transform:none}
+.rm:has(.p1:hover) .k1 .num,.rm:has(.p1:focus-visible) .k1 .num,.k1:hover .num{background:#2E211A}
+.rm:has(.k1:hover) .p1,.rm:has(.k1:focus-visible) .p1{background:#2E211A;z-index:6}
+.rm:has(.k1:hover) .p1 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p2:hover) .k2 .num,.rm:has(.p2:focus-visible) .k2 .num,.k2:hover .num{background:#2E211A}
+.rm:has(.k2:hover) .p2,.rm:has(.k2:focus-visible) .p2{background:#2E211A;z-index:6}
+.rm:has(.k2:hover) .p2 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p3:hover) .k3 .num,.rm:has(.p3:focus-visible) .k3 .num,.k3:hover .num{background:#2E211A}
+.rm:has(.k3:hover) .p3,.rm:has(.k3:focus-visible) .p3{background:#2E211A;z-index:6}
+.rm:has(.k3:hover) .p3 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p4:hover) .k4 .num,.rm:has(.p4:focus-visible) .k4 .num,.k4:hover .num{background:#2E211A}
+.rm:has(.k4:hover) .p4,.rm:has(.k4:focus-visible) .p4{background:#2E211A;z-index:6}
+.rm:has(.k4:hover) .p4 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p5:hover) .k5 .num,.rm:has(.p5:focus-visible) .k5 .num,.k5:hover .num{background:#2E211A}
+.rm:has(.k5:hover) .p5,.rm:has(.k5:focus-visible) .p5{background:#2E211A;z-index:6}
+.rm:has(.k5:hover) .p5 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p6:hover) .k6 .num,.rm:has(.p6:focus-visible) .k6 .num,.k6:hover .num{background:#2E211A}
+.rm:has(.k6:hover) .p6,.rm:has(.k6:focus-visible) .p6{background:#2E211A;z-index:6}
+.rm:has(.k6:hover) .p6 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p7:hover) .k7 .num,.rm:has(.p7:focus-visible) .k7 .num,.k7:hover .num{background:#2E211A}
+.rm:has(.k7:hover) .p7,.rm:has(.k7:focus-visible) .p7{background:#2E211A;z-index:6}
+.rm:has(.k7:hover) .p7 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p8:hover) .k8 .num,.rm:has(.p8:focus-visible) .k8 .num,.k8:hover .num{background:#2E211A}
+.rm:has(.k8:hover) .p8,.rm:has(.k8:focus-visible) .p8{background:#2E211A;z-index:6}
+.rm:has(.k8:hover) .p8 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p9:hover) .k9 .num,.rm:has(.p9:focus-visible) .k9 .num,.k9:hover .num{background:#2E211A}
+.rm:has(.k9:hover) .p9,.rm:has(.k9:focus-visible) .p9{background:#2E211A;z-index:6}
+.rm:has(.k9:hover) .p9 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.rm:has(.p10:hover) .k10 .num,.rm:has(.p10:focus-visible) .k10 .num,.k10:hover .num{background:#2E211A}
+.rm:has(.k10:hover) .p10,.rm:has(.k10:focus-visible) .p10{background:#2E211A;z-index:6}
+.rm:has(.k10:hover) .p10 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+@keyframes rvIn{from{clip-path:inset(-10% 100% -10% -4%);transform:translateY(24px)}to{clip-path:inset(-10% -10% -10% -10%);transform:none}}
+@keyframes parY{from{transform:translateY(-7%)}to{transform:translateY(7%)}}
+@keyframes zoomIn{from{transform:scale(1.1)}to{transform:scale(1)}}
+@keyframes progX{from{transform:scaleX(.06)}to{transform:scaleX(1)}}
+@keyframes hbOut{from{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}to{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}}
+.stsec{view-timeline:--st block}
+
+.hero{position:relative;height:640px;overflow:hidden;background:#2E211A}
+.hero-i{position:absolute;left:0;right:0;top:0;bottom:0}
+.gw-track{position:relative}
+.gw-pin{position:relative;height:640px;overflow:hidden;background:#F2ECE3}
+.gw{position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;background:#2E211A}
+.gw-i{position:absolute;left:0;right:0;top:0;bottom:0}
+.gw-t{position:absolute;left:20px;right:20px;bottom:32px;color:#F7F2EA}
+.gal-pin{position:relative;overflow-x:auto;scrollbar-width:thin;scrollbar-color:#8E4A2C #E8DFD2;padding-bottom:16px}
+.gal-row{display:flex;gap:16px;align-items:flex-start;width:max-content;padding:0 20px}
+.rmscroll{overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#8E4A2C #E8DFD2;padding-bottom:16px}
+.pin:focus,.pin:active{background:#2E211A}
+@keyframes heroPar{from{transform:none}to{transform:translateY(10%) scale(1.06)}}
+@keyframes gwOpen{from{clip-path:inset(20px 20px 20px 20px round 2px)}to{clip-path:inset(0px 0px 0px 0px round 0px)}}
+@keyframes gwImg{from{transform:scale(1.12)}to{transform:none}}
+@keyframes galX{from{transform:none}to{transform:translateX(calc(100vw - 100%))}}
+@supports (animation-timeline: view()){
+.rv{animation:rvIn linear both;animation-timeline:view();animation-range:entry 0% entry 60%}
+.par{animation:parY linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+.zin{animation:zoomIn linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
+.hpar{animation:heroPar linear both;animation-timeline:view();animation-range:exit 0% exit 100%}
+}
+@media (max-height:1400px) and (prefers-reduced-motion:no-preference){
+@supports (animation-timeline: view()){
+:root{--pin:max(520px,calc(100vh - 64px))}
+.hero{height:var(--pin)}
+.gw-track{height:calc(var(--pin) + 600px);view-timeline:--gw block}
+.gw-pin{position:sticky;top:64px;height:var(--pin)}
+.gw{animation:gwOpen linear both;animation-timeline:--gw;animation-range:cover calc(100vh - 64px) cover calc(100vh - 64px + 600px)}
+.gw-i{animation:gwImg linear both;animation-timeline:--gw;animation-range:cover calc(100vh - 64px) cover calc(100vh - 64px + 600px)}
+.gal-track{height:calc(var(--pin) + 2400px);view-timeline:--gal block}
+.gal-pin{position:sticky;top:64px;height:var(--pin);overflow:hidden;display:flex;align-items:center;padding-bottom:0}
+.gal-row{animation:galX linear both;animation-timeline:--gal;animation-range:cover calc(100vh - 64px) cover calc(100vh - 64px + 2400px)}
+}
+}
+@media (prefers-reduced-motion: reduce){
+.shade{animation:none}
+.rv,.par,.zin,.prog,.cpar,.hpar,.gw,.gw-i,.gw-t,.gal-row,.hbw{animation:none!important}
+.arr,.btn-p,.ib,.im,.ph,.pin,.tip,.num,.dt,.gcap,.flt{transition:none}
+.card:hover .im,.card:focus-visible .im{filter:none}
+.dt{transform:none}
+}
+</style>
+</helmet>
+<div style="width:390px;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400;position:relative;overflow-x:clip">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<g id="af2"><path d="M40 22L55 16V46H40ZM60 14L75 8V46H60Z" style="fill:var(--lw)"></path><path d="M40 46H55L34 100H13ZM60 46H75L62 100H41Z" style="fill:var(--lf)"></path></g>
+</defs></svg>
+
+<!-- Header: Afternoon lockup -->
+<header style="position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 8px 0 20px;box-sizing:border-box;background:#F2ECE3;border-bottom:1px solid #D3C4B1">
+  <a href="#" style="display:flex;align-items:center;gap:8px;min-height:44px"><svg viewBox="0 0 100 100" width="32" height="32" style="display:block;--lw:#F2ECE3;--lf:#8E4A2C;border-radius:2px" aria-hidden="true"><rect width="100" height="100" rx="1.92" fill="#3A2A20"></rect><path d="M0 46H100V100H0Z" fill="#000" opacity=".2"></path><use href="#af2"></use></svg><span style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1;font-weight:300;letter-spacing:-.015em;color:#2E211A">Kanlungan</span></a>
+  <div style="display:flex;align-items:center;gap:0">
+    <a href="#" aria-label="Cart, 0 items" style="min-width:44px;height:44px;padding:0 8px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px;line-height:1.5;font-weight:500">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
+      <span>0</span>
+    </a>
+    <button type="button" aria-label="Open menu" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:#2E211A;cursor:pointer">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16"></path><path d="M4 16h16"></path></svg>
+    </button>
+  </div>
+</header>
+<main>
+
+<section class="hero">
+  <div class="hero-i hpar"><div role="img" aria-label="Lilim House living room in shaded daylight, low mahogany and linen sofa, deep eaves, greenery through wide openings" class="" style="position:relative;overflow:hidden;aspect-ratio:auto;border-radius:2px;background:#5b4132;position:absolute;left:0;right:0;top:0;bottom:0;border-radius:0"><div class="im" style="position:absolute;left:0;right:0;top:0;height:100%;background:
+          radial-gradient(ellipse 50% 3% at 50% 34%, rgba(40,28,20,.38) 0%, rgba(40,28,20,0) 100%),
+          linear-gradient(#4a2f1f,#4a2f1f) 50% 31.5%/56% 1.6% no-repeat,
+          linear-gradient(#d6c9b0,#d6c9b0) 50% 30%/58% 2.6% no-repeat,
+          linear-gradient(#cdbfa6,#cdbfa6) 50% 26%/54% 5% no-repeat,
+          repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(70,50,35,.4) 24.6% 25.4%) 0 9%/100% 22% no-repeat,
+          radial-gradient(ellipse 60% 14% at 62% 20%, rgba(230,236,180,.6), rgba(230,236,180,0) 70%),
+          linear-gradient(90deg, rgba(40,28,20,.6) 0%, rgba(40,28,20,0) 24%, rgba(40,28,20,0) 78%, rgba(40,28,20,.5) 100%),
+          linear-gradient(180deg, #46321f 0%, #5a4332 7%, #d7d8b8 10%, #b4bf8c 17%, #8a9a62 24%, #6d7b48 30%, #7a5a40 32%, #5b4132 48%, #382820 100%);"></div></div>
+    <div class="shade" style="position:absolute;top:-10%;bottom:-10%;left:-30%;width:160%;pointer-events:none;background:linear-gradient(110deg, rgba(255,240,205,0) 32%, rgba(255,240,205,0) 38%, rgba(255,240,205,.30) 47%, rgba(255,240,205,.12) 54%, rgba(255,240,205,0) 62%)"></div>
+  </div>
+  <div style="position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top, rgba(46,33,26,.95), rgba(46,33,26,.7) 45%, rgba(46,33,26,0));pointer-events:none"></div>
+  <h1 style="position:absolute;left:20px;right:20px;bottom:32px;margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:52px;line-height:1;font-weight:300;letter-spacing:-.02em;color:#F7F2EA">Lilim House</h1>
+</section>
+
+<section style="padding:48px 20px 0;box-sizing:border-box">
+  <dl style="margin:0">
+    <div style="display:grid;grid-template-columns:96px minmax(0, 1fr);gap:16px;border-top:1px solid #D3C4B1;padding:16px 0"><dt style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A;padding-top:4px">Location</dt><dd style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">Antipolo, Rizal</dd></div>
+    <div style="display:grid;grid-template-columns:96px minmax(0, 1fr);gap:16px;border-top:1px solid #D3C4B1;padding:16px 0"><dt style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A;padding-top:4px">Type</dt><dd style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">Residential, family house</dd></div>
+    <div style="display:grid;grid-template-columns:96px minmax(0, 1fr);gap:16px;border-top:1px solid #D3C4B1;padding:16px 0"><dt style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A;padding-top:4px">Floor area</dt><dd style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">320 sqm</dd></div>
+    <div style="display:grid;grid-template-columns:96px minmax(0, 1fr);gap:16px;border-top:1px solid #D3C4B1;padding:16px 0"><dt style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A;padding-top:4px">Service</dt><dd style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400"><a href="#" class="lnk" style="">Full-Service Furnishing <span class="arr" aria-hidden="true" style="font-size:15px">→</span></a></dd></div>
+    <div style="display:grid;grid-template-columns:96px minmax(0, 1fr);gap:16px;border-top:1px solid #D3C4B1;padding:16px 0"><dt style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A;padding-top:4px">Year</dt><dd style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">2025</dd></div>
+    <div style="display:grid;grid-template-columns:96px minmax(0, 1fr);gap:16px;border-top:1px solid #D3C4B1;padding:16px 0"><dt style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#6A584A;padding-top:4px">Scope</dt><dd style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">Living, dining, four bedrooms, covered terrace</dd></div>
+  </dl>
+</section>
+
+<section style="padding:96px 20px 0;box-sizing:border-box">
+  <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">The brief</h2>
+  <p style="margin:16px 0 0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:-.015em">A family of five moved into a newly built hillside house with deep eaves and large openings. They wanted rooms that stay cool and calm and that hold up to children.</p>
+</section>
+
+<section style="padding:96px 20px 96px;box-sizing:border-box">
+  <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400">The approach</h2>
+  <p style="margin:16px 0 0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.4;font-weight:300">The house faces the valley and has deep eaves, so the rooms stay shaded and cool. We kept furniture low and left clear sightlines to the garden from the living room, the dining room, and the terrace. Cane panels and open weaves let air move through the house without fans running all day.</p>
+  <div style="margin-top:40px;display:flex;flex-direction:column;gap:32px">
+    <div role="img" aria-label="A clear sightline through open doors from the living room to the garden" class="" style="position:relative;overflow:hidden;aspect-ratio:4 / 5;border-radius:2px;background:#8a7a5f;width:100%"><div class="par" style="position:absolute;left:0;right:0;top:-9%;height:118%;background:
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(236,240,190,0.55) 0%,rgba(236,240,190,0) 70%) 50.00% 33.33%/32% 22% no-repeat,
+          linear-gradient(rgba(60,44,30,.0),rgba(60,44,30,.0)) 50.00% 17.65%/72% 66% no-repeat,
+          linear-gradient(90deg,rgba(0,0,0,0) 0 48%,rgba(70,50,35,.45) 48% 52%,rgba(0,0,0,0) 52% 100%) 50.00% 41.67%/56% 52% no-repeat,
+          linear-gradient(#dfe3c4,#8a9a62) 50.00% 42.86%/48% 44% no-repeat,
+          linear-gradient(#6a5440,#6a5440) 50.00% 39.13%/60% 54% no-repeat,
+          linear-gradient(#e0d6c2,#e0d6c2) 50.00% 31.58%/68% 62% no-repeat,
+          linear-gradient(#5a4332,#5a4332) 50.00% 26.67%/80% 70% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.45) 0%,rgba(30,20,14,0) 72%) 50.00% 80.85%/64% 6% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 50.00% 71.72%/40% 2.4% no-repeat,
+          linear-gradient(#d3c5ab,#c6b79b) 50.00% 67.39%/32% 8% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.55) 0%,rgba(40,28,20,0) 28%,rgba(40,28,20,0) 72%,rgba(40,28,20,.5) 100%),
+          linear-gradient(180deg,#46321f 0%,#5a4332 6%,#cfc3ac 10%,#bfb398 70%,#8a6a4c 72%,#5b4132 100%);"></div></div>
+    <div role="img" aria-label="Cane weave in raking window light" class="" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:#a78a5e;width:72%;align-self:flex-end"><div class="par" style="position:absolute;left:0;right:0;top:-9%;height:118%;background:
+          linear-gradient(200deg, rgba(40,28,20,0) 40%, rgba(40,28,20,.5) 100%),
+          radial-gradient(ellipse 80% 40% at 20% 8%, rgba(255,244,214,.55), rgba(255,244,214,0) 70%),
+          linear-gradient(112deg, rgba(0,0,0,0) 26%, rgba(255,244,214,.4) 26% 50%, rgba(0,0,0,0) 50%),
+          repeating-linear-gradient(45deg, rgba(90,62,38,.45) 0 2px, rgba(0,0,0,0) 2px 12px),
+          repeating-linear-gradient(-45deg, rgba(90,62,38,.45) 0 2px, rgba(0,0,0,0) 2px 12px),
+          radial-gradient(ellipse 70% 80% at 40% 35%, #d6bf93, #a78a5e 85%);"></div></div>
+  </div>
+</section>
+
+<section class="gw-track">
+  <div class="gw-pin">
+    <div class="gw">
+      <div class="gw-i"><div role="img" aria-label="Lilim House dining room with the table in the middle of the plan, afternoon light" class="" style="position:relative;overflow:hidden;aspect-ratio:auto;border-radius:2px;background:#d3c8b0;position:absolute;left:0;right:0;top:0;bottom:0;border-radius:0"><div class="im" style="position:absolute;left:0;right:0;top:0;height:100%;background:
+          linear-gradient(112deg,rgba(255,240,205,0) 14%,rgba(255,240,205,.34) 30%,rgba(255,240,205,.14) 48%,rgba(255,240,205,0) 62%),
+          radial-gradient(ellipse 50% 50% at 50% 50%, #c08a5a 0%,#8a5a38 76%,rgba(138,90,56,0) 78%) 80.42% 25.58%/5.5% 14% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 80.10% 20.92%/4.5% 2% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 97.06% 84.21%/32% 5% no-repeat,
+          linear-gradient(#8a5a38,#64402a) 94.44% 64.29%/28% 44% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 78.65% 60.61%/11% 34% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 78.65% 60.61%/11% 34% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 94.38% 60.61%/11% 34% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 94.38% 60.61%/11% 34% no-repeat,
+          linear-gradient(#3f2616,#3f2616) 81.99% 64.29%/0.6% 44% no-repeat,
+          linear-gradient(#9a6844,#7a5236) 95.71% 34.84%/30% 2.4% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 5.00% 85.11%/60% 6% no-repeat,
+          linear-gradient(#a8744a,#8a5a36) 0.00% 68.39%/62% 3.5% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 4.10% 80.81%/2.4% 14% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #c9ad7e 0%,#9a7a52 74%,rgba(154,122,82,0) 76%) 55.56% 47.50%/10% 20% no-repeat,
+          linear-gradient(#e8e0cd,#d4cab2) 16.67% 14.81%/40% 46% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.4) 0%,rgba(40,28,20,0) 22%,rgba(40,28,20,0) 80%,rgba(40,28,20,.35) 100%),
+          linear-gradient(180deg,#e0d6c2 0%,#d3c8b0 74%,#8a6a4c 76%,#5b4132 100%);"></div></div></div>
+      <div style="position:absolute;left:0;right:0;bottom:0;height:80%;background:linear-gradient(to top, rgba(46,33,26,.95), rgba(46,33,26,.82) 50%, rgba(46,33,26,0))"></div>
+      <p class="gw-t" style="margin:0;font-size:17px;line-height:1.6;font-weight:400">A family of five uses every room, so we chose pieces that can take it. Linen covers come off and wash. Wool rugs hide wear. Solid mahogany can be refinished when it marks. We placed the dining table in the middle of the plan because the family eats together there every day.</p>
+    </div>
+  </div>
+</section>
+
+<section class="gal-track" style="padding:96px 0 0;box-sizing:border-box">
+  <h2 class="sr">Gallery</h2>
+  <div class="gal-pin"><div class="gal-row">
+    <figure style="margin:0;width:300px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:3 / 2;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#46321f,#5a4332) 0.00% 0.00%/100% 7% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 16.07% 81.72%/44% 7% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 73.17% 81.05%/18% 5% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #d1b27c 0%,#a58557 74%,rgba(165,133,87,0) 76%) 70.59% 71.79%/15% 22% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.4) 0 2px,rgba(0,0,0,0) 2px 7px) 70.59% 71.79%/15% 22% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.4) 0 2px,rgba(0,0,0,0) 2px 7px) 70.59% 71.79%/15% 22% no-repeat,
+          linear-gradient(#3a2518,#3a2518) 62.50% 80.00%/0.8% 5% no-repeat,
+          linear-gradient(#3a2518,#3a2518) 72.58% 80.00%/0.8% 5% no-repeat,
+          linear-gradient(#4a2f1f,#3a2518) 19.35% 74.80%/38% 2.4% no-repeat,
+          linear-gradient(#dcd0b8,#cdbfa6) 17.24% 70.65%/42% 8% no-repeat,
+          linear-gradient(#d3c5ab,#c6b79b) 18.33% 60.47%/40% 14% no-repeat,
+          linear-gradient(#c9bba0,#c9bba0) 8.85% 68.24%/4% 15% no-repeat,
+          linear-gradient(#c9bba0,#c9bba0) 51.56% 68.24%/4% 15% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,240,205,0.35) 0%,rgba(255,240,205,0) 70%) 93.33% 88.37%/40% 14% no-repeat,
+          repeating-linear-gradient(90deg,rgba(0,0,0,0) 0 32%,rgba(70,50,35,.5) 32% 34%) 94.12% 20.00%/32% 60% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(230,236,180,0.6) 0%,rgba(230,236,180,0) 70%) 92.31% 18.18%/22% 34% no-repeat,
+          linear-gradient(#dfe3c4,#8a9a62) 94.12% 20.00%/32% 60% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.4) 0%,rgba(40,28,20,0) 22%,rgba(40,28,20,0) 80%,rgba(40,28,20,.35) 100%),
+          linear-gradient(180deg,#e3d9c6 0%,#d9cdb7 71%,#8a6a4c 73%,#5b4132 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Living room.</span> The Silong Sofa and Dapithapon Lounge Chair sit low beside the open terrace doors.</figcaption>
+    </figure>
+    <figure style="margin:0;width:240px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:3 / 4;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#46321f,#5a4332) 0.00% 0.00%/100% 6% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.55) 0%,rgba(30,20,14,0) 72%) 42.86% 82.98%/44% 6% no-repeat,
+          repeating-linear-gradient(112deg,rgba(120,110,95,.28) 0 1px,rgba(0,0,0,0) 1px 22px) 43.33% 65.97%/40% 4.5% no-repeat,
+          linear-gradient(#ebe3d4,#d8cebb) 43.33% 65.97%/40% 4.5% no-repeat,
+          linear-gradient(#5a3820,#3f2616) 29.17% 74.18%/4% 9% no-repeat,
+          linear-gradient(#5a3820,#3f2616) 62.50% 74.18%/4% 9% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 43.75% 69.59%/36% 3% no-repeat,
+          linear-gradient(#d3c5ab,#c3b498) 50.00% 46.51%/84% 14% no-repeat,
+          linear-gradient(#4a2f1f,#3a2518) 50.00% 56.84%/84% 5% no-repeat,
+          repeating-linear-gradient(90deg,rgba(90,76,56,.18) 0 1px,rgba(0,0,0,0) 1px 6px) 50.00% 92.11%/92% 24% no-repeat,
+          linear-gradient(#cdbfa6,#bfae92) 50.00% 92.11%/92% 24% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,240,205,0.35) 0%,rgba(255,240,205,0) 70%) 80.00% 13.33%/50% 40% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.4) 0%,rgba(40,28,20,0) 22%,rgba(40,28,20,0) 80%,rgba(40,28,20,.35) 100%),
+          linear-gradient(180deg,#e3d9c6 0%,#d9cdb7 71%,#8a6a4c 73%,#5b4132 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Living room.</span> The Batis Coffee Table and Lambot Wool Rug under the shaded eaves.</figcaption>
+    </figure>
+    <figure style="margin:0;width:240px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:4 / 5;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,244,214,0.8) 0%,rgba(255,244,214,0) 70%) 51.43% 6.06%/30% 34% no-repeat,
+          linear-gradient(#6A584A,#6A584A) 50.18% 0.00%/0.35% 18% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #f1e6c9 0%,#c9b98f 80%,rgba(201,185,143,0) 82%) 50.00% 18.48%/14% 8% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 50.00% 81.91%/72% 6% no-repeat,
+          linear-gradient(#a8744a,#8a5a36) 50.00% 58.76%/72% 3% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 17.38% 72.29%/2.2% 17% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 82.62% 72.29%/2.2% 17% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #c9ad7e 0%,#9a7a52 74%,rgba(154,122,82,0) 76%) 24.44% 66.67%/10% 13% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.4) 0 2px,rgba(0,0,0,0) 2px 6px) 24.44% 66.67%/10% 13% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.4) 0 2px,rgba(0,0,0,0) 2px 6px) 24.44% 66.67%/10% 13% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #c9ad7e 0%,#9a7a52 74%,rgba(154,122,82,0) 76%) 51.11% 66.67%/10% 13% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.4) 0 2px,rgba(0,0,0,0) 2px 6px) 51.11% 66.67%/10% 13% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.4) 0 2px,rgba(0,0,0,0) 2px 6px) 51.11% 66.67%/10% 13% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #c9ad7e 0%,#9a7a52 74%,rgba(154,122,82,0) 76%) 75.56% 66.67%/10% 13% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.4) 0 2px,rgba(0,0,0,0) 2px 6px) 75.56% 66.67%/10% 13% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.4) 0 2px,rgba(0,0,0,0) 2px 6px) 75.56% 66.67%/10% 13% no-repeat,
+          linear-gradient(#e8e0cd,#d6ccb4) 12.90% 22.58%/38% 38% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,246,222,0.5) 0%,rgba(255,246,222,0) 70%) 0.00% 20.00%/50% 50% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.35),rgba(40,28,20,0) 22%,rgba(40,28,20,0) 80%,rgba(40,28,20,.3)),
+          linear-gradient(180deg,#e0d6c2 0%,#d3c8b0 72%,#8a6a4c 74%,#5b4132 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Dining room.</span> The Hapag Dining Table with six Hain Dining Chairs and a Kapis Pendant above.</figcaption>
+    </figure>
+    <figure style="margin:0;width:300px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:3 / 2;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(112deg,rgba(255,240,205,0) 14%,rgba(255,240,205,.34) 30%,rgba(255,240,205,.14) 48%,rgba(255,240,205,0) 62%),
+          radial-gradient(ellipse 50% 50% at 50% 50%, #c08a5a 0%,#8a5a38 76%,rgba(138,90,56,0) 78%) 80.42% 25.58%/5.5% 14% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 80.10% 20.92%/4.5% 2% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 97.06% 84.21%/32% 5% no-repeat,
+          linear-gradient(#8a5a38,#64402a) 94.44% 64.29%/28% 44% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 78.65% 60.61%/11% 34% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 78.65% 60.61%/11% 34% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 94.38% 60.61%/11% 34% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 94.38% 60.61%/11% 34% no-repeat,
+          linear-gradient(#3f2616,#3f2616) 81.99% 64.29%/0.6% 44% no-repeat,
+          linear-gradient(#9a6844,#7a5236) 95.71% 34.84%/30% 2.4% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 5.00% 85.11%/60% 6% no-repeat,
+          linear-gradient(#a8744a,#8a5a36) 0.00% 68.39%/62% 3.5% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 4.10% 80.81%/2.4% 14% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #c9ad7e 0%,#9a7a52 74%,rgba(154,122,82,0) 76%) 55.56% 47.50%/10% 20% no-repeat,
+          linear-gradient(#e8e0cd,#d4cab2) 16.67% 14.81%/40% 46% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.4) 0%,rgba(40,28,20,0) 22%,rgba(40,28,20,0) 80%,rgba(40,28,20,.35) 100%),
+          linear-gradient(180deg,#e0d6c2 0%,#d3c8b0 74%,#8a6a4c 76%,#5b4132 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Dining room.</span> Afternoon light across the table, with a Tapayan Vessel on the Aparador Cabinet.</figcaption>
+    </figure>
+    <figure style="margin:0;width:300px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:3 / 2;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 46.67% 86.17%/70% 6% no-repeat,
+          linear-gradient(#e8dfcc,#d6ccb2) 50.00% 74.16%/64% 11% no-repeat,
+          linear-gradient(#8a5a38,#64402a) 50.00% 78.72%/68% 6% no-repeat,
+          linear-gradient(#f0e9d8,#f0e9d8) 23.26% 66.32%/14% 5% no-repeat,
+          linear-gradient(#f0e9d8,#f0e9d8) 44.19% 66.32%/14% 5% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.45) 0 2px,rgba(0,0,0,0) 2px 8px) 50.00% 46.88%/60% 36% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.45) 0 2px,rgba(0,0,0,0) 2px 8px) 50.00% 46.88%/60% 36% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #d1b27c 0%,#a58557 90%,rgba(165,133,87,0) 100%) 50.00% 46.88%/60% 36% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 50.00% 28.69%/64% 2.4% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(230,236,180,0.55) 0%,rgba(230,236,180,0) 70%) 102.56% 16.67%/22% 40% no-repeat,
+          repeating-linear-gradient(90deg,rgba(0,0,0,0) 0 48%,rgba(70,50,35,.5) 48% 52%) 97.62% 19.23%/16% 48% no-repeat,
+          linear-gradient(#dfe3c4,#7d8a55) 97.62% 19.23%/16% 48% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.4),rgba(40,28,20,0) 20%,rgba(40,28,20,0) 82%,rgba(40,28,20,.3)),
+          linear-gradient(180deg,#e3d9c6 0%,#d9cdb7 76%,#8a6a4c 78%,#5b4132 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Main bedroom.</span> The Himlay Bed with oat linen and a view of the hillside.</figcaption>
+    </figure>
+    <figure style="margin:0;width:240px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:3 / 4;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 10.00% 86.32%/40% 5% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 90.00% 86.32%/40% 5% no-repeat,
+          linear-gradient(#e6dcc4,#d3c7a8) 12.50% 74.73%/36% 9% no-repeat,
+          linear-gradient(#8a5a38,#64402a) 10.00% 78.95%/40% 5% no-repeat,
+          linear-gradient(#f0e9d8,#f0e9d8) 11.11% 67.37%/10% 5% no-repeat,
+          linear-gradient(#d8b8a0,#c4a086) 87.50% 74.73%/36% 9% no-repeat,
+          linear-gradient(#8a5a38,#64402a) 90.00% 78.95%/40% 5% no-repeat,
+          linear-gradient(#f0e9d8,#f0e9d8) 88.89% 67.37%/10% 5% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(230,236,180,0.55) 0%,rgba(230,236,180,0) 70%) 50.00% 19.35%/24% 38% no-repeat,
+          repeating-linear-gradient(90deg,rgba(0,0,0,0) 0 48%,rgba(70,50,35,.5) 48% 52%) 50.00% 23.33%/18% 40% no-repeat,
+          linear-gradient(#dfe3c4,#8a9a62) 50.00% 23.33%/18% 40% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(236,220,180,.4) 0%,rgba(236,220,180,0) 72%) 50.00% 92.22%/40% 10% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.4) 0%,rgba(40,28,20,0) 22%,rgba(40,28,20,0) 80%,rgba(40,28,20,.35) 100%),
+          linear-gradient(180deg,#e3d9c6 0%,#d9cdb7 76%,#8a6a4c 78%,#5b4132 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Second bedroom.</span> A shared room for two children, with washable linen covers.</figcaption>
+    </figure>
+    <figure style="margin:0;width:240px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:3 / 4;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.5) 0%,rgba(30,20,14,0) 72%) 96.67% 94.74%/40% 5% no-repeat,
+          linear-gradient(#8a5a38,#64402a) 88.24% 72.22%/32% 64% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 70.45% 65.22%/12% 54% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 70.45% 65.22%/12% 54% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 88.64% 65.22%/12% 54% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 6px) 88.64% 65.22%/12% 54% no-repeat,
+          linear-gradient(#3f2616,#3f2616) 76.61% 72.22%/0.8% 64% no-repeat,
+          linear-gradient(#9a6844,#7a5236) 89.39% 24.59%/34% 2.4% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(236,240,190,0.7) 0%,rgba(236,240,190,0) 70%) 13.33% 25.00%/40% 44% no-repeat,
+          linear-gradient(#f1ecd9,#cfd2a8) 19.44% 39.29%/28% 44% no-repeat,
+          linear-gradient(#cfc3ac,#bdb094) 7.41% 35.29%/46% 66% no-repeat,
+          linear-gradient(90deg,rgba(40,28,20,.55) 0%,rgba(40,28,20,.0) 30%,rgba(40,28,20,0) 76%,rgba(40,28,20,.4) 100%),
+          linear-gradient(180deg,#46321f 0%,#5a4332 5%,#d9cdb7 9%,#cdbfa6 72%,#8a6a4c 74%,#5b4132 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Hallway.</span> The Aparador Cabinet with cane door panels that let air through.</figcaption>
+    </figure>
+    <figure style="margin:0;width:300px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:4 / 3;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#3a2a20,#3a2a20) 50% 54%/52% 2.5% no-repeat,
+          linear-gradient(#5a4030,#5a4030) 30% 58%/3% 8% no-repeat,
+          linear-gradient(#5a4030,#5a4030) 70% 58%/3% 8% no-repeat,
+          radial-gradient(ellipse 50% 40% at 60% 28%, rgba(226,232,180,.55), rgba(226,232,180,0) 70%),
+          linear-gradient(90deg, rgba(40,28,20,.45) 0%, rgba(40,28,20,0) 25%, rgba(40,28,20,0) 80%, rgba(40,28,20,.35) 100%),
+          linear-gradient(180deg, #3f3a24 0%, #6f7d4a 14%, #9aa86e 28%, #7d8a55 42%, #8a6a4c 50%, #6b4c38 68%, #3f2d22 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Covered terrace.</span> A bench and low seating facing the garden.</figcaption>
+    </figure>
+    <figure style="margin:0;width:260px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 10px) 0.00% 0.00%/36% 100% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 10px) 0.00% 0.00%/36% 100% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #d6bf93 0%,#a78a5e 100%) 0.00% 0.00%/36% 100% no-repeat,
+          repeating-linear-gradient(92deg,rgba(40,20,10,.35) 0 2px,rgba(0,0,0,0) 2px 11px) 54.55% 0.00%/34% 100% no-repeat,
+          linear-gradient(#7a4a2c,#5a3820) 54.55% 0.00%/34% 100% no-repeat,
+          linear-gradient(118deg,rgba(0,0,0,0) 40%,rgba(120,110,95,.3) 41% 42%,rgba(0,0,0,0) 43% 100%) 100.00% 0.00%/30% 100% no-repeat,
+          linear-gradient(#ebe3d4,#d8cebb) 100.00% 0.00%/30% 100% no-repeat,
+          linear-gradient(200deg,rgba(40,28,20,0) 40%,rgba(40,28,20,.35) 100%),
+          radial-gradient(ellipse 80% 40% at 20% 8%,rgba(255,244,214,.45),rgba(255,244,214,0) 70%),
+          #a78a5e;"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Living room.</span> A close view of cane, mahogany, and honed marble.</figcaption>
+    </figure>
+    <figure style="margin:0;width:300px;flex:none">
+      <div aria-hidden="true" style="position:relative;overflow:hidden;aspect-ratio:16 / 9;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(72deg,rgba(32,44,24,.75) 0 5px,rgba(0,0,0,0) 5px 17px) 0 100%/26% 60% no-repeat,
+          repeating-linear-gradient(-72deg,rgba(32,44,24,.7) 0 5px,rgba(0,0,0,0) 5px 17px) 100% 100%/24% 56% no-repeat,
+          linear-gradient(#3a2a20,#2e211a) 50.00% 39.58%/80% 4% no-repeat,
+          linear-gradient(#4a3626,#4a3626) 50.00% 37.24%/84% 2% no-repeat,
+          repeating-linear-gradient(90deg,rgba(0,0,0,0) 0 14%,rgba(60,44,30,.85) 14% 16%) 50.00% 59.46%/72% 26% no-repeat,
+          linear-gradient(#f0e0b8,#c9b585) 50.00% 59.46%/72% 26% no-repeat,
+          linear-gradient(#e8dfcc,#d6ccb2) 50.00% 60.00%/80% 30% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,0.45) 0%,rgba(30,20,14,0) 72%) 50.00% 73.68%/80% 5% no-repeat,
+          linear-gradient(#6f7d4a,#3f4a2c) 0.00% 100.00%/100% 34% no-repeat,
+          linear-gradient(#7d8a55,#6f7d4a) 0.00% 65.00%/100% 20% no-repeat,
+          linear-gradient(#9aa86e,#7d8a55) 0.00% 50.00%/100% 20% no-repeat,
+          linear-gradient(180deg,#e9e2cf 0%,#dcd6bd 36%,#c4cc9a 100%);"></div></div>
+      <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:#6A584A"><span style="font-weight:500;color:#2E211A">Exterior.</span> The house on its hillside, with deep eaves and large openings.</figcaption>
+    </figure>
+  </div></div>
+</section>
+
+<section style="padding:96px 20px 0;box-sizing:border-box">
+  <h2 class="rv" style="margin:0 0 32px;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Material palette</h2>
+  <ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:32px 16px">
+    <li><div role="img" aria-label="Plantation mahogany swatch" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(92deg,rgba(30,14,6,.38) 0 2px,rgba(0,0,0,0) 2px 9px) 0.00% 0.00%/100% 100% no-repeat,
+          repeating-linear-gradient(88deg,rgba(0,0,0,0) 0 30px,rgba(30,14,6,.22) 46px,rgba(0,0,0,0) 70px) 0.00% 0.00%/100% 100% no-repeat,
+          radial-gradient(ellipse 80% 50% at 25% 8%,rgba(255,220,180,.25),rgba(255,220,180,0) 70%),
+          linear-gradient(180deg,#7a4a2c,#5a3820);"></div></div><div style="margin-top:12px;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Plantation mahogany</div></li>
+    <li><div role="img" aria-label="Cane swatch" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 70% 40% at 25% 8%,rgba(255,244,214,.45),rgba(255,244,214,0) 70%),
+          repeating-linear-gradient(45deg,rgba(90,62,38,.5) 0 2px,rgba(0,0,0,0) 2px 10px),
+          repeating-linear-gradient(-45deg,rgba(90,62,38,.5) 0 2px,rgba(0,0,0,0) 2px 10px),
+          radial-gradient(ellipse 70% 80% at 40% 35%,#d6bf93,#a78a5e 85%);"></div></div><div style="margin-top:12px;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Cane</div></li>
+    <li><div role="img" aria-label="Oat linen swatch" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(0deg,rgba(120,100,70,.18) 0 1px,rgba(0,0,0,0) 1px 4px),
+          repeating-linear-gradient(90deg,rgba(120,100,70,.16) 0 1px,rgba(0,0,0,0) 1px 5px),
+          linear-gradient(120deg,rgba(255,246,222,.35) 0 14%,rgba(255,246,222,0) 44%),
+          linear-gradient(180deg,#dccdae,#cdbd9a);"></div></div><div style="margin-top:12px;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Oat linen</div></li>
+    <li><div role="img" aria-label="Wool swatch" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(circle at 50% 50%,rgba(90,76,56,.34) 0 1px,rgba(0,0,0,0) 1.6px) 0 0/6px 6px,
+          radial-gradient(circle at 50% 50%,rgba(255,250,235,.4) 0 1px,rgba(0,0,0,0) 1.6px) 3px 3px/6px 6px,
+          linear-gradient(120deg,rgba(255,246,222,.25) 0 14%,rgba(255,246,222,0) 44%),
+          linear-gradient(180deg,#d4c8b2,#c3b69c);"></div></div><div style="margin-top:12px;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Wool</div></li>
+    <li><div role="img" aria-label="Honed Romblon marble swatch" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(116deg,rgba(0,0,0,0) 38%,rgba(120,110,95,.34) 39% 39.6%,rgba(0,0,0,0) 40.6% 100%) 0.00% 0.00%/100% 100% no-repeat,
+          linear-gradient(64deg,rgba(0,0,0,0) 60%,rgba(120,110,95,.22) 60.6% 61.2%,rgba(0,0,0,0) 62% 100%) 0.00% 0.00%/100% 100% no-repeat,
+          radial-gradient(ellipse 70% 50% at 70% 20%,rgba(255,255,250,.55),rgba(255,255,250,0) 70%),
+          radial-gradient(ellipse 60% 40% at 20% 85%,rgba(160,148,128,.35),rgba(160,148,128,0) 70%),
+          linear-gradient(180deg,#ece5d8,#dcd2c0);"></div></div><div style="margin-top:12px;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Honed Romblon marble</div></li>
+    <li><div role="img" aria-label="Unlacquered brass swatch" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;border-radius:2px;background:#cdbd9a"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(90deg,rgba(255,255,255,.07) 0 1px,rgba(0,0,0,.05) 1px 3px),
+          linear-gradient(115deg,rgba(255,236,190,.0) 20%,rgba(255,236,190,.38) 38%,rgba(255,236,190,0) 52%),
+          linear-gradient(160deg,#caa462 0%,#94703f 55%,#b08a50 100%);"></div></div><div style="margin-top:12px;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Unlacquered brass</div></li>
+  </ul>
+</section>
+
+<section class="rm" style="padding:96px 0 0;box-sizing:border-box">
+  <h2 class="rv" style="margin:0 0 24px;padding:0 20px;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Shop the project</h2>
+  <div class="rmscroll">
+    <div style="position:relative;width:920px;margin:0 20px">
+      <div role="img" aria-label="Lilim House long view: a low sofa, stone coffee table, wool rug and cane lounge chair on the left, a dining table with a cane chair under a pendant, a mahogany cabinet with a clay vessel, and the main bedroom bed through a doorway on the right" style="position:relative;overflow:hidden;aspect-ratio:21 / 9;border-radius:2px;background:
+      linear-gradient(90deg, rgba(40,28,20,.5) 0%, rgba(40,28,20,0) 18%, rgba(40,28,20,0) 84%, rgba(40,28,20,.4) 100%),
+      linear-gradient(180deg, #46321f 0%, #5a4332 9%, #d7d8b8 12%, #b4bf8c 28%, #8a9a62 42%, #6d7b48 52%, #7a5a40 56%, #5b4132 72%, #382820 100%);"><div style="position:absolute;left:0%;top:12%;width:52%;height:44%;background:repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(70,50,35,.45) 24.6% 25.4%);"></div><div style="position:absolute;left:24%;top:14%;width:26%;height:30%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(230,236,180,.6), rgba(230,236,180,0) 70%);"></div><div style="position:absolute;left:52%;top:9%;width:48%;height:48%;background:radial-gradient(ellipse 80% 90% at 0% 30%, rgba(255,246,222,.55), rgba(255,246,222,0) 70%), linear-gradient(180deg,#e0d6c2,#d3c8b0);"></div><div style="position:absolute;left:52%;top:55%;width:48%;height:1.4%;background:#a98a6a;"></div><div style="position:absolute;left:3%;top:78%;width:48%;height:12%;background:linear-gradient(#c3b498,#b3a285);border-radius:2px"></div><div style="position:absolute;left:4%;top:70%;width:28%;height:5%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%);"></div><div style="position:absolute;left:6%;top:68%;width:22%;height:2%;background:#4a2f1f;"></div><div style="position:absolute;left:7%;top:52%;width:20%;height:11%;background:linear-gradient(#d3c5ab,#c6b79b);border-radius:2px"></div><div style="position:absolute;left:5.5%;top:62%;width:23%;height:6.5%;background:linear-gradient(#dcd0b8,#cdbfa6);border-radius:2px"></div><div style="position:absolute;left:4.5%;top:57%;width:3%;height:11%;background:#c9bba0;border-radius:2px"></div><div style="position:absolute;left:27%;top:57%;width:3%;height:11%;background:#c9bba0;border-radius:2px"></div><div style="position:absolute;left:31%;top:77%;width:13%;height:4%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%);"></div><div style="position:absolute;left:32%;top:72%;width:11%;height:1.8%;background:linear-gradient(#ece5d6,#d8cebb);"></div><div style="position:absolute;left:32.8%;top:73.8%;width:0.8%;height:4%;background:#4a2f1f;"></div><div style="position:absolute;left:41.4%;top:73.8%;width:0.8%;height:4%;background:#4a2f1f;"></div><div style="position:absolute;left:42%;top:73%;width:10%;height:4%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%);"></div><div style="position:absolute;left:44%;top:72%;width:0.6%;height:4.5%;background:#3a2518;"></div><div style="position:absolute;left:49%;top:72%;width:0.6%;height:4.5%;background:#3a2518;"></div><div style="position:absolute;left:43%;top:55%;width:9%;height:18%;background:repeating-linear-gradient(45deg, rgba(90,62,38,.4) 0 2px, rgba(0,0,0,0) 2px 7px), repeating-linear-gradient(-45deg, rgba(90,62,38,.4) 0 2px, rgba(0,0,0,0) 2px 7px), radial-gradient(ellipse 60% 60% at 40% 30%, #d1b27c, #a58557);border-radius:48% 48% 18% 18%"></div><div style="position:absolute;left:52%;top:77%;width:24%;height:4%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%);"></div><div style="position:absolute;left:54%;top:67%;width:4%;height:9%;background:radial-gradient(ellipse 60% 60% at 40% 30%, #c9ad7e, #9a7a52);border-radius:40% 40% 10% 10%"></div><div style="position:absolute;left:68.5%;top:67%;width:4%;height:9%;background:radial-gradient(ellipse 60% 60% at 40% 30%, #c9ad7e, #9a7a52);border-radius:40% 40% 10% 10%"></div><div style="position:absolute;left:53%;top:65%;width:0.8%;height:12%;background:#4a2f1f;"></div><div style="position:absolute;left:71.5%;top:65%;width:0.8%;height:12%;background:#4a2f1f;"></div><div style="position:absolute;left:52.5%;top:62.5%;width:20.5%;height:2.4%;background:linear-gradient(#a8744a,#8a5a36);border-radius:1px"></div><div style="position:absolute;left:55%;top:30%;width:16%;height:30%;background:radial-gradient(circle at 50% 28%, rgba(255,244,214,.8) 0, rgba(255,244,214,.45) 10%, rgba(255,244,214,.12) 34%, rgba(255,244,214,0) 62%);"></div><div style="position:absolute;left:62.9%;top:9%;width:0.15%;height:27%;background:#6A584A;"></div><div style="position:absolute;left:60.2%;top:35.5%;width:5.6%;height:4.5%;background:radial-gradient(ellipse 60% 70% at 50% 30%, #d3a96a, #94703f);border-radius:50% 50% 8% 8%"></div><div style="position:absolute;left:73%;top:74%;width:13%;height:4%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%);"></div><div style="position:absolute;left:75%;top:69%;width:0.8%;height:5%;background:#3f2616;"></div><div style="position:absolute;left:83.2%;top:69%;width:0.8%;height:5%;background:#3f2616;"></div><div style="position:absolute;left:74%;top:47%;width:10%;height:22.5%;background:linear-gradient(#8a5a38,#64402a);"></div><div style="position:absolute;left:78.9%;top:47%;width:0.2%;height:22.5%;background:#3f2616;"></div><div style="position:absolute;left:73.5%;top:45.4%;width:11%;height:1.8%;background:linear-gradient(#9a6844,#7a5236);"></div><div style="position:absolute;left:77.2%;top:36%;width:3.6%;height:9.4%;background:radial-gradient(ellipse 60% 60% at 40% 30%, #c08a5a, #8a5a38);border-radius:46% 46% 40% 40%"></div><div style="position:absolute;left:78%;top:34.8%;width:2%;height:1.8%;background:#4a2f1f;border-radius:2px"></div><div style="position:absolute;left:87%;top:13%;width:12%;height:60%;background:#3a2a20;"></div><div style="position:absolute;left:88%;top:15%;width:10%;height:56%;background:linear-gradient(180deg,#efe6d4,#d9ccb4);"></div><div style="position:absolute;left:88%;top:17%;width:10%;height:22%;background:radial-gradient(ellipse 60% 60% at 50% 40%, rgba(230,236,180,.7), rgba(230,236,180,0) 72%);"></div><div style="position:absolute;left:87%;top:69%;width:12%;height:4%;background:radial-gradient(ellipse 50% 50% at 50% 50%, rgba(30,20,14,.5), rgba(30,20,14,0) 72%);"></div><div style="position:absolute;left:89%;top:61%;width:9%;height:7%;background:linear-gradient(#e8dfcc,#d6ccb2);"></div><div style="position:absolute;left:88.6%;top:66%;width:9.8%;height:4%;background:linear-gradient(#8a5a38,#64402a);"></div><div style="position:absolute;left:89%;top:46%;width:9%;height:15%;background:repeating-linear-gradient(45deg, rgba(90,62,38,.4) 0 2px, rgba(0,0,0,0) 2px 7px), repeating-linear-gradient(-45deg, rgba(90,62,38,.4) 0 2px, rgba(0,0,0,0) 2px 7px), radial-gradient(ellipse 60% 60% at 40% 30%, #d1b27c, #a58557);"></div><div style="position:absolute;left:88.6%;top:45%;width:9.8%;height:1.4%;background:#4a2f1f;"></div><div class="shade" style="position:absolute;top:-10%;bottom:-10%;left:-30%;width:160%;pointer-events:none;background:linear-gradient(110deg, rgba(255,240,205,0) 32%, rgba(255,240,205,0) 38%, rgba(255,240,205,.22) 47%, rgba(255,240,205,.09) 54%, rgba(255,240,205,0) 62%)"></div></div>
+<a href="#" class="pin p1" aria-label="1, Silong Sofa, Kanlungan Original, ₱186,000, made to order, ready in 10 weeks" style="left:15%;top:58%">1</a>
+<a href="#" class="pin p2" aria-label="2, Dapithapon Lounge Chair, Sulihiya Studio, ₱64,000, made to order, ready in 8 weeks" style="left:47%;top:64%">2</a>
+<a href="#" class="pin p3" aria-label="3, Batis Coffee Table, Marmol Atelier, ₱72,000, made to order, ready in 8 weeks" style="left:35.5%;top:73.5%">3</a>
+<a href="#" class="pin p4" aria-label="4, Hapag Dining Table, Kanlungan Original, ₱178,000, made to order, ready in 12 weeks" style="left:63%;top:66%">4</a>
+<a href="#" class="pin p5" aria-label="5, Hain Dining Chair, Kanlungan Original, ₱24,500, made to order, ready in 8 weeks" style="left:56.3%;top:71%">5</a>
+<a href="#" class="pin p6" aria-label="6, Himlay Bed, Kanlungan Original, ₱142,000, made to order, ready in 12 weeks" style="left:93.5%;top:60%">6</a>
+<a href="#" class="pin p7" aria-label="7, Aparador Cabinet, Kanlungan Original, ₱164,000, made to order, ready in 12 weeks" style="left:79.5%;top:56%">7</a>
+<a href="#" class="pin p8" aria-label="8, Lambot Wool Rug, Kanlungan Original, ₱96,000, made to order, ready in 10 weeks" style="left:22%;top:84%">8</a>
+<a href="#" class="pin p9" aria-label="9, Kapis Pendant, Tanso Lighting Works, ₱32,000, in stock, ships in 3 to 7 business days" style="left:63%;top:30%">9</a>
+<a href="#" class="pin p10" aria-label="10, Tapayan Vessel, Bukal Clayworks, ₱8,600, in stock, ships in 3 to 7 business days" style="left:80%;top:37%">10</a>
+    </div>
+  </div>
+  <ol style="list-style:none;margin:24px 0 0;padding:0 20px;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:32px 16px">
+<li><a href="#" class="card k1" style="display:block">
+      <div role="img" aria-label="Silong Sofa on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#4a2f1f,#3a2518) 50.00% 70.83%/56% 4% no-repeat,
+          linear-gradient(#cdbd9a,#b6a380) 50.00% 73.68%/60% 24% no-repeat,
+          linear-gradient(#d8cba9,#c4b490) 50.00% 46.51%/60% 14% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(46,33,26,.35) 0%,rgba(46,33,26,0) 100%) 50.00% 73.40%/54% 6% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/70% 50% no-repeat,
+          linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 66%,#cdbfa6 66%,#bfae92 100%),
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">1</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Silong Sofa</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱186,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 10 weeks</span></div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k2" style="display:block">
+      <div role="img" aria-label="Dapithapon Lounge Chair on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(45deg,rgba(90,62,38,.35) 0 2px,rgba(0,0,0,0) 2px 9px) 50.00% 48.28%/40% 42% no-repeat,
+          radial-gradient(ellipse 24% 26% at 50% 50%,#d1b27c 0%,#a58557 74%,rgba(165,133,87,0) 76%),
+          linear-gradient(#4a2f1f,#3a2518) 50.00% 72.16%/32% 3% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(46,33,26,.35) 0%,rgba(46,33,26,0) 100%) 50.00% 74.74%/40% 5% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/68% 50% no-repeat,
+          linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 70%,#cdbfa6 70%,#bfae92 100%),
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">2</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Dapithapon Lounge Chair</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱64,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 8 weeks</span></div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k3" style="display:block">
+      <div role="img" aria-label="Batis Coffee Table on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(112deg,rgba(120,110,95,.28) 0 1px,rgba(0,0,0,0) 1px 18px) 50.00% 48.94%/64% 6% no-repeat,
+          linear-gradient(#ece5d6,#d8cebb) 50.00% 48.94%/64% 6% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 25.53% 65.00%/6% 20% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 74.47% 65.00%/6% 20% no-repeat,
+          linear-gradient(#7a4f30,#5a3820) 50.00% 54.17%/52% 4% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(46,33,26,.35) 0%,rgba(46,33,26,0) 100%) 50.00% 74.47%/64% 6% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/68% 50% no-repeat,
+          linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 72%,#cdbfa6 72%,#bfae92 100%),
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">3</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Batis Coffee Table</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱72,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 8 weeks</span></div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k4" style="display:block">
+      <div role="img" aria-label="Hapag Dining Table on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#9a6a44,#7a5236) 50.00% 42.55%/72% 6% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 20.83% 62.50%/4% 28% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 79.17% 62.50%/4% 28% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(46,33,26,.35) 0%,rgba(46,33,26,0) 100%) 50.00% 73.16%/60% 5% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 25.00% 0.00%/60% 50% no-repeat,
+          linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 66%,#cdbfa6 66%,#bfae92 100%),
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">4</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Hapag Dining Table</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱178,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 12 weeks</span></div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k5" style="display:block">
+      <div role="img" aria-label="Hain Dining Chair on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#6b4529,#4a2f1f) 33.68% 50.00%/5% 44% no-repeat,
+          linear-gradient(#7a4f30,#5a3820) 48.48% 29.02%/34% 3.5% no-repeat,
+          linear-gradient(#7a4f30,#5a3820) 48.48% 41.24%/34% 3% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #d1b27c 0%,#a58557 74%,rgba(165,133,87,0) 76%) 51.72% 57.14%/42% 9% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 5px) 51.72% 57.14%/42% 9% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.5) 0 2px,rgba(0,0,0,0) 2px 5px) 51.72% 57.14%/42% 9% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 33.68% 69.77%/5% 14% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 66.32% 69.77%/5% 14% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(46,33,26,.35) 0%,rgba(46,33,26,0) 100%) 51.85% 75.79%/46% 5% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/66% 50% no-repeat,
+          linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 72%,#cdbfa6 72%,#bfae92 100%),
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">5</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Hain Dining Chair</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱24,500</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 8 weeks</span></div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k6" style="display:block">
+      <div role="img" aria-label="Himlay Bed on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#8a5a38,#64402a) 50.00% 65.96%/72% 6% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 16.67% 73.33%/4% 10% no-repeat,
+          linear-gradient(#4a2f1f,#4a2f1f) 83.33% 73.33%/4% 10% no-repeat,
+          linear-gradient(#e8dfcc,#d6ccb2) 47.37% 59.34%/62% 9% no-repeat,
+          linear-gradient(#f0e9d8,#f0e9d8) 23.26% 53.12%/14% 4% no-repeat,
+          repeating-linear-gradient(45deg,rgba(90,62,38,0.45) 0 2px,rgba(0,0,0,0) 2px 7px) 17.50% 34.38%/20% 36% no-repeat,
+          repeating-linear-gradient(-45deg,rgba(90,62,38,0.45) 0 2px,rgba(0,0,0,0) 2px 7px) 17.50% 34.38%/20% 36% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, #d1b27c 0%,#a58557 90%,rgba(165,133,87,0) 100%) 17.50% 34.38%/20% 36% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 16.67% 20.49%/22% 2.4% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(46,33,26,.35) 0%,rgba(46,33,26,0) 100%) 50.00% 77.89%/76% 5% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/70% 50% no-repeat,
+          linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 76%,#cdbfa6 76%,#bfae92 100%),
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">6</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Himlay Bed</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱142,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 12 weeks</span></div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k7" style="display:block">
+      <div role="img" aria-label="Aparador Cabinet on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(90deg,rgba(0,0,0,0) 49.4%,#3f2616 49.4%,#3f2616 50.6%,rgba(0,0,0,0) 50.6%) 18% 30%/64% 42% no-repeat,
+          linear-gradient(#8a5a38,#64402a) 18% 30%/64% 42% no-repeat,
+          linear-gradient(#3f2616,#3f2616) 24.74% 78.26%/3% 8% no-repeat,
+          linear-gradient(#3f2616,#3f2616) 75.26% 78.26%/3% 8% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(46,33,26,.35) 0%,rgba(46,33,26,0) 100%) 50.00% 82.11%/60% 5% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/64% 46% no-repeat,
+          linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 78%,#cdbfa6 78%,#bfae92 100%),
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">7</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Aparador Cabinet</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱164,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 12 weeks</span></div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k8" style="display:block">
+      <div role="img" aria-label="Lambot Wool Rug on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          repeating-linear-gradient(90deg,rgba(90,76,56,.22) 0 1px,rgba(0,0,0,0) 1px 5px) 50.00% 53.12%/72% 36% no-repeat,
+          linear-gradient(#d3c6ad,#c6b99f) 50.00% 52.63%/60% 24% no-repeat,
+          linear-gradient(#b3a285,#a39373) 50.00% 53.12%/72% 36% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(46,33,26,.3) 0%,rgba(46,33,26,0) 100%) 50.00% 73.33%/72% 10% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/70% 50% no-repeat,
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">8</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Lambot Wool Rug</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱96,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">Made to order <span style="font-weight:400;color:#6A584A">· 10 weeks</span></div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k9" style="display:block">
+      <div role="img" aria-label="Kapis Pendant on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 14% 7% at 50% 36%,#c49a5e 0%,#94703f 80%,rgba(148,112,63,0) 82%),
+          radial-gradient(circle at 50% 42%,rgba(255,244,214,.85) 0,rgba(255,244,214,.6) 3%,rgba(255,244,214,.25) 11%,rgba(255,244,214,0) 30%),
+          linear-gradient(#6A584A,#6A584A) 50% 0/1px 33% no-repeat,
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/60% 50% no-repeat,
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">9</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Kapis Pendant</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱32,000</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">In stock</div>
+      </div>
+    </a></li>
+<li><a href="#" class="card k10" style="display:block">
+      <div role="img" aria-label="Tapayan Vessel on a pale warm backdrop" style="position:relative;overflow:hidden;aspect-ratio:1 / 1;background:#E8DFD2;border-radius:2px">
+        <div class="im" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          radial-gradient(ellipse 12% 3% at 50% 42%,#4a2f1f 0%,#4a2f1f 90%,rgba(74,47,31,0) 100%),
+          radial-gradient(ellipse 22% 28% at 50% 58%,#c08a5a 0%,#8a5a38 76%,rgba(138,90,56,0) 78%),
+          radial-gradient(ellipse 30% 4% at 50% 78%,rgba(46,33,26,.35) 0%,rgba(46,33,26,0) 100%),
+          radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,250,235,0.5) 0%,rgba(255,250,235,0) 70%) 0.00% 0.00%/68% 50% no-repeat,
+          linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 76%,#cdbfa6 76%,#bfae92 100%),
+          linear-gradient(to bottom,#ece4d6,#e2d8c6);"></div>
+        <div class="num" style="position:absolute;left:8px;top:8px">10</div>
+      </div>
+      <div style="padding-top:16px">
+        <div style="font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400">Tapayan Vessel</div>
+        <div style="margin-top:8px;font-size:17px;line-height:1.4">₱8,600</div>
+        <div style="margin-top:4px;font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#8E4A2C">In stock</div>
+      </div>
+    </a></li>
+  </ol>
+</section>
+
+<section style="padding:96px 0 0">
+  <div style="padding:0 20px 32px;box-sizing:border-box"><h2 class="rv" style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Next project</h2></div>
+  <div class="dk" style="padding:0 20px;box-sizing:border-box">
+    <a href="#" style="display:block;position:relative;height:520px;overflow:hidden;border-radius:2px;background:#2E211A">
+      <div class="zin" style="position:absolute;left:0;right:0;top:0;bottom:0"><div role="img" aria-label="Tanaw Residence city skyline at dusk through full-height windows, warm lamps inside" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+          linear-gradient(#2a2428,#2a2428) 6.4% 58%/6% 10% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 14.7% 55%/5% 14% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 26.1% 59%/8% 8% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 64.5% 56%/7% 12% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 74.5% 58%/6% 9% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 87.9% 53%/9% 17% no-repeat,
+          radial-gradient(ellipse 10% 9% at 24% 70%, rgba(255,200,120,.65), rgba(255,200,120,0) 70%),
+          radial-gradient(ellipse 10% 9% at 76% 72%, rgba(255,200,120,.6), rgba(255,200,120,0) 70%),
+          repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(40,28,22,.8) 24.6% 25.4%),
+          linear-gradient(180deg, #3a3340 0%, #8b6a62 36%, #d9a374 54%, #7a5a4c 60%, #2e211a 68%, #241a15 100%);"></div></div>
+      <div style="position:absolute;left:0;right:0;bottom:0;height:62%;background:linear-gradient(to top, rgba(46,33,26,.95), rgba(46,33,26,.72) 45%, rgba(46,33,26,0))"></div>
+      <div style="position:absolute;left:24px;right:24px;bottom:28px;color:#F7F2EA">
+        <div style="font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em">Tanaw Residence</div>
+        <div style="margin-top:8px;font-size:15px;line-height:1.5">Bonifacio Global City, Taguig</div>
+        <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Residential</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section style="margin-top:96px;border-top:1px solid #D3C4B1;padding:64px 20px 96px;box-sizing:border-box">
+  <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:-.015em">Tell us about your space.</h2>
+  <p style="margin:16px 0 0;font-size:17px;line-height:1.6">A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000.</p>
+  <a href="#" class="btn-p" style="margin-top:32px;display:flex;align-items:center;justify-content:center;min-height:52px;box-sizing:border-box;background:#8E4A2C;color:#F7F2EA;font-size:15px;line-height:1;font-weight:500;padding:0 24px;border-radius:2px">Book a discovery call</a>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="dk" style="background:#3A2A20;color:#F2ECE3;padding:64px 20px 40px;box-sizing:border-box">
+  <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:40px 24px">
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Studio</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Full-Service Furnishing</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Interior Design Direction</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Projects</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Help</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Delivery and returns</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Care guide</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">FAQ</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Contact</a></li>
+      </ul>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Shop</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:0 24px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Seating</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Tables</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Beds</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Storage</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Lighting</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Rugs and Textiles</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Decor and Objects</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Art</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Collections</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Makers</a></li>
+      </ul>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Mailing list</div>
+      <form action="#" style="margin-top:16px;display:flex;flex-direction:column;gap:12px">
+        <label for="mail-m" style="font-size:15px;line-height:1.5;font-weight:400">Occasional notes on new projects and pieces.</label>
+        <input id="mail-m" type="email" name="email" autocomplete="email" style="width:100%;box-sizing:border-box;height:52px;padding:0 16px;background:#2E211A;border:1px solid #B3A18B;border-radius:2px;color:#F2ECE3;font:400 16px 'Hanken Grotesk',sans-serif">
+        <button type="submit" class="btn-p" style="height:52px;background:#8E4A2C;color:#F7F2EA;border:0;border-radius:2px;font:500 15px 'Hanken Grotesk',sans-serif;cursor:pointer">Subscribe</button>
+      </form>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Showroom</div>
+      <div style="margin-top:16px;display:flex;flex-direction:column;gap:4px;font-size:15px;line-height:1.5;font-weight:400">
+        <div>Makati City, Metro Manila. Open by appointment.</div>
+        <a href="#" style="display:flex;align-items:center;min-height:44px">studio@kanlungan.example</a>
+        <a href="#" style="display:flex;align-items:center;min-height:44px">+63 2 8555 0100</a>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:48px;padding-top:24px;border-top:1px solid #6A584A">
+    <p style="margin:0;font-size:14px;line-height:1.6;font-weight:400;color:#D3C4B1">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
+    <div style="margin-top:12px;display:flex;gap:24px;font-size:14px;line-height:1.5;font-weight:400">
+      <a href="#" style="display:flex;align-items:center;min-height:44px">Privacy</a>
+      <a href="#" style="display:flex;align-items:center;min-height:44px">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":9222}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

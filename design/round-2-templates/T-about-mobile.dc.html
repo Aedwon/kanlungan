@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Template · About mobile</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8E4A2C}
+.dk a:hover{color:#E8C8B0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #8E4A2C;outline-offset:3px}
+.dk a:focus-visible,.dk button:focus-visible,.dk input:focus-visible{outline-color:#F2ECE3}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover .arr{transform:translateX(4px)}
+.btn-p{transition:background-color .2s ease}
+.btn-p:hover{background:#7A3E24!important;color:#F7F2EA!important}
+.btn-l{transition:background-color .2s ease}
+.btn-l:hover{background:#E8DFD2!important;color:#2E211A!important}
+.ib{transition:background-color .2s ease}
+.ib:hover{background:#E8DFD2}
+.shade{animation:shade 12s ease-in-out infinite alternate}
+@keyframes shade{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+.ph{opacity:0;pointer-events:none;transition:opacity .25s ease}
+:hover>.ph{opacity:1}
+.hbw{display:grid;grid-template-columns:1fr;margin-left:0;overflow:hidden;visibility:visible}
+.hbw>a{min-width:0;white-space:nowrap}
+.fld{display:block;width:100%;box-sizing:border-box;background:#F7F2EA;border:1px solid #6A584A;border-radius:2px;font-family:inherit;color:#2E211A}
+.fld:focus-visible{outline:2px solid #2E211A;outline-offset:3px}
+.nv{transition:background-color .2s ease}
+.nv:hover{background:#E8DFD2;color:#2E211A}
+.rl{border-top:1px solid #D3C4B1}
+.dt{opacity:0;transform:translateY(4px);transition:opacity .3s ease,transform .3s ease}
+.card:hover .dt,.card:focus-visible .dt{opacity:1;transform:none}
+.im{transition:filter .4s ease}
+a.card:hover{color:#2E211A}
+.card:hover .im,.card:focus-visible .im{filter:brightness(1.05)}
+.hit{font-weight:500;text-decoration:underline;text-decoration-color:#8E4A2C;text-decoration-thickness:1px;text-underline-offset:4px}
+@keyframes hbOut{from{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}to{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}}
+@keyframes hbBack{from{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}to{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}}
+@keyframes rvIn{from{clip-path:inset(-10% 100% -10% -4%);transform:translateY(16px)}to{clip-path:inset(-10% -10% -10% -10%);transform:none}}
+@keyframes parY{from{transform:translateY(-7%)}to{transform:translateY(7%)}}
+@keyframes zoomIn{from{transform:scale(1.1)}to{transform:scale(1)}}
+@keyframes progX{from{transform:scaleX(.06)}to{transform:scaleX(1)}}
+@keyframes cpar{from{transform:translateY(-5%)}to{transform:translateY(5%)}}
+@keyframes winOpen{from{clip-path:inset(8% var(--wx,22%) 8% var(--wx,22%) round 2px)}to{clip-path:inset(0 0 0 0 round 0)}}
+.stsec{view-timeline:--st block}
+.win-g{clip-path:inset(0 var(--gut,64px) 0 var(--gut,64px) round 2px)}
+@supports (animation-timeline: view()){
+.rv{animation:rvIn linear both;animation-timeline:view();animation-range:entry 0% entry 60%}
+.par{animation:parY linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+.zin{animation:zoomIn linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
+.prog{animation:progX linear both;animation-timeline:view();animation-range:entry 0% cover 50%}
+.cpar{animation:cpar linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+.cta-sec{view-timeline:--cta block}
+}
+@media (prefers-reduced-motion:no-preference){
+@supports (animation-timeline: view()){
+.win-g{animation:winOpen linear both;animation-timeline:view();animation-range:entry 20% cover 38%}
+}
+}
+@media (prefers-reduced-motion: reduce){
+.shade{animation:none}
+.rv,.par,.zin,.prog,.cpar,.win-g,.hbw{animation:none!important}
+.arr,.btn-p,.btn-l,.ib,.ph,.nv,.dt,.im{transition:none}
+.card:hover .im,.card:focus-visible .im{filter:none}
+.dt{transform:none}
+}
+</style>
+</helmet>
+<div style="width:390px;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400;position:relative;overflow-x:clip">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<g id="af2"><path d="M40 22L55 16V46H40ZM60 14L75 8V46H60Z" style="fill:var(--lw)"></path><path d="M40 46H55L34 100H13ZM60 46H75L62 100H41Z" style="fill:var(--lf)"></path></g>
+</defs></svg>
+
+<!-- Header: Afternoon lockup -->
+<header style="position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 8px 0 20px;box-sizing:border-box;background:#F2ECE3;border-bottom:1px solid #D3C4B1">
+  <a href="#" style="display:flex;align-items:center;gap:8px;min-height:44px"><svg viewBox="0 0 100 100" width="32" height="32" style="display:block;--lw:#F2ECE3;--lf:#8E4A2C;border-radius:2px" aria-hidden="true"><rect width="100" height="100" rx="1.92" fill="#3A2A20"></rect><path d="M0 46H100V100H0Z" fill="#000" opacity=".2"></path><use href="#af2"></use></svg><span style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1;font-weight:300;letter-spacing:-.015em;color:#2E211A">Kanlungan</span></a>
+  <div style="display:flex;align-items:center;gap:0">
+    <a href="#" aria-label="Cart, 0 items" style="min-width:44px;height:44px;padding:0 8px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px;line-height:1.5;font-weight:500">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
+      <span>0</span>
+    </a>
+    <button type="button" aria-label="Open menu" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:#2E211A;cursor:pointer">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16"></path><path d="M4 16h16"></path></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<section style="padding:64px 0 0">
+  <div style="padding:0 20px;box-sizing:border-box">
+    <h1 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:52px;line-height:1;font-weight:300;letter-spacing:-.02em;">A studio for rooms that feel like refuge.</h1>
+    <p style="margin:40px 0 0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.15;font-weight:300;letter-spacing:-.015em;">Kanlungan means shelter. It is the feeling we design for.</p>
+    <p style="margin:24px 0 0;font-size:17px;line-height:1.6;font-weight:400;">We started in 2019 with one idea: a home should be the easiest place to be. We work from Makati with a team of twelve, and with workshops from Pampanga to Samar. We furnish homes and small hotels, and we keep a small shop of the pieces we trust.</p>
+  </div>
+  <div style="margin-top:48px"><div class="win-g" style="--wx:12%;--gut:20px;position:relative;overflow:hidden;aspect-ratio:4 / 5;background:#a78a5e"><div role="img" aria-label="A calm studio room with a long table and a pendant in soft daylight" style="position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;border-radius:2px;"><div class="par" style="position:absolute;left:0;right:0;top:-9%;height:118%;background:linear-gradient(#e6dcc6,#d9ccb2) 56% 70%/22% 5% no-repeat,
+          linear-gradient(#3a2a20,#3a2a20) 28% 56%/3% 2% no-repeat,
+          radial-gradient(ellipse 18% 6% at 60% 76%, rgba(46,33,26,.4), rgba(46,33,26,0) 100%),
+          linear-gradient(#9a6a44,#7a5236) 14% 72%/72% 4% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 18% 76%/3% 24% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 79% 76%/3% 24% no-repeat,
+          radial-gradient(ellipse 40% 40% at 70% 20%, rgba(255,246,222,.65), rgba(255,246,222,0) 72%),
+          linear-gradient(90deg, rgba(247,242,226,.5), rgba(247,242,226,0) 55%),
+          linear-gradient(180deg,#e0d6c2 0%,#d3c8b0 66%,#a07c58 68%,#7a5a40 100%)"></div><div class="shade" style="position:absolute;top:-10%;bottom:-10%;left:-30%;width:160%;pointer-events:none;background:linear-gradient(110deg, rgba(255,240,205,0) 32%, rgba(255,240,205,0) 38%, rgba(255,240,205,.22) 47%, rgba(255,240,205,.09) 54%, rgba(255,240,205,0) 62%)"></div></div></div></div>
+</section>
+<section style="padding:96px 20px 0;box-sizing:border-box">
+  <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">How we work</h2>
+  <p style="margin:24px 0 0;font-size:17px;line-height:1.6;font-weight:400;">We keep the studio small on purpose. Every project has one designer who stays with it from the first call to the last cushion. You always know who to ask.</p><p style="margin:20px 0 0;font-size:17px;line-height:1.6;font-weight:400;">We start with the room: its light, its heat, and how you live in it. Then we choose materials and furniture that suit it and last. We visit the workshops that make our pieces, and we name them.</p><p style="margin:20px 0 0;font-size:17px;line-height:1.6;font-weight:400;">We say what a project costs before it begins, and we say what we do not do. We build nothing and renovate nothing. That keeps our attention on what you live with every day.</p>
+  <h2 style="margin:96px 0 0;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">What we believe</h2>
+  <ul style="list-style:none;margin:24px 0 0;padding:0;border-bottom:1px solid #D3C4B1"><li style="padding:20px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">A home should be the easiest place to be.</li><li style="padding:20px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Honest materials age better than finishes that imitate them.</li><li style="padding:20px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Fewer, better pieces make a calmer room.</li><li style="padding:20px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Good work is repaired, not replaced.</li><li style="padding:20px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Makers should be named and paid fairly.</li></ul>
+</section>
+<section style="padding:96px 0 0">
+  <div style="padding:0 20px 32px;box-sizing:border-box">
+    <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">The team</h2>
+    <p style="margin:16px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Twelve people work from our Makati studio.</p>
+  </div>
+  <div class="win-g" style="--wx:12%;--gut:20px;position:relative;overflow:hidden;aspect-ratio:4 / 3;background:#a78a5e"><div role="img" aria-label="The Kanlungan team of twelve gathered around a long table in the studio" style="position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;border-radius:2px;"><div class="par" style="position:absolute;left:0;right:0;top:-9%;height:118%;background:radial-gradient(ellipse 3% 7% at 22% 49%, #3a2a20 0%, #3a2a20 70%, rgba(58,42,32,0) 74%),
+          radial-gradient(ellipse 5% 20% at 22% 66%, #4a382b 0%, #4a382b 70%, rgba(74,56,43,0) 74%),
+          radial-gradient(ellipse 3% 7% at 34% 47%, #3a2a20 0%, #3a2a20 70%, rgba(58,42,32,0) 74%),
+          radial-gradient(ellipse 5% 21% at 34% 65%, #6a584a 0%, #6a584a 70%, rgba(106,88,74,0) 74%),
+          radial-gradient(ellipse 3% 7% at 46% 48%, #3a2a20 0%, #3a2a20 70%, rgba(58,42,32,0) 74%),
+          radial-gradient(ellipse 5% 21% at 46% 66%, #4a382b 0%, #4a382b 70%, rgba(74,56,43,0) 74%),
+          radial-gradient(ellipse 3% 7% at 58% 47%, #3a2a20 0%, #3a2a20 70%, rgba(58,42,32,0) 74%),
+          radial-gradient(ellipse 5% 21% at 58% 65%, #8a7a5f 0%, #8a7a5f 70%, rgba(138,122,95,0) 74%),
+          radial-gradient(ellipse 3% 7% at 70% 49%, #3a2a20 0%, #3a2a20 70%, rgba(58,42,32,0) 74%),
+          radial-gradient(ellipse 5% 20% at 70% 66%, #4a382b 0%, #4a382b 70%, rgba(74,56,43,0) 74%),
+          radial-gradient(ellipse 3% 7% at 80% 51%, #3a2a20 0%, #3a2a20 70%, rgba(58,42,32,0) 74%),
+          radial-gradient(ellipse 5% 19% at 80% 67%, #6a584a 0%, #6a584a 70%, rgba(106,88,74,0) 74%),
+          linear-gradient(#8a5a36,#6a4529) 8% 82%/84% 3% no-repeat,
+          radial-gradient(ellipse 30% 40% at 50% 8%, rgba(255,244,214,.55), rgba(255,244,214,0) 70%),
+          linear-gradient(90deg, rgba(40,28,20,.35) 0%, rgba(40,28,20,0) 22%, rgba(40,28,20,0) 80%, rgba(40,28,20,.3) 100%),
+          linear-gradient(180deg,#e0d6c2 0%,#d3c8b0 70%,#8a6a4c 72%,#5b4132 100%)"></div></div></div>
+  <ul style="list-style:none;margin:32px 0 0;padding:0 20px;box-sizing:border-box;border-bottom:0">
+    <li style="padding:20px 0;border-top:1px solid #D3C4B1">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400;letter-spacing:0;">Design lead</h3><span style="font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">1 person</span></div>
+      <p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Sets the design direction for every project and reviews every plan.</p>
+    </li>
+    <li style="padding:20px 0;border-top:1px solid #D3C4B1">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400;letter-spacing:0;">Interior designers</h3><span style="font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">4 people</span></div>
+      <p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Plan layouts, choose materials, and see each project through.</p>
+    </li>
+    <li style="padding:20px 0;border-top:1px solid #D3C4B1">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400;letter-spacing:0;">Procurement lead</h3><span style="font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">1 person</span></div>
+      <p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Orders every piece and manages makers and lead times.</p>
+    </li>
+    <li style="padding:20px 0;border-top:1px solid #D3C4B1">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400;letter-spacing:0;">Project coordinator</h3><span style="font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">1 person</span></div>
+      <p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Keeps schedules, deliveries, and client questions on track.</p>
+    </li>
+    <li style="padding:20px 0;border-top:1px solid #D3C4B1">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400;letter-spacing:0;">Installation crew</h3><span style="font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">4 people</span></div>
+      <p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Deliver, place, assemble, and style each room.</p>
+    </li>
+    <li style="padding:20px 0;border-top:1px solid #D3C4B1">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.3;font-weight:400;letter-spacing:0;">Studio manager</h3><span style="font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">1 person</span></div>
+      <p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Runs the studio, the showroom, and the shop orders.</p>
+    </li>
+  </ul>
+</section>
+<section style="padding:96px 20px 0;box-sizing:border-box">
+  <div style="position:relative;overflow:hidden;aspect-ratio:4 / 5;border-radius:2px;background:#a78a5e"><div role="img" aria-label="Hands weaving a cane panel on a frame in a workshop" style="position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;border-radius:2px;"><div class="par" style="position:absolute;left:0;right:0;top:-9%;height:118%;background:linear-gradient(90deg, rgba(40,28,20,.5) 0%, rgba(40,28,20,0) 22%, rgba(40,28,20,0) 80%, rgba(40,28,20,.4) 100%),
+          repeating-linear-gradient(45deg, rgba(90,62,38,.5) 0 2px, rgba(0,0,0,0) 2px 9px) 40% 60%/26% 20% no-repeat,
+          repeating-linear-gradient(-45deg, rgba(90,62,38,.5) 0 2px, rgba(0,0,0,0) 2px 9px) 40% 60%/26% 20% no-repeat,
+          radial-gradient(ellipse 14% 12% at 53% 70%, #cfb585, rgba(207,181,133,0) 80%),
+          linear-gradient(#4a2f1f,#3a2518) 36% 80%/34% 3% no-repeat,
+          linear-gradient(#4a2f1f,#3a2518) 38% 83%/2.2% 17% no-repeat,
+          linear-gradient(#4a2f1f,#3a2518) 62.5% 83%/2.2% 17% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 36% 58%/2% 24% no-repeat,
+          linear-gradient(#6b4529,#4a2f1f) 64% 58%/2% 24% no-repeat,
+          repeating-linear-gradient(90deg, rgba(168,138,84,.7) 0 3px, rgba(0,0,0,0) 3px 15px) 8% 0/18% 56% no-repeat,
+          radial-gradient(ellipse 22% 36% at 78% 26%, rgba(255,246,222,.7), rgba(255,246,222,0) 72%),
+          repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(70,50,35,.45) 24.6% 25.4%) 70% 10%/26% 34% no-repeat,
+          linear-gradient(180deg,#d9ccb4 0%,#cbbd9f 62%,#7a5a40 64%,#4a3626 100%)"></div><div class="shade" style="position:absolute;top:-10%;bottom:-10%;left:-30%;width:160%;pointer-events:none;background:linear-gradient(110deg, rgba(255,240,205,0) 32%, rgba(255,240,205,0) 38%, rgba(255,240,205,.22) 47%, rgba(255,240,205,.09) 54%, rgba(255,240,205,0) 62%)"></div></div></div>
+  <h2 style="margin:40px 0 0;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">Made by people we know</h2>
+  <p style="margin:24px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Most of what we sell is made in the Philippines, in small workshops that still cut, weave, and throw by hand. We visit them, and we name them.</p>
+  <ul style="list-style:none;margin:32px 0 0;padding:0;border-bottom:1px solid #D3C4B1">
+      <li><a href="#" style="display:block;min-height:44px;padding:16px 0;border-top:1px solid #D3C4B1">
+        <span style="display:block;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400;letter-spacing:0;">Lilok Workshop</span>
+        <span style="display:block;margin-top:2px;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">Betis, Pampanga · Solid hardwood furniture and carving</span></a></li>
+      <li><a href="#" style="display:block;min-height:44px;padding:16px 0;border-top:1px solid #D3C4B1">
+        <span style="display:block;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400;letter-spacing:0;">Sulihiya Studio</span>
+        <span style="display:block;margin-top:2px;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">Cebu City, Cebu · Rattan and cane seating and objects</span></a></li>
+      <li><a href="#" style="display:block;min-height:44px;padding:16px 0;border-top:1px solid #D3C4B1">
+        <span style="display:block;font-family:'Newsreader',Georgia,serif;font-size:18px;line-height:1.3;font-weight:400;letter-spacing:0;">Tikog Loom</span>
+        <span style="display:block;margin-top:2px;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A;">Basey, Samar · Handwoven mats, rugs, and wall pieces in tikog reed and abaca</span></a></li>
+  </ul>
+  <a href="#" class="lnk" style="display:flex;align-items:center;min-height:48px;margin-top:16px;font-size:15px;line-height:1.5;font-weight:500;">Makers <span class="arr" aria-hidden="true" style="margin-left:8px">→</span></a>
+</section>
+<section style="padding:96px 20px 96px;box-sizing:border-box">
+  <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:36px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">Visit the showroom</h2>
+  <p style="margin:24px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Our studio and showroom are in Makati City. You can see materials, finishes, and a selection of pieces from the shop. We open by appointment so we can give you our full attention.</p>
+  <div style="margin-top:32px;position:relative;overflow:hidden;aspect-ratio:4 / 5;border-radius:2px;background:#a78a5e"><div role="img" aria-label="Material samples on a long table in the Makati showroom" style="position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;border-radius:2px;"><div class="par" style="position:absolute;left:0;right:0;top:-9%;height:118%;background:linear-gradient(#b9a98a,#b9a98a) 14% 58%/6% 10% no-repeat,
+          linear-gradient(#8a5a38,#8a5a38) 22% 58%/6% 10% no-repeat,
+          linear-gradient(#d6c7a8,#d6c7a8) 30% 58%/6% 10% no-repeat,
+          linear-gradient(#a8613f,#a8613f) 38% 58%/6% 10% no-repeat,
+          linear-gradient(#3b3a3a,#3b3a3a) 46% 58%/6% 10% no-repeat,
+          linear-gradient(#cdb48a,#cdb48a) 54% 58%/6% 10% no-repeat,
+          linear-gradient(#8a9a62,#8a9a62) 62% 58%/6% 10% no-repeat,
+          linear-gradient(#9a6a44,#7a5236) 8% 70%/84% 4% no-repeat,
+          linear-gradient(#4a2f1f,#3a2518) 12% 74%/3% 24% no-repeat,
+          linear-gradient(#4a2f1f,#3a2518) 85% 74%/3% 24% no-repeat,
+          radial-gradient(ellipse 50% 40% at 16% 10%, rgba(255,246,222,.65), rgba(255,246,222,0) 70%),
+          linear-gradient(90deg, rgba(247,242,226,.5), rgba(247,242,226,0) 50%),
+          linear-gradient(180deg,#e3d9c6 0%,#d9cdb7 70%,#8a6a4c 72%,#5b4132 100%)"></div></div></div>
+  <p style="margin:32px 0 0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Makati City, Metro Manila</p>
+  <p style="margin:16px 0 0;font-size:17px;line-height:1.6;font-weight:400;">Open by appointment. Book a discovery call, or write to <a href="mailto:studio@kanlungan.example" style="font-weight:500;text-decoration:underline;text-underline-offset:4px;display:inline-block;min-height:24px">studio@kanlungan.example</a> to arrange a visit.</p>
+</section>
+<section class="dk" style="padding:0 20px 96px;box-sizing:border-box">
+  <div style="position:relative;height:560px;overflow:hidden;border-radius:2px;background:#2E211A">
+    <div class="zin" style="position:absolute;left:0;right:0;top:0;bottom:0"><div role="img" aria-label="A finished living room in warm evening light" style="position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;border-radius:2px;"><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:radial-gradient(ellipse 34% 5% at 50% 66.5%, rgba(40,28,20,.38) 0%, rgba(40,28,20,0) 100%),
+          linear-gradient(#4a2f1f,#4a2f1f) 50% 64%/30% 2.5% no-repeat,
+          linear-gradient(#d6c9b0,#d6c9b0) 50% 61%/32% 4% no-repeat,
+          linear-gradient(#cdbfa6,#cdbfa6) 50% 55%/30% 8% no-repeat,
+          repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 19.6%, rgba(70,50,35,.4) 19.6% 20.2%) 0 15%/100% 41% no-repeat,
+          radial-gradient(ellipse 36% 26% at 62% 34%, rgba(230,236,180,.6), rgba(230,236,180,0) 70%),
+          linear-gradient(90deg, rgba(40,28,20,.6) 0%, rgba(40,28,20,0) 24%, rgba(40,28,20,0) 78%, rgba(40,28,20,.5) 100%),
+          linear-gradient(180deg, #46321f 0%, #5a4332 11%, #d7d8b8 15%, #b4bf8c 30%, #8a9a62 46%, #6d7b48 56%, #7a5a40 58%, #5b4132 74%, #382820 100%)"></div></div></div>
+    <div style="position:absolute;left:0;right:0;bottom:0;height:78%;background:linear-gradient(to top, rgba(46,33,26,.95), rgba(46,33,26,.74) 45%, rgba(46,33,26,0))"></div>
+    <div style="position:absolute;left:24px;right:24px;bottom:28px;color:#F7F2EA">
+      <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.15;font-weight:300;letter-spacing:-.015em;">Tell us about your space.</h2>
+      <p style="margin:16px 0 0;font-size:17px;line-height:1.6;font-weight:400;">A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000.</p>
+      <a href="#" class="btn-p" style="display:flex;align-items:center;justify-content:center;min-height:52px;box-sizing:border-box;margin-top:24px;background:#8E4A2C;color:#F7F2EA;font-size:15px;line-height:1;font-weight:500;padding:0 24px;border-radius:2px">Book a discovery call</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="dk" style="background:#3A2A20;color:#F2ECE3;padding:64px 20px 40px;box-sizing:border-box">
+  <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:40px 24px">
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Studio</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Full-Service Furnishing</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Interior Design Direction</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Projects</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Help</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Delivery and returns</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Care guide</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">FAQ</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Contact</a></li>
+      </ul>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Shop</div>
+      <ul style="list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:0 24px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Seating</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Tables</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Beds</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Storage</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Lighting</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Rugs and Textiles</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Decor and Objects</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Art</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Collections</a></li>
+        <li><a href="#" style="display:flex;align-items:center;min-height:44px">Makers</a></li>
+      </ul>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Mailing list</div>
+      <form action="#" style="margin-top:16px;display:flex;flex-direction:column;gap:12px">
+        <label for="mail-m" style="font-size:15px;line-height:1.5;font-weight:400">Occasional notes on new projects and pieces.</label>
+        <input id="mail-m" type="email" name="email" autocomplete="email" style="width:100%;box-sizing:border-box;height:52px;padding:0 16px;background:#2E211A;border:1px solid #B3A18B;border-radius:2px;color:#F2ECE3;font:400 16px 'Hanken Grotesk',sans-serif">
+        <button type="submit" class="btn-l" style="height:52px;background:#F2ECE3;color:#2E211A;border:0;border-radius:2px;font:500 15px 'Hanken Grotesk',sans-serif;cursor:pointer">Subscribe</button>
+      </form>
+    </div>
+    <div style="grid-column:span 2">
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Showroom</div>
+      <div style="margin-top:16px;display:flex;flex-direction:column;gap:4px;font-size:15px;line-height:1.5;font-weight:400">
+        <div>Makati City, Metro Manila. Open by appointment.</div>
+        <a href="#" style="display:flex;align-items:center;min-height:44px">studio@kanlungan.example</a>
+        <a href="#" style="display:flex;align-items:center;min-height:44px">+63 2 8555 0100</a>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:48px;padding-top:24px;border-top:1px solid #6A584A">
+    <p style="margin:0;font-size:14px;line-height:1.6;font-weight:400;color:#D3C4B1">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
+    <div style="margin-top:12px;display:flex;gap:24px;font-size:14px;line-height:1.5;font-weight:400">
+      <a href="#" style="display:flex;align-items:center;min-height:44px">Privacy</a>
+      <a href="#" style="display:flex;align-items:center;min-height:44px">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":7622}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

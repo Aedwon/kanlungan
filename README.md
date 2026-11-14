@@ -16,8 +16,8 @@ Concept planning is complete through step 4. Round 1 of the design work is compl
 2. Define the curated shop offering, catalog scope, product taxonomy, and merchandising model. **Complete.**
 3. Lock the primary conversion goals. **Complete.**
 4. Define the site map, information architecture, page hierarchy, and core user journeys. **Complete.**
-5. Build the visual system and design tokens: typography, color, spacing, radii, imagery rules, and motion. **In progress.** Direction chosen; final tokens follow round 2.
-6. Design the homepage and reusable core page templates. **Next: round 2 of the design brief.**
+5. Build the visual system and design tokens: typography, color, spacing, radii, imagery rules, and motion. **Built, awaiting review.** See `docs/design/visual-system.md` and `design/tokens/tokens.json`.
+6. Design the homepage and reusable core page templates. **Built, awaiting review.** See `design/round-2-templates/`.
 7. Decide technical architecture, e-commerce behavior, and implementation details after the product and design direction are stable. **Not started.**
 
 This order is deliberate: business, content, conversion, and information architecture should be settled before visual tokens and page design.
@@ -43,10 +43,11 @@ Steps 5 and 6 run together. The visual system is chosen by comparing rendered di
 | `docs/design/visual-system.md` | Chosen visual direction: type, color, imagery, components, motion |
 | `design/round-1-directions/` | Round 1 mockups. Row D is the chosen direction. |
 | `docs/decisions.md` | Decisions made on delegation, open questions |
+| `SUBAGENTS.md` | How dispatched subagents run |
+| `docs/content/image-briefs.md` | Image briefs for generated photography |
 
 ## Not decided yet
 
-- Logo or wordmark
 - Final product and project photography (the imagery rules are set)
 - E-commerce platform and technical architecture
 

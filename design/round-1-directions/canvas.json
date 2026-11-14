@@ -6,23 +6,47 @@
   },
   "title": "Kanlungan round 1 directions",
   "launch": {
-    "view": "canvas"
+    "view": "canvas",
+    "page": "templates"
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "templates",
+      "name": "Templates"
+    },
+    {
+      "id": "combined",
+      "name": "Combined Home, icons, logo"
+    },
+    {
+      "id": "round1",
+      "name": "Round 1 directions"
+    },
+    {
+      "id": "system",
+      "name": "Design system"
+    },
+    {
+      "id": "layouts",
+      "name": "Layout options"
+    }
+  ],
   "boards": {
     "Main.dc.html": {
       "x": 0,
       "y": 0,
       "w": 1440,
       "h": 900,
-      "title": "Overview"
+      "title": "Overview",
+      "page": "round1"
     },
     "A-spec.dc.html": {
       "x": 0,
       "y": 1400,
       "w": 720,
       "h": 3880,
-      "title": "A \u00b7 Spec sheet"
+      "title": "A \u00b7 Spec sheet",
+      "page": "round1"
     },
     "A-home-desktop.dc.html": {
       "x": 800,
@@ -30,14 +54,16 @@
       "w": 1440,
       "h": 6600,
       "title": "A \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "A-home-mobile.dc.html": {
       "x": 2320,
       "y": 1400,
       "w": 390,
       "h": 7500,
-      "title": "A \u00b7 Home mobile"
+      "title": "A \u00b7 Home mobile",
+      "page": "round1"
     },
     "A-product-desktop.dc.html": {
       "x": 2790,
@@ -45,14 +71,16 @@
       "w": 1440,
       "h": 4230,
       "title": "A \u00b7 Silong Sofa desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "B-spec.dc.html": {
       "x": 0,
       "y": 9400,
       "w": 720,
       "h": 3850,
-      "title": "B \u00b7 Spec sheet"
+      "title": "B \u00b7 Spec sheet",
+      "page": "round1"
     },
     "B-home-desktop.dc.html": {
       "x": 800,
@@ -60,14 +88,16 @@
       "w": 1440,
       "h": 5880,
       "title": "B \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "B-home-mobile.dc.html": {
       "x": 2320,
       "y": 9400,
       "w": 390,
       "h": 7240,
-      "title": "B \u00b7 Home mobile"
+      "title": "B \u00b7 Home mobile",
+      "page": "round1"
     },
     "B-product-desktop.dc.html": {
       "x": 2790,
@@ -75,14 +105,16 @@
       "w": 1440,
       "h": 4200,
       "title": "B \u00b7 Silong Sofa desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "C-spec.dc.html": {
       "x": 0,
       "y": 17100,
       "w": 720,
       "h": 3100,
-      "title": "C \u00b7 Spec sheet"
+      "title": "C \u00b7 Spec sheet",
+      "page": "round1"
     },
     "C-home-desktop.dc.html": {
       "x": 800,
@@ -90,14 +122,16 @@
       "w": 1440,
       "h": 5220,
       "title": "C \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "C-home-mobile.dc.html": {
       "x": 2320,
       "y": 17100,
       "w": 390,
       "h": 7530,
-      "title": "C \u00b7 Home mobile"
+      "title": "C \u00b7 Home mobile",
+      "page": "round1"
     },
     "C-product-desktop.dc.html": {
       "x": 2790,
@@ -105,14 +139,16 @@
       "w": 1440,
       "h": 4190,
       "title": "C \u00b7 Silong Sofa desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "D-spec.dc.html": {
       "x": 0,
       "y": -7700,
       "w": 720,
       "h": 4180,
-      "title": "D \u00b7 Spec sheet"
+      "title": "D \u00b7 Spec sheet",
+      "page": "round1"
     },
     "D-home-desktop.dc.html": {
       "x": 800,
@@ -120,14 +156,16 @@
       "w": 1440,
       "h": 5880,
       "title": "D \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "D-home-mobile.dc.html": {
       "x": 2320,
       "y": -7700,
       "w": 390,
       "h": 7200,
-      "title": "D \u00b7 Home mobile"
+      "title": "D \u00b7 Home mobile",
+      "page": "round1"
     },
     "D-product-desktop.dc.html": {
       "x": 2790,
@@ -135,21 +173,24 @@
       "w": 1440,
       "h": 4210,
       "title": "D \u00b7 Silong Sofa desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "D-type-options.dc.html": {
       "x": 4310,
       "y": -7700,
       "w": 1440,
       "h": 1690,
-      "title": "D \u00b7 Type options"
+      "title": "D \u00b7 Type options",
+      "page": "round1"
     },
     "D2-spec.dc.html": {
       "x": 0,
       "y": -15400,
       "w": 720,
       "h": 4130,
-      "title": "D2 \u00b7 Spec sheet"
+      "title": "D2 \u00b7 Spec sheet",
+      "page": "round1"
     },
     "D2-home-desktop.dc.html": {
       "x": 800,
@@ -157,14 +198,16 @@
       "w": 1440,
       "h": 5880,
       "title": "D2 \u00b7 Home desktop",
-      "expand": "fill"
+      "expand": "fill",
+      "page": "round1"
     },
     "D2-home-mobile.dc.html": {
       "x": 2320,
       "y": -15400,
       "w": 390,
       "h": 7200,
-      "title": "D2 \u00b7 Home mobile"
+      "title": "D2 \u00b7 Home mobile",
+      "page": "round1"
     },
     "D2-product-desktop.dc.html": {
       "x": 2790,
@@ -172,7 +215,598 @@
       "w": 1440,
       "h": 4210,
       "title": "D2 \u00b7 Silong Sofa desktop",
+      "expand": "fill",
+      "page": "round1"
+    },
+    "DS-type.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 4240,
+      "title": "Type scale",
+      "page": "system"
+    },
+    "DS-tokens.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 1440,
+      "h": 4050,
+      "title": "Tokens",
+      "page": "system"
+    },
+    "DS-states.dc.html": {
+      "x": 3040,
+      "y": 0,
+      "w": 1440,
+      "h": 4900,
+      "title": "Component states",
+      "page": "system"
+    },
+    "DS-motion.dc.html": {
+      "x": 4560,
+      "y": 0,
+      "w": 1440,
+      "h": 2340,
+      "title": "Motion",
+      "page": "system"
+    },
+    "L1-notes.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 3250,
+      "title": "1 \u00b7 Notes",
+      "page": "layouts"
+    },
+    "L1-home-desktop.dc.html": {
+      "x": 800,
+      "y": 0,
+      "w": 1440,
+      "h": 6940,
+      "title": "1 \u00b7 Home desktop",
+      "page": "layouts",
       "expand": "fill"
+    },
+    "L1-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 0,
+      "w": 390,
+      "h": 7140,
+      "title": "1 \u00b7 Home mobile",
+      "page": "layouts"
+    },
+    "L1-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 0,
+      "w": 1440,
+      "h": 6830,
+      "title": "1 \u00b7 Silong Sofa desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L2-notes.dc.html": {
+      "x": 0,
+      "y": 7700,
+      "w": 720,
+      "h": 1840,
+      "title": "2 \u00b7 Notes",
+      "page": "layouts"
+    },
+    "L2-home-desktop.dc.html": {
+      "x": 800,
+      "y": 7700,
+      "w": 1440,
+      "h": 7020,
+      "title": "2 \u00b7 Home desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L2-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 7700,
+      "w": 390,
+      "h": 8000,
+      "title": "2 \u00b7 Home mobile",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L2-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 7700,
+      "w": 1440,
+      "h": 4680,
+      "title": "2 \u00b7 Silong Sofa desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L3-notes.dc.html": {
+      "x": 0,
+      "y": 16700,
+      "w": 720,
+      "h": 2130,
+      "title": "3 \u00b7 Notes",
+      "page": "layouts"
+    },
+    "L3-home-desktop.dc.html": {
+      "x": 800,
+      "y": 16700,
+      "w": 1440,
+      "h": 8000,
+      "title": "3 \u00b7 Home desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L3-home-mobile.dc.html": {
+      "x": 2320,
+      "y": 16700,
+      "w": 390,
+      "h": 8000,
+      "title": "3 \u00b7 Home mobile",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "L3-product-desktop.dc.html": {
+      "x": 2790,
+      "y": 16700,
+      "w": 1440,
+      "h": 6090,
+      "title": "3 \u00b7 Silong Sofa desktop",
+      "page": "layouts",
+      "expand": "fill"
+    },
+    "M-home-desktop.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 8000,
+      "title": "Combined \u00b7 Home desktop",
+      "page": "combined",
+      "expand": "fill"
+    },
+    "M-home-mobile.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 390,
+      "h": 8000,
+      "title": "Combined \u00b7 Home mobile",
+      "page": "combined",
+      "expand": "fill"
+    },
+    "Shop-icons.dc.html": {
+      "x": 1990,
+      "y": 0,
+      "w": 1440,
+      "h": 2380,
+      "title": "Category icons and Shop menu",
+      "page": "combined"
+    },
+    "Logo-options.dc.html": {
+      "x": 1990,
+      "y": 2620,
+      "w": 1440,
+      "h": 3160,
+      "title": "Logo options",
+      "page": "combined"
+    },
+    "Logo-fable.dc.html": {
+      "x": 3510,
+      "y": 0,
+      "w": 1440,
+      "h": 4810,
+      "title": "Logo options, round 2 (Fable)",
+      "page": "combined"
+    },
+    "Hero-options.dc.html": {
+      "x": 5030,
+      "y": 0,
+      "w": 1440,
+      "h": 5460,
+      "title": "Hero cleanup",
+      "page": "combined"
+    },
+    "T-home-desktop.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 8000,
+      "title": "home desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-home-mobile.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 390,
+      "h": 8000,
+      "title": "home mobile",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-header-states-desktop.dc.html": {
+      "x": 0,
+      "y": 13514,
+      "w": 1440,
+      "h": 2573,
+      "title": "header states desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-header-states-mobile.dc.html": {
+      "x": 1520,
+      "y": 13514,
+      "w": 390,
+      "h": 2383,
+      "title": "header states mobile",
+      "page": "templates"
+    },
+    "T-project-desktop.dc.html": {
+      "x": 0,
+      "y": 16567,
+      "w": 1440,
+      "h": 8000,
+      "title": "project desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-project-mobile.dc.html": {
+      "x": 1520,
+      "y": 16567,
+      "w": 390,
+      "h": 8000,
+      "title": "project mobile",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-projects-desktop.dc.html": {
+      "x": 0,
+      "y": 29169,
+      "w": 1440,
+      "h": 4363,
+      "title": "projects desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-projects-mobile.dc.html": {
+      "x": 1520,
+      "y": 29169,
+      "w": 390,
+      "h": 4743,
+      "title": "projects mobile",
+      "page": "templates"
+    },
+    "T-service-desktop.dc.html": {
+      "x": 0,
+      "y": 34474,
+      "w": 1440,
+      "h": 8000,
+      "title": "service desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-service-mobile.dc.html": {
+      "x": 1520,
+      "y": 34474,
+      "w": 390,
+      "h": 8000,
+      "title": "service mobile",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-studio-desktop.dc.html": {
+      "x": 0,
+      "y": 44672,
+      "w": 1440,
+      "h": 6522,
+      "title": "studio desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-studio-mobile.dc.html": {
+      "x": 1520,
+      "y": 44672,
+      "w": 390,
+      "h": 6917,
+      "title": "studio mobile",
+      "page": "templates"
+    },
+    "T-booking-desktop.dc.html": {
+      "x": 0,
+      "y": 52021,
+      "w": 1440,
+      "h": 3132,
+      "title": "booking desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-booking-mobile.dc.html": {
+      "x": 1520,
+      "y": 52021,
+      "w": 390,
+      "h": 4913,
+      "title": "booking mobile",
+      "page": "templates"
+    },
+    "T-booking-error-desktop.dc.html": {
+      "x": 1990,
+      "y": 52021,
+      "w": 1440,
+      "h": 3414,
+      "title": "booking error desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-booking-submitted-desktop.dc.html": {
+      "x": 3510,
+      "y": 52021,
+      "w": 1440,
+      "h": 1816,
+      "title": "booking submitted desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-booking-submitted-mobile.dc.html": {
+      "x": 5030,
+      "y": 52021,
+      "w": 390,
+      "h": 2347,
+      "title": "booking submitted mobile",
+      "page": "templates"
+    },
+    "T-shop-desktop.dc.html": {
+      "x": 0,
+      "y": 57463,
+      "w": 1440,
+      "h": 6089,
+      "title": "shop desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-shop-mobile.dc.html": {
+      "x": 1520,
+      "y": 57463,
+      "w": 390,
+      "h": 6185,
+      "title": "shop mobile",
+      "page": "templates"
+    },
+    "T-category-desktop.dc.html": {
+      "x": 0,
+      "y": 64176,
+      "w": 1440,
+      "h": 2300,
+      "title": "category desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-category-mobile.dc.html": {
+      "x": 1520,
+      "y": 64176,
+      "w": 390,
+      "h": 3611,
+      "title": "category mobile",
+      "page": "templates"
+    },
+    "T-product-desktop.dc.html": {
+      "x": 0,
+      "y": 68311,
+      "w": 1440,
+      "h": 6593,
+      "title": "product desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-product-mobile.dc.html": {
+      "x": 1520,
+      "y": 68311,
+      "w": 390,
+      "h": 6650,
+      "title": "product mobile",
+      "page": "templates"
+    },
+    "T-collection-desktop.dc.html": {
+      "x": 0,
+      "y": 75525,
+      "w": 1440,
+      "h": 4470,
+      "title": "collection desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-collection-mobile.dc.html": {
+      "x": 1520,
+      "y": 75525,
+      "w": 390,
+      "h": 4295,
+      "title": "collection mobile",
+      "page": "templates"
+    },
+    "T-maker-desktop.dc.html": {
+      "x": 0,
+      "y": 80489,
+      "w": 1440,
+      "h": 2481,
+      "title": "maker desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-maker-mobile.dc.html": {
+      "x": 1520,
+      "y": 80489,
+      "w": 390,
+      "h": 3161,
+      "title": "maker mobile",
+      "page": "templates"
+    },
+    "T-makers-desktop.dc.html": {
+      "x": 1990,
+      "y": 80489,
+      "w": 1440,
+      "h": 2127,
+      "title": "makers desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-cart-drawer-desktop.dc.html": {
+      "x": 0,
+      "y": 84178,
+      "w": 1440,
+      "h": 910,
+      "title": "cart drawer desktop",
+      "page": "templates"
+    },
+    "T-cart-drawer-mobile.dc.html": {
+      "x": 1520,
+      "y": 84178,
+      "w": 390,
+      "h": 854,
+      "title": "cart drawer mobile",
+      "page": "templates"
+    },
+    "T-cart-desktop.dc.html": {
+      "x": 1990,
+      "y": 84178,
+      "w": 1440,
+      "h": 2283,
+      "title": "cart desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-cart-mobile.dc.html": {
+      "x": 3510,
+      "y": 84178,
+      "w": 390,
+      "h": 2919,
+      "title": "cart mobile",
+      "page": "templates"
+    },
+    "T-cart-empty-desktop.dc.html": {
+      "x": 3980,
+      "y": 84178,
+      "w": 1440,
+      "h": 1600,
+      "title": "cart empty desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-cart-empty-mobile.dc.html": {
+      "x": 5500,
+      "y": 84178,
+      "w": 390,
+      "h": 2148,
+      "title": "cart empty mobile",
+      "page": "templates"
+    },
+    "T-checkout-desktop.dc.html": {
+      "x": 0,
+      "y": 87621,
+      "w": 1440,
+      "h": 4087,
+      "title": "checkout desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-checkout-mobile.dc.html": {
+      "x": 1520,
+      "y": 87621,
+      "w": 390,
+      "h": 4934,
+      "title": "checkout mobile",
+      "page": "templates"
+    },
+    "T-confirmation-desktop.dc.html": {
+      "x": 1990,
+      "y": 87621,
+      "w": 1440,
+      "h": 2848,
+      "title": "confirmation desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-confirmation-mobile.dc.html": {
+      "x": 3510,
+      "y": 87621,
+      "w": 390,
+      "h": 3497,
+      "title": "confirmation mobile",
+      "page": "templates"
+    },
+    "T-about-desktop.dc.html": {
+      "x": 0,
+      "y": 93089,
+      "w": 1440,
+      "h": 7861,
+      "title": "about desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-about-mobile.dc.html": {
+      "x": 1520,
+      "y": 93089,
+      "w": 390,
+      "h": 7622,
+      "title": "about mobile",
+      "page": "templates"
+    },
+    "T-404-desktop.dc.html": {
+      "x": 0,
+      "y": 101394,
+      "w": 1440,
+      "h": 1598,
+      "title": "404 desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-404-mobile.dc.html": {
+      "x": 1520,
+      "y": 101394,
+      "w": 390,
+      "h": 2339,
+      "title": "404 mobile",
+      "page": "templates"
+    },
+    "T-search-desktop.dc.html": {
+      "x": 1990,
+      "y": 101394,
+      "w": 1440,
+      "h": 3446,
+      "title": "search desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-help-desktop.dc.html": {
+      "x": 3510,
+      "y": 101394,
+      "w": 1440,
+      "h": 2154,
+      "title": "help desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-contact-desktop.dc.html": {
+      "x": 5030,
+      "y": 101394,
+      "w": 1440,
+      "h": 1773,
+      "title": "contact desktop",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "T-components.dc.html": {
+      "x": 0,
+      "y": 105288,
+      "w": 1440,
+      "h": 8000,
+      "title": "components",
+      "page": "templates",
+      "expand": "fill"
+    },
+    "Storage-icon-options.dc.html": {
+      "x": 0,
+      "y": -1900,
+      "w": 1440,
+      "h": 1023,
+      "title": "Storage icon options",
+      "page": "templates"
     }
   },
   "order": [
@@ -197,7 +831,76 @@
     "D2-spec.dc.html",
     "D2-home-desktop.dc.html",
     "D2-home-mobile.dc.html",
-    "D2-product-desktop.dc.html"
+    "D2-product-desktop.dc.html",
+    "DS-type.dc.html",
+    "DS-tokens.dc.html",
+    "DS-states.dc.html",
+    "DS-motion.dc.html",
+    "L1-notes.dc.html",
+    "L1-home-desktop.dc.html",
+    "L1-home-mobile.dc.html",
+    "L1-product-desktop.dc.html",
+    "L2-notes.dc.html",
+    "L2-home-desktop.dc.html",
+    "L2-home-mobile.dc.html",
+    "L2-product-desktop.dc.html",
+    "L3-notes.dc.html",
+    "L3-home-desktop.dc.html",
+    "L3-home-mobile.dc.html",
+    "L3-product-desktop.dc.html",
+    "M-home-desktop.dc.html",
+    "M-home-mobile.dc.html",
+    "Shop-icons.dc.html",
+    "Logo-options.dc.html",
+    "Logo-fable.dc.html",
+    "Hero-options.dc.html",
+    "T-home-desktop.dc.html",
+    "T-home-mobile.dc.html",
+    "T-header-states-desktop.dc.html",
+    "T-header-states-mobile.dc.html",
+    "T-project-desktop.dc.html",
+    "T-project-mobile.dc.html",
+    "T-projects-desktop.dc.html",
+    "T-projects-mobile.dc.html",
+    "T-service-desktop.dc.html",
+    "T-service-mobile.dc.html",
+    "T-studio-desktop.dc.html",
+    "T-studio-mobile.dc.html",
+    "T-booking-desktop.dc.html",
+    "T-booking-mobile.dc.html",
+    "T-booking-error-desktop.dc.html",
+    "T-booking-submitted-desktop.dc.html",
+    "T-booking-submitted-mobile.dc.html",
+    "T-shop-desktop.dc.html",
+    "T-shop-mobile.dc.html",
+    "T-category-desktop.dc.html",
+    "T-category-mobile.dc.html",
+    "T-product-desktop.dc.html",
+    "T-product-mobile.dc.html",
+    "T-collection-desktop.dc.html",
+    "T-collection-mobile.dc.html",
+    "T-maker-desktop.dc.html",
+    "T-maker-mobile.dc.html",
+    "T-makers-desktop.dc.html",
+    "T-cart-drawer-desktop.dc.html",
+    "T-cart-drawer-mobile.dc.html",
+    "T-cart-desktop.dc.html",
+    "T-cart-mobile.dc.html",
+    "T-cart-empty-desktop.dc.html",
+    "T-cart-empty-mobile.dc.html",
+    "T-checkout-desktop.dc.html",
+    "T-checkout-mobile.dc.html",
+    "T-confirmation-desktop.dc.html",
+    "T-confirmation-mobile.dc.html",
+    "T-about-desktop.dc.html",
+    "T-about-mobile.dc.html",
+    "T-404-desktop.dc.html",
+    "T-404-mobile.dc.html",
+    "T-search-desktop.dc.html",
+    "T-help-desktop.dc.html",
+    "T-contact-desktop.dc.html",
+    "T-components.dc.html",
+    "Storage-icon-options.dc.html"
   ],
   "notes": {
     "rowA": {
@@ -205,35 +908,224 @@
       "y": 1100,
       "text": "A \u00b7 Shaded Room",
       "kind": "title1",
-      "maxW": 4230
+      "maxW": 4230,
+      "page": "round1"
     },
     "rowB": {
       "x": 0,
       "y": 9100,
       "text": "B \u00b7 Lamplight",
       "kind": "title1",
-      "maxW": 4230
+      "maxW": 4230,
+      "page": "round1"
     },
     "rowC": {
       "x": 0,
       "y": 16800,
       "text": "C \u00b7 Workshop Index",
       "kind": "title1",
-      "maxW": 4230
+      "maxW": 4230,
+      "page": "round1"
     },
     "rowD": {
       "x": 0,
       "y": -8000,
       "text": "D \u00b7 Mix with Newsreader type (A)",
       "kind": "title1",
-      "maxW": 5750
+      "maxW": 5750,
+      "page": "round1"
     },
     "rowD2": {
       "x": 0,
       "y": -15700,
       "text": "D2 \u00b7 Same mix with Inter Tight type (B)",
       "kind": "title1",
-      "maxW": 4230
+      "maxW": 4230,
+      "page": "round1"
+    },
+    "dsTitle": {
+      "x": 0,
+      "y": -300,
+      "text": "Design system refinement \u00b7 Direction D",
+      "kind": "title1",
+      "maxW": 6000,
+      "page": "system"
+    },
+    "rowL1": {
+      "x": 0,
+      "y": -300,
+      "text": "Layout 1 \u00b7 Threshold",
+      "kind": "title1",
+      "maxW": 4230,
+      "page": "layouts"
+    },
+    "rowL2": {
+      "x": 0,
+      "y": 7400,
+      "text": "Layout 2 \u00b7 Plan Drawing",
+      "kind": "title1",
+      "maxW": 4230,
+      "page": "layouts"
+    },
+    "rowL3": {
+      "x": 0,
+      "y": 16400,
+      "text": "Layout 3 \u00b7 Light and Shade",
+      "kind": "title1",
+      "maxW": 4230,
+      "page": "layouts"
+    },
+    "combTitle": {
+      "x": 0,
+      "y": -300,
+      "text": "Combined Home from your picks",
+      "kind": "title1",
+      "maxW": 6470,
+      "page": "combined"
+    },
+    "tpl-Home": {
+      "x": 0,
+      "y": -300,
+      "text": "Home",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Header": {
+      "x": 0,
+      "y": 13214,
+      "text": "Header",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Project detail": {
+      "x": 0,
+      "y": 16267,
+      "text": "Project detail",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Projects": {
+      "x": 0,
+      "y": 28869,
+      "text": "Projects",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Service": {
+      "x": 0,
+      "y": 34174,
+      "text": "Service",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Studio": {
+      "x": 0,
+      "y": 44372,
+      "text": "Studio",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Booking": {
+      "x": 0,
+      "y": 51721,
+      "text": "Booking",
+      "kind": "title1",
+      "maxW": 5420,
+      "page": "templates"
+    },
+    "tpl-Shop": {
+      "x": 0,
+      "y": 57163,
+      "text": "Shop",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Category": {
+      "x": 0,
+      "y": 63876,
+      "text": "Category",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Product": {
+      "x": 0,
+      "y": 68011,
+      "text": "Product",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Collection": {
+      "x": 0,
+      "y": 75225,
+      "text": "Collection",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Makers": {
+      "x": 0,
+      "y": 80189,
+      "text": "Makers",
+      "kind": "title1",
+      "maxW": 3430,
+      "page": "templates"
+    },
+    "tpl-Cart": {
+      "x": 0,
+      "y": 83878,
+      "text": "Cart",
+      "kind": "title1",
+      "maxW": 5890,
+      "page": "templates"
+    },
+    "tpl-Checkout": {
+      "x": 0,
+      "y": 87321,
+      "text": "Checkout",
+      "kind": "title1",
+      "maxW": 3900,
+      "page": "templates"
+    },
+    "tpl-About": {
+      "x": 0,
+      "y": 92789,
+      "text": "About",
+      "kind": "title1",
+      "maxW": 1910,
+      "page": "templates"
+    },
+    "tpl-Utility": {
+      "x": 0,
+      "y": 101094,
+      "text": "Utility",
+      "kind": "title1",
+      "maxW": 6470,
+      "page": "templates"
+    },
+    "tpl-Components": {
+      "x": 0,
+      "y": 104988,
+      "text": "Components",
+      "kind": "title1",
+      "maxW": 1440,
+      "page": "templates"
+    },
+    "tpl-storage": {
+      "x": 0,
+      "y": -2200,
+      "text": "Storage icon",
+      "kind": "title1",
+      "maxW": 1440,
+      "page": "templates"
     }
   },
   "designSystems": []

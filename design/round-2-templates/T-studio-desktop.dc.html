@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Template · Studio desktop</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+
+body{margin:0;background:#F2ECE3;font-family:'Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8E4A2C}
+.dk a:hover{color:#E8C8B0}
+.sr{position:absolute;width:1px;height:1px;overflow:clip;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid #8E4A2C;outline-offset:3px}
+.dk a:focus-visible,.dk button:focus-visible,.dk input:focus-visible,.dk summary:focus-visible{outline-color:#F2ECE3}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover .arr{transform:translateX(4px)}
+.btn-p{transition:background-color .2s ease}
+.btn-p:hover{background:#733A22!important;color:#F7F2EA!important}
+.btn-l{transition:background-color .2s ease}
+.btn-l:hover{background:#E8DFD2!important;color:#2E211A!important}
+.ib{transition:background-color .2s ease}
+.ib:hover{background:#E8DFD2}
+.shade{animation:shade 12s ease-in-out infinite alternate}
+@keyframes shade{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+.im{transition:filter .4s ease}
+a.card:hover{color:#2E211A}
+.card:hover .im,.card:focus-visible .im{filter:brightness(1.05)}
+.ph{opacity:0;pointer-events:none;transition:opacity .25s ease}
+:hover>.ph{opacity:1}
+
+@keyframes rvIn{from{clip-path:inset(-10% 100% -10% -4%);transform:translateY(24px)}to{clip-path:inset(-10% -10% -10% -10%);transform:none}}
+@keyframes parY{from{transform:translateY(-7%)}to{transform:translateY(7%)}}
+@keyframes zoomIn{from{transform:scale(1.1)}to{transform:scale(1)}}
+@keyframes progX{from{transform:scaleX(.06)}to{transform:scaleX(1)}}
+@keyframes progY{from{transform:scaleY(.04)}to{transform:scaleY(1)}}
+@keyframes cpar{from{transform:translateY(-5%)}to{transform:translateY(5%)}}
+@keyframes veil{from{clip-path:inset(0 0 62% 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes hbOut{from{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}to{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}}
+.stsec{view-timeline:--st block}
+.hbw{display:grid;grid-template-columns:1fr;margin-left:0;overflow:hidden;visibility:visible}
+.hbw>a{min-width:0;white-space:nowrap}
+@supports (animation-timeline: view()){
+.rv{animation:rvIn linear both;animation-timeline:view();animation-range:entry 0% entry 60%}
+.par{animation:parY linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+.zin{animation:zoomIn linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
+.prog{animation:progX linear both;animation-timeline:view();animation-range:entry 0% cover 50%}
+.progy{animation:progY linear both;animation-timeline:--st;animation-range:cover 10% cover 90%}
+.cpar{animation:cpar linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+.svi{animation:veil linear both;animation-timeline:view();animation-range:entry 0% entry 100%}
+}
+@media (prefers-reduced-motion:no-preference){
+@supports (animation-timeline: view()){
+.pg{timeline-scope:--cta}
+.hbw{animation:hbOut linear both;animation-timeline:--cta;animation-range:entry 0% entry 30%}
+}
+}
+@media (prefers-reduced-motion: reduce){
+.shade{animation:none}
+.rv,.par,.zin,.prog,.progy,.cpar,.svi{animation:none!important}
+.arr,.btn-p,.btn-l,.ib,.ph{transition:none}
+.card:hover .im,.card:focus-visible .im{filter:none}
+}
+
+.sv{position:relative;overflow:hidden;background:#E8DFD2;border-radius:2px;min-height:680px;padding:48px;box-sizing:border-box;display:flex;flex-direction:column}
+.sv-img{position:absolute;left:0;right:0;top:0;bottom:0;clip-path:inset(100% 0 0 0);transition:clip-path .4s cubic-bezier(.22,.61,.36,1)}
+.sv-img-i{position:absolute;left:0;right:0;top:0;bottom:0;transform:translateY(10%);transition:transform .4s cubic-bezier(.22,.61,.36,1)}
+.sv:hover .sv-img,.sv:focus-within .sv-img{clip-path:inset(0 0 0 0)}
+.sv:hover .sv-img-i,.sv:focus-within .sv-img-i{transform:none}
+.sv .tx{transition:color .3s ease}
+.sv .tm{transition:color .3s ease;color:#6A584A}
+.sv:hover .tx,.sv:focus-within .tx{color:#F7F2EA!important}
+.sv:hover .tm,.sv:focus-within .tm{color:#E8DFD2!important}
+.sv:hover a:hover{color:#E8C8B0}
+.sv-big{display:block;transform:none;transition:transform .4s cubic-bezier(.22,.61,.36,1)}
+.sv:hover .sv-big,.sv:focus-within .sv-big{transform:translateY(-8px)}
+@media (prefers-reduced-motion: reduce){
+.sv-img,.sv-img-i,.sv-big,.sv .tx,.sv .tm{transition:none}
+}
+
+.cmp tbody tr{transition:background-color .2s ease}
+.cmp tbody tr:hover{background:#E8DFD2}
+@media (prefers-reduced-motion: reduce){
+.cmp tbody tr{transition:none}
+}
+
+</style>
+</helmet>
+<div class="pg" style="width:100%;background:#F2ECE3;color:#2E211A;font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:400;position:relative;overflow-x:clip">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<g id="af2"><path d="M40 22L55 16V46H40ZM60 14L75 8V46H60Z" style="fill:var(--lw)"></path><path d="M40 46H55L34 100H13ZM60 46H75L62 100H41Z" style="fill:var(--lf)"></path></g>
+</defs></svg>
+
+<header style="position:sticky;top:0;z-index:100;display:grid;grid-template-columns:minmax(0, 1fr) auto minmax(0, 1fr);align-items:center;height:88px;padding:0 64px;box-sizing:border-box;background:#F2ECE3;border-bottom:1px solid #D3C4B1">
+  <a href="#" aria-label="Kanlungan, home" style="display:flex;align-items:center;gap:12px;justify-self:start"><svg viewBox="0 0 100 100" width="32" height="32" style="display:block;--lw:#F2ECE3;--lf:#8E4A2C;border-radius:2px" aria-hidden="true"><rect width="100" height="100" rx="1.92" fill="#3A2A20"></rect><path d="M0 46H100V100H0Z" fill="#000" opacity=".2"></path><use href="#af2"></use></svg><span style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1;font-weight:300;letter-spacing:-.015em;color:#2E211A">Kanlungan</span></a>
+  <nav aria-label="Primary" style="display:flex;gap:48px;font-size:15px;line-height:1.5;font-weight:400">
+    <a href="#" aria-current="page">Studio</a>
+    <a href="#">Projects</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+  </nav>
+  <div style="display:flex;align-items:center;gap:8px;justify-self:end">
+    <button type="button" class="ib" aria-label="Search" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:#2E211A;cursor:pointer">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
+    </button>
+    <a href="#" class="ib" aria-label="Cart, 0 items" style="height:44px;padding:0 8px;display:flex;align-items:center;gap:8px;border-radius:2px;font-size:14px;line-height:1.5;font-weight:500">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
+      <span>0</span>
+    </a>
+    <div class="hbw"><a href="#" class="btn-p" style="margin-left:16px;display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:14px;line-height:1;font-weight:500;padding:16px 24px;border-radius:2px">Book a discovery call</a></div>
+  </div>
+</header>
+
+<main>
+
+<section style="padding:160px 64px 160px;box-sizing:border-box">
+  <h1 style="margin:0;max-width:1060px;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.15;font-weight:300;letter-spacing:-.015em;">We work in two ways. We can design and furnish your space from start to finish, or we can design it and hand you the plan. In both, one team does the thinking, so what you approve is what arrives.</h1>
+  <div style="margin-top:96px"><div role="img" aria-label="Lilim House living room in shaded daylight, low sofa, deep eaves, greenery through wide openings" style="position:relative;overflow:clip;aspect-ratio:21 / 9;border-radius:2px;width:100%;background:#5b4132"><div class="zin" style="position:absolute;left:0;right:0;top:0;height:100%;background:
+          radial-gradient(ellipse 34% 5% at 50% 66.5%, rgba(40,28,20,.38) 0%, rgba(40,28,20,0) 100%),
+          linear-gradient(#4a2f1f,#4a2f1f) 50% 64%/30% 2.5% no-repeat,
+          linear-gradient(#d6c9b0,#d6c9b0) 50% 61%/32% 4% no-repeat,
+          linear-gradient(#cdbfa6,#cdbfa6) 50% 55%/30% 8% no-repeat,
+          radial-gradient(ellipse 40% 14% at 50% 80%, rgba(236,220,180,.30), rgba(236,220,180,0) 70%),
+          repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 19.6%, rgba(70,50,35,.4) 19.6% 20.2%) 0 15%/100% 41% no-repeat,
+          radial-gradient(ellipse 36% 26% at 62% 34%, rgba(230,236,180,.6), rgba(230,236,180,0) 70%),
+          linear-gradient(90deg, rgba(40,28,20,.6) 0%, rgba(40,28,20,0) 24%, rgba(40,28,20,0) 78%, rgba(40,28,20,.5) 100%),
+          linear-gradient(180deg, #46321f 0%, #5a4332 11%, #d7d8b8 15%, #b4bf8c 30%, #8a9a62 46%, #6d7b48 56%, #7a5a40 58%, #5b4132 74%, #382820 100%);"></div><div class="shade" style="position:absolute;top:-10%;bottom:-10%;left:-30%;width:160%;pointer-events:none;background:linear-gradient(110deg, rgba(255,240,205,0) 32%, rgba(255,240,205,0) 38%, rgba(255,240,205,.30) 47%, rgba(255,240,205,.12) 54%, rgba(255,240,205,0) 62%)"></div><div class="ph" style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:12px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lilim House living room, shaded daylight</div></div></div>
+</section>
+
+<section style="padding:0 64px 160px;box-sizing:border-box">
+  <h2 class="sr">Two ways to work with us</h2>
+  <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:24px;align-items:start"><div class="sv dk">
+      <div class="sv-img" aria-hidden="true"><div class="sv-img-i"><div role="img" aria-label="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+            radial-gradient(ellipse 36% 5% at 50% 86%, rgba(247,242,226,.35), rgba(247,242,226,0) 100%),
+            radial-gradient(ellipse 5% 8% at 50% 58%, #cbb690 0%, #a58a62 76%, rgba(165,138,98,0) 78%),
+            linear-gradient(#9a7a58,#9a7a58) 40.8% 80.2%/2% 14% no-repeat,
+            linear-gradient(#9a7a58,#9a7a58) 59.2% 80.2%/2% 14% no-repeat,
+            linear-gradient(#a98a64,#8a6a4c) 50% 68%/28% 3% no-repeat,
+            linear-gradient(90deg, rgba(247,242,226,.7), rgba(247,242,226,0) 60%),
+            repeating-linear-gradient(90deg, rgba(120,100,70,.16) 0 3px, rgba(0,0,0,0) 3px 30px),
+            linear-gradient(180deg,#e6dcc8 0%,#d8ccb4 72%,#8a6a4c 74%,#5b4132 100%);"></div></div>
+        <div class="ph" style="position:absolute;right:12px;top:12px;max-width:60%;padding:4px 8px;font-size:12px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Linen curtain in soft daylight, low stool, stoneware vase</div></div>
+      <h3 class="tx" style="position:relative;margin:0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;;color:#2E211A">Full-Service Furnishing</h3>
+      <p class="tx" style="position:relative;margin:16px 0 0;max-width:420px;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A">You have a finished, empty home, condo, or small hotel. You want to move in or open once, with everything in place.</p>
+      <div style="flex:1 1 auto;min-height:48px"></div>
+      <div style="position:relative;overflow:clip"><span class="sv-big tx" style="font-family:'Newsreader',Georgia,serif;font-size:88px;line-height:1.1;font-weight:300;letter-spacing:-.02em;color:#2E211A"><span style="font-size:24px;letter-spacing:0;margin-right:12px">From</span>₱1,500,000</span></div>
+      <p class="tm" style="position:relative;margin:0;font-size:14px;line-height:1.5;font-weight:400">Design fee included.</p>
+      <a href="#" class="lnk tx" style="position:relative;margin-top:24px;font-size:15px;line-height:1.4;font-weight:500;color:#2E211A">About this service <span class="arr" aria-hidden="true">→</span></a>
+    </div><div class="sv dk" style="margin-top:96px">
+      <div class="sv-img" aria-hidden="true"><div class="sv-img-i"><div role="img" aria-label="Quiet room detail: plans and a pencil on a warm wood drafting table in side light" style="position:absolute;left:0;right:0;top:0;bottom:0;background:
+            linear-gradient(#3a2a20,#3a2a20) 75.7% 52.3%/26% 0.5% no-repeat,
+            repeating-linear-gradient(0deg, rgba(60,44,28,.2) 0 1px, rgba(0,0,0,0) 1px 14px) 24.2% 65.9%/34% 18% no-repeat,
+            linear-gradient(#e6dcc6,#d9ccb2) 62.5% 73.7%/36% 24% no-repeat,
+            linear-gradient(#efe8d8,#e3dac6) 23.3% 67.6%/40% 26% no-repeat,
+            linear-gradient(90deg, rgba(247,242,226,.55), rgba(247,242,226,0) 55%),
+            repeating-linear-gradient(90deg, rgba(60,35,20,.1) 0 2px, rgba(0,0,0,0) 2px 46px),
+            linear-gradient(180deg,#e0d6c2 0%,#d3c8b0 38%,#a07c58 40%,#7a5a40 100%);"></div><div style="position:absolute;left:0;right:0;top:0;bottom:0;background:linear-gradient(180deg, rgba(46,33,26,.72) 0%, rgba(46,33,26,.5) 45%, rgba(46,33,26,.9) 100%)"></div></div>
+        <div class="ph" style="position:absolute;right:12px;top:12px;max-width:60%;padding:4px 8px;font-size:12px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Plans and a pencil on a warm wood table, side light</div></div>
+      <h3 class="tx" style="position:relative;margin:0;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;;color:#2E211A">Interior Design Direction</h3>
+      <p class="tx" style="position:relative;margin:16px 0 0;max-width:420px;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A">You want our design and prefer to buy and install things yourself, or over time.</p>
+      <div style="flex:1 1 auto;min-height:48px"></div>
+      <div style="position:relative;overflow:clip"><span class="sv-big tx" style="font-family:'Newsreader',Georgia,serif;font-size:88px;line-height:1.1;font-weight:300;letter-spacing:-.02em;color:#2E211A"><span style="font-size:24px;letter-spacing:0;margin-right:12px">From</span>₱2,500</span></div>
+      <p class="tm" style="position:relative;margin:0;font-size:14px;line-height:1.5;font-weight:400">Per sqm, minimum ₱150,000.</p>
+      <a href="#" class="lnk tx" style="position:relative;margin-top:24px;font-size:15px;line-height:1.4;font-weight:500;color:#2E211A">About this service <span class="arr" aria-hidden="true">→</span></a>
+    </div></div>
+</section>
+
+<section style="padding:0 64px 160px;box-sizing:border-box">
+  <h2 class="rv" style="margin:0 0 64px;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">What each service includes</h2>
+  <table class="cmp" style="width:100%;border-collapse:collapse;table-layout:fixed">
+    <caption class="sr">What each service includes</caption>
+    <colgroup><col style="width:40%"><col style="width:30%"><col style="width:30%"></colgroup>
+    <thead style=""><tr style="border-bottom:1px solid #2E211A"><td></td><th scope="col" style="padding:0 24px 24px 0;text-align:left;vertical-align:bottom;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;"><a href="#" class="lnk">Full-Service Furnishing <span class="arr" aria-hidden="true" style="font-size:17px">→</span></a></th><th scope="col" style="padding:0 24px 24px 0;text-align:left;vertical-align:bottom;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;"><a href="#" class="lnk">Interior Design Direction <span class="arr" aria-hidden="true" style="font-size:17px">→</span></a></th></tr></thead>
+    <tbody style="border-bottom:1px solid #D3C4B1"><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Layout and space planning</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Material and color palette</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Furniture selection</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Lighting plan</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Sourcing and procurement</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" aria-hidden="true" style="flex:none"><circle cx="8" cy="8" r="4.5"></circle></svg></span><span>Sourcing list only</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Delivery and installation</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#6A584A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#6A584A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M4 8h8"></path></svg></span><span>Not included</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Styling</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#6A584A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#6A584A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M4 8h8"></path></svg></span><span>Not included</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Design book</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#6A584A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#6A584A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M4 8h8"></path></svg></span><span>Not included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Renders of key rooms</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#6A584A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#6A584A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M4 8h8"></path></svg></span><span>Not included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td></tr><tr style="border-top:1px solid #D3C4B1"><th scope="row" style="padding:24px 24px 24px 0;text-align:left;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400">Phased buying list</th><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#6A584A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#6A584A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M4 8h8"></path></svg></span><span>Not included</span></span></td><td style="padding:24px 24px 24px 0;vertical-align:top;font-size:17px;line-height:1.6;font-weight:400;color:#2E211A"><span style="display:flex;gap:12px;align-items:flex-start"><span style="margin-top:4px;display:flex"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8E4A2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 8.5l3.2 3.2L13 4.8"></path></svg></span><span>Included</span></span></td></tr></tbody>
+  </table>
+  <p style="margin:24px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">Fees and terms for both services are on their pages.</p>
+</section>
+
+<section style="background:#E8DFD2;padding:128px 64px;box-sizing:border-box">
+  <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
+    <h2 class="rv" style="grid-column:1 / span 5;margin:0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">What we do not do</h2>
+    <p style="grid-column:7 / span 6;margin:0;padding-top:8px;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;">We do not build, renovate, or install cabinetry, plumbing, or wiring. We start once the space is built. This keeps our attention on what you live with every day: the furniture, the light, and the feel of the room.</p>
+  </div>
+</section>
+
+<section style="padding:160px 0 160px">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;padding:0 64px 64px;box-sizing:border-box"><h2 class="rv" style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">Recent projects</h2><a href="#" class="lnk" style="font-size:15px;line-height:1.5;font-weight:500;padding-bottom:8px">View projects <span class="arr" aria-hidden="true">→</span></a></div>
+  <div style="padding:0 64px;box-sizing:border-box;display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start"><a href="#" class="card" style="display:block;grid-column:1 / span 5;"><div role="img" aria-label="Tanaw Residence city skyline at dusk through full-height windows, warm lamps inside" style="position:relative;overflow:clip;aspect-ratio:3 / 4;border-radius:2px;width:100%;background:#d3c8b0"><div class="im" style="position:absolute;left:0;right:0;top:0;height:100%;background:
+          linear-gradient(#2a2428,#2a2428) 6.4% 58%/6% 10% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 14.7% 55%/5% 14% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 26.1% 59%/8% 8% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 64.5% 56%/7% 12% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 74.5% 58%/6% 9% no-repeat,
+          linear-gradient(#2a2428,#2a2428) 87.9% 53%/9% 17% no-repeat,
+          radial-gradient(ellipse 10% 9% at 24% 70%, rgba(255,200,120,.65), rgba(255,200,120,0) 70%),
+          radial-gradient(ellipse 10% 9% at 76% 72%, rgba(255,200,120,.6), rgba(255,200,120,0) 70%),
+          repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 24.6%, rgba(40,28,22,.8) 24.6% 25.4%),
+          linear-gradient(180deg, #3a3340 0%, #8b6a62 36%, #d9a374 54%, #7a5a4c 60%, #2e211a 68%, #241a15 100%);"></div><div class="ph" style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:12px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Tanaw Residence, skyline at dusk, warm lamps lit inside</div></div><div style="padding-top:20px"><div style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;font-style:italic;">Tanaw Residence</div><div style="margin-top:8px;font-size:17px;line-height:1.6;font-weight:400">Bonifacio Global City, Taguig</div><div style="font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">Residential · Full-Service Furnishing</div></div></a><a href="#" class="card" style="display:block;grid-column:7 / span 5;margin-top:160px;"><div role="img" aria-label="Hardin Apartment living room with a clay linen sofa, a rug and a warm lamp in soft daylight" style="position:relative;overflow:clip;aspect-ratio:3 / 4;border-radius:2px;width:100%;background:#d3c8b0"><div class="im" style="position:absolute;left:0;right:0;top:0;height:100%;background:
+          radial-gradient(ellipse 8% 9% at 76% 44%, rgba(255,214,150,.65), rgba(255,214,150,0) 70%),
+          linear-gradient(#cbb690,#b79d72) 38% 62%/36% 9% no-repeat,
+          linear-gradient(#5a4030,#5a4030) 38% 69%/38% 2% no-repeat,
+          linear-gradient(#d8cdb6,#cfc2a8) 38% 80%/58% 6% no-repeat,
+          linear-gradient(90deg, rgba(247,242,226,.5), rgba(247,242,226,0) 50%),
+          linear-gradient(180deg,#e7ddc9 0%,#dcd0b8 58%,#9a7a58 60%,#6e5036 100%);"></div><div class="ph" style="position:absolute;left:12px;bottom:12px;max-width:calc(100% - 24px);padding:4px 8px;font-size:12px;line-height:1.4;font-weight:400;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Hardin Apartment living room, clay linen sofa, warm lamp</div></div><div style="padding-top:20px"><div style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;font-style:italic;">Hardin Apartment</div><div style="margin-top:8px;font-size:17px;line-height:1.6;font-weight:400">Legazpi Village, Makati</div><div style="font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">Residential · Interior Design Direction</div></div></a></div>
+</section>
+
+<section class="dk" style="position:relative;height:640px;overflow:clip;background:#2E211A;color:#F7F2EA">
+  <div role="img" aria-label="Lilim House terrace bench in shaded daylight with greenery behind" style="position:absolute;left:0;right:0;top:0;bottom:0;overflow:clip">
+    <div class="cpar" style="position:absolute;left:0;right:0;top:-6%;height:112%;background:
+          linear-gradient(#3a2a20,#3a2a20) 50% 62%/30% 2% no-repeat,
+          linear-gradient(#5a4030,#5a4030) 38% 65%/1.6% 6% no-repeat,
+          linear-gradient(#5a4030,#5a4030) 62% 65%/1.6% 6% no-repeat,
+          radial-gradient(ellipse 40% 44% at 66% 30%, rgba(226,232,180,.55), rgba(226,232,180,0) 70%),
+          linear-gradient(90deg, rgba(40,28,20,.5) 0%, rgba(40,28,20,0) 25%, rgba(40,28,20,0) 80%, rgba(40,28,20,.4) 100%),
+          linear-gradient(180deg, #3f3a24 0%, #6f7d4a 14%, #9aa86e 28%, #7d8a55 44%, #8a6a4c 58%, #6b4c38 74%, #3f2d22 100%);"></div>
+  </div>
+  <div style="position:absolute;left:0;right:0;bottom:0;height:78%;background:linear-gradient(to top, rgba(46,33,26,.95), rgba(46,33,26,.78) 42%, rgba(46,33,26,0))"></div>
+  <div style="position:absolute;left:64px;right:64px;bottom:80px">
+    <h2 style="margin:0;max-width:720px;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.15;font-weight:300;letter-spacing:-.015em;;color:#F7F2EA">Tell us about your space.</h2>
+    <p style="margin:24px 0 0;max-width:520px;font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000.</p>
+    <div style="display:inline-block;margin-top:32px;view-timeline:--cta block"><a href="#" class="btn-p" style="display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:15px;line-height:1;font-weight:500;padding:16px 32px;border-radius:2px">Book a discovery call</a></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="dk" style="background:#3A2A20;color:#F2ECE3;padding:96px 64px 48px;box-sizing:border-box">
+  <div style="display:grid;grid-template-columns:repeat(5, minmax(0, 1fr));gap:48px">
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Studio</div>
+      <ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#">Full-Service Furnishing</a></li>
+        <li><a href="#">Interior Design Direction</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Shop</div>
+      <ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#">Seating</a></li>
+        <li><a href="#">Tables</a></li>
+        <li><a href="#">Beds</a></li>
+        <li><a href="#">Storage</a></li>
+        <li><a href="#">Lighting</a></li>
+        <li><a href="#">Rugs and Textiles</a></li>
+        <li><a href="#">Decor and Objects</a></li>
+        <li><a href="#">Art</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Makers</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Help</div>
+      <ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;font-weight:400">
+        <li><a href="#">Delivery and returns</a></li>
+        <li><a href="#">Care guide</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Mailing list</div>
+      <form action="#" style="margin-top:20px;display:flex;flex-direction:column;gap:12px">
+        <label for="mail-t" style="font-size:15px;line-height:1.5;font-weight:400">Occasional notes on new projects and pieces.</label>
+        <input id="mail-t" type="email" name="email" autocomplete="email" style="width:100%;box-sizing:border-box;height:52px;padding:0 16px;background:#2E211A;border:1px solid #B3A18B;border-radius:2px;color:#F2ECE3;font:400 15px 'Hanken Grotesk',sans-serif">
+        <button type="submit" class="btn-l" style="height:52px;background:#F2ECE3;color:#2E211A;border:0;border-radius:2px;font:500 15px 'Hanken Grotesk',sans-serif;cursor:pointer">Subscribe</button>
+      </form>
+    </div>
+    <div>
+      <div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#D3C4B1">Showroom</div>
+      <div style="margin-top:20px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;font-weight:400">
+        <div>Makati City, Metro Manila. Open by appointment.</div>
+        <a href="#">studio@kanlungan.example</a>
+        <a href="#">+63 2 8555 0100</a>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:96px;padding-top:32px;border-top:1px solid #6A584A;display:flex;justify-content:space-between;align-items:flex-start;gap:64px">
+    <p style="margin:0;max-width:720px;font-size:14px;line-height:1.6;font-weight:400;color:#D3C4B1">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
+    <div style="display:flex;gap:32px;font-size:14px;line-height:1.5;font-weight:400">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":6522}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
