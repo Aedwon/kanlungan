@@ -1,5 +1,9 @@
 # Image briefs
 
+## Consistency system
+
+Every project shot follows its scene bible in [scene-bibles/](scene-bibles/README.md): plan, surfaces, placement, light, and a numbered camera. Generate each space's anchor first, then pass the approved anchor and the plan PNG as references for every later shot of that space. Scene bibles exist for: Lilim House, Tanaw Residence, Dalampasigan Inn, Pahinga Villas, and Hardin Apartment.
+
 ## Global style
 
 These are generation briefs, not new catalog or architectural facts. Inherit this section in every prompt, then attach the matching product consistency sheet and any accepted room reference. Follow [brand](../concept/brand.md), the locked [palette and imagery](../design/visual-system.md#imagery), [project captions](projects.md), [catalog](catalog.md), and [maker stories](makers.md). The studio leads; products support believable rooms. Photography remains subject to Aedwon's visual review. Unspecified silhouettes and artwork compositions are provisional generation instructions, never approved product specifications.
@@ -222,6 +226,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-hero
 
+**Camera:** C1 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 1; Home hero; Studio and Full-Service Furnishing heroes; project card; About finished-room panel; header states
 
 **Aspect and crop:** 21:9 room master; 16:9 section crop; 3:4 project crop centered on sofa and terrace
@@ -231,6 +237,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** Do not close the terrace doors, raise the furniture, or add a city skyline.
 
 ### lilim-g02-coffee-table
+
+**Camera:** C2 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Lilim House project, Gallery 2; Living Room collection supporting image
 
@@ -242,6 +250,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g03-dining
 
+**Camera:** C3 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 3; Dining Room collection; Tables and Lighting category crop
 
 **Aspect and crop:** 3:4 project gallery; 16:9 room derivative; 4:3 collection crop
@@ -251,6 +261,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No seventh chair, woven chair backs, solid brass pendant shade, or repeated legs.
 
 ### lilim-g04-afternoon-table
+
+**Camera:** C4 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Lilim House project, Gallery 4; Home featured Aparador and Tapayan in-room references
 
@@ -262,6 +274,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g05-main-bedroom
 
+**Camera:** C5 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 5; Bedroom collection; Himlay in-room reference
 
 **Aspect and crop:** 3:4 project gallery; 16:9 room derivative; 4:3 collection crop
@@ -271,6 +285,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No upholstered headboard, white resort bedding, extra bed, or city view.
 
 ### lilim-g06-shared-bedroom
+
+**Camera:** C6 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Lilim House project, Gallery 6
 
@@ -282,6 +298,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g07-hallway
 
+**Camera:** C7 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 7; Storage category; Aparador in-room reference
 
 **Aspect and crop:** 3:4 project gallery; square cabinet crop
@@ -291,6 +309,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No glass doors, low cabinet, blocked hallway, or corridor without an end.
 
 ### lilim-g08-terrace
+
+**Camera:** C8 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Lilim House project, Gallery 8; Home statement and project card; shared closing panels; booking submitted; related-project cards
 
@@ -302,6 +322,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g09-material-detail
 
+**Camera:** C9 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 9; Home statement cane detail; Dapithapon detail reuse
 
 **Aspect and crop:** 3:4 project and statement crop; square cane detail
@@ -312,6 +334,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g10-exterior
 
+**Camera:** C10 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 10
 
 **Aspect and crop:** 3:4 project gallery; 16:9 exterior crop
@@ -321,6 +345,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No invented pool, floating terrace, impossible slope, tropical postcard, or named architect style.
 
 ### lilim-shop-room
+
+**Camera:** C11 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Home, From the shop six-pin room; Lilim project, shop-the-project; confirmation room panel
 
@@ -333,6 +359,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### Page group: Tanaw Residence project and shared evening panels
 
 ### tanaw-hero
+**Camera:** C1 (anchor, living) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 1; Home recent project and closing panel; Studio card; related-project cards
 
@@ -343,6 +370,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g02-lamp-table
+**Camera:** C2 in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 2; Sinag in-room reference
 
@@ -353,6 +381,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g03-dining
+**Camera:** C3 (anchor, dining) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 3
 
@@ -363,6 +392,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g04-shelving
+**Camera:** C4 in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 4
 
@@ -373,6 +403,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g05-bedroom-lamp
+**Camera:** C5 (anchor, main bedroom) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 5
 
@@ -383,6 +414,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g06-wall-light
+**Camera:** C6 in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 6; Tala in-room reference
 
@@ -393,6 +425,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g07-guest-bedroom
+**Camera:** C7 (anchor, guest bedroom) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 7
 
@@ -403,6 +436,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g08-study
+**Camera:** C8 (anchor, study) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 8
 
@@ -413,6 +447,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g09-entry
+**Camera:** C9 (anchor, entry) in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 9
 
@@ -423,6 +458,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
 ### tanaw-g10-cushion-print
+**Camera:** C10 in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
 **Use:** Tanaw Residence project, Gallery 10; Hablon and Amihan in-room references
 
@@ -435,6 +471,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### Page group: Dalampasigan Inn project and hospitality panels
 
 ### dalampasigan-g01-exterior
+**Camera:** C1 (anchor, exterior) in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 1; hospitality filter supporting image
 
@@ -445,6 +482,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-g02-lobby
+**Camera:** C2 (anchor, lobby) in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 2; Bangko and Habi in-room references
 
@@ -455,6 +493,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-hero
+**Camera:** C3 (anchor, guest room A) in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 3; Home recent project; Full-Service Furnishing card; hospitality project card
 
@@ -465,6 +504,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-g04-reed-mat
+**Camera:** C4 in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 4; Banig in-room reference
 
@@ -475,6 +515,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-g05-bedside-stool
+**Camera:** C5 in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 5; Tuntungan in-room reference
 
@@ -485,6 +526,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-g06-second-room
+**Camera:** C6 (anchor, guest room B) in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 6; Kumot indigo in-room reference
 
@@ -495,6 +537,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-g07-breakfast
+**Camera:** C7 (anchor, breakfast room) in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 7; Hapag 260 in-room reference
 
@@ -505,6 +548,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-g08-pendant
+**Camera:** C8 in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 8; Lenta in-room reference
 
@@ -515,6 +559,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-g09-serving-counter
+**Camera:** C9 in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 9; Bilao in-room reference
 
@@ -525,6 +570,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
 ### dalampasigan-g10-corridor
+**Camera:** C10 (anchor, corridor) in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
 **Use:** Dalampasigan Inn project, Gallery 10
 
@@ -537,6 +583,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### Page group: Pahinga Villas project and hospitality panels
 
 ### pahinga-g01-exterior
+**Camera:** C1 (anchor, exterior) in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 1; hospitality filter supporting image
 
@@ -547,6 +594,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-hero
+**Camera:** C2 (anchor, bedroom) in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 2; project card; Full-Service Furnishing card; search project image
 
@@ -557,6 +605,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-g03-lamp-vessel
+**Camera:** C3 in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 3; Luad and Tapayan in-room references
 
@@ -567,6 +616,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-g04-curtains
+**Camera:** C4 in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 4; Tabing in-room reference
 
@@ -577,6 +627,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-g05-daybed
+**Camera:** C5 (anchor, terrace) in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 5; Duyan and Sulok in-room references
 
@@ -587,6 +638,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-g06-lounge
+**Camera:** C6 in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 6; Dapithapon in-room reference
 
@@ -597,6 +649,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-g07-dusk-pendant
+**Camera:** C7 in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 7; Kapis in-room reference
 
@@ -607,6 +660,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-g08-wall-piece
+**Camera:** C8 in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 8; Habi in-room reference
 
@@ -617,6 +671,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-g09-reception
+**Camera:** C9 (anchor, reception) in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 9
 
@@ -627,6 +682,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
 ### pahinga-g10-dusk-terrace
+**Camera:** C10 in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
 **Use:** Pahinga Villas project, Gallery 10
 
@@ -639,6 +695,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### Page group: Hardin Apartment project and Interior Design Direction
 
 ### hardin-g01-living-plan
+**Camera:** C1 in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 1, planned living-room render; Interior Design Direction comparison
 
@@ -649,6 +706,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No claim of a completed installation, glossy render surfaces, giant balcony, or three-seat sofa.
 
 ### hardin-hero
+**Camera:** C2 (anchor, living photograph) in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 2, photograph; Studio and Interior Design Direction card; search and related-project cards
 
@@ -659,6 +717,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No fully furnished later stage, invented art collection, oat sofa, or oversized apartment.
 
 ### hardin-g03-bedroom-plan
+**Camera:** C3 (anchor, bedroom render) in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 3, planned bedroom render
 
@@ -669,6 +728,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No completed-project claim, upholstered feature wall, invented product specification, or CGI shine.
 
 ### hardin-g04-book-cover
+**Camera:** C4 (anchor, studio table) in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 4, design-book cover and contents
 
@@ -679,6 +739,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No readable title, generated gibberish, invented client name, floating pages, or fake seals.
 
 ### hardin-g05-book-layout
+**Camera:** C5 in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 5, layout and room specifications
 
@@ -689,6 +750,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No readable specifications, invented measurements, impossible furniture plan, or copied architectural drawing.
 
 ### hardin-g06-moodboard
+**Camera:** C6 in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 6, material moodboard; service design process
 
@@ -699,6 +761,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No extra material palette, brass substitution, labels, bright swatches, or decorative cultural pattern.
 
 ### hardin-g07-floor-plan
+**Camera:** C7 in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 7, furniture plan
 
@@ -709,6 +772,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No readable dimensions, invented area claim inside the image, construction details, or impossible circulation.
 
 ### hardin-g08-sourcing-list
+**Camera:** C8 in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 8, three-stage sourcing list
 
@@ -719,6 +783,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No readable prices, invented discounts, extra sourcing stages, signatures, or fake transaction documents.
 
 ### hardin-g09-entry
+**Camera:** C9 (anchor, entry) in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 9, photograph; Pasilyo and Bato in-room references
 
@@ -729,6 +794,7 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No cabinet substitution, enormous stone sculpture, added shopping-stage claims, or obstructed entry.
 
 ### hardin-g10-balcony
+**Camera:** C10 (anchor, balcony) in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
 **Use:** Hardin Apartment project, Gallery 10, photograph; Kiso in-room reference
 
