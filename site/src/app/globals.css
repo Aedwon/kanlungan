@@ -1,0 +1,30 @@
+@import '../styles/tokens.css';
+@import '../styles/home-desktop.css';
+@import '../styles/home-mobile.css';
+@import '../styles/reference.css';
+@import '../styles/components.css';
+*{box-sizing:border-box}
+html{background:var(--color-bg);color:var(--color-text-default)}
+body{margin:0;font:400 17px/1.6 var(--font-hanken),system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--color-accent-default)}
+button,input{font-family:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--color-focus-default);outline-offset:3px}
+.dk a:hover{color:#E8C8B0}
+.dk a:focus-visible,.dk button:focus-visible,.dk input:focus-visible{outline-color:var(--color-focus-on-image)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.skip-link{position:fixed;left:16px;top:8px;transform:translateY(-160%);z-index:200;background:var(--color-bg);padding:12px 16px}
+.skip-link:focus{transform:none}
+.pg{position:relative;overflow-x:clip;timeline-scope:--hero,--proc,--cta}
+.home-desktop{display:contents}.home-mobile{display:none}
+.im{transition:filter .4s ease}
+.card:hover .im,.card:focus-visible .im,.card:focus-within .im{filter:brightness(1.05)}
+.dt,.nt{opacity:0;transform:translateY(4px);transition:opacity .3s ease,transform .3s ease}
+.card:hover .dt,.card:focus-visible .dt,.card:focus-within .dt,.card:hover .nt,.card:focus-within .nt{opacity:1;transform:none}
+@media(max-width:1279px){.home-desktop{display:none}.home-mobile{display:contents}}
+@media(prefers-reduced-motion:reduce){
+*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+.rv,.par,.zin,.prog,.cpar,.svi,.win-g{animation:none!important}
+.arr,.logo-light{transform:none!important}
+.card:hover .im,.card:focus-visible .im,.card:focus-within .im,.col:hover .cz{filter:none}
+}

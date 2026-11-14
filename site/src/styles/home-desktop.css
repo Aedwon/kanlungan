@@ -1,0 +1,162 @@
+/* Approved desktop template choreography. */
+@media (min-width: 1280px) {
+
+body{margin:0;background:#F2ECE3;font-family:var(--font-hanken),system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8E4A2C}
+.dk a:hover{color:#E8C8B0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #8E4A2C;outline-offset:3px}
+.dk a:focus-visible,.dk button:focus-visible,.dk input:focus-visible{outline-color:#F2ECE3}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover .arr{transform:translateX(4px)}
+.btn-p{transition:background-color .2s ease}
+.btn-p:hover{background:#7A3E24!important;color:#F7F2EA!important}
+.ib{transition:background-color .2s ease}
+.ib:hover{background:#E8DFD2}
+.shade{animation:shade 12s ease-in-out infinite alternate}
+@keyframes shade{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+.im{transition:filter .4s ease}
+a.card:hover{color:#2E211A}
+.card:hover .im,.card:focus-visible .im{filter:brightness(1.05)}
+
+/* Placeholder captions: hidden at rest, shown when the image is hovered */
+.ph{opacity:0;pointer-events:none;transition:opacity .25s ease}
+:hover>.ph{opacity:1}
+
+/* Shadow layer: slats (sl) and palm fronds (pm), blurred, multiplied, drifting */
+.sl{position:absolute;left:0;right:0;top:0;bottom:0;background:repeating-linear-gradient(103deg,rgba(40,28,20,0) 0 38px,rgba(40,28,20,.62) 38px 84px,rgba(40,28,20,0) 84px 118px);-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,#000 30%,#000 64%,rgba(0,0,0,0) 100%);mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,#000 30%,#000 64%,rgba(0,0,0,0) 100%)}
+.pm{position:absolute;left:0;right:0;top:0;bottom:0;background:repeating-linear-gradient(72deg,rgba(32,44,24,.8) 0 5px,rgba(0,0,0,0) 5px 17px);-webkit-mask-image:radial-gradient(ellipse 36% 48% at 94% 4%,#000 0%,rgba(0,0,0,0) 72%),radial-gradient(ellipse 30% 42% at 2% 100%,#000 0%,rgba(0,0,0,0) 70%);mask-image:radial-gradient(ellipse 36% 48% at 94% 4%,#000 0%,rgba(0,0,0,0) 72%),radial-gradient(ellipse 30% 42% at 2% 100%,#000 0%,rgba(0,0,0,0) 70%)}
+
+/* Hero: Clean threshold. Natural state is the "At rest" frame: dark text left, small window right. */
+.hero-track{position:relative;background:#F2ECE3}
+.hero-pin{position:relative;height:812px;overflow:hidden;background:#F2ECE3}
+.win{position:absolute;left:0;right:0;top:0;bottom:0;pointer-events:none;clip-path:inset(64px 64px 64px calc(100% - 624px) round 2px)}
+.win-img{position:absolute;left:0;right:0;top:0;bottom:0;background:#5b4132;transform:translateX(calc(50% - 344px))}
+.scrim{position:absolute;left:0;right:0;top:0;bottom:0;opacity:0;background:linear-gradient(to top, rgba(46,33,26,.94) 0%, rgba(46,33,26,.84) 30%, rgba(46,33,26,.66) 50%, rgba(46,33,26,.34) 66%, rgba(46,33,26,0) 82%)}
+/* Header button: hidden at rest, shown only by the scroll-driven rule below */
+.hbw{display:grid;grid-template-columns:1fr;margin-left:0;overflow:hidden;visibility:visible}
+.hbw>a{min-width:0;white-space:nowrap}
+
+/* Services: image reveals from the bottom, behind the text */
+.sv{position:relative;overflow:hidden;background:#E8DFD2;border-radius:2px;min-height:680px;padding:48px;box-sizing:border-box;display:flex;flex-direction:column}
+.sv-img{position:absolute;left:0;right:0;top:0;bottom:0;clip-path:inset(100% 0 0 0);transition:clip-path .4s cubic-bezier(.22,.61,.36,1)}
+.sv-img-i{position:absolute;left:0;right:0;top:0;bottom:0;transform:translateY(10%);transition:transform .4s cubic-bezier(.22,.61,.36,1)}
+.sv:hover .sv-img,.sv:focus-within .sv-img{clip-path:inset(0 0 0 0)}
+.sv:hover .sv-img-i,.sv:focus-within .sv-img-i{transform:none}
+.sv .tx{transition:color .3s ease}
+.sv .tm{transition:color .3s ease;color:#6A584A}
+.sv:hover .tx,.sv:focus-within .tx{color:#F7F2EA!important}
+.sv:hover .tm,.sv:focus-within .tm{color:#E8DFD2!important}
+.sv:hover a:hover{color:#E8C8B0}
+.sv-big{display:block;transform:none;transition:transform .4s cubic-bezier(.22,.61,.36,1)}
+.sv:hover .sv-big,.sv:focus-within .sv-big{transform:translateY(-8px)}
+
+/* Collections on the plan: description shows on hover or focus */
+.col .cd{opacity:0;transform:translateY(4px);transition:opacity .3s ease,transform .3s ease}
+.col:hover .cd,.col:focus-visible .cd{opacity:1;transform:none}
+.col .cz{transition:filter .4s ease}
+.col:hover .cz,.col:focus-visible .cz{filter:brightness(1.05)}
+a.col:hover{color:#2E211A}
+
+/* Shop the room: pins, tooltip cards, list */
+.pin{position:absolute;display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-24px 0 0 -24px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;outline:1px solid #F7F2EA;outline-offset:3px;font-size:15px;line-height:1;font-weight:500;transition:background-color .2s ease}
+.pin:hover{color:#F7F2EA;background:#2E211A}
+.pin:focus-visible{outline:2px solid #F7F2EA;outline-offset:3px;background:#2E211A}
+.pin:hover,.pin:focus-visible{z-index:6}
+.tip{position:absolute;bottom:calc(100% + 14px);left:50%;width:272px;margin-left:-128px;box-sizing:border-box;padding:16px 16px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;text-align:left;color:#2E211A;font-weight:400;visibility:hidden;opacity:0;transform:translateY(6px);transition:opacity .2s ease,transform .3s ease,visibility 0s linear .3s;pointer-events:none}
+.tip-r{left:auto;right:-8px;margin-left:0}
+.tip-b{bottom:auto;top:calc(100% + 14px);transform:translateY(-6px)}
+.pin:hover .tip,.pin:focus-visible .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+.num{display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;font-size:14px;line-height:1;font-weight:500;transition:background-color .2s ease}
+.dt{opacity:0;transform:translateY(4px);transition:opacity .3s ease,transform .3s ease}
+.card:hover .dt,.card:focus-visible .dt{opacity:1;transform:none}
+.rm:has(.p1:hover) .k1 .num,.rm:has(.p1:focus-visible) .k1 .num,.k1:hover .num{background:#2E211A}
+.rm:has(.p2:hover) .k2 .num,.rm:has(.p2:focus-visible) .k2 .num,.k2:hover .num{background:#2E211A}
+.rm:has(.p3:hover) .k3 .num,.rm:has(.p3:focus-visible) .k3 .num,.k3:hover .num{background:#2E211A}
+.rm:has(.p4:hover) .k4 .num,.rm:has(.p4:focus-visible) .k4 .num,.k4:hover .num{background:#2E211A}
+.rm:has(.p5:hover) .k5 .num,.rm:has(.p5:focus-visible) .k5 .num,.k5:hover .num{background:#2E211A}
+.rm:has(.p6:hover) .k6 .num,.rm:has(.p6:focus-visible) .k6 .num,.k6:hover .num{background:#2E211A}
+.rm:has(.k1:hover) .p1,.rm:has(.k1:focus-visible) .p1{background:#2E211A;z-index:6}
+.rm:has(.k2:hover) .p2,.rm:has(.k2:focus-visible) .p2{background:#2E211A;z-index:6}
+.rm:has(.k3:hover) .p3,.rm:has(.k3:focus-visible) .p3{background:#2E211A;z-index:6}
+.rm:has(.k4:hover) .p4,.rm:has(.k4:focus-visible) .p4{background:#2E211A;z-index:6}
+.rm:has(.k5:hover) .p5,.rm:has(.k5:focus-visible) .p5{background:#2E211A;z-index:6}
+.rm:has(.k6:hover) .p6,.rm:has(.k6:focus-visible) .p6{background:#2E211A;z-index:6}
+.rm:has(.k1:hover) .p1 .tip,.rm:has(.k2:hover) .p2 .tip,.rm:has(.k3:hover) .p3 .tip,.rm:has(.k4:hover) .p4 .tip,.rm:has(.k5:hover) .p5 .tip,.rm:has(.k6:hover) .p6 .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
+
+/* Scroll-driven choreography. Keyframes run FROM an altered state TO the natural state. */
+@keyframes rvIn{from{clip-path:inset(-10% 100% -10% -4%);transform:translateY(24px)}to{clip-path:inset(-10% -10% -10% -10%);transform:none}}
+@keyframes parY{from{transform:translateY(-7%)}to{transform:translateY(7%)}}
+@keyframes zoomIn{from{transform:scale(1.1)}to{transform:scale(1)}}
+@keyframes progX{from{transform:scaleX(.06)}to{transform:scaleX(1)}}
+@keyframes cpar{from{transform:translateY(-5%)}to{transform:translateY(5%)}}
+@keyframes tOpen{from{clip-path:inset(64px 64px 64px calc(100% - 624px) round 2px)}to{clip-path:inset(0px 0px 0px 0px round 0px)}}
+@keyframes tImg{from{transform:translateX(calc(50% - 344px))}to{transform:translateX(0)}}
+@keyframes tScrim{from{opacity:0}20%{opacity:1}to{opacity:1}}
+@keyframes hbIn{from{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}to{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}}
+.stsec{view-timeline:--st block}
+@supports (animation-timeline: view()){
+.rv{animation:rvIn linear both;animation-timeline:view();animation-range:entry 0% entry 60%}
+.par{animation:parY linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+.zin{animation:zoomIn linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
+.prog{animation:progX linear both;animation-timeline:--st;animation-range:cover 10% cover 90%}
+.cpar{animation:cpar linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+}
+@media (max-height:1400px) and (prefers-reduced-motion:no-preference){
+@supports (animation-timeline: view()){
+:root{--pin:max(560px,calc(100vh - 88px))}
+.hero-track{height:calc(var(--pin) + 1000px);view-timeline:--hero block}
+.hero-pin{position:sticky;top:88px;height:var(--pin)}
+.win{animation:tOpen linear both;animation-timeline:--hero;animation-range:cover var(--pin) cover calc(var(--pin) + 688px)}
+.win-img{animation:tImg linear both;animation-timeline:--hero;animation-range:cover var(--pin) cover calc(var(--pin) + 688px)}
+.scrim{animation:tScrim linear both;animation-timeline:--hero;animation-range:cover var(--pin) cover calc(var(--pin) + 688px)}
+/* Header button: slides in as the hero button passes under the header (51px of scroll, after the hero is released) */
+.pg{timeline-scope:--hero}
+.hbw{animation:hbIn linear both;animation-timeline:--hero;animation-range:cover calc(2 * var(--pin) + 885px) cover calc(2 * var(--pin) + 936px)}
+}
+}
+@media (prefers-reduced-motion: reduce){
+.shade{animation:none}
+.rv,.par,.zin,.prog,.cpar{animation:none!important}
+.arr,.btn-p,.ib,.sv-img,.sv-img-i,.sv-big,.sv .tx,.sv .tm,.pin,.tip,.num,.ph,.col .cd,.col .cz,.dt{transition:none}
+.card:hover .im,.card:focus-visible .im,.col:hover .cz,.col:focus-visible .cz{filter:none}
+.col .cd,.dt{transform:none}
+}
+
+/* Added for sections 7 to 9 */
+@keyframes procX{from{transform:none}to{transform:translateX(calc(-100% + 100vw))}}
+@keyframes winOpen{from{clip-path:inset(8% var(--wx,22%) 8% var(--wx,22%) round 2px)}to{clip-path:inset(0 0 0 0 round 0)}}
+.btn-l{transition:background-color .2s ease}
+.btn-l:hover{background:#E8DFD2!important;color:#2E211A!important}
+.win-g{clip-path:inset(0 var(--gut,64px) 0 var(--gut,64px) round 2px)}
+.proc{border-top:1px solid #D3C4B1;padding:128px 64px 160px;box-sizing:border-box}
+.proc-row{list-style:none;margin:64px 0 0;padding:0;display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:96px 48px}
+.proc-row li{border-top:1px solid #2E211A;padding-top:24px}
+.proc-bar{display:none}
+@keyframes hbOut{from{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}to{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}}
+@keyframes hbBack{from{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}to{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}}
+@supports (animation-timeline: view()){
+.cta-sec{view-timeline:--cta block}
+}
+@media (max-height:1400px) and (prefers-reduced-motion:no-preference){
+@supports (animation-timeline: view()){
+.pg{timeline-scope:--hero,--proc,--cta}
+.win-g{animation:winOpen linear both;animation-timeline:view();animation-range:entry 20% cover 38%}
+.hbw{animation:hbIn linear both,hbOut linear forwards,hbBack linear forwards;animation-timeline:--hero,--cta,--cta;animation-range:cover calc(2 * var(--pin) + 885px) cover calc(2 * var(--pin) + 936px),entry 85% entry 92%,exit 84% exit 90%}
+.proc{padding:0}
+.proc-track{height:calc(var(--pin) + 1500px);view-timeline:--proc block}
+.proc-pin{position:sticky;top:88px;height:var(--pin);overflow:hidden;display:flex;flex-direction:column}
+.proc-head{flex:none;padding:48px 64px 0}
+.proc-row{flex:1 1 auto;display:flex;align-items:center;gap:48px;width:max-content;margin:0;padding:0 64px;animation:procX linear both;animation-timeline:--proc;animation-range:cover var(--pin) cover calc(var(--pin) + 1500px)}
+.proc-row li{flex:none;width:400px}
+.proc-bar{display:block;flex:none;margin:0 64px 48px;height:1px;background:#D3C4B1}
+.proc-bar>div{height:1px;background:#8E4A2C;transform-origin:left center;animation:progX linear both;animation-timeline:--proc;animation-range:cover var(--pin) cover calc(var(--pin) + 1500px)}
+}
+}
+@media (prefers-reduced-motion: reduce){
+.win-g{animation:none!important}
+.btn-l{transition:none}
+}
+
+}
