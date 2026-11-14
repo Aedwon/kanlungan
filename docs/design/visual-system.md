@@ -110,8 +110,10 @@ Aedwon set these on 2026-11-14. They apply to every page.
 ## Spacing and radii
 
 - **Radius:** 2px on every element. No pills and no circles.
-- **Spacing scale:** 4, 8, 16, 24, 32, 48, 64, 96, 128, 160px
-- **Desktop:** page gutter 64px. Sections are 120px or more apart.
+- **Spacing scale:** 4, 8, 12, 16, 24, 32, 48, 64, 96, 128, 160px. Every padding, margin, and gap uses a step from this scale (enforced on 2026-11-14).
+- **Exceptions:** grid margins and gutters (20 and 16px on mobile, 40 and 20px on tablet) and hairline offsets of 1 to 3px.
+- **Section spacing:** 128px on desktop, 96px on mobile. A section that follows a colored band carries its full top spacing; a heading never sits flush against the band above.
+- **Desktop:** page gutter 64px.
 
 ## Motion
 

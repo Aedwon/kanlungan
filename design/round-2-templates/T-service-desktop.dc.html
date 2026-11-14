@@ -69,7 +69,7 @@ a.card:hover{color:#2E211A}
 .rv{animation:rvIn linear both;animation-timeline:view();animation-range:entry 0% entry 60%}
 .par{animation:parY linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
 .zin{animation:zoomIn linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
-.prog{animation:progX linear both;animation-timeline:--st;animation-range:cover 10% cover 90%}
+.prog{animation:progX linear both;animation-timeline:view();animation-range:entry 0% cover 50%}
 .progy{animation:progY linear both;animation-timeline:--st;animation-range:cover 10% cover 90%}
 .cpar{animation:cpar linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
 .svi{animation:veil linear both;animation-timeline:view();animation-range:entry 0% entry 100%}
@@ -112,7 +112,7 @@ a.card:hover{color:#2E211A}
 
 <header style="position:sticky;top:0;z-index:100;display:grid;grid-template-columns:minmax(0, 1fr) auto minmax(0, 1fr);align-items:center;height:88px;padding:0 64px;box-sizing:border-box;background:#F2ECE3;border-bottom:1px solid #D3C4B1">
   <a href="#" aria-label="Kanlungan, home" style="display:flex;align-items:center;gap:12px;justify-self:start"><svg viewBox="0 0 100 100" width="32" height="32" style="display:block;--lw:#F2ECE3;--lf:#8E4A2C;border-radius:2px" aria-hidden="true"><rect width="100" height="100" rx="1.92" fill="#3A2A20"></rect><path d="M0 46H100V100H0Z" fill="#000" opacity=".2"></path><use href="#af2"></use></svg><span style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1;font-weight:300;letter-spacing:-.015em;color:#2E211A">Kanlungan</span></a>
-  <nav aria-label="Primary" style="display:flex;gap:44px;font-size:15px;line-height:1.5;font-weight:400">
+  <nav aria-label="Primary" style="display:flex;gap:48px;font-size:15px;line-height:1.5;font-weight:400">
     <a href="#" aria-current="page">Studio</a>
     <a href="#">Projects</a>
     <a href="#">Shop</a>
@@ -122,11 +122,11 @@ a.card:hover{color:#2E211A}
     <button type="button" class="ib" aria-label="Search" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:#2E211A;cursor:pointer">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
     </button>
-    <a href="#" class="ib" aria-label="Cart, 0 items" style="height:44px;padding:0 10px;display:flex;align-items:center;gap:8px;border-radius:2px;font-size:14px;line-height:1.5;font-weight:500">
+    <a href="#" class="ib" aria-label="Cart, 0 items" style="height:44px;padding:0 8px;display:flex;align-items:center;gap:8px;border-radius:2px;font-size:14px;line-height:1.5;font-weight:500">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
       <span>0</span>
     </a>
-    <div class="hbw"><a href="#" class="btn-p" style="margin-left:16px;display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:14px;line-height:1;font-weight:500;padding:16px 22px;border-radius:2px">Book a discovery call</a></div>
+    <div class="hbw"><a href="#" class="btn-p" style="margin-left:16px;display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:14px;line-height:1;font-weight:500;padding:16px 24px;border-radius:2px">Book a discovery call</a></div>
   </div>
 </header>
 
@@ -161,14 +161,14 @@ a.card:hover{color:#2E211A}
   </div>
 </section>
 
-<section style="padding:168px 64px 168px;box-sizing:border-box">
+<section style="padding:160px 64px 160px;box-sizing:border-box">
   <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
     <h2 class="rv" style="grid-column:1 / span 5;margin:0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">Who it is for</h2>
     <p style="grid-column:6 / span 7;margin:0;padding-left:32px;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.15;font-weight:300;letter-spacing:-.015em;">You have a finished, empty home, condo, or small hotel. You want to move in or open once, with everything in place.</p>
   </div>
 </section>
 
-<section style="padding:0 64px 168px;box-sizing:border-box">
+<section style="padding:0 64px 160px;box-sizing:border-box">
   <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
     <div style="grid-column:1 / span 5;position:sticky;top:152px;align-self:start"><div role="img" aria-label="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" style="position:relative;overflow:clip;aspect-ratio:4 / 5;border-radius:2px;width:100%;background:#d8ccb4"><div class="par " style="position:absolute;left:0;right:0;top:-9%;height:118%;background:
             radial-gradient(ellipse 36% 5% at 50% 86%, rgba(247,242,226,.35), rgba(247,242,226,0) 100%),
@@ -186,27 +186,27 @@ a.card:hover{color:#2E211A}
   </div>
 </section>
 
-<section class="stsec" style="padding:0 64px 168px;box-sizing:border-box">
+<section class="stsec" style="padding:0 64px 160px;box-sizing:border-box">
   <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
     <div style="grid-column:1 / span 5;position:sticky;top:152px;align-self:start;padding-right:32px"><h2 class="rv" style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">How a furnishing project works</h2><div style="margin-top:48px"><div style="font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.15;font-weight:300;letter-spacing:-.015em;">12 to 20 weeks</div><p style="margin:12px 0 0;max-width:420px;font-size:17px;line-height:1.6;font-weight:400;color:#6A584A">Typical time from signed proposal to handover. Made-to-order lead times set most of that.</p></div></div>
     <div style="grid-column:7 / span 6;padding-top:8px"><div style="position:relative;padding-left:40px">
         <div aria-hidden="true" style="position:absolute;left:0;top:8px;bottom:56px;width:1px;background:#D3C4B1"><div class="progy" style="width:1px;height:100%;background:#8E4A2C;transform-origin:top center"></div></div>
-        <ol role="list" style="list-style:none;margin:0;padding:0"><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 56px">
+        <ol role="list" style="list-style:none;margin:0;padding:0"><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 48px">
         <span aria-hidden="true" style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;;color:#8E4A2C">1</span>
         <div><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Discovery call</h3><p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400">We talk about your space, your brief, and your budget.</p><p style="margin:12px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">Free, 30 minutes</p></div>
-      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 56px">
+      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 48px">
         <span aria-hidden="true" style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;;color:#8E4A2C">2</span>
         <div><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Site visit and proposal</h3><p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400">We measure the space and send a fixed design fee and a budget range.</p></div>
-      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 56px">
+      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 48px">
         <span aria-hidden="true" style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;;color:#8E4A2C">3</span>
         <div><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Design</h3><p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400">You see layouts, materials, and a full furnishing plan.</p><p style="margin:12px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">Two revision rounds</p></div>
-      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 56px">
+      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 48px">
         <span aria-hidden="true" style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;;color:#8E4A2C">4</span>
         <div><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Procurement</h3><p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400">We order every piece and manage the makers.</p><p style="margin:12px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">Made-to-order lead times usually run 4 to 12 weeks</p></div>
-      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 56px">
+      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 48px">
         <span aria-hidden="true" style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;;color:#8E4A2C">5</span>
         <div><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Installation and styling</h3><p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400">Our crew delivers, installs, and styles each room.</p><p style="margin:12px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">Usually within one week on site</p></div>
-      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 56px">
+      </li><li style="display:grid;grid-template-columns:64px 1fr;gap:0px;padding:0 0 48px">
         <span aria-hidden="true" style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;;color:#8E4A2C">6</span>
         <div><h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Handover</h3><p style="margin:8px 0 0;font-size:17px;line-height:1.6;font-weight:400">A walkthrough, a care guide, and a visit 30 days later.</p></div>
       </li></ol>
@@ -216,7 +216,7 @@ a.card:hover{color:#2E211A}
 
 <section class="stsec" style="background:#E8DFD2;padding:128px 64px;box-sizing:border-box">
   <h2 class="rv" style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">How fees work</h2>
-  <div style="margin-top:72px;display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
+  <div style="margin-top:64px;display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
     <div style="grid-column:1 / span 7"><div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap"><span style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:300;letter-spacing:0;">From</span><span style="font-family:'Newsreader',Georgia,serif;font-size:88px;line-height:1.1;font-weight:300;letter-spacing:-.02em">₱1,500,000</span></div>
       <p style="margin:8px 0 0;font-size:14px;line-height:1.5;font-weight:400;color:#6A584A">Design fee included.</p>
       <p style="margin:40px 0 0;max-width:560px;font-size:17px;line-height:1.6;font-weight:400">The design fee is fixed and quoted per project, based on floor area and scope. The furnishing budget is separate. You pay listed prices for the pieces, and we add no hidden markup on shop items.</p></div>
@@ -232,8 +232,8 @@ a.card:hover{color:#2E211A}
   </div>
 </section>
 
-<section style="padding:0 0 160px">
-  <div style="display:flex;align-items:flex-end;justify-content:space-between;padding:0 64px 56px;box-sizing:border-box">
+<section style="padding:128px 0 160px">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;padding:0 64px 48px;box-sizing:border-box">
     <h2 class="rv" style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">Recent projects</h2>
     <a href="#" class="lnk" style="font-size:15px;line-height:1.5;font-weight:500;padding-bottom:8px">View projects <span class="arr" aria-hidden="true">→</span></a>
   </div>
@@ -249,7 +249,7 @@ a.card:hover{color:#2E211A}
       <div class="ph" style="position:absolute;left:24px;top:24px;padding:4px 8px;font-size:12px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Lilim House terrace with bench, shaded daylight, greenery</div>
       <div style="position:absolute;left:48px;right:48px;bottom:44px;display:flex;align-items:flex-end;justify-content:space-between;gap:48px;color:#F7F2EA">
         <div style="font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;font-style:italic;">Lilim House</div>
-        <div style="text-align:right;padding-bottom:6px"><div style="font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">Antipolo, Rizal</div><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Residential</div></div>
+        <div style="text-align:right;padding-bottom:8px"><div style="font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">Antipolo, Rizal</div><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Residential</div></div>
       </div>
     </a>
     <a href="#" style="display:block;position:sticky;top:136px;height:640px;margin-bottom:96px;overflow:clip;border-radius:2px;background:#2E211A">
@@ -263,7 +263,7 @@ a.card:hover{color:#2E211A}
       <div class="ph" style="position:absolute;left:24px;top:24px;padding:4px 8px;font-size:12px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Dalampasigan Inn guest room, pale limewash walls, reed mat, open window, bright coastal daylight</div>
       <div style="position:absolute;left:48px;right:48px;bottom:44px;display:flex;align-items:flex-end;justify-content:space-between;gap:48px;color:#F7F2EA">
         <div style="font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;font-style:italic;">Dalampasigan Inn</div>
-        <div style="text-align:right;padding-bottom:6px"><div style="font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">San Juan, La Union</div><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Hospitality</div></div>
+        <div style="text-align:right;padding-bottom:8px"><div style="font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">San Juan, La Union</div><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Hospitality</div></div>
       </div>
     </a>
     <a href="#" style="display:block;position:sticky;top:160px;height:640px;overflow:clip;border-radius:2px;background:#2E211A">
@@ -279,38 +279,38 @@ a.card:hover{color:#2E211A}
       <div class="ph" style="position:absolute;left:24px;top:24px;padding:4px 8px;font-size:12px;line-height:1.4;color:#F7F2EA;background:rgba(46,33,26,.72);border-radius:2px">Placeholder · Pahinga Villas bedroom, filtered light through coconut palms, white linen, warm lamp</div>
       <div style="position:absolute;left:48px;right:48px;bottom:44px;display:flex;align-items:flex-end;justify-content:space-between;gap:48px;color:#F7F2EA">
         <div style="font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;font-style:italic;">Pahinga Villas</div>
-        <div style="text-align:right;padding-bottom:6px"><div style="font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">Panglao, Bohol</div><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Hospitality</div></div>
+        <div style="text-align:right;padding-bottom:8px"><div style="font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">Panglao, Bohol</div><div style="font-size:12px;line-height:1.4;font-weight:500;letter-spacing:.08em;color:#E8DFD2">Hospitality</div></div>
       </div>
     </a></div>
 </section>
 
-<section style="padding:0 64px 168px;box-sizing:border-box">
+<section style="padding:0 64px 160px;box-sizing:border-box">
   <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
     <h2 class="rv" style="grid-column:1 / span 5;margin:0;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">What we do not do</h2>
-    <div style="grid-column:7 / span 6;padding-top:8px"><ul style="list-style:none;margin:0;padding:0;border-bottom:1px solid #D3C4B1"><li style="padding:28px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;">No construction, renovation, or demolition</li><li style="padding:28px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;">No built-in cabinetry, plumbing, or electrical work</li><li style="padding:28px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;">No architectural design</li></ul><p style="margin:32px 0 0;max-width:520px;font-size:17px;line-height:1.6;font-weight:400">We start once the space is built. This keeps our attention on what you live with every day: the furniture, the light, and the feel of the room.</p></div>
+    <div style="grid-column:7 / span 6;padding-top:8px"><ul style="list-style:none;margin:0;padding:0;border-bottom:1px solid #D3C4B1"><li style="padding:32px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;">No construction, renovation, or demolition</li><li style="padding:32px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;">No built-in cabinetry, plumbing, or electrical work</li><li style="padding:32px 0;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.2;font-weight:300;letter-spacing:0;">No architectural design</li></ul><p style="margin:32px 0 0;max-width:520px;font-size:17px;line-height:1.6;font-weight:400">We start once the space is built. This keeps our attention on what you live with every day: the furniture, the light, and the feel of the room.</p></div>
   </div>
 </section>
 
-<section style="padding:0 64px 168px;box-sizing:border-box">
+<section style="padding:0 64px 160px;box-sizing:border-box">
   <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:start">
     <h2 class="rv" style="grid-column:1 / span 5;position:sticky;top:152px;margin:0;padding-right:32px;font-family:'Newsreader',Georgia,serif;font-size:56px;line-height:1.05;font-weight:300;letter-spacing:-.02em;">Questions we are often asked</h2>
     <div style="grid-column:7 / span 6"><div style="border-bottom:1px solid #D3C4B1"><details class="fq" name="faq" open style="border-top:1px solid #D3C4B1">
-        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:28px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">How much does it cost?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
+        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:32px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">How much does it cost?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
         <p style="margin:0;padding:0 48px 32px 0;max-width:620px;font-size:17px;line-height:1.6;font-weight:400">Furnishing projects start at ₱1,500,000, including the design fee. The design fee is fixed and quoted per project, based on floor area and scope. The furnishing budget is separate. You pay listed prices for the pieces, and we add no hidden markup on shop items.</p>
       </details><details class="fq" name="faq" style="border-top:1px solid #D3C4B1">
-        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:28px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">How long does a project take?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
+        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:32px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">How long does a project take?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
         <p style="margin:0;padding:0 48px 32px 0;max-width:620px;font-size:17px;line-height:1.6;font-weight:400">Most projects take 12 to 20 weeks from signed proposal to handover. Made-to-order lead times set most of that time. Installation usually takes about one week on site.</p>
       </details><details class="fq" name="faq" style="border-top:1px solid #D3C4B1">
-        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:28px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">How do payments work?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
+        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:32px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">How do payments work?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
         <p style="margin:0;padding:0 48px 32px 0;max-width:620px;font-size:17px;line-height:1.6;font-weight:400">You pay 50 percent of the design fee when you sign and 50 percent when you approve the design. You pay 70 percent of the furnishing budget before we order and 30 percent before installation.</p>
       </details><details class="fq" name="faq" style="border-top:1px solid #D3C4B1">
-        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:28px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Do you work outside Metro Manila?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
+        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:32px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Do you work outside Metro Manila?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
         <p style="margin:0;padding:0 48px 32px 0;max-width:620px;font-size:17px;line-height:1.6;font-weight:400">Yes. We work anywhere in the Philippines. Outside Metro Manila and Calabarzon, the proposal states travel and freight costs.</p>
       </details><details class="fq" name="faq" style="border-top:1px solid #D3C4B1">
-        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:28px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Can you renovate or build cabinets?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
+        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:32px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">Can you renovate or build cabinets?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
         <p style="margin:0;padding:0 48px 32px 0;max-width:620px;font-size:17px;line-height:1.6;font-weight:400">No. We do not build, renovate, or install cabinetry, plumbing, or wiring. The space should be finished before we start.</p>
       </details><details class="fq" name="faq" style="border-top:1px solid #D3C4B1">
-        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:28px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">How many changes can I ask for?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
+        <summary style="display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:32px 0;box-sizing:border-box"><span class="fq-q" style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.3;font-weight:400;letter-spacing:0;">How many changes can I ask for?</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#2E211A" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="flex:none"><path d="M3 10h14"></path><path class="vl" d="M10 3v14"></path></svg></summary>
         <p style="margin:0;padding:0 48px 32px 0;max-width:620px;font-size:17px;line-height:1.6;font-weight:400">The design stage includes two revision rounds. We settle the layout, materials, and furnishing plan with you before we order anything.</p>
       </details></div></div>
   </div>
@@ -330,7 +330,7 @@ a.card:hover{color:#2E211A}
   <div style="position:absolute;left:64px;right:64px;bottom:80px">
     <h2 style="margin:0;max-width:720px;font-family:'Newsreader',Georgia,serif;font-size:44px;line-height:1.15;font-weight:300;letter-spacing:-.015em;;color:#F7F2EA">Tell us about your space.</h2>
     <p style="margin:24px 0 0;max-width:520px;font-size:17px;line-height:1.6;font-weight:400;color:#F7F2EA">A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000.</p>
-    <div style="display:inline-block;margin-top:32px;view-timeline:--cta block"><a href="#" class="btn-p" style="display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:15px;line-height:1;font-weight:500;padding:18px 30px;border-radius:2px">Book a discovery call</a></div>
+    <div style="display:inline-block;margin-top:32px;view-timeline:--cta block"><a href="#" class="btn-p" style="display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:15px;line-height:1;font-weight:500;padding:16px 32px;border-radius:2px">Book a discovery call</a></div>
   </div>
 </section>
 
@@ -388,9 +388,9 @@ a.card:hover{color:#2E211A}
       </div>
     </div>
   </div>
-  <div style="margin-top:80px;padding-top:28px;border-top:1px solid #6A584A;display:flex;justify-content:space-between;align-items:flex-start;gap:64px">
+  <div style="margin-top:96px;padding-top:32px;border-top:1px solid #6A584A;display:flex;justify-content:space-between;align-items:flex-start;gap:64px">
     <p style="margin:0;max-width:720px;font-size:14px;line-height:1.6;font-weight:400;color:#D3C4B1">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
-    <div style="display:flex;gap:28px;font-size:14px;line-height:1.5;font-weight:400">
+    <div style="display:flex;gap:32px;font-size:14px;line-height:1.5;font-weight:400">
       <a href="#">Privacy</a>
       <a href="#">Terms</a>
     </div>
@@ -399,7 +399,7 @@ a.card:hover{color:#2E211A}
 
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":9288}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":9396}}'>
 class Component extends DCLogic {
 renderVals() { return {}; }
 }

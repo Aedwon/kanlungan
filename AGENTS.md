@@ -25,6 +25,8 @@ The project is in the concept and design phase. There is no application code yet
 | Brief for the design mockup work | `docs/design/design-brief.md` |
 | Chosen visual direction and tokens | `docs/design/visual-system.md` |
 | Decisions made by an agent on delegation, open questions | `docs/decisions.md` |
+| How dispatched subagents run | `SUBAGENTS.md` |
+| Image briefs for generated photography | `docs/content/image-briefs.md` |
 
 Each fact lives in one file. Link to it instead of repeating it. If two files disagree, the `docs/concept/` file wins over `docs/content/` and `docs/design/`.
 
@@ -77,6 +79,8 @@ Follow the planning sequence in `README.md`. Do not choose a tech stack, e-comme
 - Do not force-push, rebase shared history, or delete branches without Aedwon's approval.
 
 ## Usage limits
+
+Every dispatched agent follows `SUBAGENTS.md`.
 
 This project has limited model usage. Aedwon set this rule on 2026-11-14.
 

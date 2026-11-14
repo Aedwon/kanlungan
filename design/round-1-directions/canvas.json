@@ -426,7 +426,7 @@
       "x": 0,
       "y": 13514,
       "w": 1440,
-      "h": 2533,
+      "h": 2573,
       "title": "header states desktop",
       "page": "templates",
       "expand": "fill"
@@ -461,7 +461,7 @@
       "x": 0,
       "y": 29169,
       "w": 1440,
-      "h": 4305,
+      "h": 4363,
       "title": "projects desktop",
       "page": "templates",
       "expand": "fill"
@@ -470,7 +470,7 @@
       "x": 1520,
       "y": 29169,
       "w": 390,
-      "h": 4785,
+      "h": 4743,
       "title": "projects mobile",
       "page": "templates"
     },
@@ -496,7 +496,7 @@
       "x": 0,
       "y": 44672,
       "w": 1440,
-      "h": 6462,
+      "h": 6522,
       "title": "studio desktop",
       "page": "templates",
       "expand": "fill"
@@ -505,7 +505,7 @@
       "x": 1520,
       "y": 44672,
       "w": 390,
-      "h": 6829,
+      "h": 6917,
       "title": "studio mobile",
       "page": "templates"
     },
@@ -513,7 +513,7 @@
       "x": 0,
       "y": 52021,
       "w": 1440,
-      "h": 3109,
+      "h": 3132,
       "title": "booking desktop",
       "page": "templates",
       "expand": "fill"
@@ -522,7 +522,7 @@
       "x": 1520,
       "y": 52021,
       "w": 390,
-      "h": 4922,
+      "h": 4913,
       "title": "booking mobile",
       "page": "templates"
     },
@@ -530,7 +530,7 @@
       "x": 1990,
       "y": 52021,
       "w": 1440,
-      "h": 3391,
+      "h": 3414,
       "title": "booking error desktop",
       "page": "templates",
       "expand": "fill"
@@ -539,7 +539,7 @@
       "x": 3510,
       "y": 52021,
       "w": 1440,
-      "h": 1788,
+      "h": 1816,
       "title": "booking submitted desktop",
       "page": "templates",
       "expand": "fill"
@@ -548,7 +548,7 @@
       "x": 5030,
       "y": 52021,
       "w": 390,
-      "h": 2331,
+      "h": 2347,
       "title": "booking submitted mobile",
       "page": "templates"
     },
@@ -556,7 +556,7 @@
       "x": 0,
       "y": 57463,
       "w": 1440,
-      "h": 6053,
+      "h": 6089,
       "title": "shop desktop",
       "page": "templates",
       "expand": "fill"
@@ -565,7 +565,7 @@
       "x": 1520,
       "y": 57463,
       "w": 390,
-      "h": 6193,
+      "h": 6185,
       "title": "shop mobile",
       "page": "templates"
     },
@@ -573,7 +573,7 @@
       "x": 0,
       "y": 64176,
       "w": 1440,
-      "h": 2278,
+      "h": 2300,
       "title": "category desktop",
       "page": "templates",
       "expand": "fill"
@@ -582,7 +582,7 @@
       "x": 1520,
       "y": 64176,
       "w": 390,
-      "h": 3615,
+      "h": 3611,
       "title": "category mobile",
       "page": "templates"
     },
@@ -590,7 +590,7 @@
       "x": 0,
       "y": 68311,
       "w": 1440,
-      "h": 6611,
+      "h": 6593,
       "title": "product desktop",
       "page": "templates",
       "expand": "fill"
@@ -599,7 +599,7 @@
       "x": 1520,
       "y": 68311,
       "w": 390,
-      "h": 6694,
+      "h": 6650,
       "title": "product mobile",
       "page": "templates"
     },
@@ -607,7 +607,7 @@
       "x": 0,
       "y": 75525,
       "w": 1440,
-      "h": 4444,
+      "h": 4470,
       "title": "collection desktop",
       "page": "templates",
       "expand": "fill"
@@ -624,7 +624,7 @@
       "x": 0,
       "y": 80489,
       "w": 1440,
-      "h": 2459,
+      "h": 2481,
       "title": "maker desktop",
       "page": "templates",
       "expand": "fill"
@@ -633,7 +633,7 @@
       "x": 1520,
       "y": 80489,
       "w": 390,
-      "h": 3169,
+      "h": 3161,
       "title": "maker mobile",
       "page": "templates"
     },
@@ -641,7 +641,7 @@
       "x": 1990,
       "y": 80489,
       "w": 1440,
-      "h": 2131,
+      "h": 2127,
       "title": "makers desktop",
       "page": "templates",
       "expand": "fill"
@@ -666,7 +666,7 @@
       "x": 1990,
       "y": 84178,
       "w": 1440,
-      "h": 2263,
+      "h": 2283,
       "title": "cart desktop",
       "page": "templates",
       "expand": "fill"
@@ -675,7 +675,7 @@
       "x": 3510,
       "y": 84178,
       "w": 390,
-      "h": 2923,
+      "h": 2919,
       "title": "cart mobile",
       "page": "templates"
     },
@@ -683,7 +683,7 @@
       "x": 3980,
       "y": 84178,
       "w": 1440,
-      "h": 1580,
+      "h": 1600,
       "title": "cart empty desktop",
       "page": "templates",
       "expand": "fill"
@@ -700,7 +700,7 @@
       "x": 0,
       "y": 87621,
       "w": 1440,
-      "h": 4073,
+      "h": 4087,
       "title": "checkout desktop",
       "page": "templates",
       "expand": "fill"
@@ -709,7 +709,7 @@
       "x": 1520,
       "y": 87621,
       "w": 390,
-      "h": 4948,
+      "h": 4934,
       "title": "checkout mobile",
       "page": "templates"
     },
@@ -717,7 +717,7 @@
       "x": 1990,
       "y": 87621,
       "w": 1440,
-      "h": 2828,
+      "h": 2848,
       "title": "confirmation desktop",
       "page": "templates",
       "expand": "fill"
@@ -734,7 +734,7 @@
       "x": 0,
       "y": 93089,
       "w": 1440,
-      "h": 7785,
+      "h": 7861,
       "title": "about desktop",
       "page": "templates",
       "expand": "fill"
@@ -743,7 +743,7 @@
       "x": 1520,
       "y": 93089,
       "w": 390,
-      "h": 7590,
+      "h": 7622,
       "title": "about mobile",
       "page": "templates"
     },
@@ -751,7 +751,7 @@
       "x": 0,
       "y": 101394,
       "w": 1440,
-      "h": 1578,
+      "h": 1598,
       "title": "404 desktop",
       "page": "templates",
       "expand": "fill"
@@ -760,7 +760,7 @@
       "x": 1520,
       "y": 101394,
       "w": 390,
-      "h": 2323,
+      "h": 2339,
       "title": "404 mobile",
       "page": "templates"
     },
@@ -768,7 +768,7 @@
       "x": 1990,
       "y": 101394,
       "w": 1440,
-      "h": 3374,
+      "h": 3446,
       "title": "search desktop",
       "page": "templates",
       "expand": "fill"
@@ -777,7 +777,7 @@
       "x": 3510,
       "y": 101394,
       "w": 1440,
-      "h": 2142,
+      "h": 2154,
       "title": "help desktop",
       "page": "templates",
       "expand": "fill"
@@ -786,7 +786,7 @@
       "x": 5030,
       "y": 101394,
       "w": 1440,
-      "h": 1761,
+      "h": 1773,
       "title": "contact desktop",
       "page": "templates",
       "expand": "fill"
@@ -799,6 +799,14 @@
       "title": "components",
       "page": "templates",
       "expand": "fill"
+    },
+    "Storage-icon-options.dc.html": {
+      "x": 0,
+      "y": -1900,
+      "w": 1440,
+      "h": 1023,
+      "title": "Storage icon options",
+      "page": "templates"
     }
   },
   "order": [
@@ -891,7 +899,8 @@
     "T-search-desktop.dc.html",
     "T-help-desktop.dc.html",
     "T-contact-desktop.dc.html",
-    "T-components.dc.html"
+    "T-components.dc.html",
+    "Storage-icon-options.dc.html"
   ],
   "notes": {
     "rowA": {
@@ -1106,6 +1115,14 @@
       "x": 0,
       "y": 104988,
       "text": "Components",
+      "kind": "title1",
+      "maxW": 1440,
+      "page": "templates"
+    },
+    "tpl-storage": {
+      "x": 0,
+      "y": -2200,
+      "text": "Storage icon",
       "kind": "title1",
       "maxW": 1440,
       "page": "templates"

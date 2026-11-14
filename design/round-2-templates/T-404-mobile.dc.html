@@ -57,7 +57,7 @@ a.card:hover{color:#2E211A}
 .rv{animation:rvIn linear both;animation-timeline:view();animation-range:entry 0% entry 60%}
 .par{animation:parY linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
 .zin{animation:zoomIn linear both;animation-timeline:view();animation-range:entry 0% entry 80%}
-.prog{animation:progX linear both;animation-timeline:--st;animation-range:cover 10% cover 90%}
+.prog{animation:progX linear both;animation-timeline:view();animation-range:entry 0% cover 50%}
 .cpar{animation:cpar linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
 .cta-sec{view-timeline:--cta block}
 }
@@ -83,9 +83,9 @@ a.card:hover{color:#2E211A}
 
 <!-- Header: Afternoon lockup -->
 <header style="position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 8px 0 20px;box-sizing:border-box;background:#F2ECE3;border-bottom:1px solid #D3C4B1">
-  <a href="#" style="display:flex;align-items:center;gap:10px;min-height:44px"><svg viewBox="0 0 100 100" width="32" height="32" style="display:block;--lw:#F2ECE3;--lf:#8E4A2C;border-radius:2px" aria-hidden="true"><rect width="100" height="100" rx="1.92" fill="#3A2A20"></rect><path d="M0 46H100V100H0Z" fill="#000" opacity=".2"></path><use href="#af2"></use></svg><span style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1;font-weight:300;letter-spacing:-.015em;color:#2E211A">Kanlungan</span></a>
+  <a href="#" style="display:flex;align-items:center;gap:8px;min-height:44px"><svg viewBox="0 0 100 100" width="32" height="32" style="display:block;--lw:#F2ECE3;--lf:#8E4A2C;border-radius:2px" aria-hidden="true"><rect width="100" height="100" rx="1.92" fill="#3A2A20"></rect><path d="M0 46H100V100H0Z" fill="#000" opacity=".2"></path><use href="#af2"></use></svg><span style="font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1;font-weight:300;letter-spacing:-.015em;color:#2E211A">Kanlungan</span></a>
   <div style="display:flex;align-items:center;gap:0">
-    <a href="#" aria-label="Cart, 0 items" style="min-width:44px;height:44px;padding:0 6px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:6px;font-size:14px;line-height:1.5;font-weight:500">
+    <a href="#" aria-label="Cart, 0 items" style="min-width:44px;height:44px;padding:0 8px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px;line-height:1.5;font-weight:500">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
       <span>0</span>
     </a>
@@ -97,7 +97,7 @@ a.card:hover{color:#2E211A}
 
 <main>
 
-<section style="padding:48px 20px 80px;box-sizing:border-box">
+<section style="padding:48px 20px 96px;box-sizing:border-box">
   <h1 style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:52px;line-height:1;font-weight:300;letter-spacing:-.02em;">This page is not here.</h1>
   <p style="margin:24px 0 0;font-size:17px;line-height:1.6;font-weight:400;">The link may be old, or the page may have moved. Try one of these.</p>
   <ul style="list-style:none;margin:24px 0 0;padding:0;border-bottom:1px solid #D3C4B1"><li><a href="#" class="lnk" style="display:flex;align-items:center;justify-content:space-between;min-height:56px;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Home <span class="arr" aria-hidden="true">→</span></a></li><li><a href="#" class="lnk" style="display:flex;align-items:center;justify-content:space-between;min-height:56px;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Shop <span class="arr" aria-hidden="true">→</span></a></li><li><a href="#" class="lnk" style="display:flex;align-items:center;justify-content:space-between;min-height:56px;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Projects <span class="arr" aria-hidden="true">→</span></a></li><li><a href="#" class="lnk" style="display:flex;align-items:center;justify-content:space-between;min-height:56px;border-top:1px solid #D3C4B1;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.2;font-weight:300;letter-spacing:0;">Contact <span class="arr" aria-hidden="true">→</span></a></li></ul>
@@ -173,7 +173,7 @@ a.card:hover{color:#2E211A}
 
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":2323}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":2339}}'>
 class Component extends DCLogic {
 renderVals() { return {}; }
 }

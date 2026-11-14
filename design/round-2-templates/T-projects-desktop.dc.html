@@ -35,11 +35,11 @@ a.card:hover{color:#2E211A}
 .hbw{display:grid;grid-template-columns:1fr;margin-left:0;overflow:hidden;visibility:visible}
 .hbw>a{min-width:0;white-space:nowrap}
 .num{display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;font-size:14px;line-height:1;font-weight:500;transition:background-color .2s ease}
-.pin{position:absolute;display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-22px 0 0 -22px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;outline:1px solid #F7F2EA;outline-offset:3px;font-size:15px;line-height:1;font-weight:500;transition:background-color .2s ease}
+.pin{position:absolute;display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-24px 0 0 -24px;background:#8E4A2C;color:#F7F2EA;border-radius:2px;outline:1px solid #F7F2EA;outline-offset:3px;font-size:15px;line-height:1;font-weight:500;transition:background-color .2s ease}
 .pin:hover{color:#F7F2EA;background:#2E211A}
 .pin:focus-visible{outline:2px solid #F7F2EA;outline-offset:3px;background:#2E211A}
 .pin:hover,.pin:focus-visible{z-index:6}
-.tip{position:absolute;bottom:calc(100% + 14px);left:50%;width:272px;margin-left:-136px;box-sizing:border-box;padding:16px 18px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;text-align:left;color:#2E211A;font-weight:400;visibility:hidden;opacity:0;transform:translateY(6px);transition:opacity .2s ease,transform .3s ease,visibility 0s linear .3s;pointer-events:none}
+.tip{position:absolute;bottom:calc(100% + 14px);left:50%;width:272px;margin-left:-128px;box-sizing:border-box;padding:16px 16px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px;text-align:left;color:#2E211A;font-weight:400;visibility:hidden;opacity:0;transform:translateY(6px);transition:opacity .2s ease,transform .3s ease,visibility 0s linear .3s;pointer-events:none}
 .tip-r{left:auto;right:-8px;margin-left:0}
 .tip-b{bottom:auto;top:calc(100% + 14px);transform:translateY(-6px)}
 .pin:hover .tip,.pin:focus-visible .tip{visibility:visible;opacity:1;transform:none;transition:opacity .2s ease,transform .3s ease,visibility 0s}
@@ -77,7 +77,7 @@ a.card:hover{color:#2E211A}
 <!-- Header: Afternoon lockup. The Book button stays hidden while the hero button is on screen, then slides in. -->
 <header style="position:sticky;top:0;z-index:100;display:grid;grid-template-columns:minmax(0, 1fr) auto minmax(0, 1fr);align-items:center;height:88px;padding:0 64px;box-sizing:border-box;background:#F2ECE3;border-bottom:1px solid #D3C4B1">
   <a href="#" style="display:flex;align-items:center;gap:12px;justify-self:start"><svg viewBox="0 0 100 100" width="32" height="32" style="display:block;--lw:#F2ECE3;--lf:#8E4A2C;border-radius:2px" aria-hidden="true"><rect width="100" height="100" rx="1.92" fill="#3A2A20"></rect><path d="M0 46H100V100H0Z" fill="#000" opacity=".2"></path><use href="#af2"></use></svg><span style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1;font-weight:300;letter-spacing:-.015em;color:#2E211A">Kanlungan</span></a>
-  <nav aria-label="Primary" style="display:flex;gap:44px;font-size:15px;line-height:1.5;font-weight:400">
+  <nav aria-label="Primary" style="display:flex;gap:48px;font-size:15px;line-height:1.5;font-weight:400">
     <a href="#">Studio</a>
     <a href="#" aria-current="page">Projects</a>
     <a href="#">Shop</a>
@@ -87,23 +87,23 @@ a.card:hover{color:#2E211A}
     <button type="button" class="ib" aria-label="Search" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:#2E211A;cursor:pointer">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
     </button>
-    <a href="#" class="ib" aria-label="Cart, 0 items" style="height:44px;padding:0 10px;display:flex;align-items:center;gap:8px;border-radius:2px;font-size:14px;line-height:1.5;font-weight:500">
+    <a href="#" class="ib" aria-label="Cart, 0 items" style="height:44px;padding:0 8px;display:flex;align-items:center;gap:8px;border-radius:2px;font-size:14px;line-height:1.5;font-weight:500">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 016 0v2"></path></svg>
       <span>0</span>
     </a>
-    <div class="hbw"><a href="#" class="btn-p" style="margin-left:16px;display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:14px;line-height:1;font-weight:500;padding:16px 22px;border-radius:2px">Book a discovery call</a></div>
+    <div class="hbw"><a href="#" class="btn-p" style="margin-left:16px;display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:14px;line-height:1;font-weight:500;padding:16px 24px;border-radius:2px">Book a discovery call</a></div>
   </div>
 </header>
 <main>
-<section style="padding:120px 64px 0;box-sizing:border-box">
+<section style="padding:128px 64px 0;box-sizing:border-box">
   <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:24px;align-items:end">
     <h1 style="grid-column:1 / span 7;margin:0;font-family:'Newsreader',Georgia,serif;font-size:112px;line-height:1;font-weight:300;letter-spacing:-.02em">Projects</h1>
     <p style="grid-column:9 / span 4;margin:0;padding-bottom:12px;font-family:'Newsreader',Georgia,serif;font-size:24px;line-height:1.4;font-weight:300">Homes and small hotels we have designed and furnished across the Philippines.</p>
   </div>
-  <div style="margin-top:80px;padding-top:24px;border-top:1px solid #D3C4B1"><div role="group" aria-label="Filter projects" style="display:flex;flex-wrap:wrap;gap:24px;padding:5px"><button type="button" class="flt" aria-pressed="true" style="min-height:52px;padding:0 24px;border:1px solid #6A584A;border-radius:2px;background:#F7F2EA;font:500 15px/1.4 'Hanken Grotesk',sans-serif;color:#2E211A;cursor:pointer">All</button><button type="button" class="flt" aria-pressed="false" style="min-height:52px;padding:0 24px;border:1px solid #6A584A;border-radius:2px;background:#F7F2EA;font:500 15px/1.4 'Hanken Grotesk',sans-serif;color:#2E211A;cursor:pointer">Residential</button><button type="button" class="flt" aria-pressed="false" style="min-height:52px;padding:0 24px;border:1px solid #6A584A;border-radius:2px;background:#F7F2EA;font:500 15px/1.4 'Hanken Grotesk',sans-serif;color:#2E211A;cursor:pointer">Hospitality</button></div></div>
+  <div style="margin-top:96px;padding-top:24px;border-top:1px solid #D3C4B1"><div role="group" aria-label="Filter projects" style="display:flex;flex-wrap:wrap;gap:24px;padding:4px"><button type="button" class="flt" aria-pressed="true" style="min-height:52px;padding:0 24px;border:1px solid #6A584A;border-radius:2px;background:#F7F2EA;font:500 15px/1.4 'Hanken Grotesk',sans-serif;color:#2E211A;cursor:pointer">All</button><button type="button" class="flt" aria-pressed="false" style="min-height:52px;padding:0 24px;border:1px solid #6A584A;border-radius:2px;background:#F7F2EA;font:500 15px/1.4 'Hanken Grotesk',sans-serif;color:#2E211A;cursor:pointer">Residential</button><button type="button" class="flt" aria-pressed="false" style="min-height:52px;padding:0 24px;border:1px solid #6A584A;border-radius:2px;background:#F7F2EA;font:500 15px/1.4 'Hanken Grotesk',sans-serif;color:#2E211A;cursor:pointer">Hospitality</button></div></div>
 </section>
 
-<section style="padding:80px 64px 160px;box-sizing:border-box">
+<section style="padding:96px 64px 160px;box-sizing:border-box">
   <ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:96px 24px;align-items:start">
     <li style="grid-column:1 / span 5;margin-top:0px"><a href="#" class="card" style="display:block;">
       <div role="img" aria-label="Lilim House terrace with a bench in shaded daylight, greenery behind" class="" style="position:relative;overflow:hidden;aspect-ratio:3 / 4;border-radius:2px;background:#6f7d4a;"><div class="im" style="position:absolute;left:0;right:0;top:0;height:100%;background:
@@ -253,9 +253,9 @@ a.card:hover{color:#2E211A}
       </div>
     </div>
   </div>
-  <div style="margin-top:80px;padding-top:28px;border-top:1px solid #6A584A;display:flex;justify-content:space-between;align-items:flex-start;gap:64px">
+  <div style="margin-top:96px;padding-top:32px;border-top:1px solid #6A584A;display:flex;justify-content:space-between;align-items:flex-start;gap:64px">
     <p style="margin:0;max-width:720px;font-size:14px;line-height:1.6;font-weight:400;color:#D3C4B1">Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p>
-    <div style="display:flex;gap:28px;font-size:14px;line-height:1.5;font-weight:400">
+    <div style="display:flex;gap:32px;font-size:14px;line-height:1.5;font-weight:400">
       <a href="#">Privacy</a>
       <a href="#">Terms</a>
     </div>
@@ -264,7 +264,7 @@ a.card:hover{color:#2E211A}
 
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4305}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4363}}'>
 class Component extends DCLogic {
 renderVals() { return {}; }
 }
