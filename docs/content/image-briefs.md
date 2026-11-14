@@ -1,5 +1,9 @@
 # Image briefs
 
+## Consistency system
+
+Every project shot follows its scene bible in [scene-bibles/](scene-bibles/README.md): plan, surfaces, placement, light, and a numbered camera. Generate each space's anchor first, then pass the approved anchor and the plan PNG as references for every later shot of that space. Scene bibles exist for: Lilim House. The other four projects get theirs before their shots are generated.
+
 ## Global style
 
 These are generation briefs, not new catalog or architectural facts. Inherit this section in every prompt, then attach the matching product consistency sheet and any accepted room reference. Follow [brand](../concept/brand.md), the locked [palette and imagery](../design/visual-system.md#imagery), [project captions](projects.md), [catalog](catalog.md), and [maker stories](makers.md). The studio leads; products support believable rooms. Photography remains subject to Aedwon's visual review. Unspecified silhouettes and artwork compositions are provisional generation instructions, never approved product specifications.
@@ -222,6 +226,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-hero
 
+**Camera:** C1 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 1; Home hero; Studio and Full-Service Furnishing heroes; project card; About finished-room panel; header states
 
 **Aspect and crop:** 21:9 room master; 16:9 section crop; 3:4 project crop centered on sofa and terrace
@@ -231,6 +237,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** Do not close the terrace doors, raise the furniture, or add a city skyline.
 
 ### lilim-g02-coffee-table
+
+**Camera:** C2 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Lilim House project, Gallery 2; Living Room collection supporting image
 
@@ -242,6 +250,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g03-dining
 
+**Camera:** C3 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 3; Dining Room collection; Tables and Lighting category crop
 
 **Aspect and crop:** 3:4 project gallery; 16:9 room derivative; 4:3 collection crop
@@ -251,6 +261,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No seventh chair, woven chair backs, solid brass pendant shade, or repeated legs.
 
 ### lilim-g04-afternoon-table
+
+**Camera:** C4 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Lilim House project, Gallery 4; Home featured Aparador and Tapayan in-room references
 
@@ -262,6 +274,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g05-main-bedroom
 
+**Camera:** C5 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 5; Bedroom collection; Himlay in-room reference
 
 **Aspect and crop:** 3:4 project gallery; 16:9 room derivative; 4:3 collection crop
@@ -271,6 +285,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No upholstered headboard, white resort bedding, extra bed, or city view.
 
 ### lilim-g06-shared-bedroom
+
+**Camera:** C6 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Lilim House project, Gallery 6
 
@@ -282,6 +298,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g07-hallway
 
+**Camera:** C7 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 7; Storage category; Aparador in-room reference
 
 **Aspect and crop:** 3:4 project gallery; square cabinet crop
@@ -291,6 +309,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No glass doors, low cabinet, blocked hallway, or corridor without an end.
 
 ### lilim-g08-terrace
+
+**Camera:** C8 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Lilim House project, Gallery 8; Home statement and project card; shared closing panels; booking submitted; related-project cards
 
@@ -302,6 +322,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g09-material-detail
 
+**Camera:** C9 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 9; Home statement cane detail; Dapithapon detail reuse
 
 **Aspect and crop:** 3:4 project and statement crop; square cane detail
@@ -312,6 +334,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 
 ### lilim-g10-exterior
 
+**Camera:** C10 (anchor) in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
+
 **Use:** Lilim House project, Gallery 10
 
 **Aspect and crop:** 3:4 project gallery; 16:9 exterior crop
@@ -321,6 +345,8 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 **Negative add-on:** No invented pool, floating terrace, impossible slope, tropical postcard, or named architect style.
 
 ### lilim-shop-room
+
+**Camera:** C11 in [the Lilim House scene bible](scene-bibles/lilim-house.md). The bible wins over this entry where they differ.
 
 **Use:** Home, From the shop six-pin room; Lilim project, shop-the-project; confirmation room panel
 
