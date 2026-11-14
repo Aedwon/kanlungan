@@ -18,7 +18,7 @@ Concept planning is complete through step 4. Round 1 of the design work is compl
 4. Define the site map, information architecture, page hierarchy, and core user journeys. **Complete.**
 5. Build the visual system and design tokens: typography, color, spacing, radii, imagery rules, and motion. **Built, awaiting review.** See `docs/design/visual-system.md` and `design/tokens/tokens.json`.
 6. Design the homepage and reusable core page templates. **Built, awaiting review.** See `design/round-2-templates/`.
-7. Decide technical architecture, e-commerce behavior, and implementation details after the product and design direction are stable. **In progress.** Commerce platform chosen (see `docs/concept/conversion.md`). Stack and hosting are next.
+7. Decide technical architecture, e-commerce behavior, and implementation details after the product and design direction are stable. **Decided** on 2026-11-14 by Aedwon: Next.js on Vercel (free Hobby tier), headless Shopify on a free Partner development store, and the site's own demo checkout (see `docs/concept/conversion.md`). Target cost ₱0.
 
 This order is deliberate: business, content, conversion, and information architecture should be settled before visual tokens and page design.
 
@@ -49,6 +49,5 @@ Steps 5 and 6 run together. The visual system is chosen by comparing rendered di
 ## Not decided yet
 
 - Final product and project photography (the imagery rules are set)
-- Tech stack and hosting
 
 See `docs/decisions.md` for open questions that need Aedwon's answer.
