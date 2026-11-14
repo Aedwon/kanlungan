@@ -2,7 +2,7 @@
 
 Status: **Decided on delegation.** All products are invented. The names have not been checked against real products. See `docs/decisions.md`.
 
-This is a seed for mockups and the demo: 32 products. It is not a SKU target. Rules for adding products are in `docs/concept/shop.md`.
+This is a seed for mockups and the demo: 36 products. It is not a SKU target. Rules for adding products are in `docs/concept/shop.md`.
 
 Dimensions are width × depth × height in centimeters. "Ø" means diameter. Lead times are in weeks. Makers are described in `docs/content/makers.md`.
 
@@ -16,6 +16,7 @@ Dimensions are width × depth × height in centimeters. "Ø" means diameter. Lea
 | Bangko Bench | Stools and benches | A long bench cut from solid acacia with visible joinery. | ₱38,000 | Lilok Workshop | Acacia, oil finish | 140 × 38 × 45 | Betis, Pampanga, Philippines | Made to order, 6 weeks |
 | Tuntungan Stool | Stools and benches | A small carved stool that also works as a side table. | ₱14,800 | Lilok Workshop | Acacia, oil finish | 34 × 34 × 44 | Betis, Pampanga, Philippines | In stock |
 | Kiso Stool | Stools and benches | A light stool in pale Japanese cypress. | ₱19,500 | Okabe Mokko | Hinoki cypress | 36 × 36 × 42 | Nagano, Japan | In stock |
+| Yakap Sofa | Sofas | A deep, fully upholstered sofa with a removable linen cover. | ₱168,000 | Kanlungan Original | Linen blend, feather and foam fill, concealed hardwood frame | 236 × 98 × 72 | Cebu, Philippines | Made to order, 10 weeks |
 
 ## Tables
 
@@ -24,7 +25,9 @@ Dimensions are width × depth × height in centimeters. "Ø" means diameter. Lea
 | Hapag Dining Table | Dining tables | A solid wood dining table for six to eight. | ₱178,000 | Kanlungan Original | Plantation mahogany, oil finish | 220 × 95 × 75 | Pampanga, Philippines | Made to order, 12 weeks |
 | Batis Coffee Table | Coffee tables | A honed stone top on a low wood base. | ₱72,000 | Marmol Atelier | Romblon marble, mahogany | 110 × 60 × 36 | Romblon, Philippines | Made to order, 8 weeks |
 | Sulok Side Table | Side tables | A compact side table with a single shelf. | ₱21,000 | Kanlungan Original | Acacia, oil finish | 40 × 40 × 50 | Pampanga, Philippines | Made to order, 6 weeks |
-| Pasilyo Console Table | Console tables | A slim console with a woven cane lower shelf. | ₱58,000 | Lilok Workshop | Plantation mahogany, cane | 150 × 38 × 80 | Betis, Pampanga, Philippines | Made to order, 8 weeks |
+| Pasilyo Console Table | Console tables | A slim console with a woven cane lower shelf. | ₱58,000 | Lilok Workshop | Ebonized plantation mahogany, natural cane | 150 × 38 × 80 | Betis, Pampanga, Philippines | Made to order, 8 weeks |
+| Salo Dining Table | Dining tables | A round terrazzo table on a single steel pedestal. | ₱126,000 | Marmol Atelier | Terrazzo with Romblon marble chips, honed; blackened steel base | Ø130 × 75 | Romblon, Philippines | Made to order, 10 weeks |
+| Bakal Side Table | Side tables | A small spun-steel drinks table with a blackened finish. | ₱18,500 | Tanso Lighting Works | Blackened steel, wax finish | Ø38 × 50 | Marikina, Philippines | In stock |
 
 ## Beds
 
@@ -34,14 +37,15 @@ Bed frames and daybeds are sold without a mattress.
 |---|---|---|---|---|---|---|---|---|
 | Himlay Bed | Bed frames | A low solid wood bed with a woven cane headboard. | ₱142,000 | Kanlungan Original | Plantation mahogany, cane, slatted base | 168 × 215 × 105 | Pampanga, Philippines | Made to order, 12 weeks |
 | Duyan Daybed | Daybeds | A rattan daybed for a terrace, study, or guest room. | ₱78,000 | Sulihiya Studio | Rattan, cane, linen cushion | 200 × 90 × 70 | Cebu, Philippines | Made to order, 8 weeks |
+| Unan Bed | Bed frames | A low bed with a padded linen headboard and an upholstered frame. | ₱128,000 | Kanlungan Original | Linen blend, foam padding, concealed hardwood frame, slatted base | 172 × 222 × 100 | Cebu, Philippines | Made to order, 10 weeks |
 
 ## Storage
 
 | Name | Subcategory | Description | Price | Maker | Materials | Dimensions | Origin | Availability |
 |---|---|---|---|---|---|---|---|---|
 | Aparador Cabinet | Cabinets | A tall cabinet with cane door panels that let air through. | ₱164,000 | Kanlungan Original | Plantation mahogany, cane, brass hinges | 110 × 48 × 170 | Pampanga, Philippines | Made to order, 12 weeks |
-| Baul Credenza | Credenzas | A long, low credenza with sliding wood doors. | ₱128,000 | Lilok Workshop | Plantation mahogany, oil finish | 180 × 45 × 72 | Betis, Pampanga, Philippines | Made to order, 10 weeks |
-| Estante Shelving | Shelving | An open shelving unit with brass fittings. | ₱86,000 | Kanlungan Original | Acacia, brass | 100 × 36 × 190 | Pampanga, Philippines | Made to order, 10 weeks |
+| Baul Credenza | Credenzas | A long, low credenza with sliding wood doors. | ₱128,000 | Lilok Workshop | Acacia, oil finish | 180 × 45 × 72 | Betis, Pampanga, Philippines | Made to order, 10 weeks |
+| Estante Shelving | Shelving | An open shelving unit with brass fittings. | ₱86,000 | Kanlungan Original | Blackened steel frame, acacia shelves, brass fittings | 100 × 36 × 190 | Pampanga, Philippines | Made to order, 10 weeks |
 
 ## Lighting
 
@@ -67,7 +71,7 @@ Bed frames and daybeds are sold without a mattress.
 
 | Name | Subcategory | Description | Price | Maker | Materials | Dimensions | Origin | Availability |
 |---|---|---|---|---|---|---|---|---|
-| Salamin Floor Mirror | Mirrors | A full-length mirror in a solid wood frame. | ₱28,000 | Lilok Workshop | Plantation mahogany, mirror glass | 70 × 4 × 170 | Betis, Pampanga, Philippines | Made to order, 6 weeks |
+| Salamin Floor Mirror | Mirrors | A full-length mirror in a solid wood frame. | ₱28,000 | Lilok Workshop | Bleached acacia, mirror glass | 70 × 4 × 170 | Betis, Pampanga, Philippines | Made to order, 6 weeks |
 | Tapayan Vessel | Vessels | A large stoneware vessel with a wood-ash glaze. | ₱8,600 | Bukal Clayworks | Stoneware, ash glaze | Ø28 × 38 | Tiwi, Albay, Philippines | In stock |
 | Bilao Tray | Trays | A round woven tray for a coffee table or console. | ₱3,400 | Sulihiya Studio | Rattan | Ø42 × 5 | Cebu, Philippines | In stock |
 | Bato Object | Sculptural objects | A small carved stone form, each one slightly different. | ₱6,800 | Marmol Atelier | Romblon marble, honed | 18 × 12 × 22 | Romblon, Philippines | In stock |
@@ -82,22 +86,30 @@ Bed frames and daybeds are sold without a mattress.
 
 ## Variants
 
-Only these products have options. All others are sold as listed.
+Only these products have options. All others are sold as listed. Mahogany means natural plantation mahogany; Acacia means natural oiled acacia. Hain, Hapag, and Himlay default to Mahogany. Sulok and Baul default to Natural; Estante defaults to Natural shelves. Bleached and Ebonized change the finish, not the listed wood species.
 
 | Product | Option | Choices | Effect |
 |---|---|---|---|
 | Silong Sofa | Fabric | Oat linen, Sand linen, Clay linen, Charcoal linen | None |
 | Silong Sofa | Size | Three-seat 228 cm, Two-seat 178 cm | Two-seat is ₱158,000 |
-| Hain Dining Chair | Finish | Natural, Walnut stain, Ebonized | None |
+| Hain Dining Chair | Finish | Mahogany, Ebonized mahogany, Acacia, Bleached acacia | None |
 | Hapag Dining Table | Size | 180 cm, 220 cm, 260 cm | ₱152,000, ₱178,000, ₱214,000 |
-| Hapag Dining Table | Finish | Natural, Walnut stain | None |
+| Hapag Dining Table | Finish | Mahogany, Ebonized mahogany, Acacia, Bleached acacia | None |
 | Himlay Bed | Size | Queen 168 × 215, King 198 × 215 | ₱142,000, ₱168,000 |
-| Himlay Bed | Finish | Natural, Walnut stain | None |
+| Himlay Bed | Finish | Mahogany, Ebonized mahogany, Acacia, Bleached acacia | None |
 | Lambot Wool Rug | Size | 170 × 240, 240 × 300, 300 × 400 | ₱58,000, ₱96,000, ₱164,000 |
 | Banig Rug | Size | 160 × 230, 200 × 300 | ₱22,000, ₱34,000 |
 | Hablon Cushion | Color | Natural, Indigo, Rust, Moss | None |
 | Kumot Throw | Color | Natural, Indigo, Rust | None |
 | Tabing Linen Curtain | Color | Oat, White, Sand | None |
+| Yakap Sofa | Fabric | Oat linen, Sand linen, Clay linen, Charcoal linen | None |
+| Yakap Sofa | Size | Three-seat 236 cm, Two-seat 186 cm | Two-seat is ₱142,000 |
+| Unan Bed | Fabric | Oat linen, Sand linen, Clay linen, Charcoal linen | None |
+| Unan Bed | Size | Queen 172 × 222, King 202 × 222 | ₱128,000, ₱152,000 |
+| Salo Dining Table | Size | Ø110 seats four, Ø130 seats six | ₱98,000, ₱126,000 |
+| Sulok Side Table | Finish | Natural, Bleached, Ebonized | None |
+| Baul Credenza | Finish | Natural, Bleached, Ebonized | None |
+| Estante Shelving | Shelf finish | Natural, Bleached | None |
 
 ## Collections
 
@@ -105,23 +117,23 @@ A product may sit in more than one collection.
 
 ### Room-based
 
-- **Living Room:** Silong Sofa, Dapithapon Lounge Chair, Batis Coffee Table, Sulok Side Table, Baul Credenza, Estante Shelving, Sinag Floor Lamp, Lambot Wool Rug, Hablon Cushion, Kumot Throw, Bilao Tray, Tapayan Vessel, Tanghali
-- **Dining Room:** Hapag Dining Table, Hain Dining Chair, Bangko Bench, Lenta Pendant, Kapis Pendant, Baul Credenza, Banig Rug, Tapayan Vessel, Amihan No. 3
-- **Bedroom:** Himlay Bed, Duyan Daybed, Sulok Side Table, Luad Table Lamp, Tala Wall Light, Aparador Cabinet, Bangko Bench, Salamin Floor Mirror, Lambot Wool Rug, Tabing Linen Curtain, Kumot Throw.
+- **Living Room:** Yakap Sofa, Bakal Side Table, Silong Sofa, Dapithapon Lounge Chair, Batis Coffee Table, Sulok Side Table, Baul Credenza, Estante Shelving, Sinag Floor Lamp, Lambot Wool Rug, Hablon Cushion, Kumot Throw, Bilao Tray, Tapayan Vessel, Tanghali
+- **Dining Room:** Salo Dining Table, Hapag Dining Table, Hain Dining Chair, Bangko Bench, Lenta Pendant, Kapis Pendant, Baul Credenza, Banig Rug, Tapayan Vessel, Amihan No. 3
+- **Bedroom:** Unan Bed, Bakal Side Table, Himlay Bed, Duyan Daybed, Sulok Side Table, Luad Table Lamp, Tala Wall Light, Aparador Cabinet, Bangko Bench, Salamin Floor Mirror, Lambot Wool Rug, Tabing Linen Curtain, Kumot Throw.
 
 ### Mood and lifestyle
 
-- **Quiet Living:** Silong Sofa, Batis Coffee Table, Lambot Wool Rug, Luad Table Lamp, Tapayan Vessel, Bato Object, Amihan No. 3. Text: "Soft light, low furniture, and nothing that asks for attention."
+- **Quiet Living:** Yakap Sofa, Silong Sofa, Batis Coffee Table, Lambot Wool Rug, Luad Table Lamp, Tapayan Vessel, Bato Object, Amihan No. 3. Text: "Soft light, low furniture, and nothing that asks for attention."
 - **Slow Mornings:** Hapag Dining Table, Hain Dining Chair, Lenta Pendant, Kiso Stool, Bilao Tray, Kumot Throw, Tabing Linen Curtain. Text: "Pieces for the first hour of the day."
 
 ### Material-based
 
 - **Woven Forms:** Himlay Bed, Duyan Daybed, Dapithapon Lounge Chair, Hain Dining Chair, Pasilyo Console Table, Aparador Cabinet, Banig Rug, Bilao Tray, Habi Wall Piece. Text: "Cane, rattan, and reed, woven by hand."
-- **Stone and Clay:** Batis Coffee Table, Bato Object, Tapayan Vessel, Luad Table Lamp, Lenta Pendant. Text: "Honed stone and fired clay, cool to the touch."
+- **Stone and Clay:** Salo Dining Table, Batis Coffee Table, Bato Object, Tapayan Vessel, Luad Table Lamp, Lenta Pendant. Text: "Honed stone and fired clay, cool to the touch."
 
 ## Featured sets
 
 - **Home, featured pieces:** Silong Sofa, Hapag Dining Table, Dapithapon Lounge Chair, Kapis Pendant, Aparador Cabinet, Tapayan Vessel
-- **Shop landing, Kanlungan Originals:** Silong Sofa, Hain Dining Chair, Hapag Dining Table, Himlay Bed, Sinag Floor Lamp, Lambot Wool Rug
-- **Shop landing, new pieces:** Lenta Pendant, Kiso Stool, Habi Wall Piece, Bato Object, Tanghali, Pasilyo Console Table
+- **Shop landing, Kanlungan Originals:** Silong Sofa, Yakap Sofa, Hapag Dining Table, Unan Bed, Sinag Floor Lamp, Lambot Wool Rug
+- **Shop landing, new pieces:** Lenta Pendant, Kiso Stool, Habi Wall Piece, Salo Dining Table, Tanghali, Bakal Side Table
 - **Sold-out example for the demo:** show Kiso Stool as sold out on one screen to demonstrate the state.

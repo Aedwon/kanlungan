@@ -149,9 +149,10 @@ export function projectProducts(project: Project): Product[] {
     const product = products.find((p) => p.name === baseName);
     if (!product) throw new Error(`Missing catalog product: ${name}`);
     const value = structuredClone(product);
-    if (name.includes('(two-seat)')) value.price = product.variants.find((v) => v.name === 'Size')!.choices.find((c) => c.label.startsWith('Two-seat'))!.price!;
-    if (name.includes('(260 cm)')) value.price = product.variants.find((v) => v.name === 'Size')!.choices.find((c) => c.label.startsWith('260'))!.price!;
+    if (name.includes('(two-seat')) value.price = product.variants.find((v) => v.name === 'Size')!.choices.find((c) => c.label.startsWith('Two-seat'))!.price!;
+    if (name.includes('(260 cm')) value.price = product.variants.find((v) => v.name === 'Size')!.choices.find((c) => c.label.startsWith('260'))!.price!;
     if (name.includes('(170 × 240)')) value.price = product.variants.find((v) => v.name === 'Size')!.choices.find((c) => c.label.startsWith('170'))!.price!;
+    if (name.includes('(Ø110)')) value.price = product.variants.find((v) => v.name === 'Size')!.choices.find((c) => c.label.startsWith('Ø110'))!.price!;
     value.name = name;
     return value;
   });
@@ -200,7 +201,7 @@ export function projectTemplate(project: Project, screen: Screen): ReferenceNode
   const materialNames = project.materialPalette.split(', ');
   palette.children = materialNames.map((material, index) => {
     const known = originals.find((n) => text(children(n).at(-1)!).toLowerCase() === material.toLowerCase());
-    const n = structuredClone(known ?? originals[index]);
+    const n = structuredClone(known ?? originals[index % originals.length]);
     const label = material[0].toUpperCase() + material.slice(1);
     setText(children(n).at(-1)!, label);
     const image = elements(n).find((n) => n.attrs.role === 'img')!;
@@ -215,7 +216,7 @@ export function projectTemplate(project: Project, screen: Screen): ReferenceNode
   const list = find(shop, 'ol');
   const productItems = children(list);
   list.children = catalog.map((p, index) => {
-    const li = structuredClone(productItems[index]);
+    const li = structuredClone(productItems[index % productItems.length]);
     li.children = [{ tag: 'ProductCard', attrs: { productSlug: p.slug, productName: p.name, price: p.price, number: index + 1 }, children: [] }];
     return li;
   });

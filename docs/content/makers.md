@@ -44,13 +44,13 @@ Not a maker page. Pieces designed by the studio and built by partner workshops i
 
 - **Place:** Marikina, Metro Manila
 - **Craft:** Brass, glass, and capiz shell lighting
-- **Story:** A metal workshop that spins and finishes brass by hand and pairs it with opal glass and capiz shell. Tanso leaves its brass unlacquered so it darkens slowly with age. Every fitting is wired and tested in the workshop.
+- **Story:** A metal workshop that spins and finishes brass by hand and pairs it with opal glass and capiz shell. Tanso leaves its brass unlacquered so it darkens slowly with age. Every fitting is wired and tested in the workshop. The workshop also makes small metal tables.
 
 ### Marmol Atelier
 
 - **Place:** Romblon, Romblon
 - **Craft:** Stone tables and carved objects
-- **Story:** A stone workshop on an island known for its marble. The atelier cuts tabletops and carves small objects from local stone in gray, cream, and soft green. Finishes are honed, not polished, so the stone feels soft to the touch.
+- **Story:** A stone workshop on an island known for its marble. The atelier cuts tabletops and carves small objects from local stone in gray, cream, and soft green. Finishes are honed, not polished, so the stone feels soft to the touch. Marble offcuts are cast into terrazzo for tables.
 
 ### Amihan Editions
 
@@ -64,7 +64,7 @@ Not a maker page. Pieces designed by the studio and built by partner workshops i
 
 - **Place:** Nagano, Japan
 - **Craft:** Small furniture in hinoki cypress
-- **Story:** A two-person woodworking shop that makes stools and small tables from Japanese cypress. The pale wood and precise joinery sit well beside Philippine hardwoods. Kanlungan carries two of their pieces.
+- **Story:** A two-person woodworking shop that makes stools and small tables from Japanese cypress. The pale wood and precise joinery sit well beside Philippine hardwoods. Kanlungan carries one of their pieces.
 
 ### Forma Lenta
 

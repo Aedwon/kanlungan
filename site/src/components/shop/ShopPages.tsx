@@ -1,7 +1,8 @@
 import { Suspense } from 'react';
 import { getProducts, getCollections, getMakers } from '@/lib/commerce';
 import { copy } from '@/data/copy';
-import { shopTemplate, bindExistingCards, children, elements, find, setText, replaceText, section, makerTemplate, collectionTemplate, productTemplate, type ReferenceNode, type Screen } from '@/lib/shopTemplates';
+import { originalProductSlugs, newPieceSlugs } from '@/data/products';
+import { shopTemplate, bindExistingCards, productList, children, elements, find, setText, replaceText, section, makerTemplate, collectionTemplate, productTemplate, type ReferenceNode, type Screen } from '@/lib/shopTemplates';
 import type { CommerceProduct, Collection, Maker } from '@/lib/commerce/types';
 import { ShopReference, ProductScreens } from './ShopReference';
 import { CategoryPage } from './CategoryPage';
@@ -13,7 +14,11 @@ export async function shopData() {
 }
 export async function ShopPage() {
   const { products } = await shopData();
-  return <>{screens.map((screen) => { const node = shopTemplate('shop', screen); bindExistingCards(node, products, screen); return <ShopReference key={screen} node={node} />; })}</>;
+  return <>{screens.map((screen) => { const node = shopTemplate('shop', screen);
+    for (const [heading, slugs] of [['Kanlungan Originals', originalProductSlugs], ['New pieces', newPieceSlugs]] as const) {
+      productList(section(node, heading), slugs.map((slug) => products.find((p) => p.slug === slug)).filter((p): p is CommerceProduct => !!p), screen);
+    }
+    bindExistingCards(node, products, screen); return <ShopReference key={screen} node={node} />; })}</>;
 }
 export function ShopCategoryPage({ category, products }: { category: { name: string; slug: string }; products: CommerceProduct[] }) {
   return <Suspense fallback={null}><CategoryPage category={category} catalog={products} /></Suspense>;

@@ -50,13 +50,17 @@ export const projects: Project[] = [
     "year": 2025,
     "scope": "Living and dining, two bedrooms, study",
     "brief": "A couple received a bare unit on a high floor. Both work long hours. They wanted to move in once, with everything in place.",
-    "approach": "One wood tone and one linen run through the whole unit so the small plan reads as one space. Storage is tall and closed. Lighting is low and warm, to contrast with the city outside the glass.",
-    "materialPalette": "Acacia, sand linen, stoneware, brass, opal glass, wool",
+    "approach": "Bleached acacia and sand linen run through the whole unit so the small plan reads as one space. Storage is tall and closed. Lighting is low and warm, to contrast with the city outside the glass.",
+    "materialPalette": "Bleached acacia, sand linen, terrazzo, blackened steel, brass, opal glass, wool",
     "shopTheProject": [
-      "Silong Sofa (two-seat)",
-      "Sulok Side Table",
-      "Estante Shelving",
-      "Baul Credenza",
+      "Yakap Sofa (two-seat, sand)",
+      "Salo Dining Table (Ø110)",
+      "Hain Dining Chair (bleached acacia, four)",
+      "Unan Bed (queen, sand)",
+      "Bakal Side Table",
+      "Sulok Side Table (bleached)",
+      "Estante Shelving (bleached shelves)",
+      "Baul Credenza (bleached)",
       "Sinag Floor Lamp",
       "Luad Table Lamp",
       "Tala Wall Light",
@@ -65,18 +69,18 @@ export const projects: Project[] = [
     ],
     "imageNotes": "City skyline at dusk through full-height windows, warm lamps, compact rooms, tidy surfaces",
     "galleryCaptions": [
-      "Living room. The Silong Sofa (two-seat) faces the city through full-height windows at dusk.",
-      "Living room. The Sinag Floor Lamp and a Sulok Side Table beside the sofa.",
-      "Dining area. A compact table by the window, with a Baul Credenza along the wall.",
-      "Living room. Estante Shelving with brass fittings, holding books and a few objects.",
-      "Main bedroom. Sand linen, a low bed, and a Luad Table Lamp.",
+      "Living room. The Yakap Sofa (two-seat, sand) faces the city through full-height windows at dusk.",
+      "Living room. The Sinag Floor Lamp and a bleached Sulok Side Table beside the sofa.",
+      "Dining area. The Ø110 Salo Dining Table and four bleached acacia Hain Dining Chairs by the window, with a bleached Baul Credenza along the wall.",
+      "Living room. Estante Shelving with a blackened steel frame, bleached acacia shelves, and brass fittings, holding books and a few objects.",
+      "Main bedroom. The queen Unan Bed in sand linen, with a Luad Table Lamp on a Bakal Side Table.",
       "Main bedroom. A Tala Wall Light beside the bed, on a warm, quiet wall.",
       "Second bedroom. A guest room that doubles as a place to rest.",
       "Study. A desk by the window, with closed storage along one wall.",
       "Entry. A narrow wall with closed storage and a single lamp.",
       "Living room. A Hablon Cushion and Amihan No. 3 above the sofa."
     ],
-    "approachExpanded": "The unit is 118 sqm, and the plan is compact. We used one wood tone, acacia, and one linen color, sand, in every room. The eye does not stop at a change of material, so the unit reads as one larger space.\n\nBoth owners work long hours and come home late. We kept storage tall and closed so surfaces stay clear. Lamps sit low and give a warm light that contrasts with the glass and the skyline. Each room has one place to put a bag, a book, and a glass of water."
+    "approachExpanded": "The unit is 118 sqm, and the plan is compact. We used one wood tone, bleached acacia, and one linen color, sand, in every room. Floors and joinery share that pale finish; black comes only from steel. The fully upholstered Yakap and Unan soften the stone and metal pieces. The eye does not stop at a change of material, so the unit reads as one larger space.\n\nBoth owners work long hours and come home late. We kept storage tall and closed so surfaces stay clear. Lamps sit low and give a warm light that contrasts with the glass and the skyline. Each room has one place to put a bag, a book, and a glass of water."
   },
   {
     "slug": "dalampasigan-inn",
@@ -88,15 +92,15 @@ export const projects: Project[] = [
     "year": 2024,
     "scope": "Twelve guest rooms, lobby, breakfast room",
     "brief": "The owners finished building a small inn near the beach. They needed twelve rooms and two shared spaces ready for guests in one season, with pieces that survive salt air and sand.",
-    "approach": "The studio designed one room type and repeated it with small changes in textile color. Furniture is solid and repairable. Reed mats replace wool rugs because they handle sand. The breakfast room has one long shared table.",
-    "materialPalette": "Acacia, tikog reed, rattan, handloomed cotton, stoneware, limewash",
+    "approach": "The studio designed one room type and repeated it with small changes in textile color. Furniture is natural oiled acacia, honey in tone, solid and repairable. Reed mats replace wool rugs because they handle sand. The breakfast room has one long shared table.",
+    "materialPalette": "Natural oiled acacia (honey), tikog reed, rattan, handloomed cotton, stoneware, limewash",
     "shopTheProject": [
-      "Himlay Bed",
+      "Himlay Bed (acacia)",
       "Bangko Bench",
       "Tuntungan Stool",
       "Banig Rug",
-      "Hain Dining Chair",
-      "Hapag Dining Table (260 cm)",
+      "Hain Dining Chair (acacia)",
+      "Hapag Dining Table (260 cm, acacia)",
       "Lenta Pendant",
       "Kumot Throw",
       "Bilao Tray",
@@ -106,16 +110,16 @@ export const projects: Project[] = [
     "galleryCaptions": [
       "Exterior. The inn at the edge of the beach, with pale walls and open windows.",
       "Lobby. A Bangko Bench and a Habi Wall Piece opposite the entrance.",
-      "Guest room. The Himlay Bed with handloomed cotton and a Kumot Throw.",
+      "Guest room. The natural acacia Himlay Bed with handloomed cotton and a Kumot Throw.",
       "Guest room. A Banig Rug on the floor, made to take sand.",
       "Guest room. A Tuntungan Stool used as a bedside table.",
       "Guest room. A second room with a different textile color, same layout.",
-      "Breakfast room. One long Hapag Dining Table (260 cm) with Hain Dining Chairs.",
+      "Breakfast room. One long natural acacia Hapag Dining Table (260 cm) with natural acacia Hain Dining Chairs.",
       "Breakfast room. A Lenta Pendant over the table in morning light.",
       "Breakfast room. A Bilao Tray and stoneware on the serving counter.",
       "Corridor. Limewashed walls and a row of room doors."
     ],
-    "approachExpanded": "The owners needed twelve rooms ready in one season. We designed one room and repeated it, changing only the textile color from room to room. This shortened the schedule and made each room easy for staff to prepare and service.\n\nSalt, sand, and heavy use shape every choice. Furniture is solid wood that can be sanded, oiled, and repaired. Tikog reed mats clean easily. In the breakfast room, one long table lets guests sit together or apart."
+    "approachExpanded": "The owners needed twelve rooms ready in one season. We designed one room and repeated it, changing only the textile color from room to room. This shortened the schedule and made each room easy for staff to prepare and service.\n\nSalt, sand, and heavy use shape every choice. The Himlay, Hain, and Hapag share the honey tone of natural oiled acacia. Furniture is solid wood that can be sanded, oiled, and repaired. Tikog reed mats clean easily. In the breakfast room, one long table lets guests sit together or apart."
   },
   {
     "slug": "pahinga-villas",
@@ -127,13 +131,13 @@ export const projects: Project[] = [
     "year": 2025,
     "scope": "Eight one-bedroom villas, reception pavilion",
     "brief": "The owners built eight villas in a coconut grove a short walk from the beach. They wanted each villa to feel like a private house, not a hotel room, and to stay easy to maintain between guests.",
-    "approach": "Each villa has one generous bed, one daybed on the terrace, and very little else. Cane and rattan keep air moving when the doors are open. Linen curtains soften the strong island light. The studio specified one finish and one fabric across all eight villas so any piece can be repaired or replaced from stock.",
-    "materialPalette": "Plantation mahogany, cane, rattan, oat linen, stoneware, capiz shell",
+    "approach": "Each villa has one generous bed, one daybed on the terrace, and very little else. Cane and rattan keep air moving when the doors are open. White linen curtains soften the strong island light. The studio specified ebonized wood and white linen across all eight villas so any piece can be repaired or replaced from stock.",
+    "materialPalette": "Ebonized plantation mahogany, honey rattan and cane, white linen, honed cream limestone, stoneware, capiz shell",
     "shopTheProject": [
-      "Himlay Bed",
+      "Himlay Bed (ebonized mahogany)",
       "Duyan Daybed",
       "Dapithapon Lounge Chair",
-      "Sulok Side Table",
+      "Sulok Side Table (ebonized)",
       "Kapis Pendant",
       "Luad Table Lamp",
       "Tabing Linen Curtain",
@@ -143,17 +147,17 @@ export const projects: Project[] = [
     "imageNotes": "Filtered light through coconut palms, open sliding doors, a low bed with white linen, a daybed on a shaded terrace, warm lamps at dusk",
     "galleryCaptions": [
       "Exterior. A villa among the coconut palms, with its doors open to the terrace.",
-      "Villa bedroom. The Himlay Bed with white linen, seen from the doorway.",
+      "Villa bedroom. The ebonized mahogany Himlay Bed with white linen, seen from the doorway.",
       "Villa bedroom. A Luad Table Lamp and a Tapayan Vessel on a low shelf.",
       "Villa bedroom. Tabing Linen Curtain panels softening the island light.",
-      "Terrace. The Duyan Daybed in the shade, with a Sulok Side Table.",
+      "Terrace. The Duyan Daybed in the shade, with an ebonized Sulok Side Table.",
       "Terrace. The Dapithapon Lounge Chair facing the grove.",
       "Villa interior. A Kapis Pendant over the sitting area at dusk.",
       "Villa interior. A Habi Wall Piece above the bed.",
       "Reception pavilion. An open room with a long desk and simple seating.",
       "Villa terrace. Warm lamps at dusk, with the doors left open."
     ],
-    "approachExpanded": "Each villa has one generous bed, one daybed on the terrace, and very little else. We wanted guests to feel they were in a private house, so the rooms hold only what people use. Doors open to the grove, and cane and rattan keep air moving through the villa.\n\nThe owners need the villas to stay easy to run. We specified one finish and one fabric for all eight villas. If a piece wears or breaks, staff can repair it or replace it from a single stock. The reception pavilion uses the same materials, so the property reads as one place."
+    "approachExpanded": "Each villa has one generous bed, one daybed on the terrace, and very little else. We wanted guests to feel they were in a private house, so the rooms hold only what people use. Doors open to the grove, and cane and rattan keep air moving through the villa.\n\nThe owners need the villas to stay easy to run. We specified ebonized wood and white linen for all eight villas. If a piece wears or breaks, staff can repair it or replace it from a single stock. Frames, posts, rafters, and built-ins are ebonized mahogany above honed cream limestone floors. Natural honey rattan stays light against the dark wood. The reception pavilion uses the same materials, so the property reads as one place."
   },
   {
     "slug": "hardin-apartment",
@@ -165,29 +169,31 @@ export const projects: Project[] = [
     "year": 2026,
     "scope": "Full unit design book, renders of living room and bedroom",
     "brief": "A first-time owner wanted a clear plan to buy toward over a year, starting with a few good pieces.",
-    "approach": "The studio delivered a layout, a palette, and a phased sourcing list in three stages. The owner bought the sofa, a lamp, and a rug first. The rest follows the plan.",
-    "materialPalette": "Plantation mahogany, clay linen, cane, stoneware, hinoki",
+    "approach": "The studio delivered a layout, a palette, and a phased sourcing list in three stages. The owner bought the sofa, a lamp, and a rug first. Later stages add the oat Unan Bed, Bakal Side Table, and ebonized Pasilyo. Natural mahogany, ebonized mahogany, and hinoki are mixed on purpose.",
+    "materialPalette": "Natural and ebonized plantation mahogany, clay and oat linen, cane, stoneware, hinoki",
     "shopTheProject": [
-      "Silong Sofa (two-seat)",
+      "Silong Sofa (two-seat, clay)",
       "Kiso Stool",
       "Luad Table Lamp",
       "Lambot Wool Rug (170 × 240)",
-      "Pasilyo Console Table",
-      "Bato Object"
+      "Pasilyo Console Table (ebonized mahogany)",
+      "Bato Object",
+      "Unan Bed (queen, oat)",
+      "Bakal Side Table"
     ],
     "imageNotes": "Mix renders and photographs. Show the design book pages, a moodboard, and a floor plan beside finished-room images. Plants and a small balcony garden.",
     "galleryCaptions": [
-      "Living room, render. The planned room with the Silong Sofa (two-seat) and the Lambot Wool Rug.",
+      "Living room, render. The planned room with the Silong Sofa (two-seat, clay) and the Lambot Wool Rug.",
       "Living room, photograph. The first three pieces in place: sofa, lamp, and rug.",
-      "Bedroom, render. The planned bedroom in warm light.",
+      "Bedroom, render. The planned queen Unan Bed in oat linen and a Bakal Side Table in warm light.",
       "Design book. The cover and contents page.",
       "Design book. A page with the layout and room-by-room specifications.",
-      "Moodboard. Mahogany, clay linen, cane, stoneware, and hinoki.",
+      "Moodboard. Natural and ebonized mahogany, clay and oat linen, cane, stoneware, and hinoki.",
       "Floor plan. The 74 sqm unit, with furniture placed.",
       "Sourcing list. The three stages, with pieces and prices.",
-      "Entry, photograph. The Pasilyo Console Table and a Bato Object.",
+      "Entry, photograph. The ebonized mahogany Pasilyo Console Table and a Bato Object.",
       "Balcony, photograph. Plants and a Kiso Stool in the small garden."
     ],
-    "approachExpanded": "The owner was buying a first home and had a budget to spread over a year. We designed the whole unit at once, so every later purchase fits the plan. The design book holds the layout, the palette, and a specification for each room.\n\nThe sourcing list has three stages. Stage one is the sofa, a lamp, and a rug, which make the living room usable at once. Stages two and three add the bedroom and the entry. The owner buys when ready, and nothing needs replacing along the way."
+    "approachExpanded": "The owner was buying a first home and had a budget to spread over a year. We designed the whole unit at once, so every later purchase fits the plan. The design book holds the layout, the palette, and a specification for each room.\n\nThe sourcing list has three stages. Stage one is the sofa, a lamp, and a rug, which make the living room usable at once. Stage two adds the oat Unan Bed and Bakal Side Table; stage three adds the ebonized Pasilyo entry console and the balcony pieces. Natural mahogany, ebonized mahogany, and pale hinoki are mixed on purpose. The owner buys when ready, and nothing needs replacing along the way."
   }
 ];

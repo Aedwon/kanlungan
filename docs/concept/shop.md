@@ -82,9 +82,9 @@ The shop should explicitly avoid becoming a general home-goods retailer. Exclude
 
 Product depth should be relative rather than quota-driven. Do not set an arbitrary total SKU target and do not create filler simply to make the catalog look larger.
 
-- **Anchor categories — deepest:** Seating, Tables, Lighting
-- **Supporting categories — moderate:** Beds, Storage, Rugs and Textiles
-- **Accent/discovery categories — flexible:** Decor and Objects, Art
+- **Anchor categories: deepest:** Seating, Tables, Lighting
+- **Supporting categories: moderate:** Beds, Storage, Rugs and Textiles
+- **Accent/discovery categories: flexible:** Decor and Objects, Art
 
 A product should only be added when it contributes a meaningfully different function, scale, silhouette, material, maker, price position, or spatial use. Subcategories do not need to be populated evenly or immediately; they should only appear publicly when there is enough credible assortment to feel intentional.
 
@@ -114,9 +114,9 @@ Product photography direction will be defined later as part of the visual system
 
 Kanlungan will use three collection types:
 
-1. **Room-based collections — primary.** Practical collections such as Living Room, Dining Room, and Bedroom that help customers shop by space and furnishing need.
-2. **Mood and lifestyle collections — secondary.** More expressive collections such as Quiet Living, Slow Mornings, or Soft Evenings that communicate the atmosphere Kanlungan is trying to create.
-3. **Material-based collections — selective.** Focused collections such as Natural Wood, Woven Forms, or Stone and Clay that highlight a coherent material language.
+1. **Room-based collections: primary.** Practical collections such as Living Room, Dining Room, and Bedroom that help customers shop by space and furnishing need.
+2. **Mood and lifestyle collections: secondary.** More expressive collections such as Quiet Living, Slow Mornings, or Soft Evenings that communicate the atmosphere Kanlungan is trying to create.
+3. **Material-based collections: selective.** Focused collections such as Natural Wood, Woven Forms, or Stone and Clay that highlight a coherent material language.
 
 A product may belong to multiple collections when appropriate. Room-based collections should do most of the navigational work, while mood/lifestyle and material collections should be used more selectively to express Kanlungan's point of view.
 
@@ -212,6 +212,12 @@ Status: **Decided on delegation.**
 Status: **Decided on delegation.**
 
 `docs/content/catalog.md` holds a seed catalog for mockups and the demo. It is illustrative content, not a SKU target. The product depth rules above still apply.
+
+## Material range
+
+Status: **Locked by Aedwon** on 2026-11-14.
+
+The Philippine hardwood range uses plantation mahogany and acacia, with natural, bleached, or ebonized finishes. No molave or narra. Each product offers only the choices listed in `docs/content/catalog.md`; this is not a promise of every finish on every piece. The imported Kiso Stool remains hinoki. Concealed frames in Yakap and Unan remain described as hardwood, without an exposed wood option. Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged. Project material specifications live in `docs/content/projects.md` and the scene bibles.
 
 ## Beds
 

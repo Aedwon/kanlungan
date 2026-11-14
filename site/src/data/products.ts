@@ -89,13 +89,16 @@ export const products: Product[] = [
         "name": "Finish",
         "choices": [
           {
-            "label": "Natural"
+            "label": "Mahogany"
           },
           {
-            "label": "Walnut stain"
+            "label": "Ebonized mahogany"
           },
           {
-            "label": "Ebonized"
+            "label": "Acacia"
+          },
+          {
+            "label": "Bleached acacia"
           }
         ],
         "effect": "None"
@@ -154,6 +157,55 @@ export const products: Product[] = [
     "variants": []
   },
   {
+    "slug": "yakap-sofa",
+    "name": "Yakap Sofa",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "description": "A deep, fully upholstered sofa with a removable linen cover.",
+    "price": 168000,
+    "priceUnit": null,
+    "maker": "Kanlungan Original",
+    "materials": "Linen blend, feather and foam fill, concealed hardwood frame",
+    "dimensions": "236 × 98 × 72",
+    "origin": "Cebu, Philippines",
+    "availability": "made-to-order",
+    "availabilityText": "Made to order, 10 weeks",
+    "leadTimeWeeks": 10,
+    "variants": [
+      {
+        "name": "Fabric",
+        "choices": [
+          {
+            "label": "Oat linen"
+          },
+          {
+            "label": "Sand linen"
+          },
+          {
+            "label": "Clay linen"
+          },
+          {
+            "label": "Charcoal linen"
+          }
+        ],
+        "effect": "None"
+      },
+      {
+        "name": "Size",
+        "choices": [
+          {
+            "label": "Three-seat 236 cm"
+          },
+          {
+            "label": "Two-seat 186 cm",
+            "price": 142000
+          }
+        ],
+        "effect": "Two-seat is ₱142,000"
+      }
+    ]
+  },
+  {
     "slug": "hapag-dining-table",
     "name": "Hapag Dining Table",
     "category": "Tables",
@@ -191,10 +243,16 @@ export const products: Product[] = [
         "name": "Finish",
         "choices": [
           {
-            "label": "Natural"
+            "label": "Mahogany"
           },
           {
-            "label": "Walnut stain"
+            "label": "Ebonized mahogany"
+          },
+          {
+            "label": "Acacia"
+          },
+          {
+            "label": "Bleached acacia"
           }
         ],
         "effect": "None"
@@ -233,7 +291,23 @@ export const products: Product[] = [
     "availability": "made-to-order",
     "availabilityText": "Made to order, 6 weeks",
     "leadTimeWeeks": 6,
-    "variants": []
+    "variants": [
+      {
+        "name": "Finish",
+        "choices": [
+          {
+            "label": "Natural"
+          },
+          {
+            "label": "Bleached"
+          },
+          {
+            "label": "Ebonized"
+          }
+        ],
+        "effect": "None"
+      }
+    ]
   },
   {
     "slug": "pasilyo-console-table",
@@ -244,12 +318,61 @@ export const products: Product[] = [
     "price": 58000,
     "priceUnit": null,
     "maker": "Lilok Workshop",
-    "materials": "Plantation mahogany, cane",
+    "materials": "Ebonized plantation mahogany, natural cane",
     "dimensions": "150 × 38 × 80",
     "origin": "Betis, Pampanga, Philippines",
     "availability": "made-to-order",
     "availabilityText": "Made to order, 8 weeks",
     "leadTimeWeeks": 8,
+    "variants": []
+  },
+  {
+    "slug": "salo-dining-table",
+    "name": "Salo Dining Table",
+    "category": "Tables",
+    "subcategory": "Dining tables",
+    "description": "A round terrazzo table on a single steel pedestal.",
+    "price": 126000,
+    "priceUnit": null,
+    "maker": "Marmol Atelier",
+    "materials": "Terrazzo with Romblon marble chips, honed; blackened steel base",
+    "dimensions": "Ø130 × 75",
+    "origin": "Romblon, Philippines",
+    "availability": "made-to-order",
+    "availabilityText": "Made to order, 10 weeks",
+    "leadTimeWeeks": 10,
+    "variants": [
+      {
+        "name": "Size",
+        "choices": [
+          {
+            "label": "Ø110 seats four",
+            "price": 98000
+          },
+          {
+            "label": "Ø130 seats six",
+            "price": 126000
+          }
+        ],
+        "effect": "₱98,000, ₱126,000"
+      }
+    ]
+  },
+  {
+    "slug": "bakal-side-table",
+    "name": "Bakal Side Table",
+    "category": "Tables",
+    "subcategory": "Side tables",
+    "description": "A small spun-steel drinks table with a blackened finish.",
+    "price": 18500,
+    "priceUnit": null,
+    "maker": "Tanso Lighting Works",
+    "materials": "Blackened steel, wax finish",
+    "dimensions": "Ø38 × 50",
+    "origin": "Marikina, Philippines",
+    "availability": "in-stock",
+    "availabilityText": "In stock",
+    "leadTimeWeeks": null,
     "variants": []
   },
   {
@@ -286,10 +409,16 @@ export const products: Product[] = [
         "name": "Finish",
         "choices": [
           {
-            "label": "Natural"
+            "label": "Mahogany"
           },
           {
-            "label": "Walnut stain"
+            "label": "Ebonized mahogany"
+          },
+          {
+            "label": "Acacia"
+          },
+          {
+            "label": "Bleached acacia"
           }
         ],
         "effect": "None"
@@ -312,6 +441,56 @@ export const products: Product[] = [
     "availabilityText": "Made to order, 8 weeks",
     "leadTimeWeeks": 8,
     "variants": []
+  },
+  {
+    "slug": "unan-bed",
+    "name": "Unan Bed",
+    "category": "Beds",
+    "subcategory": "Bed frames",
+    "description": "A low bed with a padded linen headboard and an upholstered frame.",
+    "price": 128000,
+    "priceUnit": null,
+    "maker": "Kanlungan Original",
+    "materials": "Linen blend, foam padding, concealed hardwood frame, slatted base",
+    "dimensions": "172 × 222 × 100",
+    "origin": "Cebu, Philippines",
+    "availability": "made-to-order",
+    "availabilityText": "Made to order, 10 weeks",
+    "leadTimeWeeks": 10,
+    "variants": [
+      {
+        "name": "Fabric",
+        "choices": [
+          {
+            "label": "Oat linen"
+          },
+          {
+            "label": "Sand linen"
+          },
+          {
+            "label": "Clay linen"
+          },
+          {
+            "label": "Charcoal linen"
+          }
+        ],
+        "effect": "None"
+      },
+      {
+        "name": "Size",
+        "choices": [
+          {
+            "label": "Queen 172 × 222",
+            "price": 128000
+          },
+          {
+            "label": "King 202 × 222",
+            "price": 152000
+          }
+        ],
+        "effect": "₱128,000, ₱152,000"
+      }
+    ]
   },
   {
     "slug": "aparador-cabinet",
@@ -339,13 +518,29 @@ export const products: Product[] = [
     "price": 128000,
     "priceUnit": null,
     "maker": "Lilok Workshop",
-    "materials": "Plantation mahogany, oil finish",
+    "materials": "Acacia, oil finish",
     "dimensions": "180 × 45 × 72",
     "origin": "Betis, Pampanga, Philippines",
     "availability": "made-to-order",
     "availabilityText": "Made to order, 10 weeks",
     "leadTimeWeeks": 10,
-    "variants": []
+    "variants": [
+      {
+        "name": "Finish",
+        "choices": [
+          {
+            "label": "Natural"
+          },
+          {
+            "label": "Bleached"
+          },
+          {
+            "label": "Ebonized"
+          }
+        ],
+        "effect": "None"
+      }
+    ]
   },
   {
     "slug": "estante-shelving",
@@ -356,13 +551,26 @@ export const products: Product[] = [
     "price": 86000,
     "priceUnit": null,
     "maker": "Kanlungan Original",
-    "materials": "Acacia, brass",
+    "materials": "Blackened steel frame, acacia shelves, brass fittings",
     "dimensions": "100 × 36 × 190",
     "origin": "Pampanga, Philippines",
     "availability": "made-to-order",
     "availabilityText": "Made to order, 10 weeks",
     "leadTimeWeeks": 10,
-    "variants": []
+    "variants": [
+      {
+        "name": "Shelf finish",
+        "choices": [
+          {
+            "label": "Natural"
+          },
+          {
+            "label": "Bleached"
+          }
+        ],
+        "effect": "None"
+      }
+    ]
   },
   {
     "slug": "kapis-pendant",
@@ -628,7 +836,7 @@ export const products: Product[] = [
     "price": 28000,
     "priceUnit": null,
     "maker": "Lilok Workshop",
-    "materials": "Plantation mahogany, mirror glass",
+    "materials": "Bleached acacia, mirror glass",
     "dimensions": "70 × 4 × 170",
     "origin": "Betis, Pampanga, Philippines",
     "availability": "made-to-order",
@@ -746,4 +954,10 @@ export const featuredProductSlugs = [
   "kapis-pendant",
   "aparador-cabinet",
   "tapayan-vessel"
+];
+export const originalProductSlugs = [
+  "silong-sofa", "yakap-sofa", "hapag-dining-table", "unan-bed", "sinag-floor-lamp", "lambot-wool-rug"
+];
+export const newPieceSlugs = [
+  "lenta-pendant", "kiso-stool", "habi-wall-piece", "salo-dining-table", "tanghali", "bakal-side-table"
 ];

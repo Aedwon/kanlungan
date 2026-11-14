@@ -15,7 +15,7 @@ npm run build
 `npm run build` also regenerates the CSS tokens automatically. No dependencies were added to the lead's scaffold.
 
 - `src/components/`: header states, footer, buttons, text links, category icons, product cards, accessible gradient placeholders, and Home sections.
-- `src/data/`: typed transcription of all 32 products and variants, 7 collections, 5 projects and galleries, 10 makers, copy, and navigation routes.
+- `src/data/`: typed transcription of all 36 products and variants, 7 collections, 5 projects and galleries, 10 makers, copy, and navigation routes.
 - `src/styles/`: generated tokens, exact Home reference measurements and choreography, shared responsive component styles.
 - `scripts/build-tokens.mjs`: generates CSS custom properties from `../design/tokens/tokens.json`.
 - `scripts/transcribe-reference.py`: reproducible one-time transcription of the approved HTML and Markdown sources. Uses only the Python standard library. It regenerates the Home components, reference CSS, category icons, and data files.
@@ -50,7 +50,7 @@ See [the wave 2 implementation report](docs/wave-2-report.md) for the exact file
 
 ## Wave 3: Shop
 
-Implemented the Shop landing, all eight categories, Collections and all seven details, Makers and all ten details, and all 32 product pages. Shop routes replace their catch-all stubs. See [the wave 3 report](docs/wave-3-report.md) for files, measurements, actual verification output, and remaining review items.
+Implemented the Shop landing, all eight categories, Collections and all seven details, Makers and all ten details, and all 36 product pages. Shop routes replace their catch-all stubs. See [the wave 3 report](docs/wave-3-report.md) for files, measurements, actual verification output, and remaining review items.
 
 `src/lib/commerce/` exposes the same seven methods through local and Shopify providers. Local typed content is the default. Set both variables from `.env.example` to use the `2026-01` Storefront API. Product/collection data is cached through Next's cache; maker stories remain local. The CSV generator, metafield definitions, collection rules, and setup steps are documented in [shopify/README.md](shopify/README.md).
 

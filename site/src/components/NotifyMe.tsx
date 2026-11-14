@@ -1,8 +1,9 @@
 'use client';
-import { useState } from 'react';
+import { useId, useState } from 'react';
 import { copy } from '@/data/copy';
 import { Button } from './Button';
-export function NotifyMe({ id }: { id: string }) {
+export function NotifyMe({ id: idPrefix }: { id: string }) {
+  const id = `${idPrefix}-${useId().replace(/:/g, '')}`;
   const [submitted, setSubmitted] = useState(false);
   const text = copy['Search, 404, contact, and notify me'];
   return <form className="notify-form" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}>

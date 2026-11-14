@@ -41,14 +41,14 @@ export const makers: Maker[] = [
     "name": "Tanso Lighting Works",
     "place": "Marikina, Metro Manila",
     "craft": "Brass, glass, and capiz shell lighting",
-    "story": "A metal workshop that spins and finishes brass by hand and pairs it with opal glass and capiz shell. Tanso leaves its brass unlacquered so it darkens slowly with age. Every fitting is wired and tested in the workshop."
+    "story": "A metal workshop that spins and finishes brass by hand and pairs it with opal glass and capiz shell. Tanso leaves its brass unlacquered so it darkens slowly with age. Every fitting is wired and tested in the workshop. The workshop also makes small metal tables."
   },
   {
     "slug": "marmol-atelier",
     "name": "Marmol Atelier",
     "place": "Romblon, Romblon",
     "craft": "Stone tables and carved objects",
-    "story": "A stone workshop on an island known for its marble. The atelier cuts tabletops and carves small objects from local stone in gray, cream, and soft green. Finishes are honed, not polished, so the stone feels soft to the touch."
+    "story": "A stone workshop on an island known for its marble. The atelier cuts tabletops and carves small objects from local stone in gray, cream, and soft green. Finishes are honed, not polished, so the stone feels soft to the touch. Marble offcuts are cast into terrazzo for tables."
   },
   {
     "slug": "amihan-editions",
@@ -62,7 +62,7 @@ export const makers: Maker[] = [
     "name": "Okabe Mokko",
     "place": "Nagano, Japan",
     "craft": "Small furniture in hinoki cypress",
-    "story": "A two-person woodworking shop that makes stools and small tables from Japanese cypress. The pale wood and precise joinery sit well beside Philippine hardwoods. Kanlungan carries two of their pieces."
+    "story": "A two-person woodworking shop that makes stools and small tables from Japanese cypress. The pale wood and precise joinery sit well beside Philippine hardwoods. Kanlungan carries one of their pieces."
   },
   {
     "slug": "forma-lenta",
