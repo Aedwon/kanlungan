@@ -1,6 +1,6 @@
 # Scene bible: Lilim House
 
-Status: **Decided on delegation** on 2026-11-14. Plan drawing: `design/photography/plans/lilim-house.svg` (PNG export beside it). The approved `lilim-hero.png` is the anchor for the living and dining spaces; this bible was drawn to agree with it.
+Status: **Approved by Aedwon** on 2026-11-14. Plan drawing: `design/photography/plans/lilim-house.svg` (PNG export beside it). The approved `lilim-hero.png` is the anchor for the living and dining spaces; this bible was drawn to agree with it.
 
 Coordinates are meters. Origin is the southwest inside corner of the great room. x runs east, y runs north. Headings are compass degrees (0 is north, 90 east, 180 south, 270 west).
 
