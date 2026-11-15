@@ -75,9 +75,35 @@ Advisor recommendation approved by Aedwon. The detailed approved decision supers
 | 2026-11-16 | Project imagery shows a transformation: each case study pairs a plain as-handed-over shell with the furnished result from the same camera, for a drag-bar before and after. Approach and Fable's recommendations accepted; details in `docs/build/consults/2026-11-16-ground-up-rethink.md`. | `docs/build/consults/` |
 | 2026-11-16 | Lilim direction: Shade and Stone (round 3 test B). Warmth comes only from light sources such as lamps and low sun; areas away from them stay neutral to cool. The palette answers the site: a green-surrounded site takes a restrained, near-colorless interior; a site with little green outside (a condo) may take a warmer, collected palette. | `design/round-3-interiors/` |
 
+### Interiors rethink, 2026-11-16
+
+Written by Fable 5.2 as step 2 of the rethink Aedwon accepted. One line per change.
+
+| Date | Decision | Status | File |
+|---|---|---|---|
+| 2026-11-16 | The studio's hand is constant: premium and edited, a dark and pale composition, one leading piece, and layered, motivated light. The palette and the sourcing mix change by site. | Locked by Aedwon | `docs/design/studio-hand.md` |
+| 2026-11-16 | Calibration before the rule is fixed: the palette and sourcing calls for Tanaw, Dalampasigan, Pahinga, and Hardin stay provisional until Aedwon has judged four more before-and-after cases. Lilim stays Shade and Stone. | Locked by Aedwon | `docs/build/consults/2026-11-16-calibration-set.md` |
+| 2026-11-16 | Signature moves and ten rules for the room, each with a test by eye | Decided on delegation | `docs/design/studio-hand.md` |
+| 2026-11-16 | Provisional calls: Tanaw and Hardin Collected, Pahinga Shade and Stone, Dalampasigan restrained guest rooms with Collected shared rooms | Decided on delegation, provisional | `docs/design/studio-hand.md` |
+| 2026-11-16 | Photography rules replace "Consistency system" and "Global style": ten rules, motivated light, color from the room and the site, no grade | Decided on delegation; the two principles are locked | `docs/content/image-briefs.md` |
+| 2026-11-16 | Lamps may be lit from late afternoon, not only at dusk, as in the image Aedwon picked. One global correction toward neutral is allowed; a correction that warms a frame is not. | Decided on delegation | `docs/content/image-briefs.md` |
+| 2026-11-16 | Pairing method: before first, after as an edit of it, registration, and eight checks including a neutral patch check for warm drift | Decided on delegation | `docs/content/image-briefs.md` |
+| 2026-11-16 | Imagery section rewritten. Removed: shaded daylight as the light for all imagery, the warm low-contrast grade, the Tanaw dusk exception, and the pale floor exception. | Reopened by Aedwon; wording decided on delegation | `docs/design/visual-system.md` |
+| 2026-11-16 | Project design files replace scene bibles, one project at a time. The Lilim House bible is superseded. The old bibles are not edited. | Decided on delegation | `docs/content/project-designs/README.md` |
+| 2026-11-16 | Lilim shell: plain contractor finish. The view faces east, and the great room is about 5.5 by 15 m, both read from the approved before. The old plan is replaced. | Decided on delegation | `docs/content/project-designs/lilim-house.md` |
+| 2026-11-16 | Lilim design under Shade and Stone: concept, plan, palette, lighting, sourcing, styling, and a shot list of three pairs and nine story frames | Decided on delegation; rendered frames pending Aedwon's review | `docs/content/project-designs/lilim-house.md` |
+| 2026-11-16 | Lilim custom and found pieces: a stone table by Marmol Atelier, a commissioned work by Ines Dalisay, a woven panel by Tikog Loom, an old sideboard, and the family's jar and chest. No catalog product is added and no new name is invented. | Decided on delegation | `docs/content/project-designs/lilim-house.md` |
+| 2026-11-16 | Lilim public copy rewritten: brief, approach, material palette, 14 shop pieces, 12 provisional captions, a duration, and a handover line. Batis moves to the terrace and Aparador to the children's room. | Decided on delegation | `docs/content/projects.md` |
+| 2026-11-16 | Product sheets: Lilim uses the Silong in charcoal linen and the Hapag, Hain, and Himlay in ebonized mahogany. All are existing catalog options. | Decided on delegation | `docs/content/image-briefs.md` |
+| 2026-11-16 | The eleven old Lilim shot entries are superseded and kept only as a record of where each image is used | Decided on delegation | `docs/content/image-briefs.md` |
+
 ## Open questions for Aedwon
 
-None.
+1. **Calibration picks.** Four scenarios, two afters each, once the images exist. See `docs/build/consults/2026-11-16-calibration-set.md`.
+2. **A locked sentence now contradicts the Lilim redesign.** `docs/concept/shop.md`, Material range, says "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Recommendation: remove it and add that the two-wood range limits shop products only. Cost: one sentence. Not edited yet.
+3. **Home featured pieces.** The Aparador Cabinet is no longer in the Lilim great room, so the Home "From the shop" image cannot pin it. Options: swap it for the Sinag Floor Lamp (recommended, one line in the catalog and the site data), or put the Aparador back in the great room (costs the restraint of the picked image). Needed before the pinned-room frame is made.
+
+Pending his review from rendered images, not yet questions: the Lilim hero after, the composition of the commissioned work, the pendant at catalog size, the old sideboard, the woven panel, and how the hero pair is cropped for phones. Each is marked in the Lilim design file.
 
 ## Before public release
 

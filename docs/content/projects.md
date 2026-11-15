@@ -6,36 +6,42 @@ Five projects: three residential and two hospitality. Four use Full-Service Furn
 
 ## Lilim House
 
+Revised on 2026-11-16 for the Shade and Stone direction that Aedwon picked. The design is in [the Lilim design file](project-designs/lilim-house.md). The captions are provisional until the photographs are approved. Field names and the caption format stay as the site expects them.
+
 - **Location:** Antipolo, Rizal
 - **Type:** Residential, family house
 - **Floor area:** 320 sqm
 - **Service:** Full-Service Furnishing
 - **Year:** 2025
 - **Scope:** Living, dining, four bedrooms, covered terrace
-- **Brief:** A family of five moved into a newly built hillside house with deep eaves and large openings. They wanted rooms that stay cool and calm and that hold up to children.
-- **Approach:** The studio kept furniture low so the views stay open. Cane and rattan let air move through the rooms. Dark wood grounds the bright, shaded light. Washable linen covers and wool rugs handle daily family use.
-- **Material palette:** Plantation mahogany, cane, oat linen, wool, honed Romblon marble, unlacquered brass
-- **Shop the project:** Silong Sofa, Dapithapon Lounge Chair, Batis Coffee Table, Hapag Dining Table, Hain Dining Chair, Himlay Bed, Aparador Cabinet, Lambot Wool Rug, Kapis Pendant, Tapayan Vessel
-- **Image notes:** Shaded daylight, greenery through wide openings, long horizontal views, a terrace with a bench
+- **Duration:** 18 weeks from signed proposal to handover, with 6 days on site
+- **As handed over:** A new house, finished by the contractor and empty. White painted walls, pale gray tile, flat white ceilings with recessed downlights, bronze aluminum sliding doors, and a bare bulb at each ceiling point.
+- **Brief:** A family of five moved into the first house they built, on a hillside above a green valley. The contractor handed it over white, tiled, and empty. They wanted it calm and finished from the first night, with the view left open and nothing more built.
+- **Approach:** The studio kept the rooms nearly colorless, so the valley is the color. Charcoal linen, black wood, and steel sit against white linen, pale wool, and gray stone. One slab of Romblon marble leads the living room. The ceiling lights stay off, and lamps put warm light where the family sits. Nothing was built or painted.
+- **Material palette:** Honed Romblon marble, ebonized plantation mahogany, blackened steel, white and charcoal linen, wool, cane
+- **Shop the project:** Silong Sofa (charcoal), Dapithapon Lounge Chair, Lambot Wool Rug, Bakal Side Table, Luad Table Lamp, Sinag Floor Lamp, Hapag Dining Table (ebonized mahogany), Hain Dining Chair (ebonized mahogany), Kapis Pendant, Tapayan Vessel, Himlay Bed (ebonized mahogany), Aparador Cabinet, Duyan Daybed, Batis Coffee Table
+- **Image notes:** A white, shaded living room open to a green valley, with a charcoal sofa, a large stone table, white linen curtains, and lamps lit in the late afternoon
 
 ### Gallery captions
 
-1. Living room. The Silong Sofa and Dapithapon Lounge Chair sit low beside the open terrace doors.
-2. Living room. The Batis Coffee Table and Lambot Wool Rug under the shaded eaves.
-3. Dining room. The Hapag Dining Table with six Hain Dining Chairs and a Kapis Pendant above.
-4. Dining room. Afternoon light across the table, with a Tapayan Vessel on the Aparador Cabinet.
-5. Main bedroom. The Himlay Bed with oat linen and a view of the hillside.
-6. Second bedroom. A shared room for two children, with washable linen covers.
-7. Hallway. The Aparador Cabinet with cane door panels that let air through.
-8. Covered terrace. A bench and low seating facing the garden.
-9. Living room. A close view of cane, mahogany, and honed marble.
-10. Exterior. The house on its hillside, with deep eaves and large openings.
+1. Living room. Late afternoon, seen from the entry. The Silong Sofa in charcoal linen faces a daybed made for the house, across one slab of Romblon marble.
+2. Living room. The stone table, made for the house by Marmol Atelier, on the Lambot Wool Rug. The old jar came with the family.
+3. Living room. Honed marble, charcoal linen, and the cane of the Dapithapon Lounge Chair.
+4. Dining area. At dusk the Kapis Pendant lights the ebonized Hapag Dining Table and six Hain Dining Chairs. The ceiling lights stay off.
+5. Dining area. Morning sun reaches the table for an hour.
+6. Long wall. An old hardwood sideboard, a Luad Table Lamp, and cut branches in a Tapayan Vessel.
+7. Main bedroom. The ebonized Himlay Bed in morning light, under a woven panel made for the room by Tikog Loom.
+8. Main bedroom. A Luad Table Lamp at the bedside at dusk.
+9. Children's room. Two beds made for the house, the Aparador Cabinet, and a wall for the children's own drawings.
+10. Covered terrace. The Duyan Daybed and the Batis Coffee Table face the valley. A long bench and planted jars mark the open edge.
+11. Curtains. White linen runs from the ceiling for the full length of the glass.
+12. Exterior. The house at dusk, lit only by its lamps.
 
 ### Approach, expanded
 
-The house faces the valley and has deep eaves, so the rooms stay shaded and cool. We kept furniture low and left clear sightlines to the garden from the living room, the dining room, and the terrace. Cane panels and open weaves let air move through the house without fans running all day.
+The house looks over a valley, and green fills every opening. We kept the rooms nearly colorless, so the valley is the color. Charcoal linen, black wood, and steel sit against white linen, pale wool, and gray Romblon marble. One stone table, made for the house, leads the living room. Honey-colored cane appears once in each room.
 
-A family of five uses every room, so we chose pieces that can take it. Linen covers come off and wash. Wool rugs hide wear. Solid mahogany can be refinished when it marks. We placed the dining table in the middle of the plan because the family eats together there every day.
+The builder left a grid of ceiling lights. We keep them off. Three lamps and one pendant put warm light where the family sits, eats, and reads, and the rest of the room stays in cool daylight. White linen runs from the ceiling for the full length of the glass. We left the middle of the great room open, because three children need a floor. Nothing was built or painted.
 
 ## Tanaw Residence
 

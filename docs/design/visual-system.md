@@ -65,12 +65,19 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 
 ## Imagery
 
+Status: **Revised on 2026-11-16.** Aedwon reopened the light and color grade rules he locked on 2026-11-13, after rejecting the first Lilim House photographs. The two principles marked "locked" below are his, from the round 3 test (`design/round-3-interiors/`). Crop and text over images are unchanged. The wording of the rest is decided on delegation.
+
 - **Crop:** full-bleed 21:9 and 16:9 for rooms, 3:4 for projects, 1:1 for products
-- **Light:** shaded daylight under deep eaves, with a bright, pale opening band
-- **Color grade:** warm umber floors, olive-green foliage, low contrast, lifted blacks
+- **Light is motivated (locked):** warmth comes only from things that give off warm light: a lamp, a pendant, low sun. It fades with distance from them. Everything else keeps the neutral to cool balance of daylight. Warmth is never a shift over the whole picture.
+- **The palette answers the site (locked):** a site surrounded by green gets a restrained, near-colorless interior, and the green outside is the color. A site with little green outside may take a warmer, more collected palette. Each project's palette is set in its design file under the [studio hand](studio-hand.md).
+- **No grade:** neutral white balance in every photograph. Whites read white and foliage reads green. Every frame holds one true dark and one clean bright.
+- **Rooms:** furnished and styled under the studio hand, and shown without people
+- **Before and after:** each project hero is a pair: the plain shell as handed over, and the furnished room from the same camera at the same hour. The slider that shows the pair is not chosen yet. Aedwon picks it from rendered options.
 - **Text over images:** a warm umber scrim (based on `#2E211A`) rises from the bottom edge, so `#F7F2EA` text passes 4.5:1
-- **Exception:** Tanaw Residence is shot at dusk, in the same warm grade
-- Exception: Tanaw Residence (bleached acacia floors) and Pahinga Villas (cream limestone floors) have pale floors instead of warm umber floors.
+
+Removed on 2026-11-16: "shaded daylight under deep eaves" as the light for all imagery, the "warm umber floors, olive-green foliage, low contrast, lifted blacks" grade, the Tanaw dusk exception, and the pale floor exception. Each project is now shot in the light of its own site.
+
+The full rules and the pairing method are in [image briefs](../content/image-briefs.md#photography-rules).
 
 ## Components
 
@@ -145,4 +152,5 @@ Reference: `design/identity/Logo-fable.dc.html`, section "Afternoon". The board 
 
 ## Not yet decided
 
-- Final photography. The mockups use labeled placeholders that follow the imagery rules above.
+- Final photography. The mockups use labeled placeholders. They predate the imagery rules revised on 2026-11-16.
+- The before-and-after slider, and the project page sections that change with it. Both wait for a round of rendered options.

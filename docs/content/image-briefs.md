@@ -1,26 +1,109 @@
 # Image briefs
 
-## Consistency system
+## How project photography works
 
-Every project shot follows its scene bible in [scene-bibles/](scene-bibles/README.md): plan, surfaces, placement, light, and a numbered camera. Generate each space's anchor first, then pass the approved anchor and the plan PNG as references for every later shot of that space. Scene bibles exist for: Lilim House, Tanaw Residence, Dalampasigan Inn, Pahinga Villas, and Hardin Apartment.
+Every project photograph follows that project's design file in [project-designs/](project-designs/README.md). The design file sets the shell, the design, and the shot list. This file sets the rules every photograph follows, the pairing method, the product consistency sheets, and the shots that belong to no project.
 
-## Global style
+Design files replace the scene bibles, one project at a time. Lilim House has its design file. The other four projects do not yet. Until a project has one, do not generate from its entries in the shot list below or from its scene bible.
 
-These are generation briefs, not new catalog or architectural facts. Inherit this section in every prompt, then attach the matching product consistency sheet and any accepted room reference. Follow [brand](../concept/brand.md), the locked [palette and imagery](../design/visual-system.md#imagery), [project captions](projects.md), [catalog](catalog.md), and [maker stories](makers.md). The studio leads; products support believable rooms. Photography remains subject to Aedwon's visual review. Unspecified silhouettes and artwork compositions are provisional generation instructions, never approved product specifications.
+## Photography rules
 
-**Camera.** Full-frame editorial photography with a 35mm lens for rooms and a 50mm lens for products, materials, and workshop work. Use a 70mm close-focus view only where noted. Natural depth of field, roughly f/5.6 to f/8 for rooms and whole products, f/4 for details. Keep camera level, verticals straight, and perspective plausible. Avoid very wide lenses and artificial miniature blur. Maintain texture without sharpening halos.
+Status: **Motivated light** and **the palette answers the site** are **locked by Aedwon** on 2026-11-16. The rest is **decided on delegation** from `docs/build/consults/2026-11-16-ground-up-rethink.md` and `2026-11-16-photo-fundamentals.md`. This section replaces "Global style," which Aedwon locked on 2026-11-14 and reopened on 2026-11-16. Photography remains subject to his visual review.
 
-**Light.** Tropical daylight filtered by deep eaves, with a bright, pale band at an opening and soft reflected light inside. Expose for believable windows and shaded rooms in a single natural-looking exposure. No harsh flash. Tanaw stays at dusk throughout. Pahinga's two captioned dusk views retain the same warm grade. Other scenes use shaded daylight unless their source calls for evening. Lamps give a restrained warm glow with visible shade texture.
+These rules cover the photograph. What goes in the room is set by the [studio hand](../design/studio-hand.md) and the project's design file. Inherit this section in every prompt. Then attach the references the design file names.
 
-**Color.** Warm umber floors where appropriate, olive-green foliage, low contrast, lifted blacks, warm neutral highlights. Match background `#F2ECE3`, product ground `#E8DFD2`, umber `#2E211A`, muted brown `#6A584A`, clay `#8E4A2C`, and deep brown `#3A2A20` without tinting every material brown. Natural pale hinoki, cream marble, white linen, and sand cotton must remain distinct. Indigo appears only on the documented textiles, subdued rather than saturated. Do not add accent colors. UI scrims and text belong in the page, not the generated photograph.
+| # | Rule | Test by eye |
+|---|---|---|
+| 1 | **Honest scope.** Nothing fixed appears, moves, or changes finish. The photograph shows the client's shell and Kanlungan's loose work. | Compare with the before. Count the fixed items. |
+| 2 | **Level camera, straight verticals.** Rooms at 35mm to 50mm. Vignettes and details at 50mm to 85mm, at the height of the subject. Stand square to the far wall or clearly at an angle. | Every wall edge and frame is parallel to the frame sides. |
+| 3 | **Light is motivated.** See below. | You can point to the source of every bit of light. |
+| 4 | **Neutral balance, no grade.** Color comes from the room, the site, and the light sources. See below. | White walls away from lamps read white. Foliage reads green. |
+| 5 | **One natural exposure.** The opening is brighter than the room and keeps its detail. The room darkens away from it. Every frame holds one true dark and one clean bright. | The view is neither blown white nor as dark as the room. |
+| 6 | **Each room at its best hour.** A house is shot over a day. A gallery holds at least three kinds of light. | Name the hour of each frame from the frame alone. |
+| 7 | **The set is a story.** One subject per frame. About a third each of wide, medium, and detail. Neighbors differ in scale or light. Not every room is shown. | Lay the gallery out as thumbnails. No two neighbors look alike. |
+| 8 | **Continuity.** The same shell and the same pieces in every frame of a space, held by reference images. Loose styling may move to camera. | Two frames of one surface do not contradict each other. |
+| 9 | **Pairs are fair and aligned.** Same camera, same hour. The before is clean, empty, sound, and correctly exposed. See the pairing method. | Drag the bar. Every fixed line continues unbroken. |
+| 10 | **Regenerate, do not retouch.** A frame that fails is made again. One global correction of white balance or exposure toward neutral is allowed. A correction that warms a frame is not. | |
 
-**Surfaces and realism.** Honed stone, visible wood grain variation, breathable cane and rattan, irregular ash glaze, matte stoneware, cotton and linen with readable fibers, and softly aged unlacquered brass. Include two or three quiet physical details per image: a little settled dust, a creased cushion, a slight weave variation, a small glaze pool, a rubbed wood edge. Keep saleable products clean and sound. Rooms feel used, not neglected. Avoid leaning verticals, repeating texture tiles, perfect mirror symmetry, and indiscriminate distressing.
+"About a third each" is a trade rule of thumb, not a law.
 
-**People.** Default to empty rooms. Only anonymous hands at work or distant figures seen wholly from behind may appear. No faces, profiles, reflections of faces, identifying tattoos, name badges, or recognizable people. The team view is a distant rear view, never twelve portraits. All entities are fictional; place names are real. Apply the fictional-brand notice from [copy](copy.md#fictional-brand-notice) in the page footer, outside the photograph.
+**Motivated light.** Locked by Aedwon.
 
-**NEGATIVE:** people's faces or recognizable people; real brand logos; readable text, signatures, prices, or labels; tourist imagery; flag colors; decorative cultural motifs; HDR look; CGI; glossy render lighting; plastic sheen; oversaturated greens; symmetrical showroom staging; impossible architecture; floating objects; extra chair legs; warped weave; fake film borders; excessive bokeh; crushed blacks; orange filters; invented product variants.
+- Every frame names its sources: daylight through a named opening, direct sun where it lands, and each lit lamp the design file lists for that frame. Nothing else lights the room. No fill and no glow without a source.
+- White balance is set for the daylight in the frame. Walls, ceilings, and linen away from lamps read neutral white to slightly cool. At dusk they read blue-gray.
+- Warmth has three allowed origins: a lit lamp, on what is near it; direct low sun, on what it strikes; and the true color of a material.
+- A lamp's warmth is local. It reaches the shade, the surface under it, and the wall and floor within about 1.5 m, and it fades with distance. It does not tint the far ceiling.
+- Keep warm and cool in the same frame. That contrast is the look.
+- Lamps are on only where the design file's lighting plan turns them on. They are off in morning and midday frames. They may be on from late afternoon. The contractor's ceiling lights are off in every furnished frame.
+- Never apply a warm cast, a warm grade, or "golden hour" light to a whole frame.
 
-**Cropping.** Rooms: 21:9 or 16:9. Project cards and tall gallery views: 3:4. Product masters: 1:1 on `#E8DFD2`. Collection cards: 4:3. Maker and team portraits: 4:5. Keep 10 to 15 percent breathing room around important edges. Each entry gives the intended crop and any required alternate. A crop is a derivative of the same master, not another shot. Where a mockup uses a fixed box or 16:10 shop image, retain extra source area for that exact box without altering the layout.
+**Color and the site.** Locked by Aedwon.
+
+- Each project's palette is set in its design file under the studio hand's rule: the palette answers the site. A site full of green gets a near-colorless room. A site with little green may get a warmer one.
+- A photograph adds no color of its own. No grade carries a palette.
+- Materials keep their true color. White linen, pale stone, and white paint stay distinct from each other.
+- What is outside reads as it is: fresh green foliage, blue-green sea, a blue dusk sky.
+- Do not carry one project's palette or hour into another.
+
+**Surfaces and realism.** Honed stone, visible wood grain, breathable cane and rattan, irregular ash glaze, matte stoneware, cotton and linen with readable fibers, softly aged unlacquered brass. Materials show honest wear where hands and feet go: a creased cushion, a slight weave variation, a small glaze pool, a rubbed wood edge. No dust. Keep saleable products clean and sound. Rooms look lived in, not neglected. Avoid leaning verticals, repeating texture tiles, mirrored textures, and indiscriminate distressing.
+
+**People.** Rooms are furnished and in use, and shown without people. Only anonymous hands at work or distant figures seen wholly from behind may appear, and only where a shot entry asks for them. No faces, profiles, reflections of faces, identifying tattoos, name badges, or recognizable people. The team view is a distant rear view, never twelve portraits. All entities are fictional; place names are real. The fictional-brand notice from [copy](copy.md#fictional-brand-notice) goes in the page footer, outside the photograph.
+
+**NEGATIVE:** people's faces or recognizable people; real brand logos; readable text, signatures, prices, or labels; tourist imagery; flag colors; decorative cultural motifs; religious figures, tribal carvings, baskets on walls, shells, figurines, or souvenirs; flowers in bloom; plants that could not live on the site; a warm cast over the whole frame; flat shadowless light; light with no source; HDR look; CGI; glossy render lighting; plastic sheen; oversaturated greens; furniture lined in showroom rows; new walls, windows, moldings, beams, or ceiling features; impossible architecture; floating objects; extra chair legs; warped weave; fake film borders; excessive bokeh; crushed blacks; orange filters; invented product variants.
+
+**Cropping.** Rooms: 21:9 or 16:9. Project cards and tall gallery views: 3:4. Product masters: 1:1 on `#E8DFD2`. Collection cards: 4:3. Maker and team portraits: 4:5. Keep 10 to 15 percent breathing room around important edges. A crop is a derivative of the same master, not another shot. Both frames of a pair use the same crop box. Where a mockup uses a fixed box or a 16:10 shop image, retain extra source area for that box without altering the layout. UI scrims and text belong in the page, not the photograph.
+
+**Scenes that belong to no project.** The showroom, makers, materials, and studio panels follow the same rules. Their entries in the shot list still carry the old warm-grade wording. Correct an entry before generating from it. The approved product masters are not affected.
+
+## Pairing method
+
+Status: **Decided on delegation** on 2026-11-16. Aedwon approved the approach: each case study pairs a plain as-handed-over shell with the furnished result from the same camera, for a drag-bar before and after. The slider itself is a UX choice he has not yet made.
+
+Not yet tested: generating the before from the after, and whether the image tool accepts an edit mask. The round 3 test ran before-first only. Run the reverse order once, on the Lilim hero, and compare the alignment results before relying on either order for the other projects.
+
+### What makes a pair fair
+
+- The before is honest and unremarkable: clean, empty, sound, plain, and correctly exposed. Not dirty, dark, or under construction.
+- The camera, lens, crop, hour, and weather are identical.
+- Only Kanlungan's work differs. The change in light comes only from lamps and curtains.
+- By day the contractor's lights are off in both frames. At dusk they are on in the before and off in the after.
+
+### Method
+
+1. **Fix the shell on paper.** The design file's "As handed over" section lists the finishes, the fixed items, and 8 to 12 landmarks for each pair camera.
+2. **Draw the camera's view.** Project the shell from the pair camera into a perspective line drawing. It is a reference for the before and a ruler for both frames. Where a before is already approved, as for the Lilim hero, trace the landmarks from the approved image and fit the drawing to it. Never regenerate an approved before to fit a drawing.
+3. **Generate the before.** Text plus the line drawing. The same hour as the planned after.
+4. **Get the before approved.** Aedwon approves each project's hero before. The lead approves the others.
+5. **Generate the after as an edit of the before.** References, five at most: the before, the material board, the sourcing board, and up to two product masters.
+6. **Register.** Compute one perspective transform from matched points on fixed architecture and warp the before onto the after. Never warp the after. Crop both to the shared area.
+7. **Verify** with the checks below. If a check fails, regenerate the after. Do not retouch geometry.
+8. **Cut every crop from the registered master pair.** Each crop uses the same box on both frames. Export the two files at the same pixel size.
+
+If the after drifts when lamps come on, generate it in two edits: furniture and curtains first with lamps off, then lamps on.
+
+### Checks
+
+| Check | How | Pass |
+|---|---|---|
+| Landmarks | Mark the listed landmarks in both frames after registration | Each within about 0.3 percent of image width |
+| Size of the correction | Corner displacement of the transform before warping | Under about 3 percent of width. Beyond that, regenerate. |
+| Structure count | Count columns, door panels, downlights, sockets | Identical |
+| Overlay | Blend the two frames at 50 percent | Fixed edges are single, not doubled |
+| Difference | Subtract one frame from the other | Only furnishings, curtains, and lamp light remain |
+| Neutral patches | Sample the same wall and ceiling patches in both frames, at least 2 m from any lit lamp. Compare red minus blue. | The after is no more than about 10 points warmer, of 255. Not applied where the before has ceiling lights on. |
+| The view | Compare the sky, the horizon, and the main tree or tower shapes | The same hour and the same shapes |
+| Slider | Drag a real bar to 25, 50, and 75 percent | Every line that crosses the bar continues unbroken |
+
+The thresholds are proposals. Tune them after the first pairs. For scale: in round 3, picked image B measured 13 to 22 points warmer on the ceiling and far wall, and image A measured 18 to 32. B is the upper limit Aedwon accepted by eye. Final frames should come in under it.
+
+The registration script is not written. This machine has Pillow and numpy but not OpenCV.
+
+### Choose shells and cameras the slider can hold
+
+- Few, large, fixed landmarks: columns, door frames, one window, a wall and ceiling line.
+- No regular mid-scale grids in view. Rafters, strong tile joints, louvers, and slats will not match line for line.
+- Calm views behind the glass. Sky, hills, and treetops forgive small drift. A skyline of distinct towers does not, so check each tower.
+- The bar's resting position crosses simple structure, not a tree line or a patterned floor.
 
 ## Product consistency sheets
 
@@ -30,7 +113,7 @@ Dimensions below come from [catalog](catalog.md), in centimeters, width × depth
 
 **Catalog anchor:** 228 × 92 × 72 cm; Plantation mahogany, linen blend, feather and foam fill. Attribution: Kanlungan Original.
 
-Low, horizontal three-seat form, visibly much wider than deep, with an exposed plantation mahogany frame and loose linen-blend cushions. Use oat linen for the main reference, with soft feather-and-foam volume and uncoated-looking warm brown wood. Keep the first accepted cushion divisions, seams, arm shape, and leg shape fixed. Two-seat version is 178 cm wide; depth and height stay 92 × 72. Hardin uses two-seat clay linen. Other allowed fabrics are charcoal and the catalog colors, never invented weave patterns.
+Low, horizontal three-seat form, visibly much wider than deep, with an exposed plantation mahogany frame and loose linen-blend cushions. Use oat linen for the main reference, with soft feather-and-foam volume and uncoated-looking warm brown wood. Keep the first accepted cushion divisions, seams, arm shape, and leg shape fixed. Two-seat version is 178 cm wide; depth and height stay 92 × 72. Hardin uses two-seat clay linen. Lilim uses three-seat charcoal linen. Other allowed fabrics are the catalog colors, never invented weave patterns.
 
 ### Dapithapon Lounge Chair
 
@@ -42,7 +125,7 @@ Deep rattan lounge chair, 72 cm wide against 78 cm depth and 74 cm height. Open 
 
 **Catalog anchor:** 48 × 52 × 80 cm; Plantation mahogany, cane. Attribution: Kanlungan Original.
 
-Upright plantation mahogany dining chair with a woven cane seat. Keep the back plain wood in the restrained first reference; a woven back is not specified. Natural finish for the master, with the same warm brown grain in each view. Preserve the narrow 48 cm width and 80 cm overall height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Tanaw uses bleached acacia.
+Upright plantation mahogany dining chair with a woven cane seat. Keep the back plain wood in the restrained first reference; a woven back is not specified. Natural finish for the master, with the same warm brown grain in each view. Preserve the narrow 48 cm width and 80 cm overall height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses ebonized mahogany with a natural cane seat; Dalampasigan uses natural acacia. Tanaw uses bleached acacia.
 
 ### Bangko Bench
 
@@ -66,7 +149,7 @@ Light, compact hinoki cypress stool, 36 cm square and 42 cm tall. Pale cream woo
 
 **Catalog anchor:** 220 × 95 × 75 cm; Plantation mahogany, oil finish. Attribution: Kanlungan Original.
 
-Solid plantation mahogany dining table with an oil finish, a restrained rectangular top, and warm natural brown wood for the reference. Base dimensions are 220 × 95 × 75. The permitted widths are 180, 220, and 260; maintain the documented depth and height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Keep top edge, support arrangement, and grain fixed for each accepted size.
+Solid plantation mahogany dining table with an oil finish, a restrained rectangular top, and warm natural brown wood for the reference. Base dimensions are 220 × 95 × 75. The permitted widths are 180, 220, and 260; maintain the documented depth and height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses ebonized mahogany at 220 cm; Dalampasigan uses natural acacia. Keep top edge, support arrangement, and grain fixed for each accepted size.
 
 ### Batis Coffee Table
 
@@ -90,7 +173,7 @@ Slim ebonized plantation mahogany console with a woven cane lower shelf, 150 × 
 
 **Catalog anchor:** 168 × 215 × 105 cm; Plantation mahogany, cane, slatted base. Attribution: Kanlungan Original.
 
-Low plantation mahogany bed frame with a woven cane headboard and visible slatted base. Queen reference is 168 × 215 × 105; king is 198 × 215 with the same documented height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Pahinga uses ebonized mahogany. Keep headboard weave and frame outline fixed. Studio sales image shows the frame without a mattress; room bedding is styling, not included merchandise.
+Low plantation mahogany bed frame with a woven cane headboard and visible slatted base. Queen reference is 168 × 215 × 105; king is 198 × 215 with the same documented height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses ebonized mahogany, king, with a natural cane headboard; Dalampasigan uses natural acacia. Pahinga uses ebonized mahogany. Keep headboard weave and frame outline fixed. Studio sales image shows the frame without a mattress; room bedding is styling, not included merchandise.
 
 ### Duyan Daybed
 
@@ -244,9 +327,13 @@ A small spun-steel drinks table, 38 cm diameter and 50 cm high. Matte blackened 
 
 ## Shot list
 
+Status, 2026-11-16: project shot entries are being replaced by the shot list in each project's design file. The Lilim House entries below are superseded by [the Lilim design file](project-designs/lilim-house.md#9-shot-list). They stay here only as a record of where each image is used, until the new frames exist. Do not generate from them. The Tanaw, Dalampasigan, Pahinga, and Hardin entries are on hold until each project has a design file. Product, maker, material, and studio entries stay in use, under the photography rules above.
+
 Each **Prompt** is 80 to 150 words before the inherited style and matching consistency sheet. Each **Negative add-on** supplements the global negative list. Shared uses are listed under one ID. Gallery numbers refer directly to the ten captions for that project. Source caption wording and project facts remain in [projects](projects.md), not redefined here.
 
 ### Page group: Lilim House project, Home, and shared studio panels
+
+Superseded on 2026-11-16. Do not generate from these eleven entries. The new frame for each use is listed under "Old shot ids and their uses" in the Lilim design file.
 
 ### lilim-hero
 
@@ -1798,6 +1885,8 @@ These details supplement the catalog's explicit Home, Originals, and new-piece f
 **Negative add-on:** No signature, readable edition number, changed artwork, or frame inclusion claim.
 
 ## Generation notes
+
+Status, 2026-11-16: these notes predate the design files. Where they describe project rooms, the project's design file and the photography rules win. For Lilim House that is already the case: its shell, seating, finishes, and light are in [the Lilim design file](project-designs/lilim-house.md), not in the paragraphs below. The notes on products, makers, and fake tells still apply.
 
 ### Order and reference handling
 
