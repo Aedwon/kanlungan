@@ -21,7 +21,7 @@ Written 2026-11-16 by the lead agent, because Claude weekly usage is running low
    - `docs/content/project-designs/`: the design file system that replaces the scene bibles, and the Lilim House design file.
    - `docs/build/consults/2026-11-16-calibration-set.md`: the round 4 prompts and results.
 
-   Next, in this order. Images go through Codex with `codex-pick`, one job at a time. No further calibration round is planned: the first Lilim gate tests what round 4 left open.
+   Next, in this order. Images go through Codex with `codex-pick`, one job at a time. Calibration round 5 runs first, at Aedwon's request: 20 images on personality in five new room types, from `docs/build/consults/2026-11-16-calibration-round-5.md` into `design/round-5-calibration/`. Record his picks, then start the Lilim steps below.
    1. **Confirm with Aedwon** the open questions in `docs/decisions.md`. Question 1 matters most.
    2. **Lilim tools.** Redraw the shell plan and furniture plan. Draw the perspective views for pair cameras P2 to P5. Write the registration script (Pillow and numpy are installed; OpenCV is not). Implementation layer.
    3. **Lilim first gate, 8 images.** The material board and the sourcing board. `lilim-hero` as a new edit of the approved before, with image B as the look reference and the corrections in section 12 of the design file. The family room pair, with two afters that differ only in how much is out. The dining pair at dusk. This tests a screen in a lived-in room, an evening room that is lit, and density.
