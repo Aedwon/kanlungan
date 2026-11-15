@@ -47,6 +47,7 @@ Steps 5 and 6 run together. The visual system is chosen by comparing rendered di
 | `docs/content/image-briefs.md` | Image briefs for generated photography |
 | `docs/content/scene-bibles/` | Plans, placement, light, and camera maps for consistent photography |
 | `docs/build/plan.md` | Build plan and waves |
+| `docs/build/handoff.md` | Current state and next steps for the next agent |
 
 ## Not decided yet
 
