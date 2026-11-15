@@ -4,11 +4,26 @@ Status: Decided on delegation on 2026-11-14. Plan drawing: `design/photography/p
 
 Coordinates are meters. Origin is the southwest corner of the unit's reference envelope, including its balcony. x runs east, y runs north. Headings are compass degrees (0 is north, 90 east, 180 south, 270 west). Cameras C4 to C8 use the separately marked studio-table inset, with its own southwest origin; they are not cameras inside the condo.
 
+## Signature
+
+Status: **Approved by Aedwon** on 2026-11-15.
+
+| Element | Fixed signature |
+|---|---|
+| Walls and ceiling | Pale moss-gray limewash on all living and entry walls; bedroom off-white; white ceiling. |
+| Floor | Mahogany parquet blocks, brick-bond, refinished matte, replacing wide boards. |
+| Textiles | Silong Clay, Unan Oat (render only); moss comes from the wall and plants. |
+| Light and exposure key | 4:00 pm, rainy season, overcast just after rain; Luad lamp is the one warm point in the living room. Mid-key exposure, neutral and soft. |
+| Grade | Neutral, soft; true blacks on ebonized pieces. |
+| Styling | Densest in plants, books, and samples; sparse in furniture. Keep the first-stage photograph limited to its listed pieces. |
+| Camera | 50mm, 120 cm, tight vignettes with a leaf at the frame edge where mapped plants permit; overhead for the book. Keep mapped positions and headings; studio-table heights and downward pitches remain as listed. |
+| Site features | Parquet; moss-gray walls; planted balcony against a muted city. |
+
 ## Site and light
 
 - One-bedroom condo in Legazpi Village, Makati. The small balcony faces west, toward a muted urban view. The bedroom has a west window. No second bedroom, roof garden, or terrace extension.
-- Time for rooms and studio-table photographs: about 3:30 pm, dry season. Sun from the west-southwest, softened by neighboring buildings and balcony planting. Light enters the fixed west openings; screen-left light is not required when a camera turns.
-- Luad is on at 2700 K in the living photograph and render. Keep soft afternoon fill, low contrast, warm neutral highlights, and modest lamp spill. The bedroom render uses daylight, not an invented second Luad.
+- Time for rooms and studio-table photographs: 4:00 pm, rainy season, overcast just after rain. Soft neutral sky light enters the fixed west openings; no direct sun. Screen-left light is not required when a camera turns.
+- Luad is on at 2700 K in the living photograph and render. Luad is the one warm point. Keep mid-key exposure, neutral soft fill, true blacks on ebonized pieces, and modest lamp spill. The bedroom render uses daylight, not an invented second Luad.
 - The room renders are planned views. The living photograph records stage one only; entry and balcony photographs show later purchases without claiming a completed installation. All stages retain the same architecture and positions.
 
 ## Plan
@@ -31,11 +46,12 @@ The area sum is 3.6 + 22.8 + 6.4 + 11.2 + 18 + 7.2 + 4.8 = 74 sqm. Every layout 
 
 | Surface | Material |
 |---|---|
-| Living, entry, and bedroom floors | Matte oiled plantation mahogany boards, running east to west |
+| Living, entry, and bedroom floors | Mahogany parquet blocks, brick-bond, refinished matte |
 | Kitchen, bath, and laundry floors | Honed warm gray stone, matte and flush with wood |
 | Balcony floor | Small honed gray stone tiles, dry, not wood decking |
-| Walls | Warm off-white limewash, no colored feature wall |
-| Ceilings | Flat warm off-white plaster, 2.7 m; service rooms 2.4 m |
+| Living and entry walls | Pale moss-gray limewash on all walls |
+| Bedroom and remaining walls | Off-white limewash |
+| Ceilings | Flat white plaster, 2.7 m; service rooms 2.4 m |
 | Window frames and balcony guard | Slim dark bronze aluminum; clear glazing, no mirrored glass |
 | Bedroom joinery | Closed storage in mahogany; bed and bedside table are later-stage catalog furnishings |
 | Studio tabletop | Warm matte mahogany, grain east to west, same table in all five still lifes |
@@ -72,16 +88,18 @@ Unan and Bakal appear only in the bedroom render, plan, and later sourcing stage
 
 | Camera | Shot | Position (x, y) | Height | Heading | Lens | Must show |
 |---|---|---|---|---|---|---|
-| C1 | `hardin-g01-living-plan` | 5.65, 1.4 | 1.20 m | 260 | 35mm | Planned living render from C2 geometry: clay two-seat sofa at left, rug below, Luad beyond sofa at right, balcony at right; planned table ahead, chair mostly outside crop behind camera |
-| C2 (anchor, living photograph) | `hardin-hero` | 5.65, 1.4 | 1.20 m | 260 | 35mm | Same walls and framing as C1, but only sofa, supported Luad, rug, and balcony plants; small balcony ahead right, no planned table or chair |
-| C3 (anchor, bedroom render) | `hardin-g03-bedroom-plan` | 5.1, 4.7 | 1.10 m | 307 | 35mm | Oat queen Unan at right, west window and blackened steel Bakal at left, clear foot route; no claim that room is installed |
+| C1 | `hardin-g01-living-plan` | 5.65, 1.4 | 1.20 m | 260 | 50mm | Planned living render from C2 geometry: clay two-seat sofa at left, rug below, Luad beyond sofa at right, balcony at right; planned table ahead, chair mostly outside crop behind camera |
+| C2 (anchor, living photograph) | `hardin-hero` | 5.65, 1.4 | 1.20 m | 260 | 50mm | Same walls and framing as C1, but only sofa, supported Luad, rug, and balcony plants; small balcony ahead right, no planned table or chair |
+| C3 (anchor, bedroom render) | `hardin-g03-bedroom-plan` | 5.1, 4.7 | 1.20 m | 307 | 50mm | Oat queen Unan at right, west window and blackened steel Bakal at left, clear foot route; no claim that room is installed |
 | C4 (anchor, studio table) | `hardin-g04-book-cover` | Studio: 1.2, 0.25 | 1.50 m | 0 | 50mm | Book cover-and-contents spread, binding and pencil at right; camera 0.75 m above tabletop, pitched down about 59 degrees |
 | C5 | `hardin-g05-book-layout` | Studio: 1.2, 0.6 | 1.55 m | 0 | 50mm | Open layout-and-specification spread with this exact condo plan on left, unreadable blocks at right; 0.80 m above tabletop, pitch down about 83 degrees |
 | C6 | `hardin-g06-moodboard` | Studio: 1.2, 0.6 | 1.45 m | 0 | 50mm | Seven separate palette samples including natural and ebonized mahogany, clay and oat linen, book edge behind and pencil right; 0.70 m above tabletop, pitch down about 82 degrees |
 | C7 | `hardin-g07-floor-plan` | Studio: 1.2, 0.6 | 1.55 m | 0 | 50mm | Single 74 sqm outline with fixed furniture, balcony west at page left, bedroom north at page top, pencil outside right edge; 0.80 m above tabletop, pitch down about 83 degrees |
 | C8 | `hardin-g08-sourcing-list` | Studio: 1.2, 0.25 | 1.50 m | 0 | 50mm | Same book and binding, exactly three sourcing groups, sofa/lamp/rug thumbnails first, unreadable rows; 0.75 m above tabletop, pitch down about 59 degrees |
 | C9 (anchor, entry) | `hardin-g09-entry` | 9.65, 0.6 | 1.20 m | 290 | 50mm | Ebonized mahogany Pasilyo receding along north entry wall, cane shelf below, Bato on top, clear passage in foreground |
-| C10 (anchor, balcony) | `hardin-g10-balcony` | 2.8, 1.4 | 1.00 m | 275 | 50mm | Kiso through open sliders, pots at margins, 1.2 m balcony depth, west safety guard behind; no widened terrace |
+| C10 (anchor, balcony) | `hardin-g10-balcony` | 2.8, 1.4 | 1.20 m | 275 | 50mm | Kiso through open sliders, pots at margins, 1.2 m balcony depth, west safety guard behind; no widened terrace |
+
+Camera changes approved 2026-11-15: C1: 1.20 m/35mm to 1.20 m/50mm; C2: 1.20 m/35mm to 1.20 m/50mm; C3: 1.10 m/35mm to 1.20 m/50mm; C10: 1.00 m/50mm to 1.20 m/50mm. All positions and headings remain unchanged. The 50mm room views are tighter crops from the same positions; retain each named subject where visible. The book views keep the existing high-angle and near-overhead pitches, since a true overhead C4/C8 would require moving the camera over the book.
 
 ## Status of existing photos
 

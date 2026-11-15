@@ -2,7 +2,7 @@
 <title>Dalampasigan Inn</title>
 <rect width="100%" height="100%" fill="#F2ECE3"/>
 <text x="24.0" y="30.0" font-size="18" font-weight="500" text-anchor="start" fill="#2E211A">Dalampasigan Inn · plan and camera map</text>
-<text x="24.0" y="55.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">640 sqm · San Juan, La Union · sea west · bright coastal morning</text>
+<text x="24.0" y="55.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">640 sqm · San Juan, La Union · sea west · hard sun: 9 am shared east rooms, 3 pm west rooms</text>
 <text x="24.0" y="77.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Coordinates in meters. North up. ★ = anchor shot for that space.</text>
 <path d="M1238 64 L1238 34 M1232 44 L1238 34 L1244 44" stroke="#2E211A" stroke-width="2" fill="none"/>
 <text x="1238.0" y="24.0" font-size="13" font-weight="400" text-anchor="middle" fill="#2E211A">N</text>
@@ -168,7 +168,7 @@
 <polygon points="80.0,1065.0 91.1,985.8 150.6,1027.4" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C1" data-shot="dalampasigan-g01-exterior" data-x="-10.0" data-y="-3.0" data-heading="35.0" data-lens="35" data-height="1.5" data-space="project"/>
 <circle cx="80.0" cy="1065.0" r="6" fill="#8E4A2C"/>
 <text x="88.0" y="1057.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C1 ★</text>
-<polygon points="522.5,565.0 474.4,501.1 545.9,488.5" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C10" data-shot="dalampasigan-g10-corridor" data-x="7.7" data-y="17.0" data-heading="350.0" data-lens="35" data-height="1.4" data-space="project"/>
+<polygon points="522.5,565.0 474.4,501.1 545.9,488.5" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C10" data-shot="dalampasigan-g10-corridor" data-x="7.7" data-y="17.0" data-heading="350.0" data-lens="35" data-height="1.5" data-space="project"/>
 <circle cx="522.5" cy="565.0" r="6" fill="#8E4A2C"/>
 <text x="530.5" y="557.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C10 ★</text>
 <line x1="130" y1="1037.5" x2="255" y2="1037.5" stroke="#2E211A" stroke-width="2"/>
@@ -196,14 +196,14 @@
 <text x="958.4" y="237.6" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Tuntungan</text>
 <text x="904.0" y="142.4" font-size="13" font-weight="400" text-anchor="middle" fill="#2E211A">Room A enlarged: 6 × 4 m</text>
 <text x="904.0" y="492.6" font-size="11" font-weight="400" text-anchor="middle" fill="#6A584A">B repeats A exactly, translated 4 m north.</text>
-<text x="904.0" y="513.0" font-size="11" font-weight="400" text-anchor="middle" fill="#6A584A">Honey acacia; only Kumot changes to indigo.</text>
+<text x="904.0" y="513.0" font-size="11" font-weight="400" text-anchor="middle" fill="#6A584A">Honey acacia; A Indigo, B Rust; cement floor.</text>
 <polygon points="951.6,421.2 757.7,322.4 917.6,206.3" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C3" data-shot="dalampasigan-hero" data-x="3.7" data-y="8.6" data-heading="324.0" data-lens="35" data-height="1.15" data-space="project"/>
 <circle cx="951.6" cy="421.20000000000005" r="6" fill="#8E4A2C"/>
 <text x="959.6" y="413.2" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C3 ★</text>
-<polygon points="890.4,417.8 785.5,292.8 890.4,254.6" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C4" data-shot="dalampasigan-g04-reed-mat" data-x="2.8" data-y="8.65" data-heading="340.0" data-lens="50" data-height="0.75" data-space="project"/>
+<polygon points="890.4,417.8 731.3,269.4 916.9,201.8" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C4" data-shot="dalampasigan-g04-reed-mat" data-x="2.8" data-y="8.65" data-heading="340.0" data-lens="35" data-height="1.15" data-space="project"/>
 <circle cx="890.4" cy="417.79999999999995" r="6" fill="#8E4A2C"/>
 <text x="845.4" y="437.8" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C4</text>
-<polygon points="938.0,346.4 856.4,205.1 966.3,185.7" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C5" data-shot="dalampasigan-g05-bedside-stool" data-x="3.5" data-y="9.7" data-heading="350.0" data-lens="50" data-height="0.8" data-space="project"/>
+<polygon points="938.0,346.4 807.0,172.6 1001.6,138.3" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C5" data-shot="dalampasigan-g05-bedside-stool" data-x="3.5" data-y="9.7" data-heading="350.0" data-lens="35" data-height="1.15" data-space="project"/>
 <circle cx="938.0" cy="346.4000000000001" r="6" fill="#8E4A2C"/>
 <text x="946.0" y="338.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C5</text>
 <polygon points="951.6,421.2 757.7,322.4 917.6,206.3" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C6" data-shot="dalampasigan-g06-second-room" data-x="3.7" data-y="12.6" data-heading="324.0" data-lens="35" data-height="1.15" data-space="project"/>
@@ -251,21 +251,21 @@
 <text x="775.0" y="650.0" font-size="14" font-weight="400" text-anchor="middle" fill="#6A584A">Lobby</text>
 <text x="1025.0" y="650.0" font-size="13" font-weight="400" text-anchor="middle" fill="#6A584A">Breakfast room</text>
 <text x="925.0" y="580.0" font-size="13" font-weight="400" text-anchor="middle" fill="#2E211A">Ground-floor shared rooms enlarged</text>
-<polygon points="707.5,890.0 843.2,805.2 855.8,949.9" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C2" data-shot="dalampasigan-g02-lobby" data-x="0.65" data-y="2.5" data-heading="85.0" data-lens="35" data-height="1.2" data-space="project"/>
+<polygon points="707.5,890.0 843.2,805.2 855.8,949.9" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C2" data-shot="dalampasigan-g02-lobby" data-x="0.65" data-y="2.5" data-heading="85.0" data-lens="35" data-height="1.5" data-space="project"/>
 <circle cx="707.5" cy="890.0" r="6" fill="#8E4A2C"/>
 <text x="697.5" y="875.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C2 ★</text>
-<polygon points="930.0,960.0 932.8,800.0 1061.1,868.2" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C7" data-shot="dalampasigan-g07-breakfast" data-x="5.1" data-y="1.1" data-heading="28.0" data-lens="35" data-height="1.25" data-space="project"/>
+<polygon points="930.0,960.0 932.8,800.0 1061.1,868.2" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C7" data-shot="dalampasigan-g07-breakfast" data-x="5.1" data-y="1.1" data-heading="28.0" data-lens="35" data-height="1.5" data-space="project"/>
 <circle cx="930.0" cy="960.0" r="6" fill="#8E4A2C"/>
 <text x="890.0" y="950.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C7 ★</text>
-<polygon points="907.5,982.5 928.3,864.3 999.4,905.4" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C8" data-shot="dalampasigan-g08-pendant" data-x="4.65" data-y="0.65" data-heading="30.0" data-lens="50" data-height="1.4" data-space="project"/>
+<polygon points="907.5,982.5 915.9,822.7 1041.7,895.4" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C8" data-shot="dalampasigan-g08-pendant" data-x="4.65" data-y="0.65" data-heading="30.0" data-lens="35" data-height="1.5" data-space="project"/>
 <circle cx="907.5" cy="982.5" r="6" fill="#8E4A2C"/>
 <text x="915.5" y="1002.5" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C8</text>
-<polygon points="1025.0,1000.0 984.0,887.2 1066.0,887.2" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C9" data-shot="dalampasigan-g09-serving-counter" data-x="7.0" data-y="0.3" data-heading="0.0" data-lens="50" data-height="1.2" data-space="project"/>
+<polygon points="1025.0,1000.0 952.4,857.4 1097.6,857.4" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C9" data-shot="dalampasigan-g09-serving-counter" data-x="7.0" data-y="0.3" data-heading="0.0" data-lens="35" data-height="1.5" data-space="project"/>
 <circle cx="1025.0" cy="1000.0" r="6" fill="#8E4A2C"/>
 <text x="1033.0" y="1023.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C9</text>
 <line x1="675" y1="1065.0" x2="925" y2="1065.0" stroke="#2E211A" stroke-width="2"/>
 <text x="800.0" y="1050.0" font-size="11" font-weight="400" text-anchor="middle" fill="#2E211A">5 m</text>
-<text x="25.0" y="1100.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Upper floor: same six room types and corridor above the guest wing; support rooms above the south block.</text>
+<text x="25.0" y="1100.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Chalk-white walls; seamless pale sand-gray burnished cement. Upper floor repeats six rooms and corridor; support rooms south.</text>
 <text x="25.0" y="1122.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Twelve guest rooms total. * = not a catalog piece. Each inset has its own scale bar; north is unchanged.</text>
 <text x="25.0" y="1144.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">C6 is drawn over C3 in the room-type inset because the room and camera are exact translations.</text>
 <line x1="25" y1="1190" x2="65" y2="1190" stroke="#2E211A" stroke-width="4"/>

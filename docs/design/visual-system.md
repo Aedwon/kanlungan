@@ -65,12 +65,13 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 
 ## Imagery
 
+Status: **Changed by Aedwon** on 2026-11-15.
+
 - **Crop:** full-bleed 21:9 and 16:9 for rooms, 3:4 for projects, 1:1 for products
-- **Light:** shaded daylight under deep eaves, with a bright, pale opening band
-- **Color grade:** warm umber floors, olive-green foliage, low contrast, lifted blacks
+- **House look:** shaded daylight under deep eaves, with a bright, pale opening band. Warm umber floors, olive-green foliage, low contrast, lifted blacks. It applies to Lilim House, the Home hero, and every image that belongs to no project (showroom, makers, materials, studio panels).
+- **Project photography:** each other project is shot in the light of its own site. Its walls, floor, textile color, light, and grade are fixed in the "Signature" section of its scene bible. A project photograph does not use the house look.
+- **Constant in every photograph:** true material color, matte surfaces, empty rooms, a level camera, one natural exposure, and at most one dyed textile color in a frame.
 - **Text over images:** a warm umber scrim (based on `#2E211A`) rises from the bottom edge, so `#F7F2EA` text passes 4.5:1
-- **Exception:** Tanaw Residence is shot at dusk, in the same warm grade
-- Exception: Tanaw Residence (bleached acacia floors) and Pahinga Villas (cream limestone floors) have pale floors instead of warm umber floors.
 
 ## Components
 

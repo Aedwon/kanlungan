@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1040" viewBox="0 0 1280 1040" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280" font-family="Helvetica, Arial, sans-serif">
 <title>Hardin Apartment</title>
 <rect width="100%" height="100%" fill="#F2ECE3"/>
 <text x="24.0" y="30.0" font-size="18" font-weight="500" text-anchor="start" fill="#2E211A">Hardin Apartment · plan and camera map</text>
-<text x="24.0" y="55.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">74 sqm · Legazpi Village, Makati · fixed plan for photographs, renders, and design-book pages</text>
+<text x="24.0" y="55.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">74 sqm · Legazpi Village, Makati · matte brick-bond mahogany parquet · moss-gray living/entry walls · 4 pm after rain</text>
 <text x="24.0" y="77.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Coordinates in meters. North up. ★ = anchor shot for that space.</text>
 <path d="M1238 64 L1238 34 M1232 44 L1238 34 L1244 44" stroke="#2E211A" stroke-width="2" fill="none"/>
 <text x="1238.0" y="24.0" font-size="13" font-weight="400" text-anchor="middle" fill="#2E211A">N</text>
@@ -67,19 +67,19 @@
 <text x="385.0" y="222.4" font-size="11" font-weight="400" text-anchor="middle" fill="#2E211A">10 m east to west × 7.4 m north to south</text>
 <text x="65.0" y="785.6" font-size="9" font-weight="400" text-anchor="middle" fill="#6A584A">(0, 0)</text>
 <text x="289.0" y="574.4" font-size="10" font-weight="400" text-anchor="middle" fill="#6A584A">Lambot 170 × 240</text>
-<polygon points="426.6,670.4 263.0,793.7 230.7,610.5" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C1" data-shot="hardin-g01-living-plan" data-x="5.65" data-y="1.4" data-heading="260.0" data-lens="35" data-height="1.2" data-space="project"/>
+<polygon points="426.6,670.4 293.6,747.2 275.3,643.7" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C1" data-shot="hardin-g01-living-plan" data-x="5.65" data-y="1.4" data-heading="260.0" data-lens="50" data-height="1.2" data-space="project"/>
 <circle cx="426.6" cy="670.4" r="6" fill="#8E4A2C"/>
 <text x="434.6" y="693.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C1</text>
-<polygon points="426.6,670.4 263.0,793.7 230.7,610.5" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C2" data-shot="hardin-hero" data-x="5.65" data-y="1.4" data-heading="260.0" data-lens="35" data-height="1.2" data-space="project"/>
+<polygon points="426.6,670.4 293.6,747.2 275.3,643.7" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C2" data-shot="hardin-hero" data-x="5.65" data-y="1.4" data-heading="260.0" data-lens="50" data-height="1.2" data-space="project"/>
 <circle cx="426.6" cy="670.4" r="6" fill="#8E4A2C"/>
 <text x="434.6" y="662.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C2 ★</text>
-<polygon points="391.4,459.2 189.7,423.6 301.6,275.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C3" data-shot="hardin-g03-bedroom-plan" data-x="5.1" data-y="4.7" data-heading="307.0" data-lens="35" data-height="1.1" data-space="project"/>
+<polygon points="391.4,459.2 244.5,414.3 307.7,330.4" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C3" data-shot="hardin-g03-bedroom-plan" data-x="5.1" data-y="4.7" data-heading="307.0" data-lens="50" data-height="1.2" data-space="project"/>
 <circle cx="391.4" cy="459.2" r="6" fill="#8E4A2C"/>
 <text x="399.4" y="451.2" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C3 ★</text>
 <polygon points="682.6,721.6 529.0,721.6 564.9,622.9" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C9" data-shot="hardin-g09-entry" data-x="9.65" data-y="0.6" data-heading="290.0" data-lens="50" data-height="1.2" data-space="project"/>
 <circle cx="682.6" cy="721.6" r="6" fill="#8E4A2C"/>
 <text x="690.6" y="713.6" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C9 ★</text>
-<polygon points="244.2,670.4 95.8,710.2 105.0,605.5" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C10" data-shot="hardin-g10-balcony" data-x="2.8" data-y="1.4" data-heading="275.0" data-lens="50" data-height="1.0" data-space="project"/>
+<polygon points="244.2,670.4 95.8,710.2 105.0,605.5" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C10" data-shot="hardin-g10-balcony" data-x="2.8" data-y="1.4" data-heading="275.0" data-lens="50" data-height="1.2" data-space="project"/>
 <circle cx="244.2" cy="670.4" r="6" fill="#8E4A2C"/>
 <text x="209.2" y="658.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C10 ★</text>
 <line x1="65" y1="824.0" x2="385" y2="824.0" stroke="#2E211A" stroke-width="2"/>

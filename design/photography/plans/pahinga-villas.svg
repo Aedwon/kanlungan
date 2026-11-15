@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1040" viewBox="0 0 1360 1040" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1360" viewBox="0 0 1360 1360" font-family="Helvetica, Arial, sans-serif">
 <title>Pahinga Villas</title>
 <rect width="100%" height="100%" fill="#F2ECE3"/>
 <text x="24.0" y="30.0" font-size="18" font-weight="500" text-anchor="start" fill="#2E211A">Pahinga Villas · plan and camera map</text>
-<text x="24.0" y="55.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">520 sqm covered · Panglao, Bohol · filtered daylight; C7 and C10 at matching dusk</text>
+<text x="24.0" y="55.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">520 sqm covered · Panglao, Bohol · 10:30 am through palms; C7 and C10 at dusk · neutral, green bounce</text>
 <text x="24.0" y="77.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Coordinates in meters. North up. ★ = anchor shot for that space.</text>
 <path d="M1318 64 L1318 34 M1312 44 L1318 34 L1324 44" stroke="#2E211A" stroke-width="2" fill="none"/>
 <text x="1318.0" y="24.0" font-size="13" font-weight="400" text-anchor="middle" fill="#2E211A">N</text>
@@ -96,40 +96,40 @@
 <circle cx="831" cy="635.0" r="7.6000000000000005" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="869" cy="635.0" r="7.6000000000000005" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <text x="926.0" y="399.4" font-size="12" font-weight="400" text-anchor="middle" fill="#2E211A">Reception pavilion: 9 × 8 m</text>
-<polygon points="71.0,806.0 128.1,698.6 191.4,789.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C1" data-shot="pahinga-g01-exterior" data-x="-8.0" data-y="-2.0" data-heading="55.0" data-lens="35" data-height="1.5" data-space="project"/>
+<polygon points="71.0,806.0 128.1,698.6 191.4,789.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C1" data-shot="pahinga-g01-exterior" data-x="-8.0" data-y="-2.0" data-heading="55.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="71.0" cy="806.0" r="6" fill="#8E4A2C"/>
 <text x="79.0" y="798.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C1 ★</text>
-<polygon points="587.8,627.4 468.0,606.3 534.5,518.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C2" data-shot="pahinga-hero" data-x="5.6" data-y="2.7" data-heading="307.0" data-lens="35" data-height="1.15" data-space="project"/>
+<polygon points="587.8,627.4 468.0,606.3 534.5,518.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C2" data-shot="pahinga-hero" data-x="5.6" data-y="2.7" data-heading="307.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="587.8" cy="627.4" r="6" fill="#8E4A2C"/>
 <text x="595.8" y="619.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C2 ★</text>
-<polygon points="378.8,578.0 385.2,487.0 442.2,512.4" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C3" data-shot="pahinga-g03-lamp-vessel" data-x="0.1" data-y="4.0" data-heading="24.0" data-lens="50" data-height="1.0" data-space="project"/>
+<polygon points="378.8,578.0 372.4,456.6 473.3,501.5" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C3" data-shot="pahinga-g03-lamp-vessel" data-x="0.1" data-y="4.0" data-heading="24.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="378.8" cy="578.0" r="6" fill="#8E4A2C"/>
 <text x="340.8" y="597.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C3</text>
-<polygon points="466.2,600.8 380.5,569.6 420.6,521.8" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C4" data-shot="pahinga-g04-curtains" data-x="2.4" data-y="3.4" data-heading="310.0" data-lens="50" data-height="1.25" data-space="project"/>
+<polygon points="466.2,600.8 347.7,573.4 418.7,488.9" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C4" data-shot="pahinga-g04-curtains" data-x="2.4" data-y="3.4" data-heading="310.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="466.2" cy="600.8" r="6" fill="#8E4A2C"/>
 <text x="474.2" y="592.8" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C4</text>
 <polygon points="369.3,646.4 277.5,566.6 379.9,525.3" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C5" data-shot="pahinga-g05-daybed" data-x="-0.15" data-y="2.2" data-heading="338.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="369.3" cy="646.4" r="6" fill="#8E4A2C"/>
 <text x="377.3" y="638.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C5 ★</text>
-<polygon points="367.4,616.0 348.4,705.2 295.5,672.1" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C6" data-shot="pahinga-g06-lounge" data-x="-0.2" data-y="3.0" data-heading="212.0" data-lens="50" data-height="0.95" data-space="project"/>
+<polygon points="367.4,616.0 356.8,737.1 263.2,678.6" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C6" data-shot="pahinga-g06-lounge" data-x="-0.2" data-y="3.0" data-heading="212.0" data-lens="35" data-height="0.95" data-space="project"/>
 <circle cx="367.4" cy="616.0" r="6" fill="#8E4A2C"/>
 <text x="375.4" y="608.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C6</text>
-<polygon points="572.6,589.4 513.6,695.8 451.9,604.2" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C7" data-shot="pahinga-g07-dusk-pendant" data-x="5.2" data-y="3.7" data-heading="236.0" data-lens="35" data-height="1.2" data-space="project"/>
+<polygon points="572.6,589.4 513.6,695.8 451.9,604.2" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C7" data-shot="pahinga-g07-dusk-pendant" data-x="5.2" data-y="3.7" data-heading="236.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="572.6" cy="589.4" r="6" fill="#8E4A2C"/>
 <text x="580.6" y="581.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C7</text>
-<polygon points="496.6,623.6 465.4,537.9 527.8,537.9" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C8" data-shot="pahinga-g08-wall-piece" data-x="3.2" data-y="2.8" data-heading="0.0" data-lens="50" data-height="1.25" data-space="project"/>
+<polygon points="496.6,623.6 441.4,515.3 551.8,515.3" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C8" data-shot="pahinga-g08-wall-piece" data-x="3.2" data-y="2.8" data-heading="0.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="496.6" cy="623.6" r="6" fill="#8E4A2C"/>
 <text x="458.6" y="642.6" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C8</text>
-<polygon points="1070.4,703.4 952.9,671.9 1026.8,589.9" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C9" data-shot="pahinga-g09-reception" data-x="18.3" data-y="0.7" data-heading="312.0" data-lens="35" data-height="1.3" data-space="project"/>
+<polygon points="1070.4,703.4 952.9,671.9 1026.8,589.9" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C9" data-shot="pahinga-g09-reception" data-x="18.3" data-y="0.7" data-heading="312.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="1070.4" cy="703.4" r="6" fill="#8E4A2C"/>
 <text x="1078.4" y="695.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C9 ★</text>
-<polygon points="147.0,547.6 255.3,492.4 255.3,602.8" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C10" data-shot="pahinga-g10-dusk-terrace" data-x="-6.0" data-y="4.8" data-heading="90.0" data-lens="35" data-height="1.2" data-space="project"/>
+<polygon points="147.0,547.6 255.3,492.4 255.3,602.8" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C10" data-shot="pahinga-g10-dusk-terrace" data-x="-6.0" data-y="4.8" data-heading="90.0" data-lens="35" data-height="1.0" data-space="project"/>
 <circle cx="147.0" cy="547.6" r="6" fill="#8E4A2C"/>
 <text x="155.0" y="539.6" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C10</text>
 <line x1="71" y1="844.0" x2="261" y2="844.0" stroke="#2E211A" stroke-width="2"/>
 <text x="166.0" y="832.6" font-size="11" font-weight="400" text-anchor="middle" fill="#2E211A">5 m</text>
 <text x="25.0" y="880.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Eight identical one-bedroom villas: 8 × 56 + 72 = 520 sqm covered. Other villas are outside this map.</text>
-<text x="25.0" y="902.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Ebonized mahogany structure; cream limestone inside; pale gray stone terrace. * = not a catalog piece.</text>
+<text x="25.0" y="902.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Ebonized mahogany board ceiling and headboard wall; chalk-white other walls; cream limestone inside; gray stone terrace. * = non-catalog.</text>
 <line x1="25" y1="955" x2="65" y2="955" stroke="#2E211A" stroke-width="4"/>
 <text x="75.0" y="959.0" font-size="11" font-weight="400" text-anchor="start" fill="#2E211A">Wall</text>
 <line x1="145" y1="955" x2="185" y2="955" stroke="#8FB0C0" stroke-width="5"/>

@@ -4,11 +4,26 @@ Status: Decided on delegation on 2026-11-14. Plan drawing: `design/photography/p
 
 Coordinates are meters. Origin is the southwest inside corner of the unit. x runs east, y runs north. Headings are compass degrees (0 is north, 90 east, 180 south, 270 west).
 
+## Signature
+
+Status: **Approved by Aedwon** on 2026-11-15.
+
+| Element | Fixed signature |
+|---|---|
+| Walls and ceiling | Smooth matte plaster, pale neutral gray-white, no cream; flat ceiling in the same finish. |
+| Floor | Bleached acacia boards, no rugs. |
+| Textiles | Yakap Sand, Unan Sand, Hablon Natural; black comes from steel only. |
+| Light and exposure key | 6:15 pm blue hour. Lamps are small pools covering under a third of the frame. Low-key exposure keeps the skyline and shadow detail readable. |
+| Grade | About 4000 K: blue-gray ambient, amber lamps, true blacks with detail. |
+| Styling | Nothing loose beyond what captions name. |
+| Camera | 35mm anchors, 50mm vignettes, 110 cm, square-on to walls and glass; room edges in frame; compact rooms; 3:4 leads. Keep mapped positions and headings. |
+| Site features | Bronze-mullion glazing with the fixed skyline; wall of tall closed joinery. |
+
 ## Site and light
 
 - High-floor, two-bedroom condo in Bonifacio Global City, Taguig. The main skyline view is west. East windows show the opposite sector of the same city at the same floor height. No beach, hills, terrace, or balcony.
-- Time for every shot: about 6:15 pm, dry season, just after sunset. Cool blue-gray dusk fill enters the glazing. No direct sun or daytime sky in any room.
-- All listed lamps are on at 2700 K. Keep warm pools low, brass highlights restrained, and the skyline readable without HDR. No ceiling pendants or added lamps.
+- Time for every shot: about 6:15 pm, dry season, just after sunset. Blue-gray blue-hour fill enters the glazing; use a low-key grade at about 4000 K with amber lamps and true blacks with detail. No direct sun or daytime sky in any room.
+- All listed lamps are on at 2700 K. Keep warm pools small, together covering under a third of the frame, brass highlights restrained, and the skyline readable in one natural exposure without HDR. No ceiling pendants or added lamps.
 - Fix the west skyline in the living anchor: a broad low block opposite y 8, two unequal distant towers opposite y 10, and lower roofs to the southwest. Preserve their order and parallax; east views cannot repeat these west-facing buildings.
 
 ## Plan
@@ -32,8 +47,8 @@ Coordinates are meters. Origin is the southwest inside corner of the unit. x run
 |---|---|
 | Living, dining, hall, bedroom, and study floors | Matte bleached acacia boards, running east to west; no added rugs |
 | Kitchen and service floors | Honed warm gray stone, flush with wood |
-| Walls | Warm off-white limewash, with no accent wall |
-| Ceilings | Flat warm off-white plaster, 2.8 m throughout; service core 2.4 m |
+| Walls | Smooth matte plaster, pale neutral gray-white, no cream or accent wall |
+| Ceilings | Flat pale neutral gray-white matte plaster matching the walls, 2.8 m throughout; service core 2.4 m |
 | Window frames | Slim dark bronze aluminum, identical mullion section in every view |
 | Built-in storage, kitchen, guest bed frame, and desk | Matte bleached acacia, one finish throughout |
 | Named catalog wood | Hain, Baul, and Sulok are bleached acacia; Estante has bleached acacia shelves and a blackened steel frame; Salo and Bakal add blackened steel. Sinag retains its catalog acacia base |
@@ -41,7 +56,7 @@ Coordinates are meters. Origin is the southwest inside corner of the unit. x run
 
 ## Placement
 
-Only these pieces appear. Small loose items (closed books, a notebook, a water glass) are allowed where a shot entry names them. Dimensions below are footprints unless a height is stated.
+Only these pieces appear. Loose items are limited to what the project captions name; the study desk and guest bedside stay clear. Dimensions below are footprints unless a height is stated.
 
 | Piece | Count | Position | Facing |
 |---|---|---|---|
@@ -77,16 +92,18 @@ No other catalog pieces, rugs, lamps, or seating. Tall closed built-ins do the s
 
 | Camera | Shot | Position (x, y) | Height | Heading | Lens | Must show |
 |---|---|---|---|---|---|---|
-| C1 (anchor, living) | `tanaw-hero` | 5.7, 11.4 | 1.20 m | 216 | 35mm | Sand Yakap back at left foreground, pale bleached acacia floor, finite west glazing and skyline beyond it; warm lamp beside sofa at right; no terrace |
+| C1 (anchor, living) | `tanaw-hero` | 5.7, 11.4 | 1.10 m | 216 | 35mm | Sand Yakap back at left foreground, pale bleached acacia floor, finite west glazing and skyline beyond it; warm lamp beside sofa at right; no terrace |
 | C2 | `tanaw-g02-lamp-table` | 2.5, 8.8 | 1.10 m | 58 | 50mm | Full Sinag at left of bleached Sulok, sofa corner at lower right; north wall behind, west window outside this crop |
-| C3 (anchor, dining) | `tanaw-g03-dining` | 3.7, 5.8 | 1.25 m | 200 | 35mm | Ø110 terrazzo Salo and four bleached acacia Hain chairs, bleached Baul behind, west glass and dusk at right; no invented pendant |
-| C4 | `tanaw-g04-shelving` | 2.3, 8.9 | 1.30 m | 24 | 50mm | Blackened steel Estante on north wall with bleached shelves, books, and brass fittings, finite wall at right; sofa is outside this tight crop |
+| C3 (anchor, dining) | `tanaw-g03-dining` | 3.7, 5.8 | 1.10 m | 200 | 35mm | Ø110 terrazzo Salo and four bleached acacia Hain chairs, bleached Baul behind, west glass and dusk at right; no invented pendant |
+| C4 | `tanaw-g04-shelving` | 2.3, 8.9 | 1.10 m | 24 | 50mm | Blackened steel Estante on north wall with bleached shelves, books, and brass fittings, finite wall at right; sofa is outside this tight crop |
 | C5 (anchor, main bedroom) | `tanaw-g05-bedroom-lamp` | 7.65, 8.3 | 1.10 m | 27 | 35mm | Queen sand Unan ahead, Luad on blackened steel Bakal and east dusk window at right, sand linen and clear foot passage |
-| C6 | `tanaw-g06-wall-light` | 7.4, 9.5 | 1.25 m | 359 | 50mm | Tala on solid north wall, west pillow edge below at right; no window behind light |
-| C7 (anchor, guest bedroom) | `tanaw-g07-guest-bedroom` | 7.65, 2.4 | 1.15 m | 26 | 35mm | Guest bed and bedside ledge ahead, east window at right, wardrobe edge at left |
-| C8 (anchor, study) | `tanaw-g08-study` | 7.35, 5.95 | 1.25 m | 57 | 35mm | Desk beside east window at right, closed north storage at left, clear chair and knee space |
-| C9 (anchor, entry) | `tanaw-g09-entry` | 6.35, 4.0 | 1.30 m | 180 | 50mm | Narrow hall, closed storage at left, one entry lamp and ledge at right, front door beyond; no impossible sofa glimpse through a wall |
-| C10 | `tanaw-g10-cushion-print` | 2.5, 8.7 | 1.20 m | 85 | 50mm | Natural Hablon on two-seat sand Yakap, Amihan above on east wall; west glazing is behind camera and cannot appear behind the print |
+| C6 | `tanaw-g06-wall-light` | 7.4, 9.5 | 1.10 m | 359 | 50mm | Tala on solid north wall, west pillow edge below at right; no window behind light |
+| C7 (anchor, guest bedroom) | `tanaw-g07-guest-bedroom` | 7.65, 2.4 | 1.10 m | 26 | 35mm | Guest bed and bedside ledge ahead, east window at right, wardrobe edge at left |
+| C8 (anchor, study) | `tanaw-g08-study` | 7.35, 5.95 | 1.10 m | 57 | 35mm | Desk beside east window at right, closed north storage at left, clear chair and knee space |
+| C9 (anchor, entry) | `tanaw-g09-entry` | 6.35, 4.0 | 1.10 m | 180 | 35mm | Narrow hall, closed storage at left, one entry lamp and ledge at right, front door beyond; no impossible sofa glimpse through a wall |
+| C10 | `tanaw-g10-cushion-print` | 2.5, 8.7 | 1.10 m | 85 | 50mm | Natural Hablon on two-seat sand Yakap, Amihan above on east wall; west glazing is behind camera and cannot appear behind the print |
+
+Camera changes approved 2026-11-15: C1: 1.20 m/35mm to 1.10 m/35mm; C3: 1.25 m/35mm to 1.10 m/35mm; C4: 1.30 m/50mm to 1.10 m/50mm; C6: 1.25 m/50mm to 1.10 m/50mm; C7: 1.15 m/35mm to 1.10 m/35mm; C8: 1.25 m/35mm to 1.10 m/35mm; C9: 1.30 m/50mm to 1.10 m/35mm; C10: 1.20 m/50mm to 1.10 m/50mm. All positions and headings remain unchanged. Square-on framing is limited by the fixed oblique headings; keep room edges visible without moving walls or cameras.
 
 ## Status of existing photos
 

@@ -11,12 +11,17 @@ A scene bible fixes the physical facts of one project before any image is genera
 3. **Placement.** Every piece of furniture and lighting with its position, facing, and count. Nothing is added that the table does not list, except loose, small items named in the shot entry.
 4. **Light.** Site orientation, time of day, sun direction, and where direct sun may fall. Every shot of the project uses this light unless the bible lists an exception.
 5. **Cameras.** One numbered camera per shot: position (x, y in meters on the plan), height, heading (compass degrees), lens, and what must be visible. The camera map is drawn on the plan.
+6. **Signature.** Walls and ceiling, floor, textile palette, light and exposure key, grade, styling density, camera language, and one or two site features. It states how this project differs from the other four.
+
+The studio is recognized by what it puts in a room and how the photograph is disciplined. Each project is recognized by its shell, its light, and at most one color. Low furniture, clear floors, matte natural materials in true color, and catalog pieces identical to approved references stay constant. Keep rooms empty, the camera level, verticals straight, and one natural exposure. Include two or three quiet signs of use and at most one dyed textile color per frame. Crops, people rules, and the negative list remain in [image briefs](../image-briefs.md#global-style).
 
 ## How generation uses it
 
 1. Generate the **anchor** for each space first (the camera marked "anchor"). Aedwon approves it.
 2. Every later shot of that space passes as references: the approved anchor, the plan PNG, and any approved product reference. The prompt states the camera line from the bible verbatim.
 3. Products always follow their consistency sheet and approved product reference.
+
+The plan script writes SVGs only. After regenerating a map, re-export its PNG before passing it as a generation reference.
 
 ## Review checklist
 
@@ -27,5 +32,6 @@ Before a photo is accepted, check it against the bible:
 - Light comes from the listed direction, at the listed time.
 - The view matches the camera's position and heading: what should be left is left.
 - Nothing appears that the bible does not list.
+- At thumbnail size, beside one frame from each other project, the photo is identifiable as this project.
 
 A photo that fails any line is regenerated, not retouched.

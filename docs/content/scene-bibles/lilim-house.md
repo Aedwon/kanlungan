@@ -4,6 +4,21 @@ Status: **Approved by Aedwon** on 2026-11-14. Plan drawing: `design/photography/
 
 Coordinates are meters. Origin is the southwest inside corner of the great room. x runs east, y runs north. Headings are compass degrees (0 is north, 90 east, 180 south, 270 west).
 
+## Signature
+
+Status: **Approved by Aedwon** on 2026-11-15.
+
+| Element | Fixed signature |
+|---|---|
+| Walls and ceiling | Warm off-white limewash; mahogany rafters with cane panels. Unchanged. |
+| Floor | Wide mahogany boards. Unchanged. |
+| Textiles | Silong Oat and oat bed linen. |
+| Light and exposure key | 3:30 pm, dry season, shade under deep eaves with a bright, pale opening band. One natural exposure for the shaded room. |
+| Grade | Locked house look: warm, low contrast, lifted blacks; warm umber floors and olive-green foliage. |
+| Styling | Sparse; one book, one bowl. |
+| Camera | 35mm, 115 to 120 cm for the leading room views, oblique long horizontals; 21:9 leads. Existing approved cameras and detail views stay unchanged. |
+| Site features | Cane ceiling; deep eave and valley. |
+
 ## Site and light
 
 - Hillside in Antipolo. The valley and the long view are to the **west**. The hill rises to the east, behind the bedroom wing.

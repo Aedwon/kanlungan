@@ -47,7 +47,7 @@ A family of five uses every room, so we chose pieces that can take it. Linen cov
 - **Scope:** Living and dining, two bedrooms, study
 - **Brief:** A couple received a bare unit on a high floor. Both work long hours. They wanted to move in once, with everything in place.
 - **Approach:** Bleached acacia and sand linen run through the whole unit so the small plan reads as one space. Storage is tall and closed. Lighting is low and warm, to contrast with the city outside the glass.
-- **Material palette:** Bleached acacia, sand linen, terrazzo, blackened steel, brass, opal glass, wool
+- **Material palette:** Bleached acacia, pale neutral gray-white plaster walls, sand linen, terrazzo, blackened steel, brass, opal glass, wool
 - **Shop the project:** Yakap Sofa (two-seat, sand), Salo Dining Table (Ø110), Hain Dining Chair (bleached acacia, four), Unan Bed (queen, sand), Bakal Side Table, Sulok Side Table (bleached), Estante Shelving (bleached shelves), Baul Credenza (bleached), Sinag Floor Lamp, Luad Table Lamp, Tala Wall Light, Hablon Cushion, Amihan No. 3
 - **Image notes:** City skyline at dusk through full-height windows, warm lamps, compact rooms, tidy surfaces
 
@@ -80,7 +80,7 @@ Both owners work long hours and come home late. We kept storage tall and closed 
 - **Scope:** Twelve guest rooms, lobby, breakfast room
 - **Brief:** The owners finished building a small inn near the beach. They needed twelve rooms and two shared spaces ready for guests in one season, with pieces that survive salt air and sand.
 - **Approach:** The studio designed one room type and repeated it with small changes in textile color. Furniture is natural oiled acacia, honey in tone, solid and repairable. Reed mats replace wool rugs because they handle sand. The breakfast room has one long shared table.
-- **Material palette:** Natural oiled acacia (honey), tikog reed, rattan, handloomed cotton, stoneware, limewash
+- **Material palette:** Natural oiled acacia (honey), tikog reed, rattan, handloomed cotton, stoneware, limewash, seamless burnished cement floor in pale sand-gray
 - **Shop the project:** Himlay Bed (acacia), Bangko Bench, Tuntungan Stool, Banig Rug, Hain Dining Chair (acacia), Hapag Dining Table (260 cm, acacia), Lenta Pendant, Kumot Throw, Bilao Tray, Habi Wall Piece
 - **Image notes:** Bright coastal light, pale walls, open windows, a guest room with a reed mat, a long breakfast table
 
@@ -113,7 +113,7 @@ Salt, sand, and heavy use shape every choice. The Himlay, Hain, and Hapag share 
 - **Scope:** Eight one-bedroom villas, reception pavilion
 - **Brief:** The owners built eight villas in a coconut grove a short walk from the beach. They wanted each villa to feel like a private house, not a hotel room, and to stay easy to maintain between guests.
 - **Approach:** Each villa has one generous bed, one daybed on the terrace, and very little else. Cane and rattan keep air moving when the doors are open. White linen curtains soften the strong island light. The studio specified ebonized wood and white linen across all eight villas so any piece can be repaired or replaced from stock.
-- **Material palette:** Ebonized plantation mahogany, honey rattan and cane, white linen, honed cream limestone, stoneware, capiz shell
+- **Material palette:** Ebonized plantation mahogany, ebonized board ceiling and headboard wall, honey rattan and cane, white linen, honed cream limestone, stoneware, capiz shell
 - **Shop the project:** Himlay Bed (ebonized mahogany), Duyan Daybed, Dapithapon Lounge Chair, Sulok Side Table (ebonized), Kapis Pendant, Luad Table Lamp, Tabing Linen Curtain, Tapayan Vessel, Habi Wall Piece
 - **Image notes:** Filtered light through coconut palms, open sliding doors, a low bed with white linen, a daybed on a shaded terrace, warm lamps at dusk
 
@@ -146,7 +146,7 @@ The owners need the villas to stay easy to run. We specified ebonized wood and w
 - **Scope:** Full unit design book, renders of living room and bedroom
 - **Brief:** A first-time owner wanted a clear plan to buy toward over a year, starting with a few good pieces.
 - **Approach:** The studio delivered a layout, a palette, and a phased sourcing list in three stages. The owner bought the sofa, a lamp, and a rug first. Later stages add the oat Unan Bed, Bakal Side Table, and ebonized Pasilyo. Natural mahogany, ebonized mahogany, and hinoki are mixed on purpose.
-- **Material palette:** Natural and ebonized plantation mahogany, clay and oat linen, cane, stoneware, hinoki
+- **Material palette:** Natural and ebonized plantation mahogany, matte mahogany parquet in brick-bond, pale moss-gray limewash, clay and oat linen, cane, stoneware, hinoki
 - **Shop the project:** Silong Sofa (two-seat, clay), Kiso Stool, Luad Table Lamp, Lambot Wool Rug (170 × 240), Pasilyo Console Table (ebonized mahogany), Bato Object, Unan Bed (queen, oat), Bakal Side Table
 - **Image notes:** Mix renders and photographs. Show the design book pages, a moodboard, and a floor plan beside finished-room images. Plants and a small balcony garden.
 

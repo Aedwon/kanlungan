@@ -4,11 +4,26 @@ Status: Decided on delegation on 2026-11-14. Plan drawing: `design/photography/p
 
 Coordinates are meters. Origin is the southwest inside corner of the representative villa bedroom. x runs east, y runs north. Headings are compass degrees (0 is north, 90 east, 180 south, 270 west). The reception pavilion uses this same site coordinate system.
 
+## Signature
+
+Status: **Approved by Aedwon** on 2026-11-15.
+
+| Element | Fixed signature |
+|---|---|
+| Walls and ceiling | Ebonized mahogany boards on the ceiling, replacing cane panels, and on the headboard wall; other walls chalk-white limewash. |
+| Floor | Honed cream limestone inside; existing pale gray terrace and bath stone remain. |
+| Textiles | Tabing White, white linen only. |
+| Light and exposure key | 10:30 am through palms, exposed for the dark interior; dusk for C7 and C10. Mid-to-low-key exposure preserves the dark room toward the bright grove. |
+| Grade | Neutral with green bounce; deep blacks, clean whites. Dusk keeps this material read, with restrained local lamp warmth. |
+| Styling | Barest of the five. |
+| Camera | 35mm, 90 to 100 cm, from the dark interior toward the bright grove; doorways as frames. Keep mapped positions and headings; exterior and wall details retain their mapped subjects. |
+| Site features | Black board ceiling and headboard wall; coconut trunks; white curtains in the doors. |
+
 ## Site and light
 
 - Panglao, Bohol. Villas sit in a coconut grove, a short walk from the beach. No sea or pool is visible in these views. The photographed villa opens west to the grove.
-- Daylight shots: about 10:30 am, dry season. Sun from the east-southeast, filtered by palms. The west terrace stays under its roof and receives sky and grove bounce; no hard morning sun beams arrive from the west.
-- Exceptions: C7 and C10 are about 6:15 pm, after sunset. The same Kapis and Luad are on at 2700 K. Cool dusk fill replaces daylight without moving curtains, furniture, trees, or doors. Preserve the daylight warm neutral grade and olive foliage; do not turn the scene orange or blue.
+- Daylight shots: about 10:30 am, dry season. Sun from the east-southeast, filtered by palms. Expose for the dark interior in one natural exposure, with a bright grove beyond. The west terrace stays under its roof and receives sky and grove bounce; no hard morning sun beams arrive from the west.
+- Exceptions: C7 and C10 are about 6:15 pm, after sunset. The same Kapis and Luad are on at 2700 K. Cool dusk fill replaces daylight without moving curtains, furniture, trees, or doors. Keep the mid-to-low-key neutral grade with green bounce, deep blacks, and clean whites; lamp warmth stays local. Do not carry the house look into the villa.
 - Fixed coconut trunks in this view are centered at (-5, 1), (-4, 8), (2, 10), (8, 9), (11, 10), and (20, 3). Trunks vary naturally in lean and girth. Preserve these identities and their parallax, not cloned palms.
 
 ## Plan
@@ -23,7 +38,7 @@ Coordinates are meters. Origin is the southwest inside corner of the representat
 | Closed wardrobe | x 5.4 to 6, y 4 to 6 | Same ebonized mahogany finish as the room. |
 | West sliding doors | x 0, y 0.7 to 6.4 | Three tracks, ebonized mahogany uprights at y 0.7, 2.6, 4.5, 6.4; leaves stacked to the north end. Doors open in every shot, including dusk. Head 2.75 m, flush sill. |
 | Covered terrace | x -2 to 0, y 0 to 7 | Roof continuous with villa; eave to x -3.2. Stone floor 0.15 m above grove ground, one low step, no railing. Posts x -2 at y 0 and 7 only. |
-| North bedroom wall | y 7, x 0 to 6 | Solid limewash, Habi above bed. No invented window behind headboard. |
+| North bedroom wall | y 7, x 0 to 6 | Solid ebonized mahogany board headboard wall, Habi above bed. No invented window behind headboard. |
 | Reception pavilion | x 10 to 19, y 0 to 8 | 72 sqm, open west, south, and north. Solid east service wall; ceiling 3.0 m. Posts at corners and west midpoint y 4; roof eaves 1.2 m beyond footprint. |
 | Reception service closet | x 17.8 to 19, y 5.5 to 8 | Enclosed within pavilion area; door x 17.8, y 6 to 6.9. Not another villa. |
 
@@ -33,8 +48,8 @@ Coordinates are meters. Origin is the southwest inside corner of the representat
 |---|---|
 | Villa interior and reception floors | Honed cream limestone, dry matte finish |
 | Terrace and bath floors | Honed pale gray stone, terrace pavers 60 × 60 cm, bath smaller non-slip tiles |
-| Interior and exterior walls | Warm off-white limewash, no accent wall |
-| Villa and pavilion ceilings | Ebonized mahogany rafters running east to west at 60 cm spacing, pale woven cane panels between; level 3.0 m, continuous over terrace |
+| Interior and exterior walls | Chalk-white limewash except the north bedroom headboard wall, clad in ebonized mahogany boards |
+| Villa and pavilion ceilings | Ebonized mahogany rafters running east to west at 60 cm spacing, ebonized mahogany boards between, no cane ceiling panels; level 3.0 m, continuous over terrace |
 | Roof exterior | Low pitched matte gray metal, ridge north to south, plain deep eaves |
 | Sliding frames, posts, shelf, desk, built-ins | Ebonized plantation mahogany across all eight villas |
 | Catalog acacia | Sulok uses ebonized acacia; do not turn it into mahogany |
@@ -70,16 +85,18 @@ No extra daybeds, beds, pendants, terrace lamps, or reception catalog pieces. Du
 
 | Camera | Shot | Position (x, y) | Height | Heading | Lens | Must show |
 |---|---|---|---|---|---|---|
-| C1 (anchor, exterior) | `pahinga-g01-exterior` | -8, -2 | 1.50 m | 55 | 35mm | Villa west terrace and south return, open ebonized sliders, two ebonized terrace posts, palms framing the low building; no beach panorama |
-| C2 (anchor, bedroom) | `pahinga-hero` | 5.6, 2.7 | 1.15 m | 307 | 35mm | Ebonized mahogany queen Himlay ahead at right above cream limestone, west doors and grove at left, north shelf at left of bed; clear route from side entry to terrace |
-| C3 | `pahinga-g03-lamp-vessel` | 0.1, 4.0 | 1.00 m | 24 | 50mm | Luad at left and Tapayan at right on same ebonized north shelf, pale wall behind; bed edge may enter far right, never behind shelf through wall |
-| C4 | `pahinga-g04-curtains` | 2.4, 3.4 | 1.25 m | 310 | 50mm | North gathered white panels, hem and lining, daybed and grove beyond west doors; keep panels out of the bed's path |
+| C1 (anchor, exterior) | `pahinga-g01-exterior` | -8, -2 | 1.00 m | 55 | 35mm | Villa west terrace and south return, open ebonized sliders, two ebonized terrace posts, palms framing the low building; no beach panorama |
+| C2 (anchor, bedroom) | `pahinga-hero` | 5.6, 2.7 | 1.00 m | 307 | 35mm | Ebonized mahogany queen Himlay ahead at right above cream limestone, west doors and grove at left, north shelf at left of bed; clear route from side entry to terrace |
+| C3 | `pahinga-g03-lamp-vessel` | 0.1, 4.0 | 1.00 m | 24 | 35mm | Luad at left and Tapayan at right on same ebonized north shelf, ebonized board wall behind; bed edge may enter far right, never behind shelf through wall |
+| C4 | `pahinga-g04-curtains` | 2.4, 3.4 | 1.00 m | 310 | 35mm | North gathered white panels, hem and lining, daybed and grove beyond west doors; keep panels out of the bed's path |
 | C5 (anchor, terrace) | `pahinga-g05-daybed` | -0.15, 2.2 | 1.00 m | 338 | 35mm | Full daybed ahead left, Ebonized Sulok near left foreground, west grove beyond, villa glass edge at right |
-| C6 | `pahinga-g06-lounge` | -0.2, 3.0 | 0.95 m | 212 | 50mm | Lounge chair's rattan back and side toward grove, west ground beyond; daybed stays north outside crop, open doorway is behind camera |
-| C7 | `pahinga-g07-dusk-pendant` | 5.2, 3.7 | 1.20 m | 236 | 35mm | Kapis and ceiling cable below ebonized rafters above white-cushioned sitting bench, west doors and dim grove at right; same warm grade as C10 |
-| C8 | `pahinga-g08-wall-piece` | 3.2, 2.8 | 1.25 m | 0 | 50mm | Habi and wood rail centered above ebonized mahogany and honey cane headboard, white linen below; no new window or moved curtain |
-| C9 (anchor, reception) | `pahinga-g09-reception` | 18.3, 0.7 | 1.30 m | 312 | 35mm | Ebonized desk at right foreground above cream limestone, simple bench ahead left, two stools, open west side and grove behind seating |
-| C10 | `pahinga-g10-dusk-terrace` | -6, 4.8 | 1.20 m | 90 | 35mm | Daybed before open west doors, Luad at back left and Kapis at back right, terrace edge below; same warm grade as C7 |
+| C6 | `pahinga-g06-lounge` | -0.2, 3.0 | 0.95 m | 212 | 35mm | Lounge chair's rattan back and side toward grove, west ground beyond; daybed stays north outside crop, open doorway is behind camera |
+| C7 | `pahinga-g07-dusk-pendant` | 5.2, 3.7 | 1.00 m | 236 | 35mm | Kapis and ceiling cable below ebonized rafters above white-cushioned sitting bench, west doors and dim grove at right; same neutral grade with green bounce as C10 |
+| C8 | `pahinga-g08-wall-piece` | 3.2, 2.8 | 1.00 m | 0 | 35mm | Habi and wood rail on the ebonized board wall, centered above ebonized mahogany and honey cane headboard, white linen below; no new window or moved curtain |
+| C9 (anchor, reception) | `pahinga-g09-reception` | 18.3, 0.7 | 1.00 m | 312 | 35mm | Ebonized desk at right foreground above cream limestone, simple bench ahead left, two stools, open west side and grove behind seating |
+| C10 | `pahinga-g10-dusk-terrace` | -6, 4.8 | 1.00 m | 90 | 35mm | Daybed before open west doors, Luad at back left and Kapis at back right, terrace edge below; same neutral grade with green bounce as C7 |
+
+Camera changes approved 2026-11-15: C1: 1.50 m/35mm to 1.00 m/35mm; C2: 1.15 m/35mm to 1.00 m/35mm; C3: 1.00 m/50mm to 1.00 m/35mm; C4: 1.25 m/50mm to 1.00 m/35mm; C6: 0.95 m/50mm to 0.95 m/35mm; C7: 1.20 m/35mm to 1.00 m/35mm; C8: 1.25 m/50mm to 1.00 m/35mm; C9: 1.30 m/35mm to 1.00 m/35mm; C10: 1.20 m/35mm to 1.00 m/35mm. All positions and headings remain unchanged.
 
 ## Status of existing photos
 

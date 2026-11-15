@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1040" viewBox="0 0 1180 1040" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1180" viewBox="0 0 1180 1180" font-family="Helvetica, Arial, sans-serif">
 <title>Tanaw Residence</title>
 <rect width="100%" height="100%" fill="#F2ECE3"/>
 <text x="24.0" y="30.0" font-size="18" font-weight="500" text-anchor="start" fill="#2E211A">Tanaw Residence · plan and camera map</text>
-<text x="24.0" y="55.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">118 sqm · BGC, Taguig · west skyline · all views at dusk, lamps on</text>
+<text x="24.0" y="55.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">118 sqm · BGC, Taguig · west skyline · 6:15 pm blue hour · low key, 4000 K</text>
 <text x="24.0" y="77.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Coordinates in meters. North up. ★ = anchor shot for that space.</text>
 <path d="M1138 64 L1138 34 M1132 44 L1138 34 L1144 44" stroke="#2E211A" stroke-width="2" fill="none"/>
 <text x="1138.0" y="24.0" font-size="13" font-weight="400" text-anchor="middle" fill="#2E211A">N</text>
@@ -99,34 +99,34 @@
 <rect x="488.59999999999997" y="722.4" width="17.4" height="87.0" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <rect x="436.4" y="742.7" width="8.7" height="29.0" rx="2" fill="#E1D7BC" stroke="#2E211A" stroke-width="1.5"/>
 <circle cx="439.29999999999995" cy="757.2" r="4.0600000000000005" fill="#F7F2EA" stroke="#2E211A" stroke-width="1.5"/>
-<polygon points="430.6,188.8 401.6,372.1 265.2,273.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C1" data-shot="tanaw-hero" data-x="5.7" data-y="11.4" data-heading="216.0" data-lens="35" data-height="1.2" data-space="project"/>
+<polygon points="430.6,188.8 401.6,372.1 265.2,273.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C1" data-shot="tanaw-hero" data-x="5.7" data-y="11.4" data-heading="216.0" data-lens="35" data-height="1.1" data-space="project"/>
 <circle cx="430.6" cy="188.79999999999995" r="6" fill="#8E4A2C"/>
 <text x="438.6" y="180.8" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C1 ★</text>
 <polygon points="245.0,339.6 330.7,229.9 381.2,310.7" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C2" data-shot="tanaw-g02-lamp-table" data-x="2.5" data-y="8.8" data-heading="58.0" data-lens="50" data-height="1.1" data-space="project"/>
 <circle cx="245.0" cy="339.59999999999997" r="6" fill="#8E4A2C"/>
 <text x="253.0" y="331.6" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C2</text>
-<polygon points="314.6,513.6 337.2,697.8 178.9,640.2" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C3" data-shot="tanaw-g03-dining" data-x="3.7" data-y="5.8" data-heading="200.0" data-lens="35" data-height="1.25" data-space="project"/>
+<polygon points="314.6,513.6 337.2,697.8 178.9,640.2" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C3" data-shot="tanaw-g03-dining" data-x="3.7" data-y="5.8" data-heading="200.0" data-lens="35" data-height="1.1" data-space="project"/>
 <circle cx="314.6" cy="513.6" r="6" fill="#8E4A2C"/>
 <text x="322.6" y="505.6" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C3 ★</text>
-<polygon points="233.4,333.8 243.1,194.9 330.1,233.7" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C4" data-shot="tanaw-g04-shelving" data-x="2.3" data-y="8.9" data-heading="24.0" data-lens="50" data-height="1.3" data-space="project"/>
+<polygon points="233.4,333.8 243.1,194.9 330.1,233.7" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C4" data-shot="tanaw-g04-shelving" data-x="2.3" data-y="8.9" data-heading="24.0" data-lens="50" data-height="1.1" data-space="project"/>
 <circle cx="233.39999999999998" cy="333.79999999999995" r="6" fill="#8E4A2C"/>
 <text x="241.4" y="325.8" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C4</text>
 <polygon points="543.7,368.6 543.7,183.0 693.9,259.5" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C5" data-shot="tanaw-g05-bedroom-lamp" data-x="7.65" data-y="8.3" data-heading="27.0" data-lens="35" data-height="1.1" data-space="project"/>
 <circle cx="543.7" cy="368.59999999999997" r="6" fill="#8E4A2C"/>
 <text x="551.7" y="360.6" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C5 ★</text>
-<polygon points="529.2,299.0 479.3,169.0 574.5,167.4" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C6" data-shot="tanaw-g06-wall-light" data-x="7.4" data-y="9.5" data-heading="359.0" data-lens="50" data-height="1.25" data-space="project"/>
+<polygon points="529.2,299.0 479.3,169.0 574.5,167.4" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C6" data-shot="tanaw-g06-wall-light" data-x="7.4" data-y="9.5" data-heading="359.0" data-lens="50" data-height="1.1" data-space="project"/>
 <circle cx="529.2" cy="299.0" r="6" fill="#8E4A2C"/>
 <text x="537.2" y="291.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C6</text>
-<polygon points="543.7,710.8 540.5,525.2 691.9,599.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C7" data-shot="tanaw-g07-guest-bedroom" data-x="7.65" data-y="2.4" data-heading="26.0" data-lens="35" data-height="1.15" data-space="project"/>
+<polygon points="543.7,710.8 540.5,525.2 691.9,599.1" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C7" data-shot="tanaw-g07-guest-bedroom" data-x="7.65" data-y="2.4" data-heading="26.0" data-lens="35" data-height="1.1" data-space="project"/>
 <circle cx="543.7" cy="710.8" r="6" fill="#8E4A2C"/>
 <text x="551.7" y="702.8" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C7 ★</text>
-<polygon points="526.3,504.9 619.1,344.2 710.9,485.5" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C8" data-shot="tanaw-g08-study" data-x="7.35" data-y="5.95" data-heading="57.0" data-lens="35" data-height="1.25" data-space="project"/>
+<polygon points="526.3,504.9 619.1,344.2 710.9,485.5" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C8" data-shot="tanaw-g08-study" data-x="7.35" data-y="5.95" data-heading="57.0" data-lens="35" data-height="1.1" data-space="project"/>
 <circle cx="526.3" cy="504.9" r="6" fill="#8E4A2C"/>
 <text x="534.3" y="496.9" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C8 ★</text>
-<polygon points="468.3,618.0 515.9,748.8 420.7,748.8" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C9" data-shot="tanaw-g09-entry" data-x="6.35" data-y="4.0" data-heading="180.0" data-lens="50" data-height="1.3" data-space="project"/>
+<polygon points="468.3,618.0 552.6,783.4 384.0,783.4" fill="#8E4A2C" fill-opacity="0.18" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C9" data-shot="tanaw-g09-entry" data-x="6.35" data-y="4.0" data-heading="180.0" data-lens="35" data-height="1.1" data-space="project"/>
 <circle cx="468.29999999999995" cy="618.0" r="6" fill="#8E4A2C"/>
 <text x="476.3" y="610.0" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C9 ★</text>
-<polygon points="245.0,345.4 371.2,286.6 379.5,381.4" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C10" data-shot="tanaw-g10-cushion-print" data-x="2.5" data-y="8.7" data-heading="85.0" data-lens="50" data-height="1.2" data-space="project"/>
+<polygon points="245.0,345.4 371.2,286.6 379.5,381.4" fill="#8E4A2C" fill-opacity="0.1" stroke="#8E4A2C" stroke-width="1" stroke-opacity="0.6" data-camera="C10" data-shot="tanaw-g10-cushion-print" data-x="2.5" data-y="8.7" data-heading="85.0" data-lens="50" data-height="1.1" data-space="project"/>
 <circle cx="245.0" cy="345.40000000000003" r="6" fill="#8E4A2C"/>
 <text x="203.0" y="363.4" font-size="12" font-weight="500" text-anchor="start" fill="#8E4A2C">C10</text>
 <text x="390.0" y="116.3" font-size="11" font-weight="400" text-anchor="middle" fill="#2E211A">10 m east to west × 11.8 m north to south</text>
@@ -135,7 +135,7 @@
 <text x="245.0" y="890.6" font-size="11" font-weight="400" text-anchor="middle" fill="#2E211A">5 m</text>
 <text x="760.0" y="190.0" font-size="13" font-weight="400" text-anchor="start" fill="#2E211A">West = skyline</text>
 <text x="760.0" y="216.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Full-height fixed glazing</text>
-<text x="760.0" y="242.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Bleached acacia floors and joinery</text>
+<text x="760.0" y="242.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Bleached acacia floors; gray-white plaster</text>
 <text x="760.0" y="260.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Yakap / Unan: sand linen.</text>
 <text x="760.0" y="300.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">* = not a catalog piece</text>
 <text x="760.0" y="324.0" font-size="11" font-weight="400" text-anchor="start" fill="#6A584A">Furniture arrows show facing.</text>

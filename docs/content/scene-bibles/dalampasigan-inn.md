@@ -4,11 +4,27 @@ Status: Decided on delegation on 2026-11-14. Plan drawing: `design/photography/p
 
 Coordinates are meters. Origin is the southwest inside corner of the ground-floor building. x runs east, y runs north. Headings are compass degrees (0 is north, 90 east, 180 south, 270 west). Enlarged drawings use the same coordinates, not new room origins.
 
+## Signature
+
+Status: **Approved by Aedwon** on 2026-11-15.
+
+| Element | Fixed signature |
+|---|---|
+| Walls and ceiling | Chalk-white limewash inside and out; flat white ceiling. |
+| Floor | Seamless burnished cement, pale sand-gray, replacing the 60 × 60 cm gray tile in guest rooms, lobby, breakfast room, and corridor. Bathroom non-slip tiles remain. |
+| Textiles | White cotton bedding; Kumot Indigo in room A (hero, g04, g05); Kumot Rust in room B (g06). Indigo and rust never share a frame. |
+| Light and exposure key | Hard white sun. 9:00 am for breakfast room and corridor; 3:00 pm for exterior, lobby, and guest rooms, with sun through west shutters. Lamps off. High-key exposure keeps hard shadows and the sea readable. |
+| Grade | 5500 K: near-paper-white walls, hard shadows; blue sky and sea keep their color. |
+| Styling | Light guest traces: folded towel, carafe, sand at the threshold. Use only the loose items named for each shot. |
+| Camera | 28 to 35mm, 150 cm in shared rooms, 115 cm in guest rooms; square-on; same camera for rooms A and B. The mapped shots use 35mm; positions and headings stay fixed. |
+| Site features | Open honey acacia louvered shutters; a strip of sea horizon where the mapped view permits. |
+
 ## Site and light
 
 - San Juan, La Union. The beach and sea are west, beyond x -12. The road and service approach are east. No sea appears beyond an east window.
-- Time for every shot: about 9:00 am, dry season. Sun from the east-southeast. Direct light stays near east openings; west guest windows receive bright coastal sky and sea bounce, not a west-rising sun.
-- Use bright pale daylight, low contrast, dry limewash, natural cotton, and subdued indigo. Lamps remain off. The same exposure and morning grade apply to both guest rooms.
+- Breakfast room and corridor (C7 to C10): 9:00 am, dry season, hard white sun from the east-southeast through east openings.
+- Exterior, lobby, and guest rooms (C1 to C6): 3:00 pm, dry season, hard white sun from the west-southwest through the open west shutters. Both guest rooms use the same afternoon light and exposure.
+- High key at 5500 K: near-paper-white walls, hard shadows, blue sky and sea in their true color. Lamps remain off. Use one natural exposure, not the shaded house look.
 - Guest-window light is at camera left in C3 and C6. Other camera angles rotate around the fixed openings; do not move the light to keep it on the same screen side.
 
 ## Plan
@@ -30,14 +46,14 @@ Coordinates are meters. Origin is the southwest inside corner of the ground-floo
 
 | Surface | Material |
 |---|---|
-| Guest, lobby, breakfast, and corridor floors | Honed pale warm gray stone, 60 × 60 cm, dry matte finish |
+| Guest, lobby, breakfast, and corridor floors | Seamless burnished cement, pale sand-gray, dry matte finish |
 | Bathroom floors | Smaller non-slip warm gray stone tiles |
-| Interior and exterior walls | Pale warm off-white limewash, slight hand variation, no accent colors |
-| Ceilings | Flat off-white plaster at the heights in the plan |
-| Doors, shutters, window frames, built-in serving counter | Oiled acacia; shutters stand open in every view |
+| Interior and exterior walls | Chalk-white limewash, slight hand variation, no accent colors |
+| Ceilings | Flat white plaster at the heights in the plan |
+| Doors, shutters, window frames, built-in serving counter | Natural oiled honey acacia; louvered shutters stand open in every view |
 | Roof and eaves | Low pitched matte gray metal roof, ridge along north to south, 0.9 m eaves; no decorative thatch |
 | Catalog wood | Himlay, Hain, and Hapag use natural oiled acacia (honey); Bangko and Tuntungan remain unchanged natural acacia |
-| Guest bedding | Plain natural handloomed cotton; the throw is the only room-color change |
+| Guest bedding | Plain white cotton; Kumot Indigo in room A, Kumot Rust in room B; the throw is the only room-color change |
 
 ## Placement
 
@@ -48,8 +64,9 @@ Only these pieces appear. Small loose items (a water glass, serving bowls, cups)
 | Himlay Bed, queen 168 × 215, natural acacia finish | 1 per room, 12 total | Room A centered x 2, y 10.925; headboard on north wall y 12. Every later room adds 4 m to y; upper floor repeats | South |
 | Banig Rug, 200 × 300 | 1 per room, 12 total | Room A centered x 2, y 9.9; long side north to south, part under bed | |
 | Tuntungan Stool | 1 per room, 12 total | Room A centered x 3.25, y 11.25; 0.34 × 0.34 | Beside east pillow |
-| Kumot Throw, natural | 1 in room A, 11 total | Folded across bed foot, centered x 2, y 10.05 in A; same translated position in all other rooms except B | Long edge east to west |
-| Kumot Throw, indigo | 1 in room B | Folded across bed foot, centered x 2, y 14.05; identical drape to A | Long edge east to west |
+| Kumot Throw, indigo | 1 in room A | Folded across bed foot, centered x 2, y 10.05 in A | Long edge east to west |
+| Kumot Throw, natural | 10 in the remaining rooms | Same translated bed-foot position in rooms other than A and B | Long edge east to west |
+| Kumot Throw, rust | 1 in room B | Folded across bed foot, centered x 2, y 14.05; identical drape to A | Long edge east to west |
 | Plain guest clothes rail and closed drawer, 1.20 × 0.45 × 1.90 m (not a catalog piece) | 1 per room, 12 total | Room A south wall, centered x 1.2, y 8.225; translated in repeats | North |
 | Plain guest wall reading light (not a catalog piece) | 1 per room, 12 total | Room A north wall y 12, x 3.25; center 1.35 m; translated in repeats | South; off |
 | Bangko Bench | 1 | Lobby, centered x 3.81, y 2.8; 0.38 east to west × 1.40 north to south | West, opposite entrance |
@@ -61,25 +78,27 @@ Only these pieces appear. Small loose items (a water glass, serving bowls, cups)
 | Bilao Tray | 1 | On counter at x 7, y 1.6; Ø0.42 | Horizontal |
 | Plain stoneware serving bowls and cups (not a catalog piece) | 3 bowls, 4 cups | On counter, x 6.1 to 7.9, y 1.5 to 1.7; one small bowl on tray | Upright |
 
-No other dining tables, pendants, lobby chairs, wool rugs, or catalog objects. Room B is a separate physical room with the same layout, not a redecorated room A. All rooms other than B use the natural throw.
+No other dining tables, pendants, lobby chairs, wool rugs, or catalog objects. Room B is a separate physical room with the same layout, not a redecorated room A. The ten rooms other than A and B keep the natural throw. Room A supplies hero, g04, and g05; room B supplies g06. Never show indigo and rust together.
 
 ## Cameras
 
 | Camera | Shot | Position (x, y) | Height | Heading | Lens | Must show |
 |---|---|---|---|---|---|---|
 | C1 (anchor, exterior) | `dalampasigan-g01-exterior` | -10, -3 | 1.50 m | 35 | 35mm | Two-story west elevation, lobby entrance at near right, repeated open guest shutters receding left; sea is behind camera, not behind east-facing windows |
-| C2 (anchor, lobby) | `dalampasigan-g02-lobby` | 0.65, 2.5 | 1.20 m | 85 | 35mm | Bangko opposite entrance, Habi above on east wall; lobby passage lies farther left, not through the wall behind bench |
-| C3 (anchor, guest room A) | `dalampasigan-hero` | 3.7, 8.6 | 1.15 m | 324 | 35mm | Natural acacia queen Himlay with natural throw ahead, Banig below, open west window at left, stool at right of bed |
-| C4 | `dalampasigan-g04-reed-mat` | 2.8, 8.65 | 0.75 m | 340 | 50mm | Reed rug and binding ahead under bed foot, bed lower edge behind, west window at left edge; pitch down about 12 degrees |
-| C5 | `dalampasigan-g05-bedside-stool` | 3.5, 9.7 | 0.80 m | 350 | 50mm | Tuntungan with water glass ahead, bed edge and cotton at left, reed rug below left |
-| C6 (anchor, guest room B) | `dalampasigan-g06-second-room` | 3.7, 12.6 | 1.15 m | 324 | 35mm | Exact C3 angle translated 4 m north; same natural acacia bed, rug, stool, and west window at left; only throw changes to indigo |
-| C7 (anchor, breakfast room) | `dalampasigan-g07-breakfast` | 5.1, 1.1 | 1.25 m | 28 | 35mm | One natural acacia Hapag 260, eight natural acacia Hain chairs, one Lenta above, east windows at right, clear serving route; counter stays behind near right edge |
-| C8 | `dalampasigan-g08-pendant` | 4.65, 0.65 | 1.40 m | 30 | 50mm | Lenta and cable above table section, Natural acacia Hain backs below, east window at right background; retain ceiling connection |
-| C9 | `dalampasigan-g09-serving-counter` | 7, 0.3 | 1.20 m | 0 | 50mm | Bilao and supported stoneware on separate counter foreground, long table behind; pitch down about 10 degrees |
-| C10 (anchor, corridor) | `dalampasigan-g10-corridor` | 7.7, 17.0 | 1.40 m | 350 | 35mm | Last three room doors at left, east wall at right, finite north glazed end ahead; never twelve doors in this view |
+| C2 (anchor, lobby) | `dalampasigan-g02-lobby` | 0.65, 2.5 | 1.50 m | 85 | 35mm | Bangko opposite entrance, Habi above on east wall; lobby passage lies farther left, not through the wall behind bench |
+| C3 (anchor, guest room A) | `dalampasigan-hero` | 3.7, 8.6 | 1.15 m | 324 | 35mm | Natural acacia queen Himlay with indigo throw ahead, Banig below, open west window at left, stool at right of bed |
+| C4 | `dalampasigan-g04-reed-mat` | 2.8, 8.65 | 1.15 m | 340 | 35mm | Reed rug and binding ahead under bed foot, bed lower edge behind, west window at left edge; pitch down about 12 degrees |
+| C5 | `dalampasigan-g05-bedside-stool` | 3.5, 9.7 | 1.15 m | 350 | 35mm | Tuntungan with water glass ahead, bed edge and cotton at left, reed rug below left |
+| C6 (anchor, guest room B) | `dalampasigan-g06-second-room` | 3.7, 12.6 | 1.15 m | 324 | 35mm | Exact C3 angle translated 4 m north; same natural acacia bed, rug, stool, and west window at left; only throw changes to rust |
+| C7 (anchor, breakfast room) | `dalampasigan-g07-breakfast` | 5.1, 1.1 | 1.50 m | 28 | 35mm | One natural acacia Hapag 260, eight natural acacia Hain chairs, one Lenta above, east windows at right, clear serving route; counter stays behind near right edge |
+| C8 | `dalampasigan-g08-pendant` | 4.65, 0.65 | 1.50 m | 30 | 35mm | Lenta and cable above table section, Natural acacia Hain backs below, east window at right background; retain ceiling connection |
+| C9 | `dalampasigan-g09-serving-counter` | 7, 0.3 | 1.50 m | 0 | 35mm | Bilao and supported stoneware on separate counter foreground, long table behind; pitch down about 10 degrees |
+| C10 (anchor, corridor) | `dalampasigan-g10-corridor` | 7.7, 17.0 | 1.50 m | 350 | 35mm | Last three room doors at left, east wall at right, finite north glazed end ahead; never twelve doors in this view |
+
+Camera changes approved 2026-11-15: C2: 1.20 m/35mm to 1.50 m/35mm; C4: 0.75 m/50mm to 1.15 m/35mm; C5: 0.80 m/50mm to 1.15 m/35mm; C7: 1.25 m/35mm to 1.50 m/35mm; C8: 1.40 m/50mm to 1.50 m/35mm; C9: 1.20 m/50mm to 1.50 m/35mm; C10: 1.40 m/35mm to 1.50 m/35mm. All positions and headings remain unchanged. Square-on framing is limited by the fixed oblique headings; preserve the room A/B camera match without moving walls or cameras.
 
 ## Status of existing photos
 
 | Photo | Against this bible |
 |---|---|
-| All Dalampasigan shots | No anchor is approved by this bible. Establish C1, C2, C3, C6, C7, and C10 before dependent views. C6 inherits C3 geometry exactly. The morning sun cannot be moved to the sea side. |
+| All Dalampasigan shots | No anchor is approved by this bible. Establish C1, C2, C3, C6, C7, and C10 before dependent views. C6 inherits C3 geometry exactly. C1 to C6 use afternoon west sun; C7 to C10 keep morning east sun. |

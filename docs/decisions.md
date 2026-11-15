@@ -73,6 +73,30 @@ Advisor recommendation approved by Aedwon. The detailed approved decision supers
 | 2026-11-14 | Pale floor imagery exception: Tanaw bleached acacia floors and Pahinga cream limestone floors may be pale instead of warm umber. | `docs/design/visual-system.md` |
 | 2026-11-14 | Photography coverage after catalog expansion: 143 canonical shot entries and 36 product consistency sheets; new featured pieces receive studio and detail briefs, existing approved photos unchanged. | `docs/content/image-briefs.md` |
 
+### Approved project photography signatures, 2026-11-15
+
+Advisor recommendation approved by Aedwon. The studio is recognized by what it puts in a room and how the photograph is disciplined. Each project is recognized by its shell, its light, and at most one color. At thumbnail size, any single frame must be assignable to its project without a caption.
+
+| Date | Change | File |
+|---|---|---|
+| 2026-11-15 | Restrict the house look to Lilim, the Home hero, and scenes belonging to no project; replace the earlier Tanaw dusk and pale-floor exceptions with project-owned photography. | `docs/design/visual-system.md` |
+| 2026-11-15 | Keep true material color, matte surfaces, empty rooms, a level camera, one natural exposure, and at most one dyed textile color in every photograph; retain crops, people rules, and the negative list. | `docs/content/image-briefs.md` |
+| 2026-11-15 | Every scene bible owns a Signature section; add the five-project thumbnail identification check. | `docs/content/scene-bibles/README.md` |
+| 2026-11-15 | Lilim keeps its approved house look, shell, oat textiles, sparse styling, and existing cameras unchanged. | `docs/content/scene-bibles/lilim-house.md` |
+| 2026-11-15 | Tanaw uses gray-white matte plaster, bleached acacia, sand textiles and Natural Hablon, low-key 4000 K blue hour, amber lamp pools under a third of the frame, and true blacks. | `docs/content/scene-bibles/tanaw-residence.md` |
+| 2026-11-15 | Dalampasigan uses chalk-white limewash, seamless pale sand-gray burnished cement, white cotton, hard sun at 9:00 am in breakfast/corridor and 3:00 pm in west-facing spaces, high-key 5500 K, lamps off. | `docs/content/scene-bibles/dalampasigan-inn.md` |
+| 2026-11-15 | Assign Kumot Indigo to Dalampasigan room A (hero, g04, g05), Kumot Rust to room B (g06); never share a frame. | `docs/content/scene-bibles/dalampasigan-inn.md` |
+| 2026-11-15 | Pahinga replaces cane ceiling panels with ebonized mahogany boards and adds the same boards to the headboard wall; other walls chalk-white, white textiles, dark-interior exposure, neutral green bounce, dusk only C7/C10. | `docs/content/scene-bibles/pahinga-villas.md` |
+| 2026-11-15 | Hardin uses matte brick-bond mahogany parquet, moss-gray living/entry walls, off-white bedroom, white ceiling, soft neutral 4:00 pm light after rain, and Luad as the one warm point; staged furnishings stay fixed. | `docs/content/scene-bibles/hardin-apartment.md` |
+| 2026-11-15 | Apply Tanaw's 110 cm cameras, 35mm anchors and 50mm vignettes at fixed positions/headings; record every lens/height change and the limit on square-on framing. | `docs/content/scene-bibles/tanaw-residence.md` |
+| 2026-11-15 | Apply Dalampasigan's 35mm cameras, 150 cm shared/exterior and 115 cm guest-room heights; room A and B keep the same translated view; fixed oblique headings limit square-on framing. | `docs/content/scene-bibles/dalampasigan-inn.md` |
+| 2026-11-15 | Apply Pahinga's 35mm cameras at 95 to 100 cm without changing positions or headings; retain mapped exterior and wall-detail subjects. | `docs/content/scene-bibles/pahinga-villas.md` |
+| 2026-11-15 | Apply Hardin's 50mm, 120 cm room cameras at fixed positions/headings; keep studio-table heights and pitches, recording the limit on true overhead book views. | `docs/content/scene-bibles/hardin-apartment.md` |
+| 2026-11-15 | Rewrite all 40 non-Lilim project prompts to their own signatures and updated camera measurements. Lilim and existing product shot entries remain unchanged. | `docs/content/image-briefs.md` |
+| 2026-11-15 | Add Kumot Indigo, Kumot Rust, Tabing White, and Two-seat Clay Silong studio references on the same #E8DFD2 ground; 147 canonical shots, 36 product consistency sheets. Catalog variants remain unchanged. | `docs/content/image-briefs.md` |
+| 2026-11-15 | Update only the four affected project material palettes to agree with the approved shell changes. | `docs/content/projects.md` |
+| 2026-11-15 | Update plan text labels for project surfaces, textile colors, and light; regenerate the four SVG maps from the existing geometry and updated bible cameras. | `design/photography/plans/draw_plans.py` |
+
 ## Open questions for Aedwon
 
 None.

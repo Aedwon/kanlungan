@@ -198,7 +198,7 @@ def cameras(slug):
 
 def tanaw():
     slug = "tanaw-residence"
-    d = Drawing("Tanaw Residence", "118 sqm · BGC, Taguig · west skyline · all views at dusk, lamps on")
+    d = Drawing("Tanaw Residence", "118 sqm · BGC, Taguig · west skyline · 6:15 pm blue hour · low key, 4000 K")
     p = Panel(d, 100, 850, 58)
     p.rect(0, 0, 10, 11.8, fill=BLEACHED, width=4)
     p.rect(4, 0, 1.8, 4.2, STONE, MUTED, 1)
@@ -269,7 +269,7 @@ def tanaw():
     p.scale_bar(0, -1, 5)
     d.text(760, 190, "West = skyline", 13)
     d.text(760, 216, "Full-height fixed glazing", 11, MUTED)
-    d.text(760, 242, "Bleached acacia floors and joinery", 11, MUTED)
+    d.text(760, 242, "Bleached acacia floors; gray-white plaster", 11, MUTED)
     d.text(760, 260, "Yakap / Unan: sand linen.", 11, MUTED)
     d.text(760, 300, "* = not a catalog piece", 11, MUTED)
     d.text(760, 324, "Furniture arrows show facing.", 11, MUTED)
@@ -334,7 +334,7 @@ def public_rooms(p):
 
 def dalampasigan():
     slug = "dalampasigan-inn"
-    d = Drawing("Dalampasigan Inn", "640 sqm · San Juan, La Union · sea west · bright coastal morning", 1280, 1280)
+    d = Drawing("Dalampasigan Inn", "640 sqm · San Juan, La Union · sea west · hard sun: 9 am shared east rooms, 3 pm west rooms", 1280, 1280)
     p = Panel(d, 330, 990, 25)
     p.rect(0, 0, 10, 32, width=4)
     public_rooms(p)
@@ -367,7 +367,7 @@ def dalampasigan():
     guest(g, 8)
     g.text(3, 12.7, "Room A enlarged: 6 × 4 m", 13)
     g.text(3, 7.55, "B repeats A exactly, translated 4 m north.", 11, MUTED)
-    g.text(3, 7.25, "Honey acacia; only Kumot changes to indigo.", 11, MUTED)
+    g.text(3, 7.25, "Honey acacia; A Indigo, B Rust; cement floor.", 11, MUTED)
     for c in (cs[2], cs[3], cs[4]):
         g.camera(c, (-45, 20) if c["number"] == "C4" else (8, -8))
     # Overlay B's translated camera at the identical local point, label separately.
@@ -383,7 +383,7 @@ def dalampasigan():
         offsets = {"C2": (-10, -15), "C7": (-40, -10), "C8": (8, 20), "C9": (8, 23)}
         q.camera(c, offsets[c["number"]])
     q.scale_bar(0, -1.0)
-    d.text(25, 1100, "Upper floor: same six room types and corridor above the guest wing; support rooms above the south block.", 11, MUTED)
+    d.text(25, 1100, "Chalk-white walls; seamless pale sand-gray burnished cement. Upper floor repeats six rooms and corridor; support rooms south.", 11, MUTED)
     d.text(25, 1122, "Twelve guest rooms total. * = not a catalog piece. Each inset has its own scale bar; north is unchanged.", 11, MUTED)
     d.text(25, 1144, "C6 is drawn over C3 in the room-type inset because the room and camera are exact translations.", 11, MUTED)
     d.legend(1190)
@@ -392,7 +392,7 @@ def dalampasigan():
 
 def pahinga():
     slug = "pahinga-villas"
-    d = Drawing("Pahinga Villas", "520 sqm covered · Panglao, Bohol · filtered daylight; C7 and C10 at matching dusk", 1360, 1040)
+    d = Drawing("Pahinga Villas", "520 sqm covered · Panglao, Bohol · 10:30 am through palms; C7 and C10 at dusk · neutral, green bounce", 1360, 1040)
     p = Panel(d, 375, 730, 38)
     for x, y in ((-5, 1), (-4, 8), (2, 10), (8, 9), (11, 10), (20, 3)):
         p.circle(x, y, .18, MUTED, MUTED)
@@ -446,14 +446,14 @@ def pahinga():
         p.camera(c, (-38, 19) if c["number"] in ("C3", "C8") else (8, -8))
     p.scale_bar(-8, -3.0)
     d.text(25, 880, "Eight identical one-bedroom villas: 8 × 56 + 72 = 520 sqm covered. Other villas are outside this map.", 11, MUTED)
-    d.text(25, 902, "Ebonized mahogany structure; cream limestone inside; pale gray stone terrace. * = not a catalog piece.", 11, MUTED)
+    d.text(25, 902, "Ebonized mahogany board ceiling and headboard wall; chalk-white other walls; cream limestone inside; gray stone terrace. * = non-catalog.", 11, MUTED)
     d.legend(955)
     d.save(slug)
 
 
 def hardin():
     slug = "hardin-apartment"
-    d = Drawing("Hardin Apartment", "74 sqm · Legazpi Village, Makati · fixed plan for photographs, renders, and design-book pages", 1280, 1040)
+    d = Drawing("Hardin Apartment", "74 sqm · Legazpi Village, Makati · matte brick-bond mahogany parquet · moss-gray living/entry walls · 4 pm after rain", 1280, 1040)
     p = Panel(d, 65, 760, 64)
     p.rect(0, 0, 10, 7.4, width=4)
     p.rect(0, 0, 1.2, 3, STONE, INK, 3)
