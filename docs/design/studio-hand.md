@@ -2,199 +2,317 @@
 
 What a Kanlungan interior is. Every project design file in `docs/content/project-designs/` follows this file. The photography rules in [image briefs](../content/image-briefs.md#photography-rules) cover the photograph. This file covers the room.
 
-Background and reasoning: `docs/build/consults/2026-11-16-ground-up-rethink.md`. Test images: `design/round-3-interiors/`.
+Background: `docs/build/consults/2026-11-16-ground-up-rethink.md` and `2026-11-16-calibration-set.md`. Images: `design/round-3-interiors/` and `design/round-4-calibration/`.
 
-## Where this comes from
+Revised on 2026-11-16 after round 4. The first version of this file offered two named directions and a rule that chose between them by the site. Aedwon's round 4 picks did not follow that rule. The directions are removed. What is constant is now a set of standards and a point of view. The design is made for each room.
 
-Status: **Locked by Aedwon** on 2026-11-16.
+## The evidence
 
-Aedwon judged three furnished versions of one plain room (round 3). He picked **B, Shade and Stone**. His reasons, in his words:
+Status: **Locked by Aedwon.** These are his picks and his words.
 
-- "in collected, lots of things became warm... there's too much a shift in the warmth of the pic where there shouldn't be."
-- "Shade and Stone did add warmth but it added warmth where warmth could emanate i.e. the lights, and there are still parts that are cool because it's far from the said lights."
-- "shade and stone just feels more premium to me. the color for shade and stone is just right since it's surrounded by greenery outside."
-- "i think the current collected would sit well on condos where there is less green outside, not in this particular example."
+| Room | He picked | He passed over | His words |
+|---|---|---|---|
+| Lilim great room, late afternoon (round 3) | B, Shade and Stone | A, warm and collected. C, strong color. | "in collected... there's too much a shift in the warmth of the pic where there shouldn't be." "Shade and Stone did add warmth but it added warmth where warmth could emanate i.e. the lights." "just feels more premium to me." |
+| Condo living room, dusk | C, an unruled designer's room | A and B, both by our rules | "C, looks more lively. honestly all renders could use some TVs here idk like be for real. lights were also not on like why" |
+| Beach inn guest room, morning | A, quiet, white and honey wood | B, faded stripes. C, unruled. | "A, but i would like to note the inconsistency with the outlets. some people might spot that. also the right curtain is under the AC unit, not possible" |
+| Villa bedroom, late morning | B, warm woods and deep color | A, black and white. C, unruled. | "B" |
+| Old apartment living room, overcast | A, warm, small, personal | B, charcoal and stone. C, unruled. | "A" |
 
-Two principles follow. Both are locked.
+He also asked:
 
-## Principle 1: light is motivated
+- "i noticed there's always a door at the right, why is that?"
+- "there's no beds in the condo? no kitchen?"
+- Why the options were only Collected or Shade and Stone. He thinks each room should get the treatment that fits it best.
 
-Status: **Locked by Aedwon** on 2026-11-16.
+## What the picks say
 
-- Warmth comes only from things that give off warm light: a lamp, a pendant, low sun.
-- A lamp warms what is near it. The warmth fades with distance.
-- Everything away from a source keeps the neutral to cool balance of daylight. At dusk it turns blue-gray.
-- Warmth is never a shift over the whole room or the whole picture.
-- A room holds warm and cool at the same time. That contrast is part of the studio's look.
+Status: **Decided on delegation.** This is a reading. Aedwon may correct it.
 
-For the designer, this means lamps go where people sit, eat, read, and sleep, and the rest of the room is left to daylight. For the photographer, it means no grade. The photography rules give the test.
+1. **He does not pick by palette.** He picked a restrained room twice and a warm one three times. A green site got a restrained room at Lilim and a warm one at the villa. So the site does not choose the palette, and two named directions were the wrong tool.
+2. **He picks the room that is lit truthfully.** A warm wash with no source lost every time: Lilim A, and the unruled C at the inn, the villa, and the apartment. A dim room also lost: our two condo rooms had the ceiling lights off and three small lamps in a large room at dusk. Truthful light means no false warmth, and it also means a room is lit the way people would light it.
+3. **He picks the room that someone lives in.** The condo C has full shelves, a record player, a throw, and plants. Ours looked staged. He asked for TVs, beds, and a kitchen. He wants a real home, not a styled corner.
+4. **Stark loses.** The black and white villa and the charcoal apartment both lost. Every room he picked carries warm natural material: wood, cane, woven fiber, brass. That includes Lilim B, with its mahogany sofa frame, honey rattan, cane seats, and capiz.
+5. **Loud loses too.** Strong color lost at Lilim, and stripes lost at the inn.
+6. **He notices what a client would notice.** Outlets that move. A curtain that cannot hang where it is drawn. The same camera every time.
 
-## Principle 2: the palette answers the site
+One caution. The unruled rooms are lively, and they are also generic. They use flowers in bloom, a beach photograph over a beach bed, a palm print in a palm grove, and a copy of a famous real lounge chair. Standards alone give that result. A studio also needs a point of view.
 
-Status: **Locked by Aedwon** on 2026-11-16.
+## The standards
 
-Before choosing a color, ask what is outside the openings.
+Status: **Motivated light is locked by Aedwon** (2026-11-16) and stands. The rest is **decided on delegation and needs his confirmation**, because it replaces two things he locked on 2026-11-16: "the palette answers the site" and the five-part constant hand.
 
-- **The site gives color.** A site surrounded by green gets a restrained, near-colorless interior. The green outside is the color. The room does not compete with it.
-- **The site gives no color.** A site with little green outside, such as a city condo, may take a warmer, more collected palette. The room supplies what the view does not.
+These hold in every room of every project. They are standards, not a style.
 
-The hand stays constant. The palette and the sourcing mix change by site.
+1. **Truthful light.** Every bit of light has a source you can point to. Warmth comes only from a lit lamp, a lit ceiling light, or direct sun, and it fades with distance. And the room is lit as the people in it would light it at that hour. See "Light" below.
+2. **Edited, and lived in.** Nothing stays that the room would not miss. And nothing a real household needs is missing. A room is finished when someone could live in it tonight.
+3. **One piece leads.** One thing in each room leads, at the scale of the architecture: a stone table, a long table, a bed, a wall of books.
+4. **Proportion.** Pieces fit the room, the wall, and each other. The rug holds the group. Seats are close enough to talk.
+5. **Quality of material and making.** Real materials, well made, and warm to the hand: wood, cane, stone, linen, wool, clay, brass. Nothing imitates something else.
 
-Two registers name the two ends. A project sits at one end or between them.
+## The point of view
 
-| | Shade and Stone (restrained) | Collected (warm) |
-|---|---|---|
-| Use when | The openings are full of green | The openings show city, sky, or nothing much |
-| Color | Bone, ivory, charcoal, black. No added color. | An earth base with one or two deep colors in small to medium doses |
-| Warm notes | Honey cane or mahogany, once in a room | Three or more woods in a room, old beside new |
-| Pieces | Few, each large and exact | More pieces, gathered over time, still edited |
-| Found and old pieces | One per room | About a quarter of the pieces |
-| Art | One very large monochrome work | Paintings and works on paper in color, books in stacks |
-| Risk | Reads as a resort or a showroom if no one seems to live there | Reads as clutter, or warms the whole picture |
+Status: **Decided on delegation.** This is what keeps a room that meets the standards from being generic.
 
-Only the green case and the city case are locked. How the rule reads for the sea, for a small old apartment, and for hospitality is not yet known. The calibration set tests those cases. See "How each project lands."
+- **Warm natural material, in neutral light.** The warmth of a Kanlungan room comes from what it is made of. It never comes from a tint.
+- **Philippine craft as material, not motif.** Cane, capiz, stoneware, Romblon marble, handloom, old hardwood. No religious figures, tribal carvings, baskets on walls, or heritage displays.
+- **Sources are mixed.** Shop pieces sit with custom pieces, found pieces, and the client's own things. The leading gesture of a project is custom, found, or commissioned. Shop pieces are at most half the pieces in a room.
+- **Designed for one client's real life.** The brief names who lives there and what they do in each room. Their things are in the picture.
+- **No clichés.** No flowers in bloom. No art that pictures the place it hangs in, such as a beach scene at the beach or palms in a palm grove. No copy of a recognizable real design. No styling that says "tropical."
+- **Nothing is built.** The shell is the client's. Kanlungan brings loose pieces, curtains on tracks, hung art, bulbs, and fittings at existing points.
 
-## The constant hand
+## The design is made for each room
 
-Status: **Locked by Aedwon** on 2026-11-16. These five hold in every project, at either end of the palette.
+Status: **Decided on delegation and needs Aedwon's confirmation.** It replaces "the palette answers the site."
 
-1. **Premium and edited.** Fewer, larger pieces. Nothing stays that the room would not miss.
-2. **A dark and pale composition.** Every room holds a true dark anchor and a clean pale anchor. Mid-tones are the minority.
-3. **One leading piece.** One thing in each room leads, at the scale of the architecture: a stone table, a long table, a bed, a wall-size work.
-4. **Layered light.** Lamps at three heights. The contractor's ceiling grid stays off.
-5. **Motivated light.** Principle 1.
+There is no menu of directions. A designer reads five things and then designs the room.
 
-### Signature moves
-
-Status: **Decided on delegation.** These carry the hand without building anything. Each appeared in the picked image or follows from the locked service scope.
-
-| Move | Effect |
+| Read | Ask |
 |---|---|
-| Full-height curtains on a ceiling track, for the whole width of the glass | The room grows taller. Metal frames soften. Hard light turns soft. |
-| One large rug that holds the seating group | The contractor's floor recedes |
-| Lamps in place of the ceiling grid, one decorative fitting at an existing point | Flat overhead light becomes pools of warm light in a cool room |
-| One wall-scale loose piece: a large work, a tall cabinet, a run of shelves | A blank wall gains depth without paint |
-| One old or handmade piece with weight | A new room gains age |
-| One tree-scale plant, or the site's green left alone | A hard room gains life |
-| Philippine craft as material: cane, capiz, stoneware, Romblon marble, handloom | Identity without motifs |
+| The site | What is outside the openings, and how strong is it? |
+| The light | Which way does the room face, and at what hours is it used? |
+| The client | Who lives here, what do they own, and how full do they like a room? |
+| The use | What happens in this room every day? |
+| The shell | Is it a cold white box or a warm old room? What is fixed and cannot be hidden? |
 
-Guardrail: old furniture and craft are materials, not motifs. No religious figures, tribal carvings, baskets on walls, or heritage displays.
+The palette is a result of that reading. So are the density, the mix of old and new, and the hour of the photograph.
+
+"Shade and Stone" and "Collected" are no longer options to choose from. They stay only as names for two rooms that exist: the Lilim great room and the round 4 villa.
+
+What the picks suggest so far. These are observations, not rules:
+
+- A large room with a long view can be quiet. A small room wants more warmth and more things.
+- A guest room is quieter than a home. A guest brings their own things.
+- No room is black and white. No room is loud.
+- Whatever the palette, the walls and ceiling stay neutral in the picture.
+
+## Light
+
+Status: **Motivated light is locked by Aedwon.** The second half, a room lit as lived, is **decided on delegation** from his condo comment.
+
+**Motivated.**
+
+- Warmth comes only from things that give off warm light: a lamp, a pendant, a warm ceiling light, low sun.
+- A source warms what is near it. The warmth fades with distance.
+- Surfaces away from any source keep the neutral to cool balance of daylight. At dusk they turn blue-gray.
+- Warmth is never a shift over the whole room or the whole picture.
+
+**Lit as lived.**
+
+- Light the room as the people in it would at that hour. In bright morning and midday light, lamps are off. On an overcast afternoon, in a deep room, or late in the day, the lamps people would switch on are on. At dusk and in the evening, every lamp in the room is on.
+- An evening room is bright enough to live in. You could read wherever there is a seat. A dark ceiling over three small pools is a mood picture, not a home.
+- The ceiling lights are part of the home. Kanlungan changes their bulbs to warm, dimmable ones. That is a bulb change, not electrical work. By day they are off. In the evening they may be on low, as a base under the lamps. They are never the only light in a furnished room.
+- Layers stay: sources at three heights in a main room, each one placed where someone uses it.
+
+This corrects the first version of this file, which kept the ceiling lights off in every furnished frame. That rule made the condo rooms dim, and Aedwon asked why the lights were not on.
+
+## A home people live in
+
+Status: **Decided on delegation**, from Aedwon's round 4 comments. A working designer holds to all of these.
+
+### Real things have a place
+
+Each design file lists what the household really owns and uses in each room, and gives each thing a place. Not all of it shows in every frame. None of it is erased.
+
+| Thing | Rule |
+|---|---|
+| Screens | Where people would really watch, there is a screen: a condo living room, a family room, most guest rooms. It stands on a console or a floor stand at an existing socket. It is sized for the seat distance, about 55 to 65 inches for a seat 2.5 to 3.5 m away, with its center near seated eye height. If a room has none, the brief says why. |
+| Media and network | A speaker, a router, a console, remotes, chargers. On a shelf or in a tray, not hidden from the plan. |
+| Cooling | Air conditioners and fans stay where the client put them, and stay visible. Furniture and curtains keep clear of them. |
+| Kitchen | A refrigerator, a range, and the small appliances the household uses: a rice cooker, a kettle. A dish rack by the sink. |
+| Arrival | Somewhere to sit, a place for shoes, bags, and keys |
+| Bedroom | A bedside surface and light on each used side, a place for clothes worn once, a charger |
+| Bath | Towels, a place for bottles, a bin, a mat |
+| Children | Their books, toys, and drawings, where the children use them |
+
+### Fixed services do not move
+
+- Every socket, switch, air conditioner, fan, ceiling point, and door handle in the before is in the after: the same count, the same place, the same type.
+- A piece may stand in front of a socket. It never moves or deletes one.
+- Lamps are planned to the sockets that exist. The design file names the socket for each lamp. Where there is none, the lamp is cordless.
+- Cables are hidden but present. A cord runs behind a piece or under a rug to a real socket. A short length near the socket may show. No cord crosses a walkway.
+
+### Things must physically work
+
+| Thing | Rule |
+|---|---|
+| Curtains | A track fixes to the ceiling or the wall above the opening. No curtain hangs under or in front of an air conditioner. Where a unit shares the window wall, the track ends beside it and the curtain stacks on the other side. Curtains keep clear of a fan's sweep and a door's swing. They reach the floor. An open curtain keeps a stack about a fifth of its width. |
+| Doors and drawers | Every door opens fully. Sliding doors slide. No piece stands in a swing. Cabinet doors and drawers have room to open. |
+| Fans and air | Nothing tall stands under a ceiling fan: no bed frame, no pendant, no tall plant within the sweep. Nothing blocks the air from a cooling unit. |
+| Pendants | Only at an existing ceiling point. A pendant may hang from a ceiling hook up to about 1 m from its point, on a visible cord. |
+| Paths | A main walkway is at least 90 cm wide. Each used side of a bed has 60 cm. A dining chair has 90 cm behind it. |
+| Weight and size | A piece could be carried in through the door. Shop pieces appear at their catalog dimensions. |
+
+### Finished means lived in
+
+Each room view holds the signs of one ordinary day: something read, something worn, something eaten or drunk, something left where it is used. One or two per room, chosen for that client. A room with none looks staged. A room with ten looks untidy.
+
+## Whole-home coverage
+
+Status: **Decided on delegation**, from Aedwon's question about beds and a kitchen. The counts for the four later projects are provisional until each has a design file.
+
+A case study shows a whole home. A visitor should be able to walk through it.
+
+Every project shows:
+
+1. the main living space;
+2. where they eat;
+3. where they cook, or for hospitality where guests are served;
+4. where they sleep, with each kind of bedroom or guest room at least once;
+5. one bath;
+6. the arrival;
+7. the outside: a terrace, a balcony, or the building in its place.
+
+A room is left out only with a reason in the design file.
+
+Kitchens and baths are built rooms, and they are the client's. Kanlungan's work there is loose: appliances where appropriate, stools, a fitting at an existing point, textiles, tableware, and styling. The copy says so.
+
+Pairs go to the rooms where the change is largest. Other rooms get furnished frames only.
+
+| Project | Rooms shown | Pairs | Furnished frames |
+|---|---|---|---|
+| Lilim House | Great room (living, dining), kitchen, family room, main bedroom, main bath, children's room, entry, terrace, exterior | 5: living, dining, main bedroom, family room, kitchen | 14 |
+| Tanaw Residence | Living, kitchen and dining, main bedroom, main bath, study and guest room, entry | 4: living, kitchen and dining, main bedroom, study | About 11 |
+| Dalampasigan Inn | Sea-side guest room, garden-side guest room, guest bath, lobby, breakfast room, corridor, exterior | 3: guest room, lobby, breakfast room | About 10 |
+| Pahinga Villas | Villa bedroom, sitting corner, bath, villa terrace, reception pavilion, the grove | 3: bedroom, terrace, reception | About 9 |
+| Hardin Apartment | Living, kitchen, bedroom, bath, entry, balcony, and the design book, plan, and moodboard | 3: living, bedroom, balcony. Plus one pair of render against photograph. | About 11 |
+
+That is 18 pairs and about 55 furnished frames across the five projects.
+
+## No two homes alike
+
+Status: **Decided on delegation**, from Aedwon's round 4 comment: "i also noticed same lamp shapes? like why." The cause was ours. The calibration prompts attached the same few shop references to almost every scenario, so one lamp, one jar, and one kind of painting appeared in four unrelated homes.
+
+Different clients do not own the same things. Across the portfolio:
+
+- **No default kit.** A shop piece appears where it fits that room and that client, and sparingly. It is never added because a reference image exists.
+- **Hero objects do not repeat.** The leading piece of one project does not appear in another project's gallery.
+- **Lamp shapes do not repeat.** A lamp shape seen in one project's hero or pair frames is not used in another project's hero or pair frames. Within one home, no lamp shape repeats from room to room except as a pair.
+- **Art does not repeat in kind.** Two projects do not share the same medium, palette, and composition of art.
+- **Vessels and plants do not repeat as a set.** The same jar with the same plant is one home's, not the studio's.
+- **Camera recipes do not repeat.** See the photography rules.
+- **A shop piece shows in at most two projects,** and leads in at most one. Each featured product still needs one project where it is seen.
+
+**A signature is the only exception, and it is declared.** A signature is a repeat that Aedwon has approved as the studio's mark. None is declared yet. The moves that recur by design are not objects: full-height linen on a ceiling track, one leading piece, and lamps in place of the ceiling grid.
+
+Within one home, repetition of quiet background pieces is coherence, not a fault: the same curtains through the house, the same side table in two bedrooms.
+
+### Portfolio register
+
+Each design file fills its row before any image is generated. A new row may not repeat an entry in a row above it.
+
+| Project | Leading piece | Lamp shapes in hero and pair frames | Art | Vessels and plants | Hero camera |
+|---|---|---|---|---|---|
+| Lilim House | A slab of Romblon marble as a low table | Stoneware jar base with linen shade. Slim brass floor lamp. Capiz drum pendant. Low brass dome lamp. Ceramic dome pendant. | Ink and charcoal bands on paper. A woven abaca panel. | An old dark storage jar, empty. A kamuning tree in a black pot. Giant taro in black jars. | Two-point from the entry corner, along a glass wall on the right, very wide |
+| Tanaw Residence | To set. Not a stone table. | To set. None of the above. | To set. Not ink bands. | To set | To set. Not the round 4 recipe. |
+| Dalampasigan Inn | To set | To set | To set | To set | To set |
+| Pahinga Villas | To set | To set | To set | To set | To set |
+| Hardin Apartment | To set | To set | To set | To set | To set |
+
+The round 4 starting images break this register. They share the same stoneware lamp, the same dark jar, the same rubber tree, and the same camera. Each design file replaces them.
 
 ## Rules for the room
 
-Status: **Decided on delegation**, except where a rule restates a locked principle. Each rule has a test that can be run by eye.
+Status: **Decided on delegation.** Each rule has a test by eye. The design file and the review use this table.
 
 | # | Rule | Test |
 |---|---|---|
-| 1 | **The shell is the client's.** Nothing fixed is added, removed, or refinished. Kanlungan brings loose pieces, curtains on tracks, hung art, and fittings at existing electrical points. | Compare with the before. Only loose things differ. |
-| 2 | **Concept first.** One sentence about how the place should feel, written before any piece is chosen. | A visitor can say the idea after seeing three frames. |
-| 3 | **The palette answers the site.** Principle 2. | Name what is outside. The palette follows from it. |
-| 4 | **Dark and pale. Do not match.** A true dark and a clean pale in every room. No furniture wood matches the floor. | At thumbnail size the room reads as dark shapes on pale, or pale on dark. |
-| 5 | **One piece leads, at the right size.** The rug holds the seating group. Wall art is two thirds or more of the width of what it hangs over. | At thumbnail size you can name the leading piece. |
-| 6 | **Seats converse.** Main seats sit within about 2.5 m of each other. Every seat and every bed has a surface and a light in reach. | Sit in each seat in your mind. Reach for a glass and a switch. |
-| 7 | **Light in layers, and motivated.** At least three sources at different heights in a main room. Each lamp stands where someone uses it. | Point to each source. Say who it is for. |
-| 8 | **Complete the layers.** Furniture, lighting, textiles, art and objects, something living. A missing layer needs a written reason. | Name each layer in a wide view. |
-| 9 | **Mix the sources.** A visitor must not be able to furnish the room from the shop alone. Shop pieces are at most half the pieces in a room. The leading gesture of the project is custom, found, or commissioned. | Cover the shop pieces. The room still has an author. |
-| 10 | **Edit, and leave a sign of life.** Remove anything the frame does not miss. Keep one sign that someone lives there. | Take one object away in your mind. If the frame is no worse, it goes. |
+| 1 | **The shell is the client's.** Nothing fixed is added, removed, moved, or refinished. | Compare with the before. Only loose things differ. |
+| 2 | **Concept first, for this room and this client.** One sentence about how the place should feel, written before any piece is chosen. | A visitor can say the idea after three frames. |
+| 3 | **Truthful light.** Motivated, and lit as lived. Sources at three heights in a main room. | Point to each source and say who it is for. Could you read in each seat? |
+| 4 | **One piece leads, at the right size.** | At thumbnail size you can name it. |
+| 5 | **Proportion.** The rug holds the seating group. Wall art is two thirds or more of the width of what it hangs over. Main seats sit within about 2.5 m of each other. | Nothing looks lost and nothing crowds. |
+| 6 | **Value and warmth.** A true dark and a clean bright in every room. Warm natural material in every room. No furniture wood matches the floor. | Not black and white. Not all one tone. |
+| 7 | **Complete the layers.** Furniture, lighting, textiles, art and objects, something living. | Name each layer in a wide view. |
+| 8 | **Real things have a place, and services do not move.** | Find the screen, the cooling, the sockets, the shoes. |
+| 9 | **Everything physically works.** | Open each door and draw each curtain in your mind. |
+| 10 | **Mix the sources, and avoid the cliché.** | Cover the shop pieces. The room still has an author. Nothing in it could be in any hotel. |
+| 11 | **Edit, then leave life.** | Take one object away in your mind. If the room is no worse, it goes. Then ask who lives here. |
+| 12 | **No two homes alike.** Fill the portfolio register first. | Put one frame from each project side by side. No lamp, jar, painting, or camera angle appears twice. |
 
 ## How each project lands
 
-Lilim House is locked. The other four calls are **provisional, pending calibration.** Aedwon wants to judge more before-and-after cases before the rule is fixed for them. The calibration set is in `docs/build/consults/2026-11-16-calibration-set.md`. Each of the four projects below has one scenario in it, with this file's call as one after and a deliberate opposite as the other. Do not write a design file for any of the four until Aedwon has picked.
+No project has a "direction" now. Each has a starting image that Aedwon picked, and a design file that turns it into a design.
 
-| Project | What is outside | Register | Status |
-|---|---|---|---|
-| Lilim House | A green valley on every side | Shade and Stone | **Locked by Aedwon** |
-| Tanaw Residence | Towers and sky. No green. | Collected, for the evening | Provisional, pending calibration |
-| Dalampasigan Inn | A strip of sea from the guest rooms. A street and a yard from the shared rooms. | Restrained in the guest rooms, Collected and bright in the shared rooms | Provisional, pending calibration |
-| Pahinga Villas | A coconut grove at each door | Shade and Stone, at its sparest | Provisional, pending calibration |
-| Hardin Apartment | Neighboring buildings. Little green until the owner plants some. | Collected, small and personal | Provisional, pending calibration |
+| Project | Starting image | Status |
+|---|---|---|
+| Lilim House | `design/round-3-interiors/lilim-living-B-shade-and-stone.png` | **Locked by Aedwon.** Design file written. |
+| Tanaw Residence | `design/round-4-calibration/tanaw-living-C-designer.png` | **Picked by Aedwon.** No design file yet. |
+| Dalampasigan Inn | `design/round-4-calibration/dalampasigan-room-A-sea-as-color.png` | **Picked by Aedwon.** No design file yet. |
+| Pahinga Villas | `design/round-4-calibration/pahinga-bedroom-B-collected.png` | **Picked by Aedwon.** No design file yet. |
+| Hardin Apartment | `design/round-4-calibration/hardin-living-A-collected.png` | **Picked by Aedwon.** No design file yet. |
+
+A starting image is one room. It is not a design and not a final frame. Each needs a design file, whole-home coverage, and a list of corrections.
 
 ### Lilim House
 
-Status: **Locked by Aedwon** (direction). Details are in [the Lilim design file](../content/project-designs/lilim-house.md).
+Status: **Locked by Aedwon.** Details are in [the Lilim design file](../content/project-designs/lilim-house.md).
 
-- **Site.** A new house on a hillside in Antipolo. Green fills every opening.
-- **Register.** Shade and Stone.
-- **Palette.** Dominant: white walls, bone linen, pale wool. Secondary: charcoal linen, ebonized wood, blackened steel. Stone: honed gray-white Romblon marble. Warm notes: honey cane once in a room, and the mahogany frame of one sofa. No added color. The valley is the green.
-- **Dark anchor and pale anchor.** The charcoal sofa and the black dining table. The linen curtains and the wool rug.
+- **Who and where.** A family of five in a new house above a green valley in Antipolo.
+- **The room he picked.** Quiet and composed in dark and pale: charcoal linen, black wood, white linen, pale wool, gray Romblon marble. The warm notes are a mahogany sofa frame, honey cane, capiz, and brass.
 - **Leading piece.** One slab of Romblon marble as the living room table.
-- **Light.** Late afternoon for the hero, with three lamps and one pendant lit. Morning and dusk elsewhere.
-- **Sourcing, by piece.** About half shop pieces in ebonized and charcoal options, a third custom, and the rest found pieces and art. The shop share is higher than the round 3 estimate because the rug, the side table, and the dining set in the picked image have shop equivalents with the same look. The pieces that lead are not from the shop: the stone table, the daybed, the curtains, the commissioned work, and the family's old jar.
+- **What round 4 adds.** The house must not drift toward black and white. The family's real life shows: a family room with the screen and the books, a kitchen in use, shoes at the door. Evening rooms are lit.
+- **Sourcing, by piece.** About two fifths from the shop, about two fifths custom, and the rest the family's own things, bought appliances, found pieces, and art.
 
 ### Tanaw Residence
 
-Status: **Provisional, pending calibration.**
+Status: **Starting image picked by Aedwon.** The unruled room won, so the design file starts from it and puts a design behind it.
 
-- **Site.** A high floor in Bonifacio Global City. A glass wall onto towers. The couple is home after dark.
-- **Call.** Collected. Aedwon said this register suits a condo with little green outside. The room supplies the warmth that the view lacks.
-- **Palette.** Dominant: tobacco and black-brown, in heavy curtains, a deep rug, and old hardwood. Secondary: sand and bone, in the sofa and the lamp shades. Accent: oxblood, with moss in a small dose. No blue in the room. The dusk sky is the blue.
-- **Leading piece.** A wall of freestanding shelves for the couple's books and records.
-- **Light.** Dusk. The developer's downlights are on in the before and off in the after. Lamps make warm pools. The side of the room near the glass stays blue-gray.
-- **Sourcing.** About a third shop pieces, a quarter custom, a quarter found, the rest art and objects.
-- **Why it is not settled.** No one has seen a restrained room in a condo. The calibration set shows both.
+- **Keep from the picked image.** A room that is lit: ceiling lights on low and lamps at several heights. Full shelves of books and records. A record player. Plants. A throw. Warm wood against white walls. A deep sofa and one leading chair.
+- **Correct.** The lounge chair copies a famous real design. Replace it with a piece of the studio's own. Remove the flowering branches. Bring in shop pieces where the image has generic ones.
+- **Add.** A screen, as he asked. The kitchen, the dining table, both bedrooms, and a bath, under whole-home coverage.
+- **Shell.** A bare developer unit: white walls, wood-look vinyl, downlights, the developer's kitchen and wardrobes left as found. Added storage is freestanding.
 
 ### Dalampasigan Inn
 
-Status: **Provisional, pending calibration.**
+Status: **Starting image picked by Aedwon,** with two faults he named.
 
-- **Site.** An older inn near the beach in San Juan, La Union. Guest rooms see beach trees and a strip of sea. The lobby and the breakfast room face the street and the yard, and are used at night.
-- **Call.** By room. Guest rooms are restrained: white, bone, honey acacia, reed, and one black line, with the sea as the color. The two shared rooms are Collected and bright, with faded indigo and coral, stripes, and mixed old chairs.
-- **Why.** The rule says the room holds back when the site gives color. The sea gives color to the guest rooms. The shared rooms get none, so they supply their own.
-- **Leading piece.** The bed in a guest room. One long shared table in the breakfast room.
-- **Light.** Morning for the guest room, with no lamp lit. Dusk for the lobby.
-- **Sourcing.** About 45 percent shop pieces and 30 percent custom, because twelve rooms must repeat. Found pieces only in the shared rooms.
-- **Why it is not settled.** The locked rule names green, not the sea. A beach room with no color may read as empty. The calibration set shows both.
+- **Keep.** White walls and linen, honey acacia, reed, one thin black line, and the sea as the only color.
+- **Correct.** The sockets on the left wall moved between the before and the after. They must match. The right curtain hangs under the air conditioner. The track must end beside the unit, with both curtains stacked clear of it.
+- **Decide in the design file.** Whether a guest room has a screen. The lobby and the breakfast room, which face the street and are used at night, may be warmer and fuller than the guest rooms.
+- **Shell.** An older inn, cleared and repainted by the owners before Kanlungan arrived. Cream tile, aluminum windows, a tube light and a fan in each room.
 
 ### Pahinga Villas
 
-Status: **Provisional, pending calibration.**
+Status: **Starting image picked by Aedwon.** It is the warm room, not the black and white one.
 
-- **Site.** Eight villas in a coconut grove in Panglao. Green fills the door.
-- **Call.** Shade and Stone at its sparest. White, black, and the grove.
-- **Palette.** Dominant: white walls, white linen, white netting. Secondary: ebonized wood. Warm note: honey cane once. No added color.
-- **Leading piece.** A freestanding four-post frame with white netting, around the bed. It gives a plain box its structure and is not built in.
-- **Light.** Late morning, sun filtered by palms. One dusk frame with lamps.
-- **Sourcing.** About 40 percent shop pieces and 40 percent custom, because eight villas must repeat. Few found pieces.
-- **How it differs from Lilim.** One room, not a house. Whiter and barer. A guest's room, not a family's. Lilim is charcoal and stone. Pahinga is black line on white.
-- **Why it is not settled.** It repeats the Lilim call in a small room. If Aedwon picks the warm version here, the Lilim pick was about that room and not about green sites.
+- **Keep.** A mahogany four-post bed with netting, oat linen, moss and rust textiles, a striped rug, tobacco curtains, an old chest, a painting, and a large taro in a dark jar. White walls that stay white.
+- **Correct.** The sockets on the left wall moved. The four-post frame stands near the ceiling fan, so the design file must give the height of each and keep the frame clear of the blades. The painting must not picture the grove.
+- **Mind.** Eight villas must repeat. Old and found pieces need eight plausible versions, or one per villa by design.
+- **Shell.** Plain new villas: white plaster, cream tile, a flat ceiling with a fan, aluminum sliding doors, a bare concrete terrace.
 
 ### Hardin Apartment
 
-Status: **Provisional, pending calibration.**
+Status: **Starting image picked by Aedwon.**
 
-- **Site.** A 74 sqm unit in an older building in Legazpi Village. Windows face other buildings. The floor is old parquet. The owner buys slowly and grows plants on a small balcony.
-- **Call.** Collected, at small scale. The owner's books, plants, and one inherited chair are part of the design.
-- **Palette.** Dominant: white walls and an oat rug over the parquet. Secondary: clay linen and red-brown woods. Accent: leaf green from plants, with black in small pieces.
-- **Leading piece.** The clay two-seat sofa, the first purchase.
-- **Light.** An overcast afternoon, with one or two lamps lit.
-- **Sourcing.** About 45 percent shop pieces, bought in stages from the sourcing list. About 30 percent the owner's own and found pieces. The rest custom, art, books, and plants.
-- **Open.** One painted wall is in scope here, because Interior Design Direction includes color direction and the owner does the work. Its color is a visual choice for Aedwon. The calibration set leaves paint out.
-- **Why it is not settled.** The shell is warm here, not white. A restrained palette against red-brown parquet has not been seen.
+- **Keep.** A clay two-seat sofa, an oat rug over old parquet, an inherited cane chair, books in stacks, plants, a slim black console, and two lamps lit on a gray afternoon. The walls stay gray-white.
+- **Correct.** The room reads a little dim. Light it as lived. Add a screen if the owner has one; the brief decides.
+- **Open.** One painted wall is in scope here, because Interior Design Direction includes color direction and the owner does the work. Its color is a visual choice for Aedwon.
+- **Shell.** An older unit, emptied. The parquet is found, worn, and left as it is.
 
 ## Edits the other four projects need
 
-Not made yet. Each waits for the calibration result and then for that project's design file.
+Not made yet. Each waits for that project's design file.
 
 | Project | Edit |
 |---|---|
-| Tanaw | Plain developer shell: white walls, wood-look vinyl, downlights, the developer's kitchen and wardrobes left as found. Remove "Bleached acacia floors and joinery" and "Storage is tall and closed" as studio work. Added storage is freestanding. Remove "one wood tone, one linen color." No wired wall lamps unless a point exists. |
-| Dalampasigan | A takeover of an older inn, cleared and repainted by the owners before Kanlungan arrived. Cream tile, aluminum windows, a tube light and a fan in each room. Remove the burnished cement floor, the acacia shutters and doors, the built-in serving counter, and the fixed wall lights as studio work. Two room characters. The story moves to the lobby and the breakfast room. |
-| Pahinga | Plain new villas: white plaster, cream tile, a flat ceiling with a fan, aluminum sliding doors, a bare concrete terrace. Remove the ebonized board ceiling and wall, the limestone floor, and all built-ins as studio work. "Very little else" becomes "few things, all of them complete." |
-| Hardin | The parquet is found, worn, and left as it is. Remove "refinished" and the built-in bedroom storage. Photograph the apartment a year on, with all three stages in place. Keep the design book, plan, and moodboard frames. |
+| Tanaw | Remove "Bleached acacia floors and joinery" and "Storage is tall and closed" as studio work. Remove "one wood tone, one linen color." No wired wall lamps unless a point exists. |
+| Dalampasigan | A takeover of an older inn replaces "the owners finished building." Remove the burnished cement floor, the acacia shutters and doors, the built-in serving counter, and the fixed wall lights as studio work. |
+| Pahinga | Remove the ebonized board ceiling and wall, the limestone floor, and all built-ins as studio work. "Very little else" becomes "few things, all of them complete." |
+| Hardin | Remove "refinished" and the built-in bedroom storage. Photograph the apartment a year on, with all three stages in place. Keep the design book, plan, and moodboard frames. |
 | All four | Rewrite brief, approach, material palette, "Shop the project," and captions in `docs/content/projects.md` after each design file is approved. Retire the matching scene bible and the matching entries in the image briefs. |
 
 ## Edits other files need
 
-Named here so nothing is lost. None of these is made yet.
+None of these is made yet.
 
 | File | Edit | Who |
 |---|---|---|
 | `AGENTS.md` | Source-of-truth table: add this file and `docs/content/project-designs/`. Replace the scene-bibles row. | Aedwon or the lead |
 | `README.md` | Status and document map: the same additions | Lead |
-| `docs/concept/shop.md`, Material range | Remove "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Add that the two-wood range limits shop products only. Point to the design files in place of the scene bibles. This text is locked. Aedwon accepted reopening it on 2026-11-16. | Lead, with Aedwon's word |
-| `docs/concept/site-architecture.md`, Project detail | The new page story with the before-and-after hero | After the slider and page round |
-| `docs/content/image-briefs.md` | Delete the eleven old Lilim shot entries once the new frames exist. Fix the Lilim material strip entries. Remove the warm-grade wording from the entries that belong to no project. Rewrite the other four projects' entries with each design file. | Implementation layer |
-| `docs/content/catalog.md`, Featured sets | Home featured pieces: the Aparador Cabinet is no longer in the Lilim great room. Proposed swap: Sinag Floor Lamp. Apply when the pinned-room frame is made. | Lead, with Aedwon's word |
+| `docs/concept/shop.md`, Material range | Remove "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Add that the two-wood range limits shop products only. This text is locked. Aedwon accepted reopening it on 2026-11-16. | Lead, with Aedwon's word |
+| `docs/concept/site-architecture.md`, Project detail | The new page story with the before-and-after hero, and a gallery sized for whole-home coverage | After the slider and page round |
+| `docs/content/image-briefs.md` | Delete the eleven old Lilim shot entries once the new frames exist. Fix the Lilim material strip entries. Remove the warm-grade wording from the entries that belong to no project. | Implementation layer |
+| `docs/content/catalog.md`, Featured sets | Home featured pieces: the Aparador Cabinet is no longer in the Lilim great room. Proposed swap: Sinag Floor Lamp. | Lead, with Aedwon's word |
 | `docs/content/scene-bibles/` | Retire each bible when its design file is approved. Lilim's is superseded now. | Lead |
 | `docs/build/prompts/photo-project-batch.md`, `photo-anchors.md` | Rewrite for pairs, design files, and the new reference budget | Implementation layer |
 | `design/photography/README.md` | Status of the old Lilim photos | Lead |

@@ -15,21 +15,24 @@ Written 2026-11-16 by the lead agent, because Claude weekly usage is running low
 
 ## Open work, in order
 
-1. **Interiors rethink: calibration set, then Lilim House.** On 2026-11-16 Aedwon rejected the Lilim photographs, accepted the rethink in `docs/build/consults/2026-11-16-ground-up-rethink.md`, and picked Shade and Stone for Lilim from the round 3 test (`design/round-3-interiors/`). The styling consult is superseded. The documents for step 2 of the rethink are written, on branch `design/round-3-interiors`:
-   - `docs/design/studio-hand.md`: the constant hand, the two locked principles (motivated light, the palette answers the site), and each project's call. Lilim is locked. The other four are provisional.
+1. **Interiors rethink: prove Lilim House end to end.** On 2026-11-16 Aedwon rejected the Lilim photographs, accepted the rethink in `docs/build/consults/2026-11-16-ground-up-rethink.md`, picked the Lilim living room from round 3 (`design/round-3-interiors/`), and picked a starting image for each of the other four projects from round 4 (`design/round-4-calibration/`). The styling consult is superseded. Read these first, on branch `design/round-3-interiors`:
+   - `docs/design/studio-hand.md`: the evidence, the standards, the realism rules, whole-home coverage, the portfolio register, and each project's starting image. There are no named directions any more.
+   - `docs/content/image-briefs.md`: the photography rules, the review the lead runs before Aedwon sees any image, and the pairing method.
    - `docs/content/project-designs/`: the design file system that replaces the scene bibles, and the Lilim House design file.
-   - `docs/content/image-briefs.md`: photography rules and the pairing method. `docs/design/visual-system.md`: Imagery rewritten.
-   - `docs/build/consults/2026-11-16-calibration-set.md`: twelve test prompts.
+   - `docs/build/consults/2026-11-16-calibration-set.md`: the round 4 prompts and results.
 
-   Next, in this order. Images go through Codex with `codex-pick`, one job at a time.
-   1. **Calibration set.** Aedwon wants to judge more before-and-after cases before the rules are fixed for the other four projects. Generate the four befores, check that each is honestly plain, then the eight afters. Build one comparison page with a drag bar per after, in `design/round-4-calibration/`. Aedwon picks. Then update the provisional calls in the studio hand and record the picks.
-   2. **Lilim tools.** Redraw the shell plan and furniture plan. Draw the perspective views for pair cameras P2 and P3. Write the registration script (Pillow and numpy are installed; OpenCV is not). Implementation layer.
-   3. **Lilim images, wave A.** The material board and the sourcing board. Then `lilim-hero` as a new edit of the approved before, with image B as the look reference and the corrections in section 10 of the design file. Then the P2 and P3 befores for approval, their afters, and three story frames. Run every pair through the checks in the pairing method. Run the reverse-order test once on the hero.
-   4. **Hiring test** on the Lilim pairs, by the lead and then Aedwon.
-   5. **Slider and project page round**, on Lilim's real images. It also settles the phone crop of the hero pair.
-   6. Then Lilim wave B, and the other four projects one at a time, Tanaw first.
+   Next, in this order. Images go through Codex with `codex-pick`, one job at a time. No further calibration round is planned: the first Lilim gate tests what round 4 left open.
+   1. **Confirm with Aedwon** the open questions in `docs/decisions.md`. Question 1 matters most.
+   2. **Lilim tools.** Redraw the shell plan and furniture plan. Draw the perspective views for pair cameras P2 to P5. Write the registration script (Pillow and numpy are installed; OpenCV is not). Implementation layer.
+   3. **Lilim first gate, 8 images.** The material board and the sourcing board. `lilim-hero` as a new edit of the approved before, with image B as the look reference and the corrections in section 12 of the design file. The family room pair, with two afters that differ only in how much is out. The dining pair at dusk. This tests a screen in a lived-in room, an evening room that is lit, and density.
+   4. **Review, then show.** Run the review list in the image briefs on every image. Regenerate what fails. Then show Aedwon, with the hiring test.
+   5. **Lilim, the rest: 14 images.** The bedroom and kitchen pairs, the nine story frames, and one spare. About 22 images in all for Lilim, and up to about 30 with regenerations.
+   6. **Slider and project page round**, on Lilim's real images.
+   7. Then the other four projects, one at a time, Tanaw first: design file, hero before for approval, hero pair for approval, the rest. Fill the portfolio register before each design.
 
-   Edits that other files still need are listed at the end of the studio hand. Three need Aedwon's word and are in `docs/decisions.md` under open questions. `site/src/data/projects.ts` is transcribed from `docs/content/projects.md` and was not regenerated; the Lilim block kept the field names and caption format the site script expects.
+   Attach a product reference only for a piece the design file places in that frame. Round 4 attached the same few references to every prompt, and the same lamp appeared in four homes.
+
+   Edits that other files still need are listed at the end of the studio hand. `site/src/data/projects.ts` is transcribed from `docs/content/projects.md` and was not regenerated; the Lilim block kept the field names and caption format the site script expects.
 2. **Superseded by step 1. Do not merge `content/project-signatures`.** The text below is kept as a record. Original step: merge the branch after Aedwon approves the five-project comparison. It holds the per-project photo signatures (Imagery rule change in `visual-system.md`, Global style in `image-briefs.md`, a Signature section in each scene bible, updated plans) and four provisional anchors: `tanaw-hero`, `dalampasigan-hero`, `pahinga-hero`, `hardin-hero`. Aedwon reviewed the comparison and found the projects distinct; the open styling question may change the anchors.
 3. **Superseded by step 1.** The four projects wait for the calibration set and their design files. The variant studio shots and product detail shots listed here are still open. Original step: regenerate the four projects' photos under the signatures (and the styling decision): 10 shots each for Tanaw, Dalampasigan, Pahinga, Hardin. Anchors first, then the rest. Use `docs/build/prompts/photo-project-batch.md` (replace `{PROJECT}`, `{BIBLE}`, `{PREFIX}`). Show each batch as a contact sheet before moving on.
    - Also generate the four variant studio shots in `image-briefs.md`: `kumot-indigo-studio`, `kumot-rust-studio`, `tabing-white-studio`, `silong-two-seat-clay-studio`.

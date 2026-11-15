@@ -65,13 +65,15 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 
 ## Imagery
 
-Status: **Revised on 2026-11-16.** Aedwon reopened the light and color grade rules he locked on 2026-11-13, after rejecting the first Lilim House photographs. The two principles marked "locked" below are his, from the round 3 test (`design/round-3-interiors/`). Crop and text over images are unchanged. The wording of the rest is decided on delegation.
+Status: **Revised on 2026-11-16,** twice. Aedwon reopened the light and color grade rules he locked on 2026-11-13, after rejecting the first Lilim House photographs. Motivated light is his, locked from round 3 (`design/round-3-interiors/`). The rest was revised after his round 4 picks (`design/round-4-calibration/`) and is decided on delegation. Crop and text over images are unchanged.
 
 - **Crop:** full-bleed 21:9 and 16:9 for rooms, 3:4 for projects, 1:1 for products
-- **Light is motivated (locked):** warmth comes only from things that give off warm light: a lamp, a pendant, low sun. It fades with distance from them. Everything else keeps the neutral to cool balance of daylight. Warmth is never a shift over the whole picture.
-- **The palette answers the site (locked):** a site surrounded by green gets a restrained, near-colorless interior, and the green outside is the color. A site with little green outside may take a warmer, more collected palette. Each project's palette is set in its design file under the [studio hand](studio-hand.md).
+- **Light is motivated (locked):** warmth comes only from things that give off warm light: a lamp, a pendant, a warm ceiling light, low sun. It fades with distance from them. Everything else keeps the neutral to cool balance of daylight. Warmth is never a shift over the whole picture.
+- **Lit as lived:** a room is lit as the people in it would light it at that hour. Evening rooms are lit and bright enough to live in.
+- **Each room is designed for itself:** there is no house palette and no menu of directions. Each home's palette is set in its design file under the standards in the [studio hand](studio-hand.md). This replaces "the palette answers the site," which did not hold in round 4. It needs Aedwon's confirmation.
 - **No grade:** neutral white balance in every photograph. Whites read white and foliage reads green. Every frame holds one true dark and one clean bright.
-- **Rooms:** furnished and styled under the studio hand, and shown without people
+- **Real homes:** rooms are furnished, lived in, and shown without people. Screens, cooling units, and sockets stay in the picture. A case study shows the whole home.
+- **Variety:** no camera recipe, lamp, or hero object repeats across projects.
 - **Before and after:** each project hero is a pair: the plain shell as handed over, and the furnished room from the same camera at the same hour. The slider that shows the pair is not chosen yet. Aedwon picks it from rendered options.
 - **Text over images:** a warm umber scrim (based on `#2E211A`) rises from the bottom edge, so `#F7F2EA` text passes 4.5:1
 

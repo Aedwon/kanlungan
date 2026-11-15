@@ -8,39 +8,67 @@ Design files replace the scene bibles, one project at a time. Lilim House has it
 
 ## Photography rules
 
-Status: **Motivated light** and **the palette answers the site** are **locked by Aedwon** on 2026-11-16. The rest is **decided on delegation** from `docs/build/consults/2026-11-16-ground-up-rethink.md` and `2026-11-16-photo-fundamentals.md`. This section replaces "Global style," which Aedwon locked on 2026-11-14 and reopened on 2026-11-16. Photography remains subject to his visual review.
+Status: **Motivated light** is **locked by Aedwon** on 2026-11-16. The rest is **decided on delegation** from the consults in `docs/build/consults/` and from Aedwon's comments on rounds 3 and 4. Revised on 2026-11-16 after round 4. This section replaces "Global style," which Aedwon locked on 2026-11-14 and reopened on 2026-11-16. Photography remains subject to his visual review.
 
-These rules cover the photograph. What goes in the room is set by the [studio hand](../design/studio-hand.md) and the project's design file. Inherit this section in every prompt. Then attach the references the design file names.
+These rules cover the photograph. What goes in the room is set by the [studio hand](../design/studio-hand.md) and the project's design file. Inherit this section in every prompt. Then attach the references the design file names for that frame, and no others.
 
 | # | Rule | Test by eye |
 |---|---|---|
-| 1 | **Honest scope.** Nothing fixed appears, moves, or changes finish. The photograph shows the client's shell and Kanlungan's loose work. | Compare with the before. Count the fixed items. |
+| 1 | **Honest scope.** Nothing fixed appears, moves, or changes finish. Every socket, switch, cooling unit, fan, and ceiling point in the before is in the after. | Compare with the before. Count the fixed items. |
 | 2 | **Level camera, straight verticals.** Rooms at 35mm to 50mm. Vignettes and details at 50mm to 85mm, at the height of the subject. Stand square to the far wall or clearly at an angle. | Every wall edge and frame is parallel to the frame sides. |
-| 3 | **Light is motivated.** See below. | You can point to the source of every bit of light. |
-| 4 | **Neutral balance, no grade.** Color comes from the room, the site, and the light sources. See below. | White walls away from lamps read white. Foliage reads green. |
-| 5 | **One natural exposure.** The opening is brighter than the room and keeps its detail. The room darkens away from it. Every frame holds one true dark and one clean bright. | The view is neither blown white nor as dark as the room. |
-| 6 | **Each room at its best hour.** A house is shot over a day. A gallery holds at least three kinds of light. | Name the hour of each frame from the frame alone. |
-| 7 | **The set is a story.** One subject per frame. About a third each of wide, medium, and detail. Neighbors differ in scale or light. Not every room is shown. | Lay the gallery out as thumbnails. No two neighbors look alike. |
-| 8 | **Continuity.** The same shell and the same pieces in every frame of a space, held by reference images. Loose styling may move to camera. | Two frames of one surface do not contradict each other. |
-| 9 | **Pairs are fair and aligned.** Same camera, same hour. The before is clean, empty, sound, and correctly exposed. See the pairing method. | Drag the bar. Every fixed line continues unbroken. |
-| 10 | **Regenerate, do not retouch.** A frame that fails is made again. One global correction of white balance or exposure toward neutral is allowed. A correction that warms a frame is not. | |
+| 3 | **No repeated recipe.** The camera is chosen for each room. See "Camera variety." | Lay the set out as thumbnails. No two share a standpoint and layout. |
+| 4 | **Light is motivated, and the room is lit as lived.** See below. | You can point to the source of every bit of light. An evening room is bright enough to read in. |
+| 5 | **Neutral balance, no grade.** Color comes from the room, the site, and the light sources. | White walls away from lamps read white. Foliage reads green. |
+| 6 | **One natural exposure.** By day the opening is brighter than the room and keeps its detail. Every frame holds one true dark and one clean bright. | The view is neither blown white nor as dark as the room. |
+| 7 | **Each room at its best hour.** A home is shot over a day and an evening. A gallery holds at least three kinds of light. | Name the hour of each frame from the frame alone. |
+| 8 | **The set is a story of a whole home.** One subject per frame. About a third each of wide, medium, and detail. Neighbors differ in scale or light. Coverage follows the studio hand. | A visitor could walk through the home from the gallery. |
+| 9 | **Real things are in the picture.** Screens, cooling units, sockets, cords, appliances, and the client's own things appear as the design file places them. Nothing real is erased to tidy a frame. | Find the screen, the cooling, and one cord. |
+| 10 | **Everything shown could physically exist.** Curtains hang from something and clear the cooling unit. Doors can open. Lamps have a cord or are cordless. | Open each door and draw each curtain in your mind. |
+| 11 | **Continuity.** The same shell and the same pieces in every frame of a space, held by reference images. Loose styling may move to camera. | Two frames of one surface do not contradict each other. |
+| 12 | **No two homes alike.** Different projects do not share hero objects, lamp shapes, art, or camera recipes, unless Aedwon has declared a signature. | One frame from each project, side by side. Nothing appears twice. |
+| 13 | **Pairs are fair and aligned.** Same camera, same hour. The before is clean, empty, sound, and correctly exposed. See the pairing method. | Drag the bar. Every fixed line continues unbroken. |
+| 14 | **Regenerate, do not retouch.** A frame that fails is made again. One global correction of white balance or exposure toward neutral is allowed. A correction that warms a frame is not. | |
 
 "About a third each" is a trade rule of thumb, not a law.
 
 **Motivated light.** Locked by Aedwon.
 
-- Every frame names its sources: daylight through a named opening, direct sun where it lands, and each lit lamp the design file lists for that frame. Nothing else lights the room. No fill and no glow without a source.
-- White balance is set for the daylight in the frame. Walls, ceilings, and linen away from lamps read neutral white to slightly cool. At dusk they read blue-gray.
-- Warmth has three allowed origins: a lit lamp, on what is near it; direct low sun, on what it strikes; and the true color of a material.
-- A lamp's warmth is local. It reaches the shade, the surface under it, and the wall and floor within about 1.5 m, and it fades with distance. It does not tint the far ceiling.
-- Keep warm and cool in the same frame. That contrast is the look.
-- Lamps are on only where the design file's lighting plan turns them on. They are off in morning and midday frames. They may be on from late afternoon. The contractor's ceiling lights are off in every furnished frame.
+- Every frame names its sources: daylight through a named opening, direct sun where it lands, each lit lamp, and the ceiling lights where the design file turns them on. Nothing else lights the room. No fill and no glow without a source.
+- By day, white balance is set for the daylight in the frame. Walls, ceilings, and linen away from lamps read neutral white to slightly cool. At dusk the surfaces near the glass read blue-gray.
+- Warmth has three allowed origins: a lit lamp or ceiling light, on what is near it; direct low sun, on what it strikes; and the true color of a material.
+- A lamp's warmth is local. It reaches the shade, the surface under it, and the wall and floor within about 1.5 m, and it fades with distance.
 - Never apply a warm cast, a warm grade, or "golden hour" light to a whole frame.
 
-**Color and the site.** Locked by Aedwon.
+**Lit as lived.** Decided on delegation, from Aedwon's comment on the round 4 condo: "lights were also not on like why."
 
-- Each project's palette is set in its design file under the studio hand's rule: the palette answers the site. A site full of green gets a near-colorless room. A site with little green may get a warmer one.
-- A photograph adds no color of its own. No grade carries a palette.
+- Light the room as the people in it would at that hour. The design file's lighting plan says what is on in each frame.
+- Bright morning and midday: lamps off. Lamps lit in full daylight are a fake tell.
+- Overcast, deep rooms, and late afternoon: the lamps people would switch on are on.
+- Dusk and evening: every lamp in the room is on. The ceiling lights may be on low, with warm bulbs, as a base. They are never the only light in a furnished frame.
+- An evening frame is exposed as a lit room. The ceiling is visible, the corners are readable, and a person could read in each seat. A dark ceiling over a few pools of lamp light is a fault, unless the frame is a detail of one lamp.
+- At night with no daylight in the frame, balance so that white walls read as warm white. Never orange.
+
+**Camera variety.** Decided on delegation, from Aedwon's question: "i noticed there's always a door at the right, why is that?" The cause was ours: every round 4 before used one recipe.
+
+- Choose the standpoint for the room: where its best feature is, where a person would stand, and what the frame is about.
+- Within a set, no two wide or medium frames share the same perspective type, the same position of the main opening, and the same side for the main piece.
+- Use the range: one-point and two-point views, views toward the opening, along it, and with it behind the camera, an elevation, an upright frame, and a low or high camera where the subject calls for it.
+- No fixed element sits in the same place in more than two frames of a set. A door at the right edge is the example.
+- Across projects, the five hero frames differ in perspective, in where the opening sits, and in shape.
+- Pairs still need landmarks. A window behind the camera is allowed in a pair if the walls in frame carry sockets, doors, and corners.
+- Each design file's shot list carries a camera variety table. Fill it before generating.
+
+**Real things in the frame.**
+
+- A screen is off: a matte dark rectangle with a faint, plausible reflection. No content, faces, or logos.
+- Appliances, speakers, routers, and chargers are plain and unbranded. They are the right size.
+- A cord may show for a short length near its socket. No device floats without one, except a cordless lamp.
+- Cooling units and fans stay in every frame that would show them.
+- No piece is a copy of a recognizable real design. If a reviewer could name the designer, regenerate.
+
+**Color.**
+
+- Each room's palette is set in its design file. A photograph adds no color of its own. No grade carries a palette.
 - Materials keep their true color. White linen, pale stone, and white paint stay distinct from each other.
 - What is outside reads as it is: fresh green foliage, blue-green sea, a blue dusk sky.
 - Do not carry one project's palette or hour into another.
@@ -49,11 +77,77 @@ These rules cover the photograph. What goes in the room is set by the [studio ha
 
 **People.** Rooms are furnished and in use, and shown without people. Only anonymous hands at work or distant figures seen wholly from behind may appear, and only where a shot entry asks for them. No faces, profiles, reflections of faces, identifying tattoos, name badges, or recognizable people. The team view is a distant rear view, never twelve portraits. All entities are fictional; place names are real. The fictional-brand notice from [copy](copy.md#fictional-brand-notice) goes in the page footer, outside the photograph.
 
-**NEGATIVE:** people's faces or recognizable people; real brand logos; readable text, signatures, prices, or labels; tourist imagery; flag colors; decorative cultural motifs; religious figures, tribal carvings, baskets on walls, shells, figurines, or souvenirs; flowers in bloom; plants that could not live on the site; a warm cast over the whole frame; flat shadowless light; light with no source; HDR look; CGI; glossy render lighting; plastic sheen; oversaturated greens; furniture lined in showroom rows; new walls, windows, moldings, beams, or ceiling features; impossible architecture; floating objects; extra chair legs; warped weave; fake film borders; excessive bokeh; crushed blacks; orange filters; invented product variants.
+**NEGATIVE:** people's faces or recognizable people; real brand logos; copies of recognizable real furniture, lighting, or art; readable text, signatures, prices, or labels; tourist imagery; flag colors; decorative cultural motifs; religious figures, tribal carvings, baskets on walls, shells, figurines, or souvenirs; flowers in bloom; art that pictures the place it hangs in, such as a beach scene at the beach or palms in a palm grove; plants that could not live on the site; a warm cast over the whole frame; flat shadowless light; light with no source; lamps lit in bright morning or midday light; a dim, underlit evening room; HDR look; CGI; glossy render lighting; plastic sheen; oversaturated greens; furniture lined in showroom rows; new walls, windows, moldings, beams, or ceiling features; moved or missing sockets, switches, or cooling units; curtains under or in front of an air conditioner; impossible architecture; floating objects; extra chair legs; warped weave; fake film borders; excessive bokeh; crushed blacks; orange filters; invented product variants.
 
 **Cropping.** Rooms: 21:9 or 16:9. Project cards and tall gallery views: 3:4. Product masters: 1:1 on `#E8DFD2`. Collection cards: 4:3. Maker and team portraits: 4:5. Keep 10 to 15 percent breathing room around important edges. A crop is a derivative of the same master, not another shot. Both frames of a pair use the same crop box. Where a mockup uses a fixed box or a 16:10 shop image, retain extra source area for that box without altering the layout. UI scrims and text belong in the page, not the photograph.
 
 **Scenes that belong to no project.** The showroom, makers, materials, and studio panels follow the same rules. Their entries in the shot list still carry the old warm-grade wording. Correct an entry before generating from it. The approved product masters are not affected.
+
+## Review before Aedwon sees an image
+
+Status: **Decided on delegation** on 2026-11-16. Aedwon caught moved outlets, an impossible curtain, repeated lamps, and a repeated camera by himself in round 4. That is the lead's job. The lead runs this list on every image and on every set, and regenerates what fails, before anything is shown. The lead does not relay an agent's "pass" without looking.
+
+State the result when showing a set: what was checked, what was regenerated, and anything left for his eye.
+
+**1. Before and after match** (pairs)
+
+- Count in both frames: sockets, switches, cooling units, fans, ceiling points, downlights, doors, door handles, window panels, columns. Same count, same place, same type.
+- Walls, floor, and ceiling have the same finish. Nothing is painted, built, or removed.
+- The view matches: the same sky, horizon, trees, or towers.
+- The alignment checks in the pairing method pass.
+
+**2. Physical plausibility**
+
+- Every curtain hangs from a track on the ceiling or wall. None is under or in front of a cooling unit, in a fan's sweep, or in a door swing.
+- Every door could open fully. Sliding panels have somewhere to slide.
+- Walkways, bed sides, and dining chairs have clearance, as the studio hand sets it.
+- Nothing tall stands under a ceiling fan. A pendant hangs from a real point.
+- Every lamp has a cord to a socket that exists, or is cordless.
+- Furniture stands on the floor, at a believable size, with contact shadows.
+
+**3. Light**
+
+- Every bit of light has a source in the frame or named in the design file.
+- No warm cast over the frame. Run the neutral patch check on pairs.
+- Lamps are on when the hour calls for them and off in bright daylight.
+- An evening room reads as lit.
+- The sun is where the site and the hour put it. Shadows fall one way.
+
+**4. Lived in**
+
+- The real things the design file places in this frame are there: screen, media, cooling, appliances, shoes, chargers.
+- One or two signs of an ordinary day. Not none, not ten.
+
+**5. Repetition**
+
+- Within the set: no lamp shape, vessel, plant, or artwork repeats from room to room, except a declared pair or the same object seen again.
+- Across projects: check the portfolio register in the studio hand. No hero object, lamp shape, kind of art, or jar-and-plant set from another project.
+- Shop pieces appear because the design file places them, not because a reference was attached.
+
+**6. Camera**
+
+- Verticals are straight and the camera is level.
+- No two frames in the set share a recipe. No fixed element sits in the same place in more than two frames.
+- This project's hero differs from the other projects' heroes.
+
+**7. Clichés and lookalikes**
+
+- No flowers in bloom, no art that pictures its own site, no shells, no styling that says "tropical."
+- No decorative cultural motifs.
+- No piece that copies a recognizable real design. No logo, and no shape that stands in for one.
+- No real building, brand, or person.
+
+**8. Realism tells**
+
+- Inspect at page size and at 100 percent: warped weave, extra or missing legs, melted edges, repeated texture tiles, text-like marks, impossible reflections, objects that merge.
+- Shop pieces match their references in form, finish, and size.
+- Counts are right: chairs, cushions, panels, shelves.
+
+**9. The set as a whole**
+
+- Coverage: every room the design file lists is shown.
+- Neighbors in the gallery differ in scale or light.
+- Then the hiring test in the [design file README](project-designs/README.md).
 
 ## Pairing method
 
@@ -66,7 +160,7 @@ Not yet tested: generating the before from the after, and whether the image tool
 - The before is honest and unremarkable: clean, empty, sound, plain, and correctly exposed. Not dirty, dark, or under construction.
 - The camera, lens, crop, hour, and weather are identical.
 - Only Kanlungan's work differs. The change in light comes only from lamps and curtains.
-- By day the contractor's lights are off in both frames. At dusk they are on in the before and off in the after.
+- By day the ceiling lights are off in both frames. In the evening the before shows them as supplied, cool and at full. The after shows them with warm bulbs, on low, under the lamps.
 
 ### Method
 
@@ -74,7 +168,7 @@ Not yet tested: generating the before from the after, and whether the image tool
 2. **Draw the camera's view.** Project the shell from the pair camera into a perspective line drawing. It is a reference for the before and a ruler for both frames. Where a before is already approved, as for the Lilim hero, trace the landmarks from the approved image and fit the drawing to it. Never regenerate an approved before to fit a drawing.
 3. **Generate the before.** Text plus the line drawing. The same hour as the planned after.
 4. **Get the before approved.** Aedwon approves each project's hero before. The lead approves the others.
-5. **Generate the after as an edit of the before.** References, five at most: the before, the material board, the sourcing board, and up to two product masters.
+5. **Generate the after as an edit of the before.** References, five at most: the before, the material board, the sourcing board, and up to two product masters. Attach a product master only for a piece that the design file places in that frame. Never attach the same few masters to every prompt.
 6. **Register.** Compute one perspective transform from matched points on fixed architecture and warp the before onto the after. Never warp the after. Crop both to the shared area.
 7. **Verify** with the checks below. If a check fails, regenerate the after. Do not retouch geometry.
 8. **Cut every crop from the registered master pair.** Each crop uses the same box on both frames. Export the two files at the same pixel size.
@@ -90,7 +184,8 @@ If the after drifts when lamps come on, generate it in two edits: furniture and 
 | Structure count | Count columns, door panels, downlights, sockets | Identical |
 | Overlay | Blend the two frames at 50 percent | Fixed edges are single, not doubled |
 | Difference | Subtract one frame from the other | Only furnishings, curtains, and lamp light remain |
-| Neutral patches | Sample the same wall and ceiling patches in both frames, at least 2 m from any lit lamp. Compare red minus blue. | The after is no more than about 10 points warmer, of 255. Not applied where the before has ceiling lights on. |
+| Services | Count sockets, switches, cooling units, fans, and ceiling points in both frames | The same count, place, and type. A piece may stand in front of one. |
+| Neutral patches | Sample the same wall and ceiling patches in both frames, at least 2 m from any lit lamp. Compare red minus blue. | The after is no more than about 10 points warmer, of 255. Used for daylight pairs only. Evening pairs are judged by eye. |
 | The view | Compare the sky, the horizon, and the main tree or tower shapes | The same hour and the same shapes |
 | Slider | Drag a real bar to 25, 50, and 75 percent | Every line that crosses the bar continues unbroken |
 
@@ -104,6 +199,7 @@ The registration script is not written. This machine has Pillow and numpy but no
 - No regular mid-scale grids in view. Rafters, strong tile joints, louvers, and slats will not match line for line.
 - Calm views behind the glass. Sky, hills, and treetops forgive small drift. A skyline of distinct towers does not, so check each tower.
 - The bar's resting position crosses simple structure, not a tree line or a patterned floor.
+- Vary the camera between pairs. Landmarks come in many forms: a door, a run of cabinets, a pair of sockets, a corner.
 
 ## Product consistency sheets
 

@@ -424,3 +424,31 @@ Across the set:
 - The generator may warm the collected afters more than the restrained ones, as it did in round 3. That would bias him against Collected for the wrong reason. The neutral patch check exists to catch it.
 - Scenario 1 has a skyline, which is the hardest view to hold between frames. Check each tower.
 - I have not seen these images. The picks above are my reading of the two locked principles, not a result.
+
+
+## 11. Results (added 2026-11-16, after Aedwon judged the set)
+
+The coordinator added an option C to each scenario at Aedwon's request: an unruled room by "a skilled professional designer." The condo was generated twice. Aedwon said the first renders looked fake. They are in `design/round-4-calibration/v1-condo/`.
+
+| # | Scenario | He picked | Which was | His words |
+|---|---|---|---|---|
+| 1 | Condo | C | The unruled room | "C, looks more lively. honestly all renders could use some TVs here idk like be for real. lights were also not on like why" |
+| 2 | Beach inn | A | My pick | "A, but i would like to note the inconsistency with the outlets. some people might spot that. also the right curtain is under the AC unit, not possible" |
+| 3 | Villa | B | The opposite of my pick | "B" |
+| 4 | Apartment | A | My pick | "A" |
+
+What this means:
+
+- The rule "a green site takes a near-colorless room" failed its own test in scenario 3. Section 2 said that result would change the studio hand most. It did. The named directions are removed.
+- Our rooms lost the condo to a room with no rules, because ours were dim and sparse. The rule that kept ceiling lights off in every furnished frame was wrong.
+- The unruled rooms lost everywhere a warm wash or a tourist cliché was plain to see. Motivated light held in every pick.
+
+Faults in this test that were mine:
+
+- **One camera recipe.** Every before was written as a view from the back of the room with a door near the right edge. Aedwon noticed.
+- **One kit of references.** The same lamp, jar, and plant were attached or described in almost every prompt. He noticed the lamp.
+- **A curtain that cannot hang.** Prompt 2.0 put the air conditioner on the window wall, and prompts 2.A and 2.B asked for a curtain across that whole wall.
+- **Sockets not protected.** The after prompts named the sockets but gave the generator no reason to keep them visible, and furniture was placed over them.
+- **One room per home.** No kitchen, no bed in the condo. A single room cannot show a home.
+
+The revised rules are in `docs/design/studio-hand.md` and `docs/content/image-briefs.md`. The picked images are starting images for four design files. They are not final frames.

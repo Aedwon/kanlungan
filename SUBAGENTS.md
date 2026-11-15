@@ -48,3 +48,5 @@ Keep it short. No narrative, no restating the brief.
 ## The lead's checks
 
 The lead verifies each result before accepting it: renders key screens, measures sizes, greps for em dashes and off-scale values, and checks content against `docs/content/`. Do not relay an agent's report as fact.
+
+For images, the lead reviews every set critically before Aedwon sees it, using the pre-show checklist in `docs/content/image-briefs.md`. Fix or regenerate what fails. Aedwon should judge design, not catch errors such as repeated objects, impossible fixtures, or drift between a before and an after. (Aedwon, 2026-11-16.)

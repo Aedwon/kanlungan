@@ -97,13 +97,34 @@ Written by Fable 5.2 as step 2 of the rethink Aedwon accepted. One line per chan
 | 2026-11-16 | Product sheets: Lilim uses the Silong in charcoal linen and the Hapag, Hain, and Himlay in ebonized mahogany. All are existing catalog options. | Decided on delegation | `docs/content/image-briefs.md` |
 | 2026-11-16 | The eleven old Lilim shot entries are superseded and kept only as a record of where each image is used | Decided on delegation | `docs/content/image-briefs.md` |
 
+### Round 4 calibration, 2026-11-16
+
+Aedwon judged four more rooms, each with two ruled afters and one unruled after. Images: `design/round-4-calibration/`. This table supersedes rows above where they conflict: the two named directions, the site rule for palettes, the provisional calls for four projects, the rule that ceiling lights stay off, and the Lilim shot list of three pairs.
+
+| Date | Decision | Status | File |
+|---|---|---|---|
+| 2026-11-16 | Starting images picked: condo C (unruled), beach inn A (quiet, white and honey wood), villa B (warm woods and deep color), apartment A (warm, small, personal) | Locked by Aedwon | `docs/design/studio-hand.md` |
+| 2026-11-16 | Requirements from his comments: screens and other real-life things in the rooms; evening rooms lit; outlets the same before and after; no curtain under an air conditioner; a case study shows a whole home, with beds and a kitchen; the camera does not repeat one recipe; lamp shapes do not repeat across homes | Locked by Aedwon | `docs/design/studio-hand.md`, `docs/content/image-briefs.md` |
+| 2026-11-16 | Named directions removed. The constant is five standards (truthful light, edited and lived in, one leading piece, proportion, quality) and a point of view. The design is made for each room. This replaces "the palette answers the site" and the five-part constant hand, both locked earlier the same day. | Decided on delegation; needs Aedwon's confirmation | `docs/design/studio-hand.md` |
+| 2026-11-16 | Motivated light stands. Added: a room is lit as lived. Ceiling lights get warm bulbs and may be on low in the evening. Evening frames are exposed as lit rooms. | Motivated light locked; the addition decided on delegation | `docs/design/studio-hand.md`, `docs/content/image-briefs.md` |
+| 2026-11-16 | Realism rules: real things have a place, fixed services do not move, everything must physically work, finished means lived in | Decided on delegation | `docs/design/studio-hand.md` |
+| 2026-11-16 | Whole-home coverage: seven kinds of room in every case study. 18 pairs and about 55 furnished frames across five projects. | Decided on delegation; counts for four projects provisional | `docs/design/studio-hand.md` |
+| 2026-11-16 | No two homes alike: no default kit, no repeated hero objects, lamp shapes, art, vessels, or camera recipes across projects, unless Aedwon declares a signature. A portfolio register is filled before any design. A shop piece shows in at most two projects. | Decided on delegation | `docs/design/studio-hand.md` |
+| 2026-11-16 | Photography rules revised to 14 rules, with camera variety, lit as lived, and real things in the frame. A services check added to the pairing method. Product references are attached only for pieces in the frame. | Decided on delegation | `docs/content/image-briefs.md` |
+| 2026-11-16 | Review before Aedwon sees an image: a nine-part list the lead runs on every image and set | Decided on delegation | `docs/content/image-briefs.md` |
+| 2026-11-16 | Imagery section revised again to match | Decided on delegation | `docs/design/visual-system.md` |
+| 2026-11-16 | Lilim House: the fourth bedroom is the family room, with the screen and the books. The great room has no screen. Kitchen, main bath, and entry added. Five pairs and nine story frames. Each lamp shape appears once. Scope reads "Living, dining, kitchen, family room, three bedrooms, covered terrace." | Decided on delegation; rendered frames pending Aedwon's review | `docs/content/project-designs/lilim-house.md`, `docs/content/projects.md` |
+| 2026-11-16 | Design files gain two sections: rooms and coverage, and real things and fixed services | Decided on delegation | `docs/content/project-designs/README.md` |
+
 ## Open questions for Aedwon
 
-1. **Calibration picks.** Four scenarios, two afters each, once the images exist. See `docs/build/consults/2026-11-16-calibration-set.md`.
-2. **A locked sentence now contradicts the Lilim redesign.** `docs/concept/shop.md`, Material range, says "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Recommendation: remove it and add that the two-wood range limits shop products only. Cost: one sentence. Not edited yet.
-3. **Home featured pieces.** The Aparador Cabinet is no longer in the Lilim great room, so the Home "From the shop" image cannot pin it. Options: swap it for the Sinag Floor Lamp (recommended, one line in the catalog and the site data), or put the Aparador back in the great room (costs the restraint of the picked image). Needed before the pinned-room frame is made.
+1. **Confirm the revised hand.** He locked "the palette answers the site" and a five-part constant hand on 2026-11-16. His round 4 picks did not follow the site rule, so both are replaced by standards, a point of view, and a design made for each room. Recommendation: confirm. Cost of not confirming: the villa he picked breaks the rule as written.
+2. **A screen in the Lilim great room.** Options: none, with the screen in the family room (recommended, and it keeps the image he picked), or one on the sideboard in the middle of the room (costs a dark rectangle in the hero).
+3. **A locked sentence now contradicts the Lilim redesign.** `docs/concept/shop.md`, Material range, says "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Recommendation: remove it and add that the two-wood range limits shop products only. Cost: one sentence. Not edited yet.
+4. **Home featured pieces.** The Aparador Cabinet is no longer in the Lilim great room, so the Home "From the shop" image cannot pin it. Options: swap it for the Sinag Floor Lamp (recommended, one line in the catalog and the site data), or put the Aparador back in the great room (costs the restraint of the picked image). Needed before the pinned-room frame is made.
+5. **Signatures.** No object is declared a studio signature, so nothing may repeat across projects. He may declare one.
 
-Pending his review from rendered images, not yet questions: the Lilim hero after, the composition of the commissioned work, the pendant at catalog size, the old sideboard, the woven panel, and how the hero pair is cropped for phones. Each is marked in the Lilim design file.
+Pending his review from rendered images, not yet questions: the Lilim hero after, how full the family room should be, the evening light level, the composition of the commissioned work, the pendant at catalog size, the old sideboard, the woven panel, and which pair is the phone hero. Each is marked in the Lilim design file.
 
 ## Before public release
 

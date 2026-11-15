@@ -6,42 +6,44 @@ Five projects: three residential and two hospitality. Four use Full-Service Furn
 
 ## Lilim House
 
-Revised on 2026-11-16 for the Shade and Stone direction that Aedwon picked. The design is in [the Lilim design file](project-designs/lilim-house.md). The captions are provisional until the photographs are approved. Field names and the caption format stay as the site expects them.
+Revised on 2026-11-16. The design is in [the Lilim design file](project-designs/lilim-house.md). The captions are provisional until the photographs are approved. Field names and the caption format stay as the site expects them.
 
 - **Location:** Antipolo, Rizal
 - **Type:** Residential, family house
 - **Floor area:** 320 sqm
 - **Service:** Full-Service Furnishing
 - **Year:** 2025
-- **Scope:** Living, dining, four bedrooms, covered terrace
+- **Scope:** Living, dining, kitchen, family room, three bedrooms, covered terrace
 - **Duration:** 18 weeks from signed proposal to handover, with 6 days on site
 - **As handed over:** A new house, finished by the contractor and empty. White painted walls, pale gray tile, flat white ceilings with recessed downlights, bronze aluminum sliding doors, and a bare bulb at each ceiling point.
 - **Brief:** A family of five moved into the first house they built, on a hillside above a green valley. The contractor handed it over white, tiled, and empty. They wanted it calm and finished from the first night, with the view left open and nothing more built.
-- **Approach:** The studio kept the rooms nearly colorless, so the valley is the color. Charcoal linen, black wood, and steel sit against white linen, pale wool, and gray stone. One slab of Romblon marble leads the living room. The ceiling lights stay off, and lamps put warm light where the family sits. Nothing was built or painted.
+- **Approach:** The studio kept the great room quiet, so the valley is the color. Charcoal linen, black wood, and steel sit against white linen, pale wool, and gray stone, with cane and warm wood in every room. One slab of Romblon marble leads the living room. The family's books and screen fill a room of their own. Nothing was built or painted.
 - **Material palette:** Honed Romblon marble, ebonized plantation mahogany, blackened steel, white and charcoal linen, wool, cane
-- **Shop the project:** Silong Sofa (charcoal), Dapithapon Lounge Chair, Lambot Wool Rug, Bakal Side Table, Luad Table Lamp, Sinag Floor Lamp, Hapag Dining Table (ebonized mahogany), Hain Dining Chair (ebonized mahogany), Kapis Pendant, Tapayan Vessel, Himlay Bed (ebonized mahogany), Aparador Cabinet, Duyan Daybed, Batis Coffee Table
+- **Shop the project:** Silong Sofa (charcoal), Dapithapon Lounge Chair, Lambot Wool Rug, Luad Table Lamp, Sinag Floor Lamp, Hapag Dining Table (ebonized mahogany), Hain Dining Chair (ebonized mahogany), Kapis Pendant, Tapayan Vessel, Yakap Sofa (sand), Baul Credenza (ebonized), Lenta Pendant, Himlay Bed (ebonized mahogany), Aparador Cabinet, Duyan Daybed, Batis Coffee Table
 - **Image notes:** A white, shaded living room open to a green valley, with a charcoal sofa, a large stone table, white linen curtains, and lamps lit in the late afternoon
 
 ### Gallery captions
 
 1. Living room. Late afternoon, seen from the entry. The Silong Sofa in charcoal linen faces a daybed made for the house, across one slab of Romblon marble.
-2. Living room. The stone table, made for the house by Marmol Atelier, on the Lambot Wool Rug. The old jar came with the family.
+2. Living room. The stone table, made for the house by Marmol Atelier, on the Lambot Wool Rug.
 3. Living room. Honed marble, charcoal linen, and the cane of the Dapithapon Lounge Chair.
-4. Dining area. At dusk the Kapis Pendant lights the ebonized Hapag Dining Table and six Hain Dining Chairs. The ceiling lights stay off.
+4. Dining area. At dusk the Kapis Pendant lights the ebonized Hapag Dining Table and six Hain Dining Chairs.
 5. Dining area. Morning sun reaches the table for an hour.
-6. Long wall. An old hardwood sideboard, a Luad Table Lamp, and cut branches in a Tapayan Vessel.
-7. Main bedroom. The ebonized Himlay Bed in morning light, under a woven panel made for the room by Tikog Loom.
-8. Main bedroom. A Luad Table Lamp at the bedside at dusk.
-9. Children's room. Two beds made for the house, the Aparador Cabinet, and a wall for the children's own drawings.
-10. Covered terrace. The Duyan Daybed and the Batis Coffee Table face the valley. A long bench and planted jars mark the open edge.
-11. Curtains. White linen runs from the ceiling for the full length of the glass.
-12. Exterior. The house at dusk, lit only by its lamps.
+6. Kitchen. The builder's kitchen, with stools made for the counter and a Lenta Pendant above it. Breakfast happens here.
+7. Family room. The Yakap Sofa faces a wall of the family's books, with the screen on a Baul Credenza.
+8. Entry. Shoes come off here, and keys go in the tray.
+9. Main bedroom. The ebonized Himlay Bed in morning light, under a woven panel made for the room by Tikog Loom.
+10. Main bedroom. The bedside at dusk.
+11. Main bath. A cypress stool, a towel, and a fern.
+12. Children's room. Two beds made for the house, the Aparador Cabinet, and a wall for the children's own drawings.
+13. Covered terrace. The Duyan Daybed and the Batis Coffee Table face the valley in the early sun.
+14. Exterior. The house at dusk, with every room lit.
 
 ### Approach, expanded
 
-The house looks over a valley, and green fills every opening. We kept the rooms nearly colorless, so the valley is the color. Charcoal linen, black wood, and steel sit against white linen, pale wool, and gray Romblon marble. One stone table, made for the house, leads the living room. Honey-colored cane appears once in each room.
+The house looks over a valley, and green fills every opening. We kept the great room quiet, so the valley is the color. Charcoal linen, black wood, and steel sit against white linen, pale wool, and gray Romblon marble. One stone table, made for the house, leads the living room. Cane and warm wood appear in every room.
 
-The builder left a grid of ceiling lights. We keep them off. Three lamps and one pendant put warm light where the family sits, eats, and reads, and the rest of the room stays in cool daylight. White linen runs from the ceiling for the full length of the glass. We left the middle of the great room open, because three children need a floor. Nothing was built or painted.
+The builder left cool ceiling lights. We changed every bulb to a warm one and added lamps where the family sits, eats, and reads. White linen runs from the ceiling for the full length of the glass. We left the middle of the great room open, because three children need a floor. Their books, their games, and the screen have a room of their own. Nothing was built or painted.
 
 ## Tanaw Residence
 
