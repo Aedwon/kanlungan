@@ -84,3 +84,5 @@ No other pendants, lamps, or seating. In particular: one Kapis Pendant only, ove
 
 
 Camera corrections, 2026-11-15: C4 lens 35mm and heading 15 so the east-wall Aparador is in frame; C9 and C11 moved so the lounge chair is in view (the original positions could not see it).
+
+Accepted with small deviations (Aedwon, 2026-11-15): `lilim-g04-afternoon-table.png` (some sun on the interior floor), `lilim-shop-room.png` (floorboard direction, sofa slightly off its mark). `lilim-g10-exterior.png` accepted as consistent with the plan.
