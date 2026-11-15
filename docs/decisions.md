@@ -129,14 +129,14 @@ Aedwon judged five more rooms, each with three afters at different levels of cha
 | 2026-11-16 | The camera is set from a line drawing and described by the edges of the frame, because words did not hold it in round 5. Small rooms may use 24mm to 28mm. | Decided on delegation | `docs/content/image-briefs.md` |
 | 2026-11-16 | Lilim House is layered: the family's things are out, each room has something on a wall, pattern and color come in small doses. The family room gains six framed children's drawings and a low daybed under the window. | Decided on delegation; rendered frames pending Aedwon's review | `docs/content/project-designs/lilim-house.md` |
 | 2026-11-16 | Lilim gate 1: eight images in `design/lilim/`. Two living room afters at two levels of layering, and the family room, dining, and kitchen pairs. Three line drawings made for the new cameras. No boards at this gate. | Decided on delegation | `docs/build/consults/2026-11-16-lilim-gate-1.md` |
+| 2026-11-16 | The revised studio hand is confirmed: standards, a point of view, and a design made for each room replace "the palette answers the site" and the five-part constant hand. Aedwon confirmed it from the gate 1 images, not the text. | Locked by Aedwon | `docs/design/studio-hand.md` |
+| 2026-11-16 | The Lilim living room is the layered level (`lilim-hero-B-layered.png`). | Locked by Aedwon | `docs/content/project-designs/lilim-house.md` |
 
 ## Open questions for Aedwon
 
-1. **Confirm the revised hand.** He locked "the palette answers the site" and a five-part constant hand on 2026-11-16. His round 4 picks did not follow the site rule, so both are replaced by standards, a point of view, and a design made for each room. Recommendation: confirm. Cost of not confirming: the villa he picked breaks the rule as written.
-2. **How full the Lilim living room should be.** He picks between two afters of the room he chose in round 3: calm, or one step more layered. Gate 1 shows both. Recommendation: layered, from his round 5 picks. Cost either way: none.
-3. **A locked sentence now contradicts the Lilim redesign.** `docs/concept/shop.md`, Material range, says "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Recommendation: remove it and add that the two-wood range limits shop products only. Cost: one sentence. Not edited yet.
-4. **Home featured pieces.** The Aparador Cabinet is no longer in the Lilim great room, so the Home "From the shop" image cannot pin it. Options: swap it for the Sinag Floor Lamp (recommended, one line in the catalog and the site data), or put the Aparador back in the great room (costs the restraint of the picked image). Needed before the pinned-room frame is made.
-5. **Signatures.** No object is declared a studio signature, so nothing may repeat across projects. He may declare one.
+1. **A locked sentence now contradicts the Lilim redesign.** `docs/concept/shop.md`, Material range, says "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Recommendation: remove it and add that the two-wood range limits shop products only. Cost: one sentence. Not edited yet.
+2. **Home featured pieces.** The Aparador Cabinet is no longer in the Lilim great room, so the Home "From the shop" image cannot pin it. Options: swap it for the Sinag Floor Lamp (recommended, one line in the catalog and the site data), or put the Aparador back in the great room (costs the restraint of the picked image). Needed before the pinned-room frame is made.
+3. **Signatures.** No object is declared a studio signature, so nothing may repeat across projects. He may declare one.
 
 Pending his review from rendered images, not yet questions: the evening light level, the composition of the commissioned work, the pendant at catalog size, the old sideboard, the woven panel, and which pair is the phone hero. Each is marked in the Lilim design file.
 

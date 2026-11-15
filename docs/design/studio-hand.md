@@ -47,7 +47,7 @@ One caution. The unruled rooms of round 4 were lively and also generic: flowers 
 
 ## The standards
 
-Status: **Motivated light is locked by Aedwon** (2026-11-16) and stands. The rest is **decided on delegation and needs his confirmation**, because it replaces two things he locked on 2026-11-16: "the palette answers the site" and the five-part constant hand.
+Status: **Locked by Aedwon** (2026-11-16). He confirmed it from the gate 1 images. It replaces "the palette answers the site" and the five-part constant hand.
 
 These hold in every room of every project. They are standards, not a style.
 
@@ -73,7 +73,7 @@ Status: **Decided on delegation.** This is what keeps a room that meets the stan
 
 ## The design is made for each room
 
-Status: **Decided on delegation and needs Aedwon's confirmation.** It replaces "the palette answers the site."
+Status: **Locked by Aedwon** (2026-11-16). It replaces "the palette answers the site."
 
 There is no menu of directions. A designer reads five things and then designs the room.
 
