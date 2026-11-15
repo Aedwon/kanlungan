@@ -323,7 +323,7 @@ None of these is made yet.
 |---|---|---|
 | `AGENTS.md` | Source-of-truth table: add this file and `docs/content/project-designs/`. Replace the scene-bibles row. | Aedwon or the lead |
 | `README.md` | Status and document map: the same additions | Lead |
-| `docs/concept/shop.md`, Material range | Remove "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Add that the two-wood range limits shop products only. This text is locked. Aedwon accepted reopening it on 2026-11-16. | Lead, with Aedwon's word |
+| `docs/concept/shop.md`, Material range | Remove "Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged." Add that the two-wood range limits shop products only. Done 2026-11-16, with Aedwon's word. | Lead |
 | `docs/concept/site-architecture.md`, Project detail | The new page story with the before-and-after hero, and a gallery sized for whole-home coverage | After the slider and page round |
 | `docs/content/image-briefs.md` | Delete the eleven old Lilim shot entries once the new frames exist. Fix the Lilim material strip entries. Remove the warm-grade wording from the entries that belong to no project. | Implementation layer |
 | `docs/content/catalog.md`, Featured sets | Home featured pieces: the Aparador Cabinet is no longer in the Lilim great room. Proposed swap: Sinag Floor Lamp. | Lead, with Aedwon's word |

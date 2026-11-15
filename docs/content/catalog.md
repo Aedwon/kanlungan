@@ -133,7 +133,7 @@ A product may sit in more than one collection.
 
 ## Featured sets
 
-- **Home, featured pieces:** Silong Sofa, Hapag Dining Table, Dapithapon Lounge Chair, Kapis Pendant, Aparador Cabinet, Tapayan Vessel
+- **Home, featured pieces:** Silong Sofa, Hapag Dining Table, Dapithapon Lounge Chair, Kapis Pendant, Sinag Floor Lamp, Tapayan Vessel
 - **Shop landing, Kanlungan Originals:** Silong Sofa, Yakap Sofa, Hapag Dining Table, Unan Bed, Sinag Floor Lamp, Lambot Wool Rug
 - **Shop landing, new pieces:** Lenta Pendant, Kiso Stool, Habi Wall Piece, Salo Dining Table, Tanghali, Bakal Side Table
 - **Sold-out example for the demo:** show Kiso Stool as sold out on one screen to demonstrate the state.

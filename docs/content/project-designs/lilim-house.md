@@ -565,7 +565,7 @@ Furnished frames only. Each uses the approved after of its room as the first ref
 
 Two more frames follow later, outside the gallery:
 
-- `lilim-shop-room`: the wide room view for the Home "From the shop" section. Six shop pieces must each be clear of the others. It waits for the featured-pieces swap named in the studio hand.
+- `lilim-shop-room`: the wide room view for the Home "From the shop" section. Six shop pieces must each be clear of the others. It shows the six Home featured pieces: Silong Sofa, Hapag Dining Table, Dapithapon Lounge Chair, Kapis Pendant, Sinag Floor Lamp, and Tapayan Vessel. When it exists, the Home pins and product cards move from the Aparador Cabinet to the Sinag Floor Lamp.
 - An installation-day frame: the room half placed, with wrapped pieces and no people.
 
 ### Camera variety
