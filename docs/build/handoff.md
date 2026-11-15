@@ -21,12 +21,15 @@ Written 2026-11-16 by the lead agent, because Claude weekly usage is running low
    - `docs/content/project-designs/`: the design file system that replaces the scene bibles, and the Lilim House design file.
    - `docs/build/consults/2026-11-16-calibration-set.md`: the round 4 prompts and results.
 
-   Next, in this order. Images go through Codex with `codex-pick`, one job at a time. Calibration round 5 runs first, at Aedwon's request: 20 images on personality in five new room types, from `docs/build/consults/2026-11-16-calibration-round-5.md` into `design/round-5-calibration/`. Record his picks, then start the Lilim steps below.
-   1. **Confirm with Aedwon** the open questions in `docs/decisions.md`. Question 1 matters most.
-   2. **Lilim tools.** Redraw the shell plan and furniture plan. Draw the perspective views for pair cameras P2 to P5. Write the registration script (Pillow and numpy are installed; OpenCV is not). Implementation layer.
-   3. **Lilim first gate, 8 images.** The material board and the sourcing board. `lilim-hero` as a new edit of the approved before, with image B as the look reference and the corrections in section 12 of the design file. The family room pair, with two afters that differ only in how much is out. The dining pair at dusk. This tests a screen in a lived-in room, an evening room that is lit, and density.
-   4. **Review, then show.** Run the review list in the image briefs on every image. Regenerate what fails. Then show Aedwon, with the hiring test.
-   5. **Lilim, the rest: 14 images.** The bedroom and kitchen pairs, the nine story frames, and one spare. About 22 images in all for Lilim, and up to about 30 with regenerations.
+   - `docs/build/consults/2026-11-16-calibration-round-5.md`: the round 5 prompts. Aedwon's picks are in the studio hand.
+   - `docs/build/consults/2026-11-16-lilim-gate-1.md`: the eight prompts for the first real Lilim images.
+
+   Rounds 4 and 5 are done. Next, in this order. Images go through Codex with `codex-pick`, one job at a time.
+   1. **The shell color correction tool.** The generator warms every after. A separate implementor is building a tool that matches the walls, ceiling, and floor of an after to its before, away from lamps. It runs on every after before review.
+   2. **Check the three line drawings** in `design/lilim/drawings/`. They set the cameras for the family room, the dining view, and the kitchen. `draw_views.py` makes them from the design file's sizes.
+   3. **Lilim gate 1, 8 images,** from the gate 1 file into `design/lilim/`. The approved before is already there as `lilim-hero-before.png`. Check each new before against its drawing before making its after.
+   4. **Review, then show.** Run the review list in the image briefs on every image and on the set. Regenerate what fails. Then show Aedwon. He picks the level of the living room, A or B.
+   5. **Lilim, the rest:** the bedroom pair and the nine story frames, each new camera from a drawing. Also the registration script (Pillow and numpy are installed; OpenCV is not), and the redrawn shell and furniture plans.
    6. **Slider and project page round**, on Lilim's real images.
    7. Then the other four projects, one at a time, Tanaw first: design file, hero before for approval, hero pair for approval, the rest. Fill the portfolio register before each design.
 

@@ -2,7 +2,7 @@
 
 Status: the living room direction is **locked by Aedwon** on 2026-11-16 (round 3 image B). The hero before is **approved by Aedwon**. Everything else here is **decided on delegation**. Visual choices that Aedwon has not yet seen rendered are marked "pending review."
 
-Revised on 2026-11-16 after round 4: whole-home coverage, a family room with the screen, a kitchen, a bath and an entry, evening rooms that are lit, fixed services that do not move, lamps that differ from room to room, and a camera that changes from frame to frame.
+Revised on 2026-11-16 after rounds 4 and 5: whole-home coverage, a family room with the screen, a kitchen, a bath and an entry, evening rooms that are lit, fixed services that do not move, lamps that differ from room to room, and a camera that is set from a drawing. After round 5 the house is also more layered: the family's things are out, every room has something on a wall, and character comes in small doses. The first images are specified in `docs/build/consults/2026-11-16-lilim-gate-1.md`.
 
 This file is the pattern for the other four projects. Its sections are defined in [README.md](README.md). It follows the [studio hand](../../design/studio-hand.md) and the [photography rules](../image-briefs.md#photography-rules). Public facts and copy are in [projects](../projects.md#lilim-house). It supersedes `../scene-bibles/lilim-house.md`.
 
@@ -55,8 +55,8 @@ The house has four bedrooms. The family uses the fourth as a family room.
 | Room | As handed over |
 |---|---|
 | Entry hall | About 2 m wide. The front door at one end and the great room door at the other. One ceiling point with a bare bulb. One socket. |
-| Kitchen | About 3.4 by 5 m, off the entry hall, on the uphill side. Plain white cabinets on two walls with a gray counter and a white tile splashback. A steel sink under a sliding window onto the uphill garden. A counter that juts into the room with an overhang for stools. A gap for a refrigerator and a gap for a range, with a hood above it. One ceiling point over the jutting counter, with a bare bulb. Four downlights. Sockets along the splashback. No air conditioner. |
-| Family room (the fourth bedroom) | About 4 by 4.6 m, on the uphill side. One sliding window on the west wall. The door and a white closet on the east wall. An air conditioner high on the north wall. One ceiling point with a bare bulb. Sockets on the south wall and the north wall. |
+| Kitchen | About 3.4 m wide and 5 m long, off the entry hall, on the uphill side. On the far wall, from left to right: a gap for a refrigerator, plain white base cabinets with a gray counter and a steel sink under a sliding window onto the uphill garden, one white wall cabinet beside the window, and a gap for a range with a hood above it. A white tile splashback with two double sockets. Tall white pantry cupboards on the left wall, near the door. A counter that juts in from the right wall with an overhang for stools. One ceiling point over that counter, with a bare bulb. Four downlights. No air conditioner. |
+| Family room (the fourth bedroom) | About 4 m wide and 4.6 m long, on the uphill side. One sliding window, 1.6 m wide, centered on the west wall. On the east wall, the door at the north end and a white closet with sliding doors south of it. An air conditioner high on the north wall. One ceiling point at the center with a bare bulb. Two double sockets and a cable outlet on the south wall. One socket on the north wall and one on the west wall, south of the window. |
 | Main bedroom | About 4.6 by 5 m. A three-panel sliding glass door on the east wall onto a narrow tiled strip under a 1 m roof overhang, then planting and the valley. The entry door and the closet door on the west wall. A solid north wall with two socket plates. An air conditioner high on the south wall. One ceiling point with a bare bulb, and four downlights. |
 | Main bath | White wall tile, the same gray floor tile, a white vanity with one basin and a fixed mirror, a glass shower screen, a small frosted window |
 | Children's room | About 4 by 4.6 m, on the uphill side. One sliding window on the west wall. The door on the east wall. An air conditioner high on the north wall. One ceiling point, two downlights. Sockets on the south wall. |
@@ -71,7 +71,7 @@ Fixed points that must coincide in a before and its after. Count them in both fr
 | **P1, living room.** Trace these from the approved before, `design/round-3-interiors/lilim-living-before.png`. | The line where the west wall meets the ceiling. The four-gang switch plate. The two double sockets. The north window, four corners. The air conditioner, both ends. The capped ceiling point. The far ceiling point. The seven downlights. The door-line column, both edges. The wide door stile in the right foreground and the door head. The terrace columns. The outer edge of the terrace floor and the ridge line of the valley. |
 | **P2, dining.** Not generated yet. | The door stiles and door head of the north bay. The north pier. The far ceiling point, overhead. The downlights in frame. The terrace columns and the outer edge of the terrace floor. The north wall's meeting with the ceiling at the left edge. The two sockets low on the north wall. |
 | **P3, main bedroom.** Not generated yet. | The north wall's four edges. The two socket plates on it. The ceiling point. The downlights in frame. The first stile of the glass door at the right edge. The closet door at the left edge. |
-| **P4, family room.** Not generated yet. | The door and its handle. The closet doors. The sockets on the south wall. The ceiling point. The air conditioner on the north wall. The corner where the south and east walls meet. |
+| **P4, family room.** Not generated yet. | The corner where the south and west walls meet. The window, four corners of its frame. The two double sockets and the cable outlet on the south wall. The socket on the west wall. The ceiling point. The lines where both walls meet the ceiling and the floor. |
 | **P5, kitchen.** Not generated yet. | The window and the sink. The run of cabinets, door by door. The hood. The two gaps. The ceiling point. The downlights. The sockets along the splashback. |
 
 ## 2. Brief
@@ -99,11 +99,11 @@ Kanlungan took the house from handover to move-in in 18 weeks, with 6 days on si
 
 ## 3. Concept
 
-**A cool, shaded house where the valley is the only color and the light is warm only where the family is.**
+**A cool, shaded house where the valley is the only strong color, the family's life is in plain sight, and the lamps are lit where the family is.**
 
-Mood: still, shaded, generous.
+Mood: shaded, generous, lived in.
 
-The great room is the quiet one. The family room is the full one. The house needs both to read as a home.
+Round 5 set the level. Aedwon picks the room where real people live and a studio's hand shows, with character that is not overbearing. So every room here is layered: the family's things are out, and each one has been chosen, placed, and edited. The great room is the calmest of the day rooms. The kitchen and the family room are the fullest. The bedrooms are the quietest. No room has bare walls.
 
 ### Leading piece in each room
 
@@ -124,7 +124,7 @@ These become "The moves" on the project page. Each is one decision a visitor can
 2. **One slab of stone at the center.** The seating gathers around it.
 3. **Dark against pale, with warm wood and cane.** Charcoal, black wood, and steel against white linen, pale wool, and gray stone. The valley is the green.
 4. **Every bulb changed, and lamps where people sit.** The cool ceiling lights became warm and dimmable. Lamps do the rest.
-5. **One room left quiet, one room left full.** The middle of the great room stays open for the children. The books and the screen fill the family room.
+5. **The family's own things, framed and placed.** The children's drawings are framed and hung in the family room. The grandmother's jar stands by the sofa. Three hundred books fill one wall.
 
 One line on the page states that nothing was built or painted.
 
@@ -171,7 +171,9 @@ Three zones along the length: living near the entry, an open middle, dining at t
 | Living | Side table and table lamp | At the north end of the sofa |
 | Living | Old jar | On the floor at the south end of the sofa, 30 cm clear of the arm and clear of the two sockets |
 | Living | Small tree | Beside the door-line column, on its south side |
-| Middle | Old sideboard, with a lamp, a vessel, and a speaker | Against the west wall, about 8.5 m north of the entry wall, beside the midway socket |
+| Middle | Old sideboard, with a lamp, a vessel, a speaker, and a tray of glasses | Against the west wall, about 8.5 m north of the entry wall, beside the midway socket |
+| Middle | Two small charcoal studies | On the west wall above the sideboard, side by side, hung low |
+| Middle | A stack of three floor cushions | On the floor beside the sideboard, for the children |
 | Middle | Nothing else | Open floor from the rug to the dining chairs |
 | Dining | Dining table, 220 cm | Under the far ceiling point, long side across the room |
 | Dining | Six dining chairs | Three on each long side. None at the ends. |
@@ -198,13 +200,15 @@ The bench and the jars mark the open edge with loose pieces. The terrace has no 
 |---|---|
 | Credenza, 180 cm, with the screen on it | Centered on the south wall, at the sockets |
 | Two open shelving units | Either side of the credenza. Together they fill the south wall with books around the screen. |
-| Deep sofa, three-seat | Against the north wall, facing the screen, about 3 m from it. Its west end stops short of the air conditioner's airflow. |
+| Deep sofa, three-seat | Against the north wall, facing the screen, about 3 m from it. Its west end stops short of the air conditioner's airflow. It is beside the P4 camera and out of that frame. |
 | Wool rug, 240 by 300 | Between the sofa and the credenza |
 | Two carved stools | On the rug, as tables that the children move |
 | Three floor cushions | On the rug, toward the screen |
-| Floor lamp | At the sofa's east end |
+| Floor lamp | In the southwest corner, between the shelving and the framed drawings, at the west wall socket |
 | Ceiling shade | At the ceiling point |
-| Curtains | Lined linen on a ceiling track across the west wall. No cooling unit is on this wall. |
+| Six framed drawings | On the west wall south of the window, in two rows of three: the children's drawings in thin black frames with white mounts. They are the art in this room. |
+| Low daybed, 200 by 90 cm | Under the window, along the west wall. The children sprawl on it, and a guest can sleep on it. |
+| Curtains | Lined linen on a ceiling track a little wider than the window. Open by day. Closed in the evening, behind the daybed and clear of the drawings. No cooling unit is on this wall. |
 
 ### Kitchen
 
@@ -215,6 +219,8 @@ The bench and the jars mark the open edge with loose pieces. The terrace has no 
 | Pendant | At the ceiling point over the jutting counter |
 | Reed runner, 160 by 230 | On the floor between the two runs of cabinets |
 | Small appliances and jars | On the counter, at the splashback sockets |
+| Steel rail with hooks | On the wall between the wall cabinets and the range, holding two pans and a ladle |
+| One small framed drawing and a short row of cookbooks | On the counter end against the wall |
 
 ### Main bedroom
 
@@ -272,7 +278,8 @@ Rules for this project:
 - A true dark and a clean pale in every room.
 - **Warm material in every room.** Round 4 showed that black and white alone loses. If a frame reads as black and white, add wood or cane, not color.
 - No furniture matches the gray tile.
-- No dyed textile and no pattern except weave, outside the family room and the children's room.
+- Pattern and color come in small doses: one cushion in a small charcoal and bone check, tea towels in a fine stripe, book spines, the children's drawings. Nothing bold. No dyed textile at large scale.
+- Something on a wall in every room.
 
 A flat-lay **material board** is the color reference for every frame: `design/photography/boards/lilim-material-board.png`. Not made yet. It shows honed gray-white marble, charcoal linen, white linen, undyed wool pile, ebonized wood, natural mahogany, honey cane, blackened steel, capiz, and aged brass, on a neutral white ground in daylight.
 
@@ -305,7 +312,7 @@ No lamp shape repeats in the house, except the pair at the main bed.
 | L5 | Two cordless lanterns, brass and opal glass | Terrace | None. Cordless. | The daybed and the bench |
 | L6, L7 | A pair: slim blackened steel stem, small white linen shade | Main bedroom side tables | The two plates on the north wall | Each side of the bed |
 | L8 | Small turned acacia base, white shade | Between the children's beds | South wall | Both beds |
-| L9 | Tall floor lamp, black steel tripod, white linen cylinder shade | Family room, at the sofa's east end | North wall | The sofa |
+| L9 | Tall floor lamp, black steel tripod, white linen cylinder shade | Family room, in the southwest corner | West wall | The daybed and the floor |
 | L10 | Linen drum shade on the ceiling | Family room | Ceiling point | The room |
 | L11 | Matte ceramic dome pendant | Kitchen, over the counter | Ceiling point | The stools |
 
@@ -344,7 +351,7 @@ By day the room is brighter at the opening and darker at the back. In the evenin
 | Phone chargers | Main bedroom side tables, at the socket plates | P3, small |
 | Towels, bottles, hamper, bin | Main bath | The bath frame |
 
-The great room has no screen, by the family's choice in the brief. If Aedwon wants one in the hero, it goes on the old sideboard in the middle zone, at the midway socket. The cost is a dark rectangle in the middle of the picked image.
+The great room has no screen, by the family's choice in the brief. Aedwon confirmed this on 2026-11-16.
 
 ### Services that must match the before
 
@@ -369,6 +376,10 @@ Shop references are in `design/photography/`. A shop reference is attached to a 
 |---|---|---|---|
 | Silong Sofa, three-seat, charcoal linen | Shop | Natural mahogany frame | `silong-studio-three-quarter.png`, fabric changed in words |
 | Two cushions, 60 cm | Custom, Habol Textiles | Undyed handloomed cotton, plain | Sourcing board |
+| One cushion, 50 cm | Custom, Habol Textiles | Handloomed cotton in a small charcoal and bone check | Sourcing board |
+| Kumot Throw, Natural | Shop | Over the sofa arm | `kumot-studio.png` |
+| Three floor cushions, 70 cm | Custom, Habol Textiles | Undyed and charcoal handloomed cotton. The same kind as in the family room. | Sourcing board |
+| Two charcoal studies | Art, Ines Dalisay | Studies for the commissioned work, each about 40 by 50 cm, in thin black frames | Sourcing board |
 | Stone table | Custom, Marmol Atelier | Honed gray-white Romblon marble, 200 by 110 cm, top at 32 cm. One slab on top, with mitered edges about 10 cm deep, so it reads as a block. A recessed blackened steel plinth. Matte. Quiet veins. No seam on the top. | Sourcing board |
 | Daybed bench | Custom, Lilok Workshop | Backless, ebonized acacia, about 200 by 80 by 40 cm. One white linen seat pad and one bolster. | Sourcing board |
 | Dapithapon Lounge Chair | Shop | Honey rattan and cane | `dapithapon-studio.png` |
@@ -411,10 +422,12 @@ Shop references are in `design/photography/`. A shop reference is attached to a 
 | Lambot Wool Rug, 240 by 300 | Shop | | `lambot-studio.png` |
 | Tuntungan Stool, two | Shop | Honey acacia, used as tables | `tuntungan-studio.png` |
 | Three floor cushions, 70 cm | Custom, Habol Textiles | Undyed and charcoal handloomed cotton | Sourcing board |
+| Low daybed | Custom, Lilok Workshop | A black-stained acacia platform, 200 by 90 by 40 cm, with a mattress cushion in sand linen | Sourcing board |
 | Floor lamp | Custom, Tanso Lighting Works | L9 | Sourcing board |
 | Ceiling shade | Custom, Kanlungan | L10. White linen drum, 50 cm. | Sourcing board |
 | Tabing Linen Curtain, White | Shop | Lined, to keep glare off the screen | `tabing-studio.png` |
 | Television, console, router, books, board games | Client's | No logos. The screen is a matte dark rectangle. | |
+| Six children's drawings, framed | Client's, framed by Kanlungan | Crayon and marker on paper, bright, in thin black frames with white mounts, each about 40 by 50 cm | |
 
 ### Kitchen
 
@@ -426,6 +439,7 @@ Shop references are in `design/photography/`. A shop reference is attached to a 
 | Banig Rug, 160 by 230 | Shop | As a runner | `banig-studio.png` |
 | Bilao Tray | Shop | With fruit | `bilao-studio.png` |
 | Utensil jars and a set of bowls | Custom, Bukal Clayworks | Ash-glazed stoneware | Sourcing board |
+| Steel rail with hooks | Custom, Tanso Lighting Works | Blackened steel, 80 cm | Sourcing board |
 | Rice cooker, kettle, dish rack, boards, tea towels | Client's | Plain, no logos | |
 
 ### Main bedroom and main bath
@@ -466,9 +480,9 @@ Shop references are in `design/photography/`. A shop reference is attached to a 
 
 ### The mix
 
-Counting each kind of piece once across the house: 28 from the shop, 26 custom, 2 found or bought, about 10 kinds of the family's own things, and 1 commissioned work. That is about two fifths from the shop and about two fifths custom.
+Counting each kind of piece once across the house: 28 from the shop, 29 custom, 2 found or bought, about 11 kinds of the family's own things, and 2 kinds of commissioned art. That is about two fifths from the shop and about two fifths custom.
 
-In the great room, 10 of 21 kinds are from the shop. The pieces that lead are not: the stone table, the daybed bench, the curtains, the commissioned work, and the jar.
+In the great room, 10 of 23 kinds are from the shop. The pieces that lead are not: the stone table, the daybed bench, the curtains, the commissioned work, and the jar.
 
 Within the house, quiet background pieces repeat on purpose: the linen curtains, the ebonized side tables. Lamps and leading pieces do not repeat from room to room, except in pairs. Each shop lamp appears once. The first version of this file used one shop lamp in six places, which is a kit, not a design.
 
@@ -485,16 +499,16 @@ Loose objects by surface. Styling moves to camera: an object may shift on its su
 
 | Surface | Objects |
 |---|---|
-| Stone table | The wide black bowl, empty. One large book, closed. More than half the top stays clear. |
-| Sofa | The two undyed cushions |
+| Stone table | The wide black bowl with green calamansi. Two large books, stacked. A child's wooden top beside them. Half the top stays clear. |
+| Sofa | The two undyed cushions and the checked one. The Kumot Throw over one arm. |
 | Daybed bench | The bolster. One open book, face down. |
 | Side table | The lamp. One drinking glass. |
-| Sideboard | The brass lamp. The Tapayan Vessel with tall cut green branches. The speaker. One short stack of books. |
-| Middle of the great room | In one frame only: a half-built block tower on the floor |
-| Dining table | Bare at dusk except two glasses and a water jug. In the morning frame: one low dish of green calamansi and two cups. |
+| Sideboard | The brass lamp. The Tapayan Vessel with tall cut green branches. The speaker. A short stack of books. A wooden tray with a water jug and five glasses. |
+| Middle of the great room | The stack of floor cushions. A half-built block tower on the floor. One pair of small slippers by the open door. |
+| Dining table | At dusk, laid for dinner for five: a natural linen runner, five plates and glasses, a covered stoneware dish, a water jug. In the morning frame: one low dish of green calamansi and two cups. |
 | Terrace coffee table | One lantern. One book. |
-| Family room | Books upright and stacked, not arranged by color. A board game left open on one stool. One controller on a floor cushion. The Kumot Throw over the sofa arm. Two school bags by the door. |
-| Kitchen counter | The Bilao Tray with bananas and calamansi. The kettle. The rice cooker. A dish rack with two bowls. One tea towel over the oven handle. Two drawings held on the refrigerator by plain magnets. |
+| Family room | Books upright and stacked, not arranged by color. A board game left open on one stool. One controller on a floor cushion. A cotton blanket over the sofa arm. Two school bags by the door. A phone on its charger at the sofa. |
+| Kitchen counter | The Bilao Tray with bananas and calamansi. The kettle. The rice cooker. A dish rack with two bowls. A row of storage jars that do not all match. Three cookbooks and one small framed drawing at the counter end. A striped tea towel over the oven handle. Two drawings held on the refrigerator by plain magnets. Breakfast for two children on the counter. |
 | Bedside tables | Lamp, one book, one glass, and a phone on its charger on one side. Lamp only on the other. |
 | Chest at the bed foot | The folded charcoal blanket. A shirt laid over one end. |
 | Bath | Towel on the stool. Tray on the vanity. |
@@ -528,8 +542,8 @@ Each pair is one camera, one hour, two frames. The before is generated or approv
 | **P1, living room. The hero.** | `lilim-hero-before`, `lilim-hero` | Two-point. The entry corner, looking north-northeast along the glass wall. Sofa and commissioned work on the left, doors and valley on the right, dining at the far end. | 35mm nominal, 1.2 m. The approved before reads wider than 35mm. The after copies it exactly. | About 4:45 pm. Open shade in the room. Sun on the valley. | Approved: `design/round-3-interiors/lilim-living-before.png`. Lights off. | L1 to L4 on. Downlights off. Curtains stacked open. | 21:9 master. 16:9 crop. |
 | **P2, dining at dusk.** | `lilim-dining-dusk-before`, `lilim-dining-dusk` | One-point. From the west wall, looking east down the length of the table to the open doors, the terrace, and the valley. The pendant is centered above. | 35mm, 1.25 m | About 6:20 pm. Dusk. | Empty. All downlights and the bare bulb on, cool white and flat. Reflections in the glass. | The pendant, the terrace lanterns, and the downlights on low and warm. The room reads lit. The valley is blue-green. | 16:9 master. 3:4 crop. |
 | **P3, main bedroom.** | `lilim-bedroom-before`, `lilim-bedroom` | One-point elevation. Square to the bed wall from the south wall. The bed is centered. The glass doors and the valley are at the right edge. | 35mm, 1.1 m | About 8:00 am. Sun from the east, from the right. | Empty. A hard patch of sun crosses the bare tile. Bulb off. | Sheer curtain drawn across the doors. The sun is soft. Lamps off. | 16:9 master. 3:4 crop. |
-| **P4, family room at night.** | `lilim-family-room-before`, `lilim-family-room` | Two-point. From the window corner with the window behind the camera, looking southeast. The sofa's end in the left foreground, the wall of books and the screen on the right, the door at the far left. No window in frame. | 35mm, 1.1 m | About 7:00 pm. Dark outside. | Empty. The bare bulb on: one hard, cool light. | L9 and L10 on. The screen off. White walls read warm white, not orange. | 16:9 master. |
-| **P5, kitchen in the morning.** | `lilim-kitchen-before`, `lilim-kitchen` | One-point, upright. From the hall doorway, looking along the jutting counter to the sink and the window. | 35mm, 1.3 m | About 7:00 am. Open shade from the hill. | Empty counters, two gaps, a bare bulb, off. | Appliances in the gaps. Stools. L11 on. Fruit, a kettle, a dish rack. | 3:4 master |
+| **P4, family room at night.** | `lilim-family-room-before`, `lilim-family-room` | Two-point. In the doorway at the northeast corner, looking southwest. The wall of books and the screen on the left, the corner near the center, the window and the framed drawings on the right, the sofa's end in the right foreground. | 28mm, 1.2 m. The room is small. | About 7:00 pm. Dark outside. | Empty. The bare bulb on: one hard, cool light. | L9 and L10 on. The screen off. The walls and ceiling read white, not orange. | 16:9 master. |
+| **P5, kitchen in the morning.** | `lilim-kitchen-before`, `lilim-kitchen` | One-point, upright. From the hall doorway, looking along the jutting counter to the sink and the window. | 28mm, 1.35 m | About 7:00 am. Open shade from the hill. | Empty counters, two gaps, a bare bulb, off. | Appliances in the gaps. Stools. L11 on. Fruit, a kettle, a dish rack. | 3:4 master |
 
 P2 and P4 show a room that is lit in the evening. P3 shows that linen alone changes the light. P5 shows that Kanlungan furnishes a built room without touching what is built.
 
@@ -556,15 +570,15 @@ Two more frames follow later, outside the gallery:
 
 ### Camera variety
 
-No two frames share a recipe. Check this table before generating, and again on the contact sheet.
+No two frames share a recipe. Check this table before generating, and again on the contact sheet. Each new before is generated from a line drawing of its view, and its prompt lists what is at each edge of the frame. Words alone did not hold the camera in round 5.
 
 | Frame | Perspective | The main opening is | Height | Orientation | Where a door sits |
 |---|---|---|---|---|---|
 | `lilim-hero` | Two-point | On the right, receding | 1.2 m | Very wide | None in frame |
 | `lilim-dining-dusk` | One-point | Straight ahead | 1.25 m | Wide | None in frame |
 | `lilim-bedroom` | One-point elevation | At the right edge | 1.1 m | Wide | Left edge, closet |
-| `lilim-family-room` | Two-point | Behind the camera | 1.1 m | Wide | Far left |
-| `lilim-kitchen` | One-point | Straight ahead, small | 1.3 m | Upright | None in frame |
+| `lilim-family-room` | Two-point, from the doorway | Right of center, at night | 1.2 m | Wide | None in frame |
+| `lilim-kitchen` | One-point | Straight ahead, small | 1.35 m | Upright | None in frame |
 | `lilim-children-room` | Two-point | Behind the camera | 1.0 m | Wide | Far right |
 | `lilim-terrace` | One-point along a colonnade | On the right, open air | 0.9 m | Wide | None |
 | `lilim-exterior-dusk` | Two-point, looking up | The house is the subject | 1.5 m | Wide | None |
@@ -635,7 +649,7 @@ Generate the final `lilim-hero` as a new edit of the approved before. Attach ima
 | 8 | **The jar hides the two sockets** and is jammed against the sofa arm. | It stands 30 cm clear of the arm, clear of the frame edge, and beside the sockets, which stay visible. |
 | 9 | **Shop pieces drifted.** The dining chairs have cane backs. The dining table is not the Hapag. The pendant is about half again larger than the Kapis. | Hain chairs with plain backs and cane seats. The Hapag with four legs. The Kapis at 48 cm across. The pendant size is pending review. |
 | 10 | **The linen reads cream.** | White linen. It may glow warm only where a lamp is beside it. |
-| 11 | **No one lives there.** | One open book, face down, on the daybed. One glass on the side table. The speaker and a short stack of books on the sideboard. A lamp cord running to the midway socket. |
+| 11 | **No one lives there.** | The styling in section 10: a throw, a checked cushion, books, fruit, a child's toy, the floor cushions, the tray of glasses, the two studies above the sideboard, a lamp cord running to the midway socket. Layered, and still calm. |
 
 The shell held well in image B. The switch plate, sockets, window, air conditioner, capped point, column, and all seven downlights are where the before has them.
 
@@ -644,12 +658,11 @@ The shell held well in image B. The switch plate, sockets, window, air condition
 | Item | Where | Layer |
 |---|---|---|
 | Shell plan and furniture plan | `design/photography/plans/lilim-house.svg`, redrawn | Implementation |
-| Perspective line drawings for P2 to P5 | `design/photography/plans/` | Implementation |
+| Perspective line drawings | Made for P2, P4, and P5 in `design/lilim/drawings/`, by `draw_views.py`. Still to make: P3 and each story frame with a new camera. | Implementation |
 | Alignment script | See the pairing method | Implementation |
-| Material board and sourcing board | `design/photography/boards/` | Codex |
-| First gate, 8 images: the two boards, the P1 after, the P4 before and two afters at two densities, the P2 before and after | `design/photography/` | Codex, then Aedwon |
-| The rest, 14 images: the P3 and P5 pairs, the nine story frames, and one spare | `design/photography/` | Codex |
+| Gate 1, 8 images: two hero afters at two levels of layering, and the family room, dining, and kitchen pairs | `design/lilim/`. Prompts in `docs/build/consults/2026-11-16-lilim-gate-1.md`. | Codex, then the lead's review, then Aedwon |
+| The rest: the bedroom pair, the nine story frames, and the two boards if pieces drift between frames | `design/lilim/` | Codex |
 
-The first gate tests what round 4 left open, inside real frames: a screen in a lived-in room, an evening room that is lit, and how full a room should be. The two P4 afters differ only in how much is out: one with the styling in section 10, one with about half of it.
+Every after passes through the shell color correction before review, because the generator warms every after.
 
 The eleven old Lilim photographs stay in `design/photography/` until their replacements are approved. Deleting them needs Aedwon's approval.

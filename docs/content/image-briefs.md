@@ -8,14 +8,14 @@ Design files replace the scene bibles, one project at a time. Lilim House has it
 
 ## Photography rules
 
-Status: **Motivated light** is **locked by Aedwon** on 2026-11-16. The rest is **decided on delegation** from the consults in `docs/build/consults/` and from Aedwon's comments on rounds 3 and 4. Revised on 2026-11-16 after round 4. This section replaces "Global style," which Aedwon locked on 2026-11-14 and reopened on 2026-11-16. Photography remains subject to his visual review.
+Status: **Motivated light** is **locked by Aedwon** on 2026-11-16. The rest is **decided on delegation** from the consults in `docs/build/consults/` and from Aedwon's comments on rounds 3, 4, and 5. Revised on 2026-11-16 after rounds 4 and 5. This section replaces "Global style," which Aedwon locked on 2026-11-14 and reopened on 2026-11-16. Photography remains subject to his visual review.
 
 These rules cover the photograph. What goes in the room is set by the [studio hand](../design/studio-hand.md) and the project's design file. Inherit this section in every prompt. Then attach the references the design file names for that frame, and no others.
 
 | # | Rule | Test by eye |
 |---|---|---|
 | 1 | **Honest scope.** Nothing fixed appears, moves, or changes finish. Every socket, switch, cooling unit, fan, and ceiling point in the before is in the after. | Compare with the before. Count the fixed items. |
-| 2 | **Level camera, straight verticals.** Rooms at 35mm to 50mm. Vignettes and details at 50mm to 85mm, at the height of the subject. Stand square to the far wall or clearly at an angle. | Every wall edge and frame is parallel to the frame sides. |
+| 2 | **Level camera, straight verticals.** Rooms at 35mm to 50mm. Small rooms, under about 4.5 m on a side, at 24mm to 28mm, because a longer lens sees only one wall. Never wider than 24mm. Vignettes and details at 50mm to 85mm, at the height of the subject. Stand square to the far wall or clearly at an angle. | Every wall edge and frame is parallel to the frame sides. |
 | 3 | **No repeated recipe.** The camera is chosen for each room. See "Camera variety." | Lay the set out as thumbnails. No two share a standpoint and layout. |
 | 4 | **Light is motivated, and the room is lit as lived.** See below. | You can point to the source of every bit of light. An evening room is bright enough to read in. |
 | 5 | **Neutral balance, no grade.** Color comes from the room, the site, and the light sources. | White walls away from lamps read white. Foliage reads green. |
@@ -57,6 +57,22 @@ These rules cover the photograph. What goes in the room is set by the [studio ha
 - Across projects, the five hero frames differ in perspective, in where the opening sits, and in shape.
 - Pairs still need landmarks. A window behind the camera is allowed in a pair if the walls in frame carry sockets, doors, and corners.
 - Each design file's shot list carries a camera variety table. Fill it before generating.
+
+**The camera is set, not described.** Decided on delegation, from round 5. The prompts asked for five different cameras. Four of the five rooms came back as a frontal one-point view. Words such as "from the near right corner" do not hold a camera.
+
+- A new before is generated from a **line drawing** of the view: the room's walls, openings, and fixed items in perspective, drawn from the plan with the camera's position, heading, height, and lens. The drawing is image 1. The prompt says to match every line. The lead checks the drawing before any generation, because the drawing is the camera.
+- The prompt also describes the frame **by its edges**: what is at the left edge, the right edge, the top, and the bottom, and where the main corners and openings fall as a share of the frame width. Never by standpoint alone.
+- An after is always an edit of its approved before. Its prompt repeats the edge list and says the camera does not move.
+- A story frame with a new camera gets its own line drawing, or is cut as a crop from a frame that exists.
+- If a before comes back with the wrong camera, regenerate it. Do not accept it and rewrite the plan to fit, unless Aedwon has approved that image.
+
+**The generator warms every after.** Decided on delegation, from round 5, where Aedwon saw it and measurement confirmed it: the ceiling in every after was warmer than in its before, by 4 to 60 points of red minus blue.
+
+- Never ask for warmth. Prompts do not use "warm," "cozy," "golden," or "glow" for light. They say what is lit and say that the walls and ceiling keep the color they have in image 1.
+- Describe lamp light as soft white light that stays near the lamp.
+- After generation, run the **shell color correction**: a tool matches the color of the walls, ceiling, and floor in the after to the same surfaces in the before, away from lit lamps. It is part of the pipeline, not a retouch. It runs before registration.
+- Then run the neutral patch check. A frame that still fails is regenerated.
+- In evening pairs the before is lit cool and the after is lit by lamps, so the two do not match by design. Correct the after toward neutral white on the ceiling and the walls far from lamps, and judge the rest by eye.
 
 **Real things in the frame.**
 
@@ -108,7 +124,7 @@ State the result when showing a set: what was checked, what was regenerated, and
 **3. Light**
 
 - Every bit of light has a source in the frame or named in the design file.
-- No warm cast over the frame. Run the neutral patch check on pairs.
+- No warm cast over the frame. The shell color correction has run, and the neutral patch check passes on daylight pairs.
 - Lamps are on when the hour calls for them and off in bright daylight.
 - An evening room reads as lit.
 - The sun is where the site and the hour put it. Shadows fall one way.
@@ -127,6 +143,7 @@ State the result when showing a set: what was checked, what was regenerated, and
 **6. Camera**
 
 - Verticals are straight and the camera is level.
+- The frame matches its line drawing and its edge list. An after has the same edges as its before.
 - No two frames in the set share a recipe. No fixed element sits in the same place in more than two frames.
 - This project's hero differs from the other projects' heroes.
 
@@ -166,12 +183,13 @@ Not yet tested: generating the before from the after, and whether the image tool
 
 1. **Fix the shell on paper.** The design file's "As handed over" section lists the finishes, the fixed items, and 8 to 12 landmarks for each pair camera.
 2. **Draw the camera's view.** Project the shell from the pair camera into a perspective line drawing. It is a reference for the before and a ruler for both frames. Where a before is already approved, as for the Lilim hero, trace the landmarks from the approved image and fit the drawing to it. Never regenerate an approved before to fit a drawing.
-3. **Generate the before.** Text plus the line drawing. The same hour as the planned after.
+3. **Generate the before.** The line drawing as image 1, plus text that lists what is at each edge of the frame. The same hour as the planned after. Check the result against the drawing before going on.
 4. **Get the before approved.** Aedwon approves each project's hero before. The lead approves the others.
 5. **Generate the after as an edit of the before.** References, five at most: the before, the material board, the sourcing board, and up to two product masters. Attach a product master only for a piece that the design file places in that frame. Never attach the same few masters to every prompt.
-6. **Register.** Compute one perspective transform from matched points on fixed architecture and warp the before onto the after. Never warp the after. Crop both to the shared area.
-7. **Verify** with the checks below. If a check fails, regenerate the after. Do not retouch geometry.
-8. **Cut every crop from the registered master pair.** Each crop uses the same box on both frames. Export the two files at the same pixel size.
+6. **Correct the shell color.** Match the walls, ceiling, and floor of the after to the before, away from lit lamps. See "The generator warms every after."
+7. **Register.** Compute one perspective transform from matched points on fixed architecture and warp the before onto the after. Never warp the after. Crop both to the shared area.
+8. **Verify** with the checks below. If a check fails, regenerate the after. Do not retouch geometry.
+9. **Cut every crop from the registered master pair.** Each crop uses the same box on both frames. Export the two files at the same pixel size.
 
 If the after drifts when lamps come on, generate it in two edits: furniture and curtains first with lamps off, then lamps on.
 
