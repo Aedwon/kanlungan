@@ -72,6 +72,8 @@ Advisor recommendation approved by Aedwon. The detailed approved decision supers
 | 2026-11-14 | Maker stories: Tanso also makes small metal tables; Marmol casts marble offcuts into terrazzo; Kanlungan carries one Okabe piece. | `docs/content/makers.md` |
 | 2026-11-14 | Pale floor imagery exception: Tanaw bleached acacia floors and Pahinga cream limestone floors may be pale instead of warm umber. | `docs/design/visual-system.md` |
 | 2026-11-14 | Photography coverage after catalog expansion: 143 canonical shot entries and 36 product consistency sheets; new featured pieces receive studio and detail briefs, existing approved photos unchanged. | `docs/content/image-briefs.md` |
+| 2026-11-16 | Project imagery shows a transformation: each case study pairs a plain as-handed-over shell with the furnished result from the same camera, for a drag-bar before and after. Approach and Fable's recommendations accepted; details in `docs/build/consults/2026-11-16-ground-up-rethink.md`. | `docs/build/consults/` |
+| 2026-11-16 | Lilim direction: Shade and Stone (round 3 test B). Warmth comes only from light sources such as lamps and low sun; areas away from them stay neutral to cool. The palette answers the site: a green-surrounded site takes a restrained, near-colorless interior; a site with little green outside (a condo) may take a warmer, collected palette. | `design/round-3-interiors/` |
 
 ## Open questions for Aedwon
 
