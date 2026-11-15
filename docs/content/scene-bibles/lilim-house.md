@@ -65,14 +65,14 @@ No other pendants, lamps, or seating. In particular: one Kapis Pendant only, ove
 | C1 (anchor, living and dining) | `lilim-hero` | 7.4, 14.4 | 1.20 m | 220 | 35mm | Sofa left foreground facing right; lounge chair by the doors; terrace, bench, and view at right; Aparador and dining zone in the left background |
 | C2 | `lilim-g02-coffee-table` | 2.8, 10.6 | 0.85 m | 60 | 50mm | Coffee table on the rug, lower edge of the sofa behind |
 | C3 | `lilim-g03-dining` | 2.4, 9.8 | 1.25 m | 165 | 35mm | Full table and six chairs, pendant above, open doors at right, Aparador at left |
-| C4 | `lilim-g04-afternoon-table` | 4.0, 0.6 | 1.30 m | 10 | 50mm | Table length leading north; Aparador with Tapayan at right background; soft sun band from the west |
+| C4 | `lilim-g04-afternoon-table` | 4.0, 0.6 | 1.30 m | 15 | 35mm | Table length leading north; Aparador with Tapayan against the east wall at right, seen at an angle, facing west; soft sun band from the west |
 | C5 (anchor, main bedroom) | `lilim-g05-main-bedroom` | 10.0, 14.6 | 1.15 m | 150 | 35mm | Himlay Bed in three-quarter view, east opening and hillside at left |
 | C6 (anchor, shared bedroom) | `lilim-g06-shared-bedroom` | 10.0, 8.6 | 1.20 m | 150 | 35mm | Both beds, the passage between them, east window at left |
 | C7 (anchor, hallway) | `lilim-g07-hallway` | 8.9, 9.0 | 1.25 m | 10 | 50mm | Hallway Aparador at left, garden window at the far north end |
 | C8 (anchor, terrace) | `lilim-g08-terrace` | -0.5, 8.0 | 1.10 m | 340 | 35mm | Bench along the terrace edge at left, open doors and great room at right, eave above, view beyond. No lounge chair outside |
-| C9 | `lilim-g09-material-detail` | 3.4, 12.0 | 0.85 m | 100 | 50mm | Cane back of the lounge chair, marble top edge, mahogany base, rug behind |
+| C9 | `lilim-g09-material-detail` | 4.6, 10.6 | 0.85 m | 320 | 50mm | Honed marble corner and mahogany base of the coffee table in the near foreground; the lounge chair's cane and rattan behind it, by the open doors; rug underfoot |
 | C10 (anchor, exterior) | `lilim-g10-exterior` | -14.0, 6.0 | 1.50 m | 70 | 35mm | West elevation: terrace, eave, open doors, posts; hillside planting |
-| C11 | `lilim-shop-room` | 7.4, 14.6 | 1.25 m | 200 | 35mm | Sofa and lounge chair at left, dining table and pendant at right, Aparador with Tapayan behind |
+| C11 | `lilim-shop-room` | 1.0, 14.4 | 1.25 m | 143 | 35mm | Silong Sofa and Aparador with Tapayan at left, lounge chair in the center foreground, dining table with six chairs and the Kapis Pendant at right background |
 
 ## Status of existing photos
 
@@ -81,3 +81,6 @@ No other pendants, lamps, or seating. In particular: one Kapis Pendant only, ove
 | `lilim-hero.png` | Anchor. Second pendant over the living zone is not allowed; remove it in a regeneration or crop it out. Ceiling panels in the living zone must match the rest. |
 | `lilim-g03-dining.png` | Close. Check that only one pendant shows and the Aparador sits on the east wall at left. |
 | `lilim-g08-terrace.png` | Passes. Regenerated from camera C8 on 2026-11-14. |
+
+
+Camera corrections, 2026-11-15: C4 lens 35mm and heading 15 so the east-wall Aparador is in frame; C9 and C11 moved so the lounge chair is in view (the original positions could not see it).
