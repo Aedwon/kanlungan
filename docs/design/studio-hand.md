@@ -31,7 +31,7 @@ Status: **Decided on delegation.** This is a reading. Aedwon may correct it.
 1. **He does not pick by palette.** He picked a restrained room twice and a warm one three times. A green site got a restrained room at Lilim and a warm one at the villa. So the site does not choose the palette, and two named directions were the wrong tool.
 2. **He picks the room that is lit truthfully.** A warm wash with no source lost every time: Lilim A, and the unruled C at the inn, the villa, and the apartment. A dim room also lost: our two condo rooms had the ceiling lights off and three small lamps in a large room at dusk. Truthful light means no false warmth, and it also means a room is lit the way people would light it.
 3. **He picks the room that someone lives in.** The condo C has full shelves, a record player, a throw, and plants. Ours looked staged. He asked for TVs, beds, and a kitchen. He wants a real home, not a styled corner.
-4. **Stark loses.** The black and white villa and the charcoal apartment both lost. Every room he picked carries warm natural material: wood, cane, woven fiber, brass. That includes Lilim B, with its mahogany sofa frame, honey rattan, cane seats, and capiz.
+4. **Lifeless loses, not restraint.** Aedwon, 2026-11-16, on the villa: "i chose collected because it had more personality than A, but I don't fully like B either. if you had given more personality to A maybe I would've chosen that." So the restrained villa lost for lack of personality, not for its palette. A restrained room can win if it has character. Every room he picked carries warm natural material: wood, cane, woven fiber, brass.
 5. **Loud loses too.** Strong color lost at Lilim, and stripes lost at the inn.
 6. **He notices what a client would notice.** Outlets that move. A curtain that cannot hang where it is drawn. The same camera every time.
 
@@ -250,6 +250,7 @@ Status: **Locked by Aedwon.** Details are in [the Lilim design file](../content/
 - **Who and where.** A family of five in a new house above a green valley in Antipolo.
 - **The room he picked.** Quiet and composed in dark and pale: charcoal linen, black wood, white linen, pale wool, gray Romblon marble. The warm notes are a mahogany sofa frame, honey cane, capiz, and brass.
 - **Leading piece.** One slab of Romblon marble as the living room table.
+- **Why it clicked.** Aedwon, 2026-11-16: the dark furniture matched the dark bronze frames of the sliding doors, so the room looked cohesive. This is a reason for this room, not a general rule. A good design often picks up what the shell already has, but it is a judgment per room.
 - **What round 4 adds.** The house must not drift toward black and white. The family's real life shows: a family room with the screen and the books, a kitchen in use, shoes at the door. Evening rooms are lit.
 - **Sourcing, by piece.** About two fifths from the shop, about two fifths custom, and the rest the family's own things, bought appliances, found pieces, and art.
 
