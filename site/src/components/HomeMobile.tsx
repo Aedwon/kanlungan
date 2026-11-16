@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
 import { RoomPhoto } from "./RoomPhoto";
+import { HomeProcess } from "./HomeProcess";
 import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
 import { formatPrice } from "@/lib/formatPrice";
@@ -181,53 +182,7 @@ export function HomeMobile() { return (<div className="home-mobile">
 </section>
 
 
-<section aria-labelledby="proc-h-mobile" className="ref-mobile-375">
-  <h2 id="proc-h-mobile" className="ref-mobile-376">{pageCopy["How a furnishing project works"]}</h2>
-  <ol role="list" className="ref-mobile-377">
-    <li className="ref-mobile-378">
-      <span aria-hidden="true" className="ref-mobile-379">1</span>
-      <div>
-        <h3 className="ref-mobile-380">{pageCopy["Discovery call"]}</h3>
-        <p className="ref-mobile-381">{pageCopy["We talk about your space, your brief, and your budget."]}</p>
-      </div>
-    </li>
-    <li className="ref-mobile-382">
-      <span aria-hidden="true" className="ref-mobile-383">2</span>
-      <div>
-        <h3 className="ref-mobile-384">{pageCopy["Site visit and proposal"]}</h3>
-        <p className="ref-mobile-385">{pageCopy["We measure the space and send a fixed design fee and a budget range."]}</p>
-      </div>
-    </li>
-    <li className="ref-mobile-386">
-      <span aria-hidden="true" className="ref-mobile-387">3</span>
-      <div>
-        <h3 className="ref-mobile-388">{pageCopy["Design"]}</h3>
-        <p className="ref-mobile-389">{pageCopy["You see layouts, materials, and a full furnishing plan."]}</p>
-      </div>
-    </li>
-    <li className="ref-mobile-390">
-      <span aria-hidden="true" className="ref-mobile-391">4</span>
-      <div>
-        <h3 className="ref-mobile-392">{pageCopy["Procurement"]}</h3>
-        <p className="ref-mobile-393">{pageCopy["We order every piece and manage the makers."]}</p>
-      </div>
-    </li>
-    <li className="ref-mobile-394">
-      <span aria-hidden="true" className="ref-mobile-395">5</span>
-      <div>
-        <h3 className="ref-mobile-396">{pageCopy["Installation and styling"]}</h3>
-        <p className="ref-mobile-397">{pageCopy["Our crew delivers, installs, and styles each room."]}</p>
-      </div>
-    </li>
-    <li className="ref-mobile-398">
-      <span aria-hidden="true" className="ref-mobile-399">6</span>
-      <div>
-        <h3 className="ref-mobile-400">{pageCopy["Handover"]}</h3>
-        <p className="ref-mobile-401">{pageCopy["A walkthrough, a care guide, and a visit 30 days later."]}</p>
-      </div>
-    </li>
-  </ol>
-</section>
+<HomeProcess id="proc-h-mobile" />
 
 
 <section className="dk ref-mobile-402">

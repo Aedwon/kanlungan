@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
 import { RoomPhoto } from "./RoomPhoto";
+import { HomeProcess } from "./HomeProcess";
 import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
 import { formatPrice } from "@/lib/formatPrice";
@@ -230,46 +231,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
 </section>
 
 
-<section className="proc" aria-labelledby="proc-h-desktop">
-  <div className="proc-track">
-    <div className="proc-pin">
-      <div className="proc-head"><h2 id="proc-h-desktop" className="ref-desktop-197">{pageCopy["How a furnishing project works"]}</h2></div>
-      <ol className="proc-row" role="list">
-      <li>
-        <span aria-hidden="true" className="ref-desktop-198">1</span>
-        <h3 className="ref-desktop-199">{pageCopy["Discovery call"]}</h3>
-        <p className="ref-desktop-200">{pageCopy["We talk about your space, your brief, and your budget."]}</p>
-      </li>
-      <li>
-        <span aria-hidden="true" className="ref-desktop-201">2</span>
-        <h3 className="ref-desktop-202">{pageCopy["Site visit and proposal"]}</h3>
-        <p className="ref-desktop-203">{pageCopy["We measure the space and send a fixed design fee and a budget range."]}</p>
-      </li>
-      <li>
-        <span aria-hidden="true" className="ref-desktop-204">3</span>
-        <h3 className="ref-desktop-205">{pageCopy["Design"]}</h3>
-        <p className="ref-desktop-206">{pageCopy["You see layouts, materials, and a full furnishing plan."]}</p>
-      </li>
-      <li>
-        <span aria-hidden="true" className="ref-desktop-207">4</span>
-        <h3 className="ref-desktop-208">{pageCopy["Procurement"]}</h3>
-        <p className="ref-desktop-209">{pageCopy["We order every piece and manage the makers."]}</p>
-      </li>
-      <li>
-        <span aria-hidden="true" className="ref-desktop-210">5</span>
-        <h3 className="ref-desktop-211">{pageCopy["Installation and styling"]}</h3>
-        <p className="ref-desktop-212">{pageCopy["Our crew delivers, installs, and styles each room."]}</p>
-      </li>
-      <li>
-        <span aria-hidden="true" className="ref-desktop-213">6</span>
-        <h3 className="ref-desktop-214">{pageCopy["Handover"]}</h3>
-        <p className="ref-desktop-215">{pageCopy["A walkthrough, a care guide, and a visit 30 days later."]}</p>
-      </li>
-      </ol>
-      <div className="proc-bar" aria-hidden="true"><div></div></div>
-    </div>
-  </div>
-</section>
+<HomeProcess id="proc-h-desktop" />
 
 
 <section className="dk ref-desktop-216">

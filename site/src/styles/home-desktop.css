@@ -133,15 +133,24 @@ a.col:hover{color:#2E211A}
 }
 
 /* Added for sections 7 to 9 */
-@keyframes procX{from{transform:none}to{transform:translateX(calc(-100% + 100vw))}}
 @keyframes winOpen{from{clip-path:inset(8% var(--wx,22%) 8% var(--wx,22%) round 2px)}to{clip-path:inset(0 0 0 0 round 0)}}
 .btn-l{transition:background-color .2s ease}
 .btn-l:hover{background:#E8DFD2!important;color:#2E211A!important}
 .win-g{clip-path:inset(0 var(--gut,64px) 0 var(--gut,64px) round 2px)}
-.proc{border-top:1px solid #D3C4B1;padding:128px 64px 160px;box-sizing:border-box}
-.proc-row{list-style:none;margin:64px 0 0;padding:0;display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:96px 48px}
-.proc-row li{border-top:1px solid #2E211A;padding-top:24px}
-.proc-bar{display:none}
+.hproc{border-top:1px solid #D3C4B1;padding:128px 64px 160px;box-sizing:border-box}
+.hproc-h{margin:0;font:300 56px/1.05 var(--font-newsreader),Georgia,serif;letter-spacing:-.02em;max-width:900px}
+.hproc-line{margin:24px 0 0;max-width:520px;color:#6A584A}
+.hproc-rows{list-style:none;margin:64px 0 0;padding:0}
+.hproc-row{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:0 24px;align-items:center;border-top:1px solid #2E211A;padding:48px 0}
+.hproc-row:last-child{border-bottom:1px solid #D3C4B1}
+.hproc-im{position:relative;grid-column:1 / span 6;aspect-ratio:3/2;overflow:hidden;border-radius:2px;background:#E8DFD2}
+.hproc-im>.photo-host{position:relative;width:100%;height:100%}
+.hproc-tx{grid-column:8 / span 5}
+.hproc-row.flip .hproc-im{grid-column:7 / span 6;grid-row:1}
+.hproc-row.flip .hproc-tx{grid-column:1 / span 5;grid-row:1}
+.hproc-h3{margin:0;font:300 30px/1.2 var(--font-newsreader),Georgia,serif}
+.hproc-wk{margin:4px 0 0;font-size:14px;line-height:1.5;color:#6A584A}
+.hproc-p{margin:12px 0 0;max-width:420px}
 @keyframes hbOut{from{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}to{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}}
 @keyframes hbBack{from{visibility:hidden;opacity:0;grid-template-columns:0fr;margin-left:-8px}to{visibility:visible;opacity:1;grid-template-columns:1fr;margin-left:0}}
 @supports (animation-timeline: view()){
@@ -149,17 +158,9 @@ a.col:hover{color:#2E211A}
 }
 @media (max-height:1400px) and (prefers-reduced-motion:no-preference){
 @supports (animation-timeline: view()){
-.pg{timeline-scope:--hero,--proc,--cta}
+.pg{timeline-scope:--hero,--cta}
 .win-g{animation:winOpen linear both;animation-timeline:view();animation-range:entry 20% cover 38%}
 .hbw{animation:hbIn linear both,hbOut linear forwards,hbBack linear forwards;animation-timeline:--hero,--cta,--cta;animation-range:cover calc(2 * var(--pin) + 669px) cover calc(2 * var(--pin) + 720px),entry 85% entry 92%,exit 84% exit 90%}
-.proc{padding:0}
-.proc-track{height:calc(var(--pin) + 1500px);view-timeline:--proc block}
-.proc-pin{position:sticky;top:88px;height:var(--pin);overflow:hidden;display:flex;flex-direction:column}
-.proc-head{flex:none;padding:48px 64px 0}
-.proc-row{flex:1 1 auto;display:flex;align-items:center;gap:48px;width:max-content;margin:0;padding:0 64px;animation:procX linear both;animation-timeline:--proc;animation-range:cover var(--pin) cover calc(var(--pin) + 1500px)}
-.proc-row li{flex:none;width:400px}
-.proc-bar{display:block;flex:none;margin:0 64px 48px;height:1px;background:#D3C4B1}
-.proc-bar>div{height:1px;background:#8E4A2C;transform-origin:left center;animation:progX linear both;animation-timeline:--proc;animation-range:cover var(--pin) cover calc(var(--pin) + 1500px)}
 }
 }
 @media (prefers-reduced-motion: reduce){

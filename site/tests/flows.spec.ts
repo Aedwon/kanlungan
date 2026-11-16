@@ -136,7 +136,8 @@ test('category filters: one check mark, and Clear all resets filters and the URL
   const form = page.getByRole('form', { name: 'Filters' }).first();
   await expect(form.getByRole('button', { name: 'Clear all' })).toHaveCount(0);
   const box = form.locator('label.chk').filter({ hasText: 'Lilok Workshop' });
-  await box.locator('input').check({ force: true });
+  await page.waitForLoadState('networkidle');
+  await box.click();
   await expect(page).toHaveURL(/maker=Lilok/);
   await expect(box.locator('svg.tick')).toHaveCount(1);
   await expect(box.locator('.box')).toHaveCSS('background-color', 'rgb(142, 74, 44)');
