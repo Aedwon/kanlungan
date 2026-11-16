@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en" data-mode="wipe">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kanlungan hero reveal prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500&family=Newsreader:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+/* Throwaway prototype. Values copied from site/src/styles (tokens, components, home-desktop, home-mobile, reference). */
+:root{
+  --font-newsreader:'Newsreader';--font-hanken:'Hanken Grotesk';
+  --color-bg:#F2ECE3;--color-surface:#E8DFD2;--color-text-default:#2E211A;--color-text-muted:#6A584A;
+  --color-line:#D3C4B1;--color-accent-default:#8E4A2C;--color-text-on-accent:#F7F2EA;
+  --color-footer-bg:#3A2A20;--color-footer-text:#F2ECE3;--color-footer-muted:#B9A99A;
+}
+/* Reveal progress, 0 (empty room) to 1 (furnished room). Static default is 1. */
+@property --p{syntax:'<number>';inherits:true;initial-value:1}
+@keyframes pp{from{--p:0}to{--p:1}}
+
+html{background:var(--color-bg);color:var(--color-text-default)}
+body{margin:0;background:#F2ECE3;font:400 17px/1.6 var(--font-hanken),system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8E4A2C}
+.dk a:hover{color:#E8C8B0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+a:focus-visible,button:focus-visible{outline:2px solid #8E4A2C;outline-offset:3px}
+.arr{display:inline-block;transition:transform .25s ease}
+.lnk:hover{text-decoration:underline;text-underline-offset:4px}
+.lnk:hover .arr{transform:translateX(4px)}
+.btn-p{transition:background-color .2s ease}
+.btn-p:hover{background:#7A3E24!important;color:#F7F2EA!important}
+
+/* Header */
+.site-header{position:sticky;top:0;z-index:100;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;height:88px;padding:0 64px;background:var(--color-bg);border-bottom:1px solid var(--color-line);box-sizing:border-box}
+.logo{display:flex;align-items:center;gap:12px;justify-self:start;min-height:44px}
+.logo svg{display:block;border-radius:2px;overflow:hidden;flex:none}
+.logo span{font:300 30px/1 var(--font-newsreader),Georgia,serif;letter-spacing:-.015em;color:var(--color-text-default)}
+.logo-light{animation:logo-drift 12s ease-in-out infinite alternate}
+@keyframes logo-drift{from{transform:translateX(-7px)}to{transform:translateX(7px)}}
+.desktop-nav{align-self:stretch;display:flex;align-items:center;gap:48px;font-size:15px;line-height:1.5;font-weight:400}
+.desktop-nav a{display:flex;align-items:center;min-height:44px}
+.header-actions{display:flex;align-items:center;gap:8px;justify-self:end}
+.ib{height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:2px;color:var(--color-text-default);cursor:pointer;font:inherit;transition:background-color .2s ease}
+.ib:hover{background:var(--color-surface)}
+.cart-button{padding:0 8px;gap:8px;font-size:14px;font-weight:500}
+.menu-button{display:none}
+/* Header booking button: hidden while the hero button shows (collapsed width, as on the site) */
+.header-book{display:grid;grid-template-columns:0fr;opacity:0;visibility:hidden;overflow:hidden}
+
+/* Hero: natural ("at rest") state. Desktop. */
+.hero-track{position:relative;background:#F2ECE3}
+.hero-pin{position:relative;height:812px;overflow:hidden;background:#F2ECE3;
+  --band:130px;
+  --wl:calc((100% - 624px) * (1 - var(--p)));
+  --wr:calc(100% - 64px * (1 - var(--p)));
+  --e:calc(var(--wl) + var(--p) * (var(--wr) - var(--wl) + var(--band)))}
+.win{position:absolute;left:0;right:0;top:0;bottom:0;pointer-events:none;clip-path:inset(64px 64px 64px calc(100% - 624px) round 2px)}
+.layer{position:absolute;left:0;right:0;top:0;bottom:0}
+.win-img{position:absolute;left:0;right:0;top:0;bottom:0;background:#5b4132;transform:translateX(calc(50% - 344px))}
+.win-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block}
+.scrim{position:absolute;left:0;right:0;top:0;bottom:0;opacity:0;background:linear-gradient(to top, rgba(46,33,26,.94) 0%, rgba(46,33,26,.84) 30%, rgba(46,33,26,.66) 50%, rgba(46,33,26,.34) 66%, rgba(46,33,26,0) 82%)}
+.copy{position:absolute;left:64px;bottom:64px;width:min(752px,calc(100% - 688px));color:#2E211A}
+.copy.lt{color:#F7F2EA}
+.copy h1,.copy .h{margin:0;font-family:var(--font-newsreader),Georgia,serif;font-size:112px;line-height:1;font-weight:300;letter-spacing:-.02em}
+.copy p{margin:32px 0 0;max-width:420px;font-size:17px;line-height:1.6;font-weight:400}
+.cta{margin-top:32px;display:flex;align-items:center;gap:32px}
+.cta .b{display:inline-block;background:#8E4A2C;color:#F7F2EA;font-size:15px;line-height:1;font-weight:500;padding:16px 32px;border-radius:2px}
+.cta .l{font-size:15px;line-height:1.5;font-weight:500;white-space:nowrap}
+
+/* Reveal layers */
+.layer.after{opacity:1}
+html[data-mode=dissolve] .layer.after{opacity:var(--p)}
+html[data-mode=wipe] .layer.after{
+  -webkit-mask-image:linear-gradient(90deg,#000 calc(var(--e) - var(--band)),transparent var(--e));
+  mask-image:linear-gradient(90deg,#000 calc(var(--e) - var(--band)),transparent var(--e));
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+
+/* After-hero statement (context only) */
+.statement{padding:160px 64px;box-sizing:border-box;min-height:70vh}
+.statement p{margin:0;max-width:900px;font-family:var(--font-newsreader),Georgia,serif;font-size:44px;line-height:1.2;font-weight:300;letter-spacing:-.015em}
+.site-footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:48px 64px}
+.site-footer p{margin:0;font-size:14px;line-height:1.5;color:var(--color-footer-muted);max-width:760px}
+
+/* Prototype toggle (not part of the design) */
+.proto{position:fixed;right:16px;bottom:16px;z-index:300;display:flex;gap:2px;padding:3px;border-radius:999px;background:rgba(20,14,10,.82);color:#fff;font:500 12px/1 system-ui,sans-serif;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.proto span{white-space:nowrap;padding:10px 8px 10px 12px;opacity:.55;letter-spacing:.06em;text-transform:uppercase;font-size:10px}
+.proto button{white-space:nowrap;border:0;border-radius:999px;background:transparent;color:#fff;font:inherit;padding:10px 12px;cursor:pointer;min-height:32px}
+.proto button[aria-pressed=true]{background:#fff;color:#111}
+
+/* ---- Scroll choreography (desktop) ---- */
+@media (min-width:1280px) and (max-height:1400px) and (prefers-reduced-motion:no-preference){
+  :root{--pin:max(560px,calc(100vh - 88px))}
+  .hero-track{height:calc(var(--pin) + 1000px)}
+  .hero-pin{position:sticky;top:88px;height:var(--pin)}
+}
+@keyframes tOpen-d{from{clip-path:inset(64px 64px 64px calc(100% - 624px) round 2px)}to{clip-path:inset(0px 0px 0px 0px round 0px)}}
+@keyframes tImg-d{from{transform:translateX(calc(50% - 344px))}to{transform:translateX(0)}}
+@keyframes tScrim{from{opacity:0}20%{opacity:1}to{opacity:1}}
+@media (min-width:1280px) and (max-height:1400px) and (prefers-reduced-motion:no-preference){
+  
+}
+/* JS fallback, desktop: --p and --sc come from scroll position */
+@media (min-width:1280px) and (max-height:1400px) and (prefers-reduced-motion:no-preference){
+  .js-drive .win{clip-path:inset(calc(64px * (1 - var(--p))) calc(64px * (1 - var(--p))) calc(64px * (1 - var(--p))) calc((100% - 624px) * (1 - var(--p))) round calc(2px * (1 - var(--p))))}
+  .js-drive .win-img{transform:translateX(calc((50% - 344px) * (1 - var(--p))))}
+  .js-drive .scrim{opacity:var(--sc)}
+}
+
+/* ---- Mobile and tablet (under 1280px) ---- */
+@media (max-width:1279px){
+  .site-header{display:flex;justify-content:space-between;height:64px;padding:0 8px 0 20px}
+  .logo{gap:8px}.logo span{font-size:24px}
+  .desktop-nav,.header-book,.search-button{display:none}
+  .header-actions{gap:0}.header-actions svg{width:22px;height:22px}
+  .menu-button{display:inline-flex}
+  .hero-pin{height:780px;--band:72px;
+    --wl:calc(20px * (1 - var(--p)));
+    --wr:calc(100% - 20px * (1 - var(--p)))}
+  .win{clip-path:inset(152px 20px 228px 20px round 2px)}
+  .win-img{transform:translateY(102px)}
+  .scrim{background:linear-gradient(to bottom, rgba(46,33,26,.8) 0%, rgba(46,33,26,.5) 14%, rgba(46,33,26,0) 30%),linear-gradient(to top, rgba(46,33,26,.96) 0%, rgba(46,33,26,.9) 26%, rgba(46,33,26,.7) 40%, rgba(46,33,26,.3) 52%, rgba(46,33,26,0) 62%)}
+  .m-h{position:absolute;left:20px;top:24px;width:calc(100% - 40px);margin:0;font-family:var(--font-newsreader),Georgia,serif;font-size:52px;line-height:1;font-weight:300;letter-spacing:-.02em;color:#2E211A}
+  .m-h.lt{color:#F7F2EA}
+  .m-b{position:absolute;left:20px;bottom:46.4px;width:calc(100% - 40px);color:#2E211A}
+  .m-b.lt{color:#F7F2EA}
+  .m-b p{margin:0 0 24px;font-size:17px;line-height:1.6;font-weight:400;max-width:none}
+  .m-b .cta{margin-top:0;gap:20px}
+  .m-b .cta .b{display:inline-flex;align-items:center;min-height:52px;box-sizing:border-box;padding:0 24px;white-space:nowrap}
+  .m-b .cta .l{display:inline-flex;align-items:center;min-height:44px}
+  .m-b .cta .l .arr{margin-left:8px}
+  .statement{padding:96px 20px;min-height:60vh}
+  .statement p{font-size:30px}
+  .site-footer{padding:40px 20px}
+  .proto{right:auto;left:50%;transform:translateX(-50%);bottom:8px}
+}
+.d-only{display:block}.m-only{display:none}
+@media (max-width:1279px){.d-only{display:none}.m-only{display:block}}
+
+@keyframes tOpen-m{from{clip-path:inset(152px 20px 228px 20px round 2px)}to{clip-path:inset(0px 0px 0px 0px round 0px)}}
+@keyframes tImg-m{from{transform:translateY(102px)}to{transform:translateY(0)}}
+@media (max-width:1279px) and (max-height:1400px) and (prefers-reduced-motion:no-preference){
+  :root{--pin:max(520px,calc(100vh - 64px))}
+  .hero-track{height:calc(var(--pin) + 800px)}
+  .hero-pin{position:sticky;top:64px;height:var(--pin)}
+  
+  .js-drive .win{clip-path:inset(calc(152px * (1 - var(--p))) calc(20px * (1 - var(--p))) calc(228px * (1 - var(--p))) calc(20px * (1 - var(--p))) round calc(2px * (1 - var(--p))))}
+  .js-drive .win-img{transform:translateY(calc(102px * (1 - var(--p))))}
+  .js-drive .scrim{opacity:var(--sc)}
+}
+
+/* Reduced motion: static window at rest, furnished room only */
+@media (prefers-reduced-motion:reduce){
+  .logo-light{animation:none}
+  .layer.before{display:none}
+  html[data-mode] .layer.after{opacity:1;-webkit-mask-image:none;mask-image:none}
+  .arr,.btn-p,.ib{transition:none}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a href="#" class="logo" aria-label="Kanlungan, Home">
+    <svg viewBox="0 0 100 100" width="32" height="32" aria-hidden="true">
+      <rect width="100" height="100" rx="1.92" fill="#3A2A20"/>
+      <path d="M0 46H100V100H0Z" fill="#000" opacity=".2"/>
+      <g class="logo-light">
+        <path d="M40 22L55 16V46H40ZM60 14L75 8V46H60Z" fill="#F2ECE3"/>
+        <path d="M40 46H55L34 100H13ZM60 46H75L62 100H41Z" fill="#8E4A2C"/>
+      </g>
+    </svg><span>Kanlungan</span>
+  </a>
+  <nav class="desktop-nav" aria-label="Primary">
+    <a href="#">Studio</a><a href="#">Projects</a><a href="#">Shop</a><a href="#">About</a>
+  </nav>
+  <div class="header-actions">
+    <button type="button" class="ib search-button" aria-label="Search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+    <button type="button" class="ib cart-button" aria-label="Cart, 0 items"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg><span>0</span></button>
+    <div class="header-book" aria-hidden="true"></div>
+    <button type="button" class="ib menu-button" aria-label="Open menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+  </div>
+</header>
+
+<main>
+<section class="hero-track">
+  <div class="hero-pin">
+    <!-- Dark copy on limewash -->
+    <div class="copy d-only">
+      <h1>Spaces to come home to.</h1>
+      <p>Kanlungan is an interior design studio and shop. We furnish homes and small hotels so they feel like refuge.</p>
+      <div class="cta"><a href="#" class="btn-p b">Book a discovery call</a><a href="#" class="lnk l">View projects <span class="arr" aria-hidden="true">→</span></a></div>
+    </div>
+    <h1 class="m-h m-only">Spaces to come home to.</h1>
+    <div class="m-b m-only">
+      <p>Kanlungan is an interior design studio and shop. We furnish homes and small hotels so they feel like refuge.</p>
+      <div class="cta"><a href="#" class="btn-p b">Book a discovery call</a><a href="#" class="lnk l">View projects <span class="arr" aria-hidden="true">→</span></a></div>
+    </div>
+
+    <!-- Window: empty room under, furnished room on top, then light copy -->
+    <div class="win">
+      <div class="layer before"><div class="win-img"><img src="hero-before.jpg" alt="" width="1914" height="822"></div></div>
+      <div class="layer after"><div class="win-img"><img src="hero-after.jpg" alt="Lilim House living room, furnished: low sofa, marble table, cane chair, greenery through wide openings" width="1914" height="822"></div></div>
+      <div class="scrim"></div>
+      <div aria-hidden="true" class="copy lt d-only">
+        <div class="h">Spaces to come home to.</div>
+        <p>Kanlungan is an interior design studio and shop. We furnish homes and small hotels so they feel like refuge.</p>
+        <div class="cta"><span class="b">Book a discovery call</span><span class="l">View projects <span aria-hidden="true">→</span></span></div>
+      </div>
+      <div aria-hidden="true" class="m-h lt m-only">Spaces to come home to.</div>
+      <div aria-hidden="true" class="m-b lt m-only">
+        <p>Kanlungan is an interior design studio and shop. We furnish homes and small hotels so they feel like refuge.</p>
+        <div class="cta"><span class="b">Book a discovery call</span><span class="l">View projects <span class="arr" aria-hidden="true">→</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="statement">
+  <p>A home should lower your shoulders when you walk in. We design for that feeling: cool rooms, honest materials, and furniture made by people we know.</p>
+</section>
+</main>
+<footer class="site-footer"><p>Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.</p></footer>
+
+<div class="proto" role="group" aria-label="Prototype control: reveal motion">
+  <span>Prototype</span>
+  <button type="button" data-m="wipe" aria-pressed="true">A Wipe</button>
+  <button type="button" data-m="dissolve" aria-pressed="false">B Dissolve</button>
+</div>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  // Mode toggle (A wipe, B dissolve). Remembered in the URL hash.
+  function setMode(m){
+    root.setAttribute('data-mode',m);
+    document.querySelectorAll('.proto button').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.m===m))});
+    try{history.replaceState(null,'',m==='dissolve'?'#b':'#a')}catch(e){}
+  }
+  document.querySelectorAll('.proto button').forEach(function(b){b.addEventListener('click',function(){setMode(b.dataset.m)})});
+  setMode(/^#b/i.test(location.hash)?'dissolve':'wipe');
+
+  // Scroll-driven by JS in every browser (one path): --p and --sc come from scroll position.
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)');
+  root.classList.add('js-drive');
+  var track=document.querySelector('.hero-track'),pin=document.querySelector('.hero-pin');
+  var desk=matchMedia('(min-width:1280px)'),ticking=false;
+  function update(){
+    ticking=false;
+    if(reduce.matches){root.style.removeProperty('--p');root.style.removeProperty('--sc');return}
+    var range=desk.matches?688:520;
+    var top=track.getBoundingClientRect().top+window.scrollY;
+    var start=top-window.innerHeight+pin.offsetHeight; // equals the site's "cover var(--pin)"
+    var p=Math.min(1,Math.max(0,(window.scrollY-start)/range));
+    root.style.setProperty('--p',p);
+    root.style.setProperty('--sc',Math.min(1,p/0.2)); // tScrim: 0 to 1 over the first 20%
+  }
+  function req(){if(!ticking){ticking=true;requestAnimationFrame(update)}}
+  addEventListener('scroll',req,{passive:true});addEventListener('resize',req);
+  reduce.addEventListener&&reduce.addEventListener('change',req);
+  update();
+})();
+</script>
+</body>
+</html>
