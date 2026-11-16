@@ -407,31 +407,31 @@
  },
  "tanaw-hero-before": {
   "dir": "tanaw",
-  "width": 1672,
+  "width": 1671,
   "height": 941,
   "widths": [
    480,
    768,
    1080,
    1440,
-   1672
+   1671
   ],
   "jpegWidth": 1440,
-  "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoQAAkAA4BaJZwAAplhGSAA/I8FiEys+Qzvd/kMsjEs4H0XeFUAAA=="
+  "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQAAkAA4BaJZQCdAEQe3T6IQAA/H/OteSbBZOwy3ALFq1OZjYAAA=="
  },
  "tanaw-hero": {
   "dir": "tanaw",
-  "width": 1672,
+  "width": 1671,
   "height": 941,
   "widths": [
    480,
    768,
    1080,
    1440,
-   1672
+   1671
   ],
   "jpegWidth": 1440,
-  "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAQAgCdASoQAAkAA4BaJYwCdAEf/zYcwV2AAP7vWHwuA3Sjc4IFFS4FSCzfEAAA"
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAkAA4BaJQBOgCB0sbmGwqAA/uowJ9CYZPw4+iUOlBchKUGFMqnXe3t6KoyBkXXzsIAA"
  },
  "tanaw-kitchen-dining-before": {
   "dir": "tanaw",
@@ -472,7 +472,7 @@
    1086
   ],
   "jpegWidth": 1086,
-  "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoQABUAPu1iqU2ppaQiMAgBMB2JZACdMoACtBQ+A/M1zx1BgAD96gICZ8iLwr6HWxExw0rDFZbZmU3QCK5QSMVFBTmZW8zk6Rit1aelnpdcl+npAXElJCidvD3MB3cxcai7rOLwAAA="
+  "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoQABUAPu1iqU2ppaQiMAgBMB2JZACdMoRwACILhhAp+I/XRfQAAP3qAgJnyIyb0zHjtR81dhtSnJBPMFR8/ZxK9XD4Detb04Zuh5g0v02yrK7GS2bQ1zKqEMTkx5yaF1yAAA=="
  },
  "tanaw-screen-wall": {
   "dir": "tanaw",
@@ -486,7 +486,7 @@
    1672
   ],
   "jpegWidth": 1440,
-  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAkAA4BaJQBOgB3e8wdQAP6UsiSDkciRXjSZ4ztcG5Ip11Zdt08D9DWvG9/R7klVVc4S6x7cwAAA"
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkAA4BaJQBOgBeho2eUYADv/va6sBvK1wViT2IN85MsW3iAIs/c4dAFhjGIwz98zAAA"
  },
  "tanaw-study-before": {
   "dir": "tanaw",
