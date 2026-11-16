@@ -176,6 +176,7 @@ Aedwon judged five more rooms, each with three afters at different levels of cha
 | 2026-11-16 | Hardin shop list: Silong Sofa (two-seat, clay), Lambot Wool Rug, Pasilyo Console Table, Unan Bed (queen, oat), Bakal Side Table, Kiso Stool, Tabing Linen Curtain (oat), Amihan No. 3, Bato Object. The Luad Table Lamp leaves it. The Tabing and Amihan No. 3 now have a project. | Decided on delegation | `docs/content/projects.md` |
 | 2026-11-16 | Hardin copy: "refinished" and the built-in bedroom storage are removed. The entry gains Duration and As handed over, as the other four have. Twelve captions, in the new gallery order. | Decided on delegation | `docs/content/projects.md` |
 | 2026-11-16 | Hardin images: thirteen prompts in three jobs that can run at the same time, and two optional prompts for the wall color. Three line drawings made, and one check drawing of the hero camera. | Decided on delegation | `docs/build/consults/2026-11-16-hardin-gate-1.md` |
+| 2026-11-16 | Hardin painted wall color: A, gray-green, about `#98A28E`. | Picked by Aedwon from rendered options | `docs/content/project-designs/hardin-apartment.md` |
 
 ## Open questions for Aedwon
 
@@ -195,4 +196,3 @@ These checks do not block design work. Aedwon delegated the call on 2026-11-13, 
 These wait for later steps in the planning sequence.
 
 - Final photography: later in the design work
-| 2026-11-16 | Hardin painted wall color: A, gray-green, about `#98A28E`. | Picked by Aedwon from rendered options | `docs/content/project-designs/hardin-apartment.md` |
