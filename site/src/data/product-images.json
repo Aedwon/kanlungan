@@ -106,6 +106,30 @@
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQABAAA4BaJQBOgCG8p36gAAD+79AwIWHlPOVQh4AUG6aBiDl09nk/S67HtcAA"
  },
+ "baul-credenza-bleached-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAABwAQCdASoQABAAA4BaJYwCdAFAAAD+73Bv99auAVLgs2Oz4yfpddj2uAAAAA=="
+ },
+ "baul-credenza-ebonized-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQABAAA4BaJYwCdAEOw+eNIAD+786qbmdZYpH13ulpNCxrbwphDpe8I679KXhJ653wzpjflvcnLvlUAAA="
+ },
  "baul-studio": {
   "width": 1254,
   "height": 1254,
@@ -178,6 +202,18 @@
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQABAAA4BaJQBOgCHf3HNTgAD+786zzlSKjzmzulbqdr2XYDdH+Ahovlv2Pa4AAAA="
  },
+ "estante-shelving-bleached-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQABAAA4BaJYwCdADwsNogAAD+7WF88EdacO1UwPG4SVYAl2pcSQISHXrSIQQm7AwAAA=="
+ },
  "estante-studio": {
   "width": 1254,
   "height": 1254,
@@ -189,6 +225,42 @@
   ],
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQABAAA4BaJQBOgB4deiPoAAD+7V/2i15U0t4kAbILTvNXkFFtBjt2oPk11a0GD4ytdj2uAAA="
+ },
+ "hablon-cushion-indigo-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAgCdASoQABAAA4BaJYwCdH8IIBtgAOXezumU7iK4AAD+8DhtGubOuuUC+vHeq6y/R6dI6Pt1vKaafyXLgIoaeC0YRVHGs5sVE36KVSjeCJijQwAAAA=="
+ },
+ "hablon-cushion-moss-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJQBOgCHX9jqyrEAA/u/RUn6d8XcTEqs35ZI8HOhSkPt/VnXcAe6xtpxq4mPRWclkAAAA"
+ },
+ "hablon-cushion-rust-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQABAAA4BaJZACdAEO5LKcOdD+gAD+79FVqwdLdrhnjMvHT+Wrs/xZfWFGBXtY+J03O8iJ3/xhNJOiDSBOhMsbYa/XGAAA"
  },
  "hablon-studio": {
   "width": 1254,
@@ -202,6 +274,42 @@
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoQABAAA4BaJQBOgCHgDZrR/AAA/u/Bvv9qkkKgEaMGfJaymh0Hxla7HtcAAA=="
  },
+ "hain-dining-chair-acacia-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQABAAA4BaJZACdADczrj7nAAA/vAskPgxtIxGHB87ge80BAkP2b736n63mnTRVpk3RMvOIHkO6JAAAAA="
+ },
+ "hain-dining-chair-bleached-acacia-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQABAAA4BaJQBOgCBvpdOL4AD+79eOXB54/Dqzufs+Gi9UCbsDAAAA"
+ },
+ "hain-dining-chair-ebonized-mahogany-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQABAAA4BaJQBOgCBvpRbeKKgAAP7t1qODZUtbxPhOsBAA3weUm8l/QMC1ldiCLhAgf5oKa55AbBTl82SuH8B/ve8HxcoTPkAAAA=="
+ },
  "hain-studio": {
   "width": 1254,
   "height": 1254,
@@ -213,6 +321,42 @@
   ],
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQABAAA4BaJYgCdAD6mbGfdHimAAD+7cfWommWCp4vLYNJFa41bOFAX8C8V4QvwZfYhVvqiuvpUrsDAAA="
+ },
+ "hapag-dining-table-acacia-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQABAAA4BaJZACdAEOu0u5gOIAAP7vwlYESFByfM1bapFwFhCm8ybehk0BMoaWR8rYq0w8on/MvoiRfhoAAA=="
+ },
+ "hapag-dining-table-bleached-acacia-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoQABAAA4BaJYwCdAEO/uU3wAAA/u/CVEmbYwznDwCFgrMAdgRhozsneIAAAA=="
+ },
+ "hapag-dining-table-ebonized-mahogany-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQABAAA4BaJYwCdAEOpSFhJ4AA/u/CV0O2tHgpPGAGKQbr+Ib+etX2FrWORP/ABvKgAyjPrE4fGWY0Gy0cpfvPiHTgAA=="
  },
  "hapag-studio": {
   "width": 1254,
@@ -237,6 +381,42 @@
   ],
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoQABAAA4BaJZgCdADw1M1CJAAA/u1ceQWzamb3U2EBFAbFybonEnHgqi72q74AAAA="
+ },
+ "himlay-bed-acacia-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQABAAA4BaJagCdAEO+J/b+nwA/u/QDPnuJSMU5tLj0U4o29zxcEi6wmTefrQUQULuQmVCrAAAAA=="
+ },
+ "himlay-bed-bleached-acacia-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoQABAAA4BaJaACdAEO//6F0MoAAP7v0AzwfCYbnNsYIHDSOtCqjeO54w4YBJ9czGNpzIAA"
+ },
+ "himlay-bed-ebonized-mahogany-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQABAAA4BaJaACdAEO/Zf22YAA/u/QMA7MMfwLwW9LM/ozGcjJG6ETm/5v3GEZE9JudgOBOfpr9Fq/WR9AAA=="
  },
  "himlay-studio": {
   "width": 1254,
@@ -273,6 +453,30 @@
   ],
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABQAQCdASoQABAAA4BaJQBOgCgAAP7v2GidOylkfjM3e0woon4AAA=="
+ },
+ "kumot-throw-indigo-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAgCdASoQABAAA4BaJQBOmT+/gAFXcBPDfAAA/u41Fujn182Ur97z0R6xst5h3+AMvwIOrA7H4QVx1DBqNx4AAAA="
+ },
+ "kumot-throw-rust-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQABAAA4BaJaACdADw1CNUmDAA/u3gN8SfarPhvBchNglixQTFrdaE6Y+tQ1/tMENyaw9s3wx7Wrvh/oaAAA=="
  },
  "lambot-studio": {
   "width": 1254,
@@ -504,6 +708,78 @@
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQABAAA4BaJQBOgCFK3rPAAP3vOEKJ8mkuA6aOrneZX1u5lnX0OHbVEGVV54wmktugmmvoAAA="
  },
+ "silong-sofa-charcoal-linen-studio-front": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJYwCdAEOw+6mR24A/u/OszJx6UB3KwalW0ftJZO+O5XuqtykZhaOieFIAAAA"
+ },
+ "silong-sofa-charcoal-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJQBOgCHhgsSy5GAA/uCydXGn3IReka3Aca7RURM3Ex5VZlracOOeJMCHJoPi5Qm7AwAA"
+ },
+ "silong-sofa-clay-linen-studio-front": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQABAAA4BaJYgCdAEOw+6mSAYAAP7vzrSAfHkOSBmOgYlwqH6gTUXe12wMakRho1iZhT6rXAA="
+ },
+ "silong-sofa-clay-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJQBOgCIg+hgPkAAA/uCzsKCLMIcu3FRlPBMCDRiCtuT2HQt3QY+WI0MoPo3d9kOsArAA"
+ },
+ "silong-sofa-sand-linen-studio-front": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQABAAA4BaJQBOgCHh2/aAAAD+78/ozY8cjTJcT7IedDRGBN8WYlwiiMUUBE3ZVAAAAA=="
+ },
+ "silong-sofa-sand-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQABAAA4BaJQBOgCHfq/5IAP7gsm7XxNVdrvxKgiWza1ZEstvPjsmn9SuwU37aJvo7wAAA"
+ },
  "silong-studio-front": {
   "width": 1254,
   "height": 1254,
@@ -552,6 +828,30 @@
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQABAAA4BaJQBOgCHfjyyKcEAA/u/DZZSdGt3suMeAmUewIZbDnkmiYSSyM+AA"
  },
+ "sulok-side-table-bleached-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAAAwAgCdASoQABAAA4BaJYwCdAEPhqw5aEckYAD+787cgrtUiex4SOOy6x08n6XXY9rgAA=="
+ },
+ "sulok-side-table-ebonized-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQABAAA4BaJYwCdAdwBscnV8tNMAD+7eGLeGKlWupScY7L30mQ15rpaPH2Y5MHBI2tFyhnmdBjDehRnU2xWm8v0wpOat2w7GKkJAAA"
+ },
  "sulok-studio": {
   "width": 1254,
   "height": 1254,
@@ -563,6 +863,30 @@
   ],
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQABAAA4BaJYgCdADxLXnc08qAAP7tYQV1WQJ1RZ1knKWJnJtnsrBHMr6pZ057SiFOzSqxlt5ehvWi8FKv+BWq4AA="
+ },
+ "tabing-linen-curtain-sand-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoQABAAA4BaJYgCdAEDYoNs62AA/u/XOeuBBum/OdoZa7QGuMiVLybsDAAAAA=="
+ },
+ "tabing-linen-curtain-white-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABwAQCdASoQABAAA4BaJYwCdAFAAAD+8DNIVmTjxv6ikLqWpVgAAA=="
  },
  "tabing-studio": {
   "width": 1254,
@@ -612,6 +936,42 @@
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQABAAA4BaJZgCdADGkAPPpAD+79ZT5HgnUK3bG4w6QtFTc6/NHmt/tO5G6/1O9u+D9pkHLf5VV0q5nnjgDRMwAAA="
  },
+ "unan-bed-charcoal-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQABAAA4BaJYwCdAEO/nVkb//AAP7v0Az+T3tj/MI5EaPCSbh6+yAraIdwU0uN9RBLvp7Op90GFdrH0K5QAAAA"
+ },
+ "unan-bed-clay-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQABAAA4BaJYgCdAEO/tGjcnAA/u/QDPucY/XcgMOgKYYe9IM7cR7tvkvSEQr3q3QuQnrLbEOjqwkusArAAA=="
+ },
+ "unan-bed-sand-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQABAAA4BaJQBOgCHfHY0XtAD+79AMqydpWURZOU5X1hq2Ntnui+k3ZVAAAA=="
+ },
  "unan-studio": {
   "width": 1254,
   "height": 1254,
@@ -634,6 +994,42 @@
   ],
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoQABQAPu1iqU2ppaQiMAgBMB2JYwCdABjvTpJsRhLLKU/icAD+ruorLEaTDeRU/dVwTw8rW6Q5lGpNWYKVLcHy/5pyhMgV/RO73cKakCZKAAAA"
+ },
+ "yakap-sofa-charcoal-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQABAAA4BaJYwCdAEOw8H99AD+78IAjYbL2ok6lSmw6l2iVbbmQYpimzd92sZm4i5/gegA"
+ },
+ "yakap-sofa-clay-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQABAAA4BaJYgCdAEO/xzlTUAAAP7vwe8YK6pUdXbKzDNYmtln7FAv/nwRsN/xzIw1uRN9O3DgAA=="
+ },
+ "yakap-sofa-sand-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoQABAAA4BaJQBOgCHf3MxMcYAA/u++HpczF1ZYwMG4s0ZLSIfQoon4AAA="
  },
  "yakap-studio": {
   "width": 1254,

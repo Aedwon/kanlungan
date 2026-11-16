@@ -30,3 +30,24 @@ for (const full of files) {
 }
 await writeFile(path.join(root, 'site', 'src', 'data', 'product-images.json'), JSON.stringify(manifest, null, 1) + '\n');
 console.log(Object.keys(manifest).length, 'images');
+
+// Product + choice -> image. A variant photo is <slug>-<choice slug>-studio (and -studio-front for Silong's front view).
+// Each entry maps the default image it replaces (the one the page shows for the default choice) to the choice's image.
+// Choices without a photo are left out and keep the default image. Size choices never appear.
+const { products } = await import('../src/data/products.ts');
+const variantImages = {};
+for (const product of products) for (const option of product.variants) for (const choice of option.choices) {
+  const slug = choice.label.toLowerCase().replace(/\s+/g, '-');
+  const pairs = [
+    [`${product.slug}-${slug}-studio`, product.slug === 'silong-sofa' ? 'silong-studio-three-quarter' : `${product.slug.split('-')[0]}-studio`],
+    [`${product.slug}-${slug}-studio-front`, 'silong-studio-front'],
+  ];
+  for (const [file, base] of pairs) {
+    if (!manifest[file]) continue;
+    if (!manifest[base]) throw new Error(`Default image ${base} is missing for ${file}`);
+    ((variantImages[product.slug] ??= {})[option.name] ??= {})[choice.label] ??= {};
+    variantImages[product.slug][option.name][choice.label][base] = file;
+  }
+}
+await writeFile(path.join(root, 'site', 'src', 'data', 'variant-images.json'), JSON.stringify(variantImages, null, 1) + '\n');
+console.log(Object.keys(variantImages).length, 'products with variant images');

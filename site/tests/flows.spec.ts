@@ -156,3 +156,28 @@ test('category tab row does not clip the selected outline', async ({ page }) => 
   const n = await nav.boundingBox(); const s = await sel.boundingBox();
   expect(s!.x - 3).toBeGreaterThanOrEqual(n!.x);
 });
+
+test('a color choice on Kumot Throw switches the photo, the URL, survives reload, and shows in the cart', async ({ page }) => {
+  const indigo = page.locator('img[src*="kumot-throw-indigo-studio"]:visible');
+  const natural = page.locator('img[src*="/kumot-studio"]:visible');
+  await page.goto('/shop/products/kumot-throw');
+  await expect(natural.first()).toBeVisible();
+  await expect(indigo).toHaveCount(0);
+
+  await page.getByRole('button', { name: 'Indigo' }).first().click();
+  await expect(indigo.first()).toBeVisible();
+  await expect(natural).toHaveCount(0);
+  await expect(page).toHaveURL(/\/shop\/products\/kumot-throw\?color=indigo$/);
+
+  await page.reload();
+  await expect(page.getByRole('button', { name: 'Indigo' }).first()).toHaveAttribute('aria-pressed', 'true');
+  await expect(indigo.first()).toBeVisible();
+
+  await page.getByRole('button', { name: 'Add to cart' }).first().click();
+  const drawer = page.getByRole('dialog');
+  await expect(drawer.locator('img[src*="kumot-throw-indigo-studio"]:visible').first()).toBeVisible();
+  await drawer.getByRole('button', { name: 'Close cart' }).first().click();
+  await page.goto('/cart');
+  await expect(page.locator('img[src*="kumot-throw-indigo-studio"]:visible').first()).toBeVisible();
+  await page.getByRole('button', { name: 'Remove Kumot Throw' }).first().click();
+});

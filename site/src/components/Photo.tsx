@@ -42,3 +42,14 @@ export function PhotoSlot({ name, alt, className, style, sizes = '(min-width: 12
     <Photo name={name} alt={alt} sizes={sizes} style={position ? { objectPosition: position } : undefined} />
   </div>;
 }
+
+// Fetches photos ahead of time with the same srcset and sizes a slot uses, so the browser cache serves them on the next switch.
+export function preloadPhotos(names: string[], sizes: string) {
+  const held = names.map((name) => {
+    const entry = resolve(name); const img = new Image();
+    img.sizes = sizes; img.srcset = entry.widths.map((w) => `${entry.base}/${name}-${w}.webp ${w}w`).join(', ');
+    img.decoding = 'async'; img.src = `${entry.base}/${name}.jpg`;
+    return img;
+  });
+  return () => { held.length = 0; };
+}

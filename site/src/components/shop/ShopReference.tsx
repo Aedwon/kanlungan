@@ -1,10 +1,10 @@
 'use client';
-import { createContext, createElement, useContext, useState, type CSSProperties, type ReactNode } from 'react';
+import { createContext, createElement, useContext, useEffect, useState, useSyncExternalStore, type CSSProperties, type ReactNode } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/Button';
 import { ImagePlaceholder } from '@/components/ImagePlaceholder';
-import { PhotoSlot } from '@/components/Photo';
-import { nodePhoto } from '@/data/image-slots';
+import { PhotoSlot, preloadPhotos } from '@/components/Photo';
+import { nodePhoto, variantAlt, variantPhotoName, variantPhotoNames } from '@/data/image-slots';
 import { NotifyMe } from '@/components/NotifyMe';
 import { useCart } from '@/components/CartProvider';
 import { availabilityLine, defaultVariant, type CommerceProduct, type Variant } from '@/lib/commerce/types';
@@ -13,13 +13,29 @@ import { formatPrice } from '@/lib/formatPrice';
 import { makers } from '@/data/makers';
 interface ProductState { product: CommerceProduct; variant: Variant; choose: (name: string, value: string) => void }
 const ProductContext = createContext<ProductState | null>(null);
+const PHOTO_SIZES = '(min-width: 1280px) 700px, 100vw';
+const urlSlug = (s: string) => s.toLowerCase().replace(/\s+/g, '-');
+const urlEvent = 'kanlungan-variant-url';
+const subscribeUrl = (notify: () => void) => { window.addEventListener('popstate', notify); window.addEventListener(urlEvent, notify); return () => { window.removeEventListener('popstate', notify); window.removeEventListener(urlEvent, notify); }; };
 export function ProductScreens({ product, nodes }: { product: CommerceProduct; nodes: ReferenceNode[] }) {
-  const [variantId, setVariantId] = useState(defaultVariant(product).id);
-  const variant = product.resolvedVariants.find((v) => v.id === variantId) ?? defaultVariant(product);
+  // The choices live in the URL (for example ?color=indigo), so a shared link opens with that variant selected.
+  // The server snapshot is empty, so the static page renders the default and the browser applies the link before first paint.
+  const search = useSyncExternalStore(subscribeUrl, () => window.location.search, () => '');
+  const fallback = defaultVariant(product);
+  const params = new URLSearchParams(search);
+  const wanted = { ...fallback.options };
+  for (const option of product.variants) { const choice = option.choices.find((c) => urlSlug(c.label) === params.get(urlSlug(option.name))); if (choice) wanted[option.name] = choice.label; }
+  const variant = product.resolvedVariants.find((v) => Object.entries(wanted).every(([k, val]) => v.options[k] === val)) ?? fallback;
+  // Fetch every variant photo once, so switching a choice is instant.
+  useEffect(() => preloadPhotos(variantPhotoNames(product.slug), PHOTO_SIZES), [product.slug]);
   const choose = (name: string, value: string) => {
     const options = { ...variant.options, [name]: value };
     const next = product.resolvedVariants.find((v) => Object.entries(options).every(([k, val]) => v.options[k] === val));
-    if (next) setVariantId(next.id);
+    if (!next) return;
+    const url = new URL(window.location.href); url.search = '';
+    for (const option of product.variants) if (next.options[option.name] !== fallback.options[option.name]) url.searchParams.set(urlSlug(option.name), urlSlug(next.options[option.name]));
+    window.history.replaceState(window.history.state, '', url);
+    window.dispatchEvent(new Event(urlEvent));
   };
   return <ProductContext.Provider value={{ product, variant, choose }}>{nodes.map((node, i) => <ShopReference key={i} node={node} />)}</ProductContext.Provider>;
 }
@@ -110,7 +126,11 @@ export function ShopReference({ node }: { node: ReferenceNode | string }): React
     return <Link {...attrs} href={String(href)} className={className as string}>{content}</Link>;
   }
   const photo = nodePhoto(node.attrs, node.children.some((c) => typeof c !== 'string' && c.tag === 'img'));
-  if (photo) return <PhotoSlot name={photo.name} alt={photo.alt} position={photo.position} className={node.attrs.className as string} style={node.attrs.style as CSSProperties} sizes="(min-width: 1280px) 700px, 100vw" />;
+  if (photo) {
+    const name = productState ? variantPhotoName(productState.product.slug, photo.name, productState.variant.options) : photo.name;
+    const alt = productState ? variantAlt(productState.product.slug, photo.name, name, photo.alt, productState.variant.options) : photo.alt;
+    return <PhotoSlot name={name} alt={alt} position={photo.position} className={node.attrs.className as string} style={node.attrs.style as CSSProperties} sizes={PHOTO_SIZES} />;
+  }
   if (node.attrs.role === 'img') return <ImagePlaceholder className={node.attrs.className as string} style={node.attrs.style as CSSProperties} alt={String(node.attrs['aria-label'])}>{content}</ImagePlaceholder>;
   if (['img', 'input', 'br', 'hr', 'col'].includes(node.tag)) return createElement(node.tag, node.attrs);
   // A sideways-scrolling strip with nothing focusable inside must itself take focus, so keyboard users can scroll it.
