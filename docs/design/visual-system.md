@@ -155,4 +155,4 @@ Reference: `design/identity/Logo-fable.dc.html`, section "Afternoon". The board 
 ## Not yet decided
 
 - Final photography. The mockups use labeled placeholders. They predate the imagery rules revised on 2026-11-16.
-- Project page: layout B, room-by-room chapters with a sticky room index (picked by Aedwon 2026-11-16 from `design/round-6-project-page/project-page-B.html`).
+- Project page: layout B, room-by-room chapters with a sticky room index (picked by Aedwon 2026-11-16 from `design/round-6-project-page/project-page-B.html`). Materials: a swatch row. Shop the project: compact rows with thumbnails (both picked 2026-11-16 from `design/round-7-project-sections/options.html`).
