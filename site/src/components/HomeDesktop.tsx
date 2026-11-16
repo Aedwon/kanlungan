@@ -4,6 +4,7 @@ import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
 import { RoomPhoto } from "./RoomPhoto";
 import { HomeProcess } from "./HomeProcess";
+import { ServiceCompare } from "./ServiceCompare";
 import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
 import { formatPrice } from "@/lib/formatPrice";
@@ -101,46 +102,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
 </section>
 
 
-<section className="ref-desktop-66">
-  <h2 className="ref-desktop-67">{pageCopy["Two ways to work with us"]}</h2>
-  <div className="ref-desktop-68">
-
-    <div className="sv dk">
-      <div className="sv-img" aria-hidden="true">
-        <div className="sv-img-i">
-          <RoomPhoto label="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" className="ref-desktop-69" />
-          <div className="ref-desktop-70"></div>
-        </div>
-      </div>
-      <h3 className="tx ref-desktop-72">{pageCopy["Full-Service Furnishing"]}</h3>
-      <p className="tx ref-desktop-73">{pageCopy["We design, source, deliver, and style every room."]}</p>
-      <div className="ref-desktop-74"></div>
-      <div className="ref-desktop-75">
-        <span className="sv-big tx ref-desktop-76"><span className="ref-desktop-77">{pageCopy["From"]}</span>{formatPrice(500000)}</span>
-      </div>
-      <p className="tm ref-desktop-78">{pageCopy["Design fee included."]}</p>
-      <Link href="/studio/full-service-furnishing" className="lnk tx ref-desktop-79">{pageCopy["About this service"]} <span className="arr" aria-hidden="true">→</span></Link>
-    </div>
-
-    <div className="sv dk ref-desktop-80">
-      <div className="sv-img" aria-hidden="true">
-        <div className="sv-img-i">
-          <RoomPhoto label="Quiet room detail: plans and a pencil on a warm wood drafting table in side light" className="ref-desktop-81" />
-          <div className="ref-desktop-82"></div>
-        </div>
-      </div>
-      <h3 className="tx ref-desktop-84">{pageCopy["Interior Design Direction"]}</h3>
-      <p className="tx ref-desktop-85">{pageCopy["We design the space. You bring it to life."]}</p>
-      <div className="ref-desktop-86"></div>
-      <div className="ref-desktop-87">
-        <span className="sv-big tx ref-desktop-88"><span className="ref-desktop-89">{pageCopy["From"]}</span>{formatPrice(2500)}</span>
-      </div>
-      <p className="tm ref-desktop-90">Per sqm, minimum {formatPrice(150000)}.</p>
-      <Link href="/studio/interior-design-direction" className="lnk tx ref-desktop-91">{pageCopy["About this service"]} <span className="arr" aria-hidden="true">→</span></Link>
-    </div>
-
-  </div>
-</section>
+<ServiceCompare variant="desktop" id="home-services-d" />
 
 
 <section className="ref-desktop-92">

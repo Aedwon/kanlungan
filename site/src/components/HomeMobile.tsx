@@ -5,8 +5,8 @@ import { products } from "@/data/products";
 import { RoomPhoto } from "./RoomPhoto";
 import { HomeProcess } from "./HomeProcess";
 import { Photo } from "./Photo";
+import { ServiceCompare } from "./ServiceCompare";
 import { pageCopy } from "@/data/copy";
-import { formatPrice } from "@/lib/formatPrice";
 export function HomeMobile() { return (<div className="home-mobile">
 
 
@@ -92,29 +92,7 @@ export function HomeMobile() { return (<div className="home-mobile">
 </section>
 
 
-<section className="ref-mobile-284">
-  <h2 className="ref-mobile-285">{pageCopy["Two ways to work with us"]}</h2>
-
-  <div className="ref-mobile-286">
-    <RoomPhoto label="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" className="svi ref-mobile-287" />
-    <div className="ref-mobile-288">
-      <h3 className="ref-mobile-289">{pageCopy["Full-Service Furnishing"]}</h3>
-      <p className="ref-mobile-290">{pageCopy["We design, source, deliver, and style every room."]}</p>
-      <p className="ref-mobile-291">{pageCopy["From"]} {formatPrice(500000)} design fee included.</p>
-      <Link href="/studio/full-service-furnishing" className="lnk ref-mobile-292">{pageCopy["About this service"]} <span className="arr ref-mobile-293" aria-hidden="true">→</span></Link>
-    </div>
-  </div>
-
-  <div className="ref-mobile-294">
-    <RoomPhoto label="Quiet room detail: plans and a pencil on a warm wood drafting table in side light" className="svi ref-mobile-295" />
-    <div className="ref-mobile-296">
-      <h3 className="ref-mobile-297">{pageCopy["Interior Design Direction"]}</h3>
-      <p className="ref-mobile-298">{pageCopy["We design the space. You bring it to life."]}</p>
-      <p className="ref-mobile-299">{pageCopy["From"]} {formatPrice(2500)} per sqm, minimum {formatPrice(150000)}.</p>
-      <Link href="/studio/interior-design-direction" className="lnk ref-mobile-300">{pageCopy["About this service"]} <span className="arr ref-mobile-301" aria-hidden="true">→</span></Link>
-    </div>
-  </div>
-</section>
+<ServiceCompare variant="mobile" id="home-services-m" />
 
 
 <section className="ref-mobile-302">

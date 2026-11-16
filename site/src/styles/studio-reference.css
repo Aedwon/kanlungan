@@ -39,7 +39,6 @@
 .wave-studio-desktop .prog{animation:wave-studio-desktop-progX linear both;animation-timeline:view();animation-range:entry 0% cover 50%}
 .wave-studio-desktop .progy{animation:wave-studio-desktop-progY linear both;animation-timeline:--st;animation-range:cover 10% cover 90%}
 .wave-studio-desktop .cpar{animation:wave-studio-desktop-cpar linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
-.wave-studio-desktop .svi{animation:wave-studio-desktop-veil linear both;animation-timeline:view();animation-range:entry 0% entry 100%}
 }
 @media (prefers-reduced-motion:no-preference){@supports (animation-timeline: view()){.wave-studio-desktop{timeline-scope:--cta}
 .wave-studio-desktop .hbw{animation:wave-studio-desktop-hbOut linear both;animation-timeline:--cta;animation-range:entry 0% entry 30%}
@@ -49,20 +48,6 @@
 .wave-studio-desktop .rv,.wave-studio-desktop .par,.wave-studio-desktop .zin,.wave-studio-desktop .prog,.wave-studio-desktop .progy,.wave-studio-desktop .cpar,.wave-studio-desktop .svi{animation:none!important}
 .wave-studio-desktop .arr,.wave-studio-desktop .btn-p,.wave-studio-desktop .btn-l,.wave-studio-desktop .ib,.wave-studio-desktop .ph{transition:none}
 .wave-studio-desktop .card:hover .im,.wave-studio-desktop .card:focus-visible .im{filter:none}
-}
-.wave-studio-desktop .sv{position:relative;overflow:hidden;background:#E8DFD2;border-radius:2px;min-height:680px;padding:48px;box-sizing:border-box;display:flex;flex-direction:column}
-.wave-studio-desktop .sv-img{position:absolute;left:0;right:0;top:0;bottom:0;clip-path:inset(100% 0 0 0);transition:clip-path .4s cubic-bezier(.22,.61,.36,1)}
-.wave-studio-desktop .sv-img-i{position:absolute;left:0;right:0;top:0;bottom:0;transform:translateY(10%);transition:transform .4s cubic-bezier(.22,.61,.36,1)}
-.wave-studio-desktop .sv:hover .sv-img,.wave-studio-desktop .sv:focus-within .sv-img{clip-path:inset(0 0 0 0)}
-.wave-studio-desktop .sv:hover .sv-img-i,.wave-studio-desktop .sv:focus-within .sv-img-i{transform:none}
-.wave-studio-desktop .sv .tx{transition:color .3s ease}
-.wave-studio-desktop .sv .tm{transition:color .3s ease;color:#6A584A}
-.wave-studio-desktop .sv:hover .tx,.wave-studio-desktop .sv:focus-within .tx{color:#F7F2EA!important}
-.wave-studio-desktop .sv:hover .tm,.wave-studio-desktop .sv:focus-within .tm{color:#E8DFD2!important}
-.wave-studio-desktop .sv:hover a:hover{color:#E8C8B0}
-.wave-studio-desktop .sv-big{display:block;transform:none;transition:transform .4s cubic-bezier(.22,.61,.36,1)}
-.wave-studio-desktop .sv:hover .sv-big,.wave-studio-desktop .sv:focus-within .sv-big{transform:translateY(-8px)}
-@media (prefers-reduced-motion: reduce){.wave-studio-desktop .sv-img,.wave-studio-desktop .sv-img-i,.wave-studio-desktop .sv-big,.wave-studio-desktop .sv .tx,.wave-studio-desktop .sv .tm{transition:none}
 }
 .wave-studio-desktop .cmp tbody tr{transition:background-color .2s ease}
 .wave-studio-desktop .cmp tbody tr:hover{background:#E8DFD2}

@@ -51,9 +51,9 @@ export function Reference({ node }: { node: ReferenceNode | string }): ReactNode
   // Void elements must not receive an empty children array.
   return ['col', 'br', 'hr', 'input', 'img'].includes(tag) ? createElement(tag, attrs) : createElement(tag, attrs, content);
 }
-export function ReferencePage({ node }: { node: ReferenceNode }) {
+export function ReferencePage({ node, replace }: { node: ReferenceNode; replace?: Record<number, ReactNode> }) {
   const sections = children(node);
   const last = sections.at(-1);
-  return <div {...node.attrs}>{sections.map((section, index) => section === last && text(section).includes('Book a discovery call')
+  return <div {...node.attrs}>{sections.map((section, index) => replace?.[index] ? <div key={index} style={{ display: 'contents' }}>{replace[index]}</div> : section === last && text(section).includes('Book a discovery call')
     ? <ClosingCallToAction key={index} node={section} /> : <Reference key={index} node={section} />)}</div>;
 }
