@@ -3,13 +3,14 @@ import Link from "next/link";
 import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
 import { ImagePlaceholder } from "./ImagePlaceholder";
+import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
 import { formatPrice } from "@/lib/formatPrice";
 export function HomeDesktop() { return (<div className="home-desktop">
 
 
-<section className="hero-track">
-  <div className="hero-pin">
+<section className="hero-track" data-wipe>
+  <div className="hero-pin" data-wipe-pin>
     
     <div className="ref-desktop-1">
       <h1 className="ref-desktop-2">{pageCopy["Spaces to come home to."]}</h1>
@@ -19,10 +20,8 @@ export function HomeDesktop() { return (<div className="home-desktop">
 
     
     <div className="win">
-      <div className="win-img">
-        <ImagePlaceholder alt="Lilim House living room in shaded daylight, low mahogany and linen sofa, deep eaves, greenery through wide openings" className="ref-desktop-7"></ImagePlaceholder>
-        <div className="shade ref-desktop-8"></div>
-      </div>
+      <div className="layer before"><div className="win-img"><Photo name="lilim-hero-before" alt="" sizes="100vw" /></div></div>
+      <div className="layer after"><div className="win-img"><Photo name="lilim-hero-B-layered" alt="Lilim House living room, furnished: low sofa, marble table, cane chair, greenery through wide openings" sizes="100vw" /></div></div>
       <div className="scrim"></div>
       <div aria-hidden="true" className="ref-desktop-9">
         <div className="ref-desktop-10">{pageCopy["Spaces to come home to."]}</div>
@@ -67,13 +66,12 @@ export function HomeDesktop() { return (<div className="home-desktop">
     <Link href="/projects" className="lnk ref-desktop-34">{pageCopy["View projects"]} <span className="arr" aria-hidden="true">→</span></Link>
   </div>
   <div className="dk ref-desktop-35">
-    <Link href="/" className="ref-desktop-36">
+    <Link href="/projects/lilim-house" className="ref-desktop-36">
       <div className="zin ref-desktop-37">
-        <ImagePlaceholder alt="Lilim House terrace with a bench in shaded daylight, greenery behind" className="ref-desktop-38"></ImagePlaceholder>
+        <div className="photo-fill"><Photo name="lilim-terrace" alt="Lilim House covered terrace with a daybed and a low table facing the valley in early sun" sizes="(min-width: 1280px) 1184px, 100vw" /></div>
       </div>
       
       <div className="ref-desktop-39"></div>
-      <div className="ph ref-desktop-40">{pageCopy["Placeholder · Lilim House terrace with bench, shaded daylight, greenery"]}</div>
       <div className="ref-desktop-41">
         <div className="ref-desktop-42">{pageCopy["Lilim House"]}</div>
         <div className="ref-desktop-43">
@@ -82,12 +80,11 @@ export function HomeDesktop() { return (<div className="home-desktop">
         </div>
       </div>
     </Link>
-    <Link href="/" className="ref-desktop-46">
+    <Link href="/projects/tanaw-residence" className="ref-desktop-46">
       <div className="zin ref-desktop-47">
-        <ImagePlaceholder alt="Tanaw Residence city skyline at dusk through full-height windows, warm lamps inside" className="ref-desktop-48"></ImagePlaceholder>
+        <div className="photo-fill"><Photo name="tanaw-hero" alt="Tanaw Residence living room at dusk, lamps lit, the city beyond the glass" sizes="(min-width: 1280px) 1184px, 100vw" /></div>
       </div>
       <div className="ref-desktop-49"></div>
-      <div className="ph ref-desktop-50">{pageCopy["Placeholder · Tanaw Residence, skyline at dusk through full-height windows, warm lamps lit inside"]}</div>
       <div className="ref-desktop-51">
         <div className="ref-desktop-52">{pageCopy["Tanaw Residence"]}</div>
         <div className="ref-desktop-53">
@@ -96,13 +93,12 @@ export function HomeDesktop() { return (<div className="home-desktop">
         </div>
       </div>
     </Link>
-    <Link href="/" className="ref-desktop-56">
+    <Link href="/projects/dalampasigan-inn" className="ref-desktop-56">
       <div className="zin ref-desktop-57">
-        <ImagePlaceholder alt="Dalampasigan Inn bright coastal guest room in daylight, pale limewash walls, reed mat, open window" className="ref-desktop-58"></ImagePlaceholder>
+        <div className="photo-fill"><Photo name="dalampasigan-hero" alt="Dalampasigan Inn guest room in bright morning light, a honey acacia bed and a reed mat" sizes="(min-width: 1280px) 1184px, 100vw" /></div>
       </div>
       
       <div className="ref-desktop-59"></div>
-      <div className="ph ref-desktop-60">{pageCopy["Placeholder · Dalampasigan Inn guest room, pale limewash walls, reed mat, open window, bright coastal daylight"]}</div>
       <div className="ref-desktop-61">
         <div className="ref-desktop-62">{pageCopy["Dalampasigan Inn"]}</div>
         <div className="ref-desktop-63">
@@ -198,51 +194,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
 <section className="rm ref-desktop-117">
   <h2 className="ref-desktop-118">{pageCopy["From the shop"]}</h2>
   <div className="ref-desktop-119">
-    <ImagePlaceholder alt="Lilim House living and dining room in one long view: a low sofa and a cane lounge chair on the left, a dining table under a brass pendant and a mahogany cabinet with a clay vessel on the right" className="ref-desktop-120">
-      
-      <div className="ref-desktop-121"></div>
-      <div className="ref-desktop-122"></div>
-      
-      <div className="ref-desktop-123"></div>
-      <div className="ref-desktop-124"></div>
-      
-      <div className="ref-desktop-125"></div>
-      
-      <div className="ref-desktop-126"></div>
-      <div className="ref-desktop-127"></div>
-      <div className="ref-desktop-128"></div>
-      <div className="ref-desktop-129"></div>
-      <div className="ref-desktop-130"></div>
-      <div className="ref-desktop-131"></div>
-      
-      <div className="ref-desktop-132"></div>
-      <div className="ref-desktop-133"></div>
-      <div className="ref-desktop-134"></div>
-      <div className="ref-desktop-135"></div>
-      
-      <div className="ref-desktop-136"></div>
-      <div className="ref-desktop-137"></div>
-      <div className="ref-desktop-138"></div>
-      <div className="ref-desktop-139"></div>
-      <div className="ref-desktop-140"></div>
-      <div className="ref-desktop-141"></div>
-      
-      <div className="ref-desktop-142"></div>
-      <div className="ref-desktop-143"></div>
-      <div className="ref-desktop-144"></div>
-      
-      <div className="ref-desktop-145"></div>
-      <div className="ref-desktop-146"></div>
-      <div className="ref-desktop-147"></div>
-      <div className="ref-desktop-148"></div>
-      <div className="ref-desktop-149"></div>
-      <div className="ref-desktop-150"></div>
-      <div className="ref-desktop-151"></div>
-      <div className="ref-desktop-152"></div>
-      
-      <div className="shade ref-desktop-153"></div>
-      <div className="ph ref-desktop-154">{pageCopy["Placeholder · Lilim House living and dining in one long view, shaded afternoon daylight, low sofa, cane lounge chair, dining table under a brass pendant, mahogany cabinet with a clay vessel"]}</div>
-    </ImagePlaceholder>
+    <div className="ref-desktop-120 shop-room"><Photo name="lilim-shop-room" alt="Lilim House living and dining room in one long view: a low sofa and a daybed-height lounge chair on the left, a long dining table under a pendant, a floor lamp and a clay vessel on the right" sizes="(min-width: 1280px) 1312px, 100vw" /></div>
 
     
     <Link href="/shop/products/silong-sofa" className="pin p1 ref-desktop-155" aria-label="1, Silong Sofa, Kanlungan Original, ₱186,000, made to order, ready in 10 weeks">1
@@ -257,11 +209,11 @@ export function HomeDesktop() { return (<div className="home-desktop">
     <Link href="/shop/products/kapis-pendant" className="pin p4 ref-desktop-170" aria-label="4, Kapis Pendant, Tanso Lighting Works, ₱32,000, in stock, ships in 3 to 7 business days">4
       <span className="tip tip-b" aria-hidden="true"><span className="ref-desktop-171">{pageCopy["Kapis Pendant"]}</span><span className="ref-desktop-172">{pageCopy["Tanso Lighting Works"]}</span><span className="ref-desktop-173">{formatPrice(32000)}</span><span className="ref-desktop-174">{pageCopy["In stock"]}</span></span>
     </Link>
-    <Link href="/shop/products/aparador-cabinet" className="pin p5 ref-desktop-175" aria-label="5, Aparador Cabinet, Kanlungan Original, ₱164,000, made to order, ready in 12 weeks">5
-      <span className="tip tip-r" aria-hidden="true"><span className="ref-desktop-176">{pageCopy["Aparador Cabinet"]}</span><span className="ref-desktop-177">{pageCopy["Kanlungan Original"]}</span><span className="ref-desktop-178">{formatPrice(164000)}</span><span className="ref-desktop-179">{pageCopy["Made to order · 12 weeks"]}</span></span>
+    <Link href="/shop/products/sinag-floor-lamp" className="pin p5 ref-desktop-175" aria-label="5, Sinag Floor Lamp, Kanlungan Original, ₱36,500, made to order, ready in 6 weeks">5
+      <span className="tip tip-r" aria-hidden="true"><span className="ref-desktop-176">Sinag Floor Lamp</span><span className="ref-desktop-177">{pageCopy["Kanlungan Original"]}</span><span className="ref-desktop-178">{formatPrice(36500)}</span><span className="ref-desktop-179">Made to order · 6 weeks</span></span>
     </Link>
     <Link href="/shop/products/tapayan-vessel" className="pin p6 ref-desktop-180" aria-label="6, Tapayan Vessel, Bukal Clayworks, ₱8,600, in stock, ships in 3 to 7 business days">6
-      <span className="tip tip-r" aria-hidden="true"><span className="ref-desktop-181">{pageCopy["Tapayan Vessel"]}</span><span className="ref-desktop-182">{pageCopy["Bukal Clayworks"]}</span><span className="ref-desktop-183">{formatPrice(8600)}</span><span className="ref-desktop-184">{pageCopy["In stock"]}</span></span>
+      <span className="tip tip-l" aria-hidden="true"><span className="ref-desktop-181">{pageCopy["Tapayan Vessel"]}</span><span className="ref-desktop-182">{pageCopy["Bukal Clayworks"]}</span><span className="ref-desktop-183">{formatPrice(8600)}</span><span className="ref-desktop-184">{pageCopy["In stock"]}</span></span>
     </Link>
   </div>
 
@@ -276,7 +228,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
 
     <li><ProductCard product={products.find((product) => product.slug === "kapis-pendant")!} number={4} variant="home" /></li>
 
-    <li><ProductCard product={products.find((product) => product.slug === "aparador-cabinet")!} number={5} variant="home" /></li>
+    <li><ProductCard product={products.find((product) => product.slug === "sinag-floor-lamp")!} number={5} variant="home" /></li>
 
     <li><ProductCard product={products.find((product) => product.slug === "tapayan-vessel")!} number={6} variant="home" /></li>
 
@@ -342,9 +294,8 @@ export function HomeDesktop() { return (<div className="home-desktop">
 
 <section className="dk ref-desktop-216">
   <div className="cta-sec"><div className="ref-desktop-217">
-    <div className="zin ref-desktop-218"><ImagePlaceholder alt="Tanaw Residence at dusk, warm lamps lit inside and the city beyond the glass" className="ref-desktop-219"><div className="ref-desktop-220"></div></ImagePlaceholder></div>
+    <div className="zin ref-desktop-218"><div className="photo-fill"><Photo name="tanaw-hero" alt="Tanaw Residence at dusk, warm lamps lit inside and the city beyond the glass" sizes="(min-width: 1280px) 1312px, 100vw" /></div></div>
     <div className="ref-desktop-221"></div>
-    <div className="ph ref-desktop-222">{pageCopy["Placeholder · Tanaw Residence at dusk, warm lamps lit inside, the city beyond the glass"]}</div>
     <div className="ref-desktop-223">
       <h2 className="ref-desktop-224">{pageCopy["Tell us about your space."]}</h2>
       <p className="ref-desktop-225">A discovery call takes 30 minutes and costs nothing. Furnishing projects start at {formatPrice(1500000)}.</p>

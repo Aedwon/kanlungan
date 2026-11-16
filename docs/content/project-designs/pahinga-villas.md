@@ -409,7 +409,7 @@ Shop references are in `design/photography/`. A reference is attached only when 
 | Kumot Throw, Rust | Shop | Folded across the foot of the bed | `kumot-studio.png`, color changed in words |
 | Dapithapon Lounge Chair, two | Shop | One in the room and one on the terrace | `dapithapon-studio.png` |
 | Old chest | Found | A chest in dark old hardwood, about 100 by 50 by 55 cm, with an iron lock plate and worn edges. One for each villa, each different. Found through dealers in Cebu and Bohol. | Words |
-| Two paintings | Art, Paolo Sarmiento, through Amihan Editions | Oil on canvas in a thin mahogany frame. A still life of a few plain things on a table: a bowl, a bottle, two or three fruits, a folded cloth. Rust, ochre, moss, and off-white on a gray-brown ground. One is 85 by 65 cm, wide. One is 80 by 100 cm, upright. Sixteen in all, none alike. Pending review. | Words |
+| Two paintings | Art, Paolo Vergara, through Amihan Editions | Oil on canvas in a thin mahogany frame. A still life of a few plain things on a table: a bowl, a bottle, two or three fruits, a folded cloth. Rust, ochre, moss, and off-white on a gray-brown ground. One is 85 by 65 cm, wide. One is 80 by 100 cm, upright. Sixteen in all, none alike. Pending review. | Words |
 | Bird's nest fern and planter | Bought, and Custom, Sulihiya Studio | A fern with a rosette of long, broad, undivided, wavy fronds, about 1.3 m tall with its planter. The planter is a plain cylinder, 45 cm across and 55 cm tall, woven in dark brown nito vine over a liner. | Words |
 | Cane settee, 140 cm | Custom, Lilok Workshop and Sulihiya Studio | A two-seat settee with a square mahogany frame, a back and sides of woven cane, and loose seat cushions in oat linen. Plain. Not a copy of any known settee. | Words |
 | Low round table | Custom, Lilok Workshop | Mahogany, 70 cm across and 38 cm high, on three square legs | Words |
@@ -438,7 +438,7 @@ Shop references are in `design/photography/`. A reference is attached only when 
 | Dapithapon Lounge Chair, two | Shop | Facing the settee | `dapithapon-studio.png` |
 | Low round table | Custom | As in the villas | Words |
 | Plain rug, 250 by 240 | Custom, Tikog Loom | Cream abaca | Words |
-| Large painting | Art, Paolo Sarmiento | From the same series, 160 by 110 cm | Words |
+| Large painting | Art, Paolo Vergara | From the same series, 160 by 110 cm | Words |
 | R1, R2 | Custom, Lilok Workshop and Tanso Lighting Works | As in the lighting plan | Words |
 | Fern and planter | As in the villas | | Words |
 | Key tray | Custom, Lilok Workshop | A shallow mahogany tray with eight brass keys, each on a loop of abaca cord | Words |
@@ -453,7 +453,7 @@ Counting each kind of piece once: 6 from the shop, about 24 custom, 1 found kind
 
 - **"Shop the project"** lists the six shop pieces. The list is in [projects](../projects.md#pahinga-villas).
 - **Options used here already exist in the catalog:** Ebonized on the Sulok, Moss and Rust on the Hablon, Rust on the Kumot.
-- **Pieces that leave the old Pahinga list:** the Himlay Bed, the Duyan Daybed, the Kapis Pendant, the Luad Table Lamp, the Tabing Linen Curtain, the Tapayan Vessel, and the Habi Wall Piece. The four-post bed is made for the villas. The Duyan, the Kapis, the Luad, and the Tapayan are in Lilim's frames, and each would repeat a lamp, a daybed, or a jar. The curtains are tobacco, which the Tabing does not come in. The Habi is in the Dalampasigan lobby.
+- **Pieces that leave the old Pahinga list:** the Himlay Bed, the Duyan Daybed, the Kapis Pendant, the Luad Table Lamp, the Tabing Linen Curtain, the Tapayan Vessel, and the Hibla Wall Piece. The four-post bed is made for the villas. The Duyan, the Kapis, the Luad, and the Tapayan are in Lilim's frames, and each would repeat a lamp, a daybed, or a jar. The curtains are tobacco, which the Tabing does not come in. The Hibla is in the Dalampasigan lobby.
 - **Second and last list** for the Dapithapon and the Aparador (with Lilim), the Hablon (with Tanaw), the Kumot (with Dalampasigan), and the Bakal (with Hardin's present list).
 - **The Tabing Linen Curtain** is now on no project's list. The Lilim frames show it in white. The lead may add it to Lilim's list.
 - **Not used, although free on the lists:** the Banig Rug and the Bilao Tray. Both are in Lilim's and Dalampasigan's frames already.

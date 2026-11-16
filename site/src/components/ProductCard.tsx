@@ -27,7 +27,7 @@ export function ProductCard({ product, number, availability = product.availabili
         <div className="product-price">{formatPrice(product.price)}{product.priceUnit && ` ${product.priceUnit}`}</div>
         {sold && <div className="product-sold">Sold out.</div>}
         <div className="product-detail dt">
-          <div className="product-maker">{product.maker}{product.name === 'Tanghali' && ' · Paolo Sarmiento'}</div>
+          <div className="product-maker">{product.maker}{product.name === 'Tanghali' && ' · Paolo Vergara'}</div>
           {!sold && <div className="product-availability">{variant !== 'default' ? <>{made ? 'Made to order' : 'In stock'}{made && <span className="lead-time"> · {product.leadTimeWeeks} weeks</span>}</> : <><span className="availability-desktop">{unique ? 'In stock · One of a kind' : fullAvailability}</span><span className="availability-mobile">{unique ? 'One of a kind' : made ? `Made to order · ${product.leadTimeWeeks} weeks` : 'In stock'}</span></>}</div>}
         </div>
       </div>

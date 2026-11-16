@@ -372,7 +372,7 @@ Shop references are in `design/photography/`. A shop piece shows on at most two 
 | Pasilyo Console Table | Shop | Ebonized mahogany with a cane shelf, 150 by 38 by 80 cm | `pasilyo-studio.png` |
 | Unan Bed, queen, oat | Shop | A low bed with a padded linen headboard | `unan-studio.png` |
 | Bakal Side Table | Shop | Blackened steel, 38 cm across. East of the bed. | `bakal-studio.png` |
-| Kiso Stool, three | Shop | Pale hinoki. At the entry, at the bed, and on the balcony. | `kiso-studio.png` |
+| Asa Stool, three | Shop | Pale hinoki. At the entry, at the bed, and on the balcony. | `asa-studio.png` |
 | Tabing Linen Curtain, oat | Shop | Three panels in the living room and two in the bedroom, hemmed to the ceiling | `tabing-studio.png` |
 | Amihan No. 3 | Shop, Art | The abstract print by Ines Dalisay, 50 by 70 cm, framed by the owner in pale wood at 60 by 80 cm. Above the sofa. | `amihan-studio.png` |
 | Four more prints | Art, Ines Dalisay, through Amihan Editions | From the same series, none alike: two or three large flat shapes in brown, rust, and stone gray on cream paper. One above the sofa, 60 by 80 cm framed. One above the console, 40 by 50 cm. One at the dining end, 60 by 80 cm. One small one at the entry. One wide one above the bed, 120 by 60 cm, in the palest tones. | Words, and `amihan-studio.png` |
@@ -401,7 +401,7 @@ Counting each kind of piece once: 9 from the shop, 5 found, about 8 bought, the 
 - **The Luad Table Lamp leaves the list.** It is Lilim's lamp.
 - **New to the list:** the Tabing Linen Curtain in oat and Amihan No. 3. Neither was on any project's list.
 - **Second and last list** for the Silong and the Lambot (with Lilim), the Unan and the Bato (with Tanaw), and the Bakal (with Pahinga).
-- **Alone on this list:** the Kiso, the Pasilyo, the Tabing, and Amihan No. 3.
+- **Alone on this list:** the Asa, the Pasilyo, the Tabing, and Amihan No. 3.
 
 ## 10. Styling
 

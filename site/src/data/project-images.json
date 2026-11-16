@@ -1,0 +1,933 @@
+{
+ "lilim-bath": {
+  "dir": "lilim",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "lilim-bedroom-before": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-bedroom": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-bedside": {
+  "dir": "lilim",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "lilim-children-room": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-dining-dusk-before": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-dining-dusk": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-dining-morning": {
+  "dir": "lilim",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "lilim-entry": {
+  "dir": "lilim",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "lilim-exterior-dusk": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-family-room-before": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-family-room": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-hero-B-layered": {
+  "dir": "lilim",
+  "width": 1914,
+  "height": 822,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1914
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-hero-before": {
+  "dir": "lilim",
+  "width": 1914,
+  "height": 822,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1914
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-kitchen-before": {
+  "dir": "lilim",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "lilim-kitchen": {
+  "dir": "lilim",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "lilim-material-detail": {
+  "dir": "lilim",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "lilim-shop-room": {
+  "dir": "lilim",
+  "width": 2100,
+  "height": 900,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1920,
+   2100
+  ],
+  "jpegWidth": 1440
+ },
+ "lilim-stone-table": {
+  "dir": "lilim",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "lilim-terrace": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "tanaw-bath": {
+  "dir": "tanaw",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "tanaw-bedroom-before": {
+  "dir": "tanaw",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "tanaw-bedroom": {
+  "dir": "tanaw",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "tanaw-dining-sun": {
+  "dir": "tanaw",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "tanaw-dressing-corner": {
+  "dir": "tanaw",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "tanaw-entry": {
+  "dir": "tanaw",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "tanaw-guest-corner": {
+  "dir": "tanaw",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "tanaw-hero-before": {
+  "dir": "tanaw",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "tanaw-hero": {
+  "dir": "tanaw",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "tanaw-kitchen-dining-before": {
+  "dir": "tanaw",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "tanaw-kitchen-dining": {
+  "dir": "tanaw",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "tanaw-reading-chair": {
+  "dir": "tanaw",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "tanaw-screen-wall": {
+  "dir": "tanaw",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "tanaw-study-before": {
+  "dir": "tanaw",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "tanaw-study": {
+  "dir": "tanaw",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "dalampasigan-bath": {
+  "dir": "dalampasigan",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "dalampasigan-bedside": {
+  "dir": "dalampasigan",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "dalampasigan-breakfast-before": {
+  "dir": "dalampasigan",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "dalampasigan-breakfast": {
+  "dir": "dalampasigan",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "dalampasigan-common-corner": {
+  "dir": "dalampasigan",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "dalampasigan-corridor": {
+  "dir": "dalampasigan",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "dalampasigan-exterior": {
+  "dir": "dalampasigan",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "dalampasigan-garden-room": {
+  "dir": "dalampasigan",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "dalampasigan-hero-before": {
+  "dir": "dalampasigan",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "dalampasigan-hero": {
+  "dir": "dalampasigan",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "dalampasigan-lobby-before": {
+  "dir": "dalampasigan",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "dalampasigan-lobby": {
+  "dir": "dalampasigan",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "dalampasigan-serving-table": {
+  "dir": "dalampasigan",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "pahinga-bath": {
+  "dir": "pahinga",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "pahinga-bedside": {
+  "dir": "pahinga",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "pahinga-daybed": {
+  "dir": "pahinga",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "pahinga-grove": {
+  "dir": "pahinga",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "pahinga-hero-before": {
+  "dir": "pahinga",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "pahinga-hero": {
+  "dir": "pahinga",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "pahinga-reception-before": {
+  "dir": "pahinga",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "pahinga-reception": {
+  "dir": "pahinga",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "pahinga-sitting-corner": {
+  "dir": "pahinga",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "pahinga-terrace-before": {
+  "dir": "pahinga",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "pahinga-terrace": {
+  "dir": "pahinga",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "pahinga-welcome": {
+  "dir": "pahinga",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "hardin-balcony-before": {
+  "dir": "hardin",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "hardin-balcony": {
+  "dir": "hardin",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "hardin-bath": {
+  "dir": "hardin",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "hardin-bedroom-before": {
+  "dir": "hardin",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "hardin-bedroom": {
+  "dir": "hardin",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "hardin-book": {
+  "dir": "hardin",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "hardin-dining": {
+  "dir": "hardin",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "hardin-entry": {
+  "dir": "hardin",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "hardin-herbs": {
+  "dir": "hardin",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "hardin-hero-before": {
+  "dir": "hardin",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "hardin-hero": {
+  "dir": "hardin",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ },
+ "hardin-kitchen": {
+  "dir": "hardin",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "hardin-moodboard": {
+  "dir": "hardin",
+  "width": 1086,
+  "height": 1448,
+  "widths": [
+   480,
+   768,
+   1080,
+   1086
+  ],
+  "jpegWidth": 1086
+ },
+ "hardin-render": {
+  "dir": "hardin",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440
+ }
+}

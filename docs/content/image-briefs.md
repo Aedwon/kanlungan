@@ -262,7 +262,7 @@ Long, narrow solid acacia bench with visible joinery and an oil finish. The 140 
 
 Small carved solid acacia stool with an oil finish, a compact 34 cm square footprint and 44 cm height. A simple solid seat and visibly carved supporting form, with warm natural grain. Preserve the accepted silhouette across bedside, workshop, and studio images. No invented upholstery, handles, or decorative carving.
 
-### Kiso Stool
+### Asa Stool
 
 **Catalog anchor:** 36 × 36 × 42 cm; Hinoki cypress. Attribution: Okabe Mokko.
 
@@ -346,7 +346,7 @@ Slim brass floor lamp with a linen shade and acacia base, overall diameter 40 an
 
 Hand-thrown stoneware base with an ash glaze and a plain pale linen shade, diameter 30 and height 46 overall. Earthy cream-gray glaze with subtle pooling, no invented colored pattern. Keep base contour, glaze marks, shade profile, and shade-to-base ratio fixed. Show a plausible cable only when it belongs in the view.
 
-### Tala Wall Light
+### Sulo Wall Light
 
 **Catalog anchor:** 14 × 18 × 24 cm; Unlacquered brass, opal glass. Attribution: Tanso Lighting Works.
 
@@ -418,7 +418,7 @@ Abstract pigment print on cotton rag paper, 50 × 70, sold unframed. Use one res
 
 Original landscape painting in acrylic on canvas, 90 × 120. Keep the first accepted landscape composition, canvas proportions, and paint marks identical in all images because it is one of a kind. Use a quiet earth-and-olive interpretation rather than inventing a named location. No frame inclusion claim, signature, lettering, or copied artwork.
 
-### Habi Wall Piece
+### Hibla Wall Piece
 
 **Catalog anchor:** 90 × 4 × 140 cm; Tikog reed, abaca, wood rail. Attribution: Tikog Loom.
 
@@ -650,11 +650,11 @@ Superseded on 2026-11-16. Do not generate from these eleven entries. The new fra
 ### tanaw-g06-wall-light
 **Camera:** C6 in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
-**Use:** Tanaw Residence project, Gallery 6; Tala in-room reference
+**Use:** Tanaw Residence project, Gallery 6; Sulo in-room reference
 
 **Aspect and crop:** 3:4 project gallery; square light crop
 
-**Prompt:** Photograph the Tala Wall Light beside the Tanaw sand Unan Bed on its warm, quiet wall. Use a 50mm lens at 125 cm, close enough to read the opal globe and unlacquered brass but far enough to show the pillow edge below. Keep the mounting projection believable. Let the rest of the bedroom fall gently out of focus, with no new window invented behind the light. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the Sulo Wall Light beside the Tanaw sand Unan Bed on its warm, quiet wall. Use a 50mm lens at 125 cm, close enough to read the opal globe and unlacquered brass but far enough to show the pillow edge below. Keep the mounting projection believable. Let the rest of the bedroom fall gently out of focus, with no new window invented behind the light. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -718,11 +718,11 @@ Superseded on 2026-11-16. Do not generate from these eleven entries. The new fra
 ### dalampasigan-g02-lobby
 **Camera:** C2 (anchor, lobby) in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
-**Use:** Dalampasigan Inn project, Gallery 2; Bangko and Habi in-room references
+**Use:** Dalampasigan Inn project, Gallery 2; Bangko and Hibla in-room references
 
 **Aspect and crop:** 3:4 project gallery; square object crops
 
-**Prompt:** Photograph the inn lobby with a Bangko Bench and Habi Wall Piece opposite the entrance. Use a level 35mm camera at 120 cm just inside the entry. Keep the acacia bench length and narrow depth readable, with the undyed wall piece hanging securely above the quiet wall. Leave space for guests to walk past and show a small section of adjoining passage behind. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
+**Prompt:** Photograph the inn lobby with a Bangko Bench and Hibla Wall Piece opposite the entrance. Use a level 35mm camera at 120 cm just inside the entry. Keep the acacia bench length and narrow depth readable, with the undyed wall piece hanging securely above the quiet wall. Leave space for guests to walk past and show a small section of adjoining passage behind. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
 
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
@@ -896,11 +896,11 @@ Superseded on 2026-11-16. Do not generate from these eleven entries. The new fra
 ### pahinga-g08-wall-piece
 **Camera:** C8 in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
-**Use:** Pahinga Villas project, Gallery 8; Habi in-room reference
+**Use:** Pahinga Villas project, Gallery 8; Hibla in-room reference
 
 **Aspect and crop:** 3:4 project gallery; square wall-piece crop
 
-**Prompt:** Photograph the Habi Wall Piece above the Himlay Bed in the Pahinga villa. Use a level 50mm camera at 125 cm from near the bed foot. Show its wood rail and tall reed-and-abaca body against the quiet wall, with the cane headboard below. Keep the scale physically plausible and the hanging secure. Let the selected white linen and white curtain remain at the frame edges. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Hibla Wall Piece above the Himlay Bed in the Pahinga villa. Use a level 50mm camera at 125 cm from near the bed foot. Show its wood rail and tall reed-and-abaca body against the quiet wall, with the cane headboard below. Keep the scale physically plausible and the hanging secure. Let the selected white linen and white curtain remain at the frame edges. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -1030,11 +1030,11 @@ Superseded on 2026-11-16. Do not generate from these eleven entries. The new fra
 ### hardin-g10-balcony
 **Camera:** C10 (anchor, balcony) in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
-**Use:** Hardin Apartment project, Gallery 10, photograph; Kiso in-room reference
+**Use:** Hardin Apartment project, Gallery 10, photograph; Asa in-room reference
 
 **Aspect and crop:** 3:4 project gallery; square stool crop
 
-**Prompt:** Photograph the small Hardin balcony garden with plants and a Kiso Stool. Position a level 50mm camera at 100 cm from the open interior doorway, keeping the stool compact and the balcony realistically shallow. Let pale hinoki contrast gently with the mahogany inside. Show the existing balcony boundary and a muted urban background, with a few naturally irregular leaves rather than an overgrown jungle. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
+**Prompt:** Photograph the small Hardin balcony garden with plants and a Asa Stool. Position a level 50mm camera at 100 cm from the open interior doorway, keeping the stool compact and the balcony realistically shallow. Let pale hinoki contrast gently with the mahogany inside. Show the existing balcony boundary and a muted urban background, with a few naturally irregular leaves rather than an overgrown jungle. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
 
 **Negative add-on:** No terrace expansion, rooftop resort, dark-stained stool, unsafe missing balcony boundary, or bright green saturation.
 
@@ -1092,13 +1092,13 @@ Every studio image below is the canonical card image for its named product where
 
 **Negative add-on:** No chair back, hollow floating seat, extra feet, or plastic grain.
 
-### kiso-studio
+### asa-studio
 
-**Use:** Kiso Stool product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
+**Use:** Asa Stool product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the complete pale hinoki stool with restrained precise joinery. Follow the Kiso Stool consistency sheet exactly, retaining its 36 × 36 × 42 cm proportions and documented materials. Place a full-frame 50mm camera at 65 cm, from a front three-quarter angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a pale growth-ring change, a tiny joint shadow, and a subtle rubbed seat edge. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the complete pale hinoki stool with restrained precise joinery. Follow the Asa Stool consistency sheet exactly, retaining its 36 × 36 × 42 cm proportions and documented materials. Place a full-frame 50mm camera at 65 cm, from a front three-quarter angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a pale growth-ring change, a tiny joint shadow, and a subtle rubbed seat edge. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No dark stain, acacia grain, upholstery, or exaggerated knots.
 
@@ -1232,13 +1232,13 @@ Every studio image below is the canonical card image for its named product where
 
 **Negative add-on:** No porcelain gloss, painted motif, extra shade, or stretched lamp base.
 
-### tala-studio
+### sulo-studio
 
-**Use:** Tala Wall Light product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
+**Use:** Sulo Wall Light product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the complete brass and opal-glass wall light mounted on a plain surface-colored panel. Follow the Tala Wall Light consistency sheet exactly, retaining its 14 × 18 × 24 cm proportions and documented materials. Place a full-frame 50mm camera at 120 cm, looking level from a slight side angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show subtle brass patina, a real mounting shadow, and soft glass translucency. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the complete brass and opal-glass wall light mounted on a plain surface-colored panel. Follow the Sulo Wall Light consistency sheet exactly, retaining its 14 × 18 × 24 cm proportions and documented materials. Place a full-frame 50mm camera at 120 cm, looking level from a slight side angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show subtle brass patina, a real mounting shadow, and soft glass translucency. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No freestanding globe, extra globe, transparent glass, or invented switch.
 
@@ -1352,13 +1352,13 @@ Every studio image below is the canonical card image for its named product where
 
 **Negative add-on:** No invented frame inclusion, signature, altered landscape, or photographic printed canvas.
 
-### habi-studio
+### hibla-studio
 
-**Use:** Habi Wall Piece product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
+**Use:** Hibla Wall Piece product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the whole reed-and-abaca wall piece hanging from its wood rail on a plain panel. Follow the Habi Wall Piece consistency sheet exactly, retaining its 90 × 4 × 140 cm proportions and documented materials. Place a full-frame 50mm camera at 130 cm, looking level from a slight angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a slight fiber irregularity, a small rail shadow, and natural straw tone changes. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the whole reed-and-abaca wall piece hanging from its wood rail on a plain panel. Follow the Hibla Wall Piece consistency sheet exactly, retaining its 90 × 4 × 140 cm proportions and documented materials. Place a full-frame 50mm camera at 130 cm, looking level from a slight angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a slight fiber irregularity, a small rail shadow, and natural straw tone changes. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No printed fabric, bright dye, decorative motifs, or unsupported hanging.
 
@@ -1566,23 +1566,23 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Negative add-on:** No changed product geometry, invented ornament, over-sharpened fibers, repeated texture, or false damage.
 
-### kiso-detail
+### asa-detail
 
-**Use:** Kiso Stool featured product page, detail image; pair with `hardin-g10-balcony` for its in-room image
+**Use:** Asa Stool featured product page, detail image; pair with `hardin-g10-balcony` for its in-room image
 
 **Aspect and crop:** 1:1 on #E8DFD2; retain enough edge to explain construction
 
-**Prompt:** Photograph a close detail of the precise hinoki joint beneath the seat edge. Use the accepted Kiso Stool reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 45 cm, level with the seat joint, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show a faint growth-ring change, a tight joint shadow, and a softly rubbed edge. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
+**Prompt:** Photograph a close detail of the precise hinoki joint beneath the seat edge. Use the accepted Asa Stool reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 45 cm, level with the seat joint, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show a faint growth-ring change, a tight joint shadow, and a softly rubbed edge. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
 
 **Negative add-on:** No changed product geometry, invented ornament, over-sharpened fibers, repeated texture, or false damage.
 
-### habi-detail
+### hibla-detail
 
-**Use:** Habi Wall Piece featured product page, detail image; pair with `pahinga-g08-wall-piece` for its in-room image
+**Use:** Hibla Wall Piece featured product page, detail image; pair with `pahinga-g08-wall-piece` for its in-room image
 
 **Aspect and crop:** 1:1 on #E8DFD2; retain enough edge to explain construction
 
-**Prompt:** Photograph a close detail of the handwoven reed and abaca surface meeting its wood rail. Use the accepted Habi Wall Piece reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 130 cm, level with the hanging surface, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show uneven natural fiber thickness, a rail shadow, and a small weave offset. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
+**Prompt:** Photograph a close detail of the handwoven reed and abaca surface meeting its wood rail. Use the accepted Hibla Wall Piece reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 130 cm, level with the hanging surface, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show uneven natural fiber thickness, a rail shadow, and a small weave offset. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
 
 **Negative add-on:** No changed product geometry, invented ornament, over-sharpened fibers, repeated texture, or false damage.
 
@@ -1674,7 +1674,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 4:3 collection card; 16:9 room derivative; shop hero also retains a 16:10 crop
 
-**Prompt:** Photograph a dining corner with natural Hapag, Hain cane-seat chairs, Lenta Pendant, and Tabing linen at the opening. Place a Bilao Tray on the table and keep Kiso tucked clear of chair movement. Use a level full-frame 35mm camera at 120 cm at the table side. Soft morning light comes through the curtain at camera right, with pale reflected fill. Preserve each named product reference exactly. A finite warm wall and pale opening form the background. Show a curtain fold, quiet cane variation, and a slightly rubbed wood edge. Keep shadows open, surfaces matte, and the composition calm, with room around the main grouping for alternate crops.
+**Prompt:** Photograph a dining corner with natural Hapag, Hain cane-seat chairs, Lenta Pendant, and Tabing linen at the opening. Place a Bilao Tray on the table and keep Asa tucked clear of chair movement. Use a level full-frame 35mm camera at 120 cm at the table side. Soft morning light comes through the curtain at camera right, with pale reflected fill. Preserve each named product reference exactly. A finite warm wall and pale opening form the background. Show a curtain fold, quiet cane variation, and a slightly rubbed wood edge. Keep shadows open, surfaces matte, and the composition calm, with room around the main grouping for alternate crops.
 
 **Negative add-on:** No branded breakfast spread, woven chair backs, or polished ceramic shade.
 
@@ -1714,9 +1714,9 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 4:3 collection card; 16:9 room derivative; shop hero also retains a 16:10 crop
 
-**Prompt:** Photograph a Baul Credenza with Tapayan and Bato on top, a Tala mounted above, and Amihan No. 3 plus Tanghali as two wall works. Any display frame is styling, not a claim that a retail frame is included. Use a level full-frame 50mm camera at 125 cm at a shallow frontal angle. Soft shaded afternoon light comes from camera left, with unlit opal glass and warm bounce. Preserve each named product reference exactly. A finite warm wall and pale opening form the background. Show soft brass patina, a tiny glaze pool, and wood grain variation. Keep shadows open, surfaces matte, and the composition calm, with room around the main grouping for alternate crops.
+**Prompt:** Photograph a Baul Credenza with Tapayan and Bato on top, a Sulo mounted above, and Amihan No. 3 plus Tanghali as two wall works. Any display frame is styling, not a claim that a retail frame is included. Use a level full-frame 50mm camera at 125 cm at a shallow frontal angle. Soft shaded afternoon light comes from camera left, with unlit opal glass and warm bounce. Preserve each named product reference exactly. A finite warm wall and pale opening form the background. Show soft brass patina, a tiny glaze pool, and wood grain variation. Keep shadows open, surfaces matte, and the composition calm, with room around the main grouping for alternate crops.
 
-**Negative add-on:** No table-mounted Tala, invented prints, frame inclusion claim, or crowded display.
+**Negative add-on:** No table-mounted Sulo, invented prints, frame inclusion claim, or crowded display.
 
 **Collection reuse map.** These seven cards cover every catalog collection. Supporting props do not change membership.
 
@@ -1741,7 +1741,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 | Lighting | `kapis-studio`; all five lighting masters |
 | Rugs and textiles | `lambot-studio`; all five textile masters |
 | Decor and objects | `tapayan-studio`; all four object masters |
-| Art | `amihan-studio`; Amihan, Tanghali, Habi masters |
+| Art | `amihan-studio`; Amihan, Tanghali, Hibla masters |
 
 ### Page group: Makers index, maker pages, and Home craft panel
 
@@ -1801,7 +1801,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 4:5 maker portrait; 16:9 supporting crop; Lilok also retains a 6:7 maker-page crop
 
-**Prompt:** Photograph spun brass components and opal glass at Tanso Lighting Works in Marikina. Show the Tala reference beside a few unbranded parts on a practical bench, with a dim workshop receding behind. Place a full-frame camera at 110 cm beside the bench, using a 50mm lens at a shallow angle. Soft late-morning window light enters from camera left, with pale bounce across the working area. Keep the background modest and gently out of focus without erasing the workshop context. Show brass handling marks, a real tool shadow, and glass translucency. Preserve natural color and low contrast, with real surface depth. Let the composition feel observed during ordinary work rather than staged for promotion, keeping every object supported.
+**Prompt:** Photograph spun brass components and opal glass at Tanso Lighting Works in Marikina. Show the Sulo reference beside a few unbranded parts on a practical bench, with a dim workshop receding behind. Place a full-frame camera at 110 cm beside the bench, using a 50mm lens at a shallow angle. Soft late-morning window light enters from camera left, with pale bounce across the working area. Keep the background modest and gently out of focus without erasing the workshop context. Show brass handling marks, a real tool shadow, and glass translucency. Preserve natural color and low contrast, with real surface depth. Let the composition feel observed during ordinary work rather than staged for promotion, keeping every object supported.
 
 **Negative add-on:** No neon sparks, gold plating, branded tools, live wiring work, or metal-only Kapis.
 
@@ -1831,7 +1831,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 4:5 maker portrait; 16:9 supporting crop; Lilok also retains a 6:7 maker-page crop
 
-**Prompt:** Photograph pale hinoki joinery at Okabe Mokko in Nagano, with the accepted Kiso Stool beside an orderly woodworking bench. Keep the room practical, without assigning an invented regional architecture or tourist setting. Place a full-frame camera at 85 cm beside the stool, using a 50mm lens near seat height. Soft late-morning window light enters from camera left, with pale bounce across the working area. Keep the background modest and gently out of focus without erasing the workshop context. Show fine growth rings, a pale shaving, and a joint shadow. Preserve natural color and low contrast, with real surface depth. Let the composition feel observed during ordinary work rather than staged for promotion, keeping every object supported.
+**Prompt:** Photograph pale hinoki joinery at Okabe Mokko in Nagano, with the accepted Asa Stool beside an orderly woodworking bench. Keep the room practical, without assigning an invented regional architecture or tourist setting. Place a full-frame camera at 85 cm beside the stool, using a 50mm lens near seat height. Soft late-morning window light enters from camera left, with pale bounce across the working area. Keep the background modest and gently out of focus without erasing the workshop context. Show fine growth rings, a pale shaving, and a joint shadow. Preserve natural color and low contrast, with real surface depth. Let the composition feel observed during ordinary work rather than staged for promotion, keeping every object supported.
 
 **Negative add-on:** No tourist props, dark stain, branded tools, or invented second product.
 
@@ -1957,7 +1957,7 @@ Oat linen in the Lilim strip reuses `silong-fabric`. The Home cane statement reu
 
 **Aspect and crop:** 4:5 service portrait; 16:9 room derivative
 
-**Prompt:** Photograph a quiet furnishing detail with an oat Tabing Linen Curtain, a pale Kiso Stool, and a Tapayan Vessel resting securely nearby. Use a full-frame 50mm camera at 95 cm from the room side, with the low stool below the curtain folds. Keep the vessel proportionate and avoid crowding it onto the small stool if support is insufficient. Shaded afternoon light enters from camera right, softened through the curtain. Let a plain warm wall and an opening edge form the background. Include a gentle hem ripple, a small glaze pool, and a pale hinoki grain change.
+**Prompt:** Photograph a quiet furnishing detail with an oat Tabing Linen Curtain, a pale Asa Stool, and a Tapayan Vessel resting securely nearby. Use a full-frame 50mm camera at 95 cm from the room side, with the low stool below the curtain folds. Keep the vessel proportionate and avoid crowding it onto the small stool if support is insufficient. Shaded afternoon light enters from camera right, softened through the curtain. Let a plain warm wall and an opening edge form the background. Include a gentle hem ripple, a small glaze pool, and a pale hinoki grain change.
 
 **Negative add-on:** No invented project attribution, vessel floating on fabric, dark hinoki stain, or oversized stool.
 
@@ -2074,7 +2074,7 @@ All 106 supplied placeholder lines have a canonical destination below. Generic r
 | 21 | Empty room, a bright doorway, a band of light across the floor | `utility-empty-room` |
 | 22 | Exterior | `lilim-g10-exterior` |
 | 23 | Guest room, pale walls, reed mat, open window | `dalampasigan-hero` |
-| 24 | Habi Wall Piece | `habi-studio` |
+| 24 | Hibla Wall Piece | `hibla-studio` |
 | 25 | Hain Dining Chair | `hain-studio` |
 | 26 | Hallway | `lilim-g07-hallway` |
 | 27 | Hand-woven cane on a rattan frame | `maker-sulihiya` |
@@ -2090,7 +2090,7 @@ All 106 supplied placeholder lines have a canonical destination below. Generic r
 | 37 | Honed marble slab and a carved stone form | `maker-marmol` |
 | 38 | Kanlungan studio, a long table, a pendant, soft daylight | `about-studio` |
 | 39 | Kapis Pendant | `kapis-studio` |
-| 40 | Kiso Stool | `kiso-studio` |
+| 40 | Asa Stool | `asa-studio` |
 | 41 | Lambot Wool Rug | `lambot-studio` |
 | 42 | Lenta Pendant | `lenta-studio` |
 | 43 | Lilim House | `lilim-hero` |

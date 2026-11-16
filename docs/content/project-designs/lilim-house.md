@@ -452,10 +452,10 @@ Shop references are in `design/photography/`. A shop reference is attached to a 
 | Flat-woven rug, 240 by 300 | Custom, Tikog Loom | Undyed abaca and cotton, plain | Sourcing board |
 | Tabing Linen Curtain, White | Shop | Lined, made to the ceiling height | `tabing-studio.png` |
 | Sheer curtain | Custom, Kanlungan | Unlined white linen on the front track | Sourcing board |
-| Woven panel | Custom, Tikog Loom | Undyed and black abaca in wide plain bands, about 220 by 90 cm, on a black wood rail. Pending review. | `habi-studio.png` for the weave |
+| Woven panel | Custom, Tikog Loom | Undyed and black abaca in wide plain bands, about 220 by 90 cm, on a black wood rail. Pending review. | `hibla-studio.png` for the weave |
 | Old chest | Client's | Dark hardwood, about 120 cm long, plain | Sourcing board |
 | Bed linen and blanket | Styling | White linen. One charcoal wool blanket folded at the foot. | |
-| Kiso Stool | Shop | In the bath | `kiso-studio.png` |
+| Asa Stool | Shop | In the bath | `asa-studio.png` |
 | Vanity tray, cup, soap dish | Custom, Bukal Clayworks | Ash-glazed stoneware | Sourcing board |
 | Towels, mat, hamper, bin | Styling | White cotton. A plain lidded woven hamper. | |
 

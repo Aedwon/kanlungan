@@ -10,14 +10,14 @@ The studio hand asks each design file to fill its row before any image is made. 
 
 | Project | Leading piece | Lamp shapes in hero and pair frames | Art | Vessels and plants | Hero camera |
 |---|---|---|---|---|---|
-| Dalampasigan Inn | A 420 cm breakfast table in oiled acacia, made for the room in two halves, on trestle frames. One table for the whole inn. | A pair of low lamps with a short turned acacia stem and a small cone shade of woven reed. A tall slim lamp with a stem bound in rattan and a tapered shade of abaca cloth. A floor lamp on one bamboo pole with a shallow white enamelled steel dish shade. A mushroom lamp in white-glazed stoneware, base and shade of one clay. | Graphite line drawings on cream paper in thin black steel frames, one for each guest room, by one artist. The Habi Wall Piece, undyed and upright, in the lobby. A hung rack with the inn's own plates. | A calamansi tree in a pale cement pot. A low stoneware bowl of calamansi. A clear glass carafe. | One-point, across a guest room to one window and the sea in mid-morning light, the bath door on the right |
+| Dalampasigan Inn | A 420 cm breakfast table in oiled acacia, made for the room in two halves, on trestle frames. One table for the whole inn. | A pair of low lamps with a short turned acacia stem and a small cone shade of woven reed. A tall slim lamp with a stem bound in rattan and a tapered shade of abaca cloth. A floor lamp on one bamboo pole with a shallow white enamelled steel dish shade. A mushroom lamp in white-glazed stoneware, base and shade of one clay. | Graphite line drawings on cream paper in thin black steel frames, one for each guest room, by one artist. The Hibla Wall Piece, undyed and upright, in the lobby. A hung rack with the inn's own plates. | A calamansi tree in a pale cement pot. A low stoneware bowl of calamansi. A clear glass carafe. | One-point, across a guest room to one window and the sea in mid-morning light, the bath door on the right |
 
 Nothing in this row repeats the Lilim or the Tanaw row. There is no stone slab table, no ink-band art, no capiz, no rattan daybed, no taro, no dark storage jar, no record console, no paper lantern, no rust reading chair, no brass lamp, and no glass lamp.
 
 **Three conflicts to note.**
 
 1. **The hero camera.** The Tanaw file said the other three projects must not use the round 4 recipe. The approved Dalampasigan before uses it: a one-point view to the opening, with a door on the right. The approved image wins, because an approved before is never regenerated. The frames differ in what they show: a small room, one window, the sea, and daylight, against a long room, a wall of glass, a city, and dusk. If Aedwon wants the five heroes to differ more, the breakfast room pair can lead the page instead. See "What Aedwon judges" in the gate file.
-2. **The woven piece over the bed.** The picked image hangs a reed panel over a cane bed. The Lilim main bedroom, which Aedwon approved later, has a woven panel over a cane bed. The register does not allow art to repeat in kind. So the guest rooms get a drawing, and the Habi Wall Piece moves to the lobby, where the old caption already placed it. Reed stays in the guest room as the mat and the lamp shades. Pending review.
+2. **The woven piece over the bed.** The picked image hangs a reed panel over a cane bed. The Lilim main bedroom, which Aedwon approved later, has a woven panel over a cane bed. The register does not allow art to repeat in kind. So the guest rooms get a drawing, and the Hibla Wall Piece moves to the lobby, where the old caption already placed it. Reed stays in the guest room as the mat and the lamp shades. Pending review.
 3. **The bedside lamp.** The picked image has a lamp with a thin black stem and a white shade. That is the shape of the Lilim bedside pair. The guest rooms get a different lamp. The thin black line stays in the clothes rail and the picture frame.
 
 ## 1. As handed over
@@ -215,7 +215,7 @@ Coordinates as in section 1.
 | Front desk, 180 cm | Parallel to the west wall and 1 m from it, at y 0.9 to 2.7. Its cane front faces the room. It hides the west wall socket at y 1.0. |
 | Staff chair | Behind the desk |
 | Low shelf for the router and the printer | Against the west wall behind the desk, below the key board |
-| Habi Wall Piece | On the west wall, at y 0.3 to 1.2 |
+| Hibla Wall Piece | On the west wall, at y 0.3 to 1.2 |
 | Key board | On the west wall, at y 1.85 to 2.45, at eye height |
 | Desk lamp | On the desk's north end. Its cord drops to the west wall socket at y 2.4, which stays in view. |
 | Calamansi tree | By the south wall at x 1.4 |
@@ -399,7 +399,7 @@ Shop references are in `design/photography/`. A reference is attached only when 
 | Hain Dining Chair, acacia | Shop | The staff chair | `hain-studio.png` |
 | Low shelf | Custom, Lilok Workshop | Oiled acacia, two slatted shelves, 100 by 35 by 55 cm | Words |
 | Key board | Custom, Lilok Workshop | A board of oiled acacia, 60 by 45 cm, with twelve small brass hooks in two rows. Each key hangs on a plain wooden tag. | Words |
-| Habi Wall Piece | Shop | Undyed reed and abaca on a wood rail, upright | `habi-studio.png` |
+| Hibla Wall Piece | Shop | Undyed reed and abaca on a wood rail, upright | `hibla-studio.png` |
 | D3, D4 | Custom, Sulihiya Studio and Tanso Lighting Works | As in the lighting plan | Words |
 | Bangko Bench | Shop | Against the south wall | `bangko-studio.png` |
 | Banig Rug, 160 by 230 | Shop | | `banig-studio.png` |
@@ -455,7 +455,7 @@ Counting each kind of piece once: 8 from the shop, about 24 custom, 1 found, 2 b
 - **Options used here already exist in the catalog:** acacia on the Himlay and the Hain, both sizes of the Banig, Natural and Indigo on the Kumot.
 - **Pieces that leave the old Dalampasigan list:** the Hapag Dining Table and the Lenta Pendant. The long table is made for the room, so a custom piece leads the project. The Lenta is the ceramic dome pendant in the Lilim kitchen pair, and no pendant can hang under these fans.
 - **Second and last project** for the Himlay and the Hain, which Lilim also shows. Pahinga's old list also names the Himlay. Its picked image has a four-post bed, so that list should change when its design file is written.
-- **The Habi Wall Piece** is also on Pahinga's old list. If Pahinga keeps it, Habi is at its limit of two.
+- **The Hibla Wall Piece** is also on Pahinga's old list. If Pahinga keeps it, Hibla is at its limit of two.
 
 ## 10. Styling
 
@@ -577,7 +577,7 @@ The starting image is `design/round-4-calibration/dalampasigan-room-A-sea-as-col
 | 3 | **The clothes rail hides the right wall socket** and stands under the air conditioner. | The rail moves to the left wall near the entry. The right wall socket stays in view. |
 | 4 | **One bedside lamp.** A room for two needs two. | A pair, one on each stool |
 | 5 | **The lamp repeats the Lilim bedside lamp:** a thin black stem and a white shade. | The reed lamp in section 7 |
-| 6 | **A woven panel over a cane bed repeats the Lilim main bedroom.** It is also narrower than two thirds of the headboard. | A drawing, 120 cm wide. The Habi Wall Piece goes to the lobby. Pending review. |
+| 6 | **A woven panel over a cane bed repeats the Lilim main bedroom.** It is also narrower than two thirds of the headboard. | A drawing, 120 cm wide. The Hibla Wall Piece goes to the lobby. Pending review. |
 | 7 | **The nearer stool stands where the nearer socket is.** | The bed and both stools sit a little farther from the camera |
 | 8 | **The room is ready, but nothing says who it is ready for.** | A key on its tag, a carafe and two glasses, towels, slippers |
 

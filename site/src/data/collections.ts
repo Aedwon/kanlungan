@@ -54,7 +54,7 @@ export const collections: Collection[] = [
       "duyan-daybed",
       "sulok-side-table",
       "luad-table-lamp",
-      "tala-wall-light",
+      "sulo-wall-light",
       "aparador-cabinet",
       "bangko-bench",
       "salamin-floor-mirror",
@@ -88,7 +88,7 @@ export const collections: Collection[] = [
       "hapag-dining-table",
       "hain-dining-chair",
       "lenta-pendant",
-      "kiso-stool",
+      "asa-stool",
       "bilao-tray",
       "kumot-throw",
       "tabing-linen-curtain"
@@ -108,7 +108,7 @@ export const collections: Collection[] = [
       "aparador-cabinet",
       "banig-rug",
       "bilao-tray",
-      "habi-wall-piece"
+      "hibla-wall-piece"
     ]
   },
   {

@@ -44,7 +44,7 @@ export function productCard(item: ReferenceNode, p: CommerceProduct, screen: Scr
     makerNode.attrs = { style: { fontSize: '14px', lineHeight: '1.5', color: '#6A584A' } };
     stockNode.attrs = { style: { marginTop: '2px', fontSize: '14px', lineHeight: '1.5', fontWeight: 500, color: p.availability === 'sold-out' ? '#6A584A' : '#8E4A2C' } };
     if (p.availability === 'sold-out') makerNode.attrs.className = 'dt';
-    setText(makerNode, p.maker + (p.slug === 'tanghali' ? ' · Paolo Sarmiento' : ''));
+    setText(makerNode, p.maker + (p.slug === 'tanghali' ? ' · Paolo Vergara' : ''));
     setText(stockNode, made);
     detail.children = [makerNode, stockNode];
   } else setText(detail, made);

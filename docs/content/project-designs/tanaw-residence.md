@@ -273,7 +273,7 @@ No material board is made unless pieces drift between frames.
 | Living ceiling point | T4, a shallow flush light |
 | Dining ceiling point | T5, the paper lantern |
 | Bedroom and study ceiling points | The same flush light as the living room. A quiet background fitting, out of frame in every picture. |
-| Bath wall point | T10, the Tala Wall Light |
+| Bath wall point | T10, the Sulo Wall Light |
 
 No point is added and nothing is rewired.
 
@@ -291,7 +291,7 @@ No lamp shape repeats in the home, except the pair at the bed. None repeats a Li
 | T6, T7 | A pair: a turned natural mahogany base with a pleated oat cotton shade | Bedroom side tables | The two sockets on the south wall | Each side of the bed |
 | T8 | Desk lamp: an aged brass stem with a long, narrow bar shade | On the desk | North wall | The desk |
 | T9 | A column of woven cane, 40 cm tall, lit from inside | On the stool by the daybed | South wall | The guest |
-| T10 | Tala Wall Light: brass, with an opal glass globe | Above the bath mirror | Wall point | The basin |
+| T10 | Sulo Wall Light: brass, with an opal glass globe | Above the bath mirror | Wall point | The basin |
 
 The living room has three heights: table lamps, the floor lamp, and the ceiling.
 
@@ -379,7 +379,7 @@ Shop references are in `design/photography/`. A reference is attached only when 
 | Four dining chairs | Custom, Lilok Workshop | Natural mahogany, with a low curved back rail and a loose seat pad in oat linen. Plain. | Words |
 | T5, the paper lantern | Custom, Tanso Lighting Works | As in the lighting plan | Words |
 | Baul Credenza, natural | Shop | Acacia, sliding doors | `baul-studio.png` |
-| Tanghali | Shop, art | The landscape painting by Paolo Sarmiento, 90 by 120 cm, upright, unframed | `tanghali-studio.png` |
+| Tanghali | Shop, art | The landscape painting by Paolo Vergara, 90 by 120 cm, upright, unframed | `tanghali-studio.png` |
 | Entry bench | Custom, Lilok Workshop | Natural mahogany, slatted, 100 by 36 by 45 cm, with a shelf for shoes | Words |
 | Peg rail | Custom, Lilok Workshop | A mahogany rail 90 cm long with five turned pegs | Words |
 | Refrigerator | Bought | Plain dark gray steel, no logo | |
@@ -393,13 +393,13 @@ Shop references are in `design/photography/`. A reference is attached only when 
 | Unan Bed, queen, sand linen | Shop | Padded linen headboard | `unan-studio.png` |
 | Two side tables | Custom, Lilok Workshop | Natural mahogany, 45 cm square, one drawer, open below so the socket shows | Words |
 | T6, T7 | Custom, Lilok Workshop and Habol Textiles | As in the lighting plan | Words |
-| Painting above the bed | Art, Paolo Sarmiento | Soft fields of chalky gray-blue and cream, 150 by 60 cm, thin mahogany frame. It pictures nothing. Pending review. | Words |
+| Painting above the bed | Art, Paolo Vergara | Soft fields of chalky gray-blue and cream, 150 by 60 cm, thin mahogany frame. It pictures nothing. Pending review. | Words |
 | Wool rug, 200 by 300 | Custom, Kanlungan | Plain, hand-tufted, pale gray-green | Words |
 | Salamin Floor Mirror | Shop | Bleached acacia frame | `salamin-studio.png` |
 | Chair | Found | A plain old side chair in dark wood with a woven seat | Words |
 | Curtains | Custom, Kanlungan | White sheer linen and lined oat linen | Words |
 | Bed linen | Styling | White cotton. A moss wool blanket folded at the foot. | |
-| Tala Wall Light | Shop | T10, at the existing point above the bath mirror | `tala-studio.png` |
+| Sulo Wall Light | Shop | T10, at the existing point above the bath mirror | `sulo-studio.png` |
 | Bath stool | Custom, Lilok Workshop | Natural mahogany, 35 cm square, slatted top | Words |
 | Vanity tray, cup, soap dish | Custom, Bukal Clayworks | Celadon-glazed stoneware | Words |
 | Towels, mat, hamper, bin | Styling | Oat cotton towels and one rust hand towel. A plain lidded hamper. | |
@@ -427,7 +427,7 @@ Counting each kind of piece once: 9 from the shop, about 26 custom, 3 found, 2 b
 - **"Shop the project"** lists the nine shop pieces. The list is in [projects](../projects.md#tanaw-residence).
 - **Options used here already exist in the catalog:** oat linen on the three-seat Yakap, natural on the Baul and the Estante, sand linen on the queen Unan, the 110 cm Salo, Rust and Moss on the Hablon.
 - **Pieces that leave the old Tanaw list:** Hain Dining Chair, Bakal Side Table, Sulok Side Table, Sinag Floor Lamp, Luad Table Lamp, and Amihan No. 3. Each already shows in Lilim and is promised to one other project, or would repeat a Lilim lamp shape.
-- **The Tala Wall Light moves** from the bedside to the bath, where a wall point exists.
+- **The Sulo Wall Light moves** from the bedside to the bath, where a wall point exists.
 
 ## 10. Styling
 

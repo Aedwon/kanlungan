@@ -22,7 +22,7 @@ for (const p of products) {
   for (const option of p.variants) combinations = combinations.flatMap((v) => option.choices.map((c) => ({ options: [...v.options, [option.name, c.label]], price: c.price ?? v.price })));
   // Shopify's first variant reflects the seed product's displayed base price.
   combinations.sort((a, b) => Number(b.price === p.price) - Number(a.price === p.price));
-  const sold = p.slug === 'kiso-stool'; const unique = p.availability === 'one-of-a-kind';
+  const sold = p.slug === 'asa-stool'; const unique = p.availability === 'one-of-a-kind';
   combinations.forEach((v, i) => {
     const meta = [p.maker, p.materials, p.dimensions, p.origin, sold ? 'sold-out' : p.availability, p.leadTimeWeeks ?? '', unique ? 'true' : 'false', p.subcategory, p.priceUnit ?? ''];
     rows.push([p.slug, i ? '' : p.name, i ? '' : `<p>${p.description}</p>`, i ? '' : p.maker, i ? '' : p.category,

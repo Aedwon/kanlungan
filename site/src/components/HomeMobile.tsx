@@ -3,13 +3,14 @@ import Link from "next/link";
 import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
 import { ImagePlaceholder } from "./ImagePlaceholder";
+import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
 import { formatPrice } from "@/lib/formatPrice";
 export function HomeMobile() { return (<div className="home-mobile">
 
 
-<section className="hero-track">
-  <div className="hero-pin">
+<section className="hero-track" data-wipe>
+  <div className="hero-pin" data-wipe-pin>
     
     <h1 className="ref-mobile-228">{pageCopy["Spaces to come home to."]}</h1>
     <div className="ref-mobile-229">
@@ -19,10 +20,8 @@ export function HomeMobile() { return (<div className="home-mobile">
 
     
     <div className="win">
-      <div className="win-img">
-        <ImagePlaceholder alt="Lilim House living room in shaded daylight, low mahogany and linen sofa, deep eaves, greenery through wide openings" className="ref-mobile-235"></ImagePlaceholder>
-        <div className="shade ref-mobile-236"></div>
-      </div>
+      <div className="layer before"><div className="win-img"><Photo name="lilim-hero-before" alt="" sizes="100vw" /></div></div>
+      <div className="layer after"><div className="win-img"><Photo name="lilim-hero-B-layered" alt="Lilim House living room, furnished: low sofa, marble table, cane chair, greenery through wide openings" sizes="100vw" /></div></div>
       <div className="scrim"></div>
       <div aria-hidden="true" className="ref-mobile-237">{pageCopy["Spaces to come home to."]}</div>
       <div aria-hidden="true" className="ref-mobile-238">
@@ -63,7 +62,7 @@ export function HomeMobile() { return (<div className="home-mobile">
   <div className="dk ref-mobile-259">
     <Link href="/projects/lilim-house" className="ref-mobile-260">
       <div className="zin ref-mobile-261">
-        <ImagePlaceholder alt="Lilim House terrace with a bench in shaded daylight, greenery behind" className="ref-mobile-262"></ImagePlaceholder>
+        <div className="photo-fill"><Photo name="lilim-terrace" alt="Lilim House covered terrace with a daybed and a low table facing the valley in early sun" sizes="(min-width: 1280px) 1184px, 100vw" /></div>
       </div>
       
       <div className="ref-mobile-263"></div>
@@ -75,7 +74,7 @@ export function HomeMobile() { return (<div className="home-mobile">
     </Link>
     <Link href="/projects/tanaw-residence" className="ref-mobile-268">
       <div className="zin ref-mobile-269">
-        <ImagePlaceholder alt="Tanaw Residence city skyline at dusk through full-height windows, warm lamps inside" className="ref-mobile-270"></ImagePlaceholder>
+        <div className="photo-fill"><Photo name="tanaw-hero" alt="Tanaw Residence living room at dusk, lamps lit, the city beyond the glass" sizes="(min-width: 1280px) 1184px, 100vw" /></div>
       </div>
       <div className="ref-mobile-271"></div>
       <div className="ref-mobile-272">
@@ -86,7 +85,7 @@ export function HomeMobile() { return (<div className="home-mobile">
     </Link>
     <Link href="/projects/dalampasigan-inn" className="ref-mobile-276">
       <div className="zin ref-mobile-277">
-        <ImagePlaceholder alt="Dalampasigan Inn bright coastal guest room in daylight, pale limewash walls, reed mat, open window" className="ref-mobile-278"></ImagePlaceholder>
+        <div className="photo-fill"><Photo name="dalampasigan-hero" alt="Dalampasigan Inn guest room in bright morning light, a honey acacia bed and a reed mat" sizes="(min-width: 1280px) 1184px, 100vw" /></div>
       </div>
       
       <div className="ref-mobile-279"></div>
@@ -156,46 +155,12 @@ export function HomeMobile() { return (<div className="home-mobile">
   <h2 className="ref-mobile-322">{pageCopy["From the shop"]}</h2>
   <div className="rmscroll">
     <div className="ref-mobile-323">
-      <ImagePlaceholder alt="Lilim House living and dining room in one long view: a low sofa and a cane lounge chair on the left, a dining table under a brass pendant and a mahogany cabinet with a clay vessel on the right" className="ref-mobile-324">
-        <div className="ref-mobile-325"></div>
-        <div className="ref-mobile-326"></div>
-        <div className="ref-mobile-327"></div>
-        <div className="ref-mobile-328"></div>
-        <div className="ref-mobile-329"></div>
-        <div className="ref-mobile-330"></div>
-        <div className="ref-mobile-331"></div>
-        <div className="ref-mobile-332"></div>
-        <div className="ref-mobile-333"></div>
-        <div className="ref-mobile-334"></div>
-        <div className="ref-mobile-335"></div>
-        <div className="ref-mobile-336"></div>
-        <div className="ref-mobile-337"></div>
-        <div className="ref-mobile-338"></div>
-        <div className="ref-mobile-339"></div>
-        <div className="ref-mobile-340"></div>
-        <div className="ref-mobile-341"></div>
-        <div className="ref-mobile-342"></div>
-        <div className="ref-mobile-343"></div>
-        <div className="ref-mobile-344"></div>
-        <div className="ref-mobile-345"></div>
-        <div className="ref-mobile-346"></div>
-        <div className="ref-mobile-347"></div>
-        <div className="ref-mobile-348"></div>
-        <div className="ref-mobile-349"></div>
-        <div className="ref-mobile-350"></div>
-        <div className="ref-mobile-351"></div>
-        <div className="ref-mobile-352"></div>
-        <div className="ref-mobile-353"></div>
-        <div className="ref-mobile-354"></div>
-        <div className="ref-mobile-355"></div>
-        <div className="ref-mobile-356"></div>
-        <div className="shade ref-mobile-357"></div>
-      </ImagePlaceholder>
+      <div className="ref-mobile-324 shop-room"><Photo name="lilim-shop-room" alt="Lilim House living and dining room in one long view: a low sofa and a daybed-height lounge chair on the left, a long dining table under a pendant, a floor lamp and a clay vessel on the right" sizes="920px" /></div>
       <Link href="/shop/products/silong-sofa" className="pin p1 ref-mobile-358" aria-label="1, Silong Sofa, Kanlungan Original, ₱186,000">1</Link>
       <Link href="/shop/products/hapag-dining-table" className="pin p2 ref-mobile-359" aria-label="2, Hapag Dining Table, Kanlungan Original, ₱178,000">2</Link>
       <Link href="/shop/products/dapithapon-lounge-chair" className="pin p3 ref-mobile-360" aria-label="3, Dapithapon Lounge Chair, Sulihiya Studio, ₱64,000">3</Link>
       <Link href="/shop/products/kapis-pendant" className="pin p4 ref-mobile-361" aria-label="4, Kapis Pendant, Tanso Lighting Works, ₱32,000">4</Link>
-      <Link href="/shop/products/aparador-cabinet" className="pin p5 ref-mobile-362" aria-label="5, Aparador Cabinet, Kanlungan Original, ₱164,000">5</Link>
+      <Link href="/shop/products/sinag-floor-lamp" className="pin p5 ref-mobile-362" aria-label="5, Sinag Floor Lamp, Kanlungan Original, ₱36,500">5</Link>
       <Link href="/shop/products/tapayan-vessel" className="pin p6 ref-mobile-363" aria-label="6, Tapayan Vessel, Bukal Clayworks, ₱8,600">6</Link>
     </div>
   </div>
@@ -210,7 +175,7 @@ export function HomeMobile() { return (<div className="home-mobile">
 
     <li><ProductCard product={products.find((product) => product.slug === "kapis-pendant")!} number={4} variant="home" /></li>
 
-    <li><ProductCard product={products.find((product) => product.slug === "aparador-cabinet")!} number={5} variant="home" /></li>
+    <li><ProductCard product={products.find((product) => product.slug === "sinag-floor-lamp")!} number={5} variant="home" /></li>
 
     <li><ProductCard product={products.find((product) => product.slug === "tapayan-vessel")!} number={6} variant="home" /></li>
 
@@ -281,7 +246,7 @@ export function HomeMobile() { return (<div className="home-mobile">
 
 <section className="dk ref-mobile-402">
   <div className="ref-mobile-403">
-    <div className="zin ref-mobile-404"><ImagePlaceholder alt="Tanaw Residence at dusk, warm lamps lit inside and the city beyond the glass" className="ref-mobile-405"><div className="ref-mobile-406"></div></ImagePlaceholder></div>
+    <div className="zin ref-mobile-404"><div className="photo-fill"><Photo name="tanaw-hero" alt="Tanaw Residence at dusk, warm lamps lit inside and the city beyond the glass" sizes="(min-width: 1280px) 1312px, 100vw" /></div></div>
     <div className="ref-mobile-407"></div>
     <div className="ref-mobile-408">
       <h2 className="ref-mobile-409">{pageCopy["Tell us about your space."]}</h2>

@@ -60,7 +60,7 @@ Revised on 2026-11-16. The design is in [the Tanaw design file](project-designs/
 - **Brief:** A couple received a bare unit on a high floor. Both work long hours. They own six hundred records and four hundred books. They wanted to move in once, with everything in place, and to come home to a room that is lit.
 - **Approach:** The studio kept the couple's records, books, and pictures in the open, in warm mahogany against the white walls. One long console, made for the unit, holds the records, the turntable, and the screen. Every seat has a lamp, so the rooms stay lit against the city at dusk. Nothing was built or painted.
 - **Material palette:** Natural plantation mahogany, acacia, oat and sand linen, terrazzo, blackened steel, aged brass, wool
-- **Shop the project:** Yakap Sofa (oat), Estante Shelving, Baul Credenza, Salo Dining Table (Ø110), Unan Bed (sand), Hablon Cushion, Tanghali, Salamin Floor Mirror, Bato Object, Tala Wall Light
+- **Shop the project:** Yakap Sofa (oat), Estante Shelving, Baul Credenza, Salo Dining Table (Ø110), Unan Bed (sand), Hablon Cushion, Tanghali, Salamin Floor Mirror, Bato Object, Sulo Wall Light
 - **Image notes:** A white living room on a high floor at dusk, with lamps lit, full shelves, a long mahogany record console with a screen, a deep oat sofa, and the city through full-height glass
 
 ### Gallery captions
@@ -75,7 +75,7 @@ Revised on 2026-11-16. The design is in [the Tanaw design file](project-designs/
 8. Study. The same room made up for a guest, under three framed handloom fragments.
 9. Main bedroom. The Unan Bed in sand linen in morning light, behind sheer linen.
 10. Main bedroom. The Salamin Floor Mirror and a chair for yesterday's shirt.
-11. Main bath. The Tala Wall Light above the mirror, at the point the developer left.
+11. Main bath. The Sulo Wall Light above the mirror, at the point the developer left.
 
 ### Approach, expanded
 
@@ -98,7 +98,7 @@ Revised on 2026-11-16. The design is in [the Dalampasigan design file](project-d
 - **Brief:** Two siblings took over an older inn near the surf beach. They needed twelve rooms and two shared rooms ready for guests in one season, with pieces that survive salt air and sand, and rooms that a small staff can prepare the same way every day.
 - **Approach:** The studio designed one room and made it twelve times. Rooms that face the sea have no color but the sea. Rooms that face the garden have the same cloth in indigo. Furniture is natural oiled acacia, honey in tone, solid and repairable. Reed mats replace wool rugs because they handle sand. The breakfast room has one long table, made for the room, for the whole inn. Nothing was built or painted.
 - **Material palette:** Natural oiled acacia (honey), cane, tikog reed, white linen, handloomed cotton, stoneware, blackened steel
-- **Shop the project:** Himlay Bed (acacia), Tuntungan Stool, Bangko Bench, Banig Rug, Kumot Throw, Hain Dining Chair (acacia), Bilao Tray, Habi Wall Piece
+- **Shop the project:** Himlay Bed (acacia), Tuntungan Stool, Bangko Bench, Banig Rug, Kumot Throw, Hain Dining Chair (acacia), Bilao Tray, Hibla Wall Piece
 - **Image notes:** A plain white guest room in bright morning light, with a honey acacia bed with a cane headboard, white linen, a reed mat, and the sea through one window
 
 ### Gallery captions
@@ -108,7 +108,7 @@ Revised on 2026-11-16. The design is in [the Dalampasigan design file](project-d
 3. Guest room. A room that faces the garden, with the same layout and the Kumot Throw in indigo.
 4. Guest bath. The owners' bath, with a Tuntungan Stool, cotton towels, and stoneware by Bukal Clayworks.
 5. Corridor. A reed runner by Tikog Loom, and a Bangko Bench under the end window with towels for the beach.
-6. Lobby. The front desk, made for the inn by Lilok Workshop, with the Habi Wall Piece and twelve keys behind it.
+6. Lobby. The front desk, made for the inn by Lilok Workshop, with the Hibla Wall Piece and twelve keys behind it.
 7. Breakfast room. One table for the whole inn, 420 cm long, with Bangko Benches on one side and natural acacia Hain Dining Chairs on the other.
 8. Breakfast room. The serving table after breakfast, with Bilao Trays and the inn's stoneware on a rack above.
 9. Breakfast room. In the evening the far end is the common corner, with the inn's one screen.
@@ -142,7 +142,7 @@ Revised on 2026-11-16. The design is in [the Pahinga design file](project-design
 
 1. Villa bedroom. Late morning, with the doors open to the grove. A four-post bed made for the villas, ebonized Sulok Side Tables, and the Kumot Throw in rust.
 2. Villa bedroom. The bedside at night, with the netting let down and a lantern made for the villas.
-3. Villa bedroom. The other half of the room in the evening: a cane settee, the screen, and one of the villa's two paintings by Paolo Sarmiento.
+3. Villa bedroom. The other half of the room in the evening: a cane settee, the screen, and one of the villa's two paintings by Paolo Vergara.
 4. Villa bath. The owners' bath, with cotton robes by Habol Textiles, stoneware by Bukal Clayworks, and a staghorn fern.
 5. Villa terrace. Breakfast at seven. A daybed and a table for two, made for the villas, with a rattan pendant at the point the builder left.
 6. Villa terrace. The daybed in the afternoon shade, with the Bakal Side Table.
@@ -169,7 +169,7 @@ The owners also need the villas to stay easy to run. The bed, the settee, the ta
 - **Brief:** A first-time owner wanted a clear plan to buy toward over a year, starting with a few good pieces.
 - **Approach:** The studio delivered a layout, a palette, and a sourcing list in three stages. The owner did the work herself. She painted one long wall gray-green and kept the old parquet as it was. Stage one was the wall, the clay Silong Sofa, a rug, and a lamp. Stage two added the oat Unan Bed, the Bakal Side Table, the ebonized Pasilyo, and the curtains. Stage three was the balcony garden, the dining table, and the bookcase, all found secondhand. Her books, her grandmother's cane chair, and the prints she framed do the rest. The photographs show the apartment a year on. Nothing was built.
 - **Material palette:** Old hardwood parquet, one gray-green painted wall, clay and oat linen, oat wool, ebonized plantation mahogany, cane, hinoki, blackened steel, clay pots
-- **Shop the project:** Silong Sofa (two-seat, clay), Lambot Wool Rug (170 × 240), Pasilyo Console Table (ebonized mahogany), Unan Bed (queen, oat), Bakal Side Table, Kiso Stool, Tabing Linen Curtain (oat), Amihan No. 3, Bato Object
+- **Shop the project:** Silong Sofa (two-seat, clay), Lambot Wool Rug (170 × 240), Pasilyo Console Table (ebonized mahogany), Unan Bed (queen, oat), Bakal Side Table, Asa Stool, Tabing Linen Curtain (oat), Amihan No. 3, Bato Object
 - **Image notes:** A narrow living room in an older apartment on a gray afternoon, a year after the owner moved in. One long wall painted gray-green, a clay two-seat sofa, an oat rug on worn parquet, an inherited cane chair, books in stacks, and two lamps lit. Shown beside the studio's render, the design book, a moodboard, and the floor plan. A small balcony garden of herbs.
 
 ### Gallery captions
@@ -180,11 +180,11 @@ The owners also need the villas to stay easy to run. The bed, the settee, the ta
 4. Moodboard. Clay and oat linen, cane, ebonized mahogany, hinoki, the wall paint, and a block of the old parquet.
 5. Floor plan. The 74 sqm unit, with furniture placed.
 6. Dining end. The table she also works at, four found chairs she painted black, and her books. A print by Ines Dalisay on the painted wall.
-7. Entry. A Kiso Stool, a tray for shoes, and a rail of pegs.
+7. Entry. A Asa Stool, a tray for shoes, and a rail of pegs.
 8. Kitchen. The building's kitchen, in use. Basil and pandan from the balcony.
-9. Bedroom. At night, with the Unan Bed in oat linen, the Bakal Side Table, and a Kiso Stool as the second bedside.
+9. Bedroom. At night, with the Unan Bed in oat linen, the Bakal Side Table, and a Asa Stool as the second bedside.
 10. Bath. The building's bath, with a cutting from the balcony on the window ledge.
-11. Balcony. A plank bench of herbs, lemongrass and pandan at the end wall, and a Kiso Stool.
+11. Balcony. A plank bench of herbs, lemongrass and pandan at the end wall, and a Asa Stool.
 12. Balcony. Basil, chili, and mint in the morning sun.
 
 ### Approach, expanded

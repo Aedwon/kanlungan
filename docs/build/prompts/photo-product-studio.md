@@ -1,6 +1,6 @@
 Generate SIXTEEN photorealistic product images with your image generation tool and save each as PNG under design/photography/ in /Users/aedwon/Documents/Projects/kanlungan (filename = shot id + .png). Do not run any git commands. Do not edit any other file. If you have no image generation tool, stop and say so; never draw images with code.
 
-Shots: kapis-studio, lenta-studio, sinag-studio, luad-studio, tala-studio, banig-studio, lambot-studio, hablon-studio, kumot-studio, tabing-studio, tapayan-studio, bilao-studio, bato-studio, amihan-studio, tanghali-studio, habi-studio.
+Shots: kapis-studio, lenta-studio, sinag-studio, luad-studio, sulo-studio, banig-studio, lambot-studio, hablon-studio, kumot-studio, tabing-studio, tapayan-studio, bilao-studio, bato-studio, amihan-studio, tanghali-studio, hibla-studio.
 
 For each, read docs/content/image-briefs.md: "Global style", the product's consistency sheet, and its shot entry with the negative add-on. docs/content/catalog.md is the authority for materials and default color or finish.
 

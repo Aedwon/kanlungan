@@ -57,8 +57,8 @@ function load(name) {
   assert(!newPieceSlugs.includes('pasilyo-console-table') && !newPieceSlugs.includes('bato-object'));
   const sofa = await localProvider.getProduct('silong-sofa');
   assert(sofa.resolvedVariants.filter((v) => v.options.Size === 'Two-seat 178 cm').every((v) => v.price === 158000));
-  assert.equal((await localProvider.getProduct('kiso-stool')).availability, 'sold-out');
-  assert.equal((await localProvider.getProduct('kiso-stool')).resolvedVariants[0].available, false);
+  assert.equal((await localProvider.getProduct('asa-stool')).availability, 'sold-out');
+  assert.equal((await localProvider.getProduct('asa-stool')).resolvedVariants[0].available, false);
   assert.equal((await localProvider.getProduct('tanghali')).oneOfAKind, true);
   const seating = await localProvider.getProductsByCategory('seating'); assert.equal(seating.length, 7);
   assert.equal(filterProducts(seating, new URLSearchParams('maker=Lilok+Workshop&availability=in-stock'))[0].slug, 'tuntungan-stool');

@@ -23,7 +23,7 @@ Coordinates are meters. Origin is the southwest inside corner of the representat
 | Closed wardrobe | x 5.4 to 6, y 4 to 6 | Same ebonized mahogany finish as the room. |
 | West sliding doors | x 0, y 0.7 to 6.4 | Three tracks, ebonized mahogany uprights at y 0.7, 2.6, 4.5, 6.4; leaves stacked to the north end. Doors open in every shot, including dusk. Head 2.75 m, flush sill. |
 | Covered terrace | x -2 to 0, y 0 to 7 | Roof continuous with villa; eave to x -3.2. Stone floor 0.15 m above grove ground, one low step, no railing. Posts x -2 at y 0 and 7 only. |
-| North bedroom wall | y 7, x 0 to 6 | Solid limewash, Habi above bed. No invented window behind headboard. |
+| North bedroom wall | y 7, x 0 to 6 | Solid limewash, Hibla above bed. No invented window behind headboard. |
 | Reception pavilion | x 10 to 19, y 0 to 8 | 72 sqm, open west, south, and north. Solid east service wall; ceiling 3.0 m. Posts at corners and west midpoint y 4; roof eaves 1.2 m beyond footprint. |
 | Reception service closet | x 17.8 to 19, y 5.5 to 8 | Enclosed within pavilion area; door x 17.8, y 6 to 6.9. Not another villa. |
 
@@ -49,7 +49,7 @@ Only these pieces appear. Small loose items are allowed only where a shot entry 
 | Piece | Count | Position | Facing |
 |---|---|---|---|
 | Himlay Bed, queen 168 × 215, ebonized mahogany, white linen | 1 per villa, 8 total | Centered x 3.2, y 5.925; headboard on north wall y 7 | South |
-| Habi Wall Piece | 1 per villa, 8 total | North wall y 7, centered x 3.2; 0.90 wide × 1.40 high, bottom 1.25 m, top 2.65 m | South, above headboard |
+| Hibla Wall Piece | 1 per villa, 8 total | North wall y 7, centered x 3.2; 0.90 wide × 1.40 high, bottom 1.25 m, top 2.65 m | South, above headboard |
 | Low ebonized mahogany shelf, 1.80 × 0.45 × 0.50 m (not a catalog piece) | 1 per villa, 8 total | North wall, x 0.2 to 2.0, y 6.55 to 7 | South |
 | Luad Table Lamp | 1 per villa, 8 total | Shelf, x 0.7, y 6.75; base 0.50 m, top 0.96 m | |
 | Tapayan Vessel | 1 per villa, 8 total | Shelf, x 1.5, y 6.75; base 0.50 m, top 0.88 m | |
@@ -77,7 +77,7 @@ No extra daybeds, beds, pendants, terrace lamps, or reception catalog pieces. Du
 | C5 (anchor, terrace) | `pahinga-g05-daybed` | -0.15, 2.2 | 1.00 m | 338 | 35mm | Full daybed ahead left, Ebonized Sulok near left foreground, west grove beyond, villa glass edge at right |
 | C6 | `pahinga-g06-lounge` | -0.2, 3.0 | 0.95 m | 212 | 50mm | Lounge chair's rattan back and side toward grove, west ground beyond; daybed stays north outside crop, open doorway is behind camera |
 | C7 | `pahinga-g07-dusk-pendant` | 5.2, 3.7 | 1.20 m | 236 | 35mm | Kapis and ceiling cable below ebonized rafters above white-cushioned sitting bench, west doors and dim grove at right; same warm grade as C10 |
-| C8 | `pahinga-g08-wall-piece` | 3.2, 2.8 | 1.25 m | 0 | 50mm | Habi and wood rail centered above ebonized mahogany and honey cane headboard, white linen below; no new window or moved curtain |
+| C8 | `pahinga-g08-wall-piece` | 3.2, 2.8 | 1.25 m | 0 | 50mm | Hibla and wood rail centered above ebonized mahogany and honey cane headboard, white linen below; no new window or moved curtain |
 | C9 (anchor, reception) | `pahinga-g09-reception` | 18.3, 0.7 | 1.30 m | 312 | 35mm | Ebonized desk at right foreground above cream limestone, simple bench ahead left, two stools, open west side and grove behind seating |
 | C10 | `pahinga-g10-dusk-terrace` | -6, 4.8 | 1.20 m | 90 | 35mm | Daybed before open west doors, Luad at back left and Kapis at back right, terrace edge below; same warm grade as C7 |
 

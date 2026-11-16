@@ -169,7 +169,7 @@ PASS: 60 Shop routes; both product headings and every option control; collection
 A separate standard-library CSV round-trip check also exited 0:
 
 ```text
-PASS: CSV round-trip: 32 handles, all 59 option combinations and prices, base-price ordering, Kiso quantity 0, Tanghali quantity 1.
+PASS: CSV round-trip: 32 handles, all 59 option combinations and prices, base-price ordering, Asa quantity 0, Tanghali quantity 1.
 ```
 
 ## Gaps and adaptations requiring the lead's rendered review
@@ -178,7 +178,7 @@ PASS: CSV round-trip: 32 handles, all 59 option combinations and prices, base-pr
 - Tuntungan Stool has no membership in any seed collection. Its Pairs well with section is omitted, because inventing a relationship would violate the content source. The lead must assign a source collection before that requirement can be completed for this product.
 - Living Room, Dining Room, and Bedroom have no authored description. Their description slots are empty. Nothing was invented. Other collection descriptions retain the authored text.
 - Photography is pending. The supplied reference paintings are preserved where provided. Additional product galleries reuse the product's approved painting, or a labeled surface placeholder when no painting exists, plus an approved room placeholder. Additional collection pages reuse the approved room inserts. Extra project links use the project's approved index painting. These are placeholders, not newly generated photographs. Remote Shopify images replace product card and gallery placeholders when present.
-- Kiso Stool is consistently sold out as explicitly requested. This overrides its older in-stock seed record without editing the out-of-scope content source. CSV inventory is 0. Tanghali is one of a kind with CSV inventory 1 and a maximum local cart quantity of one. Other seed products are untracked rather than assigned invented stock quantities.
+- Asa Stool is consistently sold out as explicitly requested. This overrides its older in-stock seed record without editing the out-of-scope content source. CSV inventory is 0. Tanghali is one of a kind with CSV inventory 1 and a maximum local cart quantity of one. Other seed products are untracked rather than assigned invented stock quantities.
 - The seed does not define variant-specific lead times or publication dates. Local variants inherit product lead times. Shopify variant lead times override product values and are covered by a mock-response check. Local Newest prioritizes the authored New pieces order, retaining catalog order afterward. Shopify Newest uses creation dates.
 - Notification forms keep the foundation's local validation and confirmation; they do not send email. The authorized cart is localStorage state in this wave. Storefront cart, drawer, checkout, and form-service integration remain for later waves.
 - Shopify responses use a five-minute fetch revalidation; the current Next route cache reports 15-minute revalidation. After configuring the two variables, restart/rebuild the site. Store changes can take up to the route cache interval to appear.

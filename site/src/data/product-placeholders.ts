@@ -30,10 +30,10 @@ export const productPlaceholders: Record<string, { alt: string; background: stri
     "background": "radial-gradient(ellipse 12% 3% at 50% 42%, #4a2f1f 0%, #4a2f1f 90%, rgba(74,47,31,0) 100%),\n          radial-gradient(ellipse 22% 28% at 50% 58%, #c08a5a 0%, #8a5a38 76%, rgba(138,90,56,0) 78%),\n          radial-gradient(ellipse 30% 4% at 50% 78%, rgba(46,33,26,.35) 0%, rgba(46,33,26,0) 100%),\n          radial-gradient(ellipse 60% 50% at 34% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),\n          linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 76%, #cdbfa6 76%, #bfae92 100%),\n          linear-gradient(to bottom, #ece4d6, #e2d8c6)",
     "caption": "Placeholder · Tapayan Vessel"
   },
-  "kiso-stool": {
-    "alt": "Kiso Stool, hinoki cypress",
+  "asa-stool": {
+    "alt": "Asa Stool, hinoki cypress",
     "background": "linear-gradient(#e8d3a4,#e8d3a4) 50% 52%/36% 4% no-repeat,linear-gradient(#d9c08c,#d9c08c) 38% 74%/4% 40% no-repeat,linear-gradient(#d9c08c,#d9c08c) 62% 74%/4% 40% no-repeat,radial-gradient(ellipse 50% 30% at 30% 20%, rgba(255,250,235,.5), rgba(255,250,235,0) 70%),linear-gradient(to bottom, #e6ddcd 0%, #e6ddcd 88%, #bfae94 88%, #b09c80 100%)",
-    "caption": "Placeholder · Kiso Stool"
+    "caption": "Placeholder · Asa Stool"
   },
   "tanghali": {
     "alt": "Tanghali, landscape painting",
