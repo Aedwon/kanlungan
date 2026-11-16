@@ -36,7 +36,7 @@ The payment step and the order confirmation carry the stronger notice in `docs/c
 - **Makers text:** Most of what we sell is made in the Philippines, in small workshops that still cut, weave, and throw by hand. We visit them, and we name them.
 - **Process heading:** How a furnishing project works
 - **Closing heading:** Tell us about your space.
-- **Closing text:** A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000.
+- **Closing text:** Bring the rooms you have and the life you want in them. We'll do the rest, starting with a free 30-minute call.
 
 ## Services
 
@@ -106,7 +106,7 @@ Status: **Decided on delegation.** Heading for both pages: "Questions we are oft
 
 ### Full-Service Furnishing
 
-- **How much does it cost?** Furnishing projects start at ₱1,500,000, including the design fee. The design fee is fixed and quoted per project, based on floor area and scope. The furnishing budget is separate. You pay listed prices for the pieces, and we add no hidden markup on shop items.
+- **How much does it cost?** Furnishing projects start at ₱500,000, including the design fee. The design fee is fixed and quoted per project, based on floor area and scope. The furnishing budget is separate. You pay listed prices for the pieces, and we add no hidden markup on shop items.
 - **How long does a project take?** Most projects take 12 to 20 weeks from signed proposal to handover. Made-to-order lead times set most of that time. Installation usually takes about one week on site.
 - **How do payments work?** You pay 50 percent of the design fee when you sign and 50 percent when you approve the design. You pay 70 percent of the furnishing budget before we order and 30 percent before installation.
 - **Do you work outside Metro Manila?** Yes. We work anywhere in the Philippines. Outside Metro Manila and Calabarzon, the proposal states travel and freight costs.
@@ -259,7 +259,7 @@ Status: **Decided on delegation.** Fields come from `docs/concept/conversion.md`
   - If we are a good fit, we send a proposal. The call and the proposal cost nothing.
 - **Call length and reply time:** A discovery call takes 30 minutes and costs nothing. We reply within two business days.
 - **Starting prices heading:** Starting prices
-- **Starting prices, furnishing:** Full-Service Furnishing. Furnishing projects start at ₱1,500,000, including the design fee.
+- **Starting prices, furnishing:** Full-Service Furnishing. Furnishing projects start at ₱500,000, including the design fee.
 - **Starting prices, direction:** Interior Design Direction. From ₱2,500 per square meter. Minimum fee ₱150,000.
 - **Starting prices note:** Exact fees come in a proposal, after we know your space.
 
