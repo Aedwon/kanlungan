@@ -4,6 +4,7 @@ import { Photo, photoSize } from '@/components/Photo';
 import { BeforeAfter } from '@/components/BeforeAfter';
 import { RoomIndex } from '@/components/RoomIndex';
 import { ScrollWipe } from '@/components/ScrollWipe';
+import { HardinPlan } from './HardinPlan';
 import { ImagePlaceholder } from '@/components/ImagePlaceholder';
 import { projects, type Project } from '@/data/projects';
 import { products } from '@/data/products';
@@ -38,6 +39,7 @@ function ChapterBlock({ project, block }: { project: Project; block: Block }) {
   if (block.kind === 'frames') return <Frames project={project} layout={block.layout} items={block.items} />;
   if (block.kind === 'pair') return <div className="pbox"><Pair project={project} pair={block.pair} /></div>;
   if (block.kind === 'side') return <div className="side"><div className="sd-a"><Pair project={project} pair={block.pair} /></div><p className="t-h3 sd-b">{split(project.galleryCaptions[block.textCap - 1]).text}</p></div>;
+  if (block.label === 'Floor plan' && project.slug === 'hardin-apartment') return <HardinPlan />;
   return <figure className="fr ph-fr"><ImagePlaceholder alt={`${block.label}, image to come`} className="im ph-im" style={{ ['--ar' as string]: '4 / 3' }}><span className="t-small">Placeholder · {block.label}</span></ImagePlaceholder><figcaption className="t-small">{block.caption}</figcaption></figure>;
 }
 function shopItems(project: Project) {
@@ -62,7 +64,7 @@ export function ProjectDetail({ project }: { project: Project }) {
       <div className="wipe-pin" data-wipe-pin>
         <div className="wipe-frame">
           <div className="wipe-l before"><Photo name={spec.hero.before} alt={`The ${project.name} ${spec.hero.room} as handed over.`} priority /><span className="chip l">Before</span></div>
-          <div className="wipe-l after"><Photo name={spec.hero.after} alt={heroAlt.text} priority /><span className="chip r">After</span></div>
+          <div className="wipe-l after"><Photo name={spec.hero.after} alt={heroAlt.text} /><span className="chip r">After</span></div>
           <div className="scrim" />
         </div>
         <div className="hero-copy"><h1>{project.name}</h1><p className="t-body">{heroLine}</p></div>
@@ -75,7 +77,7 @@ export function ProjectDetail({ project }: { project: Project }) {
       <div className="wide"><dt className="t-label">Duration</dt><dd>{project.duration}</dd></div>
     </dl></section>
     <section className="sec" aria-label="Brief and approach"><div className="g">
-      <div className="c-l txt"><h2 className="t-h1">The brief</h2><p>{project.brief}</p><h4 className="t-h4">As handed over</h4><p className="muted">{project.asHandedOver}</p></div>
+      <div className="c-l txt"><h2 className="t-h1">The brief</h2><p>{project.brief}</p><h3 className="t-h4">As handed over</h3><p className="muted">{project.asHandedOver}</p></div>
       <div className="c-r txt"><h2 className="t-h1">The approach</h2><p>{approachFirst}</p>{approachRest.map((p, i) => <p key={i}>{p}</p>)}</div>
     </div></section>
     <section className="sec" aria-labelledby="mv"><div className="g blk"><h2 className="t-h2" id="mv">The moves</h2>

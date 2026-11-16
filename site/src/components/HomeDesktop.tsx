@@ -21,7 +21,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
 
     
     <div className="win">
-      <div className="layer before"><div className="win-img"><Photo name="lilim-hero-before" alt="" sizes="100vw" /></div></div>
+      <div className="layer before"><div className="win-img"><Photo name="lilim-hero-before" alt="" sizes="100vw" priority /></div></div>
       <div className="layer after"><div className="win-img"><Photo name="lilim-hero-B-layered" alt="Lilim House living room, furnished: low sofa, marble table, cane chair, greenery through wide openings" sizes="100vw" /></div></div>
       <div className="scrim"></div>
       <div aria-hidden="true" className="ref-desktop-9">

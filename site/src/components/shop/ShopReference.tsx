@@ -51,13 +51,13 @@ function Buy({ node }: { node: ReferenceNode }) {
       const selected = variant.options[option.name] === choice.label;
       button.attrs['data-option-name'] = option.name; button.attrs['data-option-value'] = choice.label;
       button.attrs['aria-pressed'] = selected;
-      button.attrs['aria-label'] = choice.label;
       const style = button.attrs.style as CSSProperties;
       style.outline = selected ? '1px solid #8E4A2C' : undefined; style.outlineOffset = selected ? '4px' : undefined;
       if (!swatch) {
         const matching = product.resolvedVariants.find((v) => v.options[option.name] === choice.label && Object.entries(variant.options).every(([key, value]) => key === option.name || v.options[key] === value));
         setText(button, choice.label + (matching && matching.price !== product.price ? ` · ${formatPrice(matching.price)}` : ''));
-      }
+        delete button.attrs['aria-label']; // the visible text is the accessible name
+      } else button.attrs['aria-label'] = choice.label;
       return button;
     });
     return block;
@@ -111,5 +111,7 @@ export function ShopReference({ node }: { node: ReferenceNode | string }): React
   if (photo) return <PhotoSlot name={photo.name} alt={photo.alt} position={photo.position} className={node.attrs.className as string} style={node.attrs.style as CSSProperties} sizes="(min-width: 1280px) 700px, 100vw" />;
   if (node.attrs.role === 'img') return <ImagePlaceholder className={node.attrs.className as string} style={node.attrs.style as CSSProperties} alt={String(node.attrs['aria-label'])}>{content}</ImagePlaceholder>;
   if (['img', 'input', 'br', 'hr', 'col'].includes(node.tag)) return createElement(node.tag, node.attrs);
+  // A sideways-scrolling strip with nothing focusable inside must itself take focus, so keyboard users can scroll it.
+  if (hasClass(node, 'rmscroll') && !elements(node).some((n) => n.tag === 'a' || n.tag === 'button')) return createElement(node.tag, { ...node.attrs, tabIndex: 0, role: 'group', 'aria-label': 'Photos, scroll sideways' }, content);
   return createElement(node.tag, node.attrs, content);
 }

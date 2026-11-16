@@ -1,0 +1,191 @@
+{
+  "help/delivery-and-returns": {
+    "slug": "delivery-and-returns",
+    "area": "help",
+    "name": "Delivery and returns",
+    "title": "Delivery and returns",
+    "intro": "",
+    "items": [
+      {
+        "term": "Where we deliver",
+        "text": "We deliver within the Philippines. For orders from other countries, write to us through the contact form."
+      },
+      {
+        "term": "Furniture",
+        "text": "Our crew delivers furniture, places it in your room, and assembles it. Delivery is free in Metro Manila when your furniture totals more than ₱50,000. Otherwise it costs ₱2,500. Outside Metro Manila, we calculate the fee by region at checkout."
+      },
+      {
+        "term": "Small items",
+        "text": "Lighting, cushions, throws, objects, and prints go by courier across the country. Delivery is free when these items total more than ₱10,000. Otherwise it costs ₱350."
+      },
+      {
+        "term": "Timing",
+        "text": "In-stock items ship in 3 to 7 business days. Made-to-order items show their lead time in weeks on the product page. We contact you to schedule furniture delivery when your piece is ready."
+      },
+      {
+        "term": "Returns",
+        "text": "You can return in-stock items within 14 days of delivery if they are unused. Made-to-order and one-of-a-kind pieces cannot be returned, except for defects or damage in transit."
+      },
+      {
+        "term": "If something arrives damaged",
+        "text": "Write to us within 7 days of delivery with a photo. We repair or replace the piece."
+      },
+      {
+        "term": "Warranty",
+        "text": "Kanlungan Originals carry a two-year warranty on furniture construction. Pieces from other makers carry the maker's warranty."
+      }
+    ]
+  },
+  "help/care-guide": {
+    "slug": "care-guide",
+    "area": "help",
+    "name": "Care guide",
+    "title": "Care guide",
+    "intro": "Natural materials change slowly and look better for it. These habits keep them in good shape.",
+    "items": [
+      {
+        "term": "Wood",
+        "text": "Dust with a soft, dry cloth. Wipe spills right away and use coasters and mats. Re-oil oiled finishes once a year, and keep wood out of direct sun and away from vents."
+      },
+      {
+        "term": "Cane and rattan",
+        "text": "Vacuum with a soft brush, or wipe with a damp cloth. Keep cane away from standing water and strong sun. Moderate humidity keeps it supple."
+      },
+      {
+        "term": "Linen and cotton",
+        "text": "Follow the care label. Wash removable covers in cool water and dry them flat or in shade. Linen softens with each wash and wrinkles naturally."
+      },
+      {
+        "term": "Wool rugs",
+        "text": "Vacuum without a beater bar. Blot spills with a clean cloth and do not rub. Rotate the rug twice a year so it wears evenly."
+      },
+      {
+        "term": "Stoneware",
+        "text": "Wipe with a damp cloth and mild soap. Ash glazes may show small variations, which are part of the piece. Do not heat or chill a piece suddenly."
+      },
+      {
+        "term": "Marble",
+        "text": "Wipe with a damp cloth and dry it. Honed marble can stain. Blot spills at once, and avoid acids such as citrus and wine. Use coasters."
+      },
+      {
+        "term": "Brass",
+        "text": "Unlacquered brass darkens and develops a patina over time. Wipe with a dry cloth. To restore shine, use a soft cloth and a little mild soap, then dry well."
+      }
+    ]
+  },
+  "help/faq": {
+    "slug": "faq",
+    "area": "help",
+    "name": "FAQ",
+    "title": "Shop questions",
+    "intro": "",
+    "items": [
+      {
+        "term": "How long will my order take?",
+        "text": "In-stock items ship in 3 to 7 business days. Made-to-order items show a lead time in weeks on the product page, usually 4 to 12 weeks. The cart shows the time for each item."
+      },
+      {
+        "term": "Can I change the size or finish of a made-to-order piece?",
+        "text": "Choose from the options on the product page. If you need something else, ask the studio. Custom work may become a studio project."
+      },
+      {
+        "term": "Where do you deliver?",
+        "text": "We deliver across the Philippines. Furniture goes by white-glove delivery and small items by courier."
+      },
+      {
+        "term": "What does delivery cost?",
+        "text": "Furniture delivery is free in Metro Manila above ₱50,000, otherwise ₱2,500. Outside Metro Manila, we calculate it by region at checkout. Courier delivery of small items is free above ₱10,000, otherwise ₱350."
+      },
+      {
+        "term": "Can I return something?",
+        "text": "In-stock items can be returned within 14 days if unused. Made-to-order and one-of-a-kind pieces cannot be returned, except for defects or damage in transit."
+      },
+      {
+        "term": "What does the warranty cover?",
+        "text": "Kanlungan Originals carry a two-year warranty on furniture construction. Pieces from other makers carry the maker's warranty, which is listed on the product page."
+      },
+      {
+        "term": "Can I see pieces in person?",
+        "text": "Yes. Our Makati showroom opens by appointment. Pieces on display change, so tell us what you want to see."
+      },
+      {
+        "term": "Do you ship outside the Philippines?",
+        "text": "Not through the shop. Write to us through the contact form and we will tell you what is possible."
+      }
+    ]
+  },
+  "legal/privacy": {
+    "slug": "privacy",
+    "area": "legal",
+    "name": "Privacy",
+    "title": "Privacy",
+    "intro": "",
+    "items": [
+      {
+        "term": "About this site",
+        "text": "Kanlungan is a fictional brand made as a portfolio project. No real studio, shop, or business sits behind this site."
+      },
+      {
+        "term": "What the forms do",
+        "text": "The booking form, contact form, mailing list, and Notify me form do not send your details anywhere. Nothing you type into them is stored or read by anyone."
+      },
+      {
+        "term": "Cart and demo order",
+        "text": "Your cart stays in your own browser, so it is still there when you come back. The demo order on the confirmation page stays in your browser for the length of your visit. Clear your browser data to remove both."
+      },
+      {
+        "term": "Payment",
+        "text": "The checkout is a demonstration. Do not enter real card or bank details. No payment is taken."
+      },
+      {
+        "term": "Cookies and tracking",
+        "text": "We do not use advertising cookies, analytics, or trackers. The site stores only the cart and demo order described above."
+      },
+      {
+        "term": "Sharing",
+        "text": "We do not sell or share your information, because we do not collect any."
+      },
+      {
+        "term": "Questions",
+        "text": "Write to studio@kanlungan.example."
+      }
+    ]
+  },
+  "legal/terms": {
+    "slug": "terms",
+    "area": "legal",
+    "name": "Terms",
+    "title": "Terms",
+    "intro": "",
+    "items": [
+      {
+        "term": "A demonstration",
+        "text": "Kanlungan is a fictional brand. The studio, shop, makers, projects, prices, and photographs are illustrative."
+      },
+      {
+        "term": "No sales",
+        "text": "Nothing on this site is for sale. A demo order is not a contract, and no goods or services will be delivered."
+      },
+      {
+        "term": "Prices and availability",
+        "text": "Prices are in Philippine pesos. Prices, lead times, and availability are examples and may change without notice."
+      },
+      {
+        "term": "Images",
+        "text": "The photographs are generated images of invented rooms and products. They are not photographs of real work."
+      },
+      {
+        "term": "Content",
+        "text": "The words, drawings, and designs on this site belong to its owner. Please do not copy them without asking."
+      },
+      {
+        "term": "No warranty",
+        "text": "We provide the site as it is, without any promise that it is accurate, complete, or always available."
+      },
+      {
+        "term": "Questions",
+        "text": "Write to studio@kanlungan.example."
+      }
+    ]
+  }
+}

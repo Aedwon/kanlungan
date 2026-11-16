@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
 import { InquiryForm } from '@/components/flow/InquiryForms';
 export const metadata = { title: 'Book a discovery call' };
-export default function Page() { return <Suspense fallback={null}><InquiryForm kind="booking" /></Suspense>; }
+// No search parameters, so the form is part of the prerendered page and nothing shifts when it loads.
+export default function Page() { return <InquiryForm kind="booking" />; }

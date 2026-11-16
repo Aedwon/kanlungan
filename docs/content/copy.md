@@ -219,6 +219,32 @@ Status: **Decided on delegation.** Rules come from `docs/concept/shop.md`.
 - **Can I see pieces in person?** Yes. Our Makati showroom opens by appointment. Pieces on display change, so tell us what you want to see.
 - **Do you ship outside the Philippines?** Not through the shop. Write to us through the contact form and we will tell you what is possible.
 
+## Legal
+
+Status: **Decided on delegation.** Written 2026-11-16 for the portfolio build. Both pages say plainly that Kanlungan is fictional and that no real data is collected or sold.
+
+### Privacy
+
+- **Heading:** Privacy
+- **About this site:** Kanlungan is a fictional brand made as a portfolio project. No real studio, shop, or business sits behind this site.
+- **What the forms do:** The booking form, contact form, mailing list, and Notify me form do not send your details anywhere. Nothing you type into them is stored or read by anyone.
+- **Cart and demo order:** Your cart stays in your own browser, so it is still there when you come back. The demo order on the confirmation page stays in your browser for the length of your visit. Clear your browser data to remove both.
+- **Payment:** The checkout is a demonstration. Do not enter real card or bank details. No payment is taken.
+- **Cookies and tracking:** We do not use advertising cookies, analytics, or trackers. The site stores only the cart and demo order described above.
+- **Sharing:** We do not sell or share your information, because we do not collect any.
+- **Questions:** Write to studio@kanlungan.example.
+
+### Terms
+
+- **Heading:** Terms
+- **A demonstration:** Kanlungan is a fictional brand. The studio, shop, makers, projects, prices, and photographs are illustrative.
+- **No sales:** Nothing on this site is for sale. A demo order is not a contract, and no goods or services will be delivered.
+- **Prices and availability:** Prices are in Philippine pesos. Prices, lead times, and availability are examples and may change without notice.
+- **Images:** The photographs are generated images of invented rooms and products. They are not photographs of real work.
+- **Content:** The words, drawings, and designs on this site belong to its owner. Please do not copy them without asking.
+- **No warranty:** We provide the site as it is, without any promise that it is accurate, complete, or always available.
+- **Questions:** Write to studio@kanlungan.example.
+
 ## Booking page
 
 Status: **Decided on delegation.** Fields come from `docs/concept/conversion.md`.

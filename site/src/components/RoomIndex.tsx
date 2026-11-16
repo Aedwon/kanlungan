@@ -13,10 +13,13 @@ export function RoomIndex({ rooms }: { rooms: { id: string; title: string }[] })
       const first = document.getElementById(rooms[0].id);
       setCurrent(first && first.getBoundingClientRect().top < window.innerHeight * 0.6 ? rooms[cur].id : null);
     };
-    window.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
+    // At most one layout read per frame, and the scroll listener is passive.
+    let frame = 0;
+    const request = () => { if (!frame) frame = requestAnimationFrame(() => { frame = 0; update(); }); };
+    window.addEventListener('scroll', request, { passive: true });
+    window.addEventListener('resize', request);
     update();
-    return () => { window.removeEventListener('scroll', update); window.removeEventListener('resize', update); };
+    return () => { cancelAnimationFrame(frame); window.removeEventListener('scroll', request); window.removeEventListener('resize', request); };
   }, [rooms]);
   useEffect(() => {
     const ul = list.current;

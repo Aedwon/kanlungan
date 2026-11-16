@@ -10,6 +10,7 @@
 @import '../styles/shop.css';
 @import '../styles/checkout-reference.css';
 @import '../styles/checkout.css';
+@import '../styles/pages.css';
 *{box-sizing:border-box}
 html{background:var(--color-bg);color:var(--color-text-default)}
 body{margin:0;font:400 17px/1.6 var(--font-hanken),system-ui,sans-serif}

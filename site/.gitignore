@@ -43,3 +43,7 @@ next-env.d.ts
 
 # Local writable npm cache
 /.npm-cache/
+
+# playwright
+/test-results/
+/playwright-report/
