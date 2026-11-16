@@ -116,7 +116,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
       <p className="tx ref-desktop-73">{pageCopy["We design, source, deliver, and style every room."]}</p>
       <div className="ref-desktop-74"></div>
       <div className="ref-desktop-75">
-        <span className="sv-big tx ref-desktop-76"><span className="ref-desktop-77">{pageCopy["From"]}</span>{formatPrice(1500000)}</span>
+        <span className="sv-big tx ref-desktop-76"><span className="ref-desktop-77">{pageCopy["From"]}</span>{formatPrice(500000)}</span>
       </div>
       <p className="tm ref-desktop-78">{pageCopy["Design fee included."]}</p>
       <Link href="/studio/full-service-furnishing" className="lnk tx ref-desktop-79">{pageCopy["About this service"]} <span className="arr" aria-hidden="true">→</span></Link>
@@ -240,7 +240,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
     <div className="ref-desktop-221"></div>
     <div className="ref-desktop-223">
       <h2 className="ref-desktop-224">{pageCopy["Tell us about your space."]}</h2>
-      <p className="ref-desktop-225">A discovery call takes 30 minutes and costs nothing. Furnishing projects start at {formatPrice(1500000)}.</p>
+      <p className="ref-desktop-225">{pageCopy["Closing text"]}</p>
       <div className="ref-desktop-226"><Link href="/book" className="btn-p ref-desktop-227">{pageCopy["Book a discovery call"]}</Link></div>
     </div>
   </div></div>

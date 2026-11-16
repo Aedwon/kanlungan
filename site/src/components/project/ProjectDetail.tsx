@@ -11,6 +11,7 @@ import { products } from '@/data/products';
 import { projectPages, type Block, type Frame, type PairSpec } from '@/data/project-pages';
 import { serviceHref } from '@/lib/studioTemplates';
 import { formatPrice } from '@/lib/formatPrice';
+import { copy } from '@/data/copy';
 import { productStudioName } from '@/data/image-slots';
 import swatches from '@/data/swatches.json';
 
@@ -122,7 +123,7 @@ export function ProjectDetail({ project }: { project: Project }) {
         <span className="next-t"><span className="t-h3 it">{next.name}</span><span className="t-small muted">{next.location}</span></span>
       </Link></div></section>
     <section className="sec end" aria-labelledby="cl"><div className="g blk cl"><h2 className="t-h2" id="cl">Tell us about your space.</h2>
-      <p className="t-body muted">{project.service === 'Interior Design Direction' ? `A discovery call takes 30 minutes and costs nothing. From ${formatPrice(2500)} per square meter. Minimum fee ${formatPrice(150000)}.` : `A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ${formatPrice(1500000)}.`}</p>
+      <p className="t-body muted">{copy.Home["Closing text"]}</p>
       <Button href="/book">Book a discovery call</Button></div></section>
   </div>;
 }

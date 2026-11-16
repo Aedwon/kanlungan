@@ -100,7 +100,7 @@ export function HomeMobile() { return (<div className="home-mobile">
     <div className="ref-mobile-288">
       <h3 className="ref-mobile-289">{pageCopy["Full-Service Furnishing"]}</h3>
       <p className="ref-mobile-290">{pageCopy["We design, source, deliver, and style every room."]}</p>
-      <p className="ref-mobile-291">{pageCopy["From"]} {formatPrice(1500000)} design fee included.</p>
+      <p className="ref-mobile-291">{pageCopy["From"]} {formatPrice(500000)} design fee included.</p>
       <Link href="/studio/full-service-furnishing" className="lnk ref-mobile-292">{pageCopy["About this service"]} <span className="arr ref-mobile-293" aria-hidden="true">→</span></Link>
     </div>
   </div>
@@ -191,7 +191,7 @@ export function HomeMobile() { return (<div className="home-mobile">
     <div className="ref-mobile-407"></div>
     <div className="ref-mobile-408">
       <h2 className="ref-mobile-409">{pageCopy["Tell us about your space."]}</h2>
-      <p className="ref-mobile-410">A discovery call takes 30 minutes and costs nothing. Furnishing projects start at {formatPrice(1500000)}.</p>
+      <p className="ref-mobile-410">{pageCopy["Closing text"]}</p>
       <Link href="/book" className="btn-p ref-mobile-411">{pageCopy["Book a discovery call"]}</Link>
     </div>
   </div>

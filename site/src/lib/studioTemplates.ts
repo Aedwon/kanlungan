@@ -112,7 +112,7 @@ export function serviceTemplate(service: Service, screen: Screen): ReferenceNode
     return n;
   });
   const fees = section(page, 'How fees work');
-  replaceText(fees, '₱1,500,000', '₱2,500');
+  replaceText(fees, '₱500,000', '₱2,500');
   replaceText(fees, 'Design fee included.', 'Per sqm, minimum ₱150,000.');
   replaceText(fees, 'The design fee is fixed and quoted per project, based on floor area and scope. The furnishing budget is separate. You pay listed prices for the pieces, and we add no hidden markup on shop items.', 'For a 100 sqm home, the fee is ₱250,000.');
   replaceText(fees, 'at design approval', 'before delivery');
@@ -130,8 +130,6 @@ export function serviceTemplate(service: Service, screen: Screen): ReferenceNode
     setText(elements(n).find((child) => hasClass(child, 'fq-q'))!, question);
     setText(find(n, 'p'), answer);
   });
-  const closing = children(page).at(-1)!;
-  replaceText(closing, copy.Home['Closing text'], 'A discovery call takes 30 minutes and costs nothing. From ₱2,500 per square meter. Minimum fee ₱150,000.');
   // Use the approved Hardin painting for this service's hero, and the approved
   // drafting-table painting for the included scope. No new visual is invented.
   const hardin = projectImage(projects[4], screen);
