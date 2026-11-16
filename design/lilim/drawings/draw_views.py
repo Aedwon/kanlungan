@@ -134,5 +134,131 @@ def kitchen():
                    "counter free end": v.percent((1.8, 2.3, 0.9))})
 
 
+def quad(v, wall, a0, a1, z0, z1, w=3):
+    """A rectangle on a wall. wall is ('x', value) or ('y', value); a0..a1 runs along the wall."""
+    axis, val = wall
+    if axis == "y":
+        v.poly([(a0, val, z0), (a1, val, z0), (a1, val, z1), (a0, val, z1)], w)
+    else:
+        v.poly([(val, a0, z0), (val, a1, z0), (val, a1, z1), (val, a0, z1)], w)
+
+
+def downlight(v, x, y, z=2.8, r=0.06):
+    v.poly([(x - r, y - r, z), (x + r, y - r, z), (x + r, y + r, z), (x - r, y + r, z)], 2)
+
+
+def bedroom():
+    """P3. Main bedroom, 4.6 m east-west by 5.0 m north-south. South wall behind the camera."""
+    v = View("bedroom-p3", (2.3, 0.15, 1.1), 0, 65.5, (1920, 1080))
+    v.room(4.6, 5.0, 2.8)
+    quad(v, ("x", 4.6), 1.0, 4.2, 0.0, 2.4)                                   # three-panel glass door, east wall
+    for y in (2.07, 3.13):                                                    # meeting stiles
+        v.line((4.6, y, 0), (4.6, y, 2.4), 2)
+    quad(v, ("x", 0.0), 3.5, 4.4, 0.0, 2.1)                                   # closet door, west wall
+    quad(v, ("x", 0.0), 0.5, 1.4, 0.0, 2.1)                                   # entry door, west wall (behind the camera)
+    socket(v, ("y", 5.0), 1.16, z=0.3); socket(v, ("y", 5.0), 3.44, z=0.3)    # two socket plates, north wall
+    for x, y in ((1.15, 1.25), (3.45, 1.25), (1.15, 3.75), (3.45, 3.75)):     # four downlights
+        downlight(v, x, y)
+    v.line((2.3, 2.5, 2.8), (2.3, 2.5, 2.62), 2)                              # ceiling point
+    v.save()
+    print(v.name, {"north wall west edge": v.percent((0, 5, 1.1)), "north wall east edge": v.percent((4.6, 5, 1.1)),
+                   "north wall top": None if v.cam_space((2.3, 5, 2.8))[2] < NEAR else round(100 * v.px(v.cam_space((2.3, 5, 2.8)))[1] / v.size[1], 1),
+                   "west socket": v.percent((1.16, 5, 0.3)), "east socket": v.percent((3.44, 5, 0.3)),
+                   "glass door north jamb": v.percent((4.6, 4.2, 1.2)), "glass door south jamb": v.percent((4.6, 1.0, 1.2)),
+                   "closet door north": v.percent((0, 4.4, 1.0)), "closet door south": v.percent((0, 3.5, 1.0)),
+                   "east wall at frame edge": "see image"})
+
+
+def children_room():
+    """Children's room, 4.0 m east-west by 4.6 m north-south. Window on the west wall, door on the east wall. 24mm."""
+    v = View("children-room", (0.3, 4.3, 1.0), 142, 73.7, (1920, 1080))
+    v.room(4.0, 4.6, 2.8)
+    quad(v, ("x", 0.0), 1.5, 3.1, 0.9, 2.1)                                   # window, west wall (behind the camera)
+    v.line((0, 2.3, 0.9), (0, 2.3, 2.1), 2)
+    quad(v, ("x", 4.0), 3.4, 4.3, 0.0, 2.1)                                   # door, east wall, north end
+    quad(v, ("y", 4.6), 1.4, 2.4, 2.1, 2.55, 3)                               # air conditioner, high on the north wall
+    socket(v, ("y", 0.0), 1.52, z=0.3); socket(v, ("y", 0.0), 2.08, z=0.3)    # sockets, south wall, one each side of the side table
+    downlight(v, 1.3, 1.5); downlight(v, 2.7, 3.1)                            # two downlights
+    v.line((2.0, 2.3, 2.8), (2.0, 2.3, 2.62), 2)                              # ceiling point
+    v.save()
+    print(v.name, {"south-east corner": v.percent((4, 0, 1.0)), "south-west corner": v.percent((0, 0, 1.0)),
+                   "north-east corner": v.percent((4, 4.6, 1.0)), "door south jamb": v.percent((4, 3.4, 1.0)),
+                   "door north jamb": v.percent((4, 4.3, 1.0)), "west socket": v.percent((1.52, 0, 0.3)),
+                   "east socket": v.percent((2.08, 0, 0.3)), "cabinet north end (east wall y 3.4)": v.percent((4, 3.4, 1.0)),
+                   "cabinet south end (east wall y 2.3)": v.percent((4, 2.3, 1.0)), "bed 1 west edge at head": v.percent((0.35, 0, 0.3)),
+                   "bed 1 east edge at head": v.percent((1.25, 0, 0.3)), "bed 2 west edge at head": v.percent((2.35, 0, 0.3)),
+                   "bed 2 east edge at head": v.percent((3.25, 0, 0.3)), "shelving south end (east wall y 1.3)": v.percent((4, 1.3, 1.0)),
+                   "shelving north end (east wall y 2.2)": v.percent((4, 2.2, 1.0)), "side table west edge": v.percent((1.6, 0, 0.3)), "side table east edge": v.percent((2.0, 0, 0.3)), "ac west end": v.percent((1.4, 4.6, 2.3)),
+                   "ac east end": v.percent((2.4, 4.6, 2.3))})
+
+
+def entry():
+    """Entry hall, 2.0 m wide by 5.0 m long (length assumed). Camera at the great room door, looking south at the front door."""
+    v = View("entry-hall", (1.0, 4.7, 1.0), 180, 37.6, (1200, 1600))
+    v.room(2.0, 5.0, 2.8)
+    quad(v, ("y", 0.0), 0.55, 1.45, 0.0, 2.1)                                 # front door frame, south wall
+    v.poly([(0.55, 0, 0), (0.55, 0, 2.1), (1.24, -0.58, 2.1), (1.24, -0.58, 0)], 2)   # leaf ajar, swung out about 40 degrees
+    socket(v, ("x", 2.0), 1.35, z=0.3)                                        # the one socket, east wall, behind the console
+    quad(v, ("x", 0.0), 3.3, 4.2, 0.0, 2.1)                                   # kitchen opening, west wall (out of frame)
+    v.line((1.0, 2.5, 2.8), (1.0, 2.5, 2.62), 2)                              # ceiling point
+    v.save()
+    print(v.name, {"west wall at front door": v.percent((0, 0, 1.0)), "east wall at front door": v.percent((2, 0, 1.0)),
+                   "door west jamb": v.percent((0.55, 0, 1.0)), "door east jamb": v.percent((1.45, 0, 1.0)), "leaf free edge": v.percent((1.24, -0.58, 1.0)),
+                   "socket": v.percent((2.0, 1.35, 0.3)), "west wall floor at 1.8 m": v.percent((0, 1.8, 0)),
+                   "east wall floor at 1.8 m": v.percent((2, 1.8, 0))})
+
+
+def terrace():
+    """Terrace, 4 m deep, 15 m long. Camera at the south end, on the terrace, looking north along the colonnade."""
+    v = View("terrace", (7.2, 0.3, 0.9), 0, 54.4, (1920, 1080))
+    v.line((5.5, 0, 0), (5.5, 15, 0), 4); v.line((5.5, 0, 2.8), (5.5, 15, 2.8), 4)        # door wall, floor and head
+    v.line((9.5, 0, 0), (9.5, 15, 0), 4)                                                  # outer edge of the terrace floor
+    v.line((10.0, 0, 2.8), (10.0, 15, 2.8), 4)                                            # edge of the roof
+    v.line((5.5, 0, 2.8), (10.0, 0, 2.8), 2); v.line((5.5, 15, 2.8), (10.0, 15, 2.8), 2)
+    v.line((5.5, 15, 0), (9.5, 15, 0), 2)
+    v.line((5.5, 0, 2.68), (5.5, 15, 2.68), 3)                                            # door head
+    for y in (14.6, 12.9, 11.2, 9.5, 7.8, 6.1, 4.4, 2.7, 1.0):                            # door stiles
+        v.line((5.5, y, 0), (5.5, y, 2.68), 2)
+    v.box(5.15, 5.6, 7.3, 7.75, 0, 2.8)                                                   # door-line column
+    v.box(5.2, 5.5, 14.6, 15.0, 0, 2.8); v.box(5.2, 5.5, 0, 0.4, 0, 2.8)                  # piers at both ends
+    for y in (3.0, 7.0, 11.0, 15.0):                                                      # terrace columns on the outer edge
+        v.box(9.35, 9.65, y - 0.15, y + 0.15, 0, 2.8)
+    v.save()
+    print(v.name, {"roof edge at far end": v.percent((10.0, 15, 2.8)), "floor edge at far end": v.percent((9.5, 15, 0)),
+                   "door wall at far end": v.percent((5.5, 15, 1.0)), "column y=7": v.percent((9.5, 7, 1.0)),
+                   "column y=11": v.percent((9.5, 11, 1.0)), "column y=15": v.percent((9.5, 15, 1.0)),
+                   "door-line column": v.percent((5.4, 7.0, 1.0)), "pier far end": v.percent((5.35, 14.8, 1.0))})
+
+
+def exterior():
+    """House seen from the garden. Terrace floor assumed 2.5 m above the garden, camera 19 m east of the terrace edge and 3 m south of the south end. Garden level is z = 0 here; the terrace floor is at z = 2.5."""
+    H = 2.5
+    v = View("exterior-dusk", (29.0, -3.0, 1.5), 293, 54.4, (1920, 1080))
+    v.line((5.5, 0, H + 2.8), (10.0, 0, H + 2.8), 2)
+    v.line((5.5, 15, H + 2.8), (10.0, 15, H + 2.8), 2)
+    v.line((10.0, 0, H + 2.8), (10.0, 15, H + 2.8), 4)                           # roof edge, front
+    v.line((10.0, 0, H + 2.5), (10.0, 15, H + 2.5), 3)                           # roof slab thickness
+    v.line((9.5, 0, H), (9.5, 15, H), 4)                                         # terrace floor edge
+    v.line((9.5, 0, H - 0.25), (9.5, 15, H - 0.25), 3)                           # terrace slab thickness
+    v.line((5.5, 0, H + 2.68), (5.5, 15, H + 2.68), 3)                           # door head
+    v.line((5.5, 0, H), (5.5, 15, H), 3)
+    for y in (14.6, 12.9, 11.2, 9.5, 7.8, 6.1, 4.4, 2.7, 1.0):
+        v.line((5.5, y, H), (5.5, y, H + 2.68), 2)
+    for y in (3.0, 7.0, 11.0, 15.0):
+        v.box(9.35, 9.65, y - 0.15, y + 0.15, H, H + 2.8)
+    v.line((5.5, 15, H), (9.5, 15, H), 2)
+    v.line((5.5, 0, H), (9.5, 0, H), 2)
+    v.save()
+    print(v.name, {"roof edge south end": v.percent((10.0, 0, H + 2.8)), "roof edge north end": v.percent((10.0, 15, H + 2.8)),
+                   "floor edge south end": v.percent((9.5, 0, H)), "floor edge north end": v.percent((9.5, 15, H)),
+                   "column y=3": v.percent((9.5, 3, 2)), "column y=7": v.percent((9.5, 7, 2)),
+                   "column y=11": v.percent((9.5, 11, 2)), "column y=15": v.percent((9.5, 15, 2)),
+                   "door-line column": v.percent((5.4, 7.5, 2))})
+
+
 if __name__ == "__main__":
-    family_room(); dining(); kitchen()
+    import sys
+    views = dict(family_room=family_room, dining=dining, kitchen=kitchen, bedroom=bedroom,
+                 children_room=children_room, entry=entry, terrace=terrace, exterior=exterior)
+    for name in (sys.argv[1:] or views):
+        views[name]()
