@@ -2,15 +2,12 @@
 
 Updated 2026-11-16 by the lead agent. Read `AGENTS.md`, `SUBAGENTS.md`, and `README.md` first.
 
-## Next step: deploy
+## Deploy: live
 
-Aedwon approved deploying to Vercel. The site is in `site/` (Next.js), merged to `main`.
+Live since 2026-11-17 at https://www.kanlungan.space (Vercel project `kanlungan`, production branch `main`, root `site`). The apex `kanlungan.space` redirects to www with a 308. Both serve HTTPS.
 
-1. Vercel: create a project from the GitHub repo `Aedwon/kanlungan`, root directory `site`, framework Next.js, production branch `main`. No environment variables are needed yet (the shop runs on the local catalog until Shopify is connected).
-2. Domain: Aedwon bought `kanlungan.space` on Namecheap and pointed its nameservers to Cloudflare (`coleman.ns.cloudflare.com`, `mary.ns.cloudflare.com`). Add `kanlungan.space` and `www.kanlungan.space` to the Vercel project (www as primary, apex redirects to www, or the reverse; www is the address he named). In Cloudflare DNS add the records Vercel shows (apex A record, www CNAME to Vercel), proxy status DNS only (gray cloud) so Vercel issues the certificate.
-3. Verify both addresses load over HTTPS, then report the live URL.
-
-Aedwon added Vercel, Cloudflare and Namecheap connectors in claude.ai; they load in a new session. If they are missing, ask for a Vercel access token and a Cloudflare "Edit zone DNS" token through the secret card.
+- DNS is in Cloudflare zone `kanlungan.space` (free plan), nameservers `santino.ns.cloudflare.com` and `simone.ns.cloudflare.com`, set at Namecheap. The earlier note that named `coleman` and `mary` was wrong; that pair belongs to Aedwon's other zones.
+- Records, all DNS only: apex A `216.198.79.1` and `64.29.17.1`, www CNAME `1afdc335710d34ca.vercel-dns-017.com`.
 
 ## State on 2026-11-16
 
