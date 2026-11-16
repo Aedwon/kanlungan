@@ -105,6 +105,12 @@ Status: **Decided on delegation** on 2026-11-16. Aedwon caught moved outlets, an
 
 State the result when showing a set: what was checked, what was regenerated, and anything left for his eye.
 
+**0. Real photograph, not a render** (every frame, checked first)
+
+- Judge it as a stranger would at a glance: does it look like a 3D render? If the lead has to say "this one looks the most like a render," it fails. Regenerate; do not show it with a caveat.
+- Render tells: neon or uniform greens, plastic-looking plants, perfect symmetry and centering, haloed or glowing light, spotless surfaces, a building that reads as a model, a sky with no detail.
+- Exterior and outdoor frames fail most often. Give them a realism block (muted true color, grain, wear, foliage overlapping the building, an off-axis camera) and attach an approved real-looking photo of the same site as the quality reference. (Aedwon rejected the first Lilim terrace and garden frames as obviously fake, 2026-11-16.)
+
 **1. Before and after match** (pairs)
 
 - Count in both frames: sockets, switches, cooling units, fans, ceiling points, downlights, doors, door handles, window panels, columns. Same count, same place, same type.
