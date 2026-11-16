@@ -178,6 +178,7 @@ Aedwon judged five more rooms, each with three afters at different levels of cha
 | 2026-11-16 | Hardin images: thirteen prompts in three jobs that can run at the same time, and two optional prompts for the wall color. Three line drawings made, and one check drawing of the hero camera. | Decided on delegation | `docs/build/consults/2026-11-16-hardin-gate-1.md` |
 | 2026-11-16 | Hardin painted wall color: A, gray-green, about `#98A28E`. | Picked by Aedwon from rendered options | `docs/content/project-designs/hardin-apartment.md` |
 | 2026-11-16 | Home hero: the growing Lilim window reveals the before-and-after on scroll, from the empty room to the furnished room. No handle. The reveal motion is pending a rendered prototype. | Picked by Aedwon (option 1 of 3) | `docs/design/visual-system.md` |
+| 2026-11-16 | Lilim hero before rebuilt from the approved furnished image, so the column, glass, view and light match pixel for pixel. Used by the home hero reveal and the Lilim living room slider. The earlier before is kept in `design/lilim/raw/`. | Decided on delegation, for Aedwon's request for a seamless hero | `design/lilim/lilim-hero-before.png` |
 
 ## Open questions for Aedwon
 
