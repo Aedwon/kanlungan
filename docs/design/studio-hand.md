@@ -217,7 +217,7 @@ Each design file fills its row before any image is generated. A new row may not 
 |---|---|---|---|---|---|
 | Lilim House | A slab of Romblon marble as a low table | Stoneware jar base with linen shade. Slim brass floor lamp. Capiz drum pendant. Low brass dome lamp. Ceramic dome pendant. | Ink and charcoal bands on paper. A woven abaca panel. | An old dark storage jar, empty. A kamuning tree in a black pot. Giant taro in black jars. | Two-point from the entry corner, along a glass wall on the right, very wide |
 | Tanaw Residence | A 280 cm record console in natural mahogany, made for the couple's records, with the turntable and the screen on it | A shallow flush ceiling light in white glass with a brass rim. A small cordless brass lamp with a flat disc shade. A steel reading floor lamp with a small brass cone head. A ribbed glass jar lamp. An oval abaca-paper lantern pendant. A pair of turned mahogany lamps with pleated cotton shades. A brass desk lamp with a long bar shade. | The couple's own small pictures hung around the screen. Two black-and-white photographs of rock and water. One landscape painting (Tanghali). Three framed handloom fragments. | A dracaena in an unglazed terracotta pot. A trailing pothos in a green-glazed pot. A wide celadon bowl. | One-point, down the room to a wall of glass and the city at dusk, the door on the right |
-| Dalampasigan Inn | To set | To set | To set | To set | To set |
+| Dalampasigan Inn | A 420 cm breakfast table in oiled acacia, made for the room in two halves, on trestle frames. One table for the whole inn. | A pair of low lamps with a short turned acacia stem and a small cone shade of woven reed. A tall slim lamp with a stem bound in rattan and a tapered shade of abaca cloth. A floor lamp on one bamboo pole with a shallow white enamelled steel dish shade. A mushroom lamp in white-glazed stoneware, base and shade of one clay. | Graphite line drawings on cream paper in thin black steel frames, one for each guest room, by one artist. The Habi Wall Piece, undyed and upright, in the lobby. A hung rack with the inn's own plates. | A calamansi tree in a pale cement pot. A low stoneware bowl of calamansi. A clear glass carafe. | One-point, across a guest room to one window and the sea in mid-morning light, the bath door on the right |
 | Pahinga Villas | To set | To set | To set | To set | To set |
 | Hardin Apartment | To set | To set | To set | To set | To set |
 
@@ -250,7 +250,7 @@ No project has a "direction" now. Each has a starting image that Aedwon picked, 
 |---|---|---|
 | Lilim House | `design/round-3-interiors/lilim-living-B-shade-and-stone.png` | **Locked by Aedwon.** Design file written. |
 | Tanaw Residence | `design/round-4-calibration/tanaw-living-C-designer.png` | **Picked by Aedwon.** Design file written. |
-| Dalampasigan Inn | `design/round-4-calibration/dalampasigan-room-A-sea-as-color.png` | **Picked by Aedwon.** No design file yet. |
+| Dalampasigan Inn | `design/round-4-calibration/dalampasigan-room-A-sea-as-color.png` | **Picked by Aedwon.** Design file written. |
 | Pahinga Villas | `design/round-4-calibration/pahinga-bedroom-B-collected.png` | **Picked by Aedwon.** No design file yet. |
 | Hardin Apartment | `design/round-4-calibration/hardin-living-A-collected.png` | **Picked by Aedwon.** No design file yet. |
 

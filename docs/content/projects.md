@@ -85,36 +85,40 @@ Both owners come home late. The developer left cool ceiling lights. We changed e
 
 ## Dalampasigan Inn
 
+Revised on 2026-11-16. The design is in [the Dalampasigan design file](project-designs/dalampasigan-inn.md). The captions are provisional until the photographs are approved. Field names and the caption format stay as the site expects them.
+
 - **Location:** San Juan, La Union
 - **Type:** Hospitality, 12-room boutique inn
 - **Floor area:** 640 sqm
 - **Service:** Full-Service Furnishing
 - **Year:** 2024
-- **Scope:** Twelve guest rooms, lobby, breakfast room
-- **Brief:** The owners finished building a small inn near the beach. They needed twelve rooms and two shared spaces ready for guests in one season, with pieces that survive salt air and sand.
-- **Approach:** The studio designed one room type and repeated it with small changes in textile color. Furniture is natural oiled acacia, honey in tone, solid and repairable. Reed mats replace wool rugs because they handle sand. The breakfast room has one long shared table.
-- **Material palette:** Natural oiled acacia (honey), tikog reed, rattan, handloomed cotton, stoneware, limewash
-- **Shop the project:** Himlay Bed (acacia), Bangko Bench, Tuntungan Stool, Banig Rug, Hain Dining Chair (acacia), Hapag Dining Table (260 cm, acacia), Lenta Pendant, Kumot Throw, Bilao Tray, Habi Wall Piece
-- **Image notes:** Bright coastal light, pale walls, open windows, a guest room with a reed mat, a long breakfast table
+- **Scope:** Twelve guest rooms and baths, lobby, breakfast room, corridors
+- **Duration:** 16 weeks from signed proposal to opening, with 9 days on site
+- **As handed over:** An older inn, cleared and repainted by its new owners, and empty. White painted walls, cream floor tile, aluminum sliding windows, and a tube light, a ceiling fan, and an air conditioner in each room.
+- **Brief:** Two siblings took over an older inn near the surf beach. They needed twelve rooms and two shared rooms ready for guests in one season, with pieces that survive salt air and sand, and rooms that a small staff can prepare the same way every day.
+- **Approach:** The studio designed one room and made it twelve times. Rooms that face the sea have no color but the sea. Rooms that face the garden have the same cloth in indigo. Furniture is natural oiled acacia, honey in tone, solid and repairable. Reed mats replace wool rugs because they handle sand. The breakfast room has one long table, made for the room, for the whole inn. Nothing was built or painted.
+- **Material palette:** Natural oiled acacia (honey), cane, tikog reed, white linen, handloomed cotton, stoneware, blackened steel
+- **Shop the project:** Himlay Bed (acacia), Tuntungan Stool, Bangko Bench, Banig Rug, Kumot Throw, Hain Dining Chair (acacia), Bilao Tray, Habi Wall Piece
+- **Image notes:** A plain white guest room in bright morning light, with a honey acacia bed with a cane headboard, white linen, a reed mat, and the sea through one window
 
 ### Gallery captions
 
-1. Exterior. The inn at the edge of the beach, with pale walls and open windows.
-2. Lobby. A Bangko Bench and a Habi Wall Piece opposite the entrance.
-3. Guest room. The natural acacia Himlay Bed with handloomed cotton and a Kumot Throw.
-4. Guest room. A Banig Rug on the floor, made to take sand.
-5. Guest room. A Tuntungan Stool used as a bedside table.
-6. Guest room. A second room with a different textile color, same layout.
-7. Breakfast room. One long natural acacia Hapag Dining Table (260 cm) with natural acacia Hain Dining Chairs.
-8. Breakfast room. A Lenta Pendant over the table in morning light.
-9. Breakfast room. A Bilao Tray and stoneware on the serving counter.
-10. Corridor. Limewashed walls and a row of room doors.
+1. Guest room. Morning, in a room that faces the sea. The natural acacia Himlay Bed, white linen, and a Banig Rug. The sea is the only color.
+2. Guest room. A Tuntungan Stool used as a bedside table, with a reed lamp made for the inn.
+3. Guest room. A room that faces the garden, with the same layout and the Kumot Throw in indigo.
+4. Guest bath. The owners' bath, with a Tuntungan Stool, cotton towels, and stoneware by Bukal Clayworks.
+5. Corridor. A reed runner by Tikog Loom, and a Bangko Bench under the end window with towels for the beach.
+6. Lobby. The front desk, made for the inn by Lilok Workshop, with the Habi Wall Piece and twelve keys behind it.
+7. Breakfast room. One table for the whole inn, 420 cm long, with Bangko Benches on one side and natural acacia Hain Dining Chairs on the other.
+8. Breakfast room. The serving table after breakfast, with Bilao Trays and the inn's stoneware on a rack above.
+9. Breakfast room. In the evening the far end is the common corner, with the inn's one screen.
+10. Exterior. The inn from its front garden in the early sun. The building is the owners'.
 
 ### Approach, expanded
 
-The owners needed twelve rooms ready in one season. We designed one room and repeated it, changing only the textile color from room to room. This shortened the schedule and made each room easy for staff to prepare and service.
+The owners needed twelve rooms ready in one season. We designed one room and made it twelve times. Eight rooms face the sea, and in those the sea is the only color. Four face the garden, and in those the throw and one cushion are indigo. Every room has the same pieces in the same places, so the staff can prepare any of them the same way. Each room has one drawing, and no two are alike.
 
-Salt, sand, and heavy use shape every choice. The Himlay, Hain, and Hapag share the honey tone of natural oiled acacia. Furniture is solid wood that can be sanded, oiled, and repaired. Tikog reed mats clean easily. In the breakfast room, one long table lets guests sit together or apart.
+Salt, sand, and heavy use shape every choice. The Himlay and the Hain share the honey tone of natural oiled acacia. Furniture is solid wood that can be sanded, oiled, and repaired. Tikog reed mats clean easily. The ceilings belong to the fans, so every lamp we added stands on something. In the breakfast room, one long table lets guests sit together or apart. The walls, the tile, the windows, the baths, and the kitchen are the owners'. Nothing was built or painted.
 
 ## Pahinga Villas
 
