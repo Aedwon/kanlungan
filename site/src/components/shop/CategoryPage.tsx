@@ -6,6 +6,10 @@ import type { CommerceProduct } from '@/lib/commerce/types';
 import { filterProducts, materialMatches, priceMatches, priceRanges } from '@/lib/commerce/filter';
 import { shopTemplate, children, elements, find, text, setText, productList, type ReferenceNode, type Screen } from '@/lib/shopTemplates';
 import { ShopReference } from './ShopReference';
+const FILTER_NAMES = ['maker', 'material', 'availability', 'price'];
+function clearNode(where: string): ReferenceNode {
+  return { tag: 'button', attrs: { type: 'button', className: 'lnk clear-all', 'data-clear': where, style: { fontSize: '15px', lineHeight: '1.5', fontWeight: '500' } }, children: ['Clear all'] } as ReferenceNode;
+}
 function formTemplate(catalog: CommerceProduct[]) {
   const node = find(shopTemplate('category', 'desktop'), 'form');
   const groups = children(node); const row = structuredClone(children(groups[0])[1]);
@@ -39,12 +43,29 @@ export function CategoryPage({ category, catalog }: { category: { name: string; 
     }
     window.history.pushState(null, '', pathname + (next.size ? '?' + next : '') + window.location.hash);
   }
+  const active = FILTER_NAMES.some((n) => params.getAll(n).length > 0);
+  function clearAll(where: string) {
+    const next = new URLSearchParams(search.toString());
+    FILTER_NAMES.forEach((n) => next.delete(n));
+    window.history.pushState(null, '', pathname + (next.size ? '?' + next : '') + window.location.hash);
+    // The Clear all control unmounts, so move focus to the first filter control in the same place.
+    requestAnimationFrame(() => {
+      const root = where === 'dialog' ? document.querySelector('.shop-filter-dialog') : document.querySelector(where === 'mobile' ? '.shop-category-mobile' : '.shop-category-desktop form');
+      root?.querySelector<HTMLElement>(where === 'mobile' ? '[aria-haspopup=dialog]' : 'input[type=checkbox]')?.focus();
+    });
+  }
   function render(node: ReferenceNode | string, scope: string): ReactNode {
     if (typeof node === 'string') return node;
+    if (node.attrs['data-clear']) {
+      if (!active) return null;
+      const where = String(node.attrs['data-clear']);
+      return <button {...node.attrs} data-clear={undefined} key={scope} onClick={() => clearAll(where)}>{node.children as string[]}</button>;
+    }
     if (node.tag === 'form') {
       const form = formTemplate(catalog);
       for (const n of elements(form)) for (const key of ['id', 'aria-labelledby']) if (n.attrs[key]) n.attrs[key] = scope + '-' + n.attrs[key];
-      return <form {...form.attrs} action={undefined} key={scope} aria-label="Filters" onSubmit={(e) => e.preventDefault()}>{form.children.map((n, i) => render(n, `${scope}-${i}`))}</form>;
+      const clear = scope.startsWith('mobile-filters') ? null : <div key={scope + '-clear'} className="clear-row">{render(clearNode('desktop'), scope + '-clear')}</div>;
+      return <form {...form.attrs} action={undefined} key={scope} aria-label="Filters" onSubmit={(e) => e.preventDefault()}>{clear}{form.children.map((n, i) => render(n, `${scope}-${i}`))}</form>;
     }
     if (node.tag === 'input') return <input {...node.attrs} key={scope} type="checkbox" checked={params.getAll(String(node.attrs.name)).includes(String(node.attrs.value))} onChange={(e) => update(String(node.attrs.name), String(node.attrs.value), e.target.checked)} />;
     if (node.tag === 'select') return <select {...node.attrs} id={scope === 'mobile-sort' ? 'mobile-sort' : String(node.attrs.id)} key={scope} value={params.get('sort') ?? 'featured'} onChange={(e) => update('sort', e.target.value)}><option value="featured">Featured</option><option value="newest">Newest</option><option value="price-asc">Price, low to high</option><option value="price-desc">Price, high to low</option></select>;
@@ -75,9 +96,13 @@ export function CategoryPage({ category, catalog }: { category: { name: string; 
       setText(link, sub ?? `All ${category.name.toLowerCase()}`); return link;
     });
     productList(node, visible, size);
+    if (size === 'mobile') {
+      const row = elements(node).find((n) => n.children.some((c) => typeof c !== 'string' && c.tag === 'button' && c.attrs['aria-haspopup'] === 'dialog'));
+      row?.children.push(clearNode('mobile'));
+    }
     for (const n of elements(node)) if (text(n) === '6 pieces' && !children(n).length) { setText(n, `${visible.length} ${visible.length === 1 ? 'piece' : 'pieces'}`); n.attrs['aria-live'] = 'polite'; }
     return render(node, size);
   }
-  return <>{screen('desktop')}{screen('mobile')}<dialog ref={dialog} className="shop-filter-dialog" onClick={(e) => { if (e.target === e.currentTarget) dialog.current?.close(); }} onClose={() => trigger.current?.focus()}><div className="shop-filter-panel"><div className="shop-filter-title"><h2>Filter and sort</h2><button type="button" className="ib" aria-label="Close filters" onClick={() => dialog.current?.close()}>×</button></div>{render(formTemplate(catalog), 'mobile-filters')}<label className="shop-filter-sort">Sort by{render(find(shopTemplate('category', 'desktop'), 'select'), 'mobile-sort')}</label><button type="button" className="button button-primary" onClick={() => dialog.current?.close()}>{visible.length} {visible.length === 1 ? 'piece' : 'pieces'}</button></div></dialog></>;
+  return <>{screen('desktop')}{screen('mobile')}<dialog ref={dialog} className="shop-filter-dialog" onClick={(e) => { if (e.target === e.currentTarget) dialog.current?.close(); }} onClose={() => trigger.current?.focus()}><div className="shop-filter-panel"><div className="shop-filter-title"><h2>Filter and sort</h2>{active && <button type="button" className="lnk clear-all" onClick={() => clearAll('dialog')}>Clear all</button>}<button type="button" className="ib" aria-label="Close filters" onClick={() => dialog.current?.close()}>×</button></div>{render(formTemplate(catalog), 'mobile-filters')}<label className="shop-filter-sort">Sort by{render(find(shopTemplate('category', 'desktop'), 'select'), 'mobile-sort')}</label><button type="button" className="button button-primary" onClick={() => dialog.current?.close()}>{visible.length} {visible.length === 1 ? 'piece' : 'pieces'}</button></div></dialog></>;
 }
 function createNode(tag: string, attrs: ReferenceNode['attrs'], content: ReactNode[], key: string) { return createElement(tag, { ...attrs, key }, content); }
