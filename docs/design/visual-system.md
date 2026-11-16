@@ -74,7 +74,7 @@ Status: **Revised on 2026-11-16,** twice. Aedwon reopened the light and color gr
 - **No grade:** neutral white balance in every photograph. Whites read white and foliage reads green. Every frame holds one true dark and one clean bright.
 - **Real homes:** rooms are furnished, lived in, and shown without people. Screens, cooling units, and sockets stay in the picture. A case study shows the whole home.
 - **Variety:** no camera recipe, lamp, or hero object repeats across projects.
-- **Before and after:** each project hero is a pair: the plain shell as handed over, and the furnished room from the same camera at the same hour. The slider that shows the pair is not chosen yet. Aedwon picks it from rendered options.
+- **Before and after:** each project hero is a pair: the plain shell as handed over, and the furnished room from the same camera at the same hour. The project hero pair uses the home hero's scroll wipe, in the same direction. Every other pair uses slider A, a drag handle with Before on the left and After on the right, working with mouse, touch, and arrow keys (picked by Aedwon 2026-11-16 from `design/round-6-project-page/sliders.html`).
 - **Text over images:** a warm umber scrim (based on `#2E211A`) rises from the bottom edge, so `#F7F2EA` text passes 4.5:1
 
 Removed on 2026-11-16: "shaded daylight under deep eaves" as the light for all imagery, the "warm umber floors, olive-green foliage, low contrast, lifted blacks" grade, the Tanaw dusk exception, and the pale floor exception. Each project is now shot in the light of its own site.
@@ -155,4 +155,4 @@ Reference: `design/identity/Logo-fable.dc.html`, section "Afternoon". The board 
 ## Not yet decided
 
 - Final photography. The mockups use labeled placeholders. They predate the imagery rules revised on 2026-11-16.
-- The before-and-after slider, and the project page sections that change with it. Both wait for a round of rendered options.
+- Project page: layout A, one editorial read with the rooms in the order of the house (picked by Aedwon 2026-11-16 from `design/round-6-project-page/project-page-A.html`).
