@@ -51,7 +51,27 @@ const roomSlots: Record<string, SlotPhoto> = {
   // Interior Design Direction hero: the planned room, a deliverable of that service.
   'Hardin Apartment planned living room render': room('hardin-render', 'Hardin Apartment, a planned living room render: a two-seat sofa, a wool rug and a lamp by the window'),
   // Woven Forms collection card
-  'Close crop of cane weave on a rattan lounge chair': room('lilim-material-detail', 'Cane weave on a rattan lounge chair beside a honed marble edge'),
+  'Close crop of cane weave on a rattan lounge chair': room('dapithapon-detail', 'Close view of the hand-woven cane back and the curved rattan frame of a lounge chair, in soft daylight'),
+  // Workshop and studio
+  'Hands weaving a cane panel on a frame in a workshop, window light and hanging reed': room('workshop-cane-hands', 'Hands weaving a cane panel onto a rattan frame in a workshop, with coils of reed hanging in the window light'),
+  'Hands weaving a cane panel on a frame in a workshop': room('workshop-cane-hands', 'Hands weaving a cane panel onto a rattan frame in a workshop, with coils of reed hanging in the window light'),
+  'The Kanlungan team of twelve gathered around a long table in the studio': room('about-team', 'The Kanlungan team at work around a long wood table in the bright studio, with material samples and a pinned wall behind'),
+  // Shop landing hero and collection band
+  'Credenza with a stoneware vessel, a brass lamp, a stone object and two framed works on the wall, in soft daylight': room('shop-shelf-story', 'A wood credenza with a stoneware vessel and a stone object, under a brass wall lamp and two framed works, in soft daylight'),
+  'Tabletop detail of stoneware, honed stone and wood in raking light': room('collection-stone-clay', 'A low wood table with a honed stone top, holding a stoneware vessel, a stoneware lamp and a carved stone form, in raking light'),
+  // Silong gallery slot 6
+  'Loose linen cushion and mahogany frame, close view': room('silong-cushion-detail', 'Silong Sofa, close view of the loose oat linen seat cushion against the mahogany arm and frame'),
+  // Makers
+  'Carpentry bench with a mahogany plank, a chisel and curls of shavings': room('maker-lilok', 'A carpentry bench with a mahogany plank, a chisel and curls of shavings'),
+  'Hand-woven cane on a rattan frame': room('maker-sulihiya', 'A rattan chair back being hand-woven with cane, loose strands still hanging from the frame'),
+  'Undyed tikog reed woven by hand': room('maker-tikog', 'Hands weaving undyed tikog reed into a mat, with loose strips fanned out below'),
+  'Ash-glazed stoneware vessels on a plank shelf': room('maker-bukal', 'A large ash-glazed stoneware jar on a plank shelf, with more clay vessels behind'),
+  'Handloomed cotton in natural and indigo stripes': room('maker-habol', 'A wood loom with indigo cotton cloth on it, and folded natural and indigo cloth in the foreground'),
+  'Spun brass and opal glass in a dim workshop': room('maker-tanso', 'A brass and opal glass wall lamp on a workbench, with loose brass parts beside it'),
+  'Honed marble slab and a carved stone form': room('maker-marmol', 'A carved marble form beside a honed marble slab on a wood bench in a stone workshop'),
+  'Three cotton rag prints on a gallery wall': room('maker-amihan', 'Three framed prints hung on a white gallery wall, above a flat plan chest'),
+  'Pale hinoki joinery in soft light': room('maker-okabe', 'A pale hinoki stool with joined rails, in a woodworking studio in soft light'),
+  'Matte stoneware lampshades hung in a row': room('maker-forma', 'Three matte stoneware lampshades hanging in a row beside a studio window'),
 };
 // Project cards use each project's card photograph.
 const cardLabels: Record<string, string> = {

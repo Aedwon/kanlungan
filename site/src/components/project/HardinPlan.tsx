@@ -1,6 +1,6 @@
 // Furniture floor plan of the Hardin Apartment, drawn from docs/content/project-designs/hardin-apartment.md (sections 1 and 5).
 // One unit is one centimeter. North is up, and the street (east) is on the right. Sizes are approximate, as in the design file.
-const description = 'Floor plan of the 74 square meter one-bedroom apartment, north at the top. A living and dining room, 8 by 3.45 meters, runs west to east. '
+const description = 'Floor plan of the main rooms of the one-bedroom apartment, north at the top. A living and dining room, 8 by 3.45 meters, runs west to east. '
   + 'The entry door is on its west wall, and the balcony runs along the east front. A two-seat sofa stands against the north wall, with a low bench, a rug and a cane chair toward the window, and a console on the south wall. '
   + 'A dining table with four chairs and a bookcase fill the west end. The kitchen and the bath sit south of the dining end. The bedroom is south of the living room, with a queen bed, two bedsides and the building closet on its west wall. '
   + 'The balcony holds a plank bench with herb pots, large pots at the north end, and a stool.';
@@ -114,6 +114,6 @@ export function HardinPlan() {
         <text x="866" y="372" textAnchor="middle" className="fp-label">Street, east</text>
       </svg>
     </div>
-    <figcaption className="t-small">The 74 sqm unit, with furniture placed.</figcaption>
+    <figcaption className="t-small">The plan of the main rooms, with furniture placed.</figcaption>
   </figure>;
 }

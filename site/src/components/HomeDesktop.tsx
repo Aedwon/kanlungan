@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
-import { ImagePlaceholder } from "./ImagePlaceholder";
 import { RoomPhoto } from "./RoomPhoto";
 import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
@@ -167,9 +166,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
 
     
     <Link href="/" className="col ref-desktop-111">
-      <ImagePlaceholder className="cz ref-desktop-112" alt="Close crop of cane weave on a rattan lounge chair">
-        <div className="ph ref-desktop-113">{pageCopy["Placeholder · Close crop of cane weave on a rattan lounge chair, soft daylight"]}</div>
-      </ImagePlaceholder>
+      <RoomPhoto label="Close crop of cane weave on a rattan lounge chair" className="cz ref-desktop-112" />
       <div className="ref-desktop-114"><div className="ref-desktop-115">{pageCopy["Woven Forms"]}</div><div className="cd ref-desktop-116">{pageCopy["Cane, rattan, and reed, woven by hand."]}</div></div>
     </Link>
   </div>
@@ -230,7 +227,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
     </div>
   </div>
   <div className="win-g ref-desktop-192">
-    <ImagePlaceholder alt="Hands weaving a cane panel on a frame in a workshop, window light and hanging reed" className="ref-desktop-193"><div className="par ref-desktop-194"></div><div className="shade ref-desktop-195"></div><div className="ph ref-desktop-196">{pageCopy["Placeholder · Hands weaving a cane panel at a Cebu workshop, window light, hanging reed"]}</div></ImagePlaceholder>
+    <RoomPhoto label="Hands weaving a cane panel on a frame in a workshop, window light and hanging reed" className="ref-desktop-193" />
   </div>
 </section>
 

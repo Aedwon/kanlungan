@@ -11,7 +11,8 @@ const out = path.join(root, 'site', 'public', 'images', 'products');
 const WIDTHS = [480, 800];
 await mkdir(out, { recursive: true });
 // Product studio shots and the Silong extra angles. Room shots (lilim-*) are exported by the project script.
-const files = (await readdir(src)).filter((f) => /^(?!lilim-).+-(studio|studio-front|studio-three-quarter|detail|fabric)\.png$/.test(f));
+// Also the editorial photos for About, the Shop landing, collections, makers, the Home workshop panel and the 404 page.
+const files = (await readdir(src)).filter((f) => /^(?!lilim-).+-(studio|studio-front|studio-three-quarter|detail|fabric)\.png$/.test(f) || /^(maker-.+|about-team|shop-shelf-story|collection-stone-clay|workshop-cane-hands)\.png$/.test(f));
 const manifest = {};
 for (const file of files) {
   const name = file.replace(/\.png$/, '');

@@ -1,4 +1,14 @@
 {
+ "about-team": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
  "amihan-studio": {
   "width": 1254,
   "height": 1254,
@@ -90,6 +100,26 @@
   "jpegWidth": 1080
  },
  "bilao-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1254
+  ],
+  "jpegWidth": 1080
+ },
+ "collection-stone-clay": {
+  "width": 1448,
+  "height": 1086,
+  "widths": [
+   480,
+   800,
+   1448
+  ],
+  "jpegWidth": 1080
+ },
+ "dapithapon-detail": {
   "width": 1254,
   "height": 1254,
   "widths": [
@@ -229,6 +259,106 @@
   ],
   "jpegWidth": 1080
  },
+ "maker-amihan": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-bukal": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-forma": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-habol": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-lilok": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-marmol": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-okabe": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-sulihiya": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-tanso": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
+ "maker-tikog": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
+  ],
+  "jpegWidth": 1080
+ },
  "pasilyo-studio": {
   "width": 1254,
   "height": 1254,
@@ -250,6 +380,26 @@
   "jpegWidth": 1080
  },
  "salo-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1254
+  ],
+  "jpegWidth": 1080
+ },
+ "shop-shelf-story": {
+  "width": 1448,
+  "height": 1086,
+  "widths": [
+   480,
+   800,
+   1448
+  ],
+  "jpegWidth": 1080
+ },
+ "silong-cushion-detail": {
   "width": 1254,
   "height": 1254,
   "widths": [
@@ -376,6 +526,16 @@
    480,
    800,
    1254
+  ],
+  "jpegWidth": 1080
+ },
+ "workshop-cane-hands": {
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   800,
+   1122
   ],
   "jpegWidth": 1080
  },

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { copy } from '@/data/copy';
+import { Photo } from '@/components/Photo';
 const text = copy['Search, 404, contact, and notify me'];
 const links = [['Home', '/'], ['Shop', '/shop'], ['Projects', '/projects'], ['Contact', '/contact']] as const;
 export const metadata = { title: 'Page not found' };
@@ -12,8 +13,8 @@ export default function NotFound() {
         <ul>{links.map(([name, href]) => <li key={href}><Link href={href} className="lnk">{name} <span className="arr" aria-hidden="true">→</span></Link></li>)}</ul>
       </div>
     </div>
-    <div className="nf-image" role="img" aria-label="An empty room with a bright doorway and a band of light across the floor">
-      <div className="nf-room" /><div className="nf-shade" />
+    <div className="nf-image photo-host">
+      <Photo name="lilim-entry" alt="The entry of Lilim House: the front door open to the garden, a console, and a bench with bags and shoes" sizes="(min-width: 1024px) 33vw, 100vw" priority />
     </div>
   </div>;
 }

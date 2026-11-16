@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
-import { ImagePlaceholder } from "./ImagePlaceholder";
 import { RoomPhoto } from "./RoomPhoto";
 import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
@@ -132,8 +131,7 @@ export function HomeMobile() { return (<div className="home-mobile">
   </Link>
 
   <Link href="/shop/collections/woven-forms" className="ref-mobile-316">
-    <ImagePlaceholder alt="Close crop of cane weave on a rattan lounge chair" className="ref-mobile-317">
-    </ImagePlaceholder>
+    <RoomPhoto label="Close crop of cane weave on a rattan lounge chair" className="ref-mobile-317" />
     <div className="ref-mobile-318"><div className="ref-mobile-319">{pageCopy["Woven Forms"]}</div><div className="ref-mobile-320">{pageCopy["Cane, rattan, and reed, woven by hand."]}</div></div>
   </Link>
 </section>
@@ -178,7 +176,7 @@ export function HomeMobile() { return (<div className="home-mobile">
     <Link href="/shop/makers" className="lnk ref-mobile-369">{pageCopy["Makers"]} <span className="arr ref-mobile-370" aria-hidden="true">→</span></Link>
   </div>
   <div className="win-g ref-mobile-371">
-    <ImagePlaceholder alt="Hands weaving a cane panel on a frame in a workshop, window light and hanging reed" className="ref-mobile-372"><div className="par ref-mobile-373"></div><div className="shade ref-mobile-374"></div></ImagePlaceholder>
+    <RoomPhoto label="Hands weaving a cane panel on a frame in a workshop, window light and hanging reed" className="ref-mobile-372" />
   </div>
 </section>
 
