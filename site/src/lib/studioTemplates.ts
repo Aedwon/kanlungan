@@ -29,11 +29,21 @@ export function find(node: ReferenceNode, tag: string): ReferenceNode {
 export function hasClass(node: ReferenceNode, name: string): boolean {
   return String(node.attrs.className ?? '').split(' ').includes(name);
 }
+// Caption badges from the painted placeholders ("Placeholder · ...") are emptied and hidden, so no
+// placeholder text ships. The nodes stay, so templates that index children by position keep working.
+export function stripBadges(node: ReferenceNode): ReferenceNode {
+  if (node.children.length > 0 && node.children.every((c) => typeof c === 'string') && node.children.join('').startsWith('Placeholder ·')) {
+    node.children = [];
+    node.attrs = { ...node.attrs, style: { ...(node.attrs.style as object | undefined), display: 'none' }, 'aria-hidden': 'true' };
+  }
+  node.children.forEach((c) => { if (typeof c !== 'string') stripBadges(c); });
+  return node;
+}
 export function template(name: string, screen: Screen): ReferenceNode {
   const templates = source as unknown as Record<string, ReferenceNode>;
   const value = templates[`${name}-${screen}`];
   if (!value) throw new Error(`Missing ${name} ${screen} template`);
-  return structuredClone(value);
+  return stripBadges(structuredClone(value));
 }
 function setText(node: ReferenceNode, value: string) { node.children = [value]; }
 function replaceText(node: ReferenceNode, before: string, after: string) {
@@ -63,7 +73,6 @@ function applyProjectImage(node: ReferenceNode, project: Project, screen: Screen
     if (paint) styles(paint).background = image.background;
     else styles(n).background = image.background;
   }
-  for (const n of elements(node).filter((n) => hasClass(n, 'ph'))) setText(n, `Placeholder · ${project.name}`);
 }
 function bindProjectCard(node: ReferenceNode, before: Project, project: Project, screen: Screen) {
   if (before.slug === project.slug) return;
@@ -137,6 +146,5 @@ export function serviceTemplate(service: Service, screen: Screen): ReferenceNode
   const targetPaint = elements(includedImage).find((n) => hasClass(n, 'par')) ?? includedImage;
   styles(targetPaint).background = styles(plansPaint!).background;
   includedImage.attrs['aria-label'] = plans.attrs['aria-label'];
-  for (const n of elements(includedImage).filter((n) => hasClass(n, 'ph'))) setText(n, 'Placeholder · Plans and a pencil on a warm wood table, side light');
   return page;
 }

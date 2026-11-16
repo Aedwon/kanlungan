@@ -4,6 +4,7 @@ import sharp from 'sharp';
 import { readdir, mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { blurOf } from './blur.mjs';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const projects = ['lilim', 'tanaw', 'dalampasigan', 'pahinga', 'hardin'];
@@ -25,7 +26,7 @@ for (const project of projects) {
     }
     const jw = Math.min(width, 1440);
     await sharp(path.join(src, file)).resize({ width: jw }).jpeg({ quality: 78, mozjpeg: true }).toFile(path.join(out, `${name}.jpg`));
-    manifest[name] = { dir: project, width, height, widths, jpegWidth: jw };
+    manifest[name] = { dir: project, width, height, widths, jpegWidth: jw, blur: await blurOf(path.join(src, file)) };
   }
 }
 await writeFile(path.join(root, 'site', 'src', 'data', 'project-images.json'), JSON.stringify(manifest, null, 1) + '\n');

@@ -4,14 +4,14 @@ import { products as seedProducts } from '@/data/products';
 import { makers as seedMakers } from '@/data/makers';
 import { projects } from '@/data/projects';
 import { copy } from '@/data/copy';
-import { children, elements, find, hasClass, text, template as studioTemplate, type ReferenceNode, type Screen } from './studioTemplates';
+import { children, elements, find, hasClass, text, template as studioTemplate, stripBadges, type ReferenceNode, type Screen } from './studioTemplates';
 import { availabilityLine, type CommerceProduct, type Collection, type Maker } from './commerce/types';
 import { formatPrice } from './formatPrice';
 import { productAlt, productStudioName } from '@/data/image-slots';
 export { children, elements, find, hasClass, text };
 export type { ReferenceNode, Screen };
 export function shopTemplate(name: string, screen: Screen): ReferenceNode {
-  return structuredClone((source as unknown as Record<string, ReferenceNode>)[`${name}-${screen}`]);
+  return stripBadges(structuredClone((source as unknown as Record<string, ReferenceNode>)[`${name}-${screen}`]));
 }
 export function setText(node: ReferenceNode, value: string) { node.children = [value]; }
 export function replaceText(node: ReferenceNode, before: string, after: string) {
@@ -165,7 +165,6 @@ export function productTemplate(product: CommerceProduct, catalog: CommerceProdu
       const targetPaint = elements(target).find((n) => (n.attrs.style as Record<string, string>)?.background) ?? target;
       (targetPaint.attrs.style as Record<string, string>).background = (paint.attrs.style as Record<string, string>).background;
       target.attrs['aria-label'] = image.attrs['aria-label'];
-      for (const note of elements(card).filter((n) => hasClass(n, 'ph'))) setText(note, `Placeholder · ${project.name}`);
     }
     return card;
   });
@@ -203,7 +202,7 @@ export function productTemplate(product: CommerceProduct, catalog: CommerceProdu
         const room = elements(shopTemplate('collection', screen)).find((n) => n.attrs.role === 'img')!;
         image.children = structuredClone(room.children);
         if (!image.children.length) image.attrs.style = { ...image.attrs.style as object, background: (room.attrs.style as Record<string, string>).background };
-        image.attrs['aria-label'] = 'Placeholder · ' + product.name + ' room context';
+        image.attrs['aria-label'] = product.name + ', room context';
       }
     });
     if (drop.size) prune(gallery, drop);

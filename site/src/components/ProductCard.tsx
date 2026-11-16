@@ -27,7 +27,6 @@ export function ProductCard({ product, number, availability = product.availabili
       </div> : <ImagePlaceholder alt={placeholder?.alt ?? product.name} className="product-card-image">
         <div className="im" style={{ background: placeholder?.background ?? 'var(--color-surface)' }} />
         {number && <span className="product-number num">{number}</span>}
-        {placeholder && <span className="ph product-placeholder-caption">{placeholder.caption}</span>}
       </ImagePlaceholder>}
       <div className="product-meta"><div className="product-name">{product.name}</div>
         <div className="product-price">{formatPrice(product.price)}{product.priceUnit && ` ${product.priceUnit}`}</div>

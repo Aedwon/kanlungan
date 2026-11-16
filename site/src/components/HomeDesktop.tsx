@@ -110,7 +110,6 @@ export function HomeDesktop() { return (<div className="home-desktop">
           <RoomPhoto label="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" className="ref-desktop-69" />
           <div className="ref-desktop-70"></div>
         </div>
-        <div className="ph ref-desktop-71">{pageCopy["Placeholder · Linen curtain in soft daylight, low stool, stoneware vase"]}</div>
       </div>
       <h3 className="tx ref-desktop-72">{pageCopy["Full-Service Furnishing"]}</h3>
       <p className="tx ref-desktop-73">{pageCopy["We design, source, deliver, and style every room."]}</p>
@@ -128,7 +127,6 @@ export function HomeDesktop() { return (<div className="home-desktop">
           <RoomPhoto label="Quiet room detail: plans and a pencil on a warm wood drafting table in side light" className="ref-desktop-81" />
           <div className="ref-desktop-82"></div>
         </div>
-        <div className="ph ref-desktop-83">{pageCopy["Placeholder · Plans and a pencil on a warm wood table, side light"]}</div>
       </div>
       <h3 className="tx ref-desktop-84">{pageCopy["Interior Design Direction"]}</h3>
       <p className="tx ref-desktop-85">{pageCopy["We design the space. You bring it to life."]}</p>

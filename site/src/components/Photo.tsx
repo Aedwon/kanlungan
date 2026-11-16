@@ -2,7 +2,7 @@ import type { CSSProperties } from 'react';
 import projectManifest from '@/data/project-images.json';
 import productManifest from '@/data/product-images.json';
 
-type Entry = { dir?: string; width: number; height: number; widths: number[]; jpegWidth: number };
+type Entry = { dir?: string; width: number; height: number; widths: number[]; jpegWidth: number; blur?: string };
 const projectImages = projectManifest as Record<string, Entry>;
 const productImages = productManifest as Record<string, Entry>;
 
@@ -28,7 +28,8 @@ export function Photo({ name, alt, sizes = '100vw', priority = false, className,
   const srcSet = entry.widths.map((w) => `${entry.base}/${name}-${w}.webp ${w}w`).join(', ');
   return <picture>
     <source type="image/webp" srcSet={srcSet} sizes={sizes} />
-    <img src={`${entry.base}/${name}.jpg`} alt={alt} width={entry.width} height={entry.height} className={className} style={style}
+    <img src={`${entry.base}/${name}.jpg`} alt={alt} width={entry.width} height={entry.height} className={className}
+      style={entry.blur ? { backgroundImage: `url(${entry.blur})`, backgroundSize: 'cover', ...style } : style}
       loading={priority ? 'eager' : 'lazy'} decoding={priority ? 'sync' : 'async'} fetchPriority={priority ? 'high' : undefined} />
   </picture>;
 }

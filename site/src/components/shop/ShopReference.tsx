@@ -95,6 +95,8 @@ function ArtboardForm({ node }: { node: ReferenceNode }) {
 export function ShopReference({ node }: { node: ReferenceNode | string }): ReactNode {
   const productState = useContext(ProductContext);
   if (typeof node === 'string') return node;
+  // Caption badges from the painted placeholders never render over real photographs.
+  if (node.children.length > 0 && node.children.every((c) => typeof c === 'string') && node.children.join('').startsWith('Placeholder ·')) return null;
   const content = node.children.map((n, i) => <ShopReference key={i} node={n} />);
   if (node.tag === 'ProductBuy') return <Buy node={node} />;
   if (node.tag === 'ProductBar') return <Bar node={node} />;

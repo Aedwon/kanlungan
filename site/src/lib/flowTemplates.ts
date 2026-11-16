@@ -6,7 +6,7 @@ import { productPlaceholders } from '@/data/product-placeholders';
 import { productAlt, productStudioName } from '@/data/image-slots';
 import { formatPrice } from './formatPrice';
 import { delivery, furniture, mixed, mixedNote, subtotal, type CartLine, type DemoOrder } from './cart';
-import type { ReferenceNode, Screen } from './studioTemplates';
+import { stripBadges, type ReferenceNode, type Screen } from './studioTemplates';
 export type { ReferenceNode, Screen };
 export function nodes(n: ReferenceNode): ReferenceNode[] { return [n, ...n.children.flatMap((c) => typeof c === 'string' ? [] : nodes(c))]; }
 export function children(n: ReferenceNode) { return n.children.filter((c): c is ReferenceNode => typeof c !== 'string'); }
@@ -14,7 +14,7 @@ export function text(n: ReferenceNode): string { return n.children.map((c) => ty
 export function setText(n: ReferenceNode, s: string) { n.children = [s]; }
 export function style(n: ReferenceNode) { return (n.attrs.style ??= {}) as CSSProperties; }
 export function find(n: ReferenceNode, tag: string) { const result = nodes(n).find((n) => n.tag === tag); if (!result) throw new Error(`Missing ${tag} in artboard`); return result; }
-export function flowTemplate(name: string, screen: Screen): ReferenceNode { return structuredClone((source as unknown as Record<string, ReferenceNode>)[`${name}-${screen}`]); }
+export function flowTemplate(name: string, screen: Screen): ReferenceNode { return stripBadges(structuredClone((source as unknown as Record<string, ReferenceNode>)[`${name}-${screen}`])); }
 export function remove(root: ReferenceNode, target: ReferenceNode) { for (const n of nodes(root)) n.children = n.children.filter((c) => c !== target); }
 export function leaf(root: ReferenceNode, content: string) { return nodes(root).find((n) => !children(n).length && text(n) === content); }
 export function labelValue(root: ReferenceNode, label: string, value: string) {

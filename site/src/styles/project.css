@@ -167,3 +167,6 @@
 .pj .cl h2{margin-bottom:24px}
 .pj .cl p{max-width:560px;margin-bottom:32px}
 @media (max-width:1279px){.pj .next .im{aspect-ratio:4/3}}
+
+/* Space before "As handed over" so it reads as its own block under the brief */
+.txt .handed{margin-top:48px}

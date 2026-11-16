@@ -27,6 +27,8 @@ export function ClosingCallToAction({ node }: { node: ReferenceNode }) {
 }
 export function Reference({ node }: { node: ReferenceNode | string }): ReactNode {
   if (typeof node === 'string') return node;
+  // Caption badges from the painted placeholders never render over real photographs.
+  if (node.children.length > 0 && node.children.every((c) => typeof c === 'string') && node.children.join('').startsWith('Placeholder ·')) return null;
   const { tag, attrs } = node;
   if (tag === 'a') { const project = projectOf(attrs.href); if (project) paintCards(node, project); }
   const content = node.children.map((child, index) => <Reference key={index} node={child} />);

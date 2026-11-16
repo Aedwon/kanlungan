@@ -9,7 +9,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZQDA3CHfvkATL2vncuAA/rBeYWJsxYnYcjFj8orV2TeNmsGgC+FimB0XzsrKiMqAAA=="
  },
  "lilim-bedroom-before": {
   "dir": "lilim",
@@ -22,7 +23,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoQAAkAA4BaJZQAAuQPtZUycAD+1J0O8yDOiQ/cbtFnYrAAAAA="
  },
  "lilim-bedroom": {
   "dir": "lilim",
@@ -35,7 +37,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAkAA4BaJZQCdAEWST0wtwAA/sNoR4nAd+E2ueud43Af7/AfVdoEqjkhSA8YpXZJ50K+fNIAAA=="
  },
  "lilim-bedside": {
   "dir": "lilim",
@@ -47,7 +50,21 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JYwCdAA7iLUudiG09qAD+6Sjg3aSYWg6QFJOh4DdRUMqBNHJr1V39eKtLBsrPlXwtGtnG2F3ESVmqyV5Co5KzVOAAAA=="
+ },
+ "lilim-care-guide": {
+  "dir": "lilim",
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   768,
+   1080,
+   1122
+  ],
+  "jpegWidth": 1122,
+  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JZQC06BKRy0c8792l6AAA99GLI2IA2YFgrcEhxVqFSZJeiz9RCH9JARX3N2JuEbyEntM/ZsKrE39nl2uVHQAA"
  },
  "lilim-children-room": {
   "dir": "lilim",
@@ -60,7 +77,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAkAA4BaJQBOgB7HIssm+gAAzeyjoIC/cnjYEJRI/jnlftvZyMlnnj9/kCS6oNb3m6vAAAA="
  },
  "lilim-dining-dusk-before": {
   "dir": "lilim",
@@ -73,7 +91,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAkAA4BaJYwCdADwrZQAAO/AYKPn9wdP06KnIiZJ4RNGJ2v3/SIeF6qT4CLpNmpz4AAA"
  },
  "lilim-dining-dusk": {
   "dir": "lilim",
@@ -86,7 +105,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJYwCdADDhFN00AD2Z2Sz0Zf2e7oT9yVityETz7p5Mx6a8PcUGygVcQBRM6IBZMtxtvNYAAA="
  },
  "lilim-dining-morning": {
   "dir": "lilim",
@@ -98,7 +118,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoQABUAPu1iqk2ppaQiMAgBMB2JQBOgA87xiv0cegryCQAA8Af0CBRKRjFrst8pnIQOx2ZXFipL2sX24svmWzdVMju2jjUER5976JukTWVAFBNumtnWED9/pd9HjXksk8QrESrlSs60aAAA"
  },
  "lilim-entry": {
   "dir": "lilim",
@@ -110,7 +131,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAwCdASoQABUAPu1iqk2ppaQiMAgBMB2JZQCdACHflaaJlrsAAP5SqXYJ9ptjnIGYLRGvkaILd6LlcDtFjVydU+R59LksFtl+F8BawgUTEjHGgAA="
  },
  "lilim-exterior-dusk": {
   "dir": "lilim",
@@ -123,7 +145,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAkAA4BaJZACdAEKoeAadAD+75DNOYnSFuePINE01FLjKy1Q+6mT6Rl+49+pt0LiX76gAAA="
  },
  "lilim-family-room-before": {
   "dir": "lilim",
@@ -136,7 +159,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACQAQCdASoQAAkAA4BaJaQAAcXoc0AA/u4MDrNPThqrxePTNejwwSOEMBwl4+G6Iee9gAAA"
  },
  "lilim-family-room": {
   "dir": "lilim",
@@ -149,7 +173,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAkAA4BaJYwCdAD1rcHWgKaAAP6Rt6UiveLCbckQalFsKHS4m2m69oRYeAUpFJc1Myb1tFT3i5eM0rw0LSYAAAA="
  },
  "lilim-hero-B-layered": {
   "dir": "lilim",
@@ -162,7 +187,8 @@
    1440,
    1914
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAcAA4BaJZQCdAEKyq4/MQAA/N+1ltwgRyV37BFSvgC6NKiy9RWa9OepSfwA"
  },
  "lilim-hero-before": {
   "dir": "lilim",
@@ -175,7 +201,22 @@
    1440,
    1914
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACQAQCdASoQAAcAA4BaJZwAAYgJG4AA/pkhf+5ADZ+t2Ep8rmBUzLwvINsa8NVUCAA="
+ },
+ "lilim-install-day": {
+  "dir": "lilim",
+  "width": 1672,
+  "height": 941,
+  "widths": [
+   480,
+   768,
+   1080,
+   1440,
+   1672
+  ],
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAgCdASoQAAkAA4BaJZQCdAELhxAa4CtyAAD+lB70XUMUnZVCCp86CD8yb05os5si9+DNO4VAAA=="
  },
  "lilim-kitchen-before": {
   "dir": "lilim",
@@ -187,7 +228,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoQABUAPu1kqU2ppaQiMAgBMB2JZwAAW+zIf/TS3esAAP6ulVVVNzx8MoyxlsQTO6FwNMIsVMUgNnVVsSbxIAAA"
  },
  "lilim-kitchen": {
   "dir": "lilim",
@@ -199,7 +241,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoQABUAPu1oqk6ppiQiMAgBMB2JZQDKACHClXhXpjFTAAD+rpQRVcmhoGJaz1wB5lgh5+aVtFFWlNl/IKQ8G1TBfsCoDUdyb6AAAA=="
  },
  "lilim-material-detail": {
   "dir": "lilim",
@@ -211,7 +254,21 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoQABUAPu1kqU2ppaOiMAgBMB2JQBOiP/wEP8Rihq/EMAYAAPhY8TMrHxFxNv7ri/WTqtb06KuzfKvXjfmvh3tiVv6CvWh6ATEi020Yp5s3xcPkx20abbaUU7HpcIyDJUTAHAAA"
+ },
+ "lilim-proposal": {
+  "dir": "lilim",
+  "width": 1122,
+  "height": 1402,
+  "widths": [
+   480,
+   768,
+   1080,
+   1122
+  ],
+  "jpegWidth": 1122,
+  "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoQABQAPu1iqU2ppaQiMAgBMB2JQBOmUAArKEDNqxTe0kAA/o1F8moySRGUITtULFxGosANLuP3uckeVwONkJSg6C7Ju/ngLoOY2zu1iVdc0kRPXF6AexsNhRJnwAAA"
  },
  "lilim-shop-room": {
   "dir": "lilim",
@@ -225,7 +282,8 @@
    1920,
    2100
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAcAA4BaJZQCdACZ7FhJwAD+aDi/LI7qxflt0hUCuIobgmxP+Rz/eMw3WocroAA="
  },
  "lilim-stone-table": {
   "dir": "lilim",
@@ -237,7 +295,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoQABUAPu1iqk2ppaQiMAgBMB2JYwCdMoACs/pRg4y60Jt0AP6vWojbcj8EKGv7mUZc8c43b9dr4IdB8z+enMCjEMSQDza8eRtrnj34yiUhTJlZAMR7hJAA"
  },
  "lilim-terrace": {
   "dir": "lilim",
@@ -250,7 +309,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAkAA4BaJQBOkCYjGFW20OAA+8oqNFW2+KiL3h3SqG7NAVdFU9l/HzvXlXAyPNFRJHqAAAA="
  },
  "tanaw-bath": {
   "dir": "tanaw",
@@ -262,7 +322,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoQABUAPu1iqk4ppaQiMAgBMB2JZQC7ACFrgUyzD3uEnboAAP30vK3x73xJqM2zZhkFfx69+l+eP6gtviiQT2ubiWgcr3vMCIv54FGAAAA="
  },
  "tanaw-bedroom-before": {
   "dir": "tanaw",
@@ -275,7 +336,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAkAA4BaJYwAAt4+QdoyWAAA/uctLe/+Usty020QItZcWr/nJzF13GF+MAAA"
  },
  "tanaw-bedroom": {
   "dir": "tanaw",
@@ -288,7 +350,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQAAkAA4BaJZQCsADhPPyKcQAA/rC9T7bcuBOosThwMQTfULSuC5lJeZYv37Qc01OAAA=="
  },
  "tanaw-dining-sun": {
   "dir": "tanaw",
@@ -300,7 +363,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JYgCdMoAB0hMF2b7TxIAA9x8Y3MlBmo/rt0X4ojhy7AicYshWspc8D0HtdkDTh4gJxP8Rqb+hNndGrXUdBwh9SeXW8NaTzWspSQf2fm3C7yz/dzkkgAAA"
  },
  "tanaw-dressing-corner": {
   "dir": "tanaw",
@@ -312,7 +376,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoQABUAPu1krU2ppaSiMAgBMB2JZwAAUqpqR+pg9+RgAAD+4M+iXwOl9i2k6nhda8mw8S1Vc1ytQIxGjs65uCp9iggY+SUxZYJBey6drYAAAA=="
  },
  "tanaw-entry": {
   "dir": "tanaw",
@@ -324,7 +389,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoQABUAPu1kqk2ppaQiMAgBMB2JZQCdAB4/Dhlyl9ljnGwA/mO9hZR0pDGaSMFmIXxjnWS1bQ6tRSi3GQqOc/VI1psdW49ZAyl1ooPC9uCcLLRAAAA="
  },
  "tanaw-guest-corner": {
   "dir": "tanaw",
@@ -336,7 +402,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JZQCdAB06Wqzkj5Zlj9oAAP5TIdcoHLypBtppJU2ENs5/DQCMbM0UtrRSxWWkpw5bdrkkT2ko3U1MEkX00T6FNTyIaupQDAAAAA=="
  },
  "tanaw-hero-before": {
   "dir": "tanaw",
@@ -349,7 +416,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoQAAkAA4BaJZwAAplhGSAA/I8FiEys+Qzvd/kMsjEs4H0XeFUAAA=="
  },
  "tanaw-hero": {
   "dir": "tanaw",
@@ -362,7 +430,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAkAA4BaJQBOgB3sVwI8AAD77CTbVob1G7EkDzZsYMHKwJcs4Vji+quLAAAA"
  },
  "tanaw-kitchen-dining-before": {
   "dir": "tanaw",
@@ -375,7 +444,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoQAAkAA4BaJZQC7AD1TP/1gAD+tdSubCyCioWhD4/NufiAAAA="
  },
  "tanaw-kitchen-dining": {
   "dir": "tanaw",
@@ -388,7 +458,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAkAA4BaJYwCdAD0NarbgAD+ZgfxVHz6wvUau6jBdIeFWaykbsUMFaQOhKANoQAAAA=="
  },
  "tanaw-reading-chair": {
   "dir": "tanaw",
@@ -400,7 +471,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoQABUAPu1iqU2ppaQiMAgBMB2JZACdMoACtBQ+A/M1zx1BgAD96gICZ8iLwr6HWxExw0rDFZbZmU3QCK5QSMVFBTmZW8zk6Rit1aelnpdcl+npAXElJCidvD3MB3cxcai7rOLwAAA="
  },
  "tanaw-screen-wall": {
   "dir": "tanaw",
@@ -413,7 +485,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAkAA4BaJQBOgB3e8wdQAP6UsiSDkciRXjSZ4ztcG5Ip11Zdt08D9DWvG9/R7klVVc4S6x7cwAAA"
  },
  "tanaw-study-before": {
   "dir": "tanaw",
@@ -425,7 +498,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoQABUAPu1yrU+pp6QiMAgBMB2JZQDDNBWyBmHOGd5EAAD8WlwB0NO1FjLzyJqNu/fuMaw36Td3fFPr1FADP8wB8AA="
  },
  "tanaw-study": {
   "dir": "tanaw",
@@ -437,7 +511,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZwC+SCEA6rH6pVKqX0AA/cxhXQ1KiiZaO0M2P2vUmoicYtf5hIw5YDYjCxCbya0MCD3YaO5Z8TvtG63W7+AA"
  },
  "dalampasigan-bath": {
   "dir": "dalampasigan",
@@ -449,7 +524,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoQABUAPu1orU6ppiSiMAgBMB2JZQAAUay3WvmI/sB+agAA/rGhbRdrtxQ0ocR0bBBoiQMeSg7QpiTidAhs/uEz594OlnTOejcHW7R/HrHNS0AA"
  },
  "dalampasigan-bedside": {
   "dir": "dalampasigan",
@@ -461,7 +537,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOmUI7gBSE6AUOPSKBLzIAA/NL87UtEz4k25aijomr6eMZ0CZaKL+YIqAh8YvLHj1Fc74l5t4ykC9VZy8lRa+RVq2d9zbvAAA=="
  },
  "dalampasigan-breakfast-before": {
   "dir": "dalampasigan",
@@ -474,7 +551,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAkAA4BaJQBOgCHhV0twAAD+tJubW6JQhGI5U3aTtFqA0icWsAAA"
  },
  "dalampasigan-breakfast": {
   "dir": "dalampasigan",
@@ -487,7 +565,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQAAkAA4BaJaACdH8AGYn5rvEPAAD+VeJnF1xJeLhHuTXj3Nnha161B2G0/4wFVv1FNQb4AgAAAA=="
  },
  "dalampasigan-common-corner": {
   "dir": "dalampasigan",
@@ -499,7 +578,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBACdASoQABUAPu1iqk4ppaQiMAgBMB2JYwC7MoADZB8nz7/bfuSIlNAA/siM+pbGdX0uuw2hv0BW9iGHZhzKNETnh5gP5fo1S8w7isxGdG5irKsQbhM4N11TRHbPIPVLC8auAAA="
  },
  "dalampasigan-corridor": {
   "dir": "dalampasigan",
@@ -511,7 +591,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoQABUAPu1Ct1apoqakGAEwHYllAMKAaGGSuF+DjfFDEAD+5yp1HR55K56tScX4IILw5Cl0q+iYFAKKuFZIufDMR4dp/sLHTW6ApgAA"
  },
  "dalampasigan-exterior": {
   "dir": "dalampasigan",
@@ -524,7 +605,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAkAA4BaJYgC7AEQ9ug2KIAA/t4hNIxyVmg1XjHSF+R33VIXG+6W3hTgVgQ2k7VPrHQ/FZ0wAA=="
  },
  "dalampasigan-garden-room": {
   "dir": "dalampasigan",
@@ -537,7 +619,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAgCdASoQAAkAA4BaJYwC7AELzl2HXhAAAP6V1FpuOIu6LBU07E8NAn1JZgwX9Jq6SgAA"
  },
  "dalampasigan-hero-before": {
   "dir": "dalampasigan",
@@ -550,7 +633,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoQAAkAA4BaJZwAAhNfhiAA/mPxOHvcMeFHbYh4Kn+QIog96AA="
  },
  "dalampasigan-hero": {
   "dir": "dalampasigan",
@@ -563,7 +647,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoQAAkAA4BaJYwC7AEPAq86nhQA/pYOHPzAOoD+WQi0TbUeHpMrF8kkJKAAAA=="
  },
  "dalampasigan-lobby-before": {
   "dir": "dalampasigan",
@@ -576,7 +661,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoQAAkAA4BaJZwAAuA52AAA/llTfJfAqLeb/9btg78sAAAA"
  },
  "dalampasigan-lobby": {
   "dir": "dalampasigan",
@@ -589,7 +675,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoQAAkAA4BaJZQCdABVvgAA/pCB1TsnSD91Z+mxc3o4p1JbtzQRcUlaxIgAAA=="
  },
  "dalampasigan-serving-table": {
   "dir": "dalampasigan",
@@ -601,7 +688,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOmUGVtWABsiD8iqhRX6A1+gAD+t5Z7LkBv3RHvBMi7I/xpgU7ow7QKSyxuGzNidTAAnK6VRiyzZvdgDml485qC6BLoxykTof4IBsbkQvx8B8HAZmyqpsWFbKgNarC9pI1g7nBYAA=="
  },
  "pahinga-bath": {
   "dir": "pahinga",
@@ -613,7 +701,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAwCdASoQABUAPu1mq04ppaQiMAgBMB2JZwAAW+i1Cu6OOz1sAP6u9yqQQY4BI6X0iGWScZjV4vl/Yn7o24DGgZBXHSFznRVuNGDwULFVwJhfEAA="
  },
  "pahinga-bedside": {
   "dir": "pahinga",
@@ -625,7 +714,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOmUABoN7u3SJMnFSnHJ7bQAP5l94OH8t70yRPAhKRp24BmDDo4jR2yR1DIAvsoB1FulKOLK01Zg63BzDPEylUn73gAAAA="
  },
  "pahinga-daybed": {
   "dir": "pahinga",
@@ -637,7 +727,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAwCdASoQABUAPu1iqk2ppaQiMAgBMB2JQAAKZ8/xeUPGEwhoGMAA/t7d4FBq/wLrtnl1pT1PDRjC2Rx6MCR7aaJByje9Z+3TUAb7ADXbZ0CPv5ywqWHlUvJWtWtWe86L+B6T34AAAA=="
  },
  "pahinga-grove": {
   "dir": "pahinga",
@@ -650,7 +741,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAkAA4BaJYgCdAEIeyGkAAD4tUE39I1vekEoX38KvZPsnRB+Ac2bBl8MRhwA"
  },
  "pahinga-hero-before": {
   "dir": "pahinga",
@@ -663,7 +755,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAkAA4BaJZQC7AGIQAD+ytbzh9nBr9hyQGVsSPMWc5r4wzo2gAAA"
  },
  "pahinga-hero": {
   "dir": "pahinga",
@@ -676,7 +769,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAkAA4BaJQBOgCKZmCGD3gAA/q7Yjcyc83dt012DSGAr/0TFfWH8atEIVQheBMadQAAA"
  },
  "pahinga-reception-before": {
   "dir": "pahinga",
@@ -689,7 +783,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAABwAQCdASoQAAkAA4BaJZQC7AGIQAD+7sg4a3U7KoueZkFkbAA="
  },
  "pahinga-reception": {
   "dir": "pahinga",
@@ -702,7 +797,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAkAA4BaJYgCdADHozpNggAA/rN3G7+g5zK8WXE4nK0O9AB7bilmZRsNGwT6xESY1Mg12BLXAAAA"
  },
  "pahinga-sitting-corner": {
   "dir": "pahinga",
@@ -715,7 +811,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAkAA4BaJYgCdAEfvxihD4WwAP6OIE7Vns1GSKdFzCY7itGqO5xFyx4apFrT4l1ZwHGZ1vmeR/yAAAA="
  },
  "pahinga-terrace-before": {
   "dir": "pahinga",
@@ -728,7 +825,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAkAA4BaJQBdgCE8AlyAAADfxvosRws5OvXGq2yyDTVHngJTwrlZdjX4sLAAAAA="
  },
  "pahinga-terrace": {
   "dir": "pahinga",
@@ -741,7 +839,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAkAA4BaJYgCdAEVI+TAiADgGZ8dpCk8y/4FyC7nGkXwFh050qfrDaxaW9+FU9gAAA=="
  },
  "pahinga-welcome": {
   "dir": "pahinga",
@@ -753,7 +852,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwAwCdASoQABUAPu1iqk2ppaQiMAgBMB2JQBYdhDc+qrRiZuNWrcYAAP7TTcYwSznpwIA2kquoKVVRnA18SqODm2+3t6rODp+J82R2BUpUs6xb67LVzlfv2dhtEp6UqeTQ1OwKEuvRm7dbq2QK/knLm5++8RBpQAA="
  },
  "hardin-balcony-before": {
   "dir": "hardin",
@@ -765,7 +865,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JZwAAOOt1dih2PcOzg4AA/oZDYn0CUy+/CC6h/7xRq/IMQNSc7zWO42hRGOwaJoU97s/sNhaIdvDyAAA="
  },
  "hardin-balcony": {
   "dir": "hardin",
@@ -777,7 +878,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAwCdASoQABUAPu1kqU2ppaOiMAgBMB2JZQAAOOYbgKJ04AJgAP5F7z5TgJGYmXthzRVjRbh3IkHQIZywYGRL+n6FBS5IPmHAd0SYSmdG2ewZL5PsbIAA"
  },
  "hardin-bath": {
   "dir": "hardin",
@@ -789,7 +891,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoQABUAPu1mqk4ppaOiMAgBMB2JaQDKABuzAuLvGCQQAP63oIZIlWgDOZzBDWW6K6PqpauQlva1vOkcPZV1VbZy4qyrdSswAAA="
  },
  "hardin-bedroom-before": {
   "dir": "hardin",
@@ -802,7 +905,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoQAAkAA4BaJQAAXRmQP4AA/d7SPJemaL43yUzfeqPpb2+FMmwAAA=="
  },
  "hardin-bedroom": {
   "dir": "hardin",
@@ -815,7 +919,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAkAA4BaJZQCdAEQ+52B9AD8fdYyJzifOW/DSeRAxFZ/h+gwg0AA"
  },
  "hardin-book": {
   "dir": "hardin",
@@ -828,7 +933,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAkAA4BaJYgCdAEPh6zF7Qu0AP6Uv2OG/zLCll7xjITku3Xmawl+T332m8fjE+ke8JpFsgAAAA=="
  },
  "hardin-dining": {
   "dir": "hardin",
@@ -841,7 +947,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAkAA4BaJQBOgBjHhkcQAPOTv+nvQ3tPoaY8Wby3sK/mXPVcKYjFDwS5apSAAAA="
  },
  "hardin-entry": {
   "dir": "hardin",
@@ -853,7 +960,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAwCdASoQABUAPu1krU2ppaSiMAgBMB2JQBOgA+TwwI5GdkzFK4AA/rUCksWC2vFB412TQ28O8eC1H9kWlHMMWF8fT4DEEDKlEZgyepCc41u5nyHjiEZ5/u0Y6/DbtQAAAA=="
  },
  "hardin-herbs": {
   "dir": "hardin",
@@ -865,7 +973,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACQAwCdASoQABUAPu1iqk2ppaQiMAgBMB2JYwC2yAn3EqBHBFLAAPxw2QENKbTyJ6lEJ8eyd/HBcc0K9Bafo2GnzNdDH1N1lM8EfNdEQHy7DGg7+nk+c/jg1FuAAA=="
  },
  "hardin-hero-before": {
   "dir": "hardin",
@@ -878,7 +987,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAAkAA4BaJZQC7ADwg/5NaAD6YSTuZopT/trtm2ZBQuEZZhIsLKoAAAA="
  },
  "hardin-hero": {
   "dir": "hardin",
@@ -891,7 +1001,8 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoQAAkAA4BaJYwCdAD6ccXEXoAA/iMGrA+VdpsHZ/ThJn89UvjNR9jae9IADl4AAAA="
  },
  "hardin-kitchen": {
   "dir": "hardin",
@@ -903,7 +1014,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JZwC/OCLO6X1oZxmBMIrxAAD+YzC+zVufpRjs6BR1VDQDTZ8RiSbzJBCNADuZ0HCnDcfqHKGQgAAA"
  },
  "hardin-moodboard": {
   "dir": "hardin",
@@ -915,7 +1027,8 @@
    1080,
    1086
   ],
-  "jpegWidth": 1086
+  "jpegWidth": 1086,
+  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JQBWABH+2qDlIYZTOkGQAAPyqrva2CSA9f+aRxE/GUMyp3TVWGr+6mOWvuEUQtv/tCEdClZFTAzYUhhY9T4UUkMiYj7WPaUkjnAt+AAA="
  },
  "hardin-render": {
   "dir": "hardin",
@@ -928,6 +1041,7 @@
    1440,
    1672
   ],
-  "jpegWidth": 1440
+  "jpegWidth": 1440,
+  "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAkAA4BaJQBOgB6uO/8Z/QAA9yrnI6XW7Stnc4qkpzVRGEK8OdAyDP/NAAAA"
  }
 }

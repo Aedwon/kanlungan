@@ -42,7 +42,7 @@ function ChapterBlock({ project, block }: { project: Project; block: Block }) {
   if (block.kind === 'pair') return <div className="pbox"><Pair project={project} pair={block.pair} /></div>;
   if (block.kind === 'side') return <div className="side"><div className="sd-a"><Pair project={project} pair={block.pair} /></div><p className="t-h3 sd-b">{split(project.galleryCaptions[block.textCap - 1]).text}</p></div>;
   if (block.label === 'Floor plan' && project.slug === 'hardin-apartment') return <HardinPlan />;
-  return <figure className="fr ph-fr"><ImagePlaceholder alt={`${block.label}, image to come`} className="im ph-im" style={{ ['--ar' as string]: '4 / 3' }}><span className="t-small">Placeholder · {block.label}</span></ImagePlaceholder><figcaption className="t-small">{block.caption}</figcaption></figure>;
+  return <figure className="fr ph-fr"><ImagePlaceholder alt={`${block.label}, image to come`} className="im ph-im" style={{ ['--ar' as string]: '4 / 3' }}><span className="t-small">{block.label}</span></ImagePlaceholder><figcaption className="t-small">{block.caption}</figcaption></figure>;
 }
 function shopItems(project: Project) {
   return project.shopTheProject.map((entry) => {
@@ -81,10 +81,10 @@ export function ProjectDetail({ project }: { project: Project }) {
       <div className="wide"><dt className="t-label">Duration</dt><dd>{project.duration}</dd></div>
     </dl></section>
     <section className="sec" aria-label="Brief and approach"><div className="g">
-      <div className="c-l txt"><h2 className="t-h1">The brief</h2><p>{project.brief}</p><h3 className="t-h4">As handed over</h3><p className="muted">{project.asHandedOver}</p></div>
-      <div className="c-r txt"><h2 className="t-h1">The approach</h2><p>{approachFirst}</p>{approachRest.map((p, i) => <p key={i}>{p}</p>)}</div>
+      <div className="c-l txt"><h2 className="t-h1">Client brief</h2><p>{project.brief}</p><h3 className="t-h4 handed">As handed over</h3><p className="muted">{project.asHandedOver}</p></div>
+      <div className="c-r txt"><h2 className="t-h1">Our approach</h2><p>{approachFirst}</p>{approachRest.map((p, i) => <p key={i}>{p}</p>)}</div>
     </div></section>
-    <section className="sec" aria-labelledby="mv"><div className="g blk"><h2 className="t-h2" id="mv">The moves</h2>
+    <section className="sec" aria-labelledby="mv"><div className="g blk"><h2 className="t-h2" id="mv">The plan</h2>
       <ol className="moves">{project.moves.map((m, i) => <li key={i}><span className="t-h4 n">{i + 1}</span><h3 className="t-h4">{m.title}</h3>{m.text && <p className="t-body">{m.text}</p>}</li>)}</ol>
     </div></section>
     <div className="sec"><div className="chw">
