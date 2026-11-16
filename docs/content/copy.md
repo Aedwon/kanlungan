@@ -88,14 +88,17 @@ The payment step and the order confirmation carry the stronger notice in `docs/c
 
 ## Home: process steps
 
-Status: **Decided on delegation.** For Home section 8, under the heading "How a furnishing project works." Steps come from `docs/concept/services.md`.
+Status: **Decided on delegation**, layout picked by Aedwon (direction A, 2026-11-16). For Home section 8. Steps come from `docs/concept/services.md`. Each step pairs with one photo in `design/process/` or `design/photography/maker-sulihiya.png`. The section shows no particular project.
 
-1. **Discovery call.** We talk about your space, your brief, and your budget.
-2. **Site visit and proposal.** We measure the space and send a fixed design fee and a budget range.
-3. **Design.** You see layouts, materials, and a full furnishing plan.
-4. **Procurement.** We order every piece and manage the makers.
-5. **Installation and styling.** Our crew delivers, installs, and styles each room.
-6. **Handover.** A walkthrough, a care guide, and a visit 30 days later.
+- **Heading:** How a furnishing project works
+- **Line under the heading:** Most homes take 12 to 20 weeks, from the first call to the last cushion.
+
+1. **Discovery call.** Week 0. A free 30-minute call about your space, your brief, and your budget.
+2. **Site visit.** Week 1. We measure every room. You get a fixed design fee and a budget range.
+3. **Design.** Weeks 2 to 6. Layouts, materials, and a furnishing plan, with two rounds of revisions.
+4. **Making.** Weeks 7 to 16. Workshops build each piece by hand. We send photos as they go.
+5. **Installation.** Weeks 17 to 18. Our crew delivers and places everything, usually in under a week on site.
+6. **Handover.** We style each room, walk you through it, and leave a care guide. We come back after 30 days.
 
 ## Service page FAQs
 
