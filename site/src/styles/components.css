@@ -135,3 +135,6 @@
 @media(max-width:1279px){.product-placeholder-caption{display:none}.product-card-default .product-availability{font-size:12px;line-height:1.4;letter-spacing:.08em}}
 .product-availability>.availability-desktop,.product-availability>.availability-mobile{font-weight:500;color:var(--color-accent-default)}
 .product-card-link:hover{color:var(--color-text-default)}
+.product-card-photo picture{display:contents}
+.product-card-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.shop-feature-image{position:relative}

@@ -6,7 +6,8 @@ import { ProductCard } from '@/components/ProductCard';
 import { products } from '@/data/products';
 import { children, hasClass, text, type ReferenceNode } from '@/lib/studioTemplates';
 import { ProjectFilterButton } from './ProjectFilters';
-import { Photo } from '@/components/Photo';
+import { PhotoSlot } from '@/components/Photo';
+import { nodePhoto } from '@/data/image-slots';
 import { projects } from '@/data/projects';
 import { projectPages } from '@/data/project-pages';
 
@@ -34,10 +35,8 @@ export function Reference({ node }: { node: ReferenceNode | string }): ReactNode
     if (hasClass(node, 'btn-p')) return <Button {...rest} href={String(href)} className={String(className)}>{content}</Button>;
     return <Link {...rest} href={String(href)} className={className as string}>{content}</Link>;
   }
-  if (attrs.role === 'img' && attrs['data-photo']) {
-    const { className, style } = attrs;
-    return <div className={`${className ?? ''} photo-host`} style={{ ...(style as CSSProperties), background: 'none' }}><Photo name={String(attrs['data-photo'])} alt={String(attrs['aria-label'])} sizes="(min-width: 1280px) 1184px, 100vw" /></div>;
-  }
+  const photo = nodePhoto(attrs, node.children.some((c) => typeof c !== 'string' && c.tag === 'img'));
+  if (photo) return <PhotoSlot name={photo.name} alt={photo.alt} position={photo.position} className={attrs.className as string} style={attrs.style as CSSProperties} sizes="(min-width: 1280px) 1184px, 100vw" />;
   if (attrs.role === 'img') {
     return <ImagePlaceholder className={attrs.className as string} style={attrs.style as CSSProperties} alt={String(attrs['aria-label'])}>{content}</ImagePlaceholder>;
   }

@@ -3,6 +3,8 @@ import { createContext, createElement, useContext, useState, type CSSProperties,
 import Link from 'next/link';
 import { Button } from '@/components/Button';
 import { ImagePlaceholder } from '@/components/ImagePlaceholder';
+import { PhotoSlot } from '@/components/Photo';
+import { nodePhoto } from '@/data/image-slots';
 import { NotifyMe } from '@/components/NotifyMe';
 import { useCart } from '@/components/CartProvider';
 import { availabilityLine, defaultVariant, type CommerceProduct, type Variant } from '@/lib/commerce/types';
@@ -105,6 +107,8 @@ export function ShopReference({ node }: { node: ReferenceNode | string }): React
     if (hasClass(node, 'btn-p')) return <Button {...attrs} href={String(href)} className={String(className)}>{content}</Button>;
     return <Link {...attrs} href={String(href)} className={className as string}>{content}</Link>;
   }
+  const photo = nodePhoto(node.attrs, node.children.some((c) => typeof c !== 'string' && c.tag === 'img'));
+  if (photo) return <PhotoSlot name={photo.name} alt={photo.alt} position={photo.position} className={node.attrs.className as string} style={node.attrs.style as CSSProperties} sizes="(min-width: 1280px) 700px, 100vw" />;
   if (node.attrs.role === 'img') return <ImagePlaceholder className={node.attrs.className as string} style={node.attrs.style as CSSProperties} alt={String(node.attrs['aria-label'])}>{content}</ImagePlaceholder>;
   if (['img', 'input', 'br', 'hr', 'col'].includes(node.tag)) return createElement(node.tag, node.attrs);
   return createElement(node.tag, node.attrs, content);

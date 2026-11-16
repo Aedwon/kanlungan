@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
 import { ImagePlaceholder } from "./ImagePlaceholder";
+import { RoomPhoto } from "./RoomPhoto";
 import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
 import { formatPrice } from "@/lib/formatPrice";
@@ -41,20 +42,9 @@ export function HomeDesktop() { return (<div className="home-desktop">
       <div aria-hidden="true" className="ref-desktop-19"><div className="prog ref-desktop-20"></div></div>
     </div>
     <div className="ref-desktop-21">
-      <ImagePlaceholder alt="Cane weave in raking window light" className="ref-desktop-22">
-        <div className="par ref-desktop-23"></div>
-        
-        <div className="ph ref-desktop-24">{pageCopy["Placeholder · Cane weave in raking window light, slatted shadow"]}</div>
-      </ImagePlaceholder>
-      <ImagePlaceholder alt="Oat linen draped in shade" className="ref-desktop-25">
-        <div className="par ref-desktop-26"></div>
-        <div className="ph ref-desktop-27">{pageCopy["Placeholder · Oat linen in soft shadow, a single edge of light"]}</div>
-      </ImagePlaceholder>
-      <ImagePlaceholder alt="Terrace bench under deep eaves with greenery behind" className="ref-desktop-28">
-        <div className="par ref-desktop-29"></div>
-        
-        <div className="ph ref-desktop-30">{pageCopy["Placeholder · Terrace bench, shaded daylight, palm shadow across the floor"]}</div>
-      </ImagePlaceholder>
+      <RoomPhoto label="Cane weave in raking window light" className="ref-desktop-22" />
+      <RoomPhoto label="Oat linen draped in shade" className="ref-desktop-25" />
+      <RoomPhoto label="Terrace bench under deep eaves with greenery behind" className="ref-desktop-28" />
     </div>
   </div>
 </section>
@@ -118,7 +108,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
     <div className="sv dk">
       <div className="sv-img" aria-hidden="true">
         <div className="sv-img-i">
-          <ImagePlaceholder alt="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" className="ref-desktop-69"></ImagePlaceholder>
+          <RoomPhoto label="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" className="ref-desktop-69" />
           <div className="ref-desktop-70"></div>
         </div>
         <div className="ph ref-desktop-71">{pageCopy["Placeholder · Linen curtain in soft daylight, low stool, stoneware vase"]}</div>
@@ -136,7 +126,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
     <div className="sv dk ref-desktop-80">
       <div className="sv-img" aria-hidden="true">
         <div className="sv-img-i">
-          <ImagePlaceholder alt="Quiet room detail: plans and a pencil on a warm wood drafting table in side light" className="ref-desktop-81"></ImagePlaceholder>
+          <RoomPhoto label="Quiet room detail: plans and a pencil on a warm wood drafting table in side light" className="ref-desktop-81" />
           <div className="ref-desktop-82"></div>
         </div>
         <div className="ph ref-desktop-83">{pageCopy["Placeholder · Plans and a pencil on a warm wood table, side light"]}</div>
@@ -165,18 +155,13 @@ export function HomeDesktop() { return (<div className="home-desktop">
 
     
     <Link href="/" className="col ref-desktop-98">
-      <ImagePlaceholder className="cz ref-desktop-99" alt="Low sofa, stone coffee table and stoneware lamp in soft shaded daylight">
-        <div className="ph ref-desktop-100">{pageCopy["Placeholder · Low sofa, stone coffee table, stoneware lamp, soft evening light"]}</div>
-      </ImagePlaceholder>
+      <RoomPhoto label="Low sofa, stone coffee table and stoneware lamp in soft shaded daylight" className="cz ref-desktop-99" />
       <div className="ref-desktop-101"><div className="ref-desktop-102">{pageCopy["Quiet Living"]}</div><div className="cd ref-desktop-103">{pageCopy["Soft light, low furniture, and nothing that asks for attention."]}</div></div>
     </Link>
 
     
     <Link href="/" className="col ref-desktop-104">
-      <ImagePlaceholder className="cz ref-desktop-105" alt="Wood dining table with cane chairs in morning light through a linen curtain">
-        <div className="cpar ref-desktop-106"></div>
-        <div className="ph ref-desktop-107">{pageCopy["Placeholder · Wood dining table, cane chairs, morning light through linen curtain"]}</div>
-      </ImagePlaceholder>
+      <RoomPhoto label="Wood dining table with cane chairs in morning light through a linen curtain" className="cz ref-desktop-105" />
       <div className="ref-desktop-108"><div className="ref-desktop-109">{pageCopy["Slow Mornings"]}</div><div className="cd ref-desktop-110">{pageCopy["Pieces for the first hour of the day."]}</div></div>
     </Link>
 
@@ -294,7 +279,7 @@ export function HomeDesktop() { return (<div className="home-desktop">
 
 <section className="dk ref-desktop-216">
   <div className="cta-sec"><div className="ref-desktop-217">
-    <div className="zin ref-desktop-218"><div className="photo-fill"><Photo name="tanaw-hero" alt="Tanaw Residence at dusk, warm lamps lit inside and the city beyond the glass" sizes="(min-width: 1280px) 1312px, 100vw" /></div></div>
+    <div className="zin ref-desktop-218"><div className="photo-fill"><Photo name="lilim-exterior-dusk" alt="Lilim House at dusk, warm lamps lit inside and the garden in front" sizes="(min-width: 1280px) 1312px, 100vw" /></div></div>
     <div className="ref-desktop-221"></div>
     <div className="ref-desktop-223">
       <h2 className="ref-desktop-224">{pageCopy["Tell us about your space."]}</h2>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ProductCard } from "./ProductCard";
 import { products } from "@/data/products";
 import { ImagePlaceholder } from "./ImagePlaceholder";
+import { RoomPhoto } from "./RoomPhoto";
 import { Photo } from "./Photo";
 import { pageCopy } from "@/data/copy";
 import { formatPrice } from "@/lib/formatPrice";
@@ -39,17 +40,9 @@ export function HomeMobile() { return (<div className="home-mobile">
     <p className="ref-mobile-246">{pageCopy["A home should lower your shoulders when you walk in. We design for that feeling: cool rooms, honest materials, and furniture made by people we know."]}</p>
   </div>
   <div className="ref-mobile-247">
-    <ImagePlaceholder alt="Cane weave in raking window light" className="ref-mobile-248">
-      <div className="par ref-mobile-249"></div>
-      
-    </ImagePlaceholder>
-    <ImagePlaceholder alt="Oat linen draped in shade" className="ref-mobile-250">
-      <div className="par ref-mobile-251"></div>
-    </ImagePlaceholder>
-    <ImagePlaceholder alt="Terrace bench under deep eaves with greenery behind" className="ref-mobile-252">
-      <div className="par ref-mobile-253"></div>
-      
-    </ImagePlaceholder>
+    <RoomPhoto label="Cane weave in raking window light" className="ref-mobile-248" />
+    <RoomPhoto label="Oat linen draped in shade" className="ref-mobile-250" />
+    <RoomPhoto label="Terrace bench under deep eaves with greenery behind" className="ref-mobile-252" />
   </div>
 </section>
 
@@ -103,8 +96,7 @@ export function HomeMobile() { return (<div className="home-mobile">
   <h2 className="ref-mobile-285">{pageCopy["Two ways to work with us"]}</h2>
 
   <div className="ref-mobile-286">
-    <ImagePlaceholder className="svi ref-mobile-287" alt="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase">
-    </ImagePlaceholder>
+    <RoomPhoto label="Quiet room detail: linen curtain in soft daylight, a low stool and a stoneware vase" className="svi ref-mobile-287" />
     <div className="ref-mobile-288">
       <h3 className="ref-mobile-289">{pageCopy["Full-Service Furnishing"]}</h3>
       <p className="ref-mobile-290">{pageCopy["We design, source, deliver, and style every room."]}</p>
@@ -114,8 +106,7 @@ export function HomeMobile() { return (<div className="home-mobile">
   </div>
 
   <div className="ref-mobile-294">
-    <ImagePlaceholder className="svi ref-mobile-295" alt="Quiet room detail: plans and a pencil on a warm wood drafting table in side light">
-    </ImagePlaceholder>
+    <RoomPhoto label="Quiet room detail: plans and a pencil on a warm wood drafting table in side light" className="svi ref-mobile-295" />
     <div className="ref-mobile-296">
       <h3 className="ref-mobile-297">{pageCopy["Interior Design Direction"]}</h3>
       <p className="ref-mobile-298">{pageCopy["We design the space. You bring it to life."]}</p>
@@ -131,15 +122,12 @@ export function HomeMobile() { return (<div className="home-mobile">
   <Link href="/shop" className="lnk ref-mobile-304">{pageCopy["Explore the shop"]}<span className="arr" aria-hidden="true">→</span></Link>
 
   <Link href="/shop/collections/quiet-living" className="ref-mobile-305">
-    <ImagePlaceholder alt="Low sofa, stone coffee table and stoneware lamp in soft shaded daylight" className="ref-mobile-306">
-    </ImagePlaceholder>
+    <RoomPhoto label="Low sofa, stone coffee table and stoneware lamp in soft shaded daylight" className="ref-mobile-306" />
     <div className="ref-mobile-307"><div className="ref-mobile-308">{pageCopy["Quiet Living"]}</div><div className="ref-mobile-309">{pageCopy["Soft light, low furniture, and nothing that asks for attention."]}</div></div>
   </Link>
 
   <Link href="/shop/collections/slow-mornings" className="ref-mobile-310">
-    <ImagePlaceholder alt="Wood dining table with cane chairs in morning light through a linen curtain" className="ref-mobile-311">
-      <div className="cpar ref-mobile-312"></div>
-    </ImagePlaceholder>
+    <RoomPhoto label="Wood dining table with cane chairs in morning light through a linen curtain" className="ref-mobile-311" />
     <div className="ref-mobile-313"><div className="ref-mobile-314">{pageCopy["Slow Mornings"]}</div><div className="ref-mobile-315">{pageCopy["Pieces for the first hour of the day."]}</div></div>
   </Link>
 
@@ -246,7 +234,7 @@ export function HomeMobile() { return (<div className="home-mobile">
 
 <section className="dk ref-mobile-402">
   <div className="ref-mobile-403">
-    <div className="zin ref-mobile-404"><div className="photo-fill"><Photo name="tanaw-hero" alt="Tanaw Residence at dusk, warm lamps lit inside and the city beyond the glass" sizes="(min-width: 1280px) 1312px, 100vw" /></div></div>
+    <div className="zin ref-mobile-404"><div className="photo-fill"><Photo name="lilim-exterior-dusk" alt="Lilim House at dusk, warm lamps lit inside and the garden in front" sizes="(min-width: 1280px) 1312px, 100vw" /></div></div>
     <div className="ref-mobile-407"></div>
     <div className="ref-mobile-408">
       <h2 className="ref-mobile-409">{pageCopy["Tell us about your space."]}</h2>

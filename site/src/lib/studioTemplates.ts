@@ -129,7 +129,7 @@ export function serviceTemplate(service: Service, screen: Screen): ReferenceNode
   const hero = children(page)[0];
   const heroImage = elements(hero).find((n) => n.attrs.role === 'img')!;
   styles(heroImage).background = hardin.background;
-  heroImage.attrs['aria-label'] = hardin.label;
+  heroImage.attrs['aria-label'] = 'Hardin Apartment planned living room render';
   const includedImage = elements(section(page, 'What is included')).find((n) => n.attrs.role === 'img')!;
   const studio = template('studio', screen);
   const plans = elements(studio).find((n) => String(n.attrs['aria-label'] ?? '').includes('plans and a pencil'))!;

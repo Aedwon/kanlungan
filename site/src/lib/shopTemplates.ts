@@ -7,6 +7,7 @@ import { copy } from '@/data/copy';
 import { children, elements, find, hasClass, text, template as studioTemplate, type ReferenceNode, type Screen } from './studioTemplates';
 import { availabilityLine, type CommerceProduct, type Collection, type Maker } from './commerce/types';
 import { formatPrice } from './formatPrice';
+import { productAlt, productStudioName } from '@/data/image-slots';
 export { children, elements, find, hasClass, text };
 export type { ReferenceNode, Screen };
 export function shopTemplate(name: string, screen: Screen): ReferenceNode {
@@ -114,6 +115,13 @@ export function collectionTemplate(collection: Collection, catalog: CommerceProd
   }
   return node;
 }
+// Removes the dropped nodes and any wrapper left empty by that.
+function prune(node: ReferenceNode, drop: Set<ReferenceNode>): boolean {
+  if (drop.has(node)) return true;
+  const had = node.children.length;
+  node.children = node.children.filter((c) => typeof c === 'string' || !prune(c, drop));
+  return had > 0 && node.children.length === 0;
+}
 export function productTemplate(product: CommerceProduct, catalog: CommerceProduct[], collections: Collection[], screen: Screen) {
   const node = shopTemplate('product', screen);
   const h1 = find(node, 'h1'); setText(h1, product.name);
@@ -177,9 +185,17 @@ export function productTemplate(product: CommerceProduct, catalog: CommerceProdu
   if (product.slug !== 'silong-sofa' || product.images.length) {
     const gallery = children(node)[0];
     const images = elements(gallery).filter((n) => n.attrs.role === 'img');
+    const studio = product.slug !== 'silong-sofa' && !product.images.length ? productStudioName(product.slug) : undefined;
+    const drop = new Set<ReferenceNode>();
     images.forEach((image, index) => {
       const actual = product.images[index];
       image.attrs['aria-label'] = actual?.alt ?? product.name;
+      // One approved studio shot per piece: show it once and drop the empty slots.
+      if (studio) {
+        if (index === 0) { image.attrs['data-photo'] = studio; image.attrs['aria-label'] = productAlt(product); image.children = []; }
+        else drop.add(image);
+        return;
+      }
       const painting = (paintings as unknown as Record<string, ReferenceNode>)[product.slug];
       image.children = actual ? [{ tag: 'img', attrs: { src: actual.url, alt: actual.alt, style: { width: '100%', height: '100%', objectFit: 'cover' } }, children: [] }]
         : painting ? structuredClone(painting.children) : [{ tag: 'div', attrs: { style: { position: 'absolute', inset: 0, background: 'var(--color-surface)' } }, children: [] }];
@@ -190,6 +206,7 @@ export function productTemplate(product: CommerceProduct, catalog: CommerceProdu
         image.attrs['aria-label'] = 'Placeholder · ' + product.name + ' room context';
       }
     });
+    if (drop.size) prune(gallery, drop);
   }
   return node;
 }

@@ -5,11 +5,14 @@ import { productPlaceholders } from '@/data/product-placeholders';
 import { copy } from '@/data/copy';
 import { formatPrice } from '@/lib/formatPrice';
 import { ImagePlaceholder } from './ImagePlaceholder';
+import { Photo } from './Photo';
+import { productAlt, productStudioName } from '@/data/image-slots';
 import { NotifyMe } from './NotifyMe';
 export function ProductCard({ product, number, availability = product.availability, variant = 'default' }: {
   product: Product; number?: number; availability?: Availability; variant?: 'default' | 'home' | 'project';
 }) {
   const placeholder = variant === 'project' ? projectProductPlaceholders[product.slug] ?? productPlaceholders[product.slug] : productPlaceholders[product.slug];
+  const photo = productStudioName(product.slug);
   const made = availability === 'made-to-order';
   const sold = availability === 'sold-out';
   const unique = availability === 'one-of-a-kind';
@@ -18,11 +21,14 @@ export function ProductCard({ product, number, availability = product.availabili
     : copy.Shop['In-stock line'];
   return <article className={`product-card product-card-${variant} card${number ? ` k${number}` : ''}`}>
     <Link href={`/shop/products/${product.slug}`} className="product-card-link">
-      <ImagePlaceholder alt={placeholder?.alt ?? product.name} className="product-card-image">
+      {photo ? <div className="product-card-image product-card-photo">
+        <Photo name={photo} alt={productAlt(product)} sizes="(min-width: 1280px) 400px, 50vw" />
+        {number && <span className="product-number num">{number}</span>}
+      </div> : <ImagePlaceholder alt={placeholder?.alt ?? product.name} className="product-card-image">
         <div className="im" style={{ background: placeholder?.background ?? 'var(--color-surface)' }} />
         {number && <span className="product-number num">{number}</span>}
         {placeholder && <span className="ph product-placeholder-caption">{placeholder.caption}</span>}
-      </ImagePlaceholder>
+      </ImagePlaceholder>}
       <div className="product-meta"><div className="product-name">{product.name}</div>
         <div className="product-price">{formatPrice(product.price)}{product.priceUnit && ` ${product.priceUnit}`}</div>
         {sold && <div className="product-sold">Sold out.</div>}
