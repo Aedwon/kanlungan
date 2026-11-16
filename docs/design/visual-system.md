@@ -97,7 +97,7 @@ Status: **Locked by Aedwon** on 2026-11-14. The Home layout combines sections he
 
 | Home section | Source | Behavior |
 |---|---|---|
-| Header and hero | "Clean threshold" (`design/combined/Hero-options.dc.html`) | Heading at type.display on limewash, left. A framed Lilim House window on the right grows to full bleed on scroll, and the text turns light where the window passes. The header booking button hides while the hero button shows. Added 2026-11-16, picked by Aedwon: the window opens on the empty Lilim room (the hero before) and turns into the furnished room as it grows to full bleed. The reveal motion is pending his pick from a rendered prototype. |
+| Header and hero | "Clean threshold" (`design/combined/Hero-options.dc.html`) | Heading at type.display on limewash, left. A framed Lilim House window on the right grows to full bleed on scroll, and the text turns light where the window passes. The header booking button hides while the hero button shows. Added 2026-11-16, picked by Aedwon: the window opens on the empty Lilim room (the hero before) and turns into the furnished room as it grows to full bleed. Motion: a soft wipe (picked by Aedwon from `design/round-5-hero-reveal/hero-reveal.html`). The page releases about 96 px of scroll after full bleed on desktop and 80 px on phones, not 312 px and 280 px; the header button timing must move with it. |
 | Statement | Layout 3 | The statement stays pinned on the left while three tall images scroll past on the right. No shadow stripes. |
 | Recent projects | Layout 3 | Full-width project cards stack and slide over each other as you scroll. |
 | Two ways to work with us | Layout 1 | Two tall panels. A room image is revealed from the bottom on hover. Large "From" price, a short qualifier under it. |

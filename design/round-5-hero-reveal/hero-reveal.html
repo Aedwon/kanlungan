@@ -92,7 +92,7 @@ html[data-mode=wipe] .layer.after{
 /* ---- Scroll choreography (desktop) ---- */
 @media (min-width:1280px) and (max-height:1400px) and (prefers-reduced-motion:no-preference){
   :root{--pin:max(560px,calc(100vh - 88px))}
-  .hero-track{height:calc(var(--pin) + 1000px)}
+  .hero-track{height:calc(var(--pin) + 784px)}
   .hero-pin{position:sticky;top:88px;height:var(--pin)}
 }
 @keyframes tOpen-d{from{clip-path:inset(64px 64px 64px calc(100% - 624px) round 2px)}to{clip-path:inset(0px 0px 0px 0px round 0px)}}
@@ -142,7 +142,7 @@ html[data-mode=wipe] .layer.after{
 @keyframes tImg-m{from{transform:translateY(102px)}to{transform:translateY(0)}}
 @media (max-width:1279px) and (max-height:1400px) and (prefers-reduced-motion:no-preference){
   :root{--pin:max(520px,calc(100vh - 64px))}
-  .hero-track{height:calc(var(--pin) + 800px)}
+  .hero-track{height:calc(var(--pin) + 600px)}
   .hero-pin{position:sticky;top:64px;height:var(--pin)}
   
   .js-drive .win{clip-path:inset(calc(152px * (1 - var(--p))) calc(20px * (1 - var(--p))) calc(228px * (1 - var(--p))) calc(20px * (1 - var(--p))) round calc(2px * (1 - var(--p))))}
