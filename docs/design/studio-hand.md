@@ -278,7 +278,7 @@ Status: **Starting image picked by Aedwon.** The unruled room won, so the design
 
 ### Dalampasigan Inn
 
-Status: **Starting image picked by Aedwon,** with two faults he named.
+Status: **Rendered set approved by Aedwon (2026-11-16).** Design file: `docs/content/project-designs/dalampasigan-inn.md`.
 
 - **Keep.** White walls and linen, honey acacia, reed, one thin black line, and the sea as the only color.
 - **Correct.** The sockets on the left wall moved between the before and the after. They must match. The right curtain hangs under the air conditioner. The track must end beside the unit, with both curtains stacked clear of it.
