@@ -47,36 +47,41 @@ The builder left cool ceiling lights. We changed every bulb to a warm one and ad
 
 ## Tanaw Residence
 
+Revised on 2026-11-16. The design is in [the Tanaw design file](project-designs/tanaw-residence.md). The captions are provisional until the photographs are approved. Field names and the caption format stay as the site expects them.
+
 - **Location:** Bonifacio Global City, Taguig
 - **Type:** Residential, two-bedroom condo
 - **Floor area:** 118 sqm
 - **Service:** Full-Service Furnishing
 - **Year:** 2025
-- **Scope:** Living and dining, two bedrooms, study
-- **Brief:** A couple received a bare unit on a high floor. Both work long hours. They wanted to move in once, with everything in place.
-- **Approach:** Bleached acacia and sand linen run through the whole unit so the small plan reads as one space. Storage is tall and closed. Lighting is low and warm, to contrast with the city outside the glass.
-- **Material palette:** Bleached acacia, sand linen, terrazzo, blackened steel, brass, opal glass, wool
-- **Shop the project:** Yakap Sofa (two-seat, sand), Salo Dining Table (Ø110), Hain Dining Chair (bleached acacia, four), Unan Bed (queen, sand), Bakal Side Table, Sulok Side Table (bleached), Estante Shelving (bleached shelves), Baul Credenza (bleached), Sinag Floor Lamp, Luad Table Lamp, Tala Wall Light, Hablon Cushion, Amihan No. 3
-- **Image notes:** City skyline at dusk through full-height windows, warm lamps, compact rooms, tidy surfaces
+- **Scope:** Living, dining and kitchen, main bedroom, main bath, study and guest room, entry
+- **Duration:** 14 weeks from signed proposal to handover, with 4 days on site
+- **As handed over:** A bare unit from the developer, clean and empty. White painted walls, wood-look vinyl floors, flat ceilings with recessed downlights, fixed glass facing west, the developer's kitchen and wardrobes, and a bare bulb at each ceiling point.
+- **Brief:** A couple received a bare unit on a high floor. Both work long hours. They own six hundred records and four hundred books. They wanted to move in once, with everything in place, and to come home to a room that is lit.
+- **Approach:** The studio kept the couple's records, books, and pictures in the open, in warm mahogany against the white walls. One long console, made for the unit, holds the records, the turntable, and the screen. Every seat has a lamp, so the rooms stay lit against the city at dusk. Nothing was built or painted.
+- **Material palette:** Natural plantation mahogany, acacia, oat and sand linen, terrazzo, blackened steel, aged brass, wool
+- **Shop the project:** Yakap Sofa (oat), Estante Shelving, Baul Credenza, Salo Dining Table (Ø110), Unan Bed (sand), Hablon Cushion, Tanghali, Salamin Floor Mirror, Bato Object, Tala Wall Light
+- **Image notes:** A white living room on a high floor at dusk, with lamps lit, full shelves, a long mahogany record console with a screen, a deep oat sofa, and the city through full-height glass
 
 ### Gallery captions
 
-1. Living room. The Yakap Sofa (two-seat, sand) faces the city through full-height windows at dusk.
-2. Living room. The Sinag Floor Lamp and a bleached Sulok Side Table beside the sofa.
-3. Dining area. The Ø110 Salo Dining Table and four bleached acacia Hain Dining Chairs by the window, with a bleached Baul Credenza along the wall.
-4. Living room. Estante Shelving with a blackened steel frame, bleached acacia shelves, and brass fittings, holding books and a few objects.
-5. Main bedroom. The queen Unan Bed in sand linen, with a Luad Table Lamp on a Bakal Side Table.
-6. Main bedroom. A Tala Wall Light beside the bed, on a warm, quiet wall.
-7. Second bedroom. A guest room that doubles as a place to rest.
-8. Study. A desk by the window, with closed storage along one wall.
-9. Entry. A narrow wall with closed storage and a single lamp.
-10. Living room. A Hablon Cushion and Amihan No. 3 above the sofa.
+1. Living room. Dusk, seen from the dining end. The Yakap Sofa in oat linen faces a record console made for the unit, with the city beyond the glass.
+2. Living room. The reading chair, made for the unit in mahogany and rust wool, beside the Estante Shelving.
+3. Living room. The record console by Lilok Workshop holds six hundred records, the turntable, and the screen, with the couple's own pictures around it.
+4. Dining area. Late sun reaches the Salo Dining Table for an hour.
+5. Dining area and kitchen. Dinner for two at the Ø110 Salo Dining Table, with the Baul Credenza and Tanghali along the wall. The kitchen is the developer's.
+6. Entry. A bench made for the wall beside the front door. Shoes come off here.
+7. Study. A mahogany desk at the glass, on a rainy afternoon.
+8. Study. The same room made up for a guest, under three framed handloom fragments.
+9. Main bedroom. The Unan Bed in sand linen in morning light, behind sheer linen.
+10. Main bedroom. The Salamin Floor Mirror and a chair for yesterday's shirt.
+11. Main bath. The Tala Wall Light above the mirror, at the point the developer left.
 
 ### Approach, expanded
 
-The unit is 118 sqm, and the plan is compact. We used one wood tone, bleached acacia, and one linen color, sand, in every room. Floors and joinery share that pale finish; black comes only from steel. The fully upholstered Yakap and Unan soften the stone and metal pieces. The eye does not stop at a change of material, so the unit reads as one larger space.
+The unit is a white box on a high floor, with towers outside and no green. We let the couple's own things warm it. Their records, books, and pictures are in the open, in natural mahogany and acacia against the white walls. One long console, made for the wall where the sockets are, holds the records, the turntable, and the screen. Their pictures hang around the screen, so it is one dark rectangle among several frames.
 
-Both owners work long hours and come home late. We kept storage tall and closed so surfaces stay clear. Lamps sit low and give a warm light that contrasts with the glass and the skyline. Each room has one place to put a bag, a book, and a glass of water.
+Both owners come home late. The developer left cool ceiling lights. We changed every bulb and put a lamp at every seat, so the rooms are lit when the city turns blue. Oat linen runs from the ceiling across each wall of glass. The second bedroom works as a study and takes a guest. The kitchen, the wardrobes, and the floor are the developer's. Nothing was built or painted.
 
 ## Dalampasigan Inn
 
