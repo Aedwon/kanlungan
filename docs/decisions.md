@@ -195,3 +195,4 @@ These checks do not block design work. Aedwon delegated the call on 2026-11-13, 
 These wait for later steps in the planning sequence.
 
 - Final photography: later in the design work
+| 2026-11-16 | Hardin painted wall color: A, gray-green, about `#98A28E`. | Picked by Aedwon from rendered options | `docs/content/project-designs/hardin-apartment.md` |
