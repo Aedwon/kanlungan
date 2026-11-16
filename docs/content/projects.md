@@ -122,36 +122,39 @@ Salt, sand, and heavy use shape every choice. The Himlay and the Hain share the 
 
 ## Pahinga Villas
 
+Revised on 2026-11-16. The design is in [the Pahinga design file](project-designs/pahinga-villas.md). The captions are provisional until the photographs are approved. Field names and the caption format stay as the site expects them.
+
 - **Location:** Panglao, Bohol
 - **Type:** Hospitality, 8-villa resort
 - **Floor area:** 520 sqm
 - **Service:** Full-Service Furnishing
 - **Year:** 2025
-- **Scope:** Eight one-bedroom villas, reception pavilion
-- **Brief:** The owners built eight villas in a coconut grove a short walk from the beach. They wanted each villa to feel like a private house, not a hotel room, and to stay easy to maintain between guests.
-- **Approach:** Each villa has one generous bed, one daybed on the terrace, and very little else. Cane and rattan keep air moving when the doors are open. White linen curtains soften the strong island light. The studio specified ebonized wood and white linen across all eight villas so any piece can be repaired or replaced from stock.
-- **Material palette:** Ebonized plantation mahogany, honey rattan and cane, white linen, honed cream limestone, stoneware, capiz shell
-- **Shop the project:** Himlay Bed (ebonized mahogany), Duyan Daybed, Dapithapon Lounge Chair, Sulok Side Table (ebonized), Kapis Pendant, Luad Table Lamp, Tabing Linen Curtain, Tapayan Vessel, Habi Wall Piece
-- **Image notes:** Filtered light through coconut palms, open sliding doors, a low bed with white linen, a daybed on a shaded terrace, warm lamps at dusk
+- **Scope:** Eight one-bedroom villas with baths and terraces, reception pavilion
+- **Duration:** 20 weeks from signed proposal to opening, with 8 days on site
+- **As handed over:** Eight new villas and a pavilion, finished by the builder and empty. White painted walls, cream floor tile, flat white ceilings with a fan and recessed downlights, aluminum sliding doors, and a bare concrete terrace in front of each villa.
+- **Brief:** The owners built eight villas in a coconut grove a short walk from the beach. They wanted each villa to feel like a private house, not a hotel room, and to stay easy to maintain between guests, with nothing more built.
+- **Approach:** Each villa has few things, all of them complete. A four-post bed in natural mahogany, made for the villas, stands under white netting and faces the grove. Cloth carries the color: tobacco linen at the doors, rust and moss on the bed, and a striped abaca rug. A settee and the screen fill the other half of the room. Each villa has one old chest and two paintings that no other villa has. Everything else comes from one stock, so any piece can be repaired or replaced. Nothing was built or painted.
+- **Material palette:** Natural plantation mahogany, cane and rattan, abaca, tobacco linen, oat linen, handloomed cotton in rust and moss, ebonized acacia, nito vine, stoneware
+- **Shop the project:** Dapithapon Lounge Chair, Sulok Side Table (ebonized), Bakal Side Table, Hablon Cushion (moss, rust), Kumot Throw (rust), Aparador Cabinet
+- **Image notes:** A white villa bedroom in late morning light, with a mahogany four-post bed under white netting, tobacco curtains, a striped rug, rust and moss cloth, an old chest, and a coconut grove through open sliding doors
 
 ### Gallery captions
 
-1. Exterior. A villa among the coconut palms, with its doors open to the terrace.
-2. Villa bedroom. The ebonized mahogany Himlay Bed with white linen, seen from the doorway.
-3. Villa bedroom. A Luad Table Lamp and a Tapayan Vessel on a low shelf.
-4. Villa bedroom. Tabing Linen Curtain panels softening the island light.
-5. Terrace. The Duyan Daybed in the shade, with an ebonized Sulok Side Table.
-6. Terrace. The Dapithapon Lounge Chair facing the grove.
-7. Villa interior. A Kapis Pendant over the sitting area at dusk.
-8. Villa interior. A Habi Wall Piece above the bed.
-9. Reception pavilion. An open room with a long desk and simple seating.
-10. Villa terrace. Warm lamps at dusk, with the doors left open.
+1. Villa bedroom. Late morning, with the doors open to the grove. A four-post bed made for the villas, ebonized Sulok Side Tables, and the Kumot Throw in rust.
+2. Villa bedroom. The bedside at night, with the netting let down and a lantern made for the villas.
+3. Villa bedroom. The other half of the room in the evening: a cane settee, the screen, and one of the villa's two paintings by Paolo Sarmiento.
+4. Villa bath. The owners' bath, with cotton robes by Habol Textiles, stoneware by Bukal Clayworks, and a staghorn fern.
+5. Villa terrace. Breakfast at seven. A daybed and a table for two, made for the villas, with a rattan pendant at the point the builder left.
+6. Villa terrace. The daybed in the afternoon shade, with the Bakal Side Table.
+7. The grove. One villa among the coconut palms, late in the afternoon. The building is the owners'.
+8. Reception pavilion. Guests check in sitting down, at a writing table by Lilok Workshop. The Aparador Cabinet and two Dapithapon Lounge Chairs.
+9. Reception pavilion. Pandan water and cool towels on the drinks table.
 
 ### Approach, expanded
 
-Each villa has one generous bed, one daybed on the terrace, and very little else. We wanted guests to feel they were in a private house, so the rooms hold only what people use. Doors open to the grove, and cane and rattan keep air moving through the villa.
+The owners wanted each villa to feel like a private house. We gave each one few things, all of them complete. A four-post bed in natural mahogany stands under white netting, with its foot toward the sliding doors and the grove. A cane settee and the screen fill the other half of the room, so the screen does not face the bed. The terrace is a second room, with a daybed and a table for two. Breakfast is carried there.
 
-The owners need the villas to stay easy to run. We specified ebonized wood and white linen for all eight villas. If a piece wears or breaks, staff can repair it or replace it from a single stock. Frames, posts, rafters, and built-ins are ebonized mahogany above honed cream limestone floors. Natural honey rattan stays light against the dark wood. The reception pavilion uses the same materials, so the property reads as one place.
+The owners also need the villas to stay easy to run. The bed, the settee, the tables, the lamps, and the cloth are the same in all eight villas, so staff can repair or replace any piece from one stock. Three things differ: each villa has its own old chest and its own two paintings. Cloth carries the color, in tobacco, rust, and moss. The walls, the tile, the sliding doors, the baths, and the terrace slabs are the owners'. Nothing was built or painted.
 
 ## Hardin Apartment
 

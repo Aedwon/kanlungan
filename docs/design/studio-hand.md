@@ -218,7 +218,7 @@ Each design file fills its row before any image is generated. A new row may not 
 | Lilim House | A slab of Romblon marble as a low table | Stoneware jar base with linen shade. Slim brass floor lamp. Capiz drum pendant. Low brass dome lamp. Ceramic dome pendant. | Ink and charcoal bands on paper. A woven abaca panel. | An old dark storage jar, empty. A kamuning tree in a black pot. Giant taro in black jars. | Two-point from the entry corner, along a glass wall on the right, very wide |
 | Tanaw Residence | A 280 cm record console in natural mahogany, made for the couple's records, with the turntable and the screen on it | A shallow flush ceiling light in white glass with a brass rim. A small cordless brass lamp with a flat disc shade. A steel reading floor lamp with a small brass cone head. A ribbed glass jar lamp. An oval abaca-paper lantern pendant. A pair of turned mahogany lamps with pleated cotton shades. A brass desk lamp with a long bar shade. | The couple's own small pictures hung around the screen. Two black-and-white photographs of rock and water. One landscape painting (Tanghali). Three framed handloom fragments. | A dracaena in an unglazed terracotta pot. A trailing pothos in a green-glazed pot. A wide celadon bowl. | One-point, down the room to a wall of glass and the city at dusk, the door on the right |
 | Dalampasigan Inn | A 420 cm breakfast table in oiled acacia, made for the room in two halves, on trestle frames. One table for the whole inn. | A pair of low lamps with a short turned acacia stem and a small cone shade of woven reed. A tall slim lamp with a stem bound in rattan and a tapered shade of abaca cloth. A floor lamp on one bamboo pole with a shallow white enamelled steel dish shade. A mushroom lamp in white-glazed stoneware, base and shade of one clay. | Graphite line drawings on cream paper in thin black steel frames, one for each guest room, by one artist. The Habi Wall Piece, undyed and upright, in the lobby. A hung rack with the inn's own plates. | A calamansi tree in a pale cement pot. A low stoneware bowl of calamansi. A clear glass carafe. | One-point, across a guest room to one window and the sea in mid-morning light, the bath door on the right |
-| Pahinga Villas | To set | To set | To set | To set | To set |
+| Pahinga Villas | A four-post bed in natural mahogany with white cotton netting, made for the villas. One in each of the eight. | A pair of standing box lanterns: a square mahogany frame with panels of cream abaca cloth. A deep bell pendant in open-weave rattan. A lamp with a turned mahogany ball as its base and a moss cotton drum shade. A tripod floor lamp on three slim mahogany legs with a tall cone shade of raffia cloth. | Small oil still lifes by one painter, two for each villa and none alike: a few plain things on a table, in rust, ochre, moss, and off-white. One large one in the reception pavilion. | A bird's nest fern in a tall cylinder planter of dark woven nito vine. A staghorn fern mounted on a mahogany board. | From the entry, turned a little to the left, down a long room to a wall of sliding doors and a coconut grove in late morning light. The bed on the left, the bath door on the right. |
 | Hardin Apartment | To set | To set | To set | To set | To set |
 
 The round 4 starting images break this register. They share the same stoneware lamp, the same dark jar, the same rubber tree, and the same camera. Each design file replaces them.
@@ -251,7 +251,7 @@ No project has a "direction" now. Each has a starting image that Aedwon picked, 
 | Lilim House | `design/round-3-interiors/lilim-living-B-shade-and-stone.png` | **Locked by Aedwon.** Design file written. |
 | Tanaw Residence | `design/round-4-calibration/tanaw-living-C-designer.png` | **Picked by Aedwon.** Design file written. |
 | Dalampasigan Inn | `design/round-4-calibration/dalampasigan-room-A-sea-as-color.png` | **Picked by Aedwon.** Design file written. |
-| Pahinga Villas | `design/round-4-calibration/pahinga-bedroom-B-collected.png` | **Picked by Aedwon.** No design file yet. |
+| Pahinga Villas | `design/round-4-calibration/pahinga-bedroom-B-collected.png` | **Picked by Aedwon.** Design file written. |
 | Hardin Apartment | `design/round-4-calibration/hardin-living-A-collected.png` | **Picked by Aedwon.** No design file yet. |
 
 A starting image is one room. It is not a design and not a final frame. Each needs a design file, whole-home coverage, and a list of corrections.
@@ -287,7 +287,7 @@ Status: **Rendered set approved by Aedwon (2026-11-16).** Design file: `docs/con
 
 ### Pahinga Villas
 
-Status: **Starting image picked by Aedwon.** It is the warm room, not the black and white one.
+Status: **Starting image picked by Aedwon.** It is the warm room, not the black and white one. Design file written: `docs/content/project-designs/pahinga-villas.md`.
 
 - **Keep.** A mahogany four-post bed with netting, oat linen, moss and rust textiles, a striped rug, tobacco curtains, an old chest, a painting, and a large taro in a dark jar. White walls that stay white.
 - **Correct.** The sockets on the left wall moved. The four-post frame stands near the ceiling fan, so the design file must give the height of each and keep the frame clear of the blades. The painting must not picture the grove.
