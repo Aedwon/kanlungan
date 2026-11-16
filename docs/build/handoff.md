@@ -1,5 +1,26 @@
 # Handoff
 
+Updated 2026-11-16 by the lead agent. Read `AGENTS.md`, `SUBAGENTS.md`, and `README.md` first.
+
+## Next step: deploy
+
+Aedwon approved deploying to Vercel. The site is in `site/` (Next.js), merged to `main`.
+
+1. Vercel: create a project from the GitHub repo `Aedwon/kanlungan`, root directory `site`, framework Next.js, production branch `main`. No environment variables are needed yet (the shop runs on the local catalog until Shopify is connected).
+2. Domain: Aedwon bought `kanlungan.space` on Namecheap and pointed its nameservers to Cloudflare (`coleman.ns.cloudflare.com`, `mary.ns.cloudflare.com`). Add `kanlungan.space` and `www.kanlungan.space` to the Vercel project (www as primary, apex redirects to www, or the reverse; www is the address he named). In Cloudflare DNS add the records Vercel shows (apex A record, www CNAME to Vercel), proxy status DNS only (gray cloud) so Vercel issues the certificate.
+3. Verify both addresses load over HTTPS, then report the live URL.
+
+Aedwon added Vercel, Cloudflare and Namecheap connectors in claude.ai; they load in a new session. If they are missing, ask for a Vercel access token and a Cloudflare "Edit zone DNS" token through the secret card.
+
+## State on 2026-11-16
+
+- All five projects have approved imagery; the home hero reveal, project pages (layout B, slider A, swatches, compact shop rows), process section (direction A), services comparison (option C2), product variant photos, search, help, legal, 404, and the Hardin plan are built. 62 Playwright tests pass (`npm run test:run` in `site/`).
+- Decisions are logged in `docs/decisions.md`. UI work goes to Claude models only (`SUBAGENTS.md`).
+- Still open: Shopify connection (Aedwon creates the Partner account and dev store, then gives a Storefront token), trademark search before any commercial use, deleting stale branches (needs approval).
+
+## Earlier handoff (kept for history)
+
+
 Written 2026-11-16 by the lead agent, because Claude weekly usage is running low. Read `AGENTS.md`, `SUBAGENTS.md`, and `README.md` first. This file says where the work stands and what to do next.
 
 ## Where things stand
