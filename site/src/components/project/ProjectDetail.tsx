@@ -11,6 +11,8 @@ import { products } from '@/data/products';
 import { projectPages, type Block, type Frame, type PairSpec } from '@/data/project-pages';
 import { serviceHref } from '@/lib/studioTemplates';
 import { formatPrice } from '@/lib/formatPrice';
+import { productStudioName } from '@/data/image-slots';
+import swatches from '@/data/swatches.json';
 
 const split = (value: string) => { const i = value.indexOf('. '); return i < 0 ? { label: '', text: value } : { label: value.slice(0, i), text: value.slice(i + 2) }; };
 const ratio = (name: string) => { const { width, height } = photoSize(name); return { ['--ar' as string]: `${width} / ${height}`, ['--arm' as string]: width / height > 1.5 ? '4 / 3' : `${width} / ${height}` }; };
@@ -47,9 +49,11 @@ function shopItems(project: Project) {
     const m = entry.match(/^(.*?)(?: \((.*)\))?$/)!;
     const product = products.find((p) => p.name === m[1]);
     const variant = m[2] ? m[2][0].toUpperCase() + m[2].slice(1) : undefined;
-    return { name: m[1], variant, slug: product?.slug };
+    return { name: m[1], variant, product };
   });
 }
+const swatchList = (slug: string) => (swatches as Record<string, { material: string; id: string }[]>)[slug];
+const swatchColumns = (count: number) => (count <= 7 ? count : 5);
 export function ProjectDetail({ project }: { project: Project }) {
   const spec = projectPages[project.slug];
   const heroAlt = split(project.galleryCaptions[0]);
@@ -95,12 +99,22 @@ export function ProjectDetail({ project }: { project: Project }) {
       })}</div>
     </div></div>
     <section className="sec" aria-labelledby="mat"><div className="g blk"><h2 className="t-h1" id="mat">Materials</h2>
-      <ul className="mat t-h4">{project.materialPalette.split(/, (?![^(]*\))/).map((m) => <li key={m}>{m[0].toUpperCase() + m.slice(1)}</li>)}</ul>
+      <ul className="mat" style={{ ['--n' as string]: swatchColumns(swatchList(project.slug).length) }}>{swatchList(project.slug).map(({ material, id }) => {
+        const base = `/images/swatches/${project.slug}/${id}`;
+        return <li key={id}>
+          <picture><source type="image/webp" srcSet={`${base}-200.webp 200w, ${base}-400.webp 400w`} sizes="(min-width: 1280px) 170px, 45vw" />
+            <img className="sw" src={`${base}-400.jpg`} srcSet={`${base}-200.jpg 200w, ${base}-400.jpg 400w`} sizes="(min-width: 1280px) 170px, 45vw" alt="" width={400} height={400} loading="lazy" decoding="async" /></picture>
+          <span className="t-title">{material[0].toUpperCase() + material.slice(1)}</span></li>;
+      })}</ul>
     </div></section>
     <section className="sec" aria-labelledby="shop"><div className="g blk"><div className="shop-top"><h2 className="t-h1" id="shop">Shop the project</h2><Link href="/shop" className="lnk t-ui">View all in the shop <span className="arr" aria-hidden="true">→</span></Link></div>
-      <ul className="shop">{shopItems(project).map((item) => <li key={item.name + item.variant}>{item.slug
-        ? <Link href={`/shop/products/${item.slug}`} className="t-title">{item.name}{item.variant && <span className="v t-small">{item.variant}</span>}</Link>
-        : <span className="t-title nolink">{item.name}{item.variant && <span className="v t-small">{item.variant}</span>}</span>}</li>)}</ul>
+      <ul className="shop">{shopItems(project).map((item) => {
+        const { product } = item; const photo = product && productStudioName(product.slug);
+        const row = <>{photo ? <Photo name={photo} alt="" className="th" sizes="96px" /> : <span className="th" aria-hidden="true" />}
+          <span className="rt"><span className="rn t-title">{item.name}{item.variant && <span className="v t-small">{item.variant}</span>}</span>
+            {product && <span className="rm t-small">{product.maker} · {formatPrice(product.price)}{product.priceUnit && ` ${product.priceUnit}`}</span>}</span></>;
+        return <li key={item.name + item.variant}>{product ? <Link href={`/shop/products/${product.slug}`}>{row}</Link> : <span className="nolink">{row}</span>}</li>;
+      })}</ul>
     </div></section>
     <section className="sec" aria-labelledby="nx"><div className="g blk"><h2 className="t-h2" id="nx">Next project</h2>
       <Link href={`/projects/${next.slug}`} className="next">

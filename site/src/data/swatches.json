@@ -1,0 +1,164 @@
+{
+ "lilim-house": [
+  {
+   "material": "Honed Romblon marble",
+   "id": "honed-romblon-marble"
+  },
+  {
+   "material": "ebonized plantation mahogany",
+   "id": "ebonized-plantation-mahogany"
+  },
+  {
+   "material": "blackened steel",
+   "id": "blackened-steel"
+  },
+  {
+   "material": "white and charcoal linen",
+   "id": "white-and-charcoal-linen"
+  },
+  {
+   "material": "wool",
+   "id": "wool"
+  },
+  {
+   "material": "cane",
+   "id": "cane"
+  }
+ ],
+ "tanaw-residence": [
+  {
+   "material": "Natural plantation mahogany",
+   "id": "natural-plantation-mahogany"
+  },
+  {
+   "material": "acacia",
+   "id": "acacia"
+  },
+  {
+   "material": "oat and sand linen",
+   "id": "oat-and-sand-linen"
+  },
+  {
+   "material": "terrazzo",
+   "id": "terrazzo"
+  },
+  {
+   "material": "blackened steel",
+   "id": "blackened-steel"
+  },
+  {
+   "material": "aged brass",
+   "id": "aged-brass"
+  },
+  {
+   "material": "wool",
+   "id": "wool"
+  }
+ ],
+ "dalampasigan-inn": [
+  {
+   "material": "Natural oiled acacia (honey)",
+   "id": "natural-oiled-acacia-honey"
+  },
+  {
+   "material": "cane",
+   "id": "cane"
+  },
+  {
+   "material": "tikog reed",
+   "id": "tikog-reed"
+  },
+  {
+   "material": "white linen",
+   "id": "white-linen"
+  },
+  {
+   "material": "handloomed cotton",
+   "id": "handloomed-cotton"
+  },
+  {
+   "material": "stoneware",
+   "id": "stoneware"
+  },
+  {
+   "material": "blackened steel",
+   "id": "blackened-steel"
+  }
+ ],
+ "pahinga-villas": [
+  {
+   "material": "Natural plantation mahogany",
+   "id": "natural-plantation-mahogany"
+  },
+  {
+   "material": "cane and rattan",
+   "id": "cane-and-rattan"
+  },
+  {
+   "material": "abaca",
+   "id": "abaca"
+  },
+  {
+   "material": "tobacco linen",
+   "id": "tobacco-linen"
+  },
+  {
+   "material": "oat linen",
+   "id": "oat-linen"
+  },
+  {
+   "material": "handloomed cotton in rust and moss",
+   "id": "handloomed-cotton-in-rust-and-moss"
+  },
+  {
+   "material": "ebonized acacia",
+   "id": "ebonized-acacia"
+  },
+  {
+   "material": "nito vine",
+   "id": "nito-vine"
+  },
+  {
+   "material": "stoneware",
+   "id": "stoneware"
+  }
+ ],
+ "hardin-apartment": [
+  {
+   "material": "Old hardwood parquet",
+   "id": "old-hardwood-parquet"
+  },
+  {
+   "material": "one gray-green painted wall",
+   "id": "one-gray-green-painted-wall"
+  },
+  {
+   "material": "clay and oat linen",
+   "id": "clay-and-oat-linen"
+  },
+  {
+   "material": "oat wool",
+   "id": "oat-wool"
+  },
+  {
+   "material": "ebonized plantation mahogany",
+   "id": "ebonized-plantation-mahogany"
+  },
+  {
+   "material": "cane",
+   "id": "cane"
+  },
+  {
+   "material": "hinoki",
+   "id": "hinoki"
+  },
+  {
+   "material": "blackened steel",
+   "id": "blackened-steel"
+  },
+  {
+   "material": "clay pots",
+   "id": "clay-pots"
+  }
+ ]
+}

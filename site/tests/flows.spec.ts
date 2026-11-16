@@ -105,3 +105,28 @@ test('the Hardin floor plan is exposed as an image with a description', async ({
   await expect(plan).toHaveCount(1);
   await expect(plan).toHaveAccessibleDescription(/living and dining room/);
 });
+
+for (const slug of ['lilim-house', 'tanaw-residence', 'dalampasigan-inn', 'pahinga-villas', 'hardin-apartment']) {
+  test(`${slug} shows the material swatches and the shop rows with images`, async ({ page }) => {
+    await page.goto(`/projects/${slug}`);
+    const swatches = page.locator('.pj .mat li');
+    expect(await swatches.count()).toBeGreaterThanOrEqual(6);
+    await page.locator('.pj .mat').scrollIntoViewIfNeeded();
+    for (const img of await swatches.locator('img').all()) {
+      await expect(img).toHaveJSProperty('complete', true);
+      expect(await img.evaluate((el: HTMLImageElement) => el.naturalWidth)).toBeGreaterThan(0);
+      await expect(img).toHaveAttribute('alt', '');
+    }
+    const rows = page.locator('.pj .shop li');
+    expect(await rows.count()).toBeGreaterThanOrEqual(6);
+    await rows.last().scrollIntoViewIfNeeded();
+    for (const row of await rows.all()) {
+      await row.scrollIntoViewIfNeeded();
+      const link = row.locator('a');
+      await expect(link).toHaveAttribute('href', /^\/shop\/products\//);
+      await expect(link.locator('img.th')).toBeVisible();
+      await expect(link).toContainText('₱');
+      await expect(link).toContainText(/ · /);
+    }
+  });
+}
