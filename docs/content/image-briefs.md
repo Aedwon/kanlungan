@@ -110,6 +110,9 @@ State the result when showing a set: what was checked, what was regenerated, and
 - Judge it as a stranger would at a glance: does it look like a 3D render? If the lead has to say "this one looks the most like a render," it fails. Regenerate; do not show it with a caveat.
 - Render tells: neon or uniform greens, plastic-looking plants, perfect symmetry and centering, haloed or glowing light, spotless surfaces, a building that reads as a model, a sky with no detail.
 - Exterior and outdoor frames fail most often. Give them a realism block (muted true color, grain, wear, foliage overlapping the building, an off-axis camera) and attach an approved real-looking photo of the same site as the quality reference. (Aedwon rejected the first Lilim terrace and garden frames as obviously fake, 2026-11-16.)
+- Realism is not dirt. A cared-for house has clean paint and a kept garden; get realism from color, light, grain, and real plants, not from cracks, stains, or tools. (Aedwon, 2026-11-16: "too dirty now.")
+- Glass reflects what stands opposite it, mirrored and in perspective, stronger at a glancing angle. Check every glass wall for reflections that could not be there.
+- Pieces seen in more than one frame match: the same daybed, table, lanterns, and jars on the terrace whether seen from the terrace or from the garden. Put the approved frame of that space in as a reference, and check piece by piece.
 
 **1. Before and after match** (pairs)
 
