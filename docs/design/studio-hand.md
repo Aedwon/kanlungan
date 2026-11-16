@@ -287,7 +287,7 @@ Status: **Rendered set approved by Aedwon (2026-11-16).** Design file: `docs/con
 
 ### Pahinga Villas
 
-Status: **Starting image picked by Aedwon.** It is the warm room, not the black and white one. Design file written: `docs/content/project-designs/pahinga-villas.md`.
+Status: **Rendered set approved by Aedwon (2026-11-16).** It is the warm room, not the black and white one. Design file written: `docs/content/project-designs/pahinga-villas.md`.
 
 - **Keep.** A mahogany four-post bed with netting, oat linen, moss and rust textiles, a striped rug, tobacco curtains, an old chest, a painting, and a large taro in a dark jar. White walls that stay white.
 - **Correct.** The sockets on the left wall moved. The four-post frame stands near the ceiling fan, so the design file must give the height of each and keep the frame clear of the blades. The painting must not picture the grove.
