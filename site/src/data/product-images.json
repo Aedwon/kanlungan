@@ -708,6 +708,42 @@
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQABAAA4BaJQBOgCFK3rPAAP3vOEKJ8mkuA6aOrneZX1u5lnX0OHbVEGVV54wmktugmmvoAAA="
  },
+ "silong-sofa-charcoal-linen-cushion-detail": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQABAAA4BaJZACdAD5fBnT7p7QAP25evuhFeM8swGkG/WuDMiBp5+E032/p+J8eQEYth+eg2nDGpogEojLoYAA"
+ },
+ "silong-sofa-charcoal-linen-detail": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQABAAA4BaJYgCdAEfnRnwkcuHAAD+B0m4qoN0/h7WDs5UqqyjUSZoMVlZyd/k4cKWotSz1srRhHHW9QAAAA=="
+ },
+ "silong-sofa-charcoal-linen-fabric": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQABAAA4BaJZwAAp1IP6fLAAD+44SR6p+q3lFzZfZ53sKqbVdb0NAA"
+ },
  "silong-sofa-charcoal-linen-studio-front": {
   "width": 1254,
   "height": 1254,
@@ -731,6 +767,42 @@
   ],
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJQBOgCHhgsSy5GAA/uCydXGn3IReka3Aca7RURM3Ex5VZlracOOeJMCHJoPi5Qm7AwAA"
+ },
+ "silong-sofa-clay-linen-cushion-detail": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQABAAA4BaJbACdAEQCtHQguagAP25i2J0/HdnSwKZ5edN/aQLZXQ4L2iNoQmcua4uaIm98fH6IbxdboAAAA=="
+ },
+ "silong-sofa-clay-linen-detail": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQABAAA4BaJbACdAEfhwCmymoYAAD+B0m2DDFAx+G+OLVADFBpPQ6CJtuEhzh9DGTj3LM4IYjUZ6mQHefAAA=="
+ },
+ "silong-sofa-clay-linen-fabric": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQABAAA4BaJagCdADy+vd04AAA/n4hPr+dbYVbyIjX57DtKCHztYUFANcXNkRR7ec2bxi6AAA="
  },
  "silong-sofa-clay-linen-studio-front": {
   "width": 1254,
@@ -756,6 +828,42 @@
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJQBOgCIg+hgPkAAA/uCzsKCLMIcu3FRlPBMCDRiCtuT2HQt3QY+WI0MoPo3d9kOsArAA"
  },
+ "silong-sofa-sand-linen-cushion-detail": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQABAAA4BaJZgCdADuvLexWCAA/AtWgrvSTlsIM7RJwTuLvHFsHiRcBUsMCI8qAmcEtjYblYpyi643NtF8e6sS1s0rSAAA"
+ },
+ "silong-sofa-sand-linen-detail": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQABAAA4BaJaACdAELhseuiCPkAAD+B0m4S3lenhKKkyaW4yQ2fOY6G4R6FjWiAjRnuy2gzmcszgibj52OtYYWAAA="
+ },
+ "silong-sofa-sand-linen-fabric": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAgCdASoQABAAA4BaJZACdADp65XUfCl4AAD+s3NWuB7pSood99npun80/JBT/DqJ64ubIw0rSaRIAAA="
+ },
  "silong-sofa-sand-linen-studio-front": {
   "width": 1254,
   "height": 1254,
@@ -779,6 +887,102 @@
   ],
   "jpegWidth": 1080,
   "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQABAAA4BaJQBOgCHfq/5IAP7gsm7XxNVdrvxKgiWza1ZEstvPjsmn9SuwU37aJvo7wAAA"
+ },
+ "silong-sofa-two-seat-charcoal-linen-studio-front": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJQBOgCHhhHZqOAAA/u/OqbZKrLObz15TdVlX323X7ZvsOee7VQfFyhN2BgAA"
+ },
+ "silong-sofa-two-seat-charcoal-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQABAAA4BaJQBOgCG7wQQ9H/AA/uCyZEp0Y+hlRDvvCA14KPsAk3lbtbfHQxavPGDyfrHrJ36wAA=="
+ },
+ "silong-sofa-two-seat-clay-linen-studio-front": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQABAAA4BaJYgCdAEO/vMeIAAA/u/CTKDqCPcKbYxYID3EQP3duyGFdkmzn2kQ+hV/gPZ+AAA="
+ },
+ "silong-sofa-two-seat-clay-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQABAAA4BaJYgCdAEO/vTk5crUAAD+5/GUALYVBYG0ZI2utSbvMkZDJxPBJ2FLlwh7Lg+MrXjecjSsAAA="
+ },
+ "silong-sofa-two-seat-oat-linen-studio-front": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQABAAA4BaJQBOgCHh39ODwAAA/u/OorwcBZzf1dI/Pq1ZmDmB12SBwQfFyhN2BgAAAA=="
+ },
+ "silong-sofa-two-seat-oat-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJQBOgCPtxIVml4AA/uC40nm492oqIhBGedX8ttV85CBrWnLnJfnHqlBdObwdZ1lAMCAA"
+ },
+ "silong-sofa-two-seat-sand-linen-studio-front": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQABAAA4BaJQBOgCHh0RMeoAAA/u/Op5Vy3SQYNvjSraQIpGiSaWFrPkYa3Im7KoAAAA=="
+ },
+ "silong-sofa-two-seat-sand-linen-studio": {
+  "width": 1254,
+  "height": 1254,
+  "widths": [
+   480,
+   800,
+   1200,
+   1254
+  ],
+  "jpegWidth": 1080,
+  "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQABAAA4BaJYgCdADww1XkQAD+5/SsePfrMD1b034pFK4KBIu656KrrI6ISyxV+9dhhME5FqJNuAAA"
  },
  "silong-studio-front": {
   "width": 1254,

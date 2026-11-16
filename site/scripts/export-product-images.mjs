@@ -31,22 +31,28 @@ for (const full of files) {
 await writeFile(path.join(root, 'site', 'src', 'data', 'product-images.json'), JSON.stringify(manifest, null, 1) + '\n');
 console.log(Object.keys(manifest).length, 'images');
 
-// Product + choice -> image. A variant photo is <slug>-<choice slug>-studio (and -studio-front for Silong's front view).
-// Each entry maps the default image it replaces (the one the page shows for the default choice) to the choice's image.
-// Choices without a photo are left out and keep the default image. Size choices never appear.
+// Product + default image -> rules. A rule is { when: { option: choice, ... }, image }; it applies when every "when" entry
+// matches the chosen options, and the rule with the most entries wins. A photo exists only if its file was exported, so
+// choices without a photo keep the default image. Silong is the only product with a size-dependent gallery.
 const { products } = await import('../src/data/products.ts');
+const sizeToken = { 'Two-seat 178 cm': 'two-seat' };
+const silongBases = { 'studio-front': 'silong-studio-front', studio: 'silong-studio-three-quarter', detail: 'silong-detail', 'cushion-detail': 'silong-cushion-detail', fabric: 'silong-fabric' };
 const variantImages = {};
-for (const product of products) for (const option of product.variants) for (const choice of option.choices) {
-  const slug = choice.label.toLowerCase().replace(/\s+/g, '-');
-  const pairs = [
-    [`${product.slug}-${slug}-studio`, product.slug === 'silong-sofa' ? 'silong-studio-three-quarter' : `${product.slug.split('-')[0]}-studio`],
-    [`${product.slug}-${slug}-studio-front`, 'silong-studio-front'],
-  ];
-  for (const [file, base] of pairs) {
-    if (!manifest[file]) continue;
-    if (!manifest[base]) throw new Error(`Default image ${base} is missing for ${file}`);
-    ((variantImages[product.slug] ??= {})[option.name] ??= {})[choice.label] ??= {};
-    variantImages[product.slug][option.name][choice.label][base] = file;
+const add = (slug, base, when, file) => {
+  if (!manifest[file]) return;
+  if (!manifest[base]) throw new Error(`Default image ${base} is missing for ${file}`);
+  ((variantImages[slug] ??= {})[base] ??= []).push({ when, image: file });
+};
+for (const product of products) {
+  for (const option of product.variants) for (const choice of option.choices) {
+    const slug = choice.label.toLowerCase().replace(/\s+/g, '-');
+    if (product.slug === 'silong-sofa') {
+      if (option.name !== 'Fabric') continue;
+      for (const [suffix, base] of Object.entries(silongBases)) {
+        add(product.slug, base, { Fabric: choice.label }, `silong-sofa-${slug}-${suffix}`);
+        for (const [size, token] of Object.entries(sizeToken)) add(product.slug, base, { Fabric: choice.label, Size: size }, `silong-sofa-${token}-${slug}-${suffix}`);
+      }
+    } else add(product.slug, `${product.slug.split('-')[0]}-studio`, { [option.name]: choice.label }, `${product.slug}-${slug}-studio`);
   }
 }
 await writeFile(path.join(root, 'site', 'src', 'data', 'variant-images.json'), JSON.stringify(variantImages, null, 1) + '\n');

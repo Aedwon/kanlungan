@@ -181,3 +181,31 @@ test('a color choice on Kumot Throw switches the photo, the URL, survives reload
   await expect(page.locator('img[src*="kumot-throw-indigo-studio"]:visible').first()).toBeVisible();
   await page.getByRole('button', { name: 'Remove Kumot Throw' }).first().click();
 });
+
+test('Silong gallery follows fabric and size, the URL keeps both, and the cart shows the two-seat clay front', async ({ page }) => {
+  await page.goto('/shop/products/silong-sofa');
+  await page.getByRole('button', { name: 'Clay linen' }).first().click();
+  await page.getByRole('button', { name: /Two-seat 178 cm/ }).first().click();
+  await expect(page).toHaveURL(/\/shop\/products\/silong-sofa\?fabric=clay-linen&size=two-seat-178-cm$/);
+
+  const main = page.locator('img[src*="silong-sofa-two-seat-clay-linen-studio-front"]:visible');
+  await expect(main.first()).toBeVisible();
+  // Every Silong product photo in the gallery is a clay file (the Lilim room photo is not a product shot).
+  const sources = await page.locator('main img:visible').evaluateAll((els) => els.map((el) => (el as HTMLImageElement).currentSrc || (el as HTMLImageElement).src).filter((s) => /silong/.test(s) && !/lilim/.test(s)));
+  expect(sources.length).toBeGreaterThanOrEqual(5);
+  for (const src of sources) expect(src).toContain('clay-linen');
+  expect(sources.some((s) => s.includes('two-seat-clay-linen-studio-front'))).toBe(true);
+  expect(sources.some((s) => s.includes('two-seat-clay-linen-studio-'))).toBe(true);
+
+  await page.reload();
+  await expect(page.getByRole('button', { name: 'Clay linen' }).first()).toHaveAttribute('aria-pressed', 'true');
+  await expect(main.first()).toBeVisible();
+
+  await page.getByRole('button', { name: 'Add to cart' }).first().click();
+  const drawer = page.getByRole('dialog');
+  await expect(drawer.locator('img[src*="silong-sofa-two-seat-clay-linen-studio-front"]:visible').first()).toBeVisible();
+  await drawer.getByRole('button', { name: 'Close cart' }).first().click();
+  await page.goto('/cart');
+  await expect(page.locator('img[src*="silong-sofa-two-seat-clay-linen-studio-front"]:visible').first()).toBeVisible();
+  await page.getByRole('button', { name: 'Remove Silong Sofa' }).first().click();
+});
