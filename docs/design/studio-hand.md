@@ -296,7 +296,7 @@ Status: **Rendered set approved by Aedwon (2026-11-16).** It is the warm room, n
 
 ### Hardin Apartment
 
-Status: **Starting image picked by Aedwon.** Design file written: `docs/content/project-designs/hardin-apartment.md`.
+Status: **Rendered set approved by Aedwon (2026-11-16).** Design file written: `docs/content/project-designs/hardin-apartment.md`.
 
 - **Keep.** A clay two-seat sofa, an oat rug over old parquet, an inherited cane chair, books in stacks, plants, a slim black console, and two lamps lit on a gray afternoon. The walls stay gray-white.
 - **Correct.** The room reads a little dim. Light it as lived. Add a screen if the owner has one; the brief decides.
