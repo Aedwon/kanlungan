@@ -1,0 +1,154 @@
+{
+ "dal:Natural oiled acacia (honey)": [
+  {
+   "source": "design/photography/tuntungan-studio.png",
+   "box": [
+    439,
+    314,
+    815,
+    690
+   ]
+  }
+ ],
+ "dal:Cane": [
+  {
+   "source": "design/photography/himlay-studio.png",
+   "box": [
+    696,
+    370,
+    909,
+    583
+   ]
+  }
+ ],
+ "dal:Tikog reed": [
+  {
+   "source": "design/photography/banig-studio.png",
+   "box": [
+    351,
+    351,
+    903,
+    903
+   ]
+  }
+ ],
+ "dal:White linen": [
+  {
+   "source": "design/lilim/lilim-bedroom.png",
+   "box": [
+    717,
+    598,
+    821,
+    701
+   ]
+  }
+ ],
+ "dal:Handloomed cotton": [
+  {
+   "source": "design/photography/kumot-studio.png",
+   "box": [
+    351,
+    288,
+    903,
+    840
+   ]
+  }
+ ],
+ "dal:Stoneware": [
+  {
+   "source": "design/dalampasigan/dalampasigan-serving-table.png",
+   "box": [
+    326,
+    51,
+    804,
+    529
+   ]
+  }
+ ],
+ "dal:Blackened steel": [
+  {
+   "source": "design/photography/bakal-studio.png",
+   "box": [
+    451,
+    652,
+    752,
+    953
+   ]
+  }
+ ],
+ "lil:Honed Romblon marble": [
+  {
+   "source": "design/lilim/lilim-material-detail.png",
+   "box": [
+    87,
+    833,
+    565,
+    1310
+   ]
+  }
+ ],
+ "lil:Ebonized plantation mahogany": [
+  {
+   "source": "design/lilim/lilim-dining-morning.png",
+   "box": [
+    195,
+    1064,
+    282,
+    1151
+   ]
+  }
+ ],
+ "lil:Blackened steel": [
+  {
+   "source": "design/photography/bakal-studio.png",
+   "box": [
+    451,
+    652,
+    752,
+    953
+   ]
+  }
+ ],
+ "lil:White and charcoal linen": [
+  {
+   "source": "design/lilim/lilim-bedroom.png",
+   "box": [
+    717,
+    598,
+    821,
+    701
+   ]
+  },
+  {
+   "source": "design/lilim/lilim-material-detail.png",
+   "box": [
+    98,
+    348,
+    272,
+    521
+   ]
+  }
+ ],
+ "lil:Wool": [
+  {
+   "source": "design/photography/lambot-studio.png",
+   "box": [
+    376,
+    314,
+    878,
+    815
+   ]
+  }
+ ],
+ "lil:Cane": [
+  {
+   "source": "design/photography/dapithapon-detail.png",
+   "box": [
+    464,
+    213,
+    1091,
+    840
+   ]
+  }
+ ]
+}

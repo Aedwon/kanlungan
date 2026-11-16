@@ -1,26 +1,232 @@
 # Image briefs
 
-## Consistency system
+## How project photography works
 
-Every project shot follows its scene bible in [scene-bibles/](scene-bibles/README.md): plan, surfaces, placement, light, and a numbered camera. Generate each space's anchor first, then pass the approved anchor and the plan PNG as references for every later shot of that space. Scene bibles exist for: Lilim House, Tanaw Residence, Dalampasigan Inn, Pahinga Villas, and Hardin Apartment.
+Every project photograph follows that project's design file in [project-designs/](project-designs/README.md). The design file sets the shell, the design, and the shot list. This file sets the rules every photograph follows, the pairing method, the product consistency sheets, and the shots that belong to no project.
 
-## Global style
+Design files replace the scene bibles, one project at a time. Lilim House has its design file. The other four projects do not yet. Until a project has one, do not generate from its entries in the shot list below or from its scene bible.
 
-These are generation briefs, not new catalog or architectural facts. Inherit this section in every prompt, then attach the matching product consistency sheet and any accepted room reference. Follow [brand](../concept/brand.md), the locked [palette and imagery](../design/visual-system.md#imagery), [project captions](projects.md), [catalog](catalog.md), and [maker stories](makers.md). The studio leads; products support believable rooms. Photography remains subject to Aedwon's visual review. Unspecified silhouettes and artwork compositions are provisional generation instructions, never approved product specifications.
+## Photography rules
 
-**Camera.** Full-frame editorial photography with a 35mm lens for rooms and a 50mm lens for products, materials, and workshop work. Use a 70mm close-focus view only where noted. Natural depth of field, roughly f/5.6 to f/8 for rooms and whole products, f/4 for details. Keep camera level, verticals straight, and perspective plausible. Avoid very wide lenses and artificial miniature blur. Maintain texture without sharpening halos.
+Status: **Motivated light** is **locked by Aedwon** on 2026-11-16. The rest is **decided on delegation** from the consults in `docs/build/consults/` and from Aedwon's comments on rounds 3, 4, and 5. Revised on 2026-11-16 after rounds 4 and 5. This section replaces "Global style," which Aedwon locked on 2026-11-14 and reopened on 2026-11-16. Photography remains subject to his visual review.
 
-**Light.** Tropical daylight filtered by deep eaves, with a bright, pale band at an opening and soft reflected light inside. Expose for believable windows and shaded rooms in a single natural-looking exposure. No harsh flash. Tanaw stays at dusk throughout. Pahinga's two captioned dusk views retain the same warm grade. Other scenes use shaded daylight unless their source calls for evening. Lamps give a restrained warm glow with visible shade texture.
+These rules cover the photograph. What goes in the room is set by the [studio hand](../design/studio-hand.md) and the project's design file. Inherit this section in every prompt. Then attach the references the design file names for that frame, and no others.
 
-**Color.** Warm umber floors where appropriate, olive-green foliage, low contrast, lifted blacks, warm neutral highlights. Match background `#F2ECE3`, product ground `#E8DFD2`, umber `#2E211A`, muted brown `#6A584A`, clay `#8E4A2C`, and deep brown `#3A2A20` without tinting every material brown. Natural pale hinoki, cream marble, white linen, and sand cotton must remain distinct. Indigo appears only on the documented textiles, subdued rather than saturated. Do not add accent colors. UI scrims and text belong in the page, not the generated photograph.
+| # | Rule | Test by eye |
+|---|---|---|
+| 1 | **Honest scope.** Nothing fixed appears, moves, or changes finish. Every socket, switch, cooling unit, fan, and ceiling point in the before is in the after. | Compare with the before. Count the fixed items. |
+| 2 | **Level camera, straight verticals.** Rooms at 35mm to 50mm. Small rooms, under about 4.5 m on a side, at 24mm to 28mm, because a longer lens sees only one wall. Never wider than 24mm. Vignettes and details at 50mm to 85mm, at the height of the subject. Stand square to the far wall or clearly at an angle. | Every wall edge and frame is parallel to the frame sides. |
+| 3 | **No repeated recipe.** The camera is chosen for each room. See "Camera variety." | Lay the set out as thumbnails. No two share a standpoint and layout. |
+| 4 | **Light is motivated, and the room is lit as lived.** See below. | You can point to the source of every bit of light. An evening room is bright enough to read in. |
+| 5 | **Neutral balance, no grade.** Color comes from the room, the site, and the light sources. | White walls away from lamps read white. Foliage reads green. |
+| 6 | **One natural exposure.** By day the opening is brighter than the room and keeps its detail. Every frame holds one true dark and one clean bright. | The view is neither blown white nor as dark as the room. |
+| 7 | **Each room at its best hour.** A home is shot over a day and an evening. A gallery holds at least three kinds of light. | Name the hour of each frame from the frame alone. |
+| 8 | **The set is a story of a whole home.** One subject per frame. About a third each of wide, medium, and detail. Neighbors differ in scale or light. Coverage follows the studio hand. | A visitor could walk through the home from the gallery. |
+| 9 | **Real things are in the picture.** Screens, cooling units, sockets, cords, appliances, and the client's own things appear as the design file places them. Nothing real is erased to tidy a frame. | Find the screen, the cooling, and one cord. |
+| 10 | **Everything shown could physically exist.** Curtains hang from something and clear the cooling unit. Doors can open. Lamps have a cord or are cordless. | Open each door and draw each curtain in your mind. |
+| 11 | **Continuity.** The same shell and the same pieces in every frame of a space, held by reference images. Loose styling may move to camera. | Two frames of one surface do not contradict each other. |
+| 12 | **No two homes alike.** Different projects do not share hero objects, lamp shapes, art, or camera recipes, unless Aedwon has declared a signature. | One frame from each project, side by side. Nothing appears twice. |
+| 13 | **Pairs are fair and aligned.** Same camera, same hour. The before is clean, empty, sound, and correctly exposed. See the pairing method. | Drag the bar. Every fixed line continues unbroken. |
+| 14 | **Regenerate, do not retouch.** A frame that fails is made again. One global correction of white balance or exposure toward neutral is allowed. A correction that warms a frame is not. | |
 
-**Surfaces and realism.** Honed stone, visible wood grain variation, breathable cane and rattan, irregular ash glaze, matte stoneware, cotton and linen with readable fibers, and softly aged unlacquered brass. Include two or three quiet physical details per image: a little settled dust, a creased cushion, a slight weave variation, a small glaze pool, a rubbed wood edge. Keep saleable products clean and sound. Rooms feel used, not neglected. Avoid leaning verticals, repeating texture tiles, perfect mirror symmetry, and indiscriminate distressing.
+"About a third each" is a trade rule of thumb, not a law.
 
-**People.** Default to empty rooms. Only anonymous hands at work or distant figures seen wholly from behind may appear. No faces, profiles, reflections of faces, identifying tattoos, name badges, or recognizable people. The team view is a distant rear view, never twelve portraits. All entities are fictional; place names are real. Apply the fictional-brand notice from [copy](copy.md#fictional-brand-notice) in the page footer, outside the photograph.
+**Motivated light.** Locked by Aedwon.
 
-**NEGATIVE:** people's faces or recognizable people; real brand logos; readable text, signatures, prices, or labels; tourist imagery; flag colors; decorative cultural motifs; HDR look; CGI; glossy render lighting; plastic sheen; oversaturated greens; symmetrical showroom staging; impossible architecture; floating objects; extra chair legs; warped weave; fake film borders; excessive bokeh; crushed blacks; orange filters; invented product variants.
+- Every frame names its sources: daylight through a named opening, direct sun where it lands, each lit lamp, and the ceiling lights where the design file turns them on. Nothing else lights the room. No fill and no glow without a source.
+- By day, white balance is set for the daylight in the frame. Walls, ceilings, and linen away from lamps read neutral white to slightly cool. At dusk the surfaces near the glass read blue-gray.
+- Warmth has three allowed origins: a lit lamp or ceiling light, on what is near it; direct low sun, on what it strikes; and the true color of a material.
+- A lamp's warmth is local. It reaches the shade, the surface under it, and the wall and floor within about 1.5 m, and it fades with distance.
+- Never apply a warm cast, a warm grade, or "golden hour" light to a whole frame.
 
-**Cropping.** Rooms: 21:9 or 16:9. Project cards and tall gallery views: 3:4. Product masters: 1:1 on `#E8DFD2`. Collection cards: 4:3. Maker and team portraits: 4:5. Keep 10 to 15 percent breathing room around important edges. Each entry gives the intended crop and any required alternate. A crop is a derivative of the same master, not another shot. Where a mockup uses a fixed box or 16:10 shop image, retain extra source area for that exact box without altering the layout.
+**Lit as lived.** Decided on delegation, from Aedwon's comment on the round 4 condo: "lights were also not on like why."
+
+- Light the room as the people in it would at that hour. The design file's lighting plan says what is on in each frame.
+- Bright morning and midday: lamps off. Lamps lit in full daylight are a fake tell.
+- Overcast, deep rooms, and late afternoon: the lamps people would switch on are on.
+- Dusk and evening: every lamp in the room is on. The ceiling lights may be on low, with warm bulbs, as a base. They are never the only light in a furnished frame.
+- An evening frame is exposed as a lit room. The ceiling is visible, the corners are readable, and a person could read in each seat. A dark ceiling over a few pools of lamp light is a fault, unless the frame is a detail of one lamp.
+- At night with no daylight in the frame, balance so that white walls read as warm white. Never orange.
+
+**Camera variety.** Decided on delegation, from Aedwon's question: "i noticed there's always a door at the right, why is that?" The cause was ours: every round 4 before used one recipe.
+
+- Choose the standpoint for the room: where its best feature is, where a person would stand, and what the frame is about.
+- Within a set, no two wide or medium frames share the same perspective type, the same position of the main opening, and the same side for the main piece.
+- Use the range: one-point and two-point views, views toward the opening, along it, and with it behind the camera, an elevation, an upright frame, and a low or high camera where the subject calls for it.
+- No fixed element sits in the same place in more than two frames of a set. A door at the right edge is the example.
+- Across projects, the five hero frames differ in perspective, in where the opening sits, and in shape.
+- Pairs still need landmarks. A window behind the camera is allowed in a pair if the walls in frame carry sockets, doors, and corners.
+- Each design file's shot list carries a camera variety table. Fill it before generating.
+
+**The camera is set, not described.** Decided on delegation, from round 5. The prompts asked for five different cameras. Four of the five rooms came back as a frontal one-point view. Words such as "from the near right corner" do not hold a camera.
+
+- A new before is generated from a **line drawing** of the view: the room's walls, openings, and fixed items in perspective, drawn from the plan with the camera's position, heading, height, and lens. The drawing is image 1. The prompt says to match every line. The lead checks the drawing before any generation, because the drawing is the camera.
+- The prompt also describes the frame **by its edges**: what is at the left edge, the right edge, the top, and the bottom, and where the main corners and openings fall as a share of the frame width. Never by standpoint alone.
+- An after is always an edit of its approved before. Its prompt repeats the edge list and says the camera does not move.
+- A story frame with a new camera gets its own line drawing, or is cut as a crop from a frame that exists.
+- If a before comes back with the wrong camera, regenerate it. Do not accept it and rewrite the plan to fit, unless Aedwon has approved that image.
+
+**The generator warms every after.** Decided on delegation, from round 5, where Aedwon saw it and measurement confirmed it: the ceiling in every after was warmer than in its before, by 4 to 60 points of red minus blue.
+
+- Never ask for warmth. Prompts do not use "warm," "cozy," "golden," or "glow" for light. They say what is lit and say that the walls and ceiling keep the color they have in image 1.
+- Describe lamp light as soft white light that stays near the lamp.
+- After generation, run the **shell color correction**: a tool matches the color of the walls, ceiling, and floor in the after to the same surfaces in the before, away from lit lamps. It is part of the pipeline, not a retouch. It runs before registration.
+- Then run the neutral patch check. A frame that still fails is regenerated.
+- In evening pairs the before is lit cool and the after is lit by lamps, so the two do not match by design. Correct the after toward neutral white on the ceiling and the walls far from lamps, and judge the rest by eye.
+
+**Real things in the frame.**
+
+- A screen is off: a matte dark rectangle with a faint, plausible reflection. No content, faces, or logos.
+- Appliances, speakers, routers, and chargers are plain and unbranded. They are the right size.
+- A cord may show for a short length near its socket. No device floats without one, except a cordless lamp.
+- Cooling units and fans stay in every frame that would show them.
+- No piece is a copy of a recognizable real design. If a reviewer could name the designer, regenerate.
+
+**Color.**
+
+- Each room's palette is set in its design file. A photograph adds no color of its own. No grade carries a palette.
+- Materials keep their true color. White linen, pale stone, and white paint stay distinct from each other.
+- What is outside reads as it is: fresh green foliage, blue-green sea, a blue dusk sky.
+- Do not carry one project's palette or hour into another.
+
+**Surfaces and realism.** Honed stone, visible wood grain, breathable cane and rattan, irregular ash glaze, matte stoneware, cotton and linen with readable fibers, softly aged unlacquered brass. Materials show honest wear where hands and feet go: a creased cushion, a slight weave variation, a small glaze pool, a rubbed wood edge. No dust. Keep saleable products clean and sound. Rooms look lived in, not neglected. Avoid leaning verticals, repeating texture tiles, mirrored textures, and indiscriminate distressing.
+
+**People.** Rooms are furnished and in use, and shown without people. Only anonymous hands at work or distant figures seen wholly from behind may appear, and only where a shot entry asks for them. No faces, profiles, reflections of faces, identifying tattoos, name badges, or recognizable people. The team view is a distant rear view, never twelve portraits. All entities are fictional; place names are real. The fictional-brand notice from [copy](copy.md#fictional-brand-notice) goes in the page footer, outside the photograph.
+
+**NEGATIVE:** people's faces or recognizable people; real brand logos; copies of recognizable real furniture, lighting, or art; readable text, signatures, prices, or labels; tourist imagery; flag colors; decorative cultural motifs; religious figures, tribal carvings, baskets on walls, shells, figurines, or souvenirs; flowers in bloom; art that pictures the place it hangs in, such as a beach scene at the beach or palms in a palm grove; plants that could not live on the site; a warm cast over the whole frame; flat shadowless light; light with no source; lamps lit in bright morning or midday light; a dim, underlit evening room; HDR look; CGI; glossy render lighting; plastic sheen; oversaturated greens; furniture lined in showroom rows; new walls, windows, moldings, beams, or ceiling features; moved or missing sockets, switches, or cooling units; curtains under or in front of an air conditioner; impossible architecture; floating objects; extra chair legs; warped weave; fake film borders; excessive bokeh; crushed blacks; orange filters; invented product variants.
+
+**Cropping.** Rooms: 21:9 or 16:9. Project cards and tall gallery views: 3:4. Product masters: 1:1 on `#E8DFD2`. Collection cards: 4:3. Maker and team portraits: 4:5. Keep 10 to 15 percent breathing room around important edges. A crop is a derivative of the same master, not another shot. Both frames of a pair use the same crop box. Where a mockup uses a fixed box or a 16:10 shop image, retain extra source area for that box without altering the layout. UI scrims and text belong in the page, not the photograph.
+
+**Scenes that belong to no project.** The showroom, makers, materials, and studio panels follow the same rules. Their entries in the shot list still carry the old warm-grade wording. Correct an entry before generating from it. The approved product masters are not affected.
+
+## Review before Aedwon sees an image
+
+Status: **Decided on delegation** on 2026-11-16. Aedwon caught moved outlets, an impossible curtain, repeated lamps, and a repeated camera by himself in round 4. That is the lead's job. The lead runs this list on every image and on every set, and regenerates what fails, before anything is shown. The lead does not relay an agent's "pass" without looking.
+
+State the result when showing a set: what was checked, what was regenerated, and anything left for his eye.
+
+**0. Real photograph, not a render** (every frame, checked first)
+
+- Judge it as a stranger would at a glance: does it look like a 3D render? If the lead has to say "this one looks the most like a render," it fails. Regenerate; do not show it with a caveat.
+- Render tells: neon or uniform greens, plastic-looking plants, perfect symmetry and centering, haloed or glowing light, spotless surfaces, a building that reads as a model, a sky with no detail.
+- Exterior and outdoor frames fail most often. Give them a realism block (muted true color, grain, wear, foliage overlapping the building, an off-axis camera) and attach an approved real-looking photo of the same site as the quality reference. (Aedwon rejected the first Lilim terrace and garden frames as obviously fake, 2026-11-16.)
+- Realism is not dirt. A cared-for house has clean paint and a kept garden; get realism from color, light, grain, and real plants, not from cracks, stains, or tools. (Aedwon, 2026-11-16: "too dirty now.")
+- Glass reflects what stands opposite it, mirrored and in perspective, stronger at a glancing angle. Check every glass wall for reflections that could not be there.
+- Pieces seen in more than one frame match: the same daybed, table, lanterns, and jars on the terrace whether seen from the terrace or from the garden. Put the approved frame of that space in as a reference, and check piece by piece.
+
+**1. Before and after match** (pairs)
+
+- Count in both frames: sockets, switches, cooling units, fans, ceiling points, downlights, doors, door handles, window panels, columns. Same count, same place, same type.
+- Walls, floor, and ceiling have the same finish. Nothing is painted, built, or removed.
+- The view matches: the same sky, horizon, trees, or towers.
+- The alignment checks in the pairing method pass.
+
+**2. Physical plausibility**
+
+- Every curtain hangs from a track on the ceiling or wall. None is under or in front of a cooling unit, in a fan's sweep, or in a door swing.
+- Every door could open fully. Sliding panels have somewhere to slide.
+- Walkways, bed sides, and dining chairs have clearance, as the studio hand sets it.
+- Nothing tall stands under a ceiling fan. A pendant hangs from a real point.
+- Every lamp has a cord to a socket that exists, or is cordless.
+- Furniture stands on the floor, at a believable size, with contact shadows.
+
+**3. Light**
+
+- Every bit of light has a source in the frame or named in the design file.
+- No warm cast over the frame. The shell color correction has run, and the neutral patch check passes on daylight pairs.
+- Lamps are on when the hour calls for them and off in bright daylight.
+- An evening room reads as lit.
+- The sun is where the site and the hour put it. Shadows fall one way.
+
+**4. Lived in**
+
+- The real things the design file places in this frame are there: screen, media, cooling, appliances, shoes, chargers.
+- One or two signs of an ordinary day. Not none, not ten.
+
+**5. Repetition**
+
+- Within the set: no lamp shape, vessel, plant, or artwork repeats from room to room, except a declared pair or the same object seen again.
+- Across projects: check the portfolio register in the studio hand. No hero object, lamp shape, kind of art, or jar-and-plant set from another project.
+- Shop pieces appear because the design file places them, not because a reference was attached.
+
+**6. Camera**
+
+- Verticals are straight and the camera is level.
+- The frame matches its line drawing and its edge list. An after has the same edges as its before.
+- No two frames in the set share a recipe. No fixed element sits in the same place in more than two frames.
+- This project's hero differs from the other projects' heroes.
+
+**7. Clichés and lookalikes**
+
+- No flowers in bloom, no art that pictures its own site, no shells, no styling that says "tropical."
+- No decorative cultural motifs.
+- No piece that copies a recognizable real design. No logo, and no shape that stands in for one.
+- No real building, brand, or person.
+
+**8. Realism tells**
+
+- Inspect at page size and at 100 percent: warped weave, extra or missing legs, melted edges, repeated texture tiles, text-like marks, impossible reflections, objects that merge.
+- Shop pieces match their references in form, finish, and size.
+- Counts are right: chairs, cushions, panels, shelves.
+
+**9. The set as a whole**
+
+- Coverage: every room the design file lists is shown.
+- Neighbors in the gallery differ in scale or light.
+- Then the hiring test in the [design file README](project-designs/README.md).
+
+## Pairing method
+
+Status: **Decided on delegation** on 2026-11-16. Aedwon approved the approach: each case study pairs a plain as-handed-over shell with the furnished result from the same camera, for a drag-bar before and after. The slider itself is a UX choice he has not yet made.
+
+Not yet tested: generating the before from the after, and whether the image tool accepts an edit mask. The round 3 test ran before-first only. Run the reverse order once, on the Lilim hero, and compare the alignment results before relying on either order for the other projects.
+
+### What makes a pair fair
+
+- The before is honest and unremarkable: clean, empty, sound, plain, and correctly exposed. Not dirty, dark, or under construction.
+- The camera, lens, crop, hour, and weather are identical.
+- Only Kanlungan's work differs. The change in light comes only from lamps and curtains.
+- By day the ceiling lights are off in both frames. In the evening the before shows them as supplied, cool and at full. The after shows them with warm bulbs, on low, under the lamps.
+
+### Method
+
+1. **Fix the shell on paper.** The design file's "As handed over" section lists the finishes, the fixed items, and 8 to 12 landmarks for each pair camera.
+2. **Draw the camera's view.** Project the shell from the pair camera into a perspective line drawing. It is a reference for the before and a ruler for both frames. Where a before is already approved, as for the Lilim hero, trace the landmarks from the approved image and fit the drawing to it. Never regenerate an approved before to fit a drawing.
+3. **Generate the before.** The line drawing as image 1, plus text that lists what is at each edge of the frame. The same hour as the planned after. Check the result against the drawing before going on.
+4. **Get the before approved.** Aedwon approves each project's hero before. The lead approves the others.
+5. **Generate the after as an edit of the before.** References, five at most: the before, the material board, the sourcing board, and up to two product masters. Attach a product master only for a piece that the design file places in that frame. Never attach the same few masters to every prompt.
+6. **Correct the shell color.** Match the walls, ceiling, and floor of the after to the before, away from lit lamps. See "The generator warms every after."
+7. **Register.** Compute one perspective transform from matched points on fixed architecture and warp the before onto the after. Never warp the after. Crop both to the shared area.
+8. **Verify** with the checks below. If a check fails, regenerate the after. Do not retouch geometry.
+9. **Cut every crop from the registered master pair.** Each crop uses the same box on both frames. Export the two files at the same pixel size.
+
+If the after drifts when lamps come on, generate it in two edits: furniture and curtains first with lamps off, then lamps on.
+
+### Checks
+
+| Check | How | Pass |
+|---|---|---|
+| Landmarks | Mark the listed landmarks in both frames after registration | Each within about 0.3 percent of image width |
+| Size of the correction | Corner displacement of the transform before warping | Under about 3 percent of width. Beyond that, regenerate. |
+| Structure count | Count columns, door panels, downlights, sockets | Identical |
+| Overlay | Blend the two frames at 50 percent | Fixed edges are single, not doubled |
+| Difference | Subtract one frame from the other | Only furnishings, curtains, and lamp light remain |
+| Services | Count sockets, switches, cooling units, fans, and ceiling points in both frames | The same count, place, and type. A piece may stand in front of one. |
+| Neutral patches | Sample the same wall and ceiling patches in both frames, at least 2 m from any lit lamp. Compare red minus blue. | The after is no more than about 10 points warmer, of 255. Used for daylight pairs only. Evening pairs are judged by eye. |
+| The view | Compare the sky, the horizon, and the main tree or tower shapes | The same hour and the same shapes |
+| Slider | Drag a real bar to 25, 50, and 75 percent | Every line that crosses the bar continues unbroken |
+
+The thresholds are proposals. Tune them after the first pairs. For scale: in round 3, picked image B measured 13 to 22 points warmer on the ceiling and far wall, and image A measured 18 to 32. B is the upper limit Aedwon accepted by eye. Final frames should come in under it.
+
+The registration script is not written. This machine has Pillow and numpy but not OpenCV.
+
+### Choose shells and cameras the slider can hold
+
+- Few, large, fixed landmarks: columns, door frames, one window, a wall and ceiling line.
+- No regular mid-scale grids in view. Rafters, strong tile joints, louvers, and slats will not match line for line.
+- Calm views behind the glass. Sky, hills, and treetops forgive small drift. A skyline of distinct towers does not, so check each tower.
+- The bar's resting position crosses simple structure, not a tree line or a patterned floor.
+- Vary the camera between pairs. Landmarks come in many forms: a door, a run of cabinets, a pair of sockets, a corner.
 
 ## Product consistency sheets
 
@@ -30,7 +236,7 @@ Dimensions below come from [catalog](catalog.md), in centimeters, width × depth
 
 **Catalog anchor:** 228 × 92 × 72 cm; Plantation mahogany, linen blend, feather and foam fill. Attribution: Kanlungan Original.
 
-Low, horizontal three-seat form, visibly much wider than deep, with an exposed plantation mahogany frame and loose linen-blend cushions. Use oat linen for the main reference, with soft feather-and-foam volume and uncoated-looking warm brown wood. Keep the first accepted cushion divisions, seams, arm shape, and leg shape fixed. Two-seat version is 178 cm wide; depth and height stay 92 × 72. Hardin uses two-seat clay linen. Other allowed fabrics are charcoal and the catalog colors, never invented weave patterns.
+Low, horizontal three-seat form, visibly much wider than deep, with an exposed plantation mahogany frame and loose linen-blend cushions. Use oat linen for the main reference, with soft feather-and-foam volume and uncoated-looking warm brown wood. Keep the first accepted cushion divisions, seams, arm shape, and leg shape fixed. Two-seat version is 178 cm wide; depth and height stay 92 × 72. Hardin uses two-seat clay linen. Lilim uses three-seat charcoal linen. Other allowed fabrics are the catalog colors, never invented weave patterns.
 
 ### Dapithapon Lounge Chair
 
@@ -42,7 +248,7 @@ Deep rattan lounge chair, 72 cm wide against 78 cm depth and 74 cm height. Open 
 
 **Catalog anchor:** 48 × 52 × 80 cm; Plantation mahogany, cane. Attribution: Kanlungan Original.
 
-Upright plantation mahogany dining chair with a woven cane seat. Keep the back plain wood in the restrained first reference; a woven back is not specified. Natural finish for the master, with the same warm brown grain in each view. Preserve the narrow 48 cm width and 80 cm overall height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Tanaw uses bleached acacia.
+Upright plantation mahogany dining chair with a woven cane seat. Keep the back plain wood in the restrained first reference; a woven back is not specified. Natural finish for the master, with the same warm brown grain in each view. Preserve the narrow 48 cm width and 80 cm overall height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses ebonized mahogany with a natural cane seat; Dalampasigan uses natural acacia. Tanaw uses bleached acacia.
 
 ### Bangko Bench
 
@@ -56,7 +262,7 @@ Long, narrow solid acacia bench with visible joinery and an oil finish. The 140 
 
 Small carved solid acacia stool with an oil finish, a compact 34 cm square footprint and 44 cm height. A simple solid seat and visibly carved supporting form, with warm natural grain. Preserve the accepted silhouette across bedside, workshop, and studio images. No invented upholstery, handles, or decorative carving.
 
-### Kiso Stool
+### Asa Stool
 
 **Catalog anchor:** 36 × 36 × 42 cm; Hinoki cypress. Attribution: Okabe Mokko.
 
@@ -66,7 +272,7 @@ Light, compact hinoki cypress stool, 36 cm square and 42 cm tall. Pale cream woo
 
 **Catalog anchor:** 220 × 95 × 75 cm; Plantation mahogany, oil finish. Attribution: Kanlungan Original.
 
-Solid plantation mahogany dining table with an oil finish, a restrained rectangular top, and warm natural brown wood for the reference. Base dimensions are 220 × 95 × 75. The permitted widths are 180, 220, and 260; maintain the documented depth and height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Keep top edge, support arrangement, and grain fixed for each accepted size.
+Solid plantation mahogany dining table with an oil finish, a restrained rectangular top, and warm natural brown wood for the reference. Base dimensions are 220 × 95 × 75. The permitted widths are 180, 220, and 260; maintain the documented depth and height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses ebonized mahogany at 220 cm; Dalampasigan uses natural acacia. Keep top edge, support arrangement, and grain fixed for each accepted size.
 
 ### Batis Coffee Table
 
@@ -90,7 +296,7 @@ Slim ebonized plantation mahogany console with a woven cane lower shelf, 150 × 
 
 **Catalog anchor:** 168 × 215 × 105 cm; Plantation mahogany, cane, slatted base. Attribution: Kanlungan Original.
 
-Low plantation mahogany bed frame with a woven cane headboard and visible slatted base. Queen reference is 168 × 215 × 105; king is 198 × 215 with the same documented height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses natural mahogany; Dalampasigan uses natural acacia. Pahinga uses ebonized mahogany. Keep headboard weave and frame outline fixed. Studio sales image shows the frame without a mattress; room bedding is styling, not included merchandise.
+Low plantation mahogany bed frame with a woven cane headboard and visible slatted base. Queen reference is 168 × 215 × 105; king is 198 × 215 with the same documented height. The four finish choices are Mahogany (natural plantation mahogany, the default), Ebonized mahogany, Acacia (natural oiled honey), and Bleached acacia. Preserve the accepted geometry in each finish. Lilim uses ebonized mahogany, king, with a natural cane headboard; Dalampasigan uses natural acacia. Pahinga uses ebonized mahogany. Keep headboard weave and frame outline fixed. Studio sales image shows the frame without a mattress; room bedding is styling, not included merchandise.
 
 ### Duyan Daybed
 
@@ -140,7 +346,7 @@ Slim brass floor lamp with a linen shade and acacia base, overall diameter 40 an
 
 Hand-thrown stoneware base with an ash glaze and a plain pale linen shade, diameter 30 and height 46 overall. Earthy cream-gray glaze with subtle pooling, no invented colored pattern. Keep base contour, glaze marks, shade profile, and shade-to-base ratio fixed. Show a plausible cable only when it belongs in the view.
 
-### Tala Wall Light
+### Sulo Wall Light
 
 **Catalog anchor:** 14 × 18 × 24 cm; Unlacquered brass, opal glass. Attribution: Tanso Lighting Works.
 
@@ -212,7 +418,7 @@ Abstract pigment print on cotton rag paper, 50 × 70, sold unframed. Use one res
 
 Original landscape painting in acrylic on canvas, 90 × 120. Keep the first accepted landscape composition, canvas proportions, and paint marks identical in all images because it is one of a kind. Use a quiet earth-and-olive interpretation rather than inventing a named location. No frame inclusion claim, signature, lettering, or copied artwork.
 
-### Habi Wall Piece
+### Hibla Wall Piece
 
 **Catalog anchor:** 90 × 4 × 140 cm; Tikog reed, abaca, wood rail. Attribution: Tikog Loom.
 
@@ -244,9 +450,13 @@ A small spun-steel drinks table, 38 cm diameter and 50 cm high. Matte blackened 
 
 ## Shot list
 
+Status, 2026-11-16: project shot entries are being replaced by the shot list in each project's design file. The Lilim House entries below are superseded by [the Lilim design file](project-designs/lilim-house.md#9-shot-list). They stay here only as a record of where each image is used, until the new frames exist. Do not generate from them. The Tanaw, Dalampasigan, Pahinga, and Hardin entries are on hold until each project has a design file. Product, maker, material, and studio entries stay in use, under the photography rules above.
+
 Each **Prompt** is 80 to 150 words before the inherited style and matching consistency sheet. Each **Negative add-on** supplements the global negative list. Shared uses are listed under one ID. Gallery numbers refer directly to the ten captions for that project. Source caption wording and project facts remain in [projects](projects.md), not redefined here.
 
 ### Page group: Lilim House project, Home, and shared studio panels
+
+Superseded on 2026-11-16. Do not generate from these eleven entries. The new frame for each use is listed under "Old shot ids and their uses" in the Lilim design file.
 
 ### lilim-hero
 
@@ -440,11 +650,11 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### tanaw-g06-wall-light
 **Camera:** C6 in [the Tanaw Residence scene bible](scene-bibles/tanaw-residence.md). The bible wins over this entry where they differ.
 
-**Use:** Tanaw Residence project, Gallery 6; Tala in-room reference
+**Use:** Tanaw Residence project, Gallery 6; Sulo in-room reference
 
 **Aspect and crop:** 3:4 project gallery; square light crop
 
-**Prompt:** Photograph the Tala Wall Light beside the Tanaw sand Unan Bed on its warm, quiet wall. Use a 50mm lens at 125 cm, close enough to read the opal globe and unlacquered brass but far enough to show the pillow edge below. Keep the mounting projection believable. Let the rest of the bedroom fall gently out of focus, with no new window invented behind the light. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
+**Prompt:** Photograph the Sulo Wall Light beside the Tanaw sand Unan Bed on its warm, quiet wall. Use a 50mm lens at 125 cm, close enough to read the opal globe and unlacquered brass but far enough to show the pillow edge below. Keep the mounting projection believable. Let the rest of the bedroom fall gently out of focus, with no new window invented behind the light. Cool dusk light comes from the window side and low warm lamps from inside, with restrained highlights on brass. Bleached acacia floors and joinery stay pale; sand linen stays warm. Black comes only from steel. Show a shallow fabric crease, faint handling on brass, and a little natural grain variation. Keep shadows open and surfaces tidy.
 
 **Negative add-on:** No daytime sky, giant condo rooms, neon skyline, glossy brass, or substituted product materials.
 
@@ -508,11 +718,11 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### dalampasigan-g02-lobby
 **Camera:** C2 (anchor, lobby) in [the Dalampasigan Inn scene bible](scene-bibles/dalampasigan-inn.md). The bible wins over this entry where they differ.
 
-**Use:** Dalampasigan Inn project, Gallery 2; Bangko and Habi in-room references
+**Use:** Dalampasigan Inn project, Gallery 2; Bangko and Hibla in-room references
 
 **Aspect and crop:** 3:4 project gallery; square object crops
 
-**Prompt:** Photograph the inn lobby with a Bangko Bench and Habi Wall Piece opposite the entrance. Use a level 35mm camera at 120 cm just inside the entry. Keep the acacia bench length and narrow depth readable, with the undyed wall piece hanging securely above the quiet wall. Leave space for guests to walk past and show a small section of adjoining passage behind. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
+**Prompt:** Photograph the inn lobby with a Bangko Bench and Hibla Wall Piece opposite the entrance. Use a level 35mm camera at 120 cm just inside the entry. Keep the acacia bench length and narrow depth readable, with the undyed wall piece hanging securely above the quiet wall. Leave space for guests to walk past and show a small section of adjoining passage behind. Bright coastal morning light enters from camera left, softened by the openings and reflected from pale limewash. Natural reed, rattan, and cotton retain their dry texture. Include a small cotton crease, a faint rubbed wood edge where visible, and a few grains of sand near the floor margin. Keep every surface believable and quietly maintained.
 
 **Negative add-on:** No resort spectacle, wool replacement for reed, dyed motifs, tourist props, or wet plastic-looking surfaces.
 
@@ -686,11 +896,11 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### pahinga-g08-wall-piece
 **Camera:** C8 in [the Pahinga Villas scene bible](scene-bibles/pahinga-villas.md). The bible wins over this entry where they differ.
 
-**Use:** Pahinga Villas project, Gallery 8; Habi in-room reference
+**Use:** Pahinga Villas project, Gallery 8; Hibla in-room reference
 
 **Aspect and crop:** 3:4 project gallery; square wall-piece crop
 
-**Prompt:** Photograph the Habi Wall Piece above the Himlay Bed in the Pahinga villa. Use a level 50mm camera at 125 cm from near the bed foot. Show its wood rail and tall reed-and-abaca body against the quiet wall, with the cane headboard below. Keep the scale physically plausible and the hanging secure. Let the selected white linen and white curtain remain at the frame edges. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
+**Prompt:** Photograph the Hibla Wall Piece above the Himlay Bed in the Pahinga villa. Use a level 50mm camera at 125 cm from near the bed foot. Show its wood rail and tall reed-and-abaca body against the quiet wall, with the cane headboard below. Keep the scale physically plausible and the hanging secure. Let the selected white linen and white curtain remain at the frame edges. Filtered late-morning light comes from the grove side, breaking softly through coconut leaves and bouncing under the terrace roof. Keep ebonized mahogany frames, posts, rafters, and built-ins dark; cream limestone floors stay pale; foliage stays olive. Include a small linen fold, uneven cane spacing, and slight glaze variation where visible. Preserve ordinary shadows and natural surface depth.
 
 **Negative add-on:** No pool invention, postcard beach, glossy hotel staging, new furniture finish, or changed sliding-door layout.
 
@@ -820,11 +1030,11 @@ Each **Prompt** is 80 to 150 words before the inherited style and matching consi
 ### hardin-g10-balcony
 **Camera:** C10 (anchor, balcony) in [the Hardin Apartment scene bible](scene-bibles/hardin-apartment.md). The bible wins over this entry where they differ.
 
-**Use:** Hardin Apartment project, Gallery 10, photograph; Kiso in-room reference
+**Use:** Hardin Apartment project, Gallery 10, photograph; Asa in-room reference
 
 **Aspect and crop:** 3:4 project gallery; square stool crop
 
-**Prompt:** Photograph the small Hardin balcony garden with plants and a Kiso Stool. Position a level 50mm camera at 100 cm from the open interior doorway, keeping the stool compact and the balcony realistically shallow. Let pale hinoki contrast gently with the mahogany inside. Show the existing balcony boundary and a muted urban background, with a few naturally irregular leaves rather than an overgrown jungle. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
+**Prompt:** Photograph the small Hardin balcony garden with plants and a Asa Stool. Position a level 50mm camera at 100 cm from the open interior doorway, keeping the stool compact and the balcony realistically shallow. Let pale hinoki contrast gently with the mahogany inside. Show the existing balcony boundary and a muted urban background, with a few naturally irregular leaves rather than an overgrown jungle. Soft afternoon window light enters from camera left, with warm bounce and low contrast. Preserve real paper, fiber, clay, or wood texture appropriate to the subject. Include a slight crease, a small offset edge, and natural grain or weave variation. Keep the result calm and free of polished advertising light.
 
 **Negative add-on:** No terrace expansion, rooftop resort, dark-stained stool, unsafe missing balcony boundary, or bright green saturation.
 
@@ -882,13 +1092,13 @@ Every studio image below is the canonical card image for its named product where
 
 **Negative add-on:** No chair back, hollow floating seat, extra feet, or plastic grain.
 
-### kiso-studio
+### asa-studio
 
-**Use:** Kiso Stool product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
+**Use:** Asa Stool product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the complete pale hinoki stool with restrained precise joinery. Follow the Kiso Stool consistency sheet exactly, retaining its 36 × 36 × 42 cm proportions and documented materials. Place a full-frame 50mm camera at 65 cm, from a front three-quarter angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a pale growth-ring change, a tiny joint shadow, and a subtle rubbed seat edge. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the complete pale hinoki stool with restrained precise joinery. Follow the Asa Stool consistency sheet exactly, retaining its 36 × 36 × 42 cm proportions and documented materials. Place a full-frame 50mm camera at 65 cm, from a front three-quarter angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a pale growth-ring change, a tiny joint shadow, and a subtle rubbed seat edge. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No dark stain, acacia grain, upholstery, or exaggerated knots.
 
@@ -1022,13 +1232,13 @@ Every studio image below is the canonical card image for its named product where
 
 **Negative add-on:** No porcelain gloss, painted motif, extra shade, or stretched lamp base.
 
-### tala-studio
+### sulo-studio
 
-**Use:** Tala Wall Light product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
+**Use:** Sulo Wall Light product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the complete brass and opal-glass wall light mounted on a plain surface-colored panel. Follow the Tala Wall Light consistency sheet exactly, retaining its 14 × 18 × 24 cm proportions and documented materials. Place a full-frame 50mm camera at 120 cm, looking level from a slight side angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show subtle brass patina, a real mounting shadow, and soft glass translucency. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the complete brass and opal-glass wall light mounted on a plain surface-colored panel. Follow the Sulo Wall Light consistency sheet exactly, retaining its 14 × 18 × 24 cm proportions and documented materials. Place a full-frame 50mm camera at 120 cm, looking level from a slight side angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show subtle brass patina, a real mounting shadow, and soft glass translucency. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No freestanding globe, extra globe, transparent glass, or invented switch.
 
@@ -1142,13 +1352,13 @@ Every studio image below is the canonical card image for its named product where
 
 **Negative add-on:** No invented frame inclusion, signature, altered landscape, or photographic printed canvas.
 
-### habi-studio
+### hibla-studio
 
-**Use:** Habi Wall Piece product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
+**Use:** Hibla Wall Piece product page, main sales image; every matching category, collection, maker, search, and shop card; matching order thumbnail
 
 **Aspect and crop:** 1:1 on #E8DFD2; full silhouette with 10 to 15 percent margin
 
-**Prompt:** Photograph the whole reed-and-abaca wall piece hanging from its wood rail on a plain panel. Follow the Habi Wall Piece consistency sheet exactly, retaining its 90 × 4 × 140 cm proportions and documented materials. Place a full-frame 50mm camera at 130 cm, looking level from a slight angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a slight fiber irregularity, a small rail shadow, and natural straw tone changes. Preserve natural material color and low contrast without flattening the object.
+**Prompt:** Photograph the whole reed-and-abaca wall piece hanging from its wood rail on a plain panel. Follow the Hibla Wall Piece consistency sheet exactly, retaining its 90 × 4 × 140 cm proportions and documented materials. Place a full-frame 50mm camera at 130 cm, looking level from a slight angle. Use a seamless matte #E8DFD2 ground and background, with generous space around the silhouette for a square crop. Soft late-morning window light enters from camera left, with pale bounce from the right and no hard flash. Keep the background empty and product edges distinct. Show a slight fiber irregularity, a small rail shadow, and natural straw tone changes. Preserve natural material color and low contrast without flattening the object.
 
 **Negative add-on:** No printed fabric, bright dye, decorative motifs, or unsupported hanging.
 
@@ -1356,23 +1566,23 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Negative add-on:** No changed product geometry, invented ornament, over-sharpened fibers, repeated texture, or false damage.
 
-### kiso-detail
+### asa-detail
 
-**Use:** Kiso Stool featured product page, detail image; pair with `hardin-g10-balcony` for its in-room image
+**Use:** Asa Stool featured product page, detail image; pair with `hardin-g10-balcony` for its in-room image
 
 **Aspect and crop:** 1:1 on #E8DFD2; retain enough edge to explain construction
 
-**Prompt:** Photograph a close detail of the precise hinoki joint beneath the seat edge. Use the accepted Kiso Stool reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 45 cm, level with the seat joint, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show a faint growth-ring change, a tight joint shadow, and a softly rubbed edge. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
+**Prompt:** Photograph a close detail of the precise hinoki joint beneath the seat edge. Use the accepted Asa Stool reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 45 cm, level with the seat joint, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show a faint growth-ring change, a tight joint shadow, and a softly rubbed edge. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
 
 **Negative add-on:** No changed product geometry, invented ornament, over-sharpened fibers, repeated texture, or false damage.
 
-### habi-detail
+### hibla-detail
 
-**Use:** Habi Wall Piece featured product page, detail image; pair with `pahinga-g08-wall-piece` for its in-room image
+**Use:** Hibla Wall Piece featured product page, detail image; pair with `pahinga-g08-wall-piece` for its in-room image
 
 **Aspect and crop:** 1:1 on #E8DFD2; retain enough edge to explain construction
 
-**Prompt:** Photograph a close detail of the handwoven reed and abaca surface meeting its wood rail. Use the accepted Habi Wall Piece reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 130 cm, level with the hanging surface, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show uneven natural fiber thickness, a rail shadow, and a small weave offset. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
+**Prompt:** Photograph a close detail of the handwoven reed and abaca surface meeting its wood rail. Use the accepted Hibla Wall Piece reference and keep every joint, contour, seam, and material unchanged. Place a full-frame 50mm close-focus camera at 130 cm, level with the hanging surface, far enough back to preserve natural scale and avoid exaggerated perspective. Late-afternoon window light rakes softly from camera left, with pale bounce filling the darker side. Let the rest of the same product recede into an empty #E8DFD2 studio background. Show uneven natural fiber thickness, a rail shadow, and a small weave offset. Keep useful depth across the main surface, with gentle falloff only behind it. The object remains clean and sound, with ordinary handling rather than staged distress.
 
 **Negative add-on:** No changed product geometry, invented ornament, over-sharpened fibers, repeated texture, or false damage.
 
@@ -1464,7 +1674,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 4:3 collection card; 16:9 room derivative; shop hero also retains a 16:10 crop
 
-**Prompt:** Photograph a dining corner with natural Hapag, Hain cane-seat chairs, Lenta Pendant, and Tabing linen at the opening. Place a Bilao Tray on the table and keep Kiso tucked clear of chair movement. Use a level full-frame 35mm camera at 120 cm at the table side. Soft morning light comes through the curtain at camera right, with pale reflected fill. Preserve each named product reference exactly. A finite warm wall and pale opening form the background. Show a curtain fold, quiet cane variation, and a slightly rubbed wood edge. Keep shadows open, surfaces matte, and the composition calm, with room around the main grouping for alternate crops.
+**Prompt:** Photograph a dining corner with natural Hapag, Hain cane-seat chairs, Lenta Pendant, and Tabing linen at the opening. Place a Bilao Tray on the table and keep Asa tucked clear of chair movement. Use a level full-frame 35mm camera at 120 cm at the table side. Soft morning light comes through the curtain at camera right, with pale reflected fill. Preserve each named product reference exactly. A finite warm wall and pale opening form the background. Show a curtain fold, quiet cane variation, and a slightly rubbed wood edge. Keep shadows open, surfaces matte, and the composition calm, with room around the main grouping for alternate crops.
 
 **Negative add-on:** No branded breakfast spread, woven chair backs, or polished ceramic shade.
 
@@ -1504,9 +1714,9 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 4:3 collection card; 16:9 room derivative; shop hero also retains a 16:10 crop
 
-**Prompt:** Photograph a Baul Credenza with Tapayan and Bato on top, a Tala mounted above, and Amihan No. 3 plus Tanghali as two wall works. Any display frame is styling, not a claim that a retail frame is included. Use a level full-frame 50mm camera at 125 cm at a shallow frontal angle. Soft shaded afternoon light comes from camera left, with unlit opal glass and warm bounce. Preserve each named product reference exactly. A finite warm wall and pale opening form the background. Show soft brass patina, a tiny glaze pool, and wood grain variation. Keep shadows open, surfaces matte, and the composition calm, with room around the main grouping for alternate crops.
+**Prompt:** Photograph a Baul Credenza with Tapayan and Bato on top, a Sulo mounted above, and Amihan No. 3 plus Tanghali as two wall works. Any display frame is styling, not a claim that a retail frame is included. Use a level full-frame 50mm camera at 125 cm at a shallow frontal angle. Soft shaded afternoon light comes from camera left, with unlit opal glass and warm bounce. Preserve each named product reference exactly. A finite warm wall and pale opening form the background. Show soft brass patina, a tiny glaze pool, and wood grain variation. Keep shadows open, surfaces matte, and the composition calm, with room around the main grouping for alternate crops.
 
-**Negative add-on:** No table-mounted Tala, invented prints, frame inclusion claim, or crowded display.
+**Negative add-on:** No table-mounted Sulo, invented prints, frame inclusion claim, or crowded display.
 
 **Collection reuse map.** These seven cards cover every catalog collection. Supporting props do not change membership.
 
@@ -1531,7 +1741,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 | Lighting | `kapis-studio`; all five lighting masters |
 | Rugs and textiles | `lambot-studio`; all five textile masters |
 | Decor and objects | `tapayan-studio`; all four object masters |
-| Art | `amihan-studio`; Amihan, Tanghali, Habi masters |
+| Art | `amihan-studio`; Amihan, Tanghali, Hibla masters |
 
 ### Page group: Makers index, maker pages, and Home craft panel
 
@@ -1591,7 +1801,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 4:5 maker portrait; 16:9 supporting crop; Lilok also retains a 6:7 maker-page crop
 
-**Prompt:** Photograph spun brass components and opal glass at Tanso Lighting Works in Marikina. Show the Tala reference beside a few unbranded parts on a practical bench, with a dim workshop receding behind. Place a full-frame camera at 110 cm beside the bench, using a 50mm lens at a shallow angle. Soft late-morning window light enters from camera left, with pale bounce across the working area. Keep the background modest and gently out of focus without erasing the workshop context. Show brass handling marks, a real tool shadow, and glass translucency. Preserve natural color and low contrast, with real surface depth. Let the composition feel observed during ordinary work rather than staged for promotion, keeping every object supported.
+**Prompt:** Photograph spun brass components and opal glass at Tanso Lighting Works in Marikina. Show the Sulo reference beside a few unbranded parts on a practical bench, with a dim workshop receding behind. Place a full-frame camera at 110 cm beside the bench, using a 50mm lens at a shallow angle. Soft late-morning window light enters from camera left, with pale bounce across the working area. Keep the background modest and gently out of focus without erasing the workshop context. Show brass handling marks, a real tool shadow, and glass translucency. Preserve natural color and low contrast, with real surface depth. Let the composition feel observed during ordinary work rather than staged for promotion, keeping every object supported.
 
 **Negative add-on:** No neon sparks, gold plating, branded tools, live wiring work, or metal-only Kapis.
 
@@ -1621,7 +1831,7 @@ Silong gallery slots are 1: `silong-studio-front`, 2: `silong-studio-three-quart
 
 **Aspect and crop:** 4:5 maker portrait; 16:9 supporting crop; Lilok also retains a 6:7 maker-page crop
 
-**Prompt:** Photograph pale hinoki joinery at Okabe Mokko in Nagano, with the accepted Kiso Stool beside an orderly woodworking bench. Keep the room practical, without assigning an invented regional architecture or tourist setting. Place a full-frame camera at 85 cm beside the stool, using a 50mm lens near seat height. Soft late-morning window light enters from camera left, with pale bounce across the working area. Keep the background modest and gently out of focus without erasing the workshop context. Show fine growth rings, a pale shaving, and a joint shadow. Preserve natural color and low contrast, with real surface depth. Let the composition feel observed during ordinary work rather than staged for promotion, keeping every object supported.
+**Prompt:** Photograph pale hinoki joinery at Okabe Mokko in Nagano, with the accepted Asa Stool beside an orderly woodworking bench. Keep the room practical, without assigning an invented regional architecture or tourist setting. Place a full-frame camera at 85 cm beside the stool, using a 50mm lens near seat height. Soft late-morning window light enters from camera left, with pale bounce across the working area. Keep the background modest and gently out of focus without erasing the workshop context. Show fine growth rings, a pale shaving, and a joint shadow. Preserve natural color and low contrast, with real surface depth. Let the composition feel observed during ordinary work rather than staged for promotion, keeping every object supported.
 
 **Negative add-on:** No tourist props, dark stain, branded tools, or invented second product.
 
@@ -1747,7 +1957,7 @@ Oat linen in the Lilim strip reuses `silong-fabric`. The Home cane statement reu
 
 **Aspect and crop:** 4:5 service portrait; 16:9 room derivative
 
-**Prompt:** Photograph a quiet furnishing detail with an oat Tabing Linen Curtain, a pale Kiso Stool, and a Tapayan Vessel resting securely nearby. Use a full-frame 50mm camera at 95 cm from the room side, with the low stool below the curtain folds. Keep the vessel proportionate and avoid crowding it onto the small stool if support is insufficient. Shaded afternoon light enters from camera right, softened through the curtain. Let a plain warm wall and an opening edge form the background. Include a gentle hem ripple, a small glaze pool, and a pale hinoki grain change.
+**Prompt:** Photograph a quiet furnishing detail with an oat Tabing Linen Curtain, a pale Asa Stool, and a Tapayan Vessel resting securely nearby. Use a full-frame 50mm camera at 95 cm from the room side, with the low stool below the curtain folds. Keep the vessel proportionate and avoid crowding it onto the small stool if support is insufficient. Shaded afternoon light enters from camera right, softened through the curtain. Let a plain warm wall and an opening edge form the background. Include a gentle hem ripple, a small glaze pool, and a pale hinoki grain change.
 
 **Negative add-on:** No invented project attribution, vessel floating on fabric, dark hinoki stain, or oversized stool.
 
@@ -1798,6 +2008,8 @@ These details supplement the catalog's explicit Home, Originals, and new-piece f
 **Negative add-on:** No signature, readable edition number, changed artwork, or frame inclusion claim.
 
 ## Generation notes
+
+Status, 2026-11-16: these notes predate the design files. Where they describe project rooms, the project's design file and the photography rules win. For Lilim House that is already the case: its shell, seating, finishes, and light are in [the Lilim design file](project-designs/lilim-house.md), not in the paragraphs below. The notes on products, makers, and fake tells still apply.
 
 ### Order and reference handling
 
@@ -1862,7 +2074,7 @@ All 106 supplied placeholder lines have a canonical destination below. Generic r
 | 21 | Empty room, a bright doorway, a band of light across the floor | `utility-empty-room` |
 | 22 | Exterior | `lilim-g10-exterior` |
 | 23 | Guest room, pale walls, reed mat, open window | `dalampasigan-hero` |
-| 24 | Habi Wall Piece | `habi-studio` |
+| 24 | Hibla Wall Piece | `hibla-studio` |
 | 25 | Hain Dining Chair | `hain-studio` |
 | 26 | Hallway | `lilim-g07-hallway` |
 | 27 | Hand-woven cane on a rattan frame | `maker-sulihiya` |
@@ -1878,7 +2090,7 @@ All 106 supplied placeholder lines have a canonical destination below. Generic r
 | 37 | Honed marble slab and a carved stone form | `maker-marmol` |
 | 38 | Kanlungan studio, a long table, a pendant, soft daylight | `about-studio` |
 | 39 | Kapis Pendant | `kapis-studio` |
-| 40 | Kiso Stool | `kiso-studio` |
+| 40 | Asa Stool | `asa-studio` |
 | 41 | Lambot Wool Rug | `lambot-studio` |
 | 42 | Lenta Pendant | `lenta-studio` |
 | 43 | Lilim House | `lilim-hero` |

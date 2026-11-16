@@ -57,7 +57,7 @@ Only these pieces appear. Small loose items (closed books, a notebook, a water g
 | Unan Bed, queen 172 × 222 cm, sand linen | 1 | Centered x 8.5, y 10.69; head at y 11.8 | South |
 | Bakal Side Table, Ø38 × 50 cm | 1 | Centered x 9.6, y 11.1 | South |
 | Luad Table Lamp | 1 | On Bakal, x 9.6, y 11.1; base at 0.50 m, top at 0.96 m | |
-| Tala Wall Light | 1 | North wall y 11.8, x 7.35; center 1.35 m, projection 0.18 m | South |
+| Sulo Wall Light | 1 | North wall y 11.8, x 7.35; center 1.35 m, projection 0.18 m | South |
 | Main closed wardrobe, 1.50 × 0.55 × 2.60 m (not a catalog piece) | 1 | South wall, x 8 to 9.5, y 8 to 8.55 | North |
 | Low bleached acacia guest bed, 1.40 × 2.00 m, sand linen (not a catalog piece) | 1 | Centered x 8.7, y 4.5; head at y 5.5 | South |
 | Guest bedside ledge, 0.35 × 0.40 × 0.45 m (not a catalog piece) | 1 | Centered x 7.75, y 4.9 | South |
@@ -82,7 +82,7 @@ No other catalog pieces, rugs, lamps, or seating. Tall closed built-ins do the s
 | C3 (anchor, dining) | `tanaw-g03-dining` | 3.7, 5.8 | 1.25 m | 200 | 35mm | Ø110 terrazzo Salo and four bleached acacia Hain chairs, bleached Baul behind, west glass and dusk at right; no invented pendant |
 | C4 | `tanaw-g04-shelving` | 2.3, 8.9 | 1.30 m | 24 | 50mm | Blackened steel Estante on north wall with bleached shelves, books, and brass fittings, finite wall at right; sofa is outside this tight crop |
 | C5 (anchor, main bedroom) | `tanaw-g05-bedroom-lamp` | 7.65, 8.3 | 1.10 m | 27 | 35mm | Queen sand Unan ahead, Luad on blackened steel Bakal and east dusk window at right, sand linen and clear foot passage |
-| C6 | `tanaw-g06-wall-light` | 7.4, 9.5 | 1.25 m | 359 | 50mm | Tala on solid north wall, west pillow edge below at right; no window behind light |
+| C6 | `tanaw-g06-wall-light` | 7.4, 9.5 | 1.25 m | 359 | 50mm | Sulo on solid north wall, west pillow edge below at right; no window behind light |
 | C7 (anchor, guest bedroom) | `tanaw-g07-guest-bedroom` | 7.65, 2.4 | 1.15 m | 26 | 35mm | Guest bed and bedside ledge ahead, east window at right, wardrobe edge at left |
 | C8 (anchor, study) | `tanaw-g08-study` | 7.35, 5.95 | 1.25 m | 57 | 35mm | Desk beside east window at right, closed north storage at left, clear chair and knee space |
 | C9 (anchor, entry) | `tanaw-g09-entry` | 6.35, 4.0 | 1.30 m | 180 | 50mm | Narrow hall, closed storage at left, one entry lamp and ledge at right, front door beyond; no impossible sofa glimpse through a wall |

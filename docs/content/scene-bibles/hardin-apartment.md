@@ -58,7 +58,7 @@ Only these pieces appear. Small loose items are limited to the named book, paper
 | Planned closed mahogany wardrobe, 0.60 × 1.80 × 2.40 m (not a catalog piece) | 1, bedroom render and plan only | East bedroom wall, x 5.4 to 6, y 5.3 to 7.1 | West |
 | Pasilyo Console Table, ebonized mahogany and natural cane | 1, entry photograph and plan | Entry, centered x 7.4, y 1.41; 1.50 east to west × 0.38 north to south | South |
 | Bato Object | 1, entry photograph and plan | On console at x 7.4, y 1.4; base 0.80 m, top 1.02 m | Upright |
-| Kiso Stool | 1, balcony photograph and plan | Balcony, centered x 0.6, y 1.6; 0.36 × 0.36 | East, toward doorway |
+| Asa Stool | 1, balcony photograph and plan | Balcony, centered x 0.6, y 1.6; 0.36 × 0.36 | East, toward doorway |
 | Plain plant pots with tropical foliage (not a catalog piece) | 3 | Balcony centers (0.3, 0.4), (0.3, 2.65), (0.9, 2.75); Ø0.30 each, foliage tops 0.75, 1.20, 0.90 m | Keep central stool route clear |
 | Kitchen counter and closed cabinets (not a catalog piece) | 1 run | x 9.4 to 10, y 1.8 to 4.2; counter 0.90 m | West |
 | Design book, 0.24 × 0.18 m closed (not a catalog piece) | 1 | Studio table, open spread centered x 1.2, y 0.7, 0.48 east to west × 0.18 north to south; same book for C4, C5, C8 | Top of page north; turn pages, do not change binding |
@@ -81,7 +81,7 @@ Unan and Bakal appear only in the bedroom render, plan, and later sourcing stage
 | C7 | `hardin-g07-floor-plan` | Studio: 1.2, 0.6 | 1.55 m | 0 | 50mm | Single 74 sqm outline with fixed furniture, balcony west at page left, bedroom north at page top, pencil outside right edge; 0.80 m above tabletop, pitch down about 83 degrees |
 | C8 | `hardin-g08-sourcing-list` | Studio: 1.2, 0.25 | 1.50 m | 0 | 50mm | Same book and binding, exactly three sourcing groups, sofa/lamp/rug thumbnails first, unreadable rows; 0.75 m above tabletop, pitch down about 59 degrees |
 | C9 (anchor, entry) | `hardin-g09-entry` | 9.65, 0.6 | 1.20 m | 290 | 50mm | Ebonized mahogany Pasilyo receding along north entry wall, cane shelf below, Bato on top, clear passage in foreground |
-| C10 (anchor, balcony) | `hardin-g10-balcony` | 2.8, 1.4 | 1.00 m | 275 | 50mm | Kiso through open sliders, pots at margins, 1.2 m balcony depth, west safety guard behind; no widened terrace |
+| C10 (anchor, balcony) | `hardin-g10-balcony` | 2.8, 1.4 | 1.00 m | 275 | 50mm | Asa through open sliders, pots at margins, 1.2 m balcony depth, west safety guard behind; no widened terrace |
 
 ## Status of existing photos
 

@@ -140,8 +140,8 @@ export const products: Product[] = [
     "variants": []
   },
   {
-    "slug": "kiso-stool",
-    "name": "Kiso Stool",
+    "slug": "asa-stool",
+    "name": "Asa Stool",
     "category": "Seating",
     "subcategory": "Stools and benches",
     "description": "A light stool in pale Japanese cypress.",
@@ -641,8 +641,8 @@ export const products: Product[] = [
     "variants": []
   },
   {
-    "slug": "tala-wall-light",
-    "name": "Tala Wall Light",
+    "slug": "sulo-wall-light",
+    "name": "Sulo Wall Light",
     "category": "Lighting",
     "subcategory": "Wall lights",
     "description": "A small brass wall light with an opal glass globe.",
@@ -917,7 +917,7 @@ export const products: Product[] = [
     "name": "Tanghali",
     "category": "Art",
     "subcategory": "Paintings",
-    "description": "A landscape painting by Paolo Sarmiento.",
+    "description": "A landscape painting by Paolo Vergara.",
     "price": 85000,
     "priceUnit": null,
     "maker": "Amihan Editions",
@@ -930,8 +930,8 @@ export const products: Product[] = [
     "variants": []
   },
   {
-    "slug": "habi-wall-piece",
-    "name": "Habi Wall Piece",
+    "slug": "hibla-wall-piece",
+    "name": "Hibla Wall Piece",
     "category": "Art",
     "subcategory": "Wall pieces",
     "description": "A large woven wall piece in reed and abaca.",
@@ -959,5 +959,5 @@ export const originalProductSlugs = [
   "silong-sofa", "yakap-sofa", "hapag-dining-table", "unan-bed", "sinag-floor-lamp", "lambot-wool-rug"
 ];
 export const newPieceSlugs = [
-  "lenta-pendant", "kiso-stool", "habi-wall-piece", "salo-dining-table", "tanghali", "bakal-side-table"
+  "lenta-pendant", "asa-stool", "hibla-wall-piece", "salo-dining-table", "tanghali", "bakal-side-table"
 ];

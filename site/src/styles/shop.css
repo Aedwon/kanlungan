@@ -1,7 +1,18 @@
 .shop-desktop{display:block}.shop-mobile{display:none}
 .shop-page .notify-form{margin-top:16px}
 .shop-page .chk{cursor:pointer}
-.shop-page .chk input:checked+.box::after{content:'✓';display:block;color:#F7F2EA;text-align:center;font-size:14px;line-height:16px}
+/* The check mark is the .tick svg in the template; no pseudo-element check. Scroller padding keeps the 1px+2px selected outline unclipped. */
+.shop-category-desktop .hscroll{padding-left:4px!important;padding-right:4px!important;margin-left:-4px!important}
+.shop-page .chk .tick{opacity:0}
+.shop-page .chk:has(input:checked) .tick{opacity:1}
+.shop-page .chk:has(input:checked) .box{background:#8E4A2C!important;border-color:#8E4A2C!important}
+.shop-page .chk:has(input:focus-visible) .box{outline:2px solid #2E211A;outline-offset:3px}
+.shop-page .chk:hover{color:#8E4A2C}
+.clear-all{appearance:none;background:none;border:0;padding:0;min-height:44px;display:inline-flex;align-items:center;font-family:inherit;color:#2E211A;cursor:pointer}
+.clear-all:hover{text-decoration:underline;text-underline-offset:4px;color:#8E4A2C}
+.clear-all:focus-visible{outline:2px solid #2E211A;outline-offset:3px}
+.clear-row{display:flex;justify-content:flex-end;margin-bottom:4px}
+.shop-filter-title .clear-all{margin-left:auto}
 .shop-page .hscroll [aria-current=page]{outline:1px solid #8E4A2C;outline-offset:2px}
 .cart-toast{position:fixed;right:32px;bottom:32px;z-index:150;display:flex;gap:16px;align-items:flex-start;width:380px;box-sizing:border-box;padding:16px 8px 16px 20px;background:#F2ECE3;border:1px solid #D3C4B1;border-radius:2px}
 .cart-toast>svg{flex:none;margin-top:1px}
@@ -21,8 +32,9 @@
 .shop-filter-panel .chk{display:flex;align-items:center;gap:12px;min-height:44px;font-size:15px;cursor:pointer}
 .shop-filter-panel .box{display:block;width:18px;height:18px;border:1px solid #6A584A;border-radius:2px}
 .shop-filter-panel .chk>span:last-child{margin-left:auto;color:#6A584A}
-.shop-filter-panel .chk input:checked+.box{background:#8E4A2C}
-.shop-filter-panel .chk input:checked+.box::after{content:'✓';display:block;text-align:center;color:#F7F2EA;font-size:14px;line-height:16px}
-.shop-filter-panel .chk input:focus-visible+.box{outline:2px solid #2E211A;outline-offset:3px}
+.shop-filter-panel .chk .tick{opacity:0}
+.shop-filter-panel .chk:has(input:checked) .tick{opacity:1}
+.shop-filter-panel .chk:has(input:checked) .box{background:#8E4A2C!important;border-color:#8E4A2C!important}
+.shop-filter-panel .chk:has(input:focus-visible) .box{outline:2px solid #2E211A;outline-offset:3px}
 @media(max-width:1279px){.shop-desktop{display:none}.shop-mobile{display:block}.shop-page .ph{display:none}.cart-toast{left:20px;right:20px;bottom:24px;width:auto}.shop-page .mbar{z-index:60}}
 @media(prefers-reduced-motion:reduce){.shop-page *{animation:none!important;transition:none!important}}

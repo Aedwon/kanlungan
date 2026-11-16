@@ -44,7 +44,7 @@ for p in products:
  page=Page((base/('shop/products/'+p['slug']+'.html')).read_text())
  assert page.h1==[p['name'],p['name']],(p['slug'],page.h1)
  inputs=[a for tag,a in page.nodes if tag=='input' and a.get('type')=='email']
- if p['slug']=='kiso-stool': assert len(inputs)==2
+ if p['slug']=='asa-stool': assert len(inputs)==2
  else:
   for option in p['variants']:
    controls=[a for tag,a in page.nodes if tag=='button' and a.get('data-option-name')==option['name']]

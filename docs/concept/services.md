@@ -95,7 +95,7 @@ The site shows starting prices. It does not show a full rate card. Exact fees co
 
 - A fixed design and management fee, quoted per project and based on floor area and scope
 - The furnishing budget is separate. The client pays for the pieces at listed prices. Kanlungan adds no hidden markup on shop items.
-- Stated on the site as: "Furnishing projects start at ₱1,500,000, including the design fee."
+- Stated on the site as: "Furnishing projects start at ₱500,000, including the design fee."
 - Payment: 50 percent of the design fee on signing, 50 percent at design approval. Furnishing budget: 70 percent before procurement, 30 percent before installation.
 
 ### Interior Design Direction

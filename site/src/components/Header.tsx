@@ -10,7 +10,7 @@ import { Button } from './Button';
 import { Logo } from './Logo';
 import { CategoryIcon } from './CategoryIcon';
 import { InterfaceIcon } from './InterfaceIcon';
-import { ImagePlaceholder } from './ImagePlaceholder';
+import { PhotoSlot } from './Photo';
 import { TextLink } from './TextLink';
 type Panel = 'shop' | 'studio' | 'menu' | 'mobile-shop' | null;
 const services = [
@@ -91,7 +91,7 @@ export function Header() {
     <div id="shop-panel" data-panel="shop" className="shop-panel header-panel" data-open={panel === 'shop'} inert={panel !== 'shop'}>
       <div className="shop-categories">{categories.map((category) => <Link key={category.slug} href={category.href} className="cat" onClick={() => setPanel(null)}><CategoryIcon name={category.name} /><span>{category.name}</span></Link>)}</div>
       <div className="shop-collections">{collections.map((collection) => <Link key={collection.slug} href={`/shop/collections/${collection.slug}`} onClick={() => setPanel(null)}>{collection.name}</Link>)}</div>
-      <div className="shop-feature"><Link href="/shop/collections/quiet-living" className="qa" onClick={() => setPanel(null)}><ImagePlaceholder alt="Quiet Living: low sofa and stone table in soft evening light" className="shop-feature-image im" /><span>Quiet Living</span></Link><TextLink href="/shop/makers" onClick={() => setPanel(null)}>Makers</TextLink></div>
+      <div className="shop-feature"><Link href="/shop/collections/quiet-living" className="qa" onClick={() => setPanel(null)}><PhotoSlot name="pahinga-sitting-corner" alt="Quiet Living: a low sofa, a round wood table and a lamp in a calm room" position="75% 50%" className="shop-feature-image im" sizes="240px" /><span>Quiet Living</span></Link><TextLink href="/shop/makers" onClick={() => setPanel(null)}>Makers</TextLink></div>
     </div>
     <div id="mobile-menu" className="mobile-menu header-panel" data-panel={panel === 'mobile-shop' ? 'mobile-shop' : 'menu'} data-open={mobile} role={mobile ? 'dialog' : undefined} aria-modal={mobile || undefined} aria-label={panel === 'mobile-shop' ? 'Shop menu' : 'Main menu'} inert={!mobile}>
       <div className="mobile-menu-head">{panel === 'mobile-shop' ? <button type="button" onClick={() => setPanel('menu')} className="menu-back"><InterfaceIcon name="back" />Shop</button> : <Logo />}<button type="button" className="ib" onClick={close} aria-label="Close menu"><InterfaceIcon name="close" /></button></div>

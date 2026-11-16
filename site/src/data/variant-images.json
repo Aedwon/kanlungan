@@ -1,0 +1,366 @@
+{
+ "silong-sofa": {
+  "silong-studio-front": [
+   {
+    "when": {
+     "Fabric": "Oat linen",
+     "Size": "Two-seat 178 cm"
+    },
+    "image": "silong-sofa-two-seat-oat-linen-studio-front"
+   },
+   {
+    "when": {
+     "Fabric": "Sand linen"
+    },
+    "image": "silong-sofa-sand-linen-studio-front"
+   },
+   {
+    "when": {
+     "Fabric": "Sand linen",
+     "Size": "Two-seat 178 cm"
+    },
+    "image": "silong-sofa-two-seat-sand-linen-studio-front"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen"
+    },
+    "image": "silong-sofa-clay-linen-studio-front"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen",
+     "Size": "Two-seat 178 cm"
+    },
+    "image": "silong-sofa-two-seat-clay-linen-studio-front"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen"
+    },
+    "image": "silong-sofa-charcoal-linen-studio-front"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen",
+     "Size": "Two-seat 178 cm"
+    },
+    "image": "silong-sofa-two-seat-charcoal-linen-studio-front"
+   }
+  ],
+  "silong-studio-three-quarter": [
+   {
+    "when": {
+     "Fabric": "Oat linen",
+     "Size": "Two-seat 178 cm"
+    },
+    "image": "silong-sofa-two-seat-oat-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Sand linen"
+    },
+    "image": "silong-sofa-sand-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Sand linen",
+     "Size": "Two-seat 178 cm"
+    },
+    "image": "silong-sofa-two-seat-sand-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen"
+    },
+    "image": "silong-sofa-clay-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen",
+     "Size": "Two-seat 178 cm"
+    },
+    "image": "silong-sofa-two-seat-clay-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen"
+    },
+    "image": "silong-sofa-charcoal-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen",
+     "Size": "Two-seat 178 cm"
+    },
+    "image": "silong-sofa-two-seat-charcoal-linen-studio"
+   }
+  ],
+  "silong-detail": [
+   {
+    "when": {
+     "Fabric": "Sand linen"
+    },
+    "image": "silong-sofa-sand-linen-detail"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen"
+    },
+    "image": "silong-sofa-clay-linen-detail"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen"
+    },
+    "image": "silong-sofa-charcoal-linen-detail"
+   }
+  ],
+  "silong-cushion-detail": [
+   {
+    "when": {
+     "Fabric": "Sand linen"
+    },
+    "image": "silong-sofa-sand-linen-cushion-detail"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen"
+    },
+    "image": "silong-sofa-clay-linen-cushion-detail"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen"
+    },
+    "image": "silong-sofa-charcoal-linen-cushion-detail"
+   }
+  ],
+  "silong-fabric": [
+   {
+    "when": {
+     "Fabric": "Sand linen"
+    },
+    "image": "silong-sofa-sand-linen-fabric"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen"
+    },
+    "image": "silong-sofa-clay-linen-fabric"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen"
+    },
+    "image": "silong-sofa-charcoal-linen-fabric"
+   }
+  ]
+ },
+ "hain-dining-chair": {
+  "hain-studio": [
+   {
+    "when": {
+     "Finish": "Ebonized mahogany"
+    },
+    "image": "hain-dining-chair-ebonized-mahogany-studio"
+   },
+   {
+    "when": {
+     "Finish": "Acacia"
+    },
+    "image": "hain-dining-chair-acacia-studio"
+   },
+   {
+    "when": {
+     "Finish": "Bleached acacia"
+    },
+    "image": "hain-dining-chair-bleached-acacia-studio"
+   }
+  ]
+ },
+ "yakap-sofa": {
+  "yakap-studio": [
+   {
+    "when": {
+     "Fabric": "Sand linen"
+    },
+    "image": "yakap-sofa-sand-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen"
+    },
+    "image": "yakap-sofa-clay-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen"
+    },
+    "image": "yakap-sofa-charcoal-linen-studio"
+   }
+  ]
+ },
+ "hapag-dining-table": {
+  "hapag-studio": [
+   {
+    "when": {
+     "Finish": "Ebonized mahogany"
+    },
+    "image": "hapag-dining-table-ebonized-mahogany-studio"
+   },
+   {
+    "when": {
+     "Finish": "Acacia"
+    },
+    "image": "hapag-dining-table-acacia-studio"
+   },
+   {
+    "when": {
+     "Finish": "Bleached acacia"
+    },
+    "image": "hapag-dining-table-bleached-acacia-studio"
+   }
+  ]
+ },
+ "sulok-side-table": {
+  "sulok-studio": [
+   {
+    "when": {
+     "Finish": "Bleached"
+    },
+    "image": "sulok-side-table-bleached-studio"
+   },
+   {
+    "when": {
+     "Finish": "Ebonized"
+    },
+    "image": "sulok-side-table-ebonized-studio"
+   }
+  ]
+ },
+ "himlay-bed": {
+  "himlay-studio": [
+   {
+    "when": {
+     "Finish": "Ebonized mahogany"
+    },
+    "image": "himlay-bed-ebonized-mahogany-studio"
+   },
+   {
+    "when": {
+     "Finish": "Acacia"
+    },
+    "image": "himlay-bed-acacia-studio"
+   },
+   {
+    "when": {
+     "Finish": "Bleached acacia"
+    },
+    "image": "himlay-bed-bleached-acacia-studio"
+   }
+  ]
+ },
+ "unan-bed": {
+  "unan-studio": [
+   {
+    "when": {
+     "Fabric": "Sand linen"
+    },
+    "image": "unan-bed-sand-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Clay linen"
+    },
+    "image": "unan-bed-clay-linen-studio"
+   },
+   {
+    "when": {
+     "Fabric": "Charcoal linen"
+    },
+    "image": "unan-bed-charcoal-linen-studio"
+   }
+  ]
+ },
+ "baul-credenza": {
+  "baul-studio": [
+   {
+    "when": {
+     "Finish": "Bleached"
+    },
+    "image": "baul-credenza-bleached-studio"
+   },
+   {
+    "when": {
+     "Finish": "Ebonized"
+    },
+    "image": "baul-credenza-ebonized-studio"
+   }
+  ]
+ },
+ "estante-shelving": {
+  "estante-studio": [
+   {
+    "when": {
+     "Shelf finish": "Bleached"
+    },
+    "image": "estante-shelving-bleached-studio"
+   }
+  ]
+ },
+ "hablon-cushion": {
+  "hablon-studio": [
+   {
+    "when": {
+     "Color": "Indigo"
+    },
+    "image": "hablon-cushion-indigo-studio"
+   },
+   {
+    "when": {
+     "Color": "Rust"
+    },
+    "image": "hablon-cushion-rust-studio"
+   },
+   {
+    "when": {
+     "Color": "Moss"
+    },
+    "image": "hablon-cushion-moss-studio"
+   }
+  ]
+ },
+ "kumot-throw": {
+  "kumot-studio": [
+   {
+    "when": {
+     "Color": "Indigo"
+    },
+    "image": "kumot-throw-indigo-studio"
+   },
+   {
+    "when": {
+     "Color": "Rust"
+    },
+    "image": "kumot-throw-rust-studio"
+   }
+  ]
+ },
+ "tabing-linen-curtain": {
+  "tabing-studio": [
+   {
+    "when": {
+     "Color": "White"
+    },
+    "image": "tabing-linen-curtain-white-studio"
+   },
+   {
+    "when": {
+     "Color": "Sand"
+    },
+    "image": "tabing-linen-curtain-sand-studio"
+   }
+  ]
+ }
+}

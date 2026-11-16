@@ -217,7 +217,7 @@ Status: **Decided on delegation.**
 
 Status: **Locked by Aedwon** on 2026-11-14.
 
-The Philippine hardwood range uses plantation mahogany and acacia, with natural, bleached, or ebonized finishes. No molave or narra. Each product offers only the choices listed in `docs/content/catalog.md`; this is not a promise of every finish on every piece. The imported Kiso Stool remains hinoki. Concealed frames in Yakap and Unan remain described as hardwood, without an exposed wood option. Silong Sofa and Lilim House stay unchanged. Approved photographs stay unchanged. Project material specifications live in `docs/content/projects.md` and the scene bibles.
+The Philippine hardwood range uses plantation mahogany and acacia, with natural, bleached, or ebonized finishes. No molave or narra. Each product offers only the choices listed in `docs/content/catalog.md`; this is not a promise of every finish on every piece. The imported Asa Stool remains hinoki. Concealed frames in Yakap and Unan remain described as hardwood, without an exposed wood option. The two-wood range limits shop products only. Projects may use other woods and finishes, as their design files say. Project material specifications live in `docs/content/projects.md` and the scene bibles.
 
 ## Beds
 

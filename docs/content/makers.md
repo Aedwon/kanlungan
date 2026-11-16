@@ -56,7 +56,7 @@ Not a maker page. Pieces designed by the studio and built by partner workshops i
 
 - **Place:** Quezon City, Metro Manila
 - **Craft:** Limited-edition prints and original paintings
-- **Story:** A print studio and small gallery that publishes work by Philippine artists. Amihan prints on cotton rag paper in editions of fifty or fewer. Artists represented in the shop: **Ines Dalisay** (abstract works on paper) and **Paolo Sarmiento** (landscape paintings).
+- **Story:** A print studio and small gallery that publishes work by Philippine artists. Amihan prints on cotton rag paper in editions of fifty or fewer. Artists represented in the shop: **Ines Dalisay** (abstract works on paper) and **Paolo Vergara** (landscape paintings).
 
 ## International makers
 

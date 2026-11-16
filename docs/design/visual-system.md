@@ -65,12 +65,21 @@ Only the footer and text over images are dark. Clay is the primary button fill a
 
 ## Imagery
 
+Status: **Revised on 2026-11-16,** twice. Aedwon reopened the light and color grade rules he locked on 2026-11-13, after rejecting the first Lilim House photographs. Motivated light is his, locked from round 3 (`design/round-3-interiors/`). The rest was revised after his round 4 picks (`design/round-4-calibration/`) and is decided on delegation. Crop and text over images are unchanged.
+
 - **Crop:** full-bleed 21:9 and 16:9 for rooms, 3:4 for projects, 1:1 for products
-- **Light:** shaded daylight under deep eaves, with a bright, pale opening band
-- **Color grade:** warm umber floors, olive-green foliage, low contrast, lifted blacks
+- **Light is motivated (locked):** warmth comes only from things that give off warm light: a lamp, a pendant, a warm ceiling light, low sun. It fades with distance from them. Everything else keeps the neutral to cool balance of daylight. Warmth is never a shift over the whole picture.
+- **Lit as lived:** a room is lit as the people in it would light it at that hour. Evening rooms are lit and bright enough to live in.
+- **Each room is designed for itself:** there is no house palette and no menu of directions. Each home's palette is set in its design file under the standards in the [studio hand](studio-hand.md). This replaces "the palette answers the site," which did not hold in round 4. It needs Aedwon's confirmation.
+- **No grade:** neutral white balance in every photograph. Whites read white and foliage reads green. Every frame holds one true dark and one clean bright.
+- **Real homes:** rooms are furnished, lived in, and shown without people. Screens, cooling units, and sockets stay in the picture. A case study shows the whole home.
+- **Variety:** no camera recipe, lamp, or hero object repeats across projects.
+- **Before and after:** each project hero is a pair: the plain shell as handed over, and the furnished room from the same camera at the same hour. The project hero pair uses the home hero's scroll wipe, in the same direction. Every other pair uses slider A, a drag handle with Before on the left and After on the right, working with mouse, touch, and arrow keys (picked by Aedwon 2026-11-16 from `design/round-6-project-page/sliders.html`).
 - **Text over images:** a warm umber scrim (based on `#2E211A`) rises from the bottom edge, so `#F7F2EA` text passes 4.5:1
-- **Exception:** Tanaw Residence is shot at dusk, in the same warm grade
-- Exception: Tanaw Residence (bleached acacia floors) and Pahinga Villas (cream limestone floors) have pale floors instead of warm umber floors.
+
+Removed on 2026-11-16: "shaded daylight under deep eaves" as the light for all imagery, the "warm umber floors, olive-green foliage, low contrast, lifted blacks" grade, the Tanaw dusk exception, and the pale floor exception. Each project is now shot in the light of its own site.
+
+The full rules and the pairing method are in [image briefs](../content/image-briefs.md#photography-rules).
 
 ## Components
 
@@ -88,7 +97,7 @@ Status: **Locked by Aedwon** on 2026-11-14. The Home layout combines sections he
 
 | Home section | Source | Behavior |
 |---|---|---|
-| Header and hero | "Clean threshold" (`design/combined/Hero-options.dc.html`) | Heading at type.display on limewash, left. A framed Lilim House window on the right grows to full bleed on scroll, and the text turns light where the window passes. The header booking button hides while the hero button shows. |
+| Header and hero | "Clean threshold" (`design/combined/Hero-options.dc.html`) | Heading at type.display on limewash, left. A framed Lilim House window on the right grows to full bleed on scroll, and the text turns light where the window passes. The header booking button hides while the hero button shows. Added 2026-11-16, picked by Aedwon: the window opens on the empty Lilim room (the hero before) and turns into the furnished room as it grows to full bleed. Motion: a soft wipe (picked by Aedwon from `design/round-5-hero-reveal/hero-reveal.html`). The page releases about 96 px of scroll after full bleed on desktop and 80 px on phones, not 312 px and 280 px; the header button timing must move with it. |
 | Statement | Layout 3 | The statement stays pinned on the left while three tall images scroll past on the right. No shadow stripes. |
 | Recent projects | Layout 3 | Full-width project cards stack and slide over each other as you scroll. |
 | Two ways to work with us | Layout 1 | Two tall panels. A room image is revealed from the bottom on hover. Large "From" price, a short qualifier under it. |
@@ -145,4 +154,5 @@ Reference: `design/identity/Logo-fable.dc.html`, section "Afternoon". The board 
 
 ## Not yet decided
 
-- Final photography. The mockups use labeled placeholders that follow the imagery rules above.
+- Final photography. The mockups use labeled placeholders. They predate the imagery rules revised on 2026-11-16.
+- Project page: layout B, room-by-room chapters with a sticky room index (picked by Aedwon 2026-11-16 from `design/round-6-project-page/project-page-B.html`). Materials: a swatch row. Shop the project: compact rows with thumbnails (both picked 2026-11-16 from `design/round-7-project-sections/options.html`).

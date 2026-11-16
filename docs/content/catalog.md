@@ -15,7 +15,7 @@ Dimensions are width × depth × height in centimeters. "Ø" means diameter. Lea
 | Hain Dining Chair | Dining chairs | A solid wood dining chair with a woven cane seat. | ₱24,500 | Kanlungan Original | Plantation mahogany, cane | 48 × 52 × 80 | Pampanga, Philippines | Made to order, 8 weeks |
 | Bangko Bench | Stools and benches | A long bench cut from solid acacia with visible joinery. | ₱38,000 | Lilok Workshop | Acacia, oil finish | 140 × 38 × 45 | Betis, Pampanga, Philippines | Made to order, 6 weeks |
 | Tuntungan Stool | Stools and benches | A small carved stool that also works as a side table. | ₱14,800 | Lilok Workshop | Acacia, oil finish | 34 × 34 × 44 | Betis, Pampanga, Philippines | In stock |
-| Kiso Stool | Stools and benches | A light stool in pale Japanese cypress. | ₱19,500 | Okabe Mokko | Hinoki cypress | 36 × 36 × 42 | Nagano, Japan | In stock |
+| Asa Stool | Stools and benches | A light stool in pale Japanese cypress. | ₱19,500 | Okabe Mokko | Hinoki cypress | 36 × 36 × 42 | Nagano, Japan | In stock |
 | Yakap Sofa | Sofas | A deep, fully upholstered sofa with a removable linen cover. | ₱168,000 | Kanlungan Original | Linen blend, feather and foam fill, concealed hardwood frame | 236 × 98 × 72 | Cebu, Philippines | Made to order, 10 weeks |
 
 ## Tables
@@ -55,7 +55,7 @@ Bed frames and daybeds are sold without a mattress.
 | Lenta Pendant | Pendant lights | A matte ceramic shade for use over a dining table. | ₱27,000 | Forma Lenta | Unglazed stoneware, brass fitting | Ø34 × 26 | Caldas da Rainha, Portugal | In stock |
 | Sinag Floor Lamp | Floor lamps | A slim brass floor lamp with a linen shade. | ₱36,500 | Kanlungan Original | Brass, linen, acacia base | Ø40 × 155 | Cebu, Philippines | Made to order, 6 weeks |
 | Luad Table Lamp | Table lamps | A hand-thrown stoneware base with a linen shade. | ₱14,500 | Bukal Clayworks | Stoneware, ash glaze, linen | Ø30 × 46 | Tiwi, Albay, Philippines | In stock |
-| Tala Wall Light | Wall lights | A small brass wall light with an opal glass globe. | ₱11,800 | Tanso Lighting Works | Unlacquered brass, opal glass | 14 × 18 × 24 | Marikina, Philippines | In stock |
+| Sulo Wall Light | Wall lights | A small brass wall light with an opal glass globe. | ₱11,800 | Tanso Lighting Works | Unlacquered brass, opal glass | 14 × 18 × 24 | Marikina, Philippines | In stock |
 
 ## Rugs and textiles
 
@@ -81,8 +81,8 @@ Bed frames and daybeds are sold without a mattress.
 | Name | Subcategory | Description | Price | Maker | Materials | Dimensions | Origin | Availability |
 |---|---|---|---|---|---|---|---|---|
 | Amihan No. 3 | Prints | An abstract print by Ines Dalisay, in an edition of 50. | ₱9,800 | Amihan Editions | Pigment print on cotton rag paper, unframed | 50 × 70 | Quezon City, Philippines | In stock |
-| Tanghali | Paintings | A landscape painting by Paolo Sarmiento. | ₱85,000 | Amihan Editions | Acrylic on canvas | 90 × 120 | Quezon City, Philippines | In stock, one of a kind |
-| Habi Wall Piece | Wall pieces | A large woven wall piece in reed and abaca. | ₱42,000 | Tikog Loom | Tikog reed, abaca, wood rail | 90 × 4 × 140 | Basey, Samar, Philippines | Made to order, 8 weeks |
+| Tanghali | Paintings | A landscape painting by Paolo Vergara. | ₱85,000 | Amihan Editions | Acrylic on canvas | 90 × 120 | Quezon City, Philippines | In stock, one of a kind |
+| Hibla Wall Piece | Wall pieces | A large woven wall piece in reed and abaca. | ₱42,000 | Tikog Loom | Tikog reed, abaca, wood rail | 90 × 4 × 140 | Basey, Samar, Philippines | Made to order, 8 weeks |
 
 ## Variants
 
@@ -119,21 +119,21 @@ A product may sit in more than one collection.
 
 - **Living Room:** Yakap Sofa, Bakal Side Table, Silong Sofa, Dapithapon Lounge Chair, Batis Coffee Table, Sulok Side Table, Baul Credenza, Estante Shelving, Sinag Floor Lamp, Lambot Wool Rug, Hablon Cushion, Kumot Throw, Bilao Tray, Tapayan Vessel, Tanghali
 - **Dining Room:** Salo Dining Table, Hapag Dining Table, Hain Dining Chair, Bangko Bench, Lenta Pendant, Kapis Pendant, Baul Credenza, Banig Rug, Tapayan Vessel, Amihan No. 3
-- **Bedroom:** Unan Bed, Bakal Side Table, Himlay Bed, Duyan Daybed, Sulok Side Table, Luad Table Lamp, Tala Wall Light, Aparador Cabinet, Bangko Bench, Salamin Floor Mirror, Lambot Wool Rug, Tabing Linen Curtain, Kumot Throw.
+- **Bedroom:** Unan Bed, Bakal Side Table, Himlay Bed, Duyan Daybed, Sulok Side Table, Luad Table Lamp, Sulo Wall Light, Aparador Cabinet, Bangko Bench, Salamin Floor Mirror, Lambot Wool Rug, Tabing Linen Curtain, Kumot Throw.
 
 ### Mood and lifestyle
 
 - **Quiet Living:** Yakap Sofa, Silong Sofa, Batis Coffee Table, Lambot Wool Rug, Luad Table Lamp, Tapayan Vessel, Bato Object, Amihan No. 3. Text: "Soft light, low furniture, and nothing that asks for attention."
-- **Slow Mornings:** Hapag Dining Table, Hain Dining Chair, Lenta Pendant, Kiso Stool, Bilao Tray, Kumot Throw, Tabing Linen Curtain. Text: "Pieces for the first hour of the day."
+- **Slow Mornings:** Hapag Dining Table, Hain Dining Chair, Lenta Pendant, Asa Stool, Bilao Tray, Kumot Throw, Tabing Linen Curtain. Text: "Pieces for the first hour of the day."
 
 ### Material-based
 
-- **Woven Forms:** Himlay Bed, Duyan Daybed, Dapithapon Lounge Chair, Hain Dining Chair, Pasilyo Console Table, Aparador Cabinet, Banig Rug, Bilao Tray, Habi Wall Piece. Text: "Cane, rattan, and reed, woven by hand."
+- **Woven Forms:** Himlay Bed, Duyan Daybed, Dapithapon Lounge Chair, Hain Dining Chair, Pasilyo Console Table, Aparador Cabinet, Banig Rug, Bilao Tray, Hibla Wall Piece. Text: "Cane, rattan, and reed, woven by hand."
 - **Stone and Clay:** Salo Dining Table, Batis Coffee Table, Bato Object, Tapayan Vessel, Luad Table Lamp, Lenta Pendant. Text: "Honed stone and fired clay, cool to the touch."
 
 ## Featured sets
 
-- **Home, featured pieces:** Silong Sofa, Hapag Dining Table, Dapithapon Lounge Chair, Kapis Pendant, Aparador Cabinet, Tapayan Vessel
+- **Home, featured pieces:** Silong Sofa, Hapag Dining Table, Dapithapon Lounge Chair, Kapis Pendant, Sinag Floor Lamp, Tapayan Vessel
 - **Shop landing, Kanlungan Originals:** Silong Sofa, Yakap Sofa, Hapag Dining Table, Unan Bed, Sinag Floor Lamp, Lambot Wool Rug
-- **Shop landing, new pieces:** Lenta Pendant, Kiso Stool, Habi Wall Piece, Salo Dining Table, Tanghali, Bakal Side Table
-- **Sold-out example for the demo:** show Kiso Stool as sold out on one screen to demonstrate the state.
+- **Shop landing, new pieces:** Lenta Pendant, Asa Stool, Hibla Wall Piece, Salo Dining Table, Tanghali, Bakal Side Table
+- **Sold-out example for the demo:** show Asa Stool as sold out on one screen to demonstrate the state.

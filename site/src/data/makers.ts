@@ -55,7 +55,7 @@ export const makers: Maker[] = [
     "name": "Amihan Editions",
     "place": "Quezon City, Metro Manila",
     "craft": "Limited-edition prints and original paintings",
-    "story": "A print studio and small gallery that publishes work by Philippine artists. Amihan prints on cotton rag paper in editions of fifty or fewer. Artists represented in the shop: Ines Dalisay (abstract works on paper) and Paolo Sarmiento (landscape paintings)."
+    "story": "A print studio and small gallery that publishes work by Philippine artists. Amihan prints on cotton rag paper in editions of fifty or fewer. Artists represented in the shop: Ines Dalisay (abstract works on paper) and Paolo Vergara (landscape paintings)."
   },
   {
     "slug": "okabe-mokko",

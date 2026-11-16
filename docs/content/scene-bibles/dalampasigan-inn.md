@@ -53,7 +53,7 @@ Only these pieces appear. Small loose items (a water glass, serving bowls, cups)
 | Plain guest clothes rail and closed drawer, 1.20 × 0.45 × 1.90 m (not a catalog piece) | 1 per room, 12 total | Room A south wall, centered x 1.2, y 8.225; translated in repeats | North |
 | Plain guest wall reading light (not a catalog piece) | 1 per room, 12 total | Room A north wall y 12, x 3.25; center 1.35 m; translated in repeats | South; off |
 | Bangko Bench | 1 | Lobby, centered x 3.81, y 2.8; 0.38 east to west × 1.40 north to south | West, opposite entrance |
-| Habi Wall Piece | 1 | Lobby east wall x 4, centered y 2.8; 0.90 along wall × 1.40 high, bottom 0.95 m | West, above bench |
+| Hibla Wall Piece | 1 | Lobby east wall x 4, centered y 2.8; 0.90 along wall × 1.40 high, bottom 0.95 m | West, above bench |
 | Hapag Dining Table, 260 cm, natural acacia finish | 1 | Breakfast room, centered x 7, y 4.7; 0.95 east to west × 2.60 north to south | |
 | Hain Dining Chair, natural acacia finish | 8 | Three west at x 6.12, y 3.85, 4.7, 5.55; three east at x 7.88 at the same y; end chairs x 7, y 2.95 and 6.45 | Toward table |
 | Lenta Pendant | 1 | Above x 7, y 4.7; Ø0.34, bottom 1.85 m, cable to 3.0 m ceiling | Down to table; off |
@@ -68,7 +68,7 @@ No other dining tables, pendants, lobby chairs, wool rugs, or catalog objects. R
 | Camera | Shot | Position (x, y) | Height | Heading | Lens | Must show |
 |---|---|---|---|---|---|---|
 | C1 (anchor, exterior) | `dalampasigan-g01-exterior` | -10, -3 | 1.50 m | 35 | 35mm | Two-story west elevation, lobby entrance at near right, repeated open guest shutters receding left; sea is behind camera, not behind east-facing windows |
-| C2 (anchor, lobby) | `dalampasigan-g02-lobby` | 0.65, 2.5 | 1.20 m | 85 | 35mm | Bangko opposite entrance, Habi above on east wall; lobby passage lies farther left, not through the wall behind bench |
+| C2 (anchor, lobby) | `dalampasigan-g02-lobby` | 0.65, 2.5 | 1.20 m | 85 | 35mm | Bangko opposite entrance, Hibla above on east wall; lobby passage lies farther left, not through the wall behind bench |
 | C3 (anchor, guest room A) | `dalampasigan-hero` | 3.7, 8.6 | 1.15 m | 324 | 35mm | Natural acacia queen Himlay with natural throw ahead, Banig below, open west window at left, stool at right of bed |
 | C4 | `dalampasigan-g04-reed-mat` | 2.8, 8.65 | 0.75 m | 340 | 50mm | Reed rug and binding ahead under bed foot, bed lower edge behind, west window at left edge; pitch down about 12 degrees |
 | C5 | `dalampasigan-g05-bedside-stool` | 3.5, 9.7 | 0.80 m | 350 | 50mm | Tuntungan with water glass ahead, bed edge and cotton at left, reed rug below left |

@@ -1,5 +1,26 @@
 # Handoff
 
+Updated 2026-11-16 by the lead agent. Read `AGENTS.md`, `SUBAGENTS.md`, and `README.md` first.
+
+## Next step: deploy
+
+Aedwon approved deploying to Vercel. The site is in `site/` (Next.js), merged to `main`.
+
+1. Vercel: create a project from the GitHub repo `Aedwon/kanlungan`, root directory `site`, framework Next.js, production branch `main`. No environment variables are needed yet (the shop runs on the local catalog until Shopify is connected).
+2. Domain: Aedwon bought `kanlungan.space` on Namecheap and pointed its nameservers to Cloudflare (`coleman.ns.cloudflare.com`, `mary.ns.cloudflare.com`). Add `kanlungan.space` and `www.kanlungan.space` to the Vercel project (www as primary, apex redirects to www, or the reverse; www is the address he named). In Cloudflare DNS add the records Vercel shows (apex A record, www CNAME to Vercel), proxy status DNS only (gray cloud) so Vercel issues the certificate.
+3. Verify both addresses load over HTTPS, then report the live URL.
+
+Aedwon added Vercel, Cloudflare and Namecheap connectors in claude.ai; they load in a new session. If they are missing, ask for a Vercel access token and a Cloudflare "Edit zone DNS" token through the secret card.
+
+## State on 2026-11-16
+
+- All five projects have approved imagery; the home hero reveal, project pages (layout B, slider A, swatches, compact shop rows), process section (direction A), services comparison (option C2), product variant photos, search, help, legal, 404, and the Hardin plan are built. 62 Playwright tests pass (`npm run test:run` in `site/`).
+- Decisions are logged in `docs/decisions.md`. UI work goes to Claude models only (`SUBAGENTS.md`).
+- Still open: Shopify connection (Aedwon creates the Partner account and dev store, then gives a Storefront token), trademark search before any commercial use, deleting stale branches (needs approval).
+
+## Earlier handoff (kept for history)
+
+
 Written 2026-11-16 by the lead agent, because Claude weekly usage is running low. Read `AGENTS.md`, `SUBAGENTS.md`, and `README.md` first. This file says where the work stands and what to do next.
 
 ## Where things stand
@@ -15,9 +36,29 @@ Written 2026-11-16 by the lead agent, because Claude weekly usage is running low
 
 ## Open work, in order
 
-1. **Decide styling and 60-30-10.** Fable 5.2 answered; the full recommendation is in `docs/build/consults/2026-11-16-styling-and-60-30-10.md`. Next: run its three-frame pilot (Lilim g05, Tanaw hero, Pahinga hero) and show Aedwon. If he approves, apply the wording to the locked files on branch `content/project-signatures`, then regenerate the frames it lists.
-2. **Merge branch `content/project-signatures`** after Aedwon approves the five-project comparison. It holds the per-project photo signatures (Imagery rule change in `visual-system.md`, Global style in `image-briefs.md`, a Signature section in each scene bible, updated plans) and four provisional anchors: `tanaw-hero`, `dalampasigan-hero`, `pahinga-hero`, `hardin-hero`. Aedwon reviewed the comparison and found the projects distinct; the open styling question may change the anchors.
-3. **Regenerate the four projects' photos** under the signatures (and the styling decision): 10 shots each for Tanaw, Dalampasigan, Pahinga, Hardin. Anchors first, then the rest. Use `docs/build/prompts/photo-project-batch.md` (replace `{PROJECT}`, `{BIBLE}`, `{PREFIX}`). Show each batch as a contact sheet before moving on.
+1. **Interiors rethink: prove Lilim House end to end.** On 2026-11-16 Aedwon rejected the Lilim photographs, accepted the rethink in `docs/build/consults/2026-11-16-ground-up-rethink.md`, picked the Lilim living room from round 3 (`design/round-3-interiors/`), and picked a starting image for each of the other four projects from round 4 (`design/round-4-calibration/`). The styling consult is superseded. Read these first, on branch `design/round-3-interiors`:
+   - `docs/design/studio-hand.md`: the evidence, the standards, the realism rules, whole-home coverage, the portfolio register, and each project's starting image. There are no named directions any more.
+   - `docs/content/image-briefs.md`: the photography rules, the review the lead runs before Aedwon sees any image, and the pairing method.
+   - `docs/content/project-designs/`: the design file system that replaces the scene bibles, and the Lilim House design file.
+   - `docs/build/consults/2026-11-16-calibration-set.md`: the round 4 prompts and results.
+
+   - `docs/build/consults/2026-11-16-calibration-round-5.md`: the round 5 prompts. Aedwon's picks are in the studio hand.
+   - `docs/build/consults/2026-11-16-lilim-gate-1.md`: the eight prompts for the first real Lilim images.
+
+   Rounds 4 and 5 are done. Next, in this order. Images go through Codex with `codex-pick`, one job at a time.
+   1. **The shell color correction tool.** The generator warms every after. A separate implementor is building a tool that matches the walls, ceiling, and floor of an after to its before, away from lamps. It runs on every after before review.
+   2. **Check the three line drawings** in `design/lilim/drawings/`. They set the cameras for the family room, the dining view, and the kitchen. `draw_views.py` makes them from the design file's sizes.
+   3. **Lilim gate 1, 8 images,** from the gate 1 file into `design/lilim/`. The approved before is already there as `lilim-hero-before.png`. Check each new before against its drawing before making its after.
+   4. **Review, then show.** Run the review list in the image briefs on every image and on the set. Regenerate what fails. Then show Aedwon. He picks the level of the living room, A or B.
+   5. **Lilim, the rest:** the bedroom pair and the nine story frames, each new camera from a drawing. Also the registration script (Pillow and numpy are installed; OpenCV is not), and the redrawn shell and furniture plans.
+   6. **Slider and project page round**, on Lilim's real images.
+   7. Then the other four projects, one at a time, Tanaw first: design file, hero before for approval, hero pair for approval, the rest. Fill the portfolio register before each design.
+
+   Attach a product reference only for a piece the design file places in that frame. Round 4 attached the same few references to every prompt, and the same lamp appeared in four homes.
+
+   Edits that other files still need are listed at the end of the studio hand. `site/src/data/projects.ts` is transcribed from `docs/content/projects.md` and was not regenerated; the Lilim block kept the field names and caption format the site script expects.
+2. **Superseded by step 1. Do not merge `content/project-signatures`.** The text below is kept as a record. Original step: merge the branch after Aedwon approves the five-project comparison. It holds the per-project photo signatures (Imagery rule change in `visual-system.md`, Global style in `image-briefs.md`, a Signature section in each scene bible, updated plans) and four provisional anchors: `tanaw-hero`, `dalampasigan-hero`, `pahinga-hero`, `hardin-hero`. Aedwon reviewed the comparison and found the projects distinct; the open styling question may change the anchors.
+3. **Superseded by step 1.** The four projects wait for the calibration set and their design files. The variant studio shots and product detail shots listed here are still open. Original step: regenerate the four projects' photos under the signatures (and the styling decision): 10 shots each for Tanaw, Dalampasigan, Pahinga, Hardin. Anchors first, then the rest. Use `docs/build/prompts/photo-project-batch.md` (replace `{PROJECT}`, `{BIBLE}`, `{PREFIX}`). Show each batch as a contact sheet before moving on.
    - Also generate the four variant studio shots in `image-briefs.md`: `kumot-indigo-studio`, `kumot-rust-studio`, `tabing-white-studio`, `silong-two-seat-clay-studio`.
    - Product detail shots (`*-detail`) are not generated yet.
 4. **Wave 5** (see `docs/build/plan.md`). Swap the gradient placeholders for photos in `design/photography/`, keyed by shot id in `image-briefs.md`.

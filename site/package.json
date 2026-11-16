@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "tokens": "node scripts/build-tokens.mjs",
-    "prebuild": "npm run tokens"
+    "prebuild": "npm run tokens",
+    "test": "npm run build && playwright test",
+    "test:run": "playwright test",
+    "transcribe:help": "node scripts/transcribe-help.mjs"
   },
   "dependencies": {
     "next": "16.4.6",
@@ -16,11 +19,14 @@
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
+    "lighthouse": "^13.6.0",
     "typescript": "^5"
   }
 }

@@ -1,10 +1,12 @@
 'use client';
-import { createElement, type ReactNode, type FormEvent } from 'react';
+import { createElement, type CSSProperties, type ReactNode, type FormEvent } from 'react';
 import Link from 'next/link';
 import { useCart } from '@/components/CartProvider';
 import { regionRates, unique } from '@/lib/cart';
 import { formatPrice } from '@/lib/formatPrice';
 import type { Values } from '@/lib/formValidation';
+import { PhotoSlot } from '@/components/Photo';
+import { nodePhoto } from '@/data/image-slots';
 import { children, flowTemplate, nodes, setText, type ReferenceNode } from '@/lib/flowTemplates';
 export interface FormState { values: Values; errors: Values; change: (name: string, value: string) => void; submit: (event: FormEvent<HTMLFormElement>) => void; busy?: boolean }
 export function ErrorSummary({ errors, screen }: { errors: Values; screen: string }) {
@@ -25,6 +27,8 @@ export function FlowReference({ node, form, screen = '', close }: { node: Refere
   if (tag === 'option') return <option {...attrs} value={String(attrs.value ?? node.children.join(''))}>{node.children.join('')}</option>;
   if (tag === 'RegionRates') return <details className="region-rates"><summary>Flat demo delivery rates by region</summary><table><caption>Demo rates for white-glove delivery</caption><tbody>{Object.entries(regionRates).filter(([name]) => name !== 'Metro Manila').map(([name, fee]) => <tr key={name} aria-current={name === attrs.region ? 'true' : undefined}><th scope="row">{name}</th><td>{formatPrice(fee)}</td></tr>)}</tbody></table></details>;
   const content = node.children.map((n, i) => <FlowReference key={i} node={n} form={form} screen={screen} close={close} />);
+  const photo = nodePhoto(attrs, node.children.some((c) => typeof c !== 'string' && c.tag === 'img'));
+  if (photo) return <PhotoSlot name={photo.name} alt={photo.alt} position={photo.position} className={attrs.className as string} style={attrs.style as CSSProperties} sizes="(min-width: 1280px) 600px, 100vw" />;
   if (tag === 'form') return <form {...attrs} action={undefined} noValidate onSubmit={form?.submit}><ErrorSummary errors={form?.errors ?? {}} screen={screen} />{content}{cart.error && screen.startsWith('checkout') && <p role="alert">{cart.error}</p>}</form>;
   if (tag === 'a') return <Link {...attrs} href={String(attrs.href)} onClick={(event) => { if (String(attrs.href).startsWith('#')) { const el = document.getElementById(String(attrs.href).slice(1)); if (el) { event.preventDefault(); if (el.tagName === 'FIELDSET') el.querySelector<HTMLInputElement>('input')?.focus(); else el.focus(); } } else close?.(); }}>{content}</Link>;
   if (tag === 'button') {

@@ -1,0 +1,618 @@
+{
+ "lilim-house": [
+  {
+   "material": "Honed Romblon marble",
+   "id": "honed-romblon-marble",
+   "parts": [
+    {
+     "source": "design/lilim/lilim-material-detail.png",
+     "box": [
+      87,
+      833,
+      565,
+      1310
+     ]
+    }
+   ]
+  },
+  {
+   "material": "ebonized plantation mahogany",
+   "id": "ebonized-plantation-mahogany",
+   "parts": [
+    {
+     "source": "design/lilim/lilim-dining-morning.png",
+     "box": [
+      195,
+      1064,
+      282,
+      1151
+     ]
+    }
+   ]
+  },
+  {
+   "material": "blackened steel",
+   "id": "blackened-steel",
+   "parts": [
+    {
+     "source": "design/photography/bakal-studio.png",
+     "box": [
+      451,
+      652,
+      752,
+      953
+     ]
+    }
+   ]
+  },
+  {
+   "material": "white and charcoal linen",
+   "id": "white-and-charcoal-linen",
+   "parts": [
+    {
+     "source": "design/lilim/lilim-bedroom.png",
+     "box": [
+      717,
+      598,
+      821,
+      701
+     ]
+    },
+    {
+     "source": "design/lilim/lilim-material-detail.png",
+     "box": [
+      98,
+      348,
+      272,
+      521
+     ]
+    }
+   ]
+  },
+  {
+   "material": "wool",
+   "id": "wool",
+   "parts": [
+    {
+     "source": "design/photography/lambot-studio.png",
+     "box": [
+      376,
+      314,
+      878,
+      815
+     ]
+    }
+   ]
+  },
+  {
+   "material": "cane",
+   "id": "cane",
+   "parts": [
+    {
+     "source": "design/photography/dapithapon-detail.png",
+     "box": [
+      464,
+      213,
+      1091,
+      840
+     ]
+    }
+   ]
+  }
+ ],
+ "tanaw-residence": [
+  {
+   "material": "Natural plantation mahogany",
+   "id": "natural-plantation-mahogany",
+   "parts": [
+    {
+     "source": "design/tanaw/tanaw-dining-sun.png",
+     "box": [
+      326,
+      764,
+      434,
+      872
+     ]
+    }
+   ]
+  },
+  {
+   "material": "acacia",
+   "id": "acacia",
+   "parts": [
+    {
+     "source": "design/photography/tuntungan-studio.png",
+     "box": [
+      439,
+      314,
+      815,
+      690
+     ]
+    }
+   ]
+  },
+  {
+   "material": "oat and sand linen",
+   "id": "oat-and-sand-linen",
+   "parts": [
+    {
+     "source": "design/photography/silong-fabric.png",
+     "box": [
+      276,
+      276,
+      978,
+      978
+     ]
+    },
+    {
+     "source": "design/photography/tabing-studio.png",
+     "box": [
+      514,
+      514,
+      740,
+      740
+     ]
+    }
+   ]
+  },
+  {
+   "material": "terrazzo",
+   "id": "terrazzo",
+   "parts": [
+    {
+     "source": "design/tanaw/tanaw-dining-sun.png",
+     "box": [
+      185,
+      1245,
+      358,
+      1419
+     ]
+    }
+   ]
+  },
+  {
+   "material": "blackened steel",
+   "id": "blackened-steel",
+   "parts": [
+    {
+     "source": "design/photography/bakal-studio.png",
+     "box": [
+      451,
+      652,
+      752,
+      953
+     ]
+    }
+   ]
+  },
+  {
+   "material": "aged brass",
+   "id": "aged-brass",
+   "parts": [
+    {
+     "source": "design/photography/sulo-studio.png",
+     "box": [
+      765,
+      263,
+      890,
+      389
+     ]
+    }
+   ]
+  },
+  {
+   "material": "wool",
+   "id": "wool",
+   "parts": [
+    {
+     "source": "design/photography/lambot-studio.png",
+     "box": [
+      376,
+      314,
+      878,
+      815
+     ]
+    }
+   ]
+  }
+ ],
+ "dalampasigan-inn": [
+  {
+   "material": "Natural oiled acacia (honey)",
+   "id": "natural-oiled-acacia-honey",
+   "parts": [
+    {
+     "source": "design/photography/tuntungan-studio.png",
+     "box": [
+      439,
+      314,
+      815,
+      690
+     ]
+    }
+   ]
+  },
+  {
+   "material": "cane",
+   "id": "cane",
+   "parts": [
+    {
+     "source": "design/photography/himlay-studio.png",
+     "box": [
+      696,
+      370,
+      909,
+      583
+     ]
+    }
+   ]
+  },
+  {
+   "material": "tikog reed",
+   "id": "tikog-reed",
+   "parts": [
+    {
+     "source": "design/photography/banig-studio.png",
+     "box": [
+      351,
+      351,
+      903,
+      903
+     ]
+    }
+   ]
+  },
+  {
+   "material": "white linen",
+   "id": "white-linen",
+   "parts": [
+    {
+     "source": "design/lilim/lilim-bedroom.png",
+     "box": [
+      717,
+      598,
+      821,
+      701
+     ]
+    }
+   ]
+  },
+  {
+   "material": "handloomed cotton",
+   "id": "handloomed-cotton",
+   "parts": [
+    {
+     "source": "design/photography/kumot-studio.png",
+     "box": [
+      477,
+      414,
+      777,
+      715
+     ]
+    }
+   ]
+  },
+  {
+   "material": "stoneware",
+   "id": "stoneware",
+   "parts": [
+    {
+     "source": "design/dalampasigan/dalampasigan-serving-table.png",
+     "box": [
+      326,
+      51,
+      804,
+      529
+     ]
+    }
+   ]
+  },
+  {
+   "material": "blackened steel",
+   "id": "blackened-steel",
+   "parts": [
+    {
+     "source": "design/photography/bakal-studio.png",
+     "box": [
+      451,
+      652,
+      752,
+      953
+     ]
+    }
+   ]
+  }
+ ],
+ "pahinga-villas": [
+  {
+   "material": "Natural plantation mahogany",
+   "id": "natural-plantation-mahogany",
+   "parts": [
+    {
+     "source": "design/pahinga/pahinga-daybed.png",
+     "box": [
+      559,
+      947,
+      635,
+      1023
+     ]
+    }
+   ]
+  },
+  {
+   "material": "cane and rattan",
+   "id": "cane-and-rattan",
+   "parts": [
+    {
+     "source": "design/photography/dapithapon-detail.png",
+     "box": [
+      464,
+      213,
+      1091,
+      840
+     ]
+    }
+   ]
+  },
+  {
+   "material": "abaca",
+   "id": "abaca",
+   "parts": [
+    {
+     "source": "design/photography/hibla-studio.png",
+     "box": [
+      502,
+      564,
+      752,
+      815
+     ]
+    }
+   ]
+  },
+  {
+   "material": "tobacco linen",
+   "id": "tobacco-linen",
+   "parts": [
+    {
+     "source": "design/pahinga/pahinga-hero.png",
+     "box": [
+      580,
+      470,
+      670,
+      560
+     ]
+    }
+   ]
+  },
+  {
+   "material": "oat linen",
+   "id": "oat-linen",
+   "parts": [
+    {
+     "source": "design/photography/silong-fabric.png",
+     "box": [
+      276,
+      276,
+      978,
+      978
+     ]
+    }
+   ]
+  },
+  {
+   "material": "handloomed cotton in rust and moss",
+   "id": "handloomed-cotton-in-rust-and-moss",
+   "parts": [
+    {
+     "source": "design/pahinga/pahinga-daybed.png",
+     "box": [
+      391,
+      536,
+      478,
+      623
+     ]
+    },
+    {
+     "source": "design/pahinga/pahinga-daybed.png",
+     "box": [
+      814,
+      550,
+      901,
+      637
+     ]
+    }
+   ]
+  },
+  {
+   "material": "ebonized acacia",
+   "id": "ebonized-acacia",
+   "parts": [
+    {
+     "source": "design/hardin/hardin-moodboard.png",
+     "box": [
+      918,
+      81,
+      972,
+      136
+     ]
+    }
+   ]
+  },
+  {
+   "material": "nito vine",
+   "id": "nito-vine",
+   "parts": [
+    {
+     "source": "design/pahinga/pahinga-bath.png",
+     "box": [
+      288,
+      990,
+      407,
+      1110
+     ]
+    }
+   ]
+  },
+  {
+   "material": "stoneware",
+   "id": "stoneware",
+   "parts": [
+    {
+     "source": "design/photography/tapayan-studio.png",
+     "box": [
+      376,
+      376,
+      878,
+      878
+     ]
+    }
+   ]
+  }
+ ],
+ "hardin-apartment": [
+  {
+   "material": "Old hardwood parquet",
+   "id": "old-hardwood-parquet",
+   "parts": [
+    {
+     "source": "design/hardin/hardin-entry.png",
+     "box": [
+      554,
+      1332,
+      641,
+      1419
+     ]
+    }
+   ]
+  },
+  {
+   "material": "one gray-green painted wall",
+   "id": "one-gray-green-painted-wall",
+   "parts": [
+    {
+     "source": "design/hardin/hardin-moodboard.png",
+     "box": [
+      217,
+      138,
+      434,
+      355
+     ]
+    }
+   ]
+  },
+  {
+   "material": "clay and oat linen",
+   "id": "clay-and-oat-linen",
+   "parts": [
+    {
+     "source": "design/hardin/hardin-moodboard.png",
+     "box": [
+      673,
+      391,
+      760,
+      478
+     ]
+    },
+    {
+     "source": "design/hardin/hardin-moodboard.png",
+     "box": [
+      793,
+      626,
+      901,
+      735
+     ]
+    }
+   ]
+  },
+  {
+   "material": "oat wool",
+   "id": "oat-wool",
+   "parts": [
+    {
+     "source": "design/hardin/hardin-moodboard.png",
+     "box": [
+      451,
+      628,
+      527,
+      704
+     ]
+    }
+   ]
+  },
+  {
+   "material": "ebonized plantation mahogany",
+   "id": "ebonized-plantation-mahogany",
+   "parts": [
+    {
+     "source": "design/hardin/hardin-moodboard.png",
+     "box": [
+      918,
+      81,
+      972,
+      136
+     ]
+    }
+   ]
+  },
+  {
+   "material": "cane",
+   "id": "cane",
+   "parts": [
+    {
+     "source": "design/hardin/hardin-moodboard.png",
+     "box": [
+      130,
+      601,
+      261,
+      731
+     ]
+    }
+   ]
+  },
+  {
+   "material": "hinoki",
+   "id": "hinoki",
+   "parts": [
+    {
+     "source": "design/photography/asa-studio.png",
+     "box": [
+      464,
+      176,
+      665,
+      376
+     ]
+    }
+   ]
+  },
+  {
+   "material": "blackened steel",
+   "id": "blackened-steel",
+   "parts": [
+    {
+     "source": "design/photography/bakal-studio.png",
+     "box": [
+      451,
+      652,
+      752,
+      953
+     ]
+    }
+   ]
+  },
+  {
+   "material": "clay pots",
+   "id": "clay-pots",
+   "parts": [
+    {
+     "source": "design/hardin/hardin-herbs.png",
+     "box": [
+      728,
+      738,
+      901,
+      912
+     ]
+    }
+   ]
+  }
+ ]
+}

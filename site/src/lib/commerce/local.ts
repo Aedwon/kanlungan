@@ -4,7 +4,7 @@ import { makers } from '@/data/makers';
 import { categories } from '@/data/navigation';
 import type { CommerceProduct, CommerceProvider, Variant } from './types';
 export function localProduct(product: (typeof products)[number]): CommerceProduct {
-  const availability = product.slug === 'kiso-stool' ? 'sold-out' : product.availability;
+  const availability = product.slug === 'asa-stool' ? 'sold-out' : product.availability;
   let variants: Variant[] = [{ id: product.slug, options: {}, price: product.price, leadTimeWeeks: product.leadTimeWeeks, available: availability !== 'sold-out' }];
   for (const option of product.variants) variants = variants.flatMap((variant) => option.choices.map((choice) => ({
     ...variant, options: { ...variant.options, [option.name]: choice.label }, price: choice.price ?? variant.price,

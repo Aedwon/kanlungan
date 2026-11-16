@@ -249,7 +249,7 @@ def tanaw():
     p.circle(9.6, 11.1, .15, WHITE)
     p.text(10.5, 11.1, "Luad", 9)
     p.circle(7.35, 11.71, .09, WHITE, CLAY)
-    p.text(7.4, 12.1, "Tala", 9)
+    p.text(7.4, 12.1, "Sulo", 9)
     p.piece(8.75, 8.275, 1.5, .55, fill=BLEACHED)
     p.piece(8.7, 4.5, 1.4, 2, "Bed*", fill=BLEACHED, facing=180)
     p.piece(7.75, 4.9, .35, .4, fill=BLEACHED)
@@ -312,7 +312,7 @@ def public_rooms(p):
     p.glass(8.4, 8, 9.6, 8)
     p.piece(3.81, 2.8, .38, 1.4, facing=270)
     p.line(4, 2.35, 4, 3.25, CLAY, 5)
-    p.text(2.5, 3.9, "Bangko + Habi", 10)
+    p.text(2.5, 3.9, "Bangko + Hibla", 10)
     p.piece(7, 4.7, .95, 2.6, "Hapag 260 acacia")
     for x in (6.12, 7.88):
         for y in (3.85, 4.7, 5.55):
@@ -413,7 +413,7 @@ def pahinga():
         p.rect(.02, y-.22, .16, .44, WHITE, MUTED, 1)
     p.piece(3.2, 5.925, 1.68, 2.15, "Himlay", fill=EBONIZED, facing=180)
     p.line(2.75, 7, 3.65, 7, CLAY, 5)
-    p.text(3.2, 7.45, "Habi", 10)
+    p.text(3.2, 7.45, "Hibla", 10)
     p.piece(1.1, 6.775, 1.8, .45, fill=EBONIZED)
     p.circle(.7, 6.75, .15, WHITE)
     p.circle(1.5, 6.75, .14, STONE)

@@ -36,7 +36,7 @@ The payment step and the order confirmation carry the stronger notice in `docs/c
 - **Makers text:** Most of what we sell is made in the Philippines, in small workshops that still cut, weave, and throw by hand. We visit them, and we name them.
 - **Process heading:** How a furnishing project works
 - **Closing heading:** Tell us about your space.
-- **Closing text:** A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000.
+- **Closing text:** Bring the rooms you have and the life you want in them. We'll do the rest, starting with a free 30-minute call.
 
 ## Services
 
@@ -88,14 +88,17 @@ The payment step and the order confirmation carry the stronger notice in `docs/c
 
 ## Home: process steps
 
-Status: **Decided on delegation.** For Home section 8, under the heading "How a furnishing project works." Steps come from `docs/concept/services.md`.
+Status: **Decided on delegation**, layout picked by Aedwon (direction A, 2026-11-16). For Home section 8. Steps come from `docs/concept/services.md`. Each step pairs with one photo in `design/process/` or `design/photography/maker-sulihiya.png`. The section shows no particular project.
 
-1. **Discovery call.** We talk about your space, your brief, and your budget.
-2. **Site visit and proposal.** We measure the space and send a fixed design fee and a budget range.
-3. **Design.** You see layouts, materials, and a full furnishing plan.
-4. **Procurement.** We order every piece and manage the makers.
-5. **Installation and styling.** Our crew delivers, installs, and styles each room.
-6. **Handover.** A walkthrough, a care guide, and a visit 30 days later.
+- **Heading:** How a furnishing project works
+- **Line under the heading:** Most homes take 12 to 20 weeks, from the first call to the last cushion.
+
+1. **Discovery call.** Week 0. A free 30-minute call about your space, your brief, and your budget.
+2. **Site visit.** Week 1. We measure every room. You get a fixed design fee and a budget range.
+3. **Design.** Weeks 2 to 6. Layouts, materials, and a furnishing plan, with two rounds of revisions.
+4. **Making.** Weeks 7 to 16. Workshops build each piece by hand. We send photos as they go.
+5. **Installation.** Weeks 17 to 18. Our crew delivers and places everything, usually in under a week on site.
+6. **Handover.** We style each room, walk you through it, and leave a care guide. We come back after 30 days.
 
 ## Service page FAQs
 
@@ -103,7 +106,7 @@ Status: **Decided on delegation.** Heading for both pages: "Questions we are oft
 
 ### Full-Service Furnishing
 
-- **How much does it cost?** Furnishing projects start at ₱1,500,000, including the design fee. The design fee is fixed and quoted per project, based on floor area and scope. The furnishing budget is separate. You pay listed prices for the pieces, and we add no hidden markup on shop items.
+- **How much does it cost?** Furnishing projects start at ₱500,000, including the design fee. The design fee is fixed and quoted per project, based on floor area and scope. The furnishing budget is separate. You pay listed prices for the pieces, and we add no hidden markup on shop items.
 - **How long does a project take?** Most projects take 12 to 20 weeks from signed proposal to handover. Made-to-order lead times set most of that time. Installation usually takes about one week on site.
 - **How do payments work?** You pay 50 percent of the design fee when you sign and 50 percent when you approve the design. You pay 70 percent of the furnishing budget before we order and 30 percent before installation.
 - **Do you work outside Metro Manila?** Yes. We work anywhere in the Philippines. Outside Metro Manila and Calabarzon, the proposal states travel and freight costs.
@@ -219,6 +222,32 @@ Status: **Decided on delegation.** Rules come from `docs/concept/shop.md`.
 - **Can I see pieces in person?** Yes. Our Makati showroom opens by appointment. Pieces on display change, so tell us what you want to see.
 - **Do you ship outside the Philippines?** Not through the shop. Write to us through the contact form and we will tell you what is possible.
 
+## Legal
+
+Status: **Decided on delegation.** Written 2026-11-16 for the portfolio build. Both pages say plainly that Kanlungan is fictional and that no real data is collected or sold.
+
+### Privacy
+
+- **Heading:** Privacy
+- **About this site:** Kanlungan is a fictional brand made as a portfolio project. No real studio, shop, or business sits behind this site.
+- **What the forms do:** The booking form, contact form, mailing list, and Notify me form do not send your details anywhere. Nothing you type into them is stored or read by anyone.
+- **Cart and demo order:** Your cart stays in your own browser, so it is still there when you come back. The demo order on the confirmation page stays in your browser for the length of your visit. Clear your browser data to remove both.
+- **Payment:** The checkout is a demonstration. Do not enter real card or bank details. No payment is taken.
+- **Cookies and tracking:** We do not use advertising cookies, analytics, or trackers. The site stores only the cart and demo order described above.
+- **Sharing:** We do not sell or share your information, because we do not collect any.
+- **Questions:** Write to studio@kanlungan.example.
+
+### Terms
+
+- **Heading:** Terms
+- **A demonstration:** Kanlungan is a fictional brand. The studio, shop, makers, projects, prices, and photographs are illustrative.
+- **No sales:** Nothing on this site is for sale. A demo order is not a contract, and no goods or services will be delivered.
+- **Prices and availability:** Prices are in Philippine pesos. Prices, lead times, and availability are examples and may change without notice.
+- **Images:** The photographs are generated images of invented rooms and products. They are not photographs of real work.
+- **Content:** The words, drawings, and designs on this site belong to its owner. Please do not copy them without asking.
+- **No warranty:** We provide the site as it is, without any promise that it is accurate, complete, or always available.
+- **Questions:** Write to studio@kanlungan.example.
+
 ## Booking page
 
 Status: **Decided on delegation.** Fields come from `docs/concept/conversion.md`.
@@ -230,7 +259,7 @@ Status: **Decided on delegation.** Fields come from `docs/concept/conversion.md`
   - If we are a good fit, we send a proposal. The call and the proposal cost nothing.
 - **Call length and reply time:** A discovery call takes 30 minutes and costs nothing. We reply within two business days.
 - **Starting prices heading:** Starting prices
-- **Starting prices, furnishing:** Full-Service Furnishing. Furnishing projects start at ₱1,500,000, including the design fee.
+- **Starting prices, furnishing:** Full-Service Furnishing. Furnishing projects start at ₱500,000, including the design fee.
 - **Starting prices, direction:** Interior Design Direction. From ₱2,500 per square meter. Minimum fee ₱150,000.
 - **Starting prices note:** Exact fees come in a proposal, after we know your space.
 

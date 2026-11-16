@@ -22,7 +22,7 @@
 <line x1="417.21" y1="920.0" x2="419.66745613286696" y2="918.2792706909469" stroke="#6A584A" stroke-width="1"/>
 <line x1="417.21" y1="920.0" x2="419.66745613286696" y2="921.7207293090531" stroke="#6A584A" stroke-width="1"/>
 <line x1="430" y1="931.25" x2="430" y2="908.75" stroke="#8E4A2C" stroke-width="5"/>
-<text x="392.5" y="892.5" font-size="10" font-weight="400" text-anchor="middle" fill="#2E211A">Bangko + Habi</text>
+<text x="392.5" y="892.5" font-size="10" font-weight="400" text-anchor="middle" fill="#2E211A">Bangko + Hibla</text>
 <rect x="493.125" y="840.0" width="23.75" height="65.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <text x="505.0" y="874.0" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Hapag 260 acacia</text>
 <rect x="476.5" y="887.75" width="13.0" height="12.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
@@ -226,7 +226,7 @@
 <line x1="849.42" y1="875.0" x2="854.3349122657339" y2="871.5585413818937" stroke="#6A584A" stroke-width="1"/>
 <line x1="849.42" y1="875.0" x2="854.3349122657339" y2="878.4414586181063" stroke="#6A584A" stroke-width="1"/>
 <line x1="875" y1="897.5" x2="875" y2="852.5" stroke="#8E4A2C" stroke-width="5"/>
-<text x="800.0" y="820.0" font-size="10" font-weight="400" text-anchor="middle" fill="#2E211A">Bangko + Habi</text>
+<text x="800.0" y="820.0" font-size="10" font-weight="400" text-anchor="middle" fill="#2E211A">Bangko + Hibla</text>
 <rect x="1001.25" y="715.0" width="47.5" height="130.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>
 <text x="1025.0" y="783.0" font-size="9" font-weight="400" text-anchor="middle" fill="#2E211A">Hapag 260 acacia</text>
 <rect x="968.0" y="810.5" width="26.0" height="24.0" rx="2" fill="#D9C4A6" stroke="#2E211A" stroke-width="1.5"/>

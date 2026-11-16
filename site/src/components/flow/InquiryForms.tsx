@@ -1,12 +1,10 @@
 'use client';
 import { useState, type FormEvent } from 'react';
-import { useSearchParams } from 'next/navigation';
 import { flowTemplate, nodes, type Screen } from '@/lib/flowTemplates';
 import { validateBooking, validateContact, type Values } from '@/lib/formValidation';
 import { FlowReference, focusConfirmation, focusErrors } from './FlowReference';
-export function InquiryForm({ kind }: { kind: 'booking' | 'contact' }) {
-  const params = useSearchParams();
-  const [values, setValues] = useState<Values>({ subject: kind === 'contact' ? params.get('subject') ?? '' : '' });
+export function InquiryForm({ kind, subject = '' }: { kind: 'booking' | 'contact'; subject?: string }) {
+  const [values, setValues] = useState<Values>({ subject: kind === 'contact' ? subject : '' });
   const [errors, setErrors] = useState<Values>({}); const [submitted, setSubmitted] = useState(false);
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault(); const next = kind === 'booking' ? validateBooking(values) : validateContact(values); setErrors(next);

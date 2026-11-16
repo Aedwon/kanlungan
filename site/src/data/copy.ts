@@ -16,7 +16,7 @@ export const copy = {
     "Makers text": "Most of what we sell is made in the Philippines, in small workshops that still cut, weave, and throw by hand. We visit them, and we name them.",
     "Process heading": "How a furnishing project works",
     "Closing heading": "Tell us about your space.",
-    "Closing text": "A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000."
+    "Closing text": "Bring the rooms you have and the life you want in them. We'll do the rest, starting with a free 30-minute call."
   },
   "Services": {
     "Full-Service Furnishing / Promise": "From empty to ready, without you managing a single delivery.",
@@ -97,7 +97,7 @@ export const copy = {
     "What to expect heading": "What happens next",
     "Call length and reply time": "A discovery call takes 30 minutes and costs nothing. We reply within two business days.",
     "Starting prices heading": "Starting prices",
-    "Starting prices, furnishing": "Full-Service Furnishing. Furnishing projects start at ₱1,500,000, including the design fee.",
+    "Starting prices, furnishing": "Full-Service Furnishing. Furnishing projects start at ₱500,000, including the design fee.",
     "Starting prices, direction": "Interior Design Direction. From ₱2,500 per square meter. Minimum fee ₱150,000.",
     "Starting prices note": "Exact fees come in a proposal, after we know your space."
   },
@@ -182,7 +182,7 @@ export const pageCopy: Record<string, string> = {
   "Placeholder · Linen curtain in soft daylight, low stool, stoneware vase": "Placeholder · Linen curtain in soft daylight, low stool, stoneware vase",
   "Full-Service Furnishing": "Full-Service Furnishing",
   "We design, source, deliver, and style every room.": "We design, source, deliver, and style every room.",
-  "₱1,500,000": "₱1,500,000",
+  "₱500,000": "₱500,000",
   "From": "From",
   "Design fee included.": "Design fee included.",
   "About this service": "About this service",
@@ -253,7 +253,7 @@ export const pageCopy: Record<string, string> = {
   "A walkthrough, a care guide, and a visit 30 days later.": "A walkthrough, a care guide, and a visit 30 days later.",
   "Placeholder · Tanaw Residence at dusk, warm lamps lit inside, the city beyond the glass": "Placeholder · Tanaw Residence at dusk, warm lamps lit inside, the city beyond the glass",
   "Tell us about your space.": "Tell us about your space.",
-  "A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000.": "A discovery call takes 30 minutes and costs nothing. Furnishing projects start at ₱1,500,000.",
+  "Bring the rooms you have and the life you want in them. We'll do the rest, starting with a free 30-minute call.": "Bring the rooms you have and the life you want in them. We'll do the rest, starting with a free 30-minute call.",
   "Seating": "Seating",
   "Tables": "Tables",
   "Beds": "Beds",
@@ -278,7 +278,7 @@ export const pageCopy: Record<string, string> = {
   "Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.": "Kanlungan is a fictional brand created as a portfolio project. Products, makers, projects, and prices are illustrative. Nothing shown is for sale.",
   "Privacy": "Privacy",
   "Terms": "Terms",
-  "From ₱1,500,000, design fee included.": "From ₱1,500,000, design fee included.",
+  "From ₱500,000, design fee included.": "From ₱500,000, design fee included.",
   "From ₱2,500 per sqm, minimum ₱150,000.": "From ₱2,500 per sqm, minimum ₱150,000.",
   "From empty to ready, without you managing a single delivery.": "From empty to ready, without you managing a single delivery.",
   "You have a finished, empty home, condo, or small hotel. You want to move in or open once, with everything in place.": "You have a finished, empty home, condo, or small hotel. You want to move in or open once, with everything in place.",
@@ -333,7 +333,7 @@ export const pageCopy: Record<string, string> = {
   "What happens next": "What happens next",
   "A discovery call takes 30 minutes and costs nothing. We reply within two business days.": "A discovery call takes 30 minutes and costs nothing. We reply within two business days.",
   "Starting prices": "Starting prices",
-  "Full-Service Furnishing. Furnishing projects start at ₱1,500,000, including the design fee.": "Full-Service Furnishing. Furnishing projects start at ₱1,500,000, including the design fee.",
+  "Full-Service Furnishing. Furnishing projects start at ₱500,000, including the design fee.": "Full-Service Furnishing. Furnishing projects start at ₱500,000, including the design fee.",
   "Interior Design Direction. From ₱2,500 per square meter. Minimum fee ₱150,000.": "Interior Design Direction. From ₱2,500 per square meter. Minimum fee ₱150,000.",
   "Exact fees come in a proposal, after we know your space.": "Exact fees come in a proposal, after we know your space.",
   "Your cart": "Your cart",

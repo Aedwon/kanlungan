@@ -58,6 +58,15 @@ export async function MakersPage() {
   body.children = [mobileList]; mobile.children = [indexIntro('Makers', copy['Index pages']['Makers index intro'], 'mobile'), body];
   return <><ShopReference node={desktop} /><ShopReference node={mobile} /></>;
 }
+const collectionCards: Record<string, { name: string; alt: string }> = {
+  'living-room': { name: 'lilim-shop-room', alt: 'Lilim House living room: a low sofa, a stone coffee table and a cane lounge chair' },
+  'dining-room': { name: 'lilim-dining-dusk', alt: 'Lilim House dining table set for dinner at dusk, the valley beyond the glass' },
+  'bedroom': { name: 'lilim-bedroom', alt: 'Lilim House main bedroom: a low bed in white linen with a woven wall piece above' },
+  'quiet-living': { name: 'lilim-stone-table', alt: 'A low sofa, a stone coffee table and a stoneware lamp in soft shaded daylight' },
+  'slow-mornings': { name: 'lilim-dining-morning', alt: 'Lilim House dining table with cane chairs in morning light' },
+  'woven-forms': { name: 'lilim-material-detail', alt: 'Cane weave on a rattan lounge chair beside a honed marble edge' },
+  'stone-and-clay': { name: 'tanaw-dining-sun', alt: 'A terrazzo table with a bowl of lemons and a cup, in sun from the window' },
+};
 export async function CollectionsPage() {
   const { collections } = await shopData();
   return <>{screens.map((screen) => {
@@ -73,6 +82,9 @@ export async function CollectionsPage() {
         replaceText(n, old, collection.name); link.attrs.href = `/shop/collections/${collection.slug}`;
         const desc = elements(link).find((n) => !children(n).length && ['Soft light, low furniture, and nothing that asks for attention.', 'Pieces for the first hour of the day.', 'Cane, rattan, and reed, woven by hand.'].includes(n.children.join('')));
         if (desc) setText(desc, collection.description ?? '');
+        // Each collection card gets its own photograph, not the prototype's.
+        const card = collectionCards[collection.slug]; const image = elements(link).find((x) => x.attrs.role === 'img');
+        if (card && image) { image.attrs['data-photo'] = card.name; image.attrs['aria-label'] = card.alt; image.children = []; }
         return n;
       });
       return s;
