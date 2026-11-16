@@ -10,6 +10,8 @@ The contract for every agent dispatched to work in this repository. Adapted on 2
 | Implementor | One subagent | Builds what the brief settles, inside the files the brief names |
 | Reviewer | A separate subagent, only when the brief calls for one | Checks a result against the brief and reports findings with evidence. Never fixes what it reviews |
 
+**UI work goes to Claude models only** (Aedwon, 2026-11-16). Pages, components, styling, layout, motion, prototypes, and wiring images into pages are built by Sonnet 5.5 subagents or the lead, never Codex. Codex is for image generation and non-UI work: data scripts, tests, import files, and plumbing.
+
 ## Budget
 
 Usage is limited. The lead follows "Usage limits" in `AGENTS.md`: at most two subagents at once, preferably one, sequential waves, and Aedwon's go-ahead before any larger fan-out.
