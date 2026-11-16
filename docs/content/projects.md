@@ -164,30 +164,34 @@ The owners also need the villas to stay easy to run. The bed, the settee, the ta
 - **Service:** Interior Design Direction
 - **Year:** 2026
 - **Scope:** Full unit design book, renders of living room and bedroom
+- **Duration:** 7 weeks to the design book. The owner then furnished the apartment in three stages over 12 months.
+- **As handed over:** An older unit, emptied. Gray-white painted walls, old hardwood parquet, worn and left as found, aluminum windows, one bare bulb in each room, and a narrow balcony facing east. The kitchen, the bath, and the bedroom closet are the building's.
 - **Brief:** A first-time owner wanted a clear plan to buy toward over a year, starting with a few good pieces.
-- **Approach:** The studio delivered a layout, a palette, and a phased sourcing list in three stages. The owner bought the sofa, a lamp, and a rug first. Later stages add the oat Unan Bed, Bakal Side Table, and ebonized Pasilyo. Natural mahogany, ebonized mahogany, and hinoki are mixed on purpose.
-- **Material palette:** Natural and ebonized plantation mahogany, clay and oat linen, cane, stoneware, hinoki
-- **Shop the project:** Silong Sofa (two-seat, clay), Kiso Stool, Luad Table Lamp, Lambot Wool Rug (170 × 240), Pasilyo Console Table (ebonized mahogany), Bato Object, Unan Bed (queen, oat), Bakal Side Table
-- **Image notes:** Mix renders and photographs. Show the design book pages, a moodboard, and a floor plan beside finished-room images. Plants and a small balcony garden.
+- **Approach:** The studio delivered a layout, a palette, and a sourcing list in three stages. The owner did the work herself. She painted one long wall gray-green and kept the old parquet as it was. Stage one was the wall, the clay Silong Sofa, a rug, and a lamp. Stage two added the oat Unan Bed, the Bakal Side Table, the ebonized Pasilyo, and the curtains. Stage three was the balcony garden, the dining table, and the bookcase, all found secondhand. Her books, her grandmother's cane chair, and the prints she framed do the rest. The photographs show the apartment a year on. Nothing was built.
+- **Material palette:** Old hardwood parquet, one gray-green painted wall, clay and oat linen, oat wool, ebonized plantation mahogany, cane, hinoki, blackened steel, clay pots
+- **Shop the project:** Silong Sofa (two-seat, clay), Lambot Wool Rug (170 × 240), Pasilyo Console Table (ebonized mahogany), Unan Bed (queen, oat), Bakal Side Table, Kiso Stool, Tabing Linen Curtain (oat), Amihan No. 3, Bato Object
+- **Image notes:** A narrow living room in an older apartment on a gray afternoon, a year after the owner moved in. One long wall painted gray-green, a clay two-seat sofa, an oat rug on worn parquet, an inherited cane chair, books in stacks, and two lamps lit. Shown beside the studio's render, the design book, a moodboard, and the floor plan. A small balcony garden of herbs.
 
 ### Gallery captions
 
-1. Living room, render. The planned room with the Silong Sofa (two-seat, clay) and the Lambot Wool Rug.
-2. Living room, photograph. The first three pieces in place: sofa, lamp, and rug.
-3. Bedroom, render. The planned queen Unan Bed in oat linen and a Bakal Side Table in warm light.
-4. Design book. The cover and contents page.
-5. Design book. A page with the layout and room-by-room specifications.
-6. Moodboard. Natural and ebonized mahogany, clay and oat linen, cane, stoneware, and hinoki.
-7. Floor plan. The 74 sqm unit, with furniture placed.
-8. Sourcing list. The three stages, with pieces and prices.
-9. Entry, photograph. The ebonized mahogany Pasilyo Console Table and a Bato Object.
-10. Balcony, photograph. Plants and a Kiso Stool in the small garden.
+1. Living room, photograph. A year on, on a gray afternoon. The wall the owner painted, the Silong Sofa (two-seat, clay), the Lambot Wool Rug, the Pasilyo Console Table, and her grandmother's cane chair.
+2. Living room, render. The same room as the studio drew it, before anything was bought.
+3. Design book. The living room page and the plan, on the owner's dining table.
+4. Moodboard. Clay and oat linen, cane, ebonized mahogany, hinoki, the wall paint, and a block of the old parquet.
+5. Floor plan. The 74 sqm unit, with furniture placed.
+6. Dining end. The table she also works at, four found chairs she painted black, and her books. A print by Ines Dalisay on the painted wall.
+7. Entry. A Kiso Stool, a tray for shoes, and a rail of pegs.
+8. Kitchen. The building's kitchen, in use. Basil and pandan from the balcony.
+9. Bedroom. At night, with the Unan Bed in oat linen, the Bakal Side Table, and a Kiso Stool as the second bedside.
+10. Bath. The building's bath, with a cutting from the balcony on the window ledge.
+11. Balcony. A plank bench of herbs, lemongrass and pandan at the end wall, and a Kiso Stool.
+12. Balcony. Basil, chili, and mint in the morning sun.
 
 ### Approach, expanded
 
-The owner was buying a first home and had a budget to spread over a year. We designed the whole unit at once, so every later purchase fits the plan. The design book holds the layout, the palette, and a specification for each room.
+The owner was buying a first home and had a budget to spread over a year. We designed the whole unit at once, so every later purchase fits the plan. The design book holds the layout, the palette, renders of the living room and the bedroom, and a specification for each room. She did the work herself.
 
-The sourcing list has three stages. Stage one is the sofa, a lamp, and a rug, which make the living room usable at once. Stage two adds the oat Unan Bed and Bakal Side Table; stage three adds the ebonized Pasilyo entry console and the balcony pieces. Natural mahogany, ebonized mahogany, and pale hinoki are mixed on purpose. The owner buys when ready, and nothing needs replacing along the way.
+The sourcing list has three stages. Stage one is the long wall, which she painted in a weekend, and the sofa, a rug, and a lamp, which make the living room usable at once. Stage two adds the oat Unan Bed, the Bakal Side Table, the ebonized Pasilyo console, and the curtains. Stage three is the balcony garden and the pieces she found secondhand: a dining table she scrubbed and oiled, four chairs she painted black, and a bookcase. The old parquet stays as it was, and so do the building's kitchen, bath, and closet. Her books and her grandmother's cane chair were always part of the plan. She bought when ready, and nothing needed replacing along the way.
 
 ## Use on the site
 
